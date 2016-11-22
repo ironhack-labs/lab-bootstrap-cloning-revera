@@ -11,9 +11,9 @@ As we can see, this template is a very good example of the type of webpages we c
 
 ## Iteration 1: General layout
 
-Focus on the general layout. What we mean by general? Most of you are thinking about the header, how to create the menu, whether you should use 2 columns for a link or maybe 3... Don´t worry, this is a common mistake at the beginning. However, as we will see, the best way to face it is to look at the big “boxes” first and don't lose ourselves on the details.
+Focus on the general layout. What we mean by general? Most of you are thinking about the header, how to create the menu, whether you should use 2 columns for a link or maybe 3... Don't worry, this is a common mistake at the beginning. However, as we will see, the best way to face it is to look at the big “boxes” first and don't lose ourselves on the details.
 
-So we have to see the page as a big container and identify the most important sections. Here you have and example:
+So we have to see the page as a big container and identify the most important sections. Here you have an example:
 
 ![general layout](https://i.imgur.com/IIAG0g0.jpg)
 
