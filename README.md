@@ -1,13 +1,35 @@
+![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+
 # Cloning with Bootstrap
 
 Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
 
 http://demo.fabthemes.com/revera/
 
-![](https://i.imgur.com/3y7yay8.png)
-
+![Revera Picture](https://i.imgur.com/3y7yay8.png)
 
 As we can see, this template is a very good example of the type of webpages we can see on the Internet. With Bootstrap, we are able, in barely a few hours, to copy the appearance of this template.
+
+## Requirements
+
+- [Fork this repo](https://guides.github.com/activities/forking/)
+- Clone this repo into your `~/code/labs`
+
+## Submission
+
+Upon completion, run the following commands
+```
+$ git add .
+$ git commit -m "done"
+$ git push origin master
+```
+Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+
+In the Pull request name, add your name and last names separated by a dash "-"
+
+## Deliverables
+
+Your page should look like the original one as much as possible. You should push every resource needed to make it work properly. Please, organize your code and your files carefully.
 
 ## Iteration 1: General layout
 
