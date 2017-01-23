@@ -1,0 +1,132 @@
+.container-fluid{
+  border: 1px
+}
+.row{
+padding-bottom: 1%;
+}
+.page.title{
+  float: left;
+  color: #000;
+  font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar{
+  float:right;
+  margin-right: 30%;
+  margin-top: -4.5%;
+  border:none;
+  background-color: inherit;
+}
+.site-header{
+  border-style: solid;
+  border-color: green;
+  background-color: white;
+}
+.reset{
+  clear: both;
+}
+.nav-icons{
+  padding-left: 3%;
+  background-color: #ED564B;
+  color:white;
+  border-top:  5px solid #f96b61;
+  margin-top: 0%;
+  padding-top: 3%;
+  border-bottom:  5px solid #f96b61;
+
+}
+.circle{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.slider{
+  border-style: solid;
+  border-color: green;
+  background-color: black;
+  max-height: 550px;
+  padding-bottom: 20%;
+
+}
+.col-lg-4{
+  text-align: center;
+}
+.articles-defined{
+  background-color: white;
+    border-bottom:  5px solid #f96b61;
+}
+
+.thumbnail img{
+  height: 180px;
+  width: 270px;
+}
+.thumbnail{
+  border:none;
+}
+.heading{
+  margin-left: 2%;
+}
+.heading h2{
+font-size: 24px;
+font-weight: bold;
+line-height: 26,4px;
+text-transform: uppercase;
+word-spacing: 0px;
+color:black;
+}
+.lead {
+  font-size: 14px;
+  color:#AAAAAA
+  font-family: "Oxigen",sans-serif;
+  font-weight: bold;
+  line-height: 22,4px;
+  text-transform: uppercase;
+}
+.caption{
+  text-align: center;
+}
+.col-md-4{
+  margin-right: -100px;
+  margin-left: 0;
+}
+
+.footer,.col-xs-6{
+  background-color: #3b3b3b;
+  color:#606060;
+}
+.col-md-3 h5{
+  margin-top: 17%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17,6px;
+  color:white;
+  padding-bottom: 15px;
+}
+
+.col-md-3 p{
+  color:white;
+  padding-bottom: 15px;
+}
+.col-md-3 a{
+  color:white;
+  border-bottom: 1px dotted grey;
+}
+
+.legal{
+    background-color: #292929;
+    margin-left: -1%;
+    margin-bottom: 0%;
+    padding-right:20px ;
+    padding-left:2% ;
+
+}
+
+.articles-defined{
+  float: left;
+}
