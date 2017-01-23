@@ -7,7 +7,7 @@
   <link href='css/reset.css' type="text/css" rel='stylesheet'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
   <link href="css/main.css" type="text/css" rel="stylesheet">
   <title>Document</title>
 </head>
@@ -18,7 +18,15 @@
         <h1>REVERA</h1>
       </div>
       <div class="col-sm-8 mainmenu">
-        <ul>
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">About</a></li>
+          <li role="presentation"><a href="#">Sample Page</a></li>
+          <li role="presentation"><a href="#">Portfolio</a></li>
+          <li role="presentation"><a href="#">Blog</a></li>
+          <li role="presentation"><a href="#">Parent Page</a></li>
+          <li role="presentation"><a href="#">Contact</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -26,31 +34,56 @@
     <div class="row">
       <div class="col-sm-12">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  <!-- Indicators
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
-
+-->
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="http://lorempixel.com/1400/650/sports/1" alt="slide1">
       <div class="carousel-caption">
-        <!-- ... -->
+        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+          porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum
+          imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at
+          erat luctus; hendrerit sapien sed, consectetur erat. Maecenas
+          dignissim suscipit orci at molestie. Aenean fringilla dolor vitae
+          lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris
+          tortor, pharetra […]
+        </p>
+        <button type="button" class="btn btn-outline-secondary slide-button">Secondary</button>
       </div>
     </div>
     <div class="item">
       <img src="http://lorempixel.com/1400/650/sports/2" alt="slide2">
       <div class="carousel-caption">
-        <!-- ... -->
+        <h2>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
+        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor
+          ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus
+          interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna
+          ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam
+          erat volutpat. Phasellus fringilla feugiat libero nec volutpat.
+          Maecenas fermentum bibendum […]
+        </p>
+        <button type="button" class="btn btn-outline-secondary slide-button">Secondary</button>
       </div>
     </div>
     <div class="item">
       <img src="http://lorempixel.com/1400/650/sports/3" alt="slide3">
       <div class="carousel-caption">
-        <!-- ... -->
+        <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat
+          suscipit pharetra, lorem est viverra odio; tristique tristique diam
+          tellus id tellus. In consectetur aliquet tristique. Curabitur
+          imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris
+          vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc
+          magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+        </p>
+        <button type="button" class="btn btn-outline-secondary slide-button">Secondary</button>
       </div>
     </div>
     <!-- ... -->
@@ -69,13 +102,31 @@
       </div>
     </div>
   </div>
-  <div id="features-container" class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"></div>
-    </div>
-  </div>
+  <div class="site-widgets">
+       <div class="row">
+           <div class="col-sm-4 widget">
+               <span><i class="glyphicon glyphicon-glass"></i></span>
+               <h3>Web design</h3>
+               <p>Cum sociis natoque penatibus et magnis dis parturient montes,
+               nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
+               Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+           </div>
+           <div class="col-sm-4 widget">
+               <span><i class="glyphicon glyphicon-star"></i></span>
+               <h3>Web development</h3>
+               <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+               Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+               ut pulvinar purus elementum nspendisse at erat luctus.</p>
+           </div>
+           <div class="col-sm-4 widget">
+               <span><i class="glyphicon glyphicon-heart"></i></span>
+               <h3>User interface</h3>
+               <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim,
+               eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
+               Praesent non enim et magna congue gravida.</p>
+           </div>
+       </div>
+   </div>
   <div id="latest-projects-container" class="container-fluid">
     <div class="row">
       <div class="col-sm-12"></div>

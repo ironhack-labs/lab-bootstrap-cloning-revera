@@ -5,18 +5,20 @@
   text-align: center;
 }
 
-#navbar-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 #carousel-container {
   background: #000;
 }
 
+.slide-button {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 #features-container {
   background: #ed564b;
+}
+
+.glyphicons {
+  color: white;
 }
 
 #latest-projects-container {
