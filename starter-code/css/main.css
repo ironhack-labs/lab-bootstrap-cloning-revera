@@ -1,0 +1,30 @@
+.container-fluid {
+  height: 100px;
+}
+
+#header {
+}
+
+#carousel-container {
+  background: #000;
+}
+
+#features-container {
+  background: #ed564b;
+}
+
+#latest-projects-container {
+
+}
+
+#bottom-nav-container {
+  background: #3b3b3b;
+}
+
+#footer {
+  background: #292929;
+}
+
+.row {
+  height:
+}
