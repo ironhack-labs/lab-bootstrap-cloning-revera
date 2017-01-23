@@ -1,0 +1,56 @@
+.nav-custom{
+  background-color: white;
+  border-color: white;
+}
+
+.back-red{
+  background-color: #ED564B;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.caption-custom{
+  padding-bottom: 5%;
+}
+
+.container-custom {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.img-custom{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.marg-custom{
+  margin-top: 30px;
+}
+
+.back-black {
+background-color: #3B3B3B;
+color: gray;
+font-size: 10px;
+padding-top: 2%;
+}
+
+.menu-custom {
+  font-size: 11px;
+  color: gray;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 750px) {
+  .hidden-custom{
+    display:none;
+  }
+  .custom-h2{
+    font-size: 15px;
+  }
+}
