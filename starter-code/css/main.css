@@ -15,14 +15,61 @@
 
 #features-container {
   background: #ed564b;
+  text-align: center;
+  padding-top: 30px;
 }
 
-.glyphicons {
+#features-container h3, p{
   color: white;
 }
 
-#latest-projects-container {
+#features-container .glyphicon {
+  color: white;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
 
+#latest-container {
+
+}
+
+#latest-projects-head {
+  border-bottom: 2px solid grey;
+}
+
+#latest-projects-body {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#latest-projects-body p {
+  color: black;
+  padding-top: 10px;
+}
+
+.project-image {
+  display: block;
+  max-width: 100%;
+}
+
+#latest-articles-head {
+  border-bottom: 2px solid grey;
+}
+
+#latest-articles-body {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#latest-articles-body p {
+  color: black
+
+}
+
+.article-image {
+  display: block;
+  max-width: 100%;
 }
 
 #bottom-nav-container {
