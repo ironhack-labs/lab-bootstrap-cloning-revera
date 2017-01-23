@@ -1,0 +1,62 @@
+.container-fluid{
+  border: 1px
+}
+.row{
+padding-bottom: 20%;
+}
+.site-header{
+  border-style: solid;
+  border-color: green;
+  background-color: white;
+  max-height: 90px;
+  padding-bottom: 20%;
+
+}
+.site-header nav{
+  float: left;
+}
+.slider{
+  border-style: solid;
+  border-color: green;
+  background-color: black;
+  max-height: 550px;
+  padding-bottom: 20%;
+
+}
+.nav-icons{
+  border-style: solid;
+  border-color: green;
+  background-color: red;
+  max-height: 314px;
+  padding-bottom: 30%;
+
+}
+.articles-defined{
+  border-style: solid;
+  border-color: green;
+  background-color: white;
+  max-height:1121px;
+
+}
+.footer-nav{
+  border-style: solid;
+  border-color: green;
+  background-color: gray;
+  max-height: 351px;
+
+}
+.footer-nav li{
+  float:left;
+}
+
+.legal{
+    border-style: solid;
+    border-color: green;
+    background-color: Black;
+    max-height: 78px;
+
+}
+
+.articles-defined{
+  float: left;
+}
