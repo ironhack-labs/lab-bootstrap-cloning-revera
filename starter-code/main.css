@@ -1,0 +1,130 @@
+h1{
+  text-align: center;
+  margin-top:20px;
+  font-weight: bold;
+
+}
+.nav{
+  margin-top:20px;
+}
+
+br{
+  color: grey;
+}
+
+h2{
+  font-size: 14;
+  font-weight: bold;
+}
+.projects{
+  font-weight: bold;
+  color: grey;
+}
+
+h3{
+  font-weight: bold;;
+}
+h5{
+  font-size: 16px;
+}
+
+a{
+  color: grey;
+}
+
+.my-btn{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5%;
+
+
+}
+
+.my-dir{
+  background-color: rgb(255,0,0);
+}
+
+.glyphicon-glass{
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+.glyphicon-heart{
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+.glyphicon-star{
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+.carousel img {
+ width: 100vw;
+ background-size: cover;
+ filter: grayscale(100%);
+}
+
+.margen-bot{
+  margin-bottom: 20px;
+}
+
+.red-box{
+  background-color: #FA5858;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 400px;
+  padding-bottom: 30px;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.date-p{
+  font-size: 10px;
+  font-weight: bold;
+  color: grey;
+}
+
+.thumbnail{
+  border: none;
+}
+
+.my-block{
+  width: 300px;
+  margin: 15px;
+}
+
+.orange-link{
+  color: #FF8000;
+}
+
+.footer{
+  background-color: #2E2E2E;
+  color: grey;
+}
+
+.footer h5{
+  color:white;
+  padding-bottom: 15px;
+}
+
+.footer{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-top: 5px solid #FA5858;
+}
+
+.footer br{
+  border-bottom: 1px dotted grey;
+  display: none;
+}
+
+.footer a{
+  border-bottom: 1px dotted grey;
+}
