@@ -1,0 +1,156 @@
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  top:10%;
+  width: 100vw;
+}
+.carousel img {
+  width: 100vw;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.doverlay {
+    background: url(http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #fff;
+}
+
+.navbar h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 30px;
+}
+
+.navbar a {
+  margin-top: 20px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.carousel-caption{
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: #fff;
+  text-shadow: none;
+}
+
+.carousel-control {
+  opacity: 100%;
+}
+
+.carousel .glyphicon {
+  border: none;
+  border-radius: 0;
+  background-color: #ed564b;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.container-topics {
+  float:left;
+  width: 100vw;
+  background-color: #ed564b;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.glyphicon {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+
+.container-seccion-1 {
+  float:left;
+  width: 100vw;
+  padding: 50px;
+}
+.thumbnail {
+  border: none;
+}
+
+.container-seccion-2 {
+  float:left;
+  width: 100vw;
+  padding: 50px;
+}
+
+.container-footer-1 {
+  float:left;
+  width: 100vw;
+  padding: 50px;
+  color: #fff;
+  background-color: #3b3b3b;
+  border-top: 4px solid #ed564b;
+}
+
+.container-footer-1 ul li {
+
+  height: 100%;
+  line-height: 25px;
+  clear: left;
+  list-style-type: none;
+  color: #aaa;
+}
+.container-footer-1 li {
+list-style-type: none;
+margin: 0;
+padding: 0px 0px;
+border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+footer {
+  float:left;
+  width: 100vw;
+  padding: 10px 0px 10px 50px;
+  line-height: 1.5em;
+  color: #fff;
+  background-color: #1f1e1e;
+}
