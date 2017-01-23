@@ -1,8 +1,14 @@
-.container-fluid {
-  height: 100px;
+#header {
 }
 
-#header {
+#header h1 {
+  text-align: center;
+}
+
+#navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #carousel-container {
