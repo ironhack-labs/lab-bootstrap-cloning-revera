@@ -1,0 +1,166 @@
+.header{
+  background-color: #FFF;
+  height: 90px;
+}
+
+.title{
+  color: #000000;
+  text-align: center;
+}
+
+.menu{
+  text-align: center;
+  height: 100%;
+}
+
+.color-primary, .menu > ul > li:hover, .vine-color{
+  color: #ED564B;
+}
+
+.vine-color:hover{
+  color: #000000;
+}
+
+.menu > ul{
+  display: inline-block;
+  vertical-align: middle;
+  list-style:none;
+  margin-top: 15px;
+}
+
+.menu > ul > li{
+  display: inline-block;
+  padding: 15px;
+}
+
+
+.slide{
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/overlay.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.carousel-indicators{
+  z-index: 200;
+}
+
+.carousel-control{
+  z-index: 300;
+  width: 4%
+}
+
+.carousel-control:hover {
+    opacity: none;
+  }
+
+.carousel-caption{
+  z-index: 400;
+}
+
+.carousel-caption > h3,.carousel-caption > p{
+  z-index: 500;
+}
+
+.photo-slide > img{
+  width: 100%;
+  filter: grayscale(100%);
+
+}
+
+.skills{
+  background-color: #ED564B;
+  border-top: 4px solid #F96B61;
+  border-bottom: 4px solid #F96B61;
+  padding:0 60px;
+}
+
+.skill-element{
+  text-align: center;
+  padding: 40px;
+}
+
+.icon-assets{
+  color: #FFF;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  padding: 20px;
+}
+
+.skill-title{
+  color: #FFF;
+  font-size: 2.5rem;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.skill-text{
+  color: #FFF;
+}
+
+.info-page{
+  background-color: #FFF;
+}
+
+.info-container{
+  padding: 50px 100px 0 100px;
+}
+
+.articles-titles{
+  text-align: left;
+}
+
+.articles-titles > h3{
+
+}
+
+.articles-titles > h6{
+  color: #B2B2B2;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #B2B2B2;
+  padding-bottom: 30px;
+}
+
+.article{
+  padding: 15px;
+}
+
+.article > img{
+  width: 100%;
+}
+
+.title-article{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.5rem;
+}
+
+.title-article2{
+  text-align: left;;
+  padding: 15px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.p-article{
+  padding-bottom: 30px;
+}
+
+.footer{
+  background-color: #3B3B3B;
+  border-top: 4px solid #ED564B;
+  height: 400px;
+}
+
+.legal{
+  background-color: #292929;
+  height: 60px;
+}
