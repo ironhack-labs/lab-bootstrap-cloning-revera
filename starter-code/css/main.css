@@ -1,0 +1,52 @@
+h1 {
+  color: red;
+}
+
+#logo {
+  color: black;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+.main-image {
+  margin-top: 16px;
+
+}
+
+.content-overview {
+  background-color: red;
+  height: 315px;
+  color: white;
+  text-align: center;
+
+}
+
+.overview-text {
+  margin-top: 65px;
+}
+
+.projects {
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+
+}
+
+.latest-projects {
+  height: 400px;
+
+}
+
+.lower-nav {
+  height: 400px;
+  border-top: orange solid 3px;
+  background: darkgrey;
+}
+
+.copyright {
+  height: 50px;
+  background-color: black;
+
+}
