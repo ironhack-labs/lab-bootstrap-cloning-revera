@@ -1,0 +1,170 @@
+.nav {
+  height: 90px;
+}
+
+h1 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+ul {
+  position:relative;
+  top: 30px;
+}
+li{
+  display: inline;
+  padding-left: 30px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:#777;
+}
+.slides {
+  height: 550px;
+  background-image: url(/home/manuel/prework/code/labs/semaine2/jour1/revera-clone/lab-bootstrap-cloning-revera/starter-code/revera/img/overlay.png);
+  background-repeat:repeat;
+  position: relative;
+  z-index:1;
+
+}
+
+
+.slide-image {
+    width: 100%;
+}
+.carousel-control{
+  height: 100px;
+  width: 50px;
+  background: #ed564b;
+  position: absolute;
+  z-index:13;
+  top:200px;
+
+
+}
+
+.values {
+
+  padding: 40px 0px;
+background: #ed564b;
+border-top: 5px solid #f96b61;
+border-bottom: 5px solid #f96b61;
+position: relative;
+z-index: 2;
+}
+
+.values .col-md-4 {
+      height: 214px;
+
+}
+.glyphicon {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top:15px;
+  left: 15px;
+
+}
+.circle {
+  background: #ed564b;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  border: solid white 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color:white;
+}
+
+.values p {
+  color: white;
+  text-align: center;
+}
+
+.content {
+
+  }
+
+.container .col-md-12 {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+
+
+h3 {
+  padding-top: 40px;
+  font-size: 24px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  color:#aaa;
+  padding-bottom: 20px;
+
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.col-md-3 {
+  margin-top: 30px;
+}
+
+.col-md-3 p {
+color:#aaa;
+}
+
+.bottom {
+  height: 351px;
+  padding: 20px 0px 40px 0px;
+background: #3b3b3b;
+border-top: 5px solid #ed564b;}
+
+
+
+h6 {
+  color: white;
+  font-size: 20px;
+}
+
+.bottom p {
+  color: #aaa;
+}
+.bottom ul {
+  position: relative;
+  top: -10px;
+}
+.bottom li {
+
+  text-align: left;
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px #aaa;
+  padding: 5px 5px 20px 2px;
+  color: #aaa;
+}
+
+.footer {
+  height: 78px;
+  background:black;
+}
+
+.project {
+  width: 270px;
+  height: 180px;
+  padding: 10px;
+}
