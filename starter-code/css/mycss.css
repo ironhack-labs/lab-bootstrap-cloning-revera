@@ -13,8 +13,12 @@
   height: 100%;
 }
 
-.color-primary, .menu > ul > li:hover{
+.color-primary, .menu > ul > li:hover, .vine-color{
   color: #ED564B;
+}
+
+.vine-color:hover{
+  color: #000000;
 }
 
 .menu > ul{
@@ -53,8 +57,16 @@
   width: 4%
 }
 
+.carousel-control:hover {
+    opacity: none;
+  }
+
 .carousel-caption{
   z-index: 400;
+}
+
+.carousel-caption > h3,.carousel-caption > p{
+  z-index: 500;
 }
 
 .photo-slide > img{
@@ -65,9 +77,9 @@
 
 .skills{
   background-color: #ED564B;
-  height: 320px;
   border-top: 4px solid #F96B61;
   border-bottom: 4px solid #F96B61;
+  padding:0 60px;
 }
 
 .skill-element{
@@ -96,7 +108,50 @@
 
 .info-page{
   background-color: #FFF;
-  height: 800px;
+}
+
+.info-container{
+  padding: 50px 100px 0 100px;
+}
+
+.articles-titles{
+  text-align: left;
+}
+
+.articles-titles > h3{
+
+}
+
+.articles-titles > h6{
+  color: #B2B2B2;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #B2B2B2;
+  padding-bottom: 30px;
+}
+
+.article{
+  padding: 15px;
+}
+
+.article > img{
+  width: 100%;
+}
+
+.title-article{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.5rem;
+}
+
+.title-article2{
+  text-align: left;;
+  padding: 15px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.p-article{
+  padding-bottom: 30px;
 }
 
 .footer{
