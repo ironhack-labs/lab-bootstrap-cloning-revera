@@ -59,12 +59,11 @@
 
 #latest-articles-body {
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 #latest-articles-body p {
   color: black
-
 }
 
 .article-image {
