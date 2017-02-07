@@ -1,0 +1,281 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0px;
+}
+
+/*Navigation*/
+.navbar-default {
+  background-color:white;
+  height: 90px;
+  margin-bottom: 0;
+ }
+
+.navbar-default a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  float: left;
+  padding: 19px 10px 19px 10px;
+  margin: 0;
+  color:#777;
+  position: relative;
+  margin-top: 10px;
+}
+
+.h1-site-title {
+  font-weight: 800;
+  float: left;
+  margin-right: 300px;
+  margin-left: -18px;
+}
+
+.navbar span {
+  color:  #f4473a;
+}
+
+.col-md-12 {
+
+}
+
+.col-sm-4 {
+
+}
+
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    max-height: 460px;
+    height: auto;
+    width: 100%;
+}
+
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+
+}
+
+.carousel-control.left span {
+  width: 50px;
+  height: 100px;
+  margin: auto;
+}
+
+.carousel-control.right span {
+  width: 50px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+  padding-top: 18%;
+
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+  padding-top: 18%;
+
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #f4473a;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	color: #f4473a;
+  background-color: #fff;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    margin-left: 17%;
+    margin-right: 17%;
+    color: #fff;
+}
+
+
+.header-text h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-align: center;
+
+}
+
+.header-text p {
+  font-size: 16px;
+  margin: 0 0px 10px;
+}
+
+.btn-theme {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    width: 140px;
+    border: 1px solid #fff;
+    margin: 15px auto;
+    font-weight: bold;
+    color: #fff!important;
+    border-radius: 0!important;
+
+}
+
+.overlay { //still have to add to html
+  background-image: url("img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+
+/* Orange Banner Section */
+
+.orange-row {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  height: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.orange-row .col-sm-4 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.orange-row .glyphicon {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.section-title h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.section-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+
+.previewPics {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.previewTitles {
+  line-height: 1.1;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.postDate {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #777;
+}
+
+.postDate span {
+  color: #f4473a;
+}
+
+.previewSum {
+  margin: 0 0 10px;
+  color: #606060;
+}
+
+.section-container {
+  margin: 30px;
+}
+
+/* Footer Section */
+
+.bottomContainer {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+.bottomContainer .row {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+.bottomTitles {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bottomP {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+}
+
+.bottomUL {
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 0px;
+  color: #aaa;
+
+}
+
+
+.bottomUL li {
+  margin-bottom: 15px;
+}
+
+footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+  color: #fff;
+  padding: 2%;
+}
