@@ -1,0 +1,39 @@
+.nav li{
+  padding: 32px 10px 0px 10px;
+  margin-left: 50px;
+  transition: color .2s ease;
+}
+
+.nav li:hover{
+  color: tomato;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+#background {
+  background-image: url('img/overlay.png');
+  z-index: 3;
+}
+
+.row1{
+  margin: 20px;
+}
+
+.col-sm-4 p, h3{
+  text-align: center;
+}
+
+.container1{
+  background-color: #ed564b;
+  width: 100% !important;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.icons{
+  font-size: 30px;
+  margin: 24px 5px;
+
+}
