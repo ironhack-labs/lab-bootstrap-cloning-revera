@@ -1,0 +1,58 @@
+.top-Bar {
+  display: inline;
+  font-size: 46px;
+
+}
+
+.banner {
+  height: 500px;
+  background-image: url("../img/slider.jpg");
+  filter: grayscale();
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo  {
+  /*margin-left: 100px;*/
+}
+.menu  {
+  word-spacing: 10px;
+margin-top: 20px;
+display: inline;
+text-align: center;
+}
+
+.longrow  {
+background-color: #ED564B;
+height: 200px;
+margin-top: 20px;
+}
+
+.theboxes {
+
+text-align: center;
+color: white;
+}
+
+.theCircle {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  background-color: #ED564B;
+  color: white
+}
