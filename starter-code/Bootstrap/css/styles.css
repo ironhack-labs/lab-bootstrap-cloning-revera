@@ -1,0 +1,19 @@
+.row1 {
+  border: 2px solid black;
+}
+
+.left-col {
+  border: 2px solid red;
+}
+
+.right-col {
+  border: 2px solid blue;
+}
+
+.col1{
+  border: 2px solid orange;
+}
+
+.col2{
+  border: 2px solid green;
+}
