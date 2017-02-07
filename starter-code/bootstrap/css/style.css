@@ -98,7 +98,8 @@ span {
 }
 
 .overlay-row > img {
-  opacity: 0.2;
+  opacity: 0.8;
+  filter: grayscale();
 }
 
 .read-more {
