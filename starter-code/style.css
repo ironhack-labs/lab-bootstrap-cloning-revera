@@ -1,0 +1,258 @@
+
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////HEADER NAV \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+header{
+  background-color: white;
+}
+.site-branding{
+  font-size: 45px;
+  padding: 15px 20px;s
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(237, 86, 75);
+
+}
+.menu-item{
+  display: inline;
+}
+.topmenu{
+  font-size: 20px;
+  height: 100px;
+  padding: 33px 0px;
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----SLIDER---- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+.sliderdivpic{
+  height: auto;
+  width: auto;
+  border: 1px solid blue;
+  position: static;
+}
+/*convert all the pic to grey*/
+.slider{
+  margin: 0px;
+  filter: grayscale(100%);
+  position: relative;
+  padding: 0px !important;
+
+}
+.textinslider{
+  position: absolute;
+  color: white;
+  top: 300px;
+}
+/*===============*/
+.leftbutton{
+  position:sticky;
+  border: none;
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 0, 0, 0);
+  float: left;
+  padding: 0px !important;
+}
+.orangeleftarrow{
+
+}
+.orangeleftarrow:hover +  .whitelefftarrow{
+  display: inline;
+
+}
+.whitelefftarrow{
+position: absolute;
+left: -4px;
+ display: none;
+}
+/*===============*/
+.rightbutton{
+  position:sticky;
+  border: none;
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 0, 0, 0);
+  float: right;
+}
+  .orangerightarrow:hover +  .whiterightarrow{
+    display: inline;
+
+  }
+
+.whiterightarrow{
+  display: none;
+  position: absolute;
+  right: 16px;
+}
+/*===============*/
+.slidertext{
+  text-align: center;
+  padding: 0px 170px;
+  margin: 0px 0px;
+}
+.headerforslider{
+text-transform: uppercase;
+font-size: 35px;
+}
+.pforslider{
+  font-size: 17px;
+
+}
+.frmore {
+  color: white;
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: rgba(255, 0, 0, 0);
+
+}
+
+
+
+
+
+.slide1{
+
+}
+
+.slide2{
+  display: none;
+}
+.slide3{
+  display: none;
+
+}
+.slide4{
+  display: none;
+
+}
+
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----Below the slider---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+ .offer{
+  position: relative;
+  height: 300px;
+  background-color: #ed564b;
+  text-align: center;
+  padding: 40px 40px;
+}
+.heart, .star, .glass{
+  padding: 16px;
+  border-radius: 30px;
+  border: 4px solid white;
+  font-size: 20px;
+  color: white;
+}
+.headeroffer{
+  color: white;
+
+}
+.textwithlogo{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----Latest PROJECTS AND ARTICLES---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+.headerforlatestprojects{
+margin: 45px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+.subtextforlatestprojects{
+  margin: 0px 45px;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  font-size: 13px;
+
+}
+hr{
+border: 1px solid #dfdfdf;;
+height: 1px;
+margin: 15px 28px;
+}
+
+.projects{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.posted{
+  font-weight:600;
+  margin-bottom: 20px;
+
+}
+.articlespicomment{
+  font-weight:600;
+margin-bottom: 20px;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+.article{
+  padding-bottom: 45px;
+}
+.tofooter{
+  border: 1px solid #ed564b;
+  height: 1px;
+  margin: 0px;
+  padding: 0px;
+
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----FOOTER---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+footer{
+  background-color: #3b3b3b;
+
+}
+p, .navfooterancher{
+  color: #a2a2a2;
+  font-size: 100%
+}
+h4{
+  color: white;
+}
+.navfooterancher:hover{
+  font-weight: 600;
+  color: white;
+
+}
+
+.line{
+  border: 1px dotted #626262;
+
+  margin: 5px 0px;
+}
+
+.takingpaddingoff{
+  padding: 0px;
+}
+.copiright{
+  background-color: black;
+  color: white;
+  padding: 25px;
+}
+.copiright a {
+  color: white
+}
