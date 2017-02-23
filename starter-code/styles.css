@@ -1,0 +1,259 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oxygen',sans-serif;
+  margin: 0;  //is there need for this since we did reset //
+  background-color: #fff;
+}
+
+.site-title{
+  font-weight: 800;
+  margin-top: 7%;
+  margin-left: 7%;
+  text-decoration: none;
+}
+.site-title a{
+  color: #000;
+}
+.site-title a:hover {
+  text-decoration: none;
+}
+ul>li a:hover{
+  list-style: none;
+  text-decoration: none;
+  color: red;
+}
+.top-menu {
+    padding: 20px 0px;
+    margin-top: 2%;
+    /*margin: 15px 0px;*/
+    height: 10%;
+    float: left;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+  }
+
+  .top-menu li>a {
+    color: #808080;
+  }
+
+  .top-menu li ul{
+      display: none;
+      position: absolute;
+      top:70%;
+      left: 0;
+      width: 100px;
+  }
+.underline a{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid #808080;
+}
+#not-underline a{
+  border: none;
+  margin-top: -7px;
+}
+/*.dropdown-menu{
+  border: 5px;
+}*/
+.top-menu li:hover ul{
+      display: block;
+      background-color: white;
+  }
+
+.top-menu li ul li>a:hover{
+      background: #ffffff;
+      color: red;
+  }
+
+.overlay{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 97.5%;
+    background: url('./img/overlay.png');
+  }
+
+#black-white {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  width: 100%;
+}
+
+.caption{
+  width: 756px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  text-align: center;
+  color: #fff;
+}
+.caption h2 {
+    font-size: 36px;
+}
+.caption p {
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.read-more{
+  background: rgba(255, 255, 255, 0.2);
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin-left: 40%;
+  margin-top: 5%;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+}
+
+.read-more:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.start{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mid-section{
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+.mid-box{
+  color: #fff;
+  text-align: center;
+}
+.mid-box p{
+  margin-left: 17%;
+  margin-right: 17%;
+  font-size: 14px;
+  line-height: 22px;
+  /*text-align: center;*/
+}
+.mid-section h3 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.glyphicon-ring {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+.glyphicon-bordered {
+  font-size: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.section-title{
+  padding-bottom: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.section-title p{
+  border-bottom: 1px solid grey;
+}
+.thum-description {
+  text-align: center;
+}
+.thum-description h3>a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+.thum-img {
+border: 0;
+}
+.mid-section-2{
+  padding: 1% 0;
+  display: block;
+  max-width: inherit;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.thum-description-bold h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.posted {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.updated{
+  display: none;
+}
+.red a{
+  color: red;
+  text-decoration: none;
+  display: inline;
+}
+.just{
+    text-align: justify;
+}
+#home{
+  color: red;
+}
+.bottom-box{
+  background-color: #696969;
+  text-align: left;
+  color:#ffffff;
+}
+.bottom-box h4{
+  text-transform: uppercase;
+  /*margin-top: 25px;*/
+  /*margin-left: 30px;*/
+}
+.bottom-box p{
+  color: #C0C0C0;
+  line-height: 22px;
+  font-size: 14px;
+  /*margin-top: 10%;*/
+  /*margin-left: 10%;*/
+}
+
+
+
+
+div > a{
+  text-decoration: none;
+  color:#C0C0C0;
+}
+div > a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom-links{
+  border-bottom: 1px dotted #808080;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+.grey{
+  background-color: grey;
+  margin-top: 30px;
+}
