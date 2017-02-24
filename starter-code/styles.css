@@ -210,6 +210,9 @@ border: 0;
   text-decoration: none;
   display: inline;
 }
+.red a:hover{
+  color: #000;
+}
 .just{
     text-align: justify;
 }
@@ -220,22 +223,23 @@ border: 0;
   background-color: #696969;
   text-align: left;
   color:#ffffff;
+  padding: 5%;
 }
 .bottom-box h4{
   text-transform: uppercase;
-  /*margin-top: 25px;*/
-  /*margin-left: 30px;*/
 }
 .bottom-box p{
   color: #C0C0C0;
   line-height: 22px;
   font-size: 14px;
-  /*margin-top: 10%;*/
-  /*margin-left: 10%;*/
+
 }
 
+/*this line is nick's try*/
+/*.dropdown-menu{
+  border: none !important;
 
-
+}*/
 
 div > a{
   text-decoration: none;
@@ -251,9 +255,47 @@ div > a:hover{
   padding-bottom: 5px;
 }
 
+.w{
+  width: 100%;
+}
 
+.direction{
+  margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-.grey{
-  background-color: grey;
-  margin-top: 30px;
+.prev{
+    width: 50px;
+    height: 100px;
+    display: block;
+    background: url(img/left-red.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.prev:hover{
+  background: url(img/left-white.png) no-repeat 0 0;
+}
+
+.next {
+  width: 50px;
+  height: 100px;
+  margin-right: 15px;
+  right: 0;
+  background: url(img/right-red.png) no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  }
+  .next:hover{
+    background: url(img/right-white.png) no-repeat 0 0;
+  }
+.foot{
+  background-color: #000000;
+  color: #fff;
+  font-size: 12px;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
