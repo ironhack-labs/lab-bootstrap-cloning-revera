@@ -47,20 +47,11 @@ a:hover{
 /////////////////----SLIDER---- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 =============-===============-=============-================
 =============-===============-=============-================ */
-.middle{
-position: relative;
-top: 300px;
-}
-.target{
-position: relative;
-  border: 2px solid blue;
-  left: -600px;
-}
-
 .sliderdivpic{
-height: auto;
-width: auto;
-position: absolute;
+  height: auto;
+  width: auto;
+  border: 1px solid blue;
+  position: static;
 }
 /*convert all the pic to grey*/
 .slider{
@@ -70,21 +61,22 @@ position: absolute;
   padding: 0px !important;
 
 }
-
 .textinslider{
-  position: relative;
+  position: absolute;
   color: white;
-
+  top: 300px;
 }
 /*===============*/
-
-
-.orangeleftarrow{
-  position: absolute;
-
+.leftbutton{
+  position:sticky;
+  border: none;
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 0, 0, 0);
+  float: left;
+  padding: 0px !important;
 }
-.orangerightarrow{
-position: absolute;
+.orangeleftarrow{
 
 }
 .orangeleftarrow:hover +  .whitelefftarrow{
@@ -92,15 +84,18 @@ position: absolute;
 
 }
 .whitelefftarrow{
-  display: none;
-  position: absolute;
-
+position: absolute;
+left: -4px;
+ display: none;
 }
 /*===============*/
-.rightbutton, .leftbutton{
-top: -80px;
-
-
+.rightbutton{
+  position:sticky;
+  border: none;
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 0, 0, 0);
+  float: right;
 }
   .orangerightarrow:hover +  .whiterightarrow{
     display: inline;
@@ -108,24 +103,19 @@ top: -80px;
   }
 
 .whiterightarrow{
-display: none;
-position: absolute;
-
+  display: none;
+  position: absolute;
+  right: 16px;
 }
 /*===============*/
-.nopadding{
-  padding: 0px;
-}
 .slidertext{
-  position: absolute;
   text-align: center;
-  top:150px;
+  padding: 0px 170px;
+  margin: 0px 0px;
 }
-
 .headerforslider{
 text-transform: uppercase;
-color: white;
-
+font-size: 35px;
 }
 .pforslider{
   font-size: 17px;
@@ -139,34 +129,22 @@ color: white;
 
 }
 
-.slide1t{
-display: block;
-
-}
-
-.slide2t{
-  display: none;
-}
-.slide3t{
-  display: none;
-}
-.slide4t{
-  display: none;
-}
 .slide1{
-  padding: 0px;
-
+display:inline-block;
 }
 
 .slide2{
-  padding: 0px;
+  display:none;
 }
 .slide3{
-  padding: 0px;
+  display: none;
+
 }
 .slide4{
-padding: 0px;
+  display: none;
+
 }
+
 /*=============-===============-=============-================
 =============-===============-=============-================
 /////////////////----Below the slider---- \\\\\\\\\\\\\\\\\\\\\
