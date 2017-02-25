@@ -1,0 +1,347 @@
+
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////HEADER NAV \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+header{
+  background-color: white;
+}
+.site-branding{
+  font-size: 45px;
+  padding: 15px 20px;s
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(237, 86, 75);
+
+}
+.menu-item{
+  display: inline;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.topmenu{
+  font-size: 20px;
+  height: 100px;
+  padding: 33px 0px;
+}
+.topmenu ul > li{
+  padding: 0px 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu-item select{
+  color: rgb(237, 86, 75);
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----SLIDER---- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+.middle{
+position: relative;
+top: 300px;
+}
+.target{
+position: relative;
+  border: 2px solid blue;
+  left: -600px;
+}
+
+.sliderdivpic{
+height: auto;
+width: auto;
+position: absolute;
+}
+/*convert all the pic to grey*/
+.slider{
+  margin: 0px;
+  filter: grayscale(100%);
+  position: relative;
+  padding: 0px !important;
+
+}
+
+.textinslider{
+  position: relative;
+  color: white;
+
+}
+/*===============*/
+
+
+.orangeleftarrow{
+  position: absolute;
+
+}
+.orangerightarrow{
+position: absolute;
+
+}
+.orangeleftarrow:hover +  .whitelefftarrow{
+  display: inline;
+
+}
+.whitelefftarrow{
+  display: none;
+  position: absolute;
+
+}
+/*===============*/
+.rightbutton, .leftbutton{
+top: -80px;
+
+
+}
+  .orangerightarrow:hover +  .whiterightarrow{
+    display: inline;
+
+  }
+
+.whiterightarrow{
+display: none;
+position: absolute;
+
+}
+/*===============*/
+.nopadding{
+  padding: 0px;
+}
+.slidertext{
+  position: absolute;
+  text-align: center;
+  top:150px;
+}
+
+.headerforslider{
+text-transform: uppercase;
+color: white;
+
+}
+.pforslider{
+  font-size: 17px;
+
+}
+.frmore {
+  color: white;
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: rgba(255, 0, 0, 0);
+
+}
+
+.slide1t{
+display: block;
+
+}
+
+.slide2t{
+  display: none;
+}
+.slide3t{
+  display: none;
+}
+.slide4t{
+  display: none;
+}
+.slide1{
+  padding: 0px;
+
+}
+
+.slide2{
+  padding: 0px;
+}
+.slide3{
+  padding: 0px;
+}
+.slide4{
+padding: 0px;
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----Below the slider---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+ .offer{
+  position: relative;
+  height: 300px;
+  background-color: #ed564b;
+  text-align: center;
+  padding: 40px 40px;
+}
+.heart, .star, .glass{
+  padding: 16px;
+  border-radius: 30px;
+  border: 4px solid white;
+  font-size: 20px;
+  color: white;
+}
+.headeroffer{
+  color: white;
+
+}
+.textwithlogo{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+
+}
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----Latest PROJECTS AND ARTICLES---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+.headerforlatestprojects{
+margin: 45px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+.subtextforlatestprojects{
+  margin: 0px 45px;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  font-size: 13px;
+
+}
+hr{
+border: 1px solid #dfdfdf;;
+height: 1px;
+margin: 15px 28px;
+}
+
+.projects{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.posted {
+  font-weight:600;
+  font-size: 15px !important;
+
+
+}
+.articlespicsomment{
+  font-weight:600;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+.article{
+  padding-bottom: 50px !important;
+}
+.space {
+  font-weight:600;
+  font-size: 15px !important;
+}
+.space a {
+  font-weight:600;
+  font-size: 15px !important;
+  color: #ed564b;
+}
+.tofooter{
+  border: 1px solid #ed564b;
+  height: 1px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.articlesparagraph{
+  color: black;
+}
+
+/*=============-===============-=============-================
+=============-===============-=============-================
+/////////////////----FOOTER---- \\\\\\\\\\\\\\\\\\\\\
+=============-===============-=============-================
+=============-===============-=============-================ */
+footer{
+  background-color: #3b3b3b;
+
+}
+p, .navfooterancher{
+  color: white;
+  font-size: 100%
+}
+h4{
+  color: white;
+}
+.navfooterancher:hover{
+  font-weight: 600;
+  color: white;
+
+}
+
+.line{
+  border: 1px dotted #626262;
+
+  margin: 5px 0px;
+}
+
+.takingpaddingoff{
+  padding: 0px;
+}
+.copiright{
+  background-color: black;
+  color: white;
+  padding: 25px;
+}
+.copiright a {
+  color: white
+}
+/*=======================================================*/
+* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
