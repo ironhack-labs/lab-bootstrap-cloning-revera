@@ -23,3 +23,71 @@
 .container {
     margin-bottom: 0;
 }
+
+.item img{
+  width:100%;
+  height:100%;
+}
+
+.fa {
+    font-size: 1em;
+    padding: 10px;
+}
+
+i
+{
+  display: inline-block;
+  border-radius: 60px;
+  border: 2px solid white;
+}
+
+.navbar {
+    background: transparent;
+    border: none;   
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: black;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.carousel-inner h3 {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .carousel-inner h3 {
+        display: block;
+    }
+}
+
+.red-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #ed564b;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.footer-darkgrey {
+    background: black;
+    color: white;
+}
+
+.footer2-grey {
+    background: grey;
+    color: silver
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid silver;
+    margin: 1em 0;
+    padding: 0; 
+}
