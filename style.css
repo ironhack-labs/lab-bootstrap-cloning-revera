@@ -1,9 +1,25 @@
-@media (min-width: 768px){
-    .navbar-nav{
-        float:none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
+.thumbnail {
+    border: none;
+    background: transparent;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.small-text {
+    font-size: 0.8em;
+    color: silver;
+    text-transform: uppercase;
+
+}
+
+#icons-section {
+    background:#ed564b;
+    color: white;
+    padding: 10px;
+}
+.container {
+    margin-bottom: 0;
+}
