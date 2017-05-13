@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Revera</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                  <h1 class="logo">REVERA</h1>
+                </div>
+                <div class="col-sm-9">
+
+                  <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+
+            <select class="menu-responsive">
+              <option value="undefined">Select a page</option>
+              <option value="index.html">Home</option>
+              <option value="about.html">About</option>
+              <option value="sample.html">Sample page</option>
+              <option value="portfolio.html">Portfolio</option>
+              <option value="blog.html">Blog</option>
+              <optgroup label="Parent page »">
+                <option value="parent.html">Main</option>
+                <option value="full.html">Full page</option>
+                <option value="child.html">Child page 1</option>
+                <option value="child2.html">Child page 2</option>
+              </optgroup><option value="contact.html">Contact</option>
+            </select>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse fullmenu">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="sample.html">Sample page</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parent page >></a>
+                <ul class="dropdown-menu">
+                  <li><a href="full.html">Full page</a></li>
+                  <li><a href="child.html">Child page 1</a></li>
+                  <li><a href="child2.html">Child page 2</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+  <div class="item active">
+    <div class="overlay"></div>
+    <img src="img/slider.jpg" alt="Los Angeles">
+    <div class="carousel-caption">
+      <h2>Falauris sollicitudin quis dolor venenatis facilisis</h2>
+      <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+      <a class="btn btn-white" href="">Read more</a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="overlay"></div>
+    <img src="img/slider.jpg" alt="Chicago">
+    <div class="carousel-caption">
+      <h2>Falauris sollicitudin quis dolor venenatis facilisis</h2>
+      <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+      <a class="btn btn-white" href="">Read more</a>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="overlay"></div>
+    <img src="img/slider.jpg" alt="New York">
+    <div class="carousel-caption">
+      <h2>Falauris sollicitudin quis dolor venenatis facilisis</h2>
+      <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+      <a class="btn btn-white" href="">Read more</a>
+    </div>
+  </div>
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center featured-box">
+                    <div class="icon">
+                      <i class="glyphicon glyphicon-glass"></i>
+                    </div>
+                    <h3>Web design</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+                </div>
+                <div class="col-sm-4 text-center featured-box">
+                    <div class="icon">
+                      <i class="glyphicon glyphicon-star"></i>
+                    </div>
+                    <h3>Web development</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+                </div>
+                <div class="col-sm-4 text-center featured-box">
+                    <div class="icon">
+                      <i class="glyphicon glyphicon-heart"></i>
+                    </div>
+                    <h3>User interface</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="latest">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="sec-title">Latest projects</h2>
+                <p class="sec-title">Few of the latest portfolio items </p>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 1" src="img/project-1.jpg"/>
+                <h3><a href="#">Nunc libero elit, iaculis nec augue non</a></h3>
+
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 2" src="img/project-2.jpg"/>
+                <h3><a href="#">Nunc libero elit, iaculis nec augue non</a></h3>
+
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 2" src="img/project-3.jpg"/>
+                <h3><a href="#">Nunc libero elit, iaculis nec augue non</a></h3>
+
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 2" src="img/project-4.jpg"/>
+                <h3><a href="#">Nunc libero elit, iaculis nec augue non</a></h3>
+
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="sec-title">Latest projects</h2>
+                <p class="sec-title">Few of the latest portfolio items </p>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 1" src="img/project-1.jpg"/>
+                <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                <p class="meta">POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 1" src="img/project-1.jpg"/>
+                <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                <p class="meta">POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 1" src="img/project-1.jpg"/>
+                <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                <p class="meta">POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive" alt="Project 1" src="img/project-1.jpg"/>
+                <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                <p class="meta">POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
+                  <h3>Revera</h3>
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                </div>
+
+                <div class="col-xs-6 col-sm-3">
+                  <h3>Revera</h3>
+                  <ul>
+                      <li><a href="#">Log in</a></li>
+                      <li><a href="#">Entries RSS</a></li>
+                      <li><a href="#">Comments RSS</a></li>
+                      <li><a href="#">Wordpress.org</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-xs-6 col-sm-3">
+                  <h3>Archives</h3>
+                  <ul>
+                      <li><a href="#">August 2013</a></li>
+
+
+                  </ul>
+                </div>
+
+                <div class="col-xs-6 col-sm-3">
+                  <h3>Archives</h3>
+                  <ul>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                      <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+
+                  </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="bottomBar">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Copyright © 2017 revera - Just another demo Sites site. | Revera Theme</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
