@@ -1,0 +1,29 @@
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+// come back to this to put arrows to the edges
+ .glyphicon-chevron-left{
+  left: 0px;
+}
+
+.glyphicon-chevron-right {
+  right: 0px;
+}
+
+.info{
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+
+
+    .text{
+      text-align: center;
+      color: white;
+    }
+
+
+
+}
