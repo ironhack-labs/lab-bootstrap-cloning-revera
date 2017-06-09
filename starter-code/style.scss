@@ -1,0 +1,161 @@
+@import 'variables';
+
+body {
+  font-family: 'Oxygen',sans-serif;
+}
+.navbar {
+  margin: 0;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.navbar-default{
+  .navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 2.2em;
+  padding-left: 30px;
+  }
+  .navbar-nav {
+      li:first-child a {
+      color: red;
+    }
+      >li>a:hover {
+      color: red;
+    }
+}}
+
+.dropdown .glyphicon {
+  font-size: 8px;
+}
+
+#carousel-example-generic a {
+  z-index: 9999;
+}
+
+.overlay {
+  background: url("img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.carousel-inner img {
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    padding: 0 150px;
+  }
+  .car-btn {
+    margin: 20px 0 80px 0;
+    border: 2px solid white;
+    color: white;
+    border-radius: 0;
+    background: none;
+    width: 20%;
+  }
+}
+
+#services {
+  background-color: $signature-red;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+
+  .col-sm-4 {
+    padding: 25px;
+    margin: 20px 0;
+  }
+  .square {
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+  .glyphicon-wrench {
+    font-size: 40px;
+    padding: 15px;
+  }
+}
+
+#latest-projects, #latest-articles {
+  color: #606060;
+  padding: 50px 30px 20px 30px;
+  h1 {
+    color: black;
+    margin: 20px 0 10px 0;
+  }
+  h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    color: #aaa;
+  }
+  img {
+    width:100%;
+  }
+  h3 {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#latest-articles {
+  .latest-articles-thumbnails
+  h2 {
+    margin-top: 15px;
+    color: black;
+  }
+  h3 {
+    color: #606060;
+    font-size: .9em;
+  }
+  p {
+    padding:15px 15px 0 0;
+  }
+  a {
+    color: $signature-red;
+  }
+}
+
+#contact-info {
+  border-top: 5px solid #f96b61;
+  padding: 50px 20px;
+  background-color: #3b3b3b;
+  color: #aaa;
+  h2 {
+    color: white;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: #aaa;
+    line-height: 2;
+    border-bottom: 1px dotted #aaa;
+  }
+}
+
+#footer {
+  background-color: #292929;
+  color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-inner .item {
+    h1, p, .btn {
+      display: none;
+    }}}
+@media screen and (max-width: 970px) {
+
+}
