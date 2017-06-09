@@ -23,6 +23,17 @@ body{
     background-color: white;
     border-color: white;
 }
+
+.overlay{
+  background: url(img/overlay.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
 .active img{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -86,7 +97,37 @@ i{
 .sub2imgs{
   /*border: solid black;*/
   background-color: white;
-  height: 270px;
+  height: 360px;
   text-align: center;
+}
 
+.sub2imgs a{
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 16;
+}
+
+.sub2imgs span{
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.bottom{
+  background-color: #3b3b3b;
+  height: 300px;
+}
+
+.b{
+  background-color: #3b3b3b;
+}
+
+.footer{
+  background-color: #292929;
+  height: 100px;
+}
+
+.f{
+  height: 300px;
 }
