@@ -1,4 +1,4 @@
-img {
+.carousel {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -25,5 +25,29 @@ img {
     }
 
 
+
+}
+
+.title {
+  border-bottom: 1px solid grey;
+}
+
+
+.thumbnail {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+
+    a:hover{
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:visited {
+    color: #000;
+    }
+   .caption{
+     text-align: center;
+ }
 
 }
