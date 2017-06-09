@@ -1,0 +1,19 @@
+.row {
+  border: 5px dotted darkorange;
+}
+.first{
+  background-color: aqua;
+}
+.second{
+  background-color: magenta;
+
+}
+.third{
+  background-color: chartreuse;
+  }
+  footer{
+    background-color:black;
+  }
+.nav-space{
+  margin-bottom: 15%;
+}
