@@ -1,0 +1,91 @@
+.navbar-collapse {
+  margin-top: 12px;
+}
+
+.navbar-collapse a {
+  color: #777777;
+}
+.active{
+  color:#f4473a;
+}
+.hover:hover {
+  color: #f4473a;
+}
+.btn-primary {
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+  border-color: white;
+}
+
+.btn {
+  border-radius: 0px;
+  width: 138px;
+}
+.btn:hover {
+  background: transparent;
+  border-color: white;
+}
+.carousel-caption {
+height: 100%;
+text-align: center;
+}
+.carousel-caption h3{
+  margin-top: 188px;
+  font-size: 36px;
+  color: white;
+}
+.carousel-caption p{
+  font-size: 16px;
+}
+.mid-row {
+  background-color: #ED564B;
+  border: 5px solid #F96B61;
+  padding: 40px 0px;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.homewidget {
+  color: White;
+  text-align: center;
+}
+.homewidget h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.project img{
+  width: 270px;
+  height: 180px;
+}
+.project h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.home-eta{
+  font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.section-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+.section-title{
+  padding-bottom: 20px;
+}
+.color-red{
+  color: #F4473A;
+}
