@@ -1,0 +1,105 @@
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+.navbar-brand {
+
+  color: black !important;
+}
+.home {
+
+  color: red !important;
+  text-decoration:none !important;
+}
+.navigation {
+  margin:0 auto !important;
+}
+
+.invisible-border {
+  border: none;
+}
+
+.centerized {
+  margin-left: 15vw;
+}
+
+.nopad-nomargin {
+  margin: 0;
+  padding: 0;
+}
+
+.transparent-background {
+  background: transparent !important;
+}
+
+.carousel-item {
+  background-image: url("../assets/img/slider.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+}
+
+.small-text {
+  font-size: 8pt;
+}
+
+.bleh {
+  background-image: url("../assets/img/overlay.png");
+  height:550px;
+}
+
+.row {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+
+.arrows {
+
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+.desaturate {
+  filter: grayscale(100%);
+}
+
+.overlay {
+
+}
+
+.red-bar {
+  margin: 0;
+  padding-top: 15px;
+  border: 4px solid #F96B61;
+  background-color: #ED564B;
+  width: 100%;
+}
+
+.homewidget {
+  display: flex;
+  flex-direction: column;
+  width:25%;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+.centered-panel {
+  margin: 0 auto;
+  text-align: center;
+}
