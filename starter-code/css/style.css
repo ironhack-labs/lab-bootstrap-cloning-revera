@@ -1,0 +1,227 @@
+body {
+  /*min-height: 2000px;*/
+  padding-top: 70px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #0c0c0c !important;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+@media (min-width: 1200px){
+.navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    margin: 0;
+   }
+}
+
+@media (min-width: 768px){
+.navbar-nav {
+    padding-left: 168px !important;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777474 !important;
+    font-size: 12px;
+
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color: transparent !important;
+  color: #ed564b !important;
+}
+
+
+.main-slider{
+  background-color: black;
+  height: 500px;
+  margin-top: -19px;
+
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: #fff !important;
+  }
+
+.img-overlay {
+    position: relative;
+    max-width: 100%;
+    background-image: url("img/overlay.png");
+}
+
+
+.first-row{
+  height: auto;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color:#fff;
+  text-align: center;
+}
+
+/*.first-row span{
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  font-size: 35px;
+  line-height: 50px;
+  border-radius: 20px;
+}*/
+
+.first-row .glyphicon{
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 40px;
+  width: 78px;
+  height: 78px;
+  padding: 5px;
+  font-size: 35px;
+  line-height: 50px;
+  padding-left: 2px;
+  padding-top: 9px;
+  padding-right: 2px;
+
+}
+
+.first-row h3{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.second-row{
+  height: auto;
+  background-color: #fff;
+  margin-top: 80px;
+  margin-bottom: 88px;
+}
+
+.second-row img{
+  width: 275px;
+}
+
+.box-title{
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.content{
+  padding-top: 12px;
+}
+
+.content .date{
+  text-transform: capitalize;
+  color: #505254;
+}
+
+.content .date span{
+  color: #ed564b;
+}
+
+.content .info-text{
+  text-transform: capitalize;
+  font-size: 12px;
+  padding-top: 13px;
+  color: #595b5d;
+}
+
+.second-row h5{
+
+}
+
+
+.header-title{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.sub-title{
+  color: #989898;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.third-row{
+  padding: 20px 0px 40px 0px;
+  height: auto;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #fff;
+
+}
+
+.bottom{
+  background-color: #1d1c1c;
+}
+
+.forth-row .widget-title{
+  font-size: 21px;
+  padding-bottom: 12px;
+  font-weight: 400;
+}
+
+.forth-row .info-text{
+  font-weight: 200;
+  color: #969292;
+}
+
+.forth-row ul{
+  list-style: none;
+  position: relative;
+  right: 37px;
+}
+
+
+.forth-row li{
+  border-bottom: 1px dotted #776a6a;
+  padding-bottom: 4px;
+  padding-top: 17px;
+  color: #a59f9f;
+}
+
+.bottom-footer{
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
