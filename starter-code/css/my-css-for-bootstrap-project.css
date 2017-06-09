@@ -1,0 +1,142 @@
+.white-header {
+  background-color: white;
+}
+.navbar-default{
+  background: none;
+  border: none;
+
+}
+.menu{
+  font-size: 70%;
+  color: grey;
+  position: relative;
+  left: 30%;
+}
+.revera-title{
+  color: black;
+  font-size: 110%;
+}
+#carousel-example-generic{
+  width:100%;
+
+}
+.carousel-inner{
+  filter:grayscale(100%);
+}
+.carousel-caption{
+  filter:grayscale(100%);
+}
+.carousel-text{
+  font-size:75%;
+}
+.read-me{
+  background: none;
+  border: 1px solid white;
+}
+.left-carousel-control{
+  padding-left: 0%;
+}
+.right-carousel-control{
+  padding-right: 0%;
+}
+.glyphicon-chevron-left{
+  background-color: #ff4d4d;
+}
+.glyphicon-chevron-right{
+  background-color: #ff4d4d;
+}
+.red-carosel-footer{
+  background-color: #ff4d4d;
+  height: 25%;
+}
+.red-footer-text{
+  font-size: 60%;
+  margin-bottom:10%;
+}
+.white-body{
+  background-color: white;
+}
+  .red-text{
+  color: red;
+}
+  .latest-articles-text{
+  color: grey;
+  text-align: left;
+  font-size: 75%;
+}
+  .latest-articles-black{
+  text-align: left;
+}
+.black-footer{
+  background-color: #4d4d4d;
+  border-top: 3px solid red;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  .revera-text{
+  text-align:center;
+  color: grey;
+  font-size: 75%;
+}
+  .meta-text{
+  border-bottom: 1px dotted grey;
+  color: grey;
+  text-align: left;
+  font-size: 75%;
+
+}
+  .archives-text{
+  border-bottom: 1px dotted grey;
+  color: grey;
+  text-align: left;
+  font-size: 75%;
+
+}
+  .recent-posts-text{
+  border-bottom: 1px dotted grey;
+  color: grey;
+  text-align: left;
+  font-size: 75%;
+
+}
+.grey-bottom-footer{
+  background-color: #262626;
+  color: white;
+  padding-left: 5%;
+
+}
+    .footer-text{
+      font-size: 75%;
+    }
+.overlay{
+  background-image: url("/Users/nik.echenique/code/labs/lab-bootstrap-cloning-revera/starter-code/img/overlay.png");
+  width:1280px;
+  height:550px;
+}
+
+ .glyphicon-glass {
+  padding: 5%;
+  border: 3px solid white;
+  border-radius: 100%;
+  color: white;
+  margin-top: 10%;
+}
+.glyphicon-star {
+ padding: 5%;
+ border: 3px solid white;
+ border-radius: 100%;
+ color: white;
+ margin-top: 10%;
+}
+.glyphicon-heart {
+ padding: 5%;
+ border: 3px solid white;
+ border-radius: 100%;
+ color: white;
+ margin-top: 10%;
+}
+.caption{
+  text-align: center;
+  color: white;
+}
