@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Revera Clone | Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.min.css">
+  </head>
+  <body>
+
+    <!-- Organize Nav Bar(Locations) and Change Font colors  -->
+
+    <div class = "row">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">REVERA</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sample page</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parent page <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sample page</a></li>
+            <li role="separator" class="divider"></li>
+          </ul>
+          <li><a href="#">Contact</a></li>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="overlay"></div>
+    <div class="item active">
+      <img class ="carousel" src="img/slider.jpg" alt="catdog">
+      <div class="carousel-caption">
+        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM </h2>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+          Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+          ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien
+          sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean
+          fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc.
+          Etiam mauris tortor, pharetra […] </p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class ="carousel" src="img/slider.jpg" alt="catdog">
+      <div class="carousel-caption">
+        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM </h2>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+          Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+          ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien
+          sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean
+          fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc.
+          Etiam mauris tortor, pharetra […] </p>
+      </div>
+    </div>
+    <div class="item">
+      <img  class ="carousel" src="img/slider.jpg" alt="catdog">
+      <div class="carousel-caption">
+        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM </h2>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+          Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+          ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien
+          sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean
+          fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc.
+          Etiam mauris tortor, pharetra […] </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- information in section under carousel -->
+<div class ="info">
+  <div class= "container">
+    <div class= "row">
+      <div class="col-sm-4 text">
+          <span class ="glyphicon glyphicon-glass" aria-hidden="true"></span>
+          <h3>Web design</h3>
+          <p> Cum sociis natoque penatibus et magnis dis parturient montes,
+             nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
+              Aenean auctor nulla quis augue dictum, sed sagittis odio varius </p>
+      </div>
+
+      <div class="col-sm-4 text">
+        <span class ="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <h3>Web development</h3>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+           Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+           ut pulvinar purus elementum nspendisse at erat luctus. </p>
+      </div>
+
+      <div class="col-sm-4 text">
+        <span class ="glyphicon glyphicon-heart" aria-hidden="true"></span>
+        <h3>User interface</h3>
+        <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim,
+           eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
+           Praesent non enim et magna congue gravida. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- LATEST PROJECTS-->
+<div class ="main one">
+  <div class ="container">
+
+<!--Make h3s/ps Smaller (see typography) and update links around thumnails for each  -->
+    <div class =title>
+      <h3> LATEST PROJECTS</h3>
+      <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+    </div>
+
+  <div class = "row">
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+        <img src="img/project-1.jpg" alt="muscles">
+        <div class="caption">
+          <a href="#0"><p>Nunc libero elit, iaculis nec augue non</p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+       <img src="img/project-2.jpg" alt="kitty">
+       <div class="caption">
+       <a href="#0"><p>Phasellus aliquet iaculis neque accumsan aliquam</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+  <div class="thumbnail">
+     <img src="img/project-3.jpg" alt="rocks">
+     <div class="caption">
+     <a href="#0"><p>Vivamus blandit ipsum sed arcu euismod</p></a>
+  </div>
+</div>
+</div>
+
+<div class="col-xs-6 col-md-3">
+  <div class="thumbnail">
+     <img src="img/project-4.jpg" alt="woman">
+     <div class="caption">
+     <a href="#0"><p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p></a>
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+</div>
+
+<!-- LATEST ARTICLES -->
+
+<div class ="main two">
+  <div class ="container">
+
+<!-- uncenter text - update/add to caption class and fix fonts -->
+    <div class =title>
+      <h3> LATEST ARTICLES</h3>
+      <p>LATEST POSTS FROM THE BLOG</p>
+    </div>
+  <div class = "row">
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+         <img src="img/slider.jpg" alt="dogcat">
+         <div class="caption article txt">
+           <h5>Etiam mauris tortor, pharetra quis lobortis
+             in, pharetra in diam</h5>
+            <span class= "posted-on">POSTED ON</span>
+            <a class="red" href="#0"> AUGUST 19, 2013 </a>
+            <span class= "posted-on"> BY </span>
+            <a class="red" href="#0">BY ADMIN</a>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+             porttitor. Duis porttitor sed metus eget mollis. Curabitur
+             bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+             Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+             erat. Maecenas dignissim suscipit orci at molestie. Aenean
+             fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+             libero nunc. Etiam mauris tortor, pharetra […]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail">
+         <img src="img/project-6.jpg" alt="flowers">
+         <div class="caption article">
+           <h5>Falauris sollicitudin quis dolor venenatis facilisis</h5>
+            <span class= "posted-on">POSTED ON</span>
+            <a class="red" href="#0"> AUGUST 19, 2013 </a>
+            <span class= "posted-on"> BY </span>
+            <a class="red" href="#0">BY ADMIN</a>
+            <p>Donec sed dolor eu augue dignissim pellentesque.
+              Fusce semper tortor ornare, luctus sem in, dictum
+              leo. Ut at congue quam! Maecenas luctus interdum odio,
+              eget volutpat velit hendrerit eu? Suspendisse at magna
+              ut sem blandit hendrerit non ut magna. Cras quis porta
+              dolor. Aliquam erat volutpat. Phasellus fringilla feugiat
+              libero nec volutpat. Maecenas fermentum bibendum […]</p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+       <img src="img/project-7.jpg" alt="climbers">
+       <div class="caption article">
+         <h5>Suspendisse ornare, felis feugiat suscipit pharetra</h5>
+          <span class= "posted-on">POSTED ON</span>
+          <a class="red" href="#0"> AUGUST 19, 2013 </a>
+          <span class= "posted-on"> BY </span>
+          <a class="red" href="#0">BY ADMIN</a>
+          <p>Quisque sit amet sagittis justo. Suspendisse ornare,
+            felis feugiat suscipit pharetra, lorem est viverra odio;
+            tristique tristique diam tellus id tellus. In consectetur
+            aliquet tristique. Curabitur imperdiet leo in nisl
+            consectetur mattis. Quisque bibendum, mauris vitae suscipit
+             ornare; est nibh elementum mauris, eu malesuada nunc magna
+             at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+       <img src="img/project-8.jpg" alt="flowerpup">
+       <div class="caption article">
+         <h5>Festibulum purus odio, ornare non posuere</h5>
+          <span class= "posted-on">POSTED ON</span>
+          <a class="red" href="#0"> AUGUST 19, 2013 </a>
+          <span class= "posted-on"> BY </span>
+          <a class="red" href="#0">BY ADMIN</a>
+          <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum.
+            Curabitur a elementum purus. Quisque vitae dui at arcu
+            porttitor laoreet ac vitae nibh. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Nulla facilisi. Nulla egestas at
+            nunc at volutpat. Nullam sodales at diam vel tempor.
+            Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+      </div>
+    </div>
+  </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+<!-- bottom section before footer - update last 3 columns -->
+
+<div class ="bottom">
+  <div class ="container">
+
+    <div class="col-xs-6 col-md-3">
+      <div class ="basementtext">
+        <h5>REVERA</h5>
+        <p>Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Vestibulum vehicula erat
+          non congue cursus. Aenean auctor nulla quis augue dictum,
+          sed sagittis odio varius? Aliquam nec venenatis turpis.
+          Aenean euismod arcu vel volutpat tristique. In mattis
+          ipsum quis magna feugiat, id tempus metus accumsan.
+        </p>
+    </div>
+  </div>
+
+    <div class="col-xs-6 col-md-3">
+      <div class ="basementtext">
+        <h5>META</h5>
+        <ul>
+          <li><a href="#0">Log In</a></li>
+          <li><a href="#0">Entries RSS</a></li>
+          <li><a href="#0">Comments RSS</a></li>
+          <li><a href="#0">Wordpress.org</a></li>
+        </ul>
+    </div>
+  </div>
+
+    <div class="col-xs-6 col-md-3">
+      <div class ="basementtext">
+        <h5>ARCHIVES</h5>
+        <p>Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Vestibulum vehicula erat
+          non congue cursus. Aenean auctor nulla quis augue dictum,
+          sed sagittis odio varius? Aliquam nec venenatis turpis.
+          Aenean euismod arcu vel volutpat tristique. In mattis
+          ipsum quis magna feugiat, id tempus metus accumsan.
+        </p>
+    </div>
+  </div>
+
+
+    <div class="col-xs-6 col-md-3">
+      <div class ="basementtext">
+        <h5>RECENT POSTS</h5>
+        <p>Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Vestibulum vehicula erat
+          non congue cursus. Aenean auctor nulla quis augue dictum,
+          sed sagittis odio varius? Aliquam nec venenatis turpis.
+          Aenean euismod arcu vel volutpat tristique. In mattis
+          ipsum quis magna feugiat, id tempus metus accumsan.
+        </p>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+<div class ="copy">
+  <div class ="container">
+    <p> Copyright © 2017 revera - Just another demo Sites site. <br>
+      | Revera Theme </p>
+
+  </div>
+</div>
+
+
+
+<!-- a href="#" class="thumbnail"> missing anchor tag for around thumbnails -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
