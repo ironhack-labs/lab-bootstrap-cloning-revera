@@ -3,6 +3,7 @@ body {
 }
 
 .carousel {
+  width: 100%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -83,6 +84,20 @@ body {
    color: #ed564b;
  }
 
+ .caption-article-txt
+ {
+   text-align: left;
+
+   span, a {
+    font-size: 75%;
+   }
+
+   a.red{
+       color: #ed564b;
+       }
+
+ }
+
 // footer/copywright
 
 .bottom{
@@ -96,6 +111,7 @@ body {
       text-decoration: none;
       padding: 7px 0px 7px 0px;
       display: block;
+      font-size: 80%;
 
     }
 
@@ -104,17 +120,23 @@ body {
         margin: 0;
         padding: 0;
 
+
+        li{
+            border-bottom: 2px dotted #aaa;
+            border-width: 100%
+
+          }
+
         a{
           color: #aaa;
           padding: 5px 0px;
-          border-bottom: 2px dotted #aaa;
         }
 
         a:hover{
           text-decoration: none;
           color:white;
-
         }
+
     }
 
 }
@@ -123,4 +145,6 @@ body {
 .copy {
   background-color: #333;
   color: white;
+  padding: 20px;
+  font-size: x-small;
 }
