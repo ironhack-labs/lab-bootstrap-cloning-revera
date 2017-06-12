@@ -27,16 +27,21 @@ li {
 
 .jumbotron {
   background-image: url("../img/slider.jpg");
-  background-repeat: no-repeat;
   margin: 3px;
   height: 550px;
-  }
+  padding: 0;
+}
+
+.jumbo-content {
+  background-image: url('../img/overlay.png');
+  padding-top: 160px;
+  height: 100%;
+}
 
 .jumbotron h1 {
   color: white;
   font-size: 32px;
   text-align: center;
-  margin-top: 160px;
 }
 
 .jumbotron p {
