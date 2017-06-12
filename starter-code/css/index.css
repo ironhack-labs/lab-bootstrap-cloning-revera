@@ -1,0 +1,191 @@
+
+.page-header h1 {
+  font-size: 36px;
+  margin-left: 100px;
+  display: inline;
+}
+
+.navmain {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 350px;
+  float: right;
+  list-style: none;
+}
+
+li {
+  color: gray;
+  display: inline;
+  margin-right: 20px;
+}
+
+.red {
+  color: red;
+}
+
+
+
+.jumbotron {
+  background-image: url("../img/slider.jpg");
+  margin: 3px;
+  height: 550px;
+  padding: 0;
+}
+
+.jumbo-content {
+  background-image: url('../img/overlay.png');
+  padding-top: 160px;
+  height: 100%;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.jumbofooter {
+  border-color: white;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.jumbofooter .col-xs-6 {
+  background-color: #f74c4c;
+  height: 300px;
+  margin-top: -50px;
+}
+
+.glyphicon {
+  color: white;
+  font-size: 26px;
+  margin-top: 40px;
+  border: 5px solid white;
+  border-radius: 180px;
+  padding: 20px;
+}
+
+.jumbofooter h3 {
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+}
+
+.jumbofooter p {
+  font-weight: 400;
+  color: white;
+}
+
+.jumborow {
+  text-align: center;
+}
+
+.contentbox {
+  margin: 20px 30px;
+}
+
+.contentheader {
+  margin-top: 370px;
+}
+
+.contentheader h1 {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contentheader h3 {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #939090;
+}
+
+.projectrow {
+  display: inline;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contentheader2 h1 {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contentheader2 h3 {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #939090;
+}
+
+.latest-articles {
+  margin-top: 330px;
+}
+
+.articlerow {
+  display: inline;
+}
+
+h5 {
+  color: dimgray;
+  font-size: 12px;
+  margin: 20px 0px 30px 0px;
+}
+
+h5 span{
+  color: red;
+}
+
+.articlerow h3 {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+
+.articlerow p{
+  color: dimgray;
+  font-size: 14px;
+}
+
+.panel-body {
+  margin-top: 620px;
+  background-color: #444547;
+}
+
+.footerrow {
+  display: inline;
+  color: #929293;
+}
+
+.footerrow h4 {
+  color: white;
+}
+
+.footerrow p {
+  font-size: 14px;
+}
+
+.footerrow li {
+  display: block;
+  color: #929293;
+  font-size: 14px;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.panel-footer{
+  height: 100px;
+  background-color: #232222
+}
+
+.panel-footer p{
+    color: white;
+    margin-top: 30px;
+    font-size: 12px;
+}
