@@ -1,0 +1,55 @@
+.navbar {
+  background: transparent;
+}
+.nav{
+  background:transparent;
+}
+.nav{
+  float: right;
+}
+
+.active a {
+  background-image: none!important;
+  background: none!important;
+  box-shadow: none !important;
+}
+.active .home{
+  color: red !important;
+  font-size: 14px;
+}
+.navbar-brand{
+  color:black !important;
+}
+
+.main-img{
+  width:100%;
+}
+
+p{
+  text-align: center !important;
+}
+.col-sm-4{
+  background-color:CORAL;
+  color:white;
+  text-align: center;
+  padding-top: 15px;
+
+}
+.row .third{
+  width:25%;
+}
+.thumbnail img{
+  padding:0px !important;
+}
+.thumbnail{
+  margin-left: 15px;
+}
+.thumbnail p{
+  font-size: 12px;
+
+#grey{
+  color:lightgrey !important;
+
+h6{
+  border-top: 1px solid lightgrey;
+}
