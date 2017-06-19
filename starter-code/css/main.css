@@ -1,0 +1,29 @@
+.slider-wrapper{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.specs-wrapper{
+  background-color: red;
+  width: 100%;
+  height: 100px;
+}
+
+.content-wrapper{
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-wrapper{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+
+.copy-wrapper{
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+}
