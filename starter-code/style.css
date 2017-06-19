@@ -4,6 +4,7 @@ body {
 }
 a{
   color: black;
+  text-align: justify;
 }
 
 .navbar {
@@ -41,10 +42,14 @@ a{
 .row{
   background-color: #ED564B;
   color: white;
+  text-align: justify;
 }
 .btn btn-lg btn-primary{
   background: none;
 }
 .boxitems{
   background-color: white;
+}
+.bottom{
+  margin-top: 1px solid;
 }
