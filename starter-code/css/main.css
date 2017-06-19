@@ -1,10 +1,10 @@
 body {
   font-family: helvetica, sans-serif;
 }
-/*.container {
+.container {
     margin-right: auto;
     margin-left: auto;
-}*/
+}
 h1 {
   font-size: 32px;
 }
@@ -20,12 +20,35 @@ header {
   font-weight: 800;
   margin-top: 25px;
 }
+.submenu {
+    padding: 0px 0px;
+    margin: 15px 0px;
+    height: 60px;
+    border-bottom: none;
+    float: left;
+}
+.submenu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+}
 .slidebox {
-    max-height: 550px;
+    max-height: 614px;
     position: relative;
     background: #000;
     margin: 0 0 0px;
     zoom: 1;
+}
+.slide {
+  width: 100%;
+  display: block;
+  filter: grayscale();
+}
+.jumbotron {
+  background-color: transparent;
 }
 .fwidgets {
     padding: 40px 0px;
@@ -33,22 +56,45 @@ header {
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
     text-align: center;
+    color: #FFF;
+}
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.col-12 {
+    width: 100%;
+}
+.sec {
+    margin-bottom: 40px;
 }
 
-
-.portbox {
-  background-color: blue;
-  height: 35vh;
-  margin-top: 2%;
+.section-wide {
+    margin-top: 40px;
 }
 
-.postbox {
-  background-color: purple;
-  height: 35vh;
-  margin-top: 2%;
-}
 .bottom {
     padding: 20px 0px 40px 0px;
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
+    text-align: center;
+}
+.botwid {
+    color: #aaa;
+}
+.bothead > h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+.fcred {
+    padding: 10px 0px;
+    color: #eee;
 }
