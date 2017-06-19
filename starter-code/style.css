@@ -2,7 +2,8 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-a{
+
+a {
   color: black;
   text-align: justify;
 }
@@ -10,46 +11,57 @@ a{
 .navbar {
   margin-bottom: 20px;
 }
+
 .carousel {
   height: 500px;
   margin-bottom: 60px;
 }
+
 .carousel-caption {
   z-index: 10;
 }
+
 .carousel .item {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+
+.carousel-inner>.item>img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 500px;
 }
+
 .container .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .container h2 {
   font-weight: normal;
 }
+
 .container .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
-.row{
+
+.row {
   background-color: #ED564B;
   color: white;
   text-align: justify;
 }
-.btn btn-lg btn-primary{
+
+.btn btn-lg btn-primary {
   background: none;
 }
-.boxitems{
+
+.boxitems {
   background-color: white;
 }
-.bottom{
+
+.bottom .row3{
   margin-top: 1px solid;
 }
