@@ -1,0 +1,107 @@
+body {
+
+}
+.navbar-default{
+  margin-bottom: 0;
+  background: #fff;
+  margin: 0 auto;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ed564b;
+
+}
+.navbar .navbar-nav {
+  display: inline-block;
+float: none;
+vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.center {
+  text-align: center;
+
+}
+.sliderimg {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.next {
+
+  background: #ed564b;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width: 100%;
+}
+.item-menu .selected{
+  color:red;
+}
+.navbar-default .navbar-brand{
+  margin-left: 5%;
+  color: #000;
+  font-size: 30px;
+}
+.wrapper-red {
+  background-color: #ed564b;
+  color: #fff;
+  padding: 50px;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+.circular {
+  border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.top{
+  background: #3b3b3b;
+  padding: 20px 0;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+
+ ul{
+  list-style-type: none;
+  padding: 0;
+}
+.carousel-caption {
+  height: 100%;
+  top: 30%;
+bottom: auto;
+}
+.read-more {
+  border: 1px solid #fff;
+  padding: 5px, 10px, 5px, 10px;
+  width: 150px;
+  background: rgba(255,255,255,0.2);
+  margin: 10px auto;
+  color: #fff;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+a:hover {
+  color: #fff;
+}
+.footer-title{
+  color: #fff;
+}
+.border-doted{
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+
+}
+.bottom {
+  padding: 15px;
+  background: #292929;
+  color: #eee;
+}
