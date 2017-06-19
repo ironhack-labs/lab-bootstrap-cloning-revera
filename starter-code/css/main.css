@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+/*.container {
+    margin-right: auto;
+    margin-left: auto;
+}*/
+h1 {
+  font-size: 32px;
+}
+header {
+  height: 90px;
+  position: relative;
+}
+.site-branding {
+    margin-bottom: 20px;
+}
+.site-branding > h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.slidebox {
+    max-height: 550px;
+    position: relative;
+    background: #000;
+    margin: 0 0 0px;
+    zoom: 1;
+}
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    text-align: center;
+}
+
+
+.portbox {
+  background-color: blue;
+  height: 35vh;
+  margin-top: 2%;
+}
+
+.postbox {
+  background-color: purple;
+  height: 35vh;
+  margin-top: 2%;
+}
+.bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
