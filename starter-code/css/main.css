@@ -1,0 +1,30 @@
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+  height: 10vh;
+}
+
+.slider {
+  background: red;
+  height: 40vh;
+}
+
+.projects {
+  background: white;
+  height: 40vh;
+}
+
+footer {
+  background: black;
+  height: 40vh;
+}
+
+.copyrigth {
+  background: grey;
+  height: 10vh;
+}
