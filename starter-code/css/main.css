@@ -1,29 +1,25 @@
 .slider-wrapper{
-  background-color: black;
-  width: 100%;
+  background-color: #292929;
   height: 100px;
+  background-image: url("../img/slider.jpg");
+  background-size: cover;
 }
 
 .specs-wrapper{
-  background-color: red;
-  width: 100%;
+  background-color: #ed564b;
   height: 100px;
 }
 
 .content-wrapper{
-  background-color: grey;
-  width: 100%;
-  height: 100px;
+
 }
 
 .footer-wrapper{
-  background-color: black;
-  width: 100%;
-  height: 100px;
+  color: white;
+  background-color: #3b3b3b;
 }
 
 .copy-wrapper{
-  background-color: grey;
-  width: 100%;
-  height: 100px;
+  color: white;
+  background-color: #292929;
 }
