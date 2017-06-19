@@ -1,0 +1,45 @@
+.row {
+  color: #777;
+}
+
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  border: 0px;
+  padding: 20px 0 0 0;
+}
+
+.thumbnail {
+  border: 0px;
+  color: #333;
+}
+.custom-thumbnail {
+  background-color: transparent;
+  border: 0px;
+  color: #fff;
+  text-align: center;
+}
+.custom-thumbnail p, .custom-thumbnai span, .custom-thumbnail h3 {
+  color: #FFF;
+}
+#custom-container {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #777;
+}
+
+footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+
+footer div {
+  color: #FFF;
+}
