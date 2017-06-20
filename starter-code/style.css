@@ -1,0 +1,58 @@
+.head{
+  height: 40px;
+  margin: 20px 150px 20px 150px;
+
+}
+
+.head-left{
+  float: left;
+  font-size: 30px;
+  width: 400px;
+}
+
+.head-middle{
+  display: inline-block;
+}
+
+.head-middle > ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 10px;
+
+}
+
+.head-middle > ul > li {
+  margin-left: 20px;
+  position: relative;
+  right: 60px;
+  top: 5px;
+  color: gray;
+}
+
+.head-middle > ul > li > span {
+  font-size: 8px;
+}
+
+.small-arrow {
+  position: relative; right: 5px;
+}
+
+
+.middle {
+  background-image: url("img/slider.jpg");
+
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weird-pic{
+  background-image: url("img/overlay.png");
+height: 600px;
+}
+
+.middle-text {
+  width: 600px;
+  text-align: center;
+  color: white;
+}
