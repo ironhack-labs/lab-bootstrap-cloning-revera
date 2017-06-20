@@ -1,0 +1,80 @@
+body {
+  padding-top: 50px;
+}
+
+.navbar-header {
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  float: none;
+  line-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a.home-link {
+  color: #ee5b78;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ee5b78;
+}
+
+.overlay {
+  background-image: url("../img/overlay.png");
+  filter: grayscale(100%);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+
+.homewidget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+a {
+  color: #f4473a;
+}
+
+.grey-row {
+  border-top: 5px solid #ed564b;
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 500px;
+  background-color: #3b3b3b !important;
+  color: white;
+}
+
+footer {
+  background-color: #292929 !important;
+  color: white;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 100px !important;
+}
