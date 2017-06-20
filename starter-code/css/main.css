@@ -1,0 +1,113 @@
+ body {margin:0; padding:0;}
+
+.container{
+  background-color: white;
+  height: 2000px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row.header {
+    height: 90px;
+    font-family: 'Open Sans';
+}
+
+.header.col-sm-3{
+margin-top: 10px;
+}
+
+.header.col-sm-3 h2{
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: right;
+
+}
+
+.header.col-sm-9{
+  margin-top: 35px;
+}
+
+li {
+  float: left;
+  margin-left: 5%;
+  list-style-type: none;
+
+}
+
+.row.picture{
+  background-image: url(img/project-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  height: 550px;
+}
+
+.row.twidgets{
+  background-color: red;
+  color: white;
+  height: 314px;
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 3%;
+  padding-right:3%;
+  font-size:1.1em;
+}
+
+.row.twidgets h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+i {
+  box-sizing: border-box;
+  font-style: italic;
+  line-height: 65px;
+  text-align: center;
+  font-size: 2em;
+  border: 4px solid white;
+  border-radius: 100%;
+}
+
+.row.main{
+  background-color: white;
+  height: 1143px;
+  margin-left: 3%;
+  margin-right:5%;
+}
+
+.topRow{
+  height: 350px;
+}
+
+.topRowText{
+  height: 90px;
+  margin-top: 5%;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.topRowText h3{
+  font-weight: bold;
+  color: black;
+}
+
+.lowRow1, .lowRow2, .lowRow3, .lowRow4{
+  text-align: center;
+  margin-top: 3%;
+  padding: 0px;
+}
+#lowRow1, #lowRow2, #lowRow3, #lowRow4{
+  height: 225px;
+  padding: 0px;
+
+}
+
+.row.bottom{
+  background-color: black;
+  height: 286px;
+}
+
+.row.colophon{
+  background-color: grey;
+  height: 78px;
+}
