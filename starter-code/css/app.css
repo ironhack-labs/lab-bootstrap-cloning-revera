@@ -1,0 +1,100 @@
+.inline {
+    display: inline-block;
+}
+
+.category {
+    background-color: #ed564b;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.grey {
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.grey-high{
+    background-color: #292929;
+    height: 80px;
+    color: #aaa;
+    padding-top: 20px;    
+}
+
+.left{
+    text-align: left;
+    color: #404040;
+}
+
+.left span{
+    color: red;
+}
+
+.red{
+    background-color: red;
+    height: 5px;
+}
+
+.white{
+    color: white;
+}
+
+.white a{
+    color: white;
+}
+
+.grey-text{
+    color: #aaa;
+}
+
+.glyphicon {
+    font-size: 30px;
+    padding: 22px 0 0 0;
+}
+
+.glyphicon-heart-empty {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;    
+}
+
+.glyphicon-star{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;    
+}
+
+.glyphicon-glass{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;   
+}
+
+.latest-projects h4{    
+    color: grey;    
+}
+
+.center{
+    text-align: center;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+}
+
+.border-bottom a{
+    color: #aaa;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.bigger{
+    width: 145px;
+    margin-top: 10px;
+}
