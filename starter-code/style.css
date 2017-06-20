@@ -1,0 +1,92 @@
+/*nav*/
+nav.navbar.navbar-default{
+  border:0;
+  height:90px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+a.navbar-brand{
+  font-size: 2.3em;
+  font-weight: bold;
+  color:black !important;
+}
+
+/*carouset*/
+
+
+img.d-block.img-responsive{
+  width:100%;
+  filter: grayscale(100%);
+}
+.overlayBkg{
+  position: absolute;
+  top:0;
+  background-image: url(./img/overlay.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+div.carousel-item h1{
+  font-size: 3.5em;
+}
+div.carousel-item p{
+  font-size: 1.3em;
+}
+
+/*redBox*/
+.row.redBox{
+  height:370px;
+  border: 5px solid orange;
+  background-color: orangered;
+
+}
+
+.row.redBox .container{
+  height:100%;
+  padding-top:40px;
+  border: 1px dotted black;
+  text-align: center;
+  color:white;
+}
+
+.container .roundBorder{
+  border: 5px solid #fff;
+  background: transparent;
+  width:70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.roundBorder span{
+  margin-top: 19px;
+}
+
+/*latest project*/
+.subject{
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.subject h3{
+  font-weight: bold;
+}
+
+.subject p{
+  font-weight: bold;
+  color: #aaa;
+}
+.contents h5{
+  text-align: center;
+  padding: 15px 0;
+}
+.contents a{
+  color:black !important;
+  text-decoration: none;
+  padding-top: 10px;
+}
