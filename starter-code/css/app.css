@@ -48,17 +48,29 @@
 }
 
 .glyphicon {
-    font-size: 50px;
-    padding: 24px 2px 0 0px;
-    
+    font-size: 30px;
+    padding: 22px 0 0 0;
 }
 
-.glyphicon-heart-empty{
+.glyphicon-heart-empty {
     border: 5px solid white;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    
+    width: 75px;
+    height: 75px;    
+}
+
+.glyphicon-star{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;    
+}
+
+.glyphicon-glass{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;   
 }
 
 .latest-projects h4{    
@@ -76,4 +88,13 @@
 
 .border-bottom a{
     color: #aaa;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.bigger{
+    width: 145px;
+    margin-top: 10px;
 }
