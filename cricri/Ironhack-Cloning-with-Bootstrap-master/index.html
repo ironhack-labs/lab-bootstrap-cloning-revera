@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<title>Cloning with Bootstrap</title>
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<a class="brand-logo" href="#"><h1>REVERA</h1></a>
+			</div>
+			<div class="col-sm-8">
+				<nav>
+					<ul class="navigation">
+						<li><a href="file:///Users/jrsahuquillo/Dropbox/Ironhack/HTML-CSS/Cloning-with-bootstrap/index.html#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Sample page</a></li>
+						<li><a href="#">Porfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Parent page<span class="caret"</span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Full page</a></li>
+									<li><a href="#">Child page 1</a></li>
+								</ul>
+								<li><a href="#">Contact</a></li>
+						</li>
+				</nav>
+				<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js"></script>
+    		<script>
+      		$(document).ready(function() {
+          $("a.dropdown-toggle").click(function(ev) {
+              $("a.dropdown-toggle").dropdown("toggle");
+              return false;
+          });
+          $("ul.dropdown-menu a").click(function(ev) {
+              $("a.dropdown-toggle").dropdown("toggle");
+              return false;
+          });
+      	});
+    		</script>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="container-fluid slider">
+		<div class="slider-text">
+			<h1>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h1>
+			<p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+			<button type="button" class="btn btn-transparent">READ MORE</button>
+		</div>
+	</div>
+	<div class="container-fluid features">
+		<div class="row">
+			<div class="col-sm-4">
+				<i class="glyphicon glyphicon-glass"></i>
+				<h3>Web design</h3>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+			</div>
+			<div class="col-sm-4">
+				<i class="glyphicon glyphicon-star"></i>
+				<h3>Web development</h3>
+				<p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+			</div>
+			<div class="col-sm-4">
+				<i class="glyphicon glyphicon-heart"></i>
+				<h3>User interface</h3>
+				<p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+			</div>
+		</div>
+	</div>	
+	<div class="container latest-projects">
+		<div class="row">
+			<h2>LATEST PROJECTS</h2>
+			<h4>FEW OF THE LATEST PORTFOLIO ITEMS</h4>
+			<hr>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-771047-750x500.jpg"><p><strong>Nunc libero elit, iaculis nec augue non</strong></p></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-954243-750x500.jpg"><p><strong>Phasellus aliquet iaculis neque accumsan aliquam</strong></p></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-1911803-750x500.jpg"><p><strong>Vivamus blandit ipsum sed arcu euismod</strong></p></a>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/curabitur-auctor-dolor-risus-vitae-pellentesque-arcu-consequat/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-1823262-750x500.jpg"><p><strong>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</strong></p></a>
+			</div>
+		</div>
+	</div>
+	<div class="container latest-articles">
+		<div class="row">
+			<h2>LATEST ARTICLES</h2>
+			<h4>LATEST POSTS FROM THE BLOG</h4>
+			<hr>
+			<div class="col-sm-3">
+				<a class="articles" href="http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-750x500.jpg"><h3><strong>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</strong></h3></a>
+				<div class="posted-on">
+					<p>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+				</div>
+				<div class="post-resume">
+				<p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/beautiful_poppies-wallpaper-1920x1080-750x500.jpg"><h3><strong>Falauris sollicitudin quis dolor venenatis facilisis</strong></h3></a>
+				<div class="posted-on">
+					<p>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+				</div>
+				<div class="post-resume">
+				<p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/5824862885_d6ba1e611f_o-750x500.jpg"><h3><strong>Suspendisse ornare, felis feugiat suscipit pharetra</strong></h3></a>
+				<div class="posted-on">
+					<p>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+				</div>
+				<div class="post-resume">
+				<p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<a class="projects" href="http://demo.fabthemes.com/revera/2013/08/19/curabitur-auctor-dolor-risus-vitae-pellentesque-arcu-consequat/"><img src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-730909-750x500.jpg"><h3><strong>Festibulum purus odio, ornare non posuere</strong></h3></a>
+				<div class="posted-on">
+					<p>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a></p>
+				</div>
+				<div class="post-resume">
+				<p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footer">
+		<div class="col-sm-3">
+			<h3>REVERA</h3>
+			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus </p>
+		</div>
+		<div class="col-sm-3">
+			<h3>META</h3>
+			<ul>
+				<li>Log in</li>
+				<li>Entries RSS</li>
+				<li>Comments RSS</li>
+				<li>WordPress.org</li>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<h3>ARCHIVES</h3>
+			<ul>
+				<li>August 2013</li>
+			</ul>
+		</div>
+		<div class="col-sm-3">
+			<h3>RECENT POSTS</h3>
+			<ul>
+				<li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+				<li>Nunc libero elit, iaculis nec augue non</li>
+				<li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+				<li>Phasellus aliquet iaculis neque accumsan aliquam</li>
+				<li>Vivamus blandit ipsum sed arcu euismod</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid footer-bottom text">
+		<p>Copyright © 2016 revera - Just another demo Sites site.</p>
+		<a href="#">I Revera Theme</a>
+	</div>
+
+</body>
+</html>
+
+
+
+
+

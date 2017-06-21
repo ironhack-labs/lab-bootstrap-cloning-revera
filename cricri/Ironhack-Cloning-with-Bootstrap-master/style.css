@@ -1,0 +1,179 @@
+a, a:active {
+	color: red;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+
+h4 {
+	color: #aaaaaa;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.brand-logo h1{
+	font-weight: 900;
+	font-size: 32px;
+	color: black;
+	margin-left: 40px;
+}
+.brand-logo h1:hover{
+	text-decoration: none;
+}
+
+.brand-logo a {
+	color: black;
+}
+
+.navigation {
+	padding: 30px;
+	list-style-type: none;
+}
+
+.navigation li {
+	display: inline;
+	padding: 10px;
+}
+
+li a {
+	color: #777777;
+}
+li a:hover, .navigation li a:active {
+	color: red !important;
+}
+
+.slider {
+	min-width: 100%;
+	height: 550px;
+	background-size: 100%;
+	background-image: url("http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-780x400.jpg");
+	filter: grayscale(1);
+	background-position: center;
+	opacity: 0.8;
+}
+
+.slider h1 {
+	color: white;
+	padding: 150px 200px 10px 200px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.slider p {
+	color: white;
+	padding: 10px 200px 50px 200px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.btn-transparent {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 0px;
+}
+
+.slider-text button {
+	margin: 0% 45%;
+}
+
+.features {
+	color: white;
+	text-align: center;
+	height: 315px;
+	background-color: #ED564B;
+	padding-top: 45px;
+	overflow: auto;
+}
+
+.features .col-sm-4 {
+	padding: 0px 20px;
+}
+
+.features i {
+    margin-top: 45px;
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.latest-projects img, .latest-articles img {
+	width: 100%;
+}
+
+.latest-projects a p {
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+}
+
+.latest-articles h3 {
+	color: black;
+	font-size: 16px;
+}
+
+.posted-on {
+	color: #606060;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.post-resume {
+	font-family: 'Helvetica';
+	font-size: 14px;
+	color: #606060;
+}
+
+.features {
+	border-top: 5px solid #F96B61;
+	border-bottom: 5px solid #F96B61;
+}
+
+.footer {
+	color: white;
+	border-top: 5px solid #F96B61;
+	background-color: #3B3B3B;
+}
+
+.footer .col-sm-3 {
+	padding: 40px 20px;
+}
+
+.footer h3 {
+	font-size: 16px;
+}
+
+.footer p {
+	color: #aaaaaa;
+}
+.footer ul {
+	padding-left: 0px;
+}
+
+.footer ul li {
+	list-style-type: none;
+	margin: 0px;
+	color: #aaaaaa;
+	padding: 5px;
+	border-bottom: 1px dotted #aaaaaa;
+}
+.footer-bottom, .footer-bottom a {
+ 	background-color: #292929;
+ 	color: white;
+ 	font-size: 12px;
+ 	padding: 10px 10px;
+
+ }
+
+
+
