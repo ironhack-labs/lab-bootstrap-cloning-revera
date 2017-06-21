@@ -1,0 +1,138 @@
+.colorblock {
+  padding: 40px 0px;
+  background-color: #ED564B;
+  border-top: 5px solid #F96B61;
+  border-bottom: 5px solid #F96B61;
+  color: white;
+}
+
+.colorblock .block span {
+  border: 5px solid white;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.colorblock .block p {
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.colorblock .block h3 {
+  text-align: center;
+}
+
+.contentblock {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.contentblock .content-title {
+  padding: 0 10px 20px;
+}
+
+.contentblock .content-title h2 {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.contentblock h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contentblock .posted-on {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contentblock .posted-on a {
+  color: #F4473A;
+}
+
+.contentblock .content-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #DFDFDF;
+  color: #AAAAAA;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contentblock h4 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.contentblock img {
+  max-width: 100%;
+}
+
+.content-cols > * {
+  text-align: center;
+}
+
+.content-cols h4, h3, p {
+  text-align: left;
+}
+
+.bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3B3B3B;
+  border-top: 5px solid #ED564B;
+}
+
+.bottom .row h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bottom .row p, ul {
+  color: #AAAAAA;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.bottom .row ul {
+  padding: 0;
+}
+
+.bottom .row ul li {
+  height: 100%;
+  line-height: 18px;
+  clear: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.bottom .row ul li a {
+  color: #AAAAAA;
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+  display: block;
+}
+
+footer {
+  padding: 20px;
+  color: #EEEEEE;
+  background: #292929;
+  font-size: 12px;
+}
+
