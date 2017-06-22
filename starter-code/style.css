@@ -1,0 +1,45 @@
+.row1 {
+  background-color: white;
+}
+.navbar-header {
+
+}
+
+
+.row2 {
+  background-image: url(img/project-2.jpg s);
+}
+
+.row3 {
+  background-color: red;
+  color: white;
+}
+
+.row4a {
+  background-color: white;
+}
+
+.row4b {
+  background-color: white;
+}
+
+.latestprojects {
+  width: 50%;
+}
+
+.row4c {
+  background-color: white;
+}
+
+.row4d {
+  background-color: white;
+}
+
+.row5 {
+  background-color: darkgray;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
