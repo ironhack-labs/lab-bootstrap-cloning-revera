@@ -1,0 +1,50 @@
+.test {
+  height:200px;
+  border: 1px solid blue;
+}
+
+.logo {
+  height: 90px;
+    border: 1px dashed blue;
+    text-align: center;
+}
+
+.nav-bar {
+  height: 90px;
+    border: 1px dashed blue;
+    padding: 25px;
+}
+
+.nav-bar li {
+  margin: 25px;
+  display: inline;
+}
+
+.main-img {
+  background-image: url('../img/slider.jpg');
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+
+}
+
+.nav-list {
+  float: left;
+  list-style: none;
+}
+
+.nav-button {
+  border: 1 solid black;
+}
+
+.mid-text {
+  padding: 10px 10px 25px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.big {
+  font-size: 48px;
+  margin-top: 25px;
+}
