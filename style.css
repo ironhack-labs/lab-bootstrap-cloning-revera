@@ -1,0 +1,71 @@
+body {
+  color: white;
+}
+
+.buttons {
+  margin-bottom: 30px;
+}
+
+.bg-picture {
+  margin-bottom: 40px;
+}
+
+.image-responsive {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.section2 {
+  margin-top: 50px;
+}
+
+.section3 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.thumbnail3 img {
+  width: 100%;
+}
+
+.thumbnail3 h3 {
+  color: black;
+}
+
+.copyrights {
+  color: black;
+}
+
+.colorblack {
+  color: black;
+}
+
+.last-section {
+  background-color: #0275d8;
+}
