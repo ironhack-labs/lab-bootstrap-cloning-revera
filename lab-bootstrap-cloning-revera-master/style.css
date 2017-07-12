@@ -1,0 +1,109 @@
+
+.container{
+  padding: 0;
+
+}
+.header {
+  text-align: center;
+}
+
+.row {
+
+  max-width: 100%;
+}
+.header li {
+  list-style: none;
+  /*display: inline-block;*/
+
+}
+.links {
+  display: none;
+}
+.dropdown button {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+.slider p {
+  display: none;
+}
+.slider {
+  background-image: url("starter-code/img/slider.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+
+  height: 300px;
+  color: white;
+  text-align: center;
+  position: relative;
+
+}
+.info {
+  background:#ed564b;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+  color: white;
+
+}
+.glyphicon {
+border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+  }
+.projects{
+  max-width:100%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 20px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.float-left{
+  float: left;
+}
+
+.articles {
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 20px;
+}
+
+.reference {
+  background: #3b3b3b;
+  color: #606060;
+  border-top: 6px solid #ed564b;
+}
+.reference h3 {
+  color: white;
+
+}
+.reference ul {
+  list-style: none;
+}
+.reference li {
+  border-bottom: 1px dotted #606060;
+
+}
+
+footer {
+  background: #3b3b3b;
+  color: white;
+  text-align: center;
+}
