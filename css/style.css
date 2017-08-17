@@ -1,0 +1,50 @@
+.header-bar {
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.red-bar {
+  height: 314;
+  width: 100%;
+  background-color: #ed564b;
+}
+
+.red-bar h3, p {
+  color: white;
+  text-align: center;
+}
+
+span {
+  color: white;
+  margin: auto;
+}
+
+.last-projects{
+  margin-top: 40px;
+}
+
+.img-responsive {
+  cursor: pointer;
+  max-height: 170px;
+  border: black solid 1px;
+}
+
+.second-row {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #606060;
+}
+
+post-footer {
+  background-color: #3b3b3b;
+}
