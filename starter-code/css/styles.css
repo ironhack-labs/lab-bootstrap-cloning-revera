@@ -23,7 +23,7 @@ a {
 }
 
 .carousel-item {
-  height: 425px;
+  height: 30%;
 }
 
 .carousel-caption {
@@ -185,4 +185,16 @@ a {
 
 .bottom-footer p {
   text-align: left;
+}
+
+@media (max-width: 800px) {
+  .services-container {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .services-container {
+    padding-bottom: 100px;
+  }
 }
