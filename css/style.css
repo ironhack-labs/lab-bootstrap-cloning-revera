@@ -1,3 +1,7 @@
+body {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
 .header-bar {
   width: 50%;
   margin: 0 auto;
@@ -17,18 +21,40 @@
   background-color: #ed564b;
 }
 
-.red-bar h3, p {
+.red-bar h3, .red-bar p {
   color: white;
   text-align: center;
 }
 
+.red-bar p {
+  margin-bottom: 40px;
+}
+
 span {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 35px;
+  line-height: 65px;
+  margin-top: 34px;
+}
+
+.glyphicon {
   color: white;
-  margin: auto;
 }
 
 .last-projects{
   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.car-last-projects h3 {
+  text-align: center;
 }
 
 .img-responsive {
