@@ -85,6 +85,10 @@ nav a:hover{
   color: #000;
 }
 
+.special{
+  color: #ed564b;
+}
+
 #articles h4{
   font-size: 12px;
   font-weight: bold;
