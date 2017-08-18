@@ -1,0 +1,70 @@
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-nav{
+  padding-left: 166px;
+}
+
+.navbar-nav li a {
+    color: grey;
+}
+
+.navbar-nav li.active a {
+  color: #f4473a;
+}
+
+.first-slide{
+  filter: grayscale(100%);
+}
+
+.carousel-caption h1{
+  text-transform: uppercase;
+}
+
+.carousel-caption p{
+  font-size: 20px;
+}
+
+.carousel-control.left,
+.carousel-control.right{
+  background-image: none;
+}
+
+.btn-primary{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: white;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+
+.marketing{
+  background-color: #ed564b;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.col-lg-4 .glyphicon{
+  font-size: 20px;
+  padding: 20px;
+  border: 6px solid white;
+  border-radius: 100px;
+}
+
+
+.projects img, .articles img{
+  width: 100%;
+}
+
+.footer{
+  background-color: #3b3b3b;
+  color: white;
+}
+
+footer{
+  background-color: #333;
+  color: white;
+}
