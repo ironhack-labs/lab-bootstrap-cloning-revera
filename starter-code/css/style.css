@@ -17,6 +17,7 @@
 }
 
 .first-slide{
+  width: 100%;
   filter: grayscale(100%);
 }
 
@@ -57,11 +58,35 @@
 
 .projects img, .articles img{
   width: 100%;
+  margin: 25px 0px 15px 0px;
+}
+
+div.projects h2, .articles h2{
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+div.projects h3, .articles h3 {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    margin: 0px;
 }
 
 .footer{
   background-color: #3b3b3b;
   color: white;
+  width: 1280px;
+  height: 351px;
+  border-top: 4px solid #ed564b;
+}
+
+.footer h2, h3{
+  font-size: 16px;
 }
 
 footer{
