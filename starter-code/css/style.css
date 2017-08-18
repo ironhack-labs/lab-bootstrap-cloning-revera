@@ -15,6 +15,7 @@ nav h1{
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 nav a{
   position: relative;
@@ -79,6 +80,9 @@ nav a:hover{
   text-align: center;
 }
 
+#projects a{
+}
+
 #articles h3 a{
   font-size: 15px;
   font-weight: bold;
@@ -95,17 +99,17 @@ nav a:hover{
 }
 #bottom-links{
   padding: 20px 0px 40px 0px;
-background: #3b3b3b;
-border-top: 5px solid #ed564b;
-color: #aaa;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
 }
 
 #bottom-links a{
   display: block;
   padding: 7px 0;
-  color:inherit;
   border-bottom: 1px dotted #aaa;
 }
+
 #copyright{
     padding: 10px 0px;
     background: #292929;
