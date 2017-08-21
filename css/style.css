@@ -1,17 +1,31 @@
 
 .header {
-  max-height: 70px;
+  max-height: 90px;
   max-width: 1170px;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .brand {
   vertical-align: baseline;
   text-transform: uppercase;
+  max-height: 90px;
+  height: 90px;
+  font-weight: 600;
+}
+
+.brand h1 {
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .header-title {
   float: left;
+}
+
+#red-title {
+  color: #ed564b;
 }
 
 .main-menu li {
@@ -26,6 +40,11 @@
   text-align: center;
   margin: 0 15px;
   color: #777
+}
+
+.main-menu li a:hover {
+  color: #ed564b;
+  text-decoration: none;
 }
 
 .img-car {
@@ -68,6 +87,31 @@ span {
   color: white;
 }
 
+.car-last-projects {
+}
+
+.section-title {
+  padding: 15px;
+  border-bottom: 1px solid #dfdfdf;
+  max-width: 1162px;
+  width: 1170px;
+  margin-bottom: 25px;
+}
+
+.section-title h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-title a {
+  text-transform: uppercase;
+  text-align: left;
+  color: #aaa;
+  font-weight: bold;
+}
+
 .last-projects{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -75,6 +119,7 @@ span {
 
 .car-last-projects h3 {
   text-align: center;
+  font-size: 15px;
 }
 
 .img-responsive {
@@ -83,15 +128,75 @@ span {
   border: black solid 1px;
 }
 
+.car-last-projects a {
+  text-transform: uppercase;
+  color: #606060;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.car-last-projects p {
+  margin-top: 20px;
+}
+
+.car-last-projects span {
+  color: #ed564b;
+}
+
 .second-row {
   margin-top: 20px;
 }
 
-footer {
+.last-section {
   border-top: 5px red solid;
-  background-color: #606060;
+  background-color: #404040;
+  height: 351px;
+  max-height: 351px;
 }
 
-post-footer {
-  background-color: #3b3b3b;
+.last-section h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.last-section p {
+  color: #aaa;
+}
+
+.last-section ul {
+  margin: 0;
+  padding: 0;
+}
+
+.last-section li {
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+  list-style-type: none;
+  margin: none;
+  padding: 7px 0px 7px 0px;
+}
+
+.last-section a {
+  color: #aaa;
+}
+
+.last-section a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  max-height: 78px;
+  height: 78px;
+  background-color: #2d2828;
+}
+
+.info .row {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+footer a {
+  color: white;
 }
