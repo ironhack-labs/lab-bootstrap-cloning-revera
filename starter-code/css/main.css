@@ -1,0 +1,43 @@
+.container .cat{
+  background-image: url("../img/slider.jpg");
+  background-size: contain;
+  height: 350px;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin-top: 0;
+}
+
+.navbar{
+
+}
+
+.rojo{
+  background-color: red;
+  padding: 20px;
+}
+
+.col-md-3{
+  color: white;
+}
+
+.col-md-2 img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+figcaption{
+  margin-top: 15px;
+}
+
+footer{
+  background-color: #4a4353;
+  color: white;
+  margin-top: 50px;
+  border-top: 2px solid red;
+  padding: 10px;
+}
+
+.oscur{
+  background-color: #27252a;
+  color: white;
+}
