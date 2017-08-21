@@ -7,6 +7,19 @@ body {
   margin-bottom: 0;
 }
 
+.latest {
+
+    border-bottom: 1px solid grey;
+
+}
 .jumbotron {
-  background-image: url("../images/sliders.jpg");
+  background-image: url("./images/sliders.jpg");
+}
+
+article {
+  img {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 }
