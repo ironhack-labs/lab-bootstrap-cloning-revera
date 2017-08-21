@@ -8,16 +8,26 @@
 }
 
 .navbar{
-
+  margin-bottom: 0;
 }
+
+/*.conRed{
+  margin: 0 auto;
+  background-color: blue;
+  border: 1px solid blue;
+  text-align: center;
+}*/
 
 .rojo{
   background-color: red;
-  padding: 20px;
+  padding: 15px;
+  height: 250px;
 }
 
 .col-md-3{
   color: white;
+  margin-left: 5px;
+  text-align: center;
 }
 
 .col-md-2 img{
@@ -40,4 +50,5 @@ footer{
 .oscur{
   background-color: #27252a;
   color: white;
+  height: 30px;
 }
