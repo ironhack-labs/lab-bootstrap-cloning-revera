@@ -1,0 +1,57 @@
+* {
+box-sizing: border
+}
+
+.red-section {
+  background-color: #ED564B;
+  color: white;
+  padding: 50px 80px;
+}
+
+.fa-stack-1x {
+  font-size: 10px;
+}
+
+#myCarousel {
+  height: 50vh;
+  margin-top: 50px;
+  position: relative;
+}
+
+.item {
+  height: 50vh;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 150px;
+  background-color: #ED564B;
+  color: white;
+  height: 100px;
+  width: 50px;
+  opacity: 1;
+}
+
+.projects img {
+  width: 150px;
+}
+
+.projects a {
+  color: black;
+}
+
+.articles img {
+  width: 150px;
+}
+
+.articles a {
+  color: black;
+}
+
+.article-info {
+  text-transform: uppercase;
+}
+
+.article-info a {
+  color: #ED564B;
+}
