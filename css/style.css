@@ -1,22 +1,42 @@
-body {
-  font-family: 'Sedgwick Ave Display', cursive;
-}
 
-.header-bar {
-  width: 50%;
-  margin: 0 auto;
+.header {
+  max-height: 70px;
+  max-width: 1170px;
   cursor: pointer;
 }
 
-.background {
-  height: 100%;
+.brand {
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+
+.header-title {
+  float: left;
+}
+
+.main-menu li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.main-menu li a {
+  display: block;
+  text-align: center;
+  margin: 0 15px;
+  color: #777
+}
+
+.img-car {
+
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 550px;
+  max-height: 550px;
 }
 
 .red-bar {
-  height: 314;
+  height: 314px;
   width: 100%;
   background-color: #ed564b;
 }
@@ -68,6 +88,7 @@ span {
 }
 
 footer {
+  border-top: 5px red solid;
   background-color: #606060;
 }
 
