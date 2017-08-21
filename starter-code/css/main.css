@@ -1,0 +1,70 @@
+nav.navi {
+  text-align: center;
+  padding: 19px 12% 0 12%;
+  background: #fff;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+div.navbar-header a.title {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #000;
+}
+
+div.navbar-header a.title:hover {
+  color: #000;
+}
+
+div.collapse ul.nav li a:hover {
+  color: #E76060;
+}
+
+div.collapse ul.nav {
+  margin-left: 21%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown .dropdown-menu a:hover {
+  background: #fff;
+}
+
+.dropdown .dropdown-menu li.divider {
+  width: 90%;
+  margin: 7px auto;
+}
+
+.dropdown .dropdown-menu li a {
+  color: #6b6b6b;
+}
+
+div.header {
+  text-align: center;
+  height: 530px;
+  background-image: url("../img/slider.jpg");
+  background-size: cover;
+}
+
+div.header div.col-sm-6 {
+  margin-top: 220px;
+  color: #ECE3E3;
+}
+
+div.row div.col-sm-6 {
+  font-size: 1.3em;
+}
+
+div.red {
+  background: #E76060;
+  color: #ECE3E3;
+  text-align: center;
+}
+
