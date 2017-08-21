@@ -1,0 +1,40 @@
+.background{
+  background-image:url(../images/project-3.jpg);
+  height: 528px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.centrado{
+  width:60%;
+}
+
+.fondo1 ,.fondo{
+  height: 60%;
+  margin:auto;
+  color:white;
+  text-align: center;
+  width: 60%;
+}
+.fondo1{
+  padding-top: 240px;
+}
+
+.rojas{
+  padding:30px;
+  text-align: center;
+  background-color: #ED564B;
+  color:white;
+}
+.footer{
+  padding-top: 20px;
+  background-color:#3B3B3B ;
+  color:white;
+
+}
+.gris{
+  color:grey;
+}
+hr{
+  border-style: dotted;
+}
