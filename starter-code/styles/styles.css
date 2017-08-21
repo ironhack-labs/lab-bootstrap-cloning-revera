@@ -1,0 +1,110 @@
+.navbar-default{
+  height: 90px;
+  margin-bottom: 0;
+}
+.navbar .navbar-brand{
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container > .navbar-header, .container>.navbar-collapse{
+
+  margin-top: 15px;
+}
+.carousel-inner{
+  background-image: url("../img/slider.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.carousel-inner .image1{
+  background-image: url("../img/overlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.image1>.carousel-caption{
+  top: 40%;
+  width: 40%;
+  margin: 0 auto;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-control{
+  height: 60vh;
+  opacity: 1;
+}
+.carousel-control > .flecha-izda{
+  left: 20px;
+}
+.carousel-control > .flecha-decha{
+  right: 20px;
+}
+.read{
+  border: 1px solid white;
+  padding: 10px 30px;
+
+}
+.first-section{
+  background: #ed564b;
+  color:white;
+}
+.icon{
+  font-size: 30px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  color: white;
+}
+.col-naranja{
+  padding: 30px 10px;
+}
+.portfolio{
+  border-bottom: 1px solid #ddd;
+}
+.projects{
+  margin-top: 30px;
+}
+.par-img{
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+
+}
+.par-img2{
+  text-align: left;
+  color: black,inherit;
+  margin-top: 15px;
+}
+.portfolio .tittle{
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer{
+  margin-top: 40px;
+  padding:40px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+.footer a{
+  color: #aaa;
+}
+.footer h5{
+  color: white;
+}
+.footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+.last-one{
+  color: white;
+  background: #292929;
+  padding-top: 20px;
+}
+.footer .borde{
+  border-bottom: 1px dotted #aaa;
+}
