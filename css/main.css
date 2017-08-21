@@ -1,0 +1,48 @@
+.first {
+  width: 100%auto;
+  text-align: center;
+}
+
+.background {
+text-align: center;
+background-image: url("../stater-code/img/project-2.jpg");
+background-size: cover;
+height:300px;
+width:100%;
+}
+
+.second {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+}
+
+.segundo1{
+background: red;
+height: 150px;
+color: white;
+
+}
+.centrados{
+  width: 100%;
+  margin: auto;
+
+
+}
+
+.p{background: pink;
+height: 200px;
+padding-top: 120px;}
+
+.b{background: blue;
+height: 250px;
+color: white;}
+
+.footer{
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  height: 250px;
+}
