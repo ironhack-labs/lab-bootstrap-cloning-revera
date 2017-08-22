@@ -1,0 +1,33 @@
+.red-back {
+  background-color: rgb(215, 75, 30);
+}
+
+.grey-back {
+  background-color: rgb(181, 181, 181);
+}
+
+.black-back{
+  background-color: rgb(93, 93, 93);
+}
+
+.icon-circle{
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+.red-line {
+  border-top: 3px solid rgb(215, 75, 30);
+}
+
+.centeringstuff{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 30px;
+}
+
+.image-fit{
+  width: 100%;
+}
