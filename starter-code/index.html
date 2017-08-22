@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>revera | Just another demo Sites site</title>
-  <link rel="stylesheet" href="css/main.css">
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="css/main.css">
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
         <div class="submenu">
           <ul class="nav nav-pills">
             <li class="menu-item home"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a>About</a></li>
             <li class="menu-item"><a href="#">Sample Page</a></li>
             <li class="menu-item"><a href="#">Portfolio</a></li>
             <li class="menu-item"><a href="#">Blog</a></li>
@@ -70,24 +70,108 @@
         <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
       </div>
       <div class="col-sm-3 project">
-        <img class="img-responsive" src="img/project-1.jpg" alt="First Project">
+        <img class="img-responsive" src="img/project-1.jpg" alt="First Project" data-toggle="modal" data-target="#project1Modal">
         <a href="#">Nunc libero elit, iaculis nec augue non</a>
       </div>
       <div class="col-sm-3 project">
-        <img class="img-responsive" src="img/project-2.jpg" alt="Second Project">
+        <img class="img-responsive" src="img/project-2.jpg" alt="Second Project" data-toggle="modal" data-target="#project2Modal">
         <a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>
       </div>
       <div class="col-sm-3 project">
-        <img class="img-responsive" src="img/project-3.jpg" alt="Third Project">
+        <img class="img-responsive" src="img/project-3.jpg" alt="Third Project" data-toggle="modal" data-target="#project3Modal">
         <a href="#">Vivamus blandit ipsum sed arcu euismod</a>
       </div>
       <div class="col-sm-3 project">
-        <img class="img-responsive" src="img/project-4.jpg" alt="Fourth Project">
+        <img class="img-responsive" src="img/project-4.jpg" alt="Fourth Project" data-toggle="modal" data-target="#project4Modal">
         <a href="#">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</a>
       </div>
     </div>
 
   </section>
+
+  <!-- Modal Project 1-->
+  <div class="modal fade" id="project1Modal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/project-1.jpg" alt="First Project Modal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Project 2-->
+  <div class="modal fade" id="project2Modal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/project-2.jpg" alt="Second Project Modal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Project 3-->
+  <div class="modal fade" id="project3Modal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/project-3.jpg" alt="Third Project Modal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Project 4-->
+  <div class="modal fade" id="project4Modal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/project-4.jpg" alt="Fourth Project Modal">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <section class="bottom">
     <div class="container">
