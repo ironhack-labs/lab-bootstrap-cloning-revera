@@ -89,6 +89,7 @@ h3 {
 .meta {
   background: #333;
   height: 300px;
+  border-top: 3px solid red;
 }
 
 footer {
