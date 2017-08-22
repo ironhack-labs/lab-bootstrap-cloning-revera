@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .container .cat{
   background-image: url("../img/slider.jpg");
   background-size: contain;
@@ -11,12 +18,9 @@
   margin-bottom: 0;
 }
 
-/*.conRed{
-  margin: 0 auto;
-  background-color: blue;
-  border: 1px solid blue;
-  text-align: center;
-}*/
+.cabecera{
+  width: 25%
+}
 
 .rojo{
   background-color: red;
