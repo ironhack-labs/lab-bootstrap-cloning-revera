@@ -1,0 +1,44 @@
+.brand {
+  text-transform: uppercase; }
+  .brand h1 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold; }
+
+.collapse ul li .active a {
+  color: #ed564b; }
+
+.collapse ul li a {
+  color: #606060; }
+
+.container-header {
+  color: #fff;
+  background-color: #ed564b;
+  padding: 25px;
+  text-align: center; }
+
+.section-title {
+  text-transform: uppercase;
+  padding-bottom: 20px; }
+
+.section-title > p {
+  color: #606060; }
+
+.sec1 {
+  text-align: center; }
+  .sec1 p {
+    padding-top: 15px; }
+
+.post h3 {
+  font-size: 16px;
+  font-weight: bold; }
+
+.post span {
+  text-transform: uppercase; }
+
+.post .post-link {
+  color: #ed564b;
+  text-decoration: none; }
+
+.post p {
+  color: #606060; }
