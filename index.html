@@ -9,10 +9,11 @@
   <link href="css/reset.css" type="text/css" rel="stylesheet">
   <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link href="js/bootstrap.js" type="text/js" rel="stylesheet">
+  <link rel="stylesheet" href="starter-code/css/main.css">
+  <link rel="stylesheet" href="starter-code/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css">
   <title>REVERA</title>
 </head>
 
@@ -27,18 +28,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">REVERA</a>
+        <a class="navbar-brand grey" href="#">REVERA</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Sample page</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Parent Page >></a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" class = "red">HOME</a></li>
+          <li><a href="#" class = "grey">About</a></li>
+          <li><a href="#" class = "grey">Sample page</a></li>
+          <li><a href="#" class = "grey">Portfolio</a></li>
+          <li><a href="#" class = "grey">Blog</a></li>
+          <li><a href="#" class = "grey">Parent Page >></a></li>
+          <li><a href="#" class = "grey">Contact</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -81,32 +82,38 @@
   </a>
   </div>
   <!--Columns-->
-  <div>
+  <div class = "line">
     <div class="row">
       <div class="col-sm-2">
       </div>
-      <div class="col-sm-3 line">
-        <span class="glyphicon glyphicon-glass icon"></span>
+      <div class="col-sm-3 ">
+        <span class="glyphicon glyphicon-glass icon emogis"></span>
         <h1>Web design</h1>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius </p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
+          Aenean auctor nulla quis augue dictum, sed sagittis odio varius </p>
       </div>
-      <div class="col-sm-3 line">
-        <span class="glyphicon glyphicon-star icon"></span>
+      <div class="col-sm-3 ">
+        <span class="glyphicon glyphicon-star icon emogis"></span>
         <h1>Web development</h1>
-        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+          porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum
+          imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
       </div>
-      <div class="col-sm-3 line">
-        <span class="glyphicon glyphicon-heart icon"></span>
+      <div class="col-sm-3 ">
+        <span class="glyphicon glyphicon-heart icon emogis"></span>
         <h1>User interface</h1>
-        <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+        <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien
+           dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
+            Praesent non enim et magna congue gravida.</p>
       </div>
       <div class="col-sm-2">
       </div>
     </div>
   </div>
-  <div>
+  <div class="paddingTime">
     <h3><b>LATEST PROYECTS</b></h3>
-    <p>FEW OF THE LASTESTPORTFOLIO ITEMS</p>
+    <p class="grey">FEW OF THE LASTESTPORTFOLIO ITEMS</p>
     <hr>
   </div>
   <!--Photo columns-->
@@ -134,9 +141,9 @@
       </div>
     </div>
   </div>
-  <div>
+  <div class="paddingTime">
     <h3><b>LATEST ARTICLES</b></h3>
-    <p>LATEST POSTS FROM THE BLOG</p>
+    <p class="grey">LATEST POSTS FROM THE BLOG</p>
     <hr>
   </div>
 
@@ -149,16 +156,23 @@
         <img src="starter-code/img/slider.jpg" class="img-responsive">
         <h5><b>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</b></h5>
         <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur
-          erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor.
+          Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor,
+          ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+          erat. Maecenas dignissim suscipit orci at molestie.
+          Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc.
+          Etiam mauris tortor, pharetra […]</p>
       </div>
       <div class="col-sm-2">
         <img src="starter-code/img/project-1.jpg" class="img-responsive">
         <h5><b>Falauris sollicitudin quis dolor venenatis facilisis</b></h5>
 
         <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
-        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna.
-          Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+        <p>Donec sed dolor eu augue dignissim pellentesque.
+           Fusce semper tortor ornare, luctus sem in, dictum leo.
+           Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+           Suspendisse at magna ut sem blandit hendrerit non ut magna.
+           Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
       </div>
       <div class="col-sm-2">
         <img src="starter-code/img/project-2.jpg" class="img-responsive">

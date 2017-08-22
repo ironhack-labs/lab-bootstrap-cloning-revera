@@ -1,8 +1,28 @@
 
 .line{
   background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.grey{
+  color: grey;
+}
+.red{
+  color: red;
+}
+.paddingTime{
+  padding-left: 10%;
 }
 .foot{
   background-color: black;
   color: white;
+}
+.emogis{
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  border-color: white;
+  font-size: 4rem;
+  margin-top: 10px;
 }
