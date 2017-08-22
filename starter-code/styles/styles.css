@@ -1,6 +1,7 @@
 .navbar-default{
   height: 90px;
   margin-bottom: 0;
+  z-index: 1;
 }
 .navbar .navbar-brand{
   color: black;
@@ -13,16 +14,17 @@
   margin-top: 15px;
 }
 .carousel-inner{
-  background-image: url("../img/slider.jpg");
+  background-image:url("../img/overlay.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
 }
 .carousel-inner .image1{
-  background-image: url("../img/overlay.png");
+  background-image:  url("../img/slider.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
+  filter: grayscale();
 }
 .image1>.carousel-caption{
   top: 40%;
@@ -43,6 +45,10 @@
 .carousel-control > .flecha-decha{
   right: 20px;
 }
+.revera{
+  width: 100%;
+  background: white;
+}
 .read{
   border: 1px solid white;
   padding: 10px 30px;
@@ -51,6 +57,7 @@
 .first-section{
   background: #ed564b;
   color:white;
+  z-index: -1;
 }
 .icon{
   font-size: 30px;
@@ -107,4 +114,9 @@
 }
 .footer .borde{
   border-bottom: 1px dotted #aaa;
+}
+@media(max-width: 760px){
+  .image1>.carousel-caption{
+    display: none;
+  }
 }
