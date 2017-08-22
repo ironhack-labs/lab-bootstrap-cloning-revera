@@ -52,3 +52,7 @@ nav{
 .navbar-nav{
   float: right;
 }
+
+.active{
+  color:red;
+}
