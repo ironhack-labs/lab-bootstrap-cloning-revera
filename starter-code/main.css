@@ -16,7 +16,7 @@ nav{
 }
 
 
-.col-md-4{
+.col-sm-4{
   height: 210px;
   background-color: #F17214;
   text-align: center;
@@ -24,7 +24,7 @@ nav{
   color: #fff;
 }
 
-.col-md-2{
+.col-sm-2{
   height: 100px;
 }
 
