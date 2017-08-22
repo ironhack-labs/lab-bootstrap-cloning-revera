@@ -1,0 +1,34 @@
+.navbar-header{
+height: 50px;
+}
+.container{
+  height: 500px;
+  background-color: black;
+  margin: 0px;
+  width: 100%;
+}
+.downcontainer{
+  height: 300px;
+  background-color: red;
+}
+.principal{
+  height: 1000px;
+width: 80%;
+margin: 10px 120px;
+
+}
+.footer{
+  height: 300px;
+  background-color: grey;
+}
+.footer2{
+  height: 100px;
+  background: black;
+}
+.col-sm-2{
+  background: white;
+  align: center;
+}
+span.{
+  align:center;
+}
