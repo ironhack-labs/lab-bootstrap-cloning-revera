@@ -56,3 +56,9 @@ nav{
 .active{
   color:red;
 }
+
+.glyphicon{
+  border:4px solid #FFF;
+  border-radius: 50px;
+  padding: 10px;
+}
