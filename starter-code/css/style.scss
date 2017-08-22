@@ -29,36 +29,46 @@
 	background-color: #ed564b;
 	padding: 25px;
 	text-align: center;
+	.row {
+		.col-sm-4 {
+			.circle {
+				border: 5px solid #fff;
+				border-radius: 50px;
+				padding: 30px;
+				font-size: 25px;
+			}
+		}
+	}
 }
 
 .section-title {
 	text-transform: uppercase;
 	padding-bottom: 20px;
 }
-
 .section-title>p {
 	color: #606060;
 }
-
 .sec1 {
 	text-align: center;
 	p {
 		padding-top: 15px;
 	}
 }
-
 .post {
 	h3 {
 		font-size: 16px;
 		font-weight: bold;
 	}
+
 	span {
 		text-transform: uppercase;
 	}
+
 	.post-link {
 		color: #ed564b;
 		text-decoration: none;
 	}
+
 	p {
 		color: #606060;
 	}

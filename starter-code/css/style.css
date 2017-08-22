@@ -16,6 +16,11 @@
   background-color: #ed564b;
   padding: 25px;
   text-align: center; }
+  .container-header .row .col-sm-4 .circle {
+    border: 5px solid #fff;
+    border-radius: 50px;
+    padding: 30px;
+    font-size: 25px; }
 
 .section-title {
   text-transform: uppercase;
