@@ -17,7 +17,7 @@ div.navbar-header a.title:hover {
 }
 
 div.collapse ul.nav li a:hover {
-  color: #E76060;
+  color: #ed564b;
 }
 
 div.collapse ul.nav {
@@ -63,17 +63,17 @@ div.row div.col-sm-6 {
 }
 
 div.red {
-  background: #E76060;
+  background: #ed564b;
   color: white;
   text-align: center;
   border: 5px solid;
   border-color: #F39797;
+  padding: 40px 0;
 }
 
 div.rec-cont span.glyphicon {
   font-size: 1.2em;
   padding: 18px;
-  margin-top: 20px;
   border: 5px solid white;
   border-radius: 50px;
 }
@@ -83,7 +83,7 @@ div.white-cont div.col-sm-3 img {
 }
 
 div.white-cont div.col-sm-3 a {
-  color: #E76060;
+  color: #ed564b;
 }
 
 div.white-cont div.col-sm-3 h3 {
@@ -94,4 +94,34 @@ div.white-cont div.col-sm-3 h3 {
 div.white-cont div.col-sm-3 h4 {
   font-size: 0.9em;
   margin: 20px 0 30px 0;
+}
+
+div.footer {
+  background: #3b3b3b;
+  color: #6b6b6b;
+  border-top: 3px solid #ed564b;
+}
+
+div.footer ul.list-group {
+  list-style: none;
+}
+
+div.footer ul.list-group a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+div.footer ul.list-group a:hover {
+  color: white;
+}
+
+div.bottom {
+  height: 60px;
+  background: #292929;
+}
+
+div.bottom p {
+  color: white;
+  padding-top: 10px;
+  padding-left: 10%;
 }
