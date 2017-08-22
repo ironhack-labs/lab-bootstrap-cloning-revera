@@ -1,0 +1,64 @@
+.blue{
+  background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
+.altura{
+  height: 400px;
+  background-image: url(img/slider.jpg);
+  background-size: cover;
+}
+
+nav{
+  height: 100px;
+}
+
+
+.col-sm-4{
+  height: 210px;
+  background-color: #F17214;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.col-sm-2{
+  height: 100px;
+}
+
+.container{
+  text-align: center;
+}
+
+
+.images2{
+
+  height: 400px;
+}
+
+.last{
+  text-align: left;
+}
+
+.foot{
+  background-color: #393837;
+  height:400px;
+  color:white;
+  text-align: left;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+.active{
+  color:red;
+}
+
+.glyphicon{
+  border:4px solid #FFF;
+  border-radius: 50px;
+  padding: 10px;
+}
