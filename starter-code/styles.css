@@ -17,8 +17,19 @@ header > ul {
   background-size: 125%;
   background-repeat: no-repeat;
   filter: grayscale();
+  text-align: center;
   height: 600px;
   width: 100%;
+  color: white;
+}
+
+.kitty > h1 {
+  padding: 250px 260px 0px 260px;
+}
+
+.kitty > p {
+  padding: 0px 270px 0px 270px;
+  font-size: 17px;
 }
 
 .red-div {
