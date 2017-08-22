@@ -13,12 +13,7 @@
 
   margin-top: 15px;
 }
-.carousel-inner{
-  background-image:url("../img/overlay.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 60vh;
-}
+
 .carousel-inner .image1{
   background-image:  url("../img/slider.jpg");
   background-size: cover;
@@ -114,6 +109,13 @@
 }
 .footer .borde{
   border-bottom: 1px dotted #aaa;
+}
+.red{
+  color: #ed564b;
+}
+.par2-im2{
+  font-size: 12px;
+  font-weight: 600
 }
 @media(max-width: 760px){
   .image1>.carousel-caption{
