@@ -1,0 +1,71 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.services {
+  background-color: #ed564b;
+  color: #fff;
+  padding: 2rem;
+}
+
+.services p {
+  font-weight: 200;
+}
+
+
+
+.latest {
+  margin-bottom: 3rem;
+}
+
+.latest-title {
+
+    border-bottom: 1px solid grey;
+}
+.header {
+  background-image: url("./img/slider.jpg");
+  background-size: cover;
+  color: #fff;
+  height: 560px;
+}
+
+.header h5 {
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+.jumbotron {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.circle {
+  border: 5px solid white;
+  padding: 30px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+article {
+  img {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  padding: 6rem;
+  color: #aaa;
+}
+
+.footer > p {
+  font-weight: 200;
+  line-height: 1.5px;
+}
