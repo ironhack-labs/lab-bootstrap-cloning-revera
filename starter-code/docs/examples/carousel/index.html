@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel_copy.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container" id=navbar-content>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <h1 class="navbar-brand">REVERA</h1>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#sample">Sample page</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parent <page></page> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Full page</a></li>
+                    <li><a href="#">Child page 1</a></li>
+                    <li><a href="#">Child page 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img class="first-slide" src="../../../img/slider.jpg" alt="First slide">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h1>
+              <p id="carousel_p">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" id="chevron" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" id="chevron" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row" id="three">
+        <div class="col-lg-4">
+          <i class="glyphicon glyphicon-glass" id="icon" alt="Generic placeholder image" width="80" height="80"></i>
+          <h2>Web design</h2>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <i class="glyphicon glyphicon-star" id="icon" alt="Generic placeholder image" width="80" height="80"></i>
+          <h2>Web development</h2>
+          <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <i class="glyphicon glyphicon-heart" id="icon" alt="Generic placeholder image" width="80" height="80"></i>
+          <h2>User interface</h2>
+          <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">LATEST PROJECTS</h2>
+          <p class="lead">FEW OF THE LATEST PORTFOLIO ITEMS</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" src="../../../img/project-1.jpg" alt="Generic placeholder image">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" src="../../../img/project-2.jpg" alt="Generic placeholder image">
+          <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" src="../../../img/project-3.jpg" alt="Generic placeholder image">
+          <p>Vivamus blandit ipsum sed arcu euismod</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" src="../../../img/project-4.jpg" alt="Generic placeholder image">
+          <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+        </div>
+      </div>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">LATEST ARTICLES</h2>
+          <p class="lead">LATEST POSTS FROM THE BLOG</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <h4>
+            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+          </h4>
+          <h5>
+            POSTED ON AUGUST 19, 2013 BY ADMIN
+          </h5>
+          <p>
+            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <h4>
+            Falauris sollicitudin quis dolor venenatis facilisis
+          </h4>
+          <h5>
+            POSTED ON AUGUST 19, 2013 BY ADMIN
+          </h5>
+          <p>
+            Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <h4>
+            Suspendisse ornare, felis feugiat suscipit pharetra
+          </h4>
+          <h5>
+            POSTED ON AUGUST 19, 2013 BY ADMIN
+          </h5>
+          <p>
+            Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <h4>
+            Festibulum purus odio, ornare non posuere
+          </h4>
+          <h5>
+            POSTED ON AUGUST 19, 2013 BY ADMIN
+          </h5>
+          <p>
+            Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]
+          </p>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+      <div class="row" id="end-section">
+
+        <div class="col-md-3">
+          <h4>REVERA</h4>
+          <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <h4>META</h4>
+          <ul class="meta-list">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Entries RSS</a></li>
+            <li><a href="#">Comments RSS</a></li>
+            <li><a href="#">WordPress.org</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h4>ARCHIVES</h4>
+          <ul class="archives-list">
+            <li><a href="#">August 2013</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h4>RECENT POSTS</h4>
+          <ul class="meta-list">
+            <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+            <li><a href="#">Nunc libero elit, iaculis nec augue non</a></li>
+            <li><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+            <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+            <li><a href="#">Vivamus blandit ipsum sed arcu euismod</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

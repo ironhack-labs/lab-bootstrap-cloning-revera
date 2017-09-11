@@ -1,0 +1,272 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+}
+
+.navbar-nav {
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+.navbar-brand{
+  font-size: 2.5em;
+}
+
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+color: #ed564b;
+background-color: transparent;
+}
+
+#navbar-content{
+  border-bottom: solid 2px white;
+}
+.navbar{
+  background-color: white;
+}
+
+.container{
+  border-bottom: white solid 2px;
+}
+
+.navbar-inverse{
+  border-bottom: none;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+#myCarousel {
+}
+
+.carousel {
+  height: 500px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+#carousel_p{
+  font-size: 1.2em;
+}
+
+.first-slide{
+  filter: grayscale(100%);
+}
+
+.carousel-inner > .item > .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../img/overlay.png");
+  background-repeat: repeat repeat;
+  min-width: 100%;
+  height: 500px;
+  height: 100%;
+
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > .first-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  height: 100%;
+}
+
+.btn-lg{
+  background-color: transparent;
+  border: grey solid 1px;
+  border-radius: 0;
+}
+
+.left, .right{
+  margin: auto;
+  background: none;
+  background-color: #ed564b;
+  opacity: 1;
+  height: 100px;
+  width: 60px;
+}
+
+#chevron{
+  border: none;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+#three{
+background-color: #ed564b;
+padding-top: 40px;
+color: white;
+padding-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+#three h2{
+  font-size: 2em;
+}
+
+#three p{
+  text-align: center;
+}
+
+#icon {
+  border: 5px white solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  line-height: 65px;
+  font-size: 20px;
+}
+
+.marketing {
+  margin-top: 0;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.row{
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size: 1.7em;
+  color: black;
+}
+
+.lead{
+  font-size: 1em;
+}
+
+#end-section{
+  background-color: #3d3c3c;
+  border-top: 4px solid #ed564b;
+}
+
+#end-section h4{
+color: white;
+}
+
+#end-section p{
+  color: darkgray;
+}
+
+#end-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: darkgray;
+}
+
+#end-section a:link {
+  color: darkgray;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  height:80px;
+  margin-bottom: 0;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+  }
+  .navbar-wrapper .container {
+
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  /*
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+
+  }
+}
+*/
