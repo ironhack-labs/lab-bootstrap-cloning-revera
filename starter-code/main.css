@@ -10,13 +10,19 @@ h1,h5, #content-header1, #content-header2 {
   color: black;
 }
 
+a:hover {
+  color: #ed564b;
+  text-decoration: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn-light {
-  background: rgba(248, 249, 250, 0.8);
+  background-image: url('./img/overlay.png');
+  opacity: 0.5;
   color: white;
 }
 
@@ -38,10 +44,30 @@ h1,h5, #content-header1, #content-header2 {
   filter: grayscale(100%);
 }
 
+#slidebox .carousel-item {
+  position: relative;
+}
+
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('./img/overlay.png');
+  opacity: 0.5;
+}
+
 #carousel {
   width: 100%;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #ed564b;
+  height: 70px;
+  justify-content: space-around;
+}
 #fwidgets {
   background-color: #ed564b;
   color: #fff;
@@ -72,6 +98,11 @@ h1,h5, #content-header1, #content-header2 {
 #bottom {
   background-color: #3b3b3b;
   border-top: 5px solid #ed564b;
+  color: #fff;
+}
+
+.bottom-link {
+  text-decoration: none;
   color: #fff;
 }
 
