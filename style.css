@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+.full-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f4473a;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+  color: #f4473a;
+}
+
+.sr-only {
+  color: #f4473a;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.bgred {
+  background-color: #ed564b;
+  color: white;
+}
+
+.red-em {
+  color: #f4473a;
+}
+
+.valueprops {
+  padding: 50px 0;
+}
+
+.carousel-caption h3 {
+  font-size: 4em;
+  margin-bottom: 30px;
+
+}
+
+.homewidget {
+  text-align: center;
+}
+
+.homewidget h3 {
+  margin: 20px 0;
+}
+
+.homewidget span {
+  border: 5px solid #fff;
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.homewidget  i {
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Projects display */
+
+.projects-margin {
+  margin-top: 50px;
+}
+
+.portfolio-title {
+  margin-bottom: 0px;
+}
+
+.portfolio-subtitle {
+  color: #aaa;
+  font-weight: 400;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.portfolio-desc {
+  color: #000;
+  text-align: center;
+  margin: 20px 0 10px 0;
+  letter-spacing: 0px;
+  font-size: 1em;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.blogpost-title {
+  margin: 20px 0 10px 0;
+  text-align: left;
+}
+
+.posted-on {
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.blogpost-desc {
+  font-size: 0.8em;
+  color: #606060;
+  line-height: 20px;
+}
+
+.footer {
+padding: 20px 0px 0px 0px;
+background: #3b3b3b;
+border-top: 5px solid #ed564b;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+        margin-left: 35%;
+  }
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.1em;
+  margin: 40px 0 25px 0;
+}
+
+.normalp {
+  color: #aaa;
+  font-size: 0.8em;
+  margin: 0 10px 0 0;
+}
+
+
+
+.footer-list li {
+  color: #aaa;
+  text-decoration: none;
+  padding: 7px 0px 10px 0px;
+  display: block;
+  border-bottom: 0.5px dotted #aaa;
+  font-size: 0.8em;
+
+}
+
+.footer-list > :first-child {
+  padding: 0px 0px 10px 0px;
+}
+
+.footer-list {
+  padding-left: 0px;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+ /*carousel fade copied from  https://codepen.io/Rowno/pen/Afykb
+
+//!\\ Doesn't work properly yet (image just swaps without animation) //!\\
+
+
+
+ .carousel-fade .carousel-inner .carousel-item {
+     transition-property: opacity;
+   }
+   .carousel-fade .carousel-inner .item,
+   .carousel-fade .carousel-inner .active.left,
+   .carousel-fade .carousel-inner .active.right {
+     opacity: 0;
+   }
+   .carousel-fade .carousel-inner .active,
+   .carousel-fade .carousel-inner .next.left,
+   .carousel-fade .carousel-inner .prev.right {
+     opacity: 1;
+   }
+   .carousel-fade .carousel-inner .next,
+   .carousel-fade .carousel-inner .prev,
+   .carousel-fade .carousel-inner .active.left,
+   .carousel-fade .carousel-inner .active.right {
+     left: 0;
+     transform: translate3d(0, 0, 0);
+   }
+   .carousel-fade .carousel-control {
+     z-index: 2;
+   }
+   html,
+   body,
+   .carousel,
+   .carousel-inner,
+   .carousel-inner .item {
+     height: 100%;
+   }
+   .item:nth-child(1) {
+     background: #74C390;
+   }
+   .item:nth-child(2) {
+     background: #51BCE8;
+   }
+   .item:nth-child(3) {
+     background: #E46653;
+   }
+*/
