@@ -1,0 +1,155 @@
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+.container {
+  height:auto;
+  width:auto;
+}
+
+  .navbar {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    z-index: 400;
+  }
+.menu {
+  display:block;
+  float:right;
+  margin-right: 359px;
+}
+  li{
+    color: grey;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-left: 20px;
+  }
+
+  img {
+    height:180px;
+  }
+
+  .col {
+
+  }
+
+.slider {
+  background-image: url(../img/slider.jpg);
+  opacity: 0.6;
+  background-color: black;
+height: 550px;
+z-index:300p;
+}
+.doverlay {
+  height: 550px;
+  width: 100%;
+  background-image: url(../img/overlay.png);
+  background-repeat: repeat;
+  z-index:500;
+}
+
+
+.projectitle {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 10px;
+}
+.projectitle h3{
+    color: black;
+}
+.projectitle h4 {
+color: #e5e3e3
+}
+.date {
+  text
+}
+.activities {
+  display: block;
+  background-color: #ed564b;
+height: 310px;
+border-top:3px solid #f96b61;
+padding:40px 100px 40px 100px;
+text-align: center;}
+
+.activities p,h3,i{
+  color: white;
+}
+
+.activities i {
+  margin-bottom: 20px;
+}
+
+.latest{
+
+margin-top: 50px;
+background-color: white;
+height: 1100px;
+margin-bottom: 20px;
+}
+.latestarticle{
+
+margin-top: 50px;
+background-color: white;
+height: 1150px;
+margin-bottom: 20px;
+}
+
+.latestarticle p {
+font-size: 14px;
+}
+.project p {
+  text-align :center;
+  font-size: 14px;
+}
+
+
+.fontawe {
+text-align:center;
+  width: 60px;
+	height: 60px;
+  border:1px solid white;
+	background: none;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.footer{
+  border-top: 3px solid #ed564b;
+  padding: 50px 100px 10px 100px;;
+  background-color: #3b3b3b;
+  height: 350px;}
+
+
+.footer h3{
+  font-size: 16px;
+  margin-bottom: 30px;
+
+}
+.footer p{
+  color: #aaaaaa;
+  font-size: 14px;
+
+}
+.footerlink {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #aaaaaa;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.mentions{
+background-color: #292929;
+height: 80px;
+padding-left: 20px;
+padding-top: 19px;
+}
+
+.mentions p {
+  color: white;
+  font-size: 12px;
+}
