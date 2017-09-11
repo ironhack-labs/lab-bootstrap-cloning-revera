@@ -1,0 +1,147 @@
+
+body {
+  font-family: 'Oxygen',sans-serif;
+}
+
+/*===================================*/
+/*  Header styling  */
+/*===================================*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; /* aligns list menu to the right */
+}
+
+header ul li {
+  padding: 20px 10px;
+}
+
+header ul li:hover {
+  color: #DD6053;
+}
+
+/*=====================================*/
+/*  Main Picture and Features styling  */
+/*=====================================*/
+
+.main-pic img {
+  width: 100%; /* Takes 100% of its parent  container, height: auto */
+  max-height: 550px;
+}
+
+.features {
+  background-color: #DD6053;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 25px;
+  border-top: 5px solid #E97367;
+  border-bottom: 5px solid #E97367;
+}
+
+.features h2 {
+  font-weight: bold;
+}
+
+/*===================================*/
+/*  Project-Widgets section styling  */
+/*===================================*/
+.latest-projects {
+  margin-top: 40px;
+  padding: 0px 15px 20px 15px;
+}
+
+.latest-projects h2 {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.latest-projects h3 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #AAAAAA;
+  margin: 0px 5px; /* Cancels default bootstrap styles for titles  */
+}
+
+.project-widgets img {
+  width: 100%; /* Takes 100% of its parent container, height: auto */
+}
+
+.project-widgets {
+  text-align: center;
+  margin-left: 0px 15px;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  color: black;
+}
+
+/*=================================*/
+/*  Latest Articles Title styling  */
+/*=================================*/
+.latest-articles h2 {
+  margin-top: 40px;
+  padding: 0px 15px 5px 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.latest-articles h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 05px 0px 15px;
+  color: #AAAAAA;
+}
+
+/*===================================*/
+/*  Article-Widgets section styling  */
+/*===================================*/
+.article-widgets {
+  font-size: 14px;
+  color: #606060;
+  margin: 15px 0px;
+}
+
+.article-widgets h2 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Helvetica Neue";
+}
+
+.article-widgets img {
+  width: 100%; /* Takes 100% of its parent container, height: auto */
+}
+
+/* Selector to the article byline */
+.article-widgets p:first-of-type {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.article-widgets p:first-of-type span {
+  color: red;
+}
+
+/*==========================*/
+/*  Footer section styling  */
+/*==========================*/
+.footer-section {
+  background-color: #3B3B3B;
+  font-size: 14px;
+  color: #AAAAAA;
+  border-top: 5px solid #DD6053;
+  padding: 0px 25px;
+}
+
+.footer-section h2 {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px 0px;
+  margin: 20px 0px 10px 0px;
+}
