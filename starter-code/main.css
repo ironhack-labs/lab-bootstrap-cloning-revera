@@ -59,6 +59,16 @@ a:hover {
   opacity: 0.5;
 }
 
+#overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(237,86,75,0.2);
+  opacity: 0.5;
+}
+
 #carousel {
   width: 100%;
 }
