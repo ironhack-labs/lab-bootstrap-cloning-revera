@@ -8,14 +8,21 @@
   width:auto;
 }
 
-  .navbar {
+  .navbarre {
     background-color: white;
-    position: fixed;
     top: 0px;
     width: 100%;
     height: 90px;
     z-index: 400;
   }
+
+  .navbar-nav li {
+    font-size: 15px;
+  }
+.collapse {
+  margin-left: 200px;
+}
+
 .menu {
   display:block;
   float:right;
@@ -50,7 +57,20 @@ z-index:300p;
   background-image: url(../img/overlay.png);
   background-repeat: repeat;
   z-index:500;
+  text-align: center;
+  padding-top: 200px;
 }
+
+.doverlay h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.doverlay p {
+  color: white;
+  font-size: 15px;
+}
+
 
 
 .projectitle {
@@ -70,9 +90,9 @@ color: #e5e3e3
 .activities {
   display: block;
   background-color: #ed564b;
-height: 310px;
+height: 350px;
 border-top:3px solid #f96b61;
-padding:40px 100px 40px 100px;
+padding:40px 100px 60px 100px;
 text-align: center;}
 
 .activities p,h3,i{
@@ -82,6 +102,8 @@ text-align: center;}
 .activities i {
   margin-bottom: 20px;
 }
+
+
 
 .latest{
 
@@ -106,9 +128,13 @@ font-size: 14px;
   font-size: 14px;
 }
 
-
+.fa {
+  border-radius: 40px;
+  border: 2px solid white;
+  padding: 20px;
+}
 .fontawe {
-text-align:center;
+  text-align:center;
   width: 60px;
 	height: 60px;
   border:1px solid white;
@@ -116,6 +142,8 @@ text-align:center;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+  margin: auto;
+  padding: none;
 }
 
 .footer{
