@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: 'Inconsolata';font-size: 16px;
+}
+
+.red-section {
+  background-color: #ED564B;
+  color: white;
+  padding: 50px 80px;
+}
+.carousel-caption{
+position: center;
+color: black;
+}
+
+#theCarousel {
+  height: 300px;
+  margin-top: 50px;
+  position: relative;
+    
+}
+
+.item {
+  height: 320px;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 150px;
+  background-color: white;
+  color: white;
+  height: 100px;
+  width: 50px;
+  opacity: 1;
+}
+
+.projects img {
+  width: 150px;
+}
+
+.projects a {
+  color: black;
+}
+
+.articles img {
+  width: 150px;
+}
+
+.articles a {
+  color: black;
+}
+
+.article-info {
+  text-transform: uppercase;
+}
+
+.article-info a {
+  color: #ED564B;
+}
