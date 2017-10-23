@@ -1,0 +1,42 @@
+
+.site-title {
+  font-weight:bold;
+  font-size: 32px;
+ }
+
+.site-header {
+  min-height: 90px;
+}
+
+
+ul li {
+ display:inline-block;
+ padding-right: 10px;
+}
+.mainmenu {
+  margin-top: 30px;
+}
+
+.carousel {
+  min-height: 543px;
+  background-color: black;
+}
+
+.icon-boxes {
+  min-height: 314px;
+  background-color: red;
+}
+
+.site-content{
+  min-height: 1121px;
+}
+
+.footer {
+  min-height: 351px;
+  background-color: black;
+}
+
+.bottom-bar {
+  min-height: 90px;
+  background-color: grey;
+}
