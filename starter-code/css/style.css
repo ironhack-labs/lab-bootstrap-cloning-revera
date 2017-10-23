@@ -1,0 +1,28 @@
+.navigation {
+  height: 130px;
+}
+
+.header {
+  background-color: black;
+  height: 172px;
+}
+
+.services {
+  background: #ed564b;
+  height: 750px;
+}
+
+.main-content {
+  background-color: #fff;
+  height: 2360px;
+}
+
+.footer-info {
+  height: 704px;
+  background: #3b3b3b;
+}
+
+.footer-copy {
+  background: #292929;
+  height: 78px;
+}
