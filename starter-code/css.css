@@ -1,0 +1,48 @@
+.navbar {
+  background-color: white;
+  height: 90px;
+}
+
+.primera {
+  background-color: black;
+  height: 550px;
+}
+
+.navbar h1 {
+  padding: 10px 50px;
+}
+
+li {
+  margin: 0 40px;
+  padding: 40px 0px;
+}
+
+.segundo {
+  background-color: red;
+  height: 314px;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+  padding: 40px 0px;
+}
+
+.textRed {
+  text-align: center;
+  font-family: inherit;
+}
+
+.tercero {
+  background-color: white;
+  height: 1121px;
+}
+
+.cuarto {
+  background-color: black;
+  height: 351px;
+  border-top: 5px solid #ed564b;
+}
+
+.quinto {
+  background-color: grey;
+  height: 78px;
+}
