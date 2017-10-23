@@ -1,3 +1,12 @@
+.portbox h3 {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+
+.icon-p {
+ margin: 0px 35px
+}
 
 .site-title {
   font-weight:bold;
@@ -7,7 +16,6 @@
 .site-header {
   min-height: 90px;
 }
-
 
 ul li {
  display:inline-block;
@@ -23,16 +31,54 @@ ul li {
 }
 
 .carousel-control-prev .carousel-control-next {
-  color: white; 
+  color: white;
+}
+
+
+.icon-section {
+ padding: 40px 0px;
+ background: #ed564b;
+ border-top: 5px solid #f96b61;
+ border-bottom: 5px solid #f96b61;
 }
 
 .icon-boxes {
-  min-height: 314px;
-  background-color: red;
+
+  text-align: center;
+  color: white;
 }
 
-.site-content{
+.icon-boxes span {
+ border: 5px solid #fff;
+ background: transparent;
+ width: 70px;
+ height: 70px;
+ border-radius: 35px;
+ display: block;
+ line-height: 65px;
+ text-align: center;
+ margin: 0px auto;
+ font-size: 20px;
+}
+
+.site-content {
   min-height: 1121px;
+  padding-left: 64px;
+}
+
+.section-title {
+  padding: 32px;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.section-title p {
+ font-weight: bold;
+ border-bottom: 1px solid #dfdfdf;
+ color: #aaa;
+ padding-bottom: 20px;
 }
 
 .footer {
