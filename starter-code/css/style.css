@@ -86,7 +86,7 @@ hr {
 }
 
 .nav-logo {
-  font-size:32px;
+  font-size: 32px;
 }
 
 /* Carousel Slider */
@@ -117,9 +117,9 @@ hr {
 }
 
 .carousel-control:hover {
-  background-color:white;
+  background-color: white;
   color: tomato;
-  text-shadow:unset;
+  text-shadow: unset;
 }
 
 .glyphicon-chevron-left:before {
@@ -140,13 +140,12 @@ hr {
   margin: 2em auto;
   display: inline-block;
   color: white;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .carousel-btn:hover {
   cursor: pointer;
 }
-
 
 /* Three columns */
 
@@ -233,13 +232,13 @@ footer ul li {
 .dark p {
   font-size: 12px;
   text-align: left;
-  padding:2em 0em;
+  padding: 2em 0em;
   margin-left: 8em;
 }
 
 /* Media queries */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .carousel-caption {
     display: none;
   }
