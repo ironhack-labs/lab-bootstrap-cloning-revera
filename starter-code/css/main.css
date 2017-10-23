@@ -1,16 +1,48 @@
 header {
-  height:90px;background-color:grey}
+  height:90px;}
+
 header li {
   display: inline;
 }
 
-img {
+.carousel img {
+  filter: grayscale();
   height: 440px;
 }
 
 .features {
   background: #EB504C;
   height: 335px;
+}
+.features {
+    background: #ed564b;
+    padding: 50px 0;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    text-align: center;
+}
+
+.features i {
+  border: 5px solid #fff;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+.glyphicon-ring {
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 5px solid white;
+  text-align: center;
+  display: inline-table;
+}
+
+.glyphicon-ring .glyphicon-bordered {
+  display: table-cell;
+  font-size: 1.5em;
+  vertical-align: middle;
 }
 
 main {
@@ -26,6 +58,9 @@ footer {
 }
 
 .legal {
-  height: 77px;
+  color: white;
   background-color: #292929;
+  padding: 20px 0 20px 0;
+  font-size: 12px;
+  line-height: .5em;
 }
