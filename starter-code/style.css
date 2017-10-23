@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+}
+
+.navigation, .menu1, .menu2{
+  height: 90px;
+}
+
+.menu2{
+  text-align: center;
+}
+
+.menu2 > ul > li{
+  position: relative;
+  display: inline;
+  top: 30px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.header{
+  background-image: url("./img/slider.jpg");
+  background-size: cover;
+  height: 550px;
+  filter: grayscale(100%);
+}
+
+.header h1{
+  color: white;
+  font-size: 50px;
+}
+
+.header p{
+  color: white;
+  font-size: 18px;
+}
+
+.bgText{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.section1{
+  background-color: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  height: 338px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.ss1{
+  height: 284px;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  border: 5px solid white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.icon span{
+  margin-top: 22px;
+}
+
+.ss2{
+  background-color: black;
+  height: 284px;
+}
+
+.ss21{
+  background-color: purple;
+  height: 367px;
+}
+
+.ss22{
+  margin-top: 30px;
+  background-color: purple;
+  height: 688px;
+}
+
+.section2{
+  background-color: white;
+  height: 1173px;
+  padding-top: 30px;
+}
+
+.section3{
+  background-color: pink;
+  height: 370px;
+}
+
+.ss3{
+  background-color: yellow;
+  height: 305px;
+  margin-top: 30px;
+}
+
+footer{
+  background-color: lightblue;
+  height: 78px;
+}
