@@ -1,0 +1,142 @@
+.navbar {
+  height: 70px;
+  text-decoration: none;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: baseline;
+  color: black;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+.navbar li a{
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 86px;
+  color: grey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  height: 95px;
+  line-height: 55px;
+  color: black;
+  font-size: 30px;
+  margin-right: 120px;
+  margin-left: 50px;
+}
+
+.caret {
+    position: absolute;
+    bottom: 23px;
+    right: -10px;
+}
+
+.carousel-caption {
+  vertical-align: middle;
+
+}
+.carousel-caption h2 {
+  font-size: 36px;
+}
+.carousel-caption p {
+font-size: 14px;
+}
+
+.item img {
+  filter: grayscale(100%);
+}
+.carousel-inner {
+  width: 100%;
+}
+.third {
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.four {
+  text-align: center;
+}
+
+.last {
+  background-color: #333;
+  color: white;
+  height: 80px;
+  vertical-align: middle;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 12px;
+}
+
+.down {
+  background-color: #404040;
+  color: white;
+  border-top: 5px solid #ed564b;
+  padding-top: 50px;
+  padding-left: 50px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+.five p1 {
+  color: grey;
+}
+.five a1 {
+  color: grey;
+}
+.second {
+  padding-top: 20px;
+  background-color: #f96b61
+}
+
+.heart {
+  width: 70px;
+  height: 70px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding-top: 25px;
+}
+
+.fourth {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.fourth p6 {
+  color: grey;
+}
+.four-one{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+.four-one p7 {
+  color: grey;
+}
+.four {
+  text-align: left;
+}
+.down li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+.down li a {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 30px;
+  color: grey;
+  text-align: left;
+}
+
+.five li a {
+  color: grey;
+  line-height: 25px;
+}
+
+.foot-bar {
+  color:white;
+}
