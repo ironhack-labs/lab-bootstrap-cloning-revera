@@ -1,0 +1,138 @@
+.body{
+  margin: 0;
+}
+
+.one{
+background-color: white;
+height: 90px;
+width: auto;
+}
+.one_a{
+  margin-left: 111px;
+  margin-right: 111px;
+  height: 90px;
+}
+.firsth{
+  padding-top: 0px;
+}
+.lis1{
+  display: block;
+  float: left;
+  list-style-type: none;
+  color: #ed564b;
+  padding: 30px 10px 30px 10px;
+  font-size: 15px;
+}
+.lis{
+  display: block;
+  float: left;
+  list-style-type: none;
+  color: #777;
+  padding: 30px 10px 30px 10px;
+  font-size: 15px;
+}
+.two{
+  background-image: url(./img/slider.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  height: 512.19px;
+  width: auto;
+  filter: grayscale(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.two_a{
+  width:800px;
+  height: 262px;
+  margin: auto;
+  color: white;
+}
+.two_h{
+  text-align: center;
+}
+.two_p{
+  font-size: 16px;
+  text-align: center;
+  color: #bbb9b9;
+  vertical-align: baseline;
+  line-height: 25px;
+}
+.two_b{
+  text-align: center;
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid white;
+  color: white;
+  margin-left: 300px;
+  margin-top: 40px;
+  width: 150px;
+}
+.three{
+  background-color: #ed564b;
+  height: 336px;
+  width: auto;
+}
+.three_a{
+  margin: 45px 111px;
+  color: white;
+  text-align: center;
+}
+.three_s{
+    border: 5px solid #fff;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+.gly{
+  margin-top: 20px;
+  width: 20px
+}
+.four{
+  background-color: white;
+  height: 1166.31px;
+  width: auto;
+}
+.four_1{
+  margin: 40px 111px;
+}
+.four_a{
+  border-bottom: 1px solid #777;
+  height: 124px;
+}
+.four_b{
+  height:201.66px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+.coll{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.four_i{
+  width: 100%;
+  height: 141.66;
+  padding: 20px 0;
+}
+
+.p_sub{
+  color: #aaa;
+}
+.five{
+  background-color: #3b3b3b;
+  height: 387px;
+  width: auto;
+  border-top: 5px solid #ed564b;
+}
+.six{
+  background-color: #292929;
+  height: 78px;
+  width: auto;
+}
+.six_a{
+  color: white;
+  font-size: 12px;
+  margin: 20px 111px;
+}
