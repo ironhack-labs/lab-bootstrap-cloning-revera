@@ -3,7 +3,6 @@
 /*Note: In the first iteration, put background colors to see the grid structure*/
 .nav{
   background-color: red;
-  height: 90px;
 }
 
 .slider{
@@ -12,8 +11,7 @@
 }
 
 .widgets {
-  background-color: yellow;
-  height: 366px;
+  background-color: #ed564b;
 }
 
 .main {
