@@ -1,0 +1,88 @@
+#nav {
+  height: 90px;
+}
+
+.forNav {
+  display: flex;
+  align-items: flex-end;
+}
+
+#top {
+  height: 476px;
+  background-color: black;
+}
+
+#red {
+  height: 336px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+#white {
+  height: 1151px;
+}
+
+#bottom {
+  height: 387px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#colophon {
+  height: 78px;
+  background-color: grey;
+}
+
+.latest {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+h2 {
+  padding-left: 15px;
+}
+
+.pGrey {
+  padding-left: 15px;
+  color: grey;
+  font-weight: bolder;
+}
+
+.homewidget {
+  text-align: center;
+  color: white;
+}
+
+.forWidgets {
+  display: flex;
+  align-items: flex-start;
+}
+
+.forBotton {
+  width: 90%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+.carousel-inner {
+  height: 476px;
+}
+
+.item {
+  height: 100%;
+}
+
+.carousel-inner>.item>img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background: gray;
+}
