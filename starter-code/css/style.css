@@ -1,0 +1,245 @@
+/* Generics */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #ed564b;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h5 {
+  font-weight: bolder;
+  color: #aaa;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Overrides */
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.text {
+  color: #aaa;
+}
+
+.topspace {
+  margin-top: 3em;
+}
+
+.bottomspace {
+  margin-bottom: 3em;
+}
+
+/* Navbar */
+
+.navigation {
+  height: 94px;
+  padding: 22px;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: unset;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: unset;
+}
+
+.navbar-toggle {
+  background-color: #e3e3e3;
+}
+
+.navbar-toggle .icon-bar {
+  border: 1px solid black;
+}
+
+.nav-logo {
+  font-size: 32px;
+}
+
+/* Carousel Slider */
+
+.overlay {
+  background-image: url('../img/overlay.png');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.item .carousel-caption {
+  z-index: 101;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: unset;
+  z-index: 100;
+  width: 55px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: tomato;
+  opacity: 1;
+}
+
+.carousel-control:hover {
+  background-color: white;
+  color: tomato;
+  text-shadow: unset;
+}
+
+.glyphicon-chevron-left:before {
+  margin-left: -7px
+}
+
+.glyphicon-chevron-right:before {
+  margin-right: -7px
+}
+
+.carousel-caption {
+  z-index: 3;
+}
+
+.carousel-btn {
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin: 2em auto;
+  display: inline-block;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.carousel-btn:hover {
+  cursor: pointer;
+}
+
+/* Three columns */
+
+.cajita {
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.tomato {
+  background-color: #ed564b;
+}
+
+.tomatotext {
+  color: #ed564b;
+}
+
+.iconwhite {
+  width: 70px;
+  height: 70px;
+  display: block;
+  border-radius: 50%;
+  margin: 1em auto 0em;
+  font-size: 19px;
+  border: 5px solid white;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+/* Blog posts */
+
+.title {
+  text-align: left;
+  color: black;
+  font-weight: bolder;
+}
+
+.author {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-bottom: 1em;
+  margin-top: 10px;
+}
+
+.col-sm-3 span {
+  display: block;
+}
+
+/* Footer */
+
+footer {
+  padding: 4em 0em;
+  border-top: 5px solid #ed564b;
+  background-color: #3b3b3b;
+}
+
+footer .title {
+  text-align: left;
+  color: white;
+  margin-bottom: 3em;
+}
+
+footer p {
+  text-align: left;
+}
+
+footer ul {
+  color: white;
+}
+
+footer ul li {
+  margin-bottom: 1em;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed white;
+  list-style-type: none;
+}
+
+.dark {
+  color: white;
+  background-color: #292929;
+}
+
+.dark p {
+  font-size: 12px;
+  text-align: left;
+  padding: 2em 0em;
+  margin-left: 8em;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    display: none;
+  }
+}

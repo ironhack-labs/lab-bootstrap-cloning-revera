@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- User stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <title>Revera</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="navigation">
+      <div class="row">
+        <!-- Logo -->
+        <div class="col-md-3">
+          <a class="navbar-brand big nav-logo" href="#"><b>REVERA</b></a>
+        </div>
+
+        <!-- Links -->
+        <div class="col-md-8">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#" class="tomatotext">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Sample page</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parent page <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Full page</a></li>
+                  <hr>
+                  <li><a href="#">Child page 1</a></li>
+                  <hr>
+                  <li><a href="#">Child page 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile navigation -->
+        <div class="col-md-1">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Carousel Item 1 -->
+        <div class="item active">
+          <img src="http://demo.fabthemes.com/revera/files/2013/08/beautiful_poppies-wallpaper-1920x1080-1280x550.jpg" alt="Los Angeles">
+          <div class="carousel-caption">
+            <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+              erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            <a href="#" class="carousel-btn">READ MORE</a>
+          </div>
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="item">
+          <img src="http://demo.fabthemes.com/revera/files/2013/08/5824862885_d6ba1e611f_o-1280x550.jpg" alt="Chicago">
+          <div class="carousel-caption">
+            <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+              erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+          </div>
+        </div>
+
+        <!-- Carousel Item 3 -->
+        <div class="item">
+          <img src="http://demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-1280x550.jpg" alt="New York">
+          <div class="carousel-caption">
+            <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+              erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+          </div>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay"></div>
+      </div>
+
+      <!-- Arrows -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Three columns -->
+      <div class="container-fluid tomato">
+        <div class="row">
+          <div class="col-sm-4 cajita">
+            <span class="iconwhite"><i class="glyphicon glyphicon-glass"></i></span>
+            <h3>Web design</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+          </div>
+          <div class="col-sm-4 cajita">
+            <span class="iconwhite"><i class="glyphicon glyphicon-star"></i></span>
+            <h3>Web development</h3>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+          </div>
+          <div class="col-sm-4 cajita">
+            <span class="iconwhite"><i class="glyphicon glyphicon-heart"></i></span>
+            <h3>User interface</h3>
+            <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest projects-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 topspace">
+          <h3>LATEST PROJECTS</h3>
+          <h5>FEW OF THE LATEST PORTFOLIO ITEMS</h5>
+          <hr></hr>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-1.jpg" />
+          <br>
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-2.jpg" />
+          <br>
+          <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-3.jpg" />
+          <br>
+          <p>Vivamus blandit ipsum sed arcu euismod</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-4.jpg" />
+          <br>
+          <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest articles -->
+    <div class="container bottomspace">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>LATEST ARTICLES</h3>
+          <h5>LATEST POSTS FROM THE BLOG</h5>
+          <hr></hr>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-5.jpg" />
+          <br>
+          <span class="title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</span>
+          <span class="author">POSTED ON <b class="tomatotext">AUGUST 19, 2013</b> BY <b class="tomatotext">ADMIN</b>
+          <span class="text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</span>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-6.jpg" />
+          <br>
+          <span class="title">Falauris sollicitudin quis dolor venenatis facilisis</span>
+          <span class="author">POSTED ON <b class="tomatotext">AUGUST 19, 2013</b> BY <b class="tomatotext">ADMIN</b></span>
+          <span class="text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</span>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-7.jpg" />
+          <br>
+          <span class="title">Suspendisse ornare, felis feugiat suscipit pharetra</span>
+          <span class="author">POSTED ON <b class="tomatotext">AUGUST 19, 2013</b> BY <b class="tomatotext">ADMIN</b></span>
+          <span class="text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</span>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive" src="img/project-8.jpg" />
+          <br>
+          <span class="title">Festibulum purus odio, ornare non posuere</span>
+          <span class="author">POSTED ON <b class="tomatotext">AUGUST 19, 2013</b> BY <b class="tomatotext">ADMIN</b></span>
+          <span class="text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of container fluid -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="title">REVERA</span>
+          <p class="text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu
+            vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+        </div>
+        <div class="col-sm-3">
+          <span class="title">META</span>
+          <ul>
+            <li>Log in</li>
+            <li>Entries RSS</li>
+            <li>Comments RSS</li>
+            <li>WordPress.org</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <span class="title">ARCHIVES</span>
+          <ul>
+            <li>August 2013</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <span class="title">RECENT POSTS</span>
+          <ul>
+            <li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+            <li>Nunc libero elit, iaculis nec augue non</li>
+            <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+            <li>Phasellus aliquet iaculis neque accumsan aliquam</li>
+            <li>Vivamus blandit ipsum sed arcu euismod</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="row dark">
+    <p>Copyright © 2017 revera - Just another demo Sites site.<br>| Revera Theme</p>
+  </div>
+
+</body>
+
+</html>
