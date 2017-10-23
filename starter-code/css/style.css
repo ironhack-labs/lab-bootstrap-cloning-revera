@@ -8,29 +8,146 @@
 .flexslider{
   height: 550px;
   width: 1536px;
-  background: black;
+  background-image: url("./../img/slider.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fwidgets{
   height: 314px;
   width: 1536px;
-  background: red;
+  background: #F16065;
 }
 
 .site-content{
-  height: 1121px;
-  width: 1536px;
+  height: 450px;
+  width: 1540px;
   background: white;
+  border-bottom: 5px solid #F78FEA;
 }
 
 #bottom{
-  height: 351px;
+  height: 370px;
   width: 1536px;
-  background: black;
+  background: #3b3b3b;
 }
 
 .site-footer{
   height: 78px;
   width: 1536px;
-  background: grey;
+  background: #292929;
+  color: white;
+  font-size: 12px;
+}
+
+.red{
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+
+.nav{
+  margin-top: 10px;
+}
+
+.carousel-control {
+  background-color: #F16065;
+  top: 50%;
+  width: 5%;
+  opacity: 1;
+  height: 15%;
+}
+
+#carouselTxt {
+  width: 50%;
+  height: 50%;
+  margin-left: 30%;
+  padding-top: 15%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.el span{
+  border:5px solid white;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.el{
+  color: white;
+}
+
+.el h3{
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.el p{
+  text-align: center;
+}
+
+.project-txt h2{
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.project-txt p{
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.project-img{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.project-img p{
+  margin-top: 5px;
+}
+
+#bottom h3{
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#bottom p{
+  line-height: 25px;
+  font-weight: bold;
+  color: grey;
+}
+
+#bottom li{
+  list-style-type: none;
+  line-height: 30px;
+  margin: 0;
+  border-bottom: 1px dotted grey;
+}
+
+#bottom a{
+  color: grey;
+}
+
+.site-footer a{
+  text-decoration: none;
+  color: white;
 }
