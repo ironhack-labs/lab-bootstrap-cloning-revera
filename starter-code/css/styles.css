@@ -1,0 +1,43 @@
+.header {
+    padding: 80px 0px;
+    color: #606060;
+}
+
+.carousel {
+    background-size: cover;
+    height: 600px;
+    background-color: #292929;
+}
+
+.carousel-footer {
+    color: white;
+    border-top: 3px solid #f96b61;
+    padding: 100px 0px;
+    background-color: #ed564b;
+}
+
+.main-content {
+    padding: 1000px 0px;
+    color: #606060;
+}
+
+.latest-proyects{
+
+}
+
+.Latest-articles {
+
+}
+
+.footer-main {
+    color: white;
+    padding: 400px 0px;
+    border-top: 3px solid #f96b61;
+    background-color: #3b3b3b;
+}
+
+.footer-small {
+    color: white;
+    padding: 100px 0px;
+    background-color: #292929;
+}
