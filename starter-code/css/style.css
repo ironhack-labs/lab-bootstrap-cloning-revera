@@ -43,7 +43,7 @@ h1{
 }
 
 .item > img{
-  filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
+  filter: url(data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"/></filter></svg>#grayscale);
   filter: gray;
   -webkit-filter: grayscale(100%);
 }
@@ -66,7 +66,7 @@ span.glyphicon.glyphicon-chevron-left{
       height: 100px;
       margin: -50px 0 0;
       display: block;
-      background: url(../img/bg_direction_nav.png) no-repeat 0 0;
+      background: url(../img/bg_direction_nav.png) no-repeat -48px 0;
       position: absolute;
       top: 50%;
       right: 0%;
@@ -79,4 +79,112 @@ span.glyphicon.glyphicon-chevron-left{
   background-image: none;
   filter: none;
   background-repeat: no-repeat;
+}
+
+.carousel-inner{
+  max-height:550px;
+}
+
+.firstContentBorder {
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  padding: 0 40.5px 0 40.5px;
+  background-color: #ed564c;
+}
+
+.firstContentBox{
+  padding: 40px 0px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.firstContentBox span{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+h3 > a{
+  text-decoration: none;
+  color: black;
+}
+
+h3 > a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+h3{
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  color: white;
+}
+
+.latestArticles{
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.postbox > h3{
+  text-align: left;
+}
+
+.hometa{
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.posted-on > a,.author > a{
+  color: #f4473a;
+}
+
+.postbox > p{
+  color: #606060;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+h3.bothead {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.botwid {
+    color: #aaa;
+}
+
+.botwid ul li a:link{
+  color: #aaa;
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+  display: block;
+}
+
+.botwid ul li{
+  list-style-type: none;
 }
