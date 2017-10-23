@@ -17,9 +17,13 @@ ul li {
   margin-top: 30px;
 }
 
-.carousel {
+.carousel  {
   min-height: 543px;
   background-color: black;
+}
+
+.carousel-control-prev .carousel-control-next {
+  color: white; 
 }
 
 .icon-boxes {
