@@ -1,0 +1,29 @@
+
+/*Custom css*/
+/*Note: In the first iteration, put background colors to see the grid structure*/
+.nav{
+  background-color: red;
+}
+
+.slider{
+  background-color: blue;
+  height: 550px;
+}
+
+.widgets {
+  background-color: #ed564b;
+}
+
+.main {
+  background-color: orange;
+  height: 1277px;
+}
+
+.bottom {
+  background-color: black;
+  height: 428px;
+}
+.footer {
+  background-color: grey;
+  height: 78px;
+}
