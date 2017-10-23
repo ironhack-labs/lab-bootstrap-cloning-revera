@@ -140,11 +140,11 @@ h3{
   text-transform: uppercase;
 }
 
-.postbox > h3{
+.oneBox > h3{
   text-align: left;
 }
 
-.hometa{
+.post{
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -155,7 +155,7 @@ h3{
   color: #f4473a;
 }
 
-.postbox > p{
+.oneBox > p{
   color: #606060;
 }
 
@@ -174,17 +174,58 @@ h3.bothead {
     text-align: left;
 }
 
-.botwid {
+.firstContentBox > h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.oneModelId {
     color: #aaa;
 }
 
-.botwid ul li a:link{
+.oneModelId ul li a:link{
   color: #aaa;
   text-decoration: none;
   padding: 7px 0px 7px 0px;
   display: block;
 }
 
-.botwid ul li{
+.oneModelId ul li{
+  height: 100%;
+  line-height: 18px;
+  clear: left;
   list-style-type: none;
+  color: #aaa;
+}
+
+.oneModelId ul{
+  padding-left: 0;
+}
+
+.oneModelId li{
+  border-bottom: 1px dotted gray;
+}
+
+.footer{
+  padding: 0;
+}
+
+.fcred {
+    padding: 10px 0px;
+    color: #eee;
+}
+
+.site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+
+.fcred a:link{
+  color: white;
+  text-decoration: none;
+}
+
+.sec {
+    margin-bottom: 40px;
 }
