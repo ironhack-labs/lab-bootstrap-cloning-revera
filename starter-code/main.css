@@ -1,0 +1,72 @@
+.row {
+width: 100%;
+height: 90px;
+display: inline-block;
+background: white;
+}
+
+.navBarTitle {
+  padding-left: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.navBarItems {
+  display: inline-block;
+  color: #B2B2B2;
+  padding-left: 350px;
+}
+
+.navBarItems a {
+  margin-left: 20px;
+}
+
+.carouselslide {
+  margin: 30px;
+  height: 355px;
+  width: 100%;
+}
+
+.col-sm-4 {
+  color: white;
+  text-align: center;
+  background-color: #FE343B;
+  padding: 150px;
+}
+
+.columns {
+  height: 290px;
+  width: 100%;
+
+  text-align: center;
+  margin-top: 250px;
+}
+
+.content {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.content h4 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+  color: grey;
+}
+
+.col-sm-3 img {
+  height: 150px;
+  width: 220px;
+}
+
+
+.col-sm-3 p {
+  text-align: center;
+}
+
+.articlesSub {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+  color: grey;
+}
