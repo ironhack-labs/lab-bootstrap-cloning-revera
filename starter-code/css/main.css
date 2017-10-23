@@ -1,0 +1,31 @@
+header {
+  height:90px;background-color:grey}
+header li {
+  display: inline;
+}
+
+img {
+  height: 440px;
+}
+
+.features {
+  background: #EB504C;
+  height: 335px;
+}
+
+main {
+  background-color: grey;
+  height: 800px;
+}
+main img {
+  height: 142px;
+}
+footer {
+  background-color: #3B3B3B;
+  height: 384px;
+}
+
+.legal {
+  height: 77px;
+  background-color: #292929;
+}
