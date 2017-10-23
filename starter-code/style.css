@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.block1{
+  height: 90px;
+  width: auto;
+  background-color: white;
+}
+      .block1Margin {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      .navMenu{
+        text-align: center;
+        padding-top: 30px;
+      }
+      .subNavMenu {
+        color: #777;
+        display: inline-block;
+        margin: 0;
+        padding: 33px 10px 19px 10px;
+        text-decoration: none;
+      }
+      .red {
+        color: red;
+        text-decoration: none;
+        display: block;
+        padding: 19px 10px 19px 10px;
+        display: inline-block;
+      }
+.block2 {
+  height: 550px;
+  background-image: url("./img/slider.jpg");
+  filter:grayscale(100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+    .titleRow{
+      text-align: center;
+      padding: 150px 250px 0px 250px;
+      color: white;
+    }
+    .buttonTitle {
+      width: 140px;
+      height: 37px;
+      background: none;
+      border: 1px solid white;
+    }
+.block3 {
+  height: 314px;
+  width:auto;
+  background-color: #ed564b;
+}
+.colHome {
+  color: white;
+  text-align: center;
+  padding: 70px 90px 30px 90px
+}
+.styleIcon {
+  width: 100px;
+  border-radius: 35px;
+  border: 4px solid white;
+  padding: 15px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.block4{
+  height: 1121px;
+  width: auto;
+  background-color: white;
+}
+    .mainRow1{}
+    .mainRow2{}
+    .mainRow3{}
+    .mainRow4{}
+.block5{
+  height: 351px;
+  width: auto;
+  background-color: #3b3b3b;
+}
+.block6{
+  height: 78px;
+  width: auto;
+  background-color: black;
+}
