@@ -1,0 +1,49 @@
+.page-title{
+
+}
+
+.menu-item{
+  float: left;
+  list-style: none;
+  padding: 19px;
+  color: #3b3b3b;
+}
+.slider-wrapper{
+  background-color: #292929;
+  height: 100px;
+  background-image: url("../img/slider.jpg");
+  filter: grayscale();
+  background-size: cover;
+  height: 600px;
+}
+
+.specs-wrapper{
+  color: white;
+  padding: 40px 0px;
+  background-color: #ed564b;
+  border-top: 3px solid #f96b61;
+}
+
+.footer-wrapper{
+  border-top: 3px solid #f96b61;
+  color: white;
+  background-color: #3b3b3b;
+}
+
+.copy-wrapper{
+  color: white;
+  background-color: #292929;
+}
+
+.glyphicon{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
