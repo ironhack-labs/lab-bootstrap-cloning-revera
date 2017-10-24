@@ -1,9 +1,16 @@
 #section_1 {
   background-color: #ed574c;
+  color: white;
+  text-align: center
+}
+
+#section_1 p{
+  font-size: 20px;
 }
 
 .img-rounded {
-  height: 220px;
+  text-align: center;
+  height: 180px;
   border-radius: 0px;
 }
 
@@ -12,4 +19,23 @@ span.circle {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+}
+
+#section_1 .col-md span.circle {
+  text-align: center;
+}
+
+span.circle i{
+  color: white;
+}
+
+.title {
+  margin-left: 25px;
+}
+.title h3 {
+  color:black;
+}
+
+.title h4 {
+  color:gray;
 }
