@@ -30,8 +30,10 @@ h1, .title {
   margin-bottom: 20px;
 }
 
-.imgSlider {
-  text-align: center;
+.d-block{
+  width: 90%;
+  margin: 0 auto;
+  filter: grayscale(100%);
 }
 
 .img-fluid {
