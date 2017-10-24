@@ -1,0 +1,90 @@
+.nav {
+    background-color: white;
+    height: 90px;
+}
+
+.nav h2 {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+
+.navUl ul li {
+    display: inline-block;
+}
+
+.container-fluid {
+    background-image: url('../img/slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    
+}
+.text1 {
+    text-align: center;
+    padding-top: 300px;
+    
+}
+.text1 h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.text1 p {
+    color: white;
+    font-size: 20px;
+}
+.three {
+    background-color: red;
+    height: 336px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.textImg {
+    text-align: center;
+}
+
+.four {
+    background-color: white;
+    height: 1167px;
+}
+
+.glyphicon {
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+  
+.five {
+    background-color: #3b3b3b;
+    height: 387px;
+    color: white;
+}
+
+.fiveLine {
+    display: inline-block;
+    
+}
+
+
+.fiveLine ul li a{
+    color: #aaa;
+
+}
+
+.fiveLine h3 {
+    text-align: left;
+}
+.fiveLine p {
+    color: #aaa;
+}
+.fiveLine ul li {
+    list-style-type: none;
+    
+}
+.six {
+    background-color: darkgrey;
+    height: 58px;
+}
