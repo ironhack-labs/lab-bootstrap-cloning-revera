@@ -82,7 +82,7 @@ ul li {
 }
 
 .footer {
-  min-height: 351px;
+ padding: 32px 0;
   background-color: black;
 }
 
