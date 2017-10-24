@@ -70,31 +70,8 @@ p {
 }
 
 .header {
-  -webkit-filter: grayscale(100%);
-  background-image: url(../img/slider.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   filter: grayscale(100%);
-  height: 172px;
   position: relative;
-}
-
-.header-inner {
-  -ms-align-items: center;
-  align-items: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.4rem;
-  height: 100%;
-  justify-content: center;
-  justify-content: center;
-  margin: auto;
-  max-width: 70rem;
-  position: relative;
-  text-align: center;
-  z-index: 120;
 }
 
 .header-inner h2 {
@@ -107,8 +84,12 @@ p {
   font-weight: 600;
 }
 
+.item img {
+  width: 100%;
+}
+
 .overlay {
-  background: url(../img/overlay.png);
+  background-image: url(../img/overlay.png);
   height: 100%;
   left: 0px;
   position: absolute;
@@ -252,10 +233,13 @@ p {
     display: none;
   }
 
-  .header {
-    height: 550px;
+  .carousel-control {
+    z-index: 110;
   }
 
+  .carousel-indicators {
+    z-index: 110;
+  }
   .services-item {
     margin-bottom: 0;
   }
