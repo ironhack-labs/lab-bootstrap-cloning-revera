@@ -1,0 +1,116 @@
+.navbar-nav a:hover {
+  color: red;
+}
+
+.skills {
+    padding: 50px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    text-align: center;
+}
+
+.carousel-caption {
+  transform: translateY(-300px);  
+}
+
+
+.item img{
+  filter: grayscale(100%);
+}
+
+.skills i {
+  border: 5px solid #fff;
+  padding: 10px
+  border-radius: 35px;
+
+}
+
+.glyphicon-ring {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+
+.glyphicon-ring .glyphicon-bordered {
+  font-size: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.last-articles {
+  margin-bottom: 50px;
+}
+
+.last-articles h5 {
+  color: black;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.last-articles .date {
+  color:grey;
+  font-size: 12px;
+}
+
+.last-projects h4, .last-articles h4 {
+  color: grey;
+  text-transform: uppercase;
+  line-height: 5px;
+}
+
+.last-projects h3 , .last-articles h3 {
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+.last-articles h3 {
+  margin-top: 50px;
+
+}
+
+.last-articles .date a {
+  color:red;
+}
+
+.footer {
+  background-color: #606060;
+  color: #aaa;
+  padding:20px 0 60px 0;
+  border-top: 5px solid #f96b61;
+}
+
+.footer h5{
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  border-bottom: 1px dotted #aaa;
+}
+
+.footer a {
+  color: #aaa;
+}
+
+.copyright {
+  background-color: #292929;
+  padding: 20px 0 20px 0;
+  color: white;
+  font-size: 11px;
+  line-height: 8px;
+
+}
