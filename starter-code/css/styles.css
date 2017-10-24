@@ -94,9 +94,13 @@ h3{
   display:block;
   text-decoration:none;
   color:grey;
-  border-bottom: 1px solid grey
+  border-bottom: 1px solid grey;
+  line-height: 17px;
 }
 
+.glyphicon{
+  margin-left:140px;
+}
 
 .first .col-md-offset-2{
   font-size:20px;
