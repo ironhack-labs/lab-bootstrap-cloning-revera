@@ -5,8 +5,13 @@
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: @screen-sm-min) {}
+  .carousel {
+    overflow: hidden;
+  }
 
-/* Medium devices (desktops, 992px and up) */
+.carousel p{
+  display: none;
+}
 
 @media (min-width: @screen-md-min) {}
 
@@ -15,10 +20,21 @@
 @media (min-width: @screen-lg-min) {
   .carousel {
     height: 550px;
+    overflow: hidden;
   }
   header {
     height: 200px;
   }
+}
+
+.carousel p{
+  display: block;
+}
+.img-slider{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  width: 100%;
+  height: inherit;
 }
 
 .no-deco {
@@ -97,4 +113,10 @@
 }
 section{
   margin: 20px 0;
+}
+h4 {
+  font-weight: bold;
+}
+.title-section{
+  border-bottom: 1px solid lightgray;
 }
