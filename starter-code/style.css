@@ -71,10 +71,27 @@ body {
   width: auto;
   background-color: white;
 }
-    .mainRow1{}
-    .mainRow2{}
-    .mainRow3{}
-    .mainRow4{}
+    .mainRow1{
+      padding-left: 100px;
+      padding-right:100px;
+    }
+    .mainRow2{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+      .imgMain {
+        width: 270px;
+        height:180px;
+        padding: 20px 0px;
+      }
+    .mainRow3{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .mainRow4{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
 .block5{
   height: 351px;
   width: auto;
