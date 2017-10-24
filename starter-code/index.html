@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- own css -->
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+
+  <header class="site-header container">
+    <h1 class="col-md-4">REVERA</h1>
+    <!-- responsive navbar -->
+    <select class="form-control hidden-lg">
+  <option value="#">Select a page</option>
+  <option value="#">Home</option>
+  <option value="#">About</option>
+  <option value="#">Sample page</option>
+  <option value="#">Portfolio</option>
+  <option value="#">Blog</option>
+  <optgroup label="Parent Page">
+    <option value="#">Main</option>
+    <option value="#">Full page</option>
+    <option value="#">Child page 1</option>
+    <option value="#">Child page 2</option>
+  </optgroup>
+  <option value="#">Contact</option>
+</select>
+
+    <!-- regular navbar -->
+    <div id="menu" class="navbar-brand col-sm-8 .visible-lg-*">
+      <ul class="navbar-brand">
+        <li class="w100 no-deco">Home</li>
+        <li class="w100 no-deco">About</li>
+        <li class="w100 no-deco">Sample page</li>
+        <li class="w100 no-deco">Portfolio</li>
+        <li class="w100 no-deco">Blog</li>
+        <li class="w100 no-deco">Parent Page
+          <ul class="w100 sub-menu">
+            <li>Main</li>
+            <li>Full page</li>
+            <li>Child page 1</li>
+            <li>Child page 2</li>
+          </ul>
+        </li>
+        <li class="w100 no-deco">Contact</li>
+    </div>
+  </header>
+
+
+  <!-- Carrousel -->
+  <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="img-filter"></div>
+      <div class="item active">
+        <img class="img-slider" src="./img/slider.jpg" alt="gatito">
+        <div class="carousel-caption">
+          <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+          <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque
+            bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+        </div>
+      </div>
+      <div class="item item-slider">
+        <img class="img-slider" src="./img/slider.jpg" alt="gatitos">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- 3 columns -->
+  <div class="home-col">
+    <div class="container">
+      <div class="col-sm-4">
+        <span>
+    <i class="glyphicon glyphicon-glass"></i>
+    </span>
+        <h3>Web design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente, eveniet id! Illum nostrum distinctio quibusdam sequi obcaecati nam sint eius, impedit blanditiis. Harum sit sapiente nam animi. Voluptatibus, repellendus?</p>
+      </div>
+      <div class="col-sm-4">
+        <span>
+    <i class="glyphicon glyphicon-star"></i>
+    </span>
+        <h3>Web development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente, eveniet id! Illum nostrum distinctio quibusdam sequi obcaecati nam sint eius, impedit blanditiis. Harum sit sapiente nam animi. Voluptatibus, repellendus?</p>
+      </div>
+      <div class="col-sm-4">
+        <span>
+    <i class="glyphicon glyphicon-heart"></i>
+    </span>
+        <h3>User interface</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 4 columns -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 lastest-products">
+        <h3>LATEST PROJECTS</h3>
+        <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+      </div>
+      <div class="row lastest-products-col">
+        <div class="col-sm-3">
+          <img src="./img/project-1.jpg" alt="sports">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-2.jpg" alt="cat">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-3.jpg" alt="rose">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-4.jpg" alt="girl">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- section 4 columns -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 lastest-articles">
+        <h3>LATEST PROJECTS</h3>
+        <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+      </div>
+      <div class="row lastest-products-col">
+        <div class="col-sm-3">
+          <img src="./img/project-1.jpg" alt="sports">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-2.jpg" alt="cat">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-3.jpg" alt="rose">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="./img/project-4.jpg" alt="girl">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

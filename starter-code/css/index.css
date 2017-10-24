@@ -1,0 +1,100 @@
+/* Extra small devices (phones, less than 768px) */
+
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: @screen-sm-min) {}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: @screen-md-min) {}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: @screen-lg-min) {
+  .carousel {
+    height: 550px;
+  }
+  header {
+    height: 200px;
+  }
+}
+
+.no-deco {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sub-menu {
+  display: none;
+  visibility: hidden;
+}
+
+.navbar-brand ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: space-around;
+  font-size: 11pt;
+  box-sizing: border-box;
+}
+
+.sub-menu {
+  align-items: flex-start;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.item-slider {
+  box-sizing: border-box;
+}
+
+.img-filter {
+  background: url(../img/overlay.png);
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.img-slider {
+  width: 100%;
+  z-index: -1;
+}
+
+.home-col {
+  background-color: #ed564b;
+  padding: 40px 0;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #FFF;
+  text-align: center;
+}
+
+.home-col span {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #FFF;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.home-col h3 {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.lastest-products-col img {
+  width: 270px;
+  height: 180px;
+  margin: 20px 0;
+}
+section{
+  margin: 20px 0;
+}
