@@ -46,12 +46,17 @@
     background-color: #3b3b3b;
 }
 
-.footer-main ul {
-    text-align:
+footer ul {
+    padding: 0;
+}
+
+footer h3 {
+    color: #fff;
 }
 
 .footer-main li {
     list-style: none;
+    border-bottom: 2px dashed #606060;
 }
 
 .footer-small {
