@@ -1,0 +1,115 @@
+
+body {
+
+}
+
+header {
+  position: relative;
+
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin: 25px auto;
+  font-size: 32px;
+}
+
+.menu {
+  margin-top: 25px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.menu-list li{
+  color: #aaa;
+  text-decoration-style: none;
+  padding: 7px 15px 7px 15px;
+  display: block;
+}
+
+
+.red {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+h3.bothead {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.h3-small {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+
+.bottom-footer {
+  color:#fff;
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+
+.footer p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+}
+
+.botwid ul li {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+    list-style: disc;
+}
+
+.fcred {
+  padding: 10px 0px;
+  color: #eee;
+}
+
+.glyphicon {
+  font-size: 20px;
+  border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.boxitems {
+  margin: 40px auto;
+}
