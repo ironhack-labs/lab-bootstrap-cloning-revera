@@ -1,3 +1,7 @@
+.navbar-nav a:hover {
+  color: red;
+}
+
 .skills {
     padding: 50px 0px;
     background: #ed564b;
@@ -5,6 +9,15 @@
     border-bottom: 5px solid #f96b61;
     color: white;
     text-align: center;
+}
+
+.carousel-caption {
+  transform: translateY(-300px);  
+}
+
+
+.item img{
+  filter: grayscale(100%);
 }
 
 .skills i {
