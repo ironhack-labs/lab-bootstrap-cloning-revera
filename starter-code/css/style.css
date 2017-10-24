@@ -136,6 +136,9 @@
   color: grey;
 }
 
+#bottom ul{
+  padding: 0;
+}
 #bottom li{
   list-style-type: none;
   line-height: 30px;
