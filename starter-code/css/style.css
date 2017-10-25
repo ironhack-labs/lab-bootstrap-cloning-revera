@@ -1,0 +1,156 @@
+ul {
+    width: auto;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0 0px;
+}
+
+.kitty {
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.carousel-caption {
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+.glyphicon {
+    padding-top: 18px;
+}
+
+.mid-container {
+    max-width: 100%;
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    height: 300px;
+}
+
+span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.widget {
+    color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.section-title p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.hthumb {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.third {
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.third-boxitems {
+    display: inline-block;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.bottom-container {
+    max-width: 100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+h3.foot {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+p.foot {
+    color: #AAA;
+    padding: 5px 0px;
+    margin: 10px;
+    line-height: 150%;
+}
+
+ul.ftty {
+    float: left;
+    padding-top: 10px
+}
+
+li.fty {
+    display: block;
+    color: #AAA;
+    border-bottom: 1px dotted #999;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+ul.arch {
+    float: left;
+    padding-top: 10px
+}
+
+li.arch {
+    color: #AAA;
+    border-bottom: 1px dotted #999;
+    display: block;
+}
+
+.footy-row {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    height: 60px;
+}
+
+.footy-container {
+    max-width: 100%;
+    margin-right: 25px;
+    margin-left: 45px;
+}
+
+.footy-text p {
+    color: #AAA;
+    padding-left: 90px;
+}
