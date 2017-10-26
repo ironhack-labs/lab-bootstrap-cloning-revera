@@ -1,0 +1,15 @@
+header{
+  color: gray;
+}
+.red{
+  color: red;
+}
+.logo{
+  color: black;
+}
+h1{
+  padding-bottom: 10px;
+}
+img{
+  filter: grayscale(100%);
+}
