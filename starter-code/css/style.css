@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+nav {
+  background-color: white;
+  margin: 0;
+  padding: 16px 40px;
+}
+
+nav ul {
+  padding-right: 60px;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 40px;
+}
+
+.home {
+  color: red;
+}
