@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Cloning
+    </title>
+
+
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  href="./css/styles.css">
+  </head>
+
+  <body>
+
+      <!-- Navbar has items that light up when hovered over -->
+    <nav class="navbar navbar-default">
+           <div class="container-fluid">
+             <div class="row">
+              <div class="col-sm-3">
+                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" href="#">REVERA</a>
+                 </div>
+              </div>
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-sm-9">
+             <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav">
+                 <li><a href="#" id="first-item">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Sample page</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parent page <span class="glyphicon glyphicon-menu-right"></span><span class="glyphicon glyphicon-menu-right"></span></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="#">Full page</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#">Child page 1</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#">Child page 2</a></li>
+                   </ul>
+                 </li>
+                 <li><a href="#">Contact</a></li>
+               </ul>
+             </div>
+           </div><!-- end of nav bar links -->
+      </div>
+</div>
+</nav>
+
+<div class="separation"></div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+  <div class="overlay"></div>
+  <div class="item active">
+    <img src="img/slider.jpg" alt="puppies">
+    <div class="carousel-text">
+      <h1>Distribuição mais ou menos normal de letras</h1>
+      <p>Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por </p>
+      <button>Read More!</button>
+    </div>
+  </div>
+
+</div>
+</div>
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+    <!-- jQuery JavaScript file -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript file (goes after jQuery) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Your JavaScript needs to GO LAST (to use the functions defined in theirs) -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
