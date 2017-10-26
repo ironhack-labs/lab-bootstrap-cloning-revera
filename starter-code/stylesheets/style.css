@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+nav {
+    height: 100px;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ED564B;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+/* Carousel */
+
+#carouselControls {
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    height: 550px;
+}
+
+.carousel-caption {
+    background-image: url(../img/overlay.png);
+    background-repeat: repeat;
+    width: 100%;
+    padding: 10% 15% 15%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.carousel-item {
+    z-index: -1;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: .9;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ED564B;
+    width: 30%;
+    height: 20%;
+}
+
+.carousel-control-prev-icon {
+    margin-right: auto;
+}
+
+.carousel-control-next-icon {
+    margin-left: auto;
+}
+
+.rectangle-btn {
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+
+/* What they do */
+
+.red-background {
+    background-color: #ED564B;
+    height: 300px;
+    text-align: center;
+}
+
+.fa {
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.skills-col h1, i {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skills-col {}
