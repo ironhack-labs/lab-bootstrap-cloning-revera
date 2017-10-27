@@ -1,0 +1,57 @@
+.first{
+
+  color: white;
+
+  max-height: 550px;
+  background-color: #ED564B;
+  height: 315px;
+
+}
+
+.second{
+
+  color: white;
+
+  max-height: 550px;
+  background-color: #ED564B;
+  height: 315px;
+
+}
+.third{
+
+  color: white;
+
+  max-height: 550px;
+  background-color: #ED564B;
+  height: 315px;
+
+}
+
+p{
+  text-align: center;
+}
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 20px;
+
+
+}
+
+
+.logo{
+  margin-left: 80px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.item{
+
+  margin-left: 5%;
+  margin-right: 5%;
+}
