@@ -1,0 +1,78 @@
+nav {
+	height: 100px;
+}
+
+header {
+	background-image: url("img/overlay.png"), url("img/slider.jpg");
+	background-repeat: repeat, none;
+	background-size: cover;
+	height: 550px;
+	filter: grayscale();
+}
+
+.red-section {
+	height: 50vh;
+	background-color: red;
+	color: white;
+}
+
+.main-section, footer-bottom {
+	height: auto;
+}
+
+footer {
+	border-top: 1px solid red;
+	width: 100%;
+}
+
+.top-footer {
+	height: auto;
+	background-color: gray;
+}
+
+.bottom-footer {
+	height: auto;
+	background-color: black;
+}
+
+.circle {
+	height: 40px;
+	width: 40px;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+.circle span {
+	height: 30px;
+	width: 30px;
+	color: white;
+	margin: 0 auto;
+	display: block;
+	padding: 3px;
+}
+
+.main-section img {
+	height: 150px;
+	width: 150px;
+}
+
+.main-section p {
+	display: inline-block;
+	width: 150px;
+}
+
+.red-text {
+	color: red;
+}
+
+footer hr {
+	border-top: 1px dotted lightgray;
+}
+
+footer {
+	color: white;
+}
+
+nav a {
+	color: gray;
+}
