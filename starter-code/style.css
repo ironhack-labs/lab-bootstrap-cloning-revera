@@ -1,0 +1,93 @@
+nav {
+  background-color: white;
+  height: 50px;
+}
+
+.nav-link{
+  color: #8c8585;
+}
+
+.nav-item a:hover {
+  color: #ed564b;
+}
+
+#brand {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#home{
+  color: #ed564b;
+}
+
+.icon-bar {
+  background-color: #8c8585;
+}
+
+.carousel-inner {
+  width: 100%;
+  height:600px;
+}
+
+.comercial-argument {
+  background-color: #ed564b;
+  height: 300px;
+  border: 2px solid #d98b83;
+  width: 100%;
+  color: white;
+}
+
+main {
+  background-color: white;
+  height: 1000px;
+}
+
+.illustration img {
+  width: 80%;
+  height: auto;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #3b3b3b;
+  height: 500px;
+  margin-bottom: 0;
+  color: #9b8f8f;
+  border-top: 5px solid #ed564b;
+}
+
+footer ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  border-bottom: 1px dotted #9b8f8f;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color: white;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.top-footer {
+  height: 400px;
+  width: 100%;
+}
+
+.bottom-footer {
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
