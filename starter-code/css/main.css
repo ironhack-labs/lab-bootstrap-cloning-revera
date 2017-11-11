@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Nav */
+
+nav {
+  height: 90px;
+}
+
+nav .navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ul > li > a {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.dropdown-toggle::after {
+  border: 0;
+  content: "»";
+  font-size: 0.7rem;
+  display: inline;
+}
+
+/* Carousel */
+
+#carouselHome {
+  height: 550px;
+  background: #000;
+}
+
+/* Widgets */
+
+#widgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+/* Latest items */
+
+#latest-items {
+  padding: 40px 0px;
+}
+
+/* Bottom menu */
+
+#bottom-menu {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+/* Footer */
+
+footer {
+  padding: 10px 0px;
+  background: #292929;
+}
