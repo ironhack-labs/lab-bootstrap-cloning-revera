@@ -2,12 +2,22 @@ body {
     box-sizing: content-box;
     font-family: 'Oxygen',sans-serif;
     font-size: 1.4rem;
+    line-height: 1.6;
 }
 
-.row-help {
-    border: 1px solid black;
+.control-red {
+    background: #ed564b;
 }
 
-.col-help {
-    border: 1px solid red;
+.third {
+    background: #ed564b;
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+    color: #FFF;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.third p {
+    font-size: 0.8rem;
 }
