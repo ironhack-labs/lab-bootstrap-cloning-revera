@@ -7,7 +7,7 @@ body {
 /* Nav */
 
 nav {
-  height: 90px;
+  min-height: 90px;
 }
 
 nav .navbar-brand {
@@ -31,8 +31,12 @@ nav ul > li > a {
 /* Carousel */
 
 #carouselHome {
-  height: 550px;
+  max-height: 550px;
   background: #000;
+}
+
+.carousel img {
+  filter: grayscale();
 }
 
 /* Widgets */
@@ -42,6 +46,8 @@ nav ul > li > a {
   background: #ed564b;
   border-top: 5px solid #f96b61;
   border-bottom: 5px solid #f96b61;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Latest items */
@@ -56,11 +62,33 @@ nav ul > li > a {
   padding: 20px 0px 40px 0px;
   background: #3b3b3b;
   border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+
+#bottom-menu h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+#bottom-menu p {
+
 }
 
 /* Footer */
 
 footer {
-  padding: 10px 0px;
+  padding: 20px 0px;
   background: #292929;
+  font-size: 0.75rem;
+}
+
+footer, footer a {
+  color: #fff !important;
+}
+
+footer a {
+  text-decoration: none !important;
 }
