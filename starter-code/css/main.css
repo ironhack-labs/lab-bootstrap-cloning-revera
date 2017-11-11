@@ -73,8 +73,15 @@ nav ul > li > a {
   margin-bottom: 25px;
 }
 
-#bottom-menu p {
+#bottom-menu a {
+  text-decoration: none !important;
+  color: #aaa;
+  border-bottom: 1px dotted #aaa;
+  padding-left: 0;
+}
 
+#bottom-menu a:hover {
+  color: #fff;
 }
 
 /* Footer */
