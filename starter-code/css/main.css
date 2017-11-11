@@ -1,3 +1,13 @@
 body {
     box-sizing: content-box;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 1.4rem;
+}
+
+.row-help {
+    border: 1px solid black;
+}
+
+.col-help {
+    border: 1px solid red;
 }
