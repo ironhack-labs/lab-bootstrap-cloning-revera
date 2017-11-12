@@ -37,6 +37,7 @@ nav ul > li > a {
 
 .carousel img {
   filter: grayscale();
+  max-height: 550px;
 }
 
 /* Widgets */
@@ -54,6 +55,79 @@ nav ul > li > a {
 
 #latest-items {
   padding: 40px 0px;
+}
+
+.latest-projects {
+  margin-bottom: 50px;
+}
+
+.latest-projects h3 {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.blog-title {
+  text-transform: uppercase;
+}
+
+.blog-title h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blog-title p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #aaa;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 30px;
+}
+
+.thumbnail > h3 > a {
+  text-decoration: none !important;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.thumbnail h3 {
+  margin-top: 15px;
+}
+
+.latest-articles h3 > a {
+  font-size: 0.95rem;
+}
+
+.latest-articles h3 {
+  line-height: 0.65;
+}
+
+.post-info {
+  margin-bottom: 20px;
+}
+
+.post-info span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #606060;
+}
+
+.post-info span > a {
+  text-decoration: none;
+  color: #f4473a;
+}
+
+.post-info span > a:hover {
+  color: #000000;
+}
+
+.latest-articles p {
+  font-size: 0.85rem;
+  color: #606060;
+  line-height: 1.6;
 }
 
 /* Bottom menu */
@@ -82,6 +156,11 @@ nav ul > li > a {
 
 #bottom-menu a:hover {
   color: #fff;
+}
+
+#bottom-menu p, #bottom-menu a {
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
 /* Footer */
