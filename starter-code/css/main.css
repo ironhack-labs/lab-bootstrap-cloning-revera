@@ -1,3 +1,18 @@
+.row-gray-1 {
+    background-color: rgb(59, 59, 59);
+    border-top: 5px solid #f96b61; 
+    color: #FFF;
+}
+
+.row-gray-1 p, a {
+    color: rgb(171,171,171);
+    font-size: 0.6em;
+}
+
+.row-gray-1 a {
+    line-height: 0.5em;
+}
+
 body {
     box-sizing: content-box;
     font-family: 'Oxygen',sans-serif;
@@ -14,12 +29,25 @@ body {
     font-size: 0.7em;
 }
 
-h1 {
+.footer {
+    background-color: rgb(45, 45, 45);
+    color: #FFF;
+    font-size: 0.5em;
+    line-height: 0.5em;
+    padding: 2% 10%;
+}
+
+h2 {
     text-align: center;
 }
 
+nav a {
+    color: gray;
+    font-size: 0.6em;
+}
+
 .projects {
-    margin: 5% 10%;
+    padding: 2% 10%;
 }
 
 .projects > col {
