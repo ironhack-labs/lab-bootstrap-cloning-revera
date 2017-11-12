@@ -9,6 +9,15 @@ body {
     background: #ed564b;
 }
 
+.figure-caption {
+    color: #000;
+    font-size: 0.7em;
+}
+
+h1 {
+    text-align: center;
+}
+
 .projects {
     margin: 5% 10%;
 }
@@ -17,7 +26,11 @@ body {
     border-bottom: 1px solid #000;
 }
 
-.projects img {
+.projects p {
+    font-size: 0.6em;
+}
+
+img {
     width: 100%;
 }
 
