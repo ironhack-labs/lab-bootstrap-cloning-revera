@@ -9,6 +9,18 @@ body {
     background: #ed564b;
 }
 
+.projects {
+    margin: 5% 10%;
+}
+
+.projects > col {
+    border-bottom: 1px solid #000;
+}
+
+.projects img {
+    width: 100%;
+}
+
 .third {
     background: #ed564b;
     border-bottom: 5px solid #f96b61;
