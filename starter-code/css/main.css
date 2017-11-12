@@ -1,0 +1,76 @@
+.row-gray-1 {
+    background-color: rgb(59, 59, 59);
+    border-top: 5px solid #f96b61; 
+    color: #FFF;
+}
+
+.row-gray-1 p, a {
+    color: rgb(171,171,171);
+    font-size: 0.6em;
+}
+
+.row-gray-1 a {
+    line-height: 0.5em;
+}
+
+body {
+    box-sizing: content-box;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.control-red {
+    background: #ed564b;
+}
+
+.figure-caption {
+    color: #000;
+    font-size: 0.7em;
+}
+
+.footer {
+    background-color: rgb(45, 45, 45);
+    color: #FFF;
+    font-size: 0.5em;
+    line-height: 0.5em;
+    padding: 2% 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav a {
+    color: gray;
+    font-size: 0.6em;
+}
+
+.projects {
+    padding: 2% 10%;
+}
+
+.projects > col {
+    border-bottom: 1px solid #000;
+}
+
+.projects p {
+    font-size: 0.6em;
+}
+
+img {
+    width: 100%;
+}
+
+.third {
+    background: #ed564b;
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+    color: #FFF;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.third p {
+    font-size: 0.8rem;
+}
