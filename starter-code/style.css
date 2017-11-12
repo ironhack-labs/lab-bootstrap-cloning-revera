@@ -1,4 +1,22 @@
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .red-back{
     background-color: #DE6053;
     color: white;
+}
+
+.red-margin-top{
+    border-top: 3px solid #DE6053;
+    background-color: #3B3B3B;
+    color: white;
+}
+
+.black-back{
+    background-color: #292929;
+    color: white;
+}
+
+.posts-div{
+    width: 80%;
 }
