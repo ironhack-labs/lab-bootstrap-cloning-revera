@@ -15,6 +15,7 @@ body{
 .black-back{
     background-color: #292929;
     color: white;
+    margin: 0;
 }
 
 .container-fluid{
@@ -34,5 +35,8 @@ body{
 
 .blog img{
     width: 70%;
+}
+.blog2 img{
+    width: 100%;
 }
 
