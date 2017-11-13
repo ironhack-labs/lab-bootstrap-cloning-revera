@@ -17,6 +17,22 @@ body{
     color: white;
 }
 
-.posts-div{
-    width: 80%;
+.container-fluid{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
 }
+
+.carousel-control{
+    background-color: #DE6053;
+    color: white;
+    margin-top: 30%;
+    margin-bottom: 50%;
+    height: 30%;
+    width: 10%;
+}
+
+.blog img{
+    width: 70%;
+}
+
