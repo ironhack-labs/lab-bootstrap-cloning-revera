@@ -9,6 +9,8 @@ body {
 
 nav {
   height: 90px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -40,30 +42,45 @@ h3 {
 #content {
   height: 1121px;
   box-sizing: border-box;
-  padding: 0 60px 0 60px;
+  padding: 0 6% 0 6%;
   border-bottom: 5px solid #ed564b;
   margin-top: 70px;
 }
 
 #bottom {
   height: 351px;
-  background-color: rgb(106, 106, 106);
+  background-color: #3c3c3c;
+  padding: 30px 6% 0 6%;
+  color: #c8c7c7;
 }
 
 footer {
-  height: 78px;
-  background-color: rgb(51, 51, 51);
+  background-color: #2d2d2d;
+  padding: 0 6% 0 6%;
+  color: #ededed;
 }
 
-.nav-ul {}
-
-.nav-ul>ul {}
-
+nav h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.nav-ul{
+  display: flex;
+  justify-content: center;
+}
 .nav-ul li {
   list-style-type: none;
   padding-right: 20px;
 }
 
+.nav-li-1 {
+  color: #ed564b;
+}
+.div-slidebox{
+  background-image: url(../img/overlay.png);
+  background-repeat: repeat;
+  filter: none;
+}
 .span-slidebox {
   font-size: 50px;
   /*filter:;*/
@@ -76,7 +93,13 @@ footer {
   color: white;
   text-align: center;
 }
-
+.slidebox-btn{
+  color: white;
+  font-weight: bold;
+  width: 148px;
+  border: 1px solid white;
+  padding: 5px 0;
+}
 .row-widgets {
   margin: 0 30px;
   color: white;
@@ -86,11 +109,13 @@ footer {
   padding: 0 20px;
 }
 
+.widgets-col i {
+  padding-bottom: 20px;
+}
+
 .widgets-col p {
   font-size: 14px;
 }
-
-.content-row {}
 
 .content-div-img {
   text-align: center;
@@ -107,50 +132,51 @@ footer {
   line-height: 15px;
 }
 
-.content-div-img h3{
+.content-div-img h3 {
   font-size: 16px;
   text-align: left;
   padding: 20px 0 0px 0;
 }
-.content-div-img span{
+
+.content-div-img span {
   font-size: 13px;
   font-weight: bold;
 }
-.content-div-img p{
+
+.content-div-img p {
   margin-top: 20px;
 }
 
 .content-title-p {
   font-weight: bold;
   color: rgb(185, 185, 185);
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-.content-row{
+
+.content-row {
   margin-bottom: 50px;
 }
 
+.bottom-col h3 {
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
 
+.bottom-col li {
+  list-style: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-col-div p {
+  font-size: 13px;
+  padding-left: 4%;
+  padding-top: 15px;
+}
 
 .a {}
