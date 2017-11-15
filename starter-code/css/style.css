@@ -1,3 +1,24 @@
 *{
   margin: 0;
 }
+
+header{
+  padding-top: 2%;
+}
+
+header h1{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+#link-color{
+  color: #ed564b;
+}
+
+.nav-color a{
+  color: #777;
+}
+
+.nav-color a:hover{
+  color: #ed564b;
+}
