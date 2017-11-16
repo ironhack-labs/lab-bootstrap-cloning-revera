@@ -112,3 +112,47 @@ header h1{
   color: #000;
   font-size: 14px;
 }
+
+.info {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.w-text{
+  color: #aaa;
+}
+
+.w-text h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.w-text p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+}
+
+.info ul {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.w-text ul li {
+  height: 100%;
+  line-height: 18px;
+  clear: left;
+  list-style-type: none;
+  color: #aaa;
+}
+
+.w-text li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
