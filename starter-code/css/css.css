@@ -310,6 +310,14 @@ hr {
     margin: 10px auto;
   }
 
+  .carousel-control-prev {
+    width: 40px;
+  }
+
+  .carousel-control-next {
+    width: 40px;
+  }
+
   .glyphicon {
     font-size: 1.7rem;
     width: 55px;
@@ -328,5 +336,55 @@ hr {
 
   #nav-section .container {
     padding: 6vh;
+  }
+
+  #widgets-section {
+    padding: 0;
+  }
+
+  #proj .my-width {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .projects {
+    margin-top: 0;
+  }
+
+  .port-box {
+    margin-top: 0;
+  }
+
+  .port-box p {
+    line-height: 16px;
+  }
+
+  #light-grey-zone {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  #light-grey-zone .my-width {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  #light-grey-zone h3 {
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  #light-grey-zone div a {
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+  }
+
+  #copyright .col-12 {
+    margin: 0 auto;
+  }
+
+  #copyright .my-width {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 }
