@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Nav */
+
+nav {
+  min-height: 90px;
+}
+
+nav .navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ul > li > a, .dropdown-menu a {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu a {
+  color: rgba(0,0,0,.5);
+}
+
+.dropdown-menu a:hover {
+  background: transparent;
+  color: #ed564b;
+}
+
+.dropdown-toggle::after {
+  border: 0;
+  content: "»";
+  font-size: 0.7rem;
+  display: inline;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ed564b;
+}
+
+
+/* Carousel */
+
+#carouselHome {
+  max-height: 550px;
+  background: #000;
+}
+
+.carousel img {
+  filter: grayscale();
+  max-height: 550px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/overlay.png);
+  background-repeat: repeat;
+}
+
+.carousel-caption {
+  bottom: 50px;
+}
+
+.btn-read-more {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.control {
+  background-color: #ed564b;
+  opacity: 1;
+  width: 50px;
+  height: 100px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+/* Widgets */
+
+#widgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #ffffff;
+  text-align: center;
+}
+
+#widgets h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#widgets p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+#widgets span {
+  border: 5px solid #fff;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  margin-bottom: 20px;
+}
+
+#widgets .icon {
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+#widgets .glass {
+  background-image: url(../img/drink.svg);
+}
+
+#widgets .star {
+  background-image: url(../img/star.svg);
+}
+
+#widgets .heart {
+  background-image: url(../img/heart.svg);
+}
+
+/* Latest items */
+
+#latest-items {
+  padding: 40px 0px;
+}
+
+.latest-projects {
+  margin-bottom: 50px;
+}
+
+.latest-projects h3 {
+  line-height: 0.5;
+  text-align: center;
+}
+
+.blog-title {
+  text-transform: uppercase;
+}
+
+.blog-title h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blog-title p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #aaa;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 30px;
+}
+
+.thumbnail > h3 > a {
+  text-decoration: none !important;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.thumbnail h3 {
+  margin-top: 15px;
+}
+
+.latest-articles h3 > a {
+  font-size: 0.95rem;
+}
+
+.latest-articles h3 {
+  line-height: 0.65;
+}
+
+.post-info {
+  margin-bottom: 20px;
+}
+
+.post-info span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #606060;
+}
+
+.post-info span > a {
+  text-decoration: none;
+  color: #f4473a;
+}
+
+.post-info span > a:hover {
+  color: #000000;
+}
+
+.latest-articles p {
+  font-size: 0.85rem;
+  color: #606060;
+  line-height: 1.6;
+}
+
+/* Bottom menu */
+
+#bottom-menu {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+
+#bottom-menu h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+#bottom-menu a {
+  text-decoration: none !important;
+  color: #aaa;
+  border-bottom: 1px dotted #aaa;
+  padding-left: 0;
+}
+
+#bottom-menu a:hover {
+  color: #fff;
+}
+
+#bottom-menu p, #bottom-menu a {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px 0px;
+  background: #292929;
+  font-size: 0.75rem;
+}
+
+footer, footer a {
+  color: #fff !important;
+}
+
+footer a {
+  text-decoration: none !important;
+}
