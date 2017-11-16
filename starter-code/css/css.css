@@ -279,7 +279,7 @@ hr {
   color: inherit;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .carousel-caption {
     top: 25%;
   }
