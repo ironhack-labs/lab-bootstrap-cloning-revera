@@ -3,6 +3,7 @@
   font-size: 3.2rem;
   font-family: Arial, sans-serif;
   font-weight: 800;
+  text-decoration: none;
 }
 
 #nav-section .container {
@@ -40,6 +41,11 @@
 
 #nav-list a {
   color: #7a7a7a;
+}
+
+#nav-list a:hover {
+  color: #ed564b;
+  text-decoration: none;
 }
 
 #nav-list li:first-child a {
@@ -171,6 +177,17 @@ header.container {
   height: 70px;
   border: 5px solid #fff;
   border-radius: 40px;
+}
+
+.glyphicon:hover {
+  animation: pop 0.3s both alternate linear 1;
+  cursor: pointer;
+}
+
+@keyframes pop {
+  100% {
+    transform: scale(1.2, 1.2);
+  }
 }
 
 .projects {
@@ -331,7 +348,7 @@ hr {
   }
 
   #head-logo {
-    margin-left: 8vw;
+    margin-left: 0;
   }
 
   #nav-section .container {
@@ -386,5 +403,9 @@ hr {
   #copyright .my-width {
     padding-top: 3vh;
     padding-bottom: 3vh;
+  }
+
+  .container {
+    width: 75%;
   }
 }
