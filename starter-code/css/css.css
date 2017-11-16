@@ -5,6 +5,10 @@
   font-weight: 800;
 }
 
+#nav-section .container {
+  padding: 5vh;
+}
+
 #head-logo {
   margin: 0;
 }
@@ -115,7 +119,7 @@
   transform: translate(0,-50%);
   background-color: #ed564b;
   width: 50px;
-  height: 100px;
+  height: 12vh;
 }
 
 .carousel-control-next {
@@ -126,7 +130,7 @@
   transform: translate(0,-50%);
   background-color: #ed564b;
   width: 50px;
-  height: 100px;
+  height: 12vh;
 }
 
 .crop {
@@ -273,4 +277,56 @@ hr {
 
 #copyright a {
   color: inherit;
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption {
+    top: 25%;
+  }
+
+  .carousel-caption h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .carousel-caption a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 25px;
+    border: 1px solid #fff;
+    margin-bottom: 10vh;
+    cursor: pointer;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .glyphicon {
+    font-size: 1.7rem;
+    width: 55px;
+    height: 55px;
+    border: 4px solid #fff;
+    border-radius: 40px;
+  }
+
+  #head-logo a {
+    font-size: 3rem;
+  }
+
+  #head-logo {
+    margin-left: 8vw;
+  }
+
+  #nav-section .container {
+    padding: 6vh;
+  }
 }
