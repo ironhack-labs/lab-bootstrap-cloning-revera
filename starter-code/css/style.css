@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+}
+
+header{
+  padding-top: 2%;
+}
+
+header h1{
+  font-size: 34px;
+  font-weight: 600;
+}
+
+#link-color{
+  color: #ed564b;
+}
+
+.nav-color a{
+  color: #777;
+}
+
+.nav-color a:hover{
+  color: #ed564b;
+}
+
+#slidebox {
+  max-height: 550px;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  background-color: url("../img/overlay.jpg");
+  z-index: 999;
+}
+
+.r-more {
+  background: rgba(255,255,255,0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.info {
+  padding: 40px 0px;
+  background: #ed564b;
+}
+
+.container-info {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.widget {
+  color: #fff;
+  text-align: center;
+}
+
+.widget a {
+  color: #f4473a;
+}
+
+.widget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.projects-title{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.projects-title h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.projects-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.projects-info p {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+
+.info {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.w-text{
+  color: #aaa;
+}
+
+.w-text h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.w-text p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+}
+
+.info ul {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.w-text ul li {
+  height: 100%;
+  line-height: 18px;
+  clear: left;
+  list-style-type: none;
+  color: #aaa;
+}
+
+.w-text li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
