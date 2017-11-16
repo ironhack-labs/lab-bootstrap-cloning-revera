@@ -28,14 +28,14 @@ header h1{
   position: relative;
 }
 
-.slide, img {
+.slide img {
   width: 100%;
   display: block;
 }
 
 .overlay {
   background-color: url("../img/overlay.jpg");
-  z-index: 100;
+  z-index: 999;
 }
 
 .r-more {
@@ -80,4 +80,35 @@ header h1{
   text-align: center;
   margin: 0px auto;
   font-size: 20px;
+}
+
+.projects-title{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.projects-title h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.projects-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.projects-info p {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
 }
