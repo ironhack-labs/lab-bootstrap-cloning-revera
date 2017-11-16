@@ -1,4 +1,4 @@
-*{
+body{
   margin: 0;
 }
 
@@ -21,4 +21,31 @@ header h1{
 
 .nav-color a:hover{
   color: #ed564b;
+}
+
+#slidebox {
+  max-height: 550px;
+  position: relative;
+}
+
+.slide, img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  background-color: url("../img/overlay.jpg");
+  z-index: 100;
+}
+
+.r-more {
+  background: rgba(255,255,255,0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 10px auto;
+  font-weight: bold;
 }
