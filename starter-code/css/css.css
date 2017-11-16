@@ -48,6 +48,10 @@
   text-decoration: none;
 }
 
+.dropdown-toggle {
+  text-decoration: none;
+}
+
 #nav-list li:first-child a {
   color: #ed564b;
 }
