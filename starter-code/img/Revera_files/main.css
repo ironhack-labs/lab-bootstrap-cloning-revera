@@ -1,0 +1,70 @@
+
+.row {
+  margin: 15px 135px;
+
+}
+
+.site-branding{
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: helvetica;
+}
+
+.mainmenu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.li{
+  padding: 0 10px;
+  font-size: 14px;
+  color: grey;
+}
+
+.li-red{
+  color: #F08080;
+}
+
+.slide-box{
+  height: 550px;
+  background-color: black;
+}
+
+.grey-wall{
+  background: url("img/overlay.png");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+/*.fwidgets{
+  padding: 40px 0;
+  height: 314px;
+  background-color: darkBlue;
+}
+
+.content{
+  margin: 0 135px;
+  width: 1170px;
+  height: 1121px;
+  background-color: orange;
+}
+
+.down-footer{
+  width: 1440px;
+  height: 286px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: green;
+}
+
+.last-one{
+  width: 1440px;
+  height: 58px;
+  padding: 10px 0;
+  background-color: purple;
+}*/
