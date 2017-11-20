@@ -3,28 +3,46 @@
   margin: 0 0;
 }
 
-body {}
+body {
+  font-size: 14px;
+}
 
 nav {
   height: 90px;
 }
-h3{
+
+h2 {
   font-size: 24px;
   font-weight: bold;
 }
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 #slidebox {
   height: 550px;
   background-color: rgb(140, 140, 140);
+  background-image: url(../img/slider.jpg);
+  background-size: cover;
+  filter: grayscale();
 }
 
 #widgets {
   height: 314px;
   background-color: #ed564b;
   text-align: center;
+  border-top: 5px solid #ed756c;
+  border-bottom: 5px solid #ed756c;
 }
 
 #content {
   height: 1121px;
+  box-sizing: border-box;
+  padding: 0 60px 0 60px;
+  border-bottom: 5px solid #ed564b;
+  margin-top: 70px;
 }
 
 #bottom {
@@ -39,41 +57,94 @@ footer {
 
 .nav-ul {}
 
-.nav-ul>ul {
-}
+.nav-ul>ul {}
 
 .nav-ul li {
   list-style-type: none;
   padding-right: 20px;
 }
 
-#slidebox {
-  background-image: url(../img/slider.jpg);
-  background-size: cover;
-  filter: grayscale();
-}
-.span-slidebox{
+.span-slidebox {
   font-size: 50px;
   /*filter:;*/
-  color:white;
+  color: white;
   background-color: #ed564b;
 }
-.slidebox-text{
+
+.slidebox-text {
   padding: 0 180px;
-  color:white;
+  color: white;
   text-align: center;
 }
-.row-widgets{
+
+.row-widgets {
   margin: 0 30px;
   color: white;
-
 }
-.widgets-col{
+
+.widgets-col {
   padding: 0 20px;
 }
-.widgets-col p{
+
+.widgets-col p {
   font-size: 14px;
 }
+
+.content-row {}
+
+.content-div-img {
+  text-align: center;
+}
+
+.content-div-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-div-img figcaption {
+  padding: 10px 15px 0 15px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.content-div-img h3{
+  font-size: 16px;
+  text-align: left;
+  padding: 20px 0 0px 0;
+}
+.content-div-img span{
+  font-size: 13px;
+  font-weight: bold;
+}
+.content-div-img p{
+  margin-top: 20px;
+}
+
+.content-title-p {
+  font-weight: bold;
+  color: rgb(185, 185, 185);
+  border-bottom: 1px solid ;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.content-row{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
