@@ -1,0 +1,45 @@
+/*h1 {
+  color: pink;
+}*/
+
+/*.site-header, .site-footer {
+  background-color: black;
+  color: white;
+  text-shadow: 100px 20px 0px black;
+}*/
+
+.doverlay {
+  background: url(../img/overlay.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.link-grey a {
+  flex-wrap: nowrap;
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.red-container {
+  background-color: #fe343b;
+}
+
+.main-content {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .main-content {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 385px) {
+  .main-content {
+    margin-bottom: 20px;
+  }
+}

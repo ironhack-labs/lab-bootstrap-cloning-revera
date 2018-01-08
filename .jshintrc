@@ -1,0 +1,8 @@
+{
+  "undef": true,
+  "unused": true,
+  "strict": "global",
+  "globals": {
+    "console": true,
+  }
+}
