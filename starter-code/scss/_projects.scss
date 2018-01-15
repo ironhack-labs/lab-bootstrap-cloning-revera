@@ -1,0 +1,44 @@
+.latest-projects {
+      h2,h3 {
+            text-transform: uppercase;
+            font-weight: 600;
+      }
+      h2 {
+            color: $black;
+            font-size: 1.5rem;
+      }
+      h3 {
+            color: $grey;
+            font-size: .9rem;
+            border-bottom: 1px solid #aaaaaa38;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+      }
+      .project-excerpt {
+            color: $black;
+            text-align: center;
+            font-size: .8rem;
+            font-weight: 600;
+            margin: 15px 0;
+      }
+      
+}
+.latest-articles {
+      .project-excerpt {
+            margin-bottom: 8px;
+            text-align: left;
+            line-height: 1.2;
+            font-size: .9rem;
+      }
+      .post-meta {
+            font-size: .75rem;
+            font-weight: 700;
+            a {
+                  color: $acento;
+            }
+      }
+      .post-excerpt {
+            font-size: .8rem;
+            margin-top: 20px;
+      }
+}

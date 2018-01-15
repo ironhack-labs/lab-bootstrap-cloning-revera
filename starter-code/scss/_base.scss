@@ -1,0 +1,12 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: $main;
+}
+
+section {
+    padding: 50px 0;
+    &.hero {
+        padding: 0;
+    }
+}

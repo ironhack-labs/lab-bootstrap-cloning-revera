@@ -1,0 +1,27 @@
+@mixin transition($transition) {
+      -moz-transition: $transition;
+      -o-transition: $transition;
+      -webkit-transition: $transition;
+      transition: $transition;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+      @if $inset {
+            -webkit-box-shadow: inset $top $left $blur $color;
+            -moz-box-shadow: inset $top $left $blur $color;
+            box-shadow: inset $top $left $blur $color;
+      }
+      @else {
+            -webkit-box-shadow: $top $left $blur $color;
+            -moz-box-shadow: $top $left $blur $color;
+            box-shadow: $top $left $blur $color;
+      }
+}
+
+@mixin filter($filter-type, $filter-amount) {
+      -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+      -moz-filter: $filter-type+unquote('(#{$filter-amount})');
+      -ms-filter: $filter-type+unquote('(#{$filter-amount})');
+      -o-filter: $filter-type+unquote('(#{$filter-amount})');
+      filter: $filter-type+unquote('(#{$filter-amount})');
+}
