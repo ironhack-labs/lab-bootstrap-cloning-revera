@@ -10,6 +10,9 @@ h4 small{
   font-weight: 800;
   color: #aaa;
 }
+h5{
+  font-size: 18px;
+}
 p{
   font-size: 16px;
 }
@@ -115,12 +118,43 @@ hr{
   font-size: 14px;
 }
 
+.rv-links-section{
+  background: #333;
+  border-top: 4px solid #f5736a;
+  width: 100%;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.rv-links-section p,
+.rv-links-section a{
+  font-size: 14px;
+  color: #aaa;
+}
+
+.rv-links-section a{
+  display: block;
+  border-bottom: 1px solid #aaa;
+  padding: 8px 0 ;
+}
 
 .btn-phantom{
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.3);
   border-radius: 0;
   border: 1px solid #fff;
   color: #fff;
   font-weight: 600;
   padding: 6px 30px;
+}
+
+footer{
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 30px 0;
+}
+
+footer p{
+  font-size: 12px;
+  line-height: 10px;
 }
