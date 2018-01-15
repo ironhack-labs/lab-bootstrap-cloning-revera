@@ -1,0 +1,25 @@
+.features {
+      background: $acento;
+      color: white;
+      border-top: 5px solid #f96b61;
+      border-bottom: 5px solid #f96b61;
+      .row {
+            i {
+                  font-size: 1.2rem;
+                  border: 4px solid white;
+                  border-radius: 100%;
+                  height: 70px;
+                  width: 70px;
+                  padding-top: 21px;
+            }
+            h2 {
+                  font-weight: 700;
+                  font-size: 1.2em;
+                  margin: 20px 0 10px;
+            }
+            p {
+                  font-size: .85rem;
+                  line-height: 1.6;
+            }
+      }
+}

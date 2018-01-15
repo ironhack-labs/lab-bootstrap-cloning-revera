@@ -1,0 +1,46 @@
+header {
+      height: 80px;
+      .logo {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-top: 25px;
+            font-family: $helvetica;
+            a {
+                  color: $black;
+            }
+      }
+      nav {
+            ul {
+                  line-height: 80px;
+                  a { 
+                        color: $main;
+                        text-decoration: none;
+                        font-size: .8rem;
+                        @include transition(all .3s ease-in-out);
+                        &.active {
+                              color: $acento;
+                        }
+                        &:hover {
+                              color: $acento;
+                              text-decoration: none;
+                        }
+                  }
+                  .dropdown-menu {
+                        border:none;
+                        @include box-shadow(0px, 4px, 10px, rgba(0,0,0,0.15));
+                        a {
+                              line-height: 24px;
+                              border-bottom: 1px solid #aaaaaa1f;
+                              padding: 10px 0 10px 10px;
+                              &:last-child {
+                                    border: none;
+                              }
+                        }
+                        
+                  }
+            }
+            
+            
+      }
+}

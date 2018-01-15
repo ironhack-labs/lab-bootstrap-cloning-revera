@@ -1,0 +1,14 @@
+/* para compilar a css y minificar:
+sass --watch scss:css --style compressed
+en el directorio del proyecto*/
+
+@import 'bootstrap';
+@import 'variables';
+@import 'recycle';
+@import 'base';
+@import 'hero';
+@import 'header';
+@import 'footer';
+@import 'features';
+@import 'projects';
+@import 'helpers'; 
