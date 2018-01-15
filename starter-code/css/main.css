@@ -36,6 +36,57 @@ img {
   height: auto;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.item h3 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.item p {font-size: 2em;}
+
+.slider-button {
+  background: rgba(255,255,255,0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 30%;
+  border: 1px solid #fff;
+  margin: 10px auto;
+  font-weight: bold;
+  padding: 2% 7%;
+}
+
+.slider-button:hover {
+  background: #ed564b;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 30%;
+  border: 1px solid #fff;
+  margin: 10px auto;
+  font-weight: bold;
+  padding: 2% 7%;
+  opacity: 0.6;
+}
+
+.carousel-caption {
+      width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
 
 
 #red-bandana {
