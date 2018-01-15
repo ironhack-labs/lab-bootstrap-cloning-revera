@@ -1,0 +1,18 @@
+.navbar-brand {
+    text-align: center;
+}
+.nav {
+    height: 80px;
+    background-color: #fff;
+}
+.carouselInner {
+    background:url("img/overlay.png");
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 50px;
+    height: 100px;
+    background-color: #ed564b;
+    margin-top: 16%;
+}
+
+
