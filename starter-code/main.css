@@ -1,0 +1,60 @@
+ 
+ body {
+font-family: 'Oxygen',sans-serif;
+ }
+
+ #masthead{
+  position: relative;
+  max-width:728px;
+  background-color: white;
+ }
+
+
+ #slidebox{
+  height: 550px;
+  background-color:#ed564b;
+  position: relative;
+ color: white;
+ padding: auto;
+ }
+
+ .fwidgets{
+   background-color: #ed564b;
+   height:300px;
+   color: white;
+   text-align: center
+ }
+
+ #content{
+   max-width: 982px;;
+   background-color: white;
+
+ }
+
+.container{
+  margin-left: -15px;
+  margin-right: -15px; 
+  color: #606060;
+}
+.navbar-brand{
+  font-weight: bolder;
+}
+img {
+background-repeat: no-repeat;
+background-size: cover;
+margin:auto;
+
+}
+.col{
+  display: block;
+  float:left;
+  width : 33%;
+  padding: 3% 5%;
+}
+
+ .circle{
+   border: 3px solid white;
+   border-radius: 50%;
+   padding: 5%;
+   
+ }
