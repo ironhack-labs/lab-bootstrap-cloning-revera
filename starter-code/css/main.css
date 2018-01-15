@@ -73,16 +73,48 @@ hr{
   padding-top: 50px;
 }
 
+.rv-projects .img-responsive,
 .rv-articles .img-responsive{
   margin-bottom: 20px;
 }
 
-.rv-articles .caption p{
+.rv-projects .caption p{
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
   text-align: center;
 }
+
+.rv-articles{
+  padding-bottom: 40px;
+}
+
+.rv-articles .caption p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+
+.rv-article-data{
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaa;
+}
+
+.rv-article-data a{
+  color: #f55a4e;
+}
+
+.rv-article-data a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.rv-articles p{
+  font-size: 14px;
+}
+
 
 .btn-phantom{
   background-color: rgba(255,255,255,.5);
