@@ -1,0 +1,57 @@
+h3{
+  font-size: 36px;
+}
+p{
+  font-size: 16px;
+}
+.rv-navbar{
+  margin-bottom: 0;
+  background: #fff;
+  border: none;
+  height: 90px;
+}
+.rv-navbar.navbar-default .navbar-brand{
+  font-size: 32px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #000;
+}
+.rv-navbar .navbar-nav li a{
+  height: 90px;
+  font-size: 14px;
+  line-height: 60px;
+  padding: 15px 10px;
+}
+.rv-carousel .carousel-inner{
+  max-height: 550px;
+}
+.carousel-inner>.item>img{
+  width: 100vw;
+  filter: grayscale(100%);
+}
+.rv-carousel .carousel-caption {
+  padding-bottom: 5%;
+}
+.rv-carousel .carousel-control{
+  background: #f4473a;
+  opacity: 1;
+  width: 50px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.rv-carousel .carousel-control .glyphicon{
+  margin: -15px;
+}
+.rv-salmon-section{
+  background: #f4473a;
+}
+
+.btn-phantom{
+  background-color: rgba(255,255,255,.5);
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  padding: 6px 30px;
+}
