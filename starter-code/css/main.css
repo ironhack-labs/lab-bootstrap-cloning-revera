@@ -1,0 +1,56 @@
+.nav{
+
+  color: black;
+  height: 80px;
+  
+}
+
+#nav-distinto{
+  background-color: #fff; 
+}
+
+.nav-branch {
+
+  text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev{
+
+   background-color: red;
+   width: 50px;
+   height: 100px;
+   margin-top: 16%; 
+ 
+}
+
+#info-revera{
+
+  background-color: #dc3545;
+  text-align: center;
+  color: #fff;
+  
+
+}
+
+#line-footer{
+
+  background-color: #dc3545;
+  height: 3px;
+}
+
+#info-footer{
+
+  background-color: #635f5f;
+  text-align: left;
+  color: #fff;
+
+}
+
+#footer{
+
+  background-color: #0c0b0b;
+  text-align: left;
+  color: #fff;
+
+}
+
