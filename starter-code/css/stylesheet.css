@@ -1,0 +1,104 @@
+.body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.container-fluid {
+  background-color: white;
+}
+.black {
+  color: black;
+}
+.navbar-header {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#links {
+  margin-top: 25px;
+}
+
+#caroussel {
+  background-image: url("../img/overlay.png");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: contain;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  padding-top: 200px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.flex-active-slide {
+  width: 100%;
+  float: left;
+  margin-right: 100%;
+  position: relative;
+  display: list-item;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 300px;
+}
+
+.title1,
+.text1 {
+  color: white;
+  width: 900px;
+}
+
+.title1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.text1 {
+  font-size: 16px;
+}
+
+.button {
+  padding: 5px 20px;
+  font-weight: 800;
+  border: 1px solid white;
+}
+.glyph {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+#three-part {
+  background-color: brown;
+}
+
+#images-text img {
+  width: 100%;
+}
+#img-txt-post img {
+  width: 100%;
+}
+
+.title2,
+.text2 {
+  color: white;
+}
+
+#part-one,
+#part-two,
+#part-three {
+}
