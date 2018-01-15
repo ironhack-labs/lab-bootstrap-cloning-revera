@@ -1,0 +1,121 @@
+.container-fluid {
+    background-color: #FFF;
+}
+
+#logo_revera {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    color: black;
+    font-size: 30px;
+}
+
+#row-header{
+    height: 50px;
+}
+
+.menu li{
+    display:inline-block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+}
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.img-carousel-full{
+    width: 100%;
+    height: auto;
+}
+
+.centrar-vertical-txt {
+   margin-bottom: 20%;
+   margin: 0 auto; 
+}
+
+.container-rojo {
+    background-color: #ed564b;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#cup-icon {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#star-icon {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#heart-icon{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title-latest{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.subtitle-latest{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.footer {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+@media (max-width: 540px) {
+    .navbar navbar-default {
+        z-index: 100;
+    }
+}
