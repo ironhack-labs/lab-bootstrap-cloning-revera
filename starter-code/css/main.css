@@ -1,0 +1,30 @@
+header {
+  height: 90px;
+}
+
+#slidebox {
+  height: 379.84px;
+  background-image: url(../img/overlay.png);
+}
+
+.fwidgets {
+  height: 380px;
+}
+
+#content {
+  height: 1239.66px;
+}
+
+#bottom {
+  height: 614px;
+}
+
+#colophon {
+  height: 78px;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+}
