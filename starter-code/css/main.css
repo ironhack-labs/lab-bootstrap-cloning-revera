@@ -1,0 +1,84 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* ---- typography ---- */
+
+body {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+/* ---- layout ---- */
+
+
+header {
+    margin-bottom: 10px;
+}
+
+#highlights {
+    background-color: #ED564B;
+}
+
+.highlight {
+    margin-top: 20px;
+    color: white;
+}
+
+.glyph {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius:50%;
+    border:3px solid #fff;
+}
+
+.heading-section-text {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.heading-section-text p {
+    color: grey;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+footer {
+    border-top: 5px solid #ed564b;
+    background-color: #3B3B3B;
+    color:white;
+}
+
+footer p {
+    color:#aaa;
+}
+
+.copy {
+    text-align: left;
+    
+}
+
+.copy p {
+    margin: 0;
+}
+
+/* ---- components ---- */
