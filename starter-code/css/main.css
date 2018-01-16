@@ -80,8 +80,18 @@ li a{
 }
 
 .grey{
-    /* background-image: url('../img/overlay.png'); */
-    filter: grayscale(100%); 
+     background-image: url('../img/overlay.png'); 
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0px;
+     right: 0px;
+     top:0px;
+     z-index:2;  
+}
+
+.black-white{
+    filter: grayscale(100%);
 }
 
 .icon{
