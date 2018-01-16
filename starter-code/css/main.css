@@ -80,7 +80,13 @@ li a{
 }
 
 .grey{
-    filter: grayscale(100%);
+    /* background-image: url('../img/overlay.png'); */
+    filter: grayscale(100%); 
+}
+
+.icon{
+    font-size:3em;
+     color:white;
 }
 
 .media{
