@@ -57,7 +57,14 @@ html {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    background: #F54143;
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
   } 
+
+  .center-page p{
+    font-size: 12px;
+  }
   
   
   .projects{
