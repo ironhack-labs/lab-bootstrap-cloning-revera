@@ -1,0 +1,275 @@
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: #f4473a;
+}
+
+#masthead {
+    position: relative;
+}
+
+.site-branding {
+    margin-bottom: 20px;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    font-size: 32px;
+}
+
+h1.site-title a:link,
+h1.site-title a:visited {
+    color: #000;
+}
+
+#submenu {
+    padding: 0;
+    margin: 15px 0;
+    height: 60px;
+    border-bottom: none;
+    float: left;
+}
+
+#submenu ul {
+    width: auto;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0 0px;
+}
+
+#submenu li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+#submenu li a:hover,
+#submenu li a:active,
+#submenu .current_page_item a {
+    color: #ed564b;
+}
+
+#submenu li a {
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.carousel .doverlay {
+    background: url(./img/overlay.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.carousel .item img {
+    width: 100%;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.carousel .item .flex-caption {
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    width: 100%;
+}
+
+.carousel .item .flex-caption .carousel-item-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel .item .flex-caption .carousel-item-content .frmore {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+    outline: none;
+}
+
+.carousel-control {
+    z-index: 3;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.homewidget h3 {
+    font-size: 24px;
+    font-weight: bold
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.section-wide {
+    margin-top: 40px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-title p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.postbox h3 a:link,
+.postbox h3 a:visited,
+.portbox h3 a:link,
+.portbox h3 a:visited {
+    color: #000;
+}
+
+.portbox h3 {
+    text-align: center;
+    color: #000;
+    font-size: 14px
+}
+
+.hometa {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.single .byline,
+.group-blog .byline {
+    display: inline;
+}
+
+.updated {
+    display: none;
+}
+
+.postbox h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.botwid {
+    color: #aaa;
+}
+
+.botwid p {
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+}
+
+.bothead {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#bottom ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.botwid ul li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+}
+
+.botwid ul li a:link,
+.botwid ul li a:visited {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+.site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+
+.fcred {
+    padding: 10px 0px;
+    color: #eee;
+}
+
+.fcred a:link,
+.fcred a:visited {
+    color: #eee;
+}
