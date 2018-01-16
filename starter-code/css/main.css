@@ -1,0 +1,60 @@
+.navbar-brand{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+
+}
+.carousel-control-next, .carousel-control-prev{
+    background-color: #f4473a;
+    width: 60px;
+    height: 100px;
+    margin-top: 20%;
+}
+#rojas-1{
+    background-color: rgb(237, 86, 75);
+    text-align: center;
+    color: white;
+}
+.fa {
+   
+    border: solid 5px white;
+    border-radius: 50%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+#columna-1{
+    padding:30px;
+}
+.padding-text{
+    padding:0 5%;
+}
+.latest , .latest-2{
+    padding: 5%;
+    font-weight: 100
+}
+h3{
+    font-weight: bold;
+}
+h2, .navbar-brand{
+    font-weight: bold;
+
+}
+h5{
+    color: #aaa;
+    border-bottom: 1px solid #dfdfdf;
+  
+}
+hr{
+    color: green;
+}
+.fotos-latest-2{
+    width: 100%;
+    
+}
+.fotos-latest{
+    width: 100%;
+    
+}
+.sub-pic-text{
+    text-align: center;
+}
