@@ -1,0 +1,43 @@
+.navbar{
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-brand{
+    padding-left:100px;
+    font-size: 32px;
+}
+.nav {
+    padding-right: 150px;
+    
+}
+.row{
+    background: d;
+    padding-left: 10px;
+    color:white;
+}
+.proyecto p{
+color:#aaa;
+font-weight: bold;
+border-bottom: 1px solid #dfdfdf;
+padding-bottom: 20px;
+}
+.thumbnail{
+border: 100px;
+color:black;
+margin-top: 10px;
+}
+.col-xs-6 p{
+    color:black;
+}
+.clase p{
+color:gray;
+border:0;
+}
+.segunda{
+    border-bottom: 5px solid #ed564b;
+}
+
+.final{
+    background: #3b3b3b;
+}
