@@ -1,0 +1,34 @@
+.navbar-brand{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+nav{
+    background: #fff;
+
+}
+
+.col-md-8 colMenu{
+    font: grey;
+
+}
+
+.carousel-caption h3{
+    font-size: 30px
+}
+
+.container-explanation{
+background: #ed564b;
+text-align: center;
+color:white;
+padding: 75px 0px;
+}
+
+.colGlass{
+
+}
+
+.container-explanation i{
+    font-size: 36px;
+}
