@@ -1,0 +1,78 @@
+.overlay {
+  background-image: url(../img/overlay.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+.grey {
+  filter: grayscale(100%);
+}
+.overlay-control {
+  background-color: #eb5750;
+  z-index: 200;
+  height: 20%;
+  width: 5%;
+  top: 50%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 200;
+}
+
+.section2 {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  text-align: center;
+  color: white;
+}
+
+.widget {
+  color: #fff;
+  text-align: center;
+  /* text-align: center;
+  border: 4px solid white;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px; */
+}
+
+.widget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+section3 {
+  text-align: center;
+}
+.marginSection3 h2 {
+  color: black;
+}
+.marginSection3 {
+  padding-top: 30px;
+  color: #aaaaaa;
+}
+
+.img-responsive {
+  height: auto;
+  max-width: 20%;
+}
