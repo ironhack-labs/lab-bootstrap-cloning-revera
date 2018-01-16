@@ -1,0 +1,66 @@
+
+
+@media screen and (max-height: 1000px) {
+    .carousel-item {
+    height: 24rem;
+    }}
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-containers {
+  padding: 10px 0;
+}
+
+.carousel-containers {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-containers {
+    padding: 1.5em 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 930px;
+  }
+}
+#dog{
+    filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+}
+.fwidget{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+.fwidget {
+    color:white;
+}
