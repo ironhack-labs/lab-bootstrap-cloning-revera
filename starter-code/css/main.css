@@ -32,9 +32,11 @@
     height: auto;
 }
 
-.centrar-vertical-txt {
-   margin-bottom: 20%;
-   margin: 0 auto; 
+.carousel-caption{
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    top: 35%;
 }
 
 .container-rojo {
@@ -60,6 +62,7 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -75,6 +78,7 @@
     margin: 0 auto;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #heart-icon{
@@ -89,6 +93,7 @@
     margin: 0 auto;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .title-latest{
@@ -112,6 +117,7 @@
     border-top: 5px solid #ed564b;
     background-color: #3b3b3b;
     color: #fff;
+    margin-top: 40px;
 }
 
 @media (max-width: 540px) {
