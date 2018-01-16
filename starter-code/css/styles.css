@@ -1,0 +1,27 @@
+body{
+
+}
+#div1 {
+    margin: 2%;
+    margin-top:0;
+}
+#titulo1{
+    text-align: right;
+}
+#ulista{
+    text-align: center;
+    margin-top:1.8%
+}
+.lista1{
+    display: inline-block;
+    padding: 10px;
+}
+.bg{
+    background-color: #ed564b;
+    color: white;
+}
+.bg2{
+    background-color: #3b3b3b;
+    color: white;
+    margin-top: 1%;
+}
