@@ -1,0 +1,27 @@
+.navbar-brand {
+    text-align: center;
+}
+.nav {
+    height: 80px;
+    background-color: #fff;
+}
+.carouselInner {
+    background:url("img/overlay.png");
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 50px;
+    height: 100px;
+    background-color: #ed564b;
+    margin-top: 16%;
+}
+#container-red{
+    background-color: #ed564b ;
+   text-align: center;
+   color: #fff;
+   padding: 40px 0px;
+   border-top: 5px solid #f96b61 ;
+   border-bottom: 5px solid #f96b61 ;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
