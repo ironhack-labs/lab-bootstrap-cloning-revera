@@ -1,0 +1,80 @@
+body {
+  margin: 0 auto;
+}
+
+.menu-item{
+  float: left;
+  list-style: none;
+  padding: 20px;
+  color: grey;
+  margin-top: -25px;
+  margin-left: -15px;
+}
+
+h1 {
+  margin-top: -10px;
+}
+
+.revera-services {
+  margin-top: 15px;
+}
+
+#home {
+  color: red;
+}
+
+.carousel-control {
+  background-color: red;
+  color: white;
+  margin-top: 200px;
+  height: 100px;
+  width: 55px;
+}
+
+.specs-wrapper{
+  color: white;
+  padding: 40px 0px;
+  background-color: #ed564b;
+  border-top: 3px solid #f96b61;
+}
+
+.content-wrapper {
+  margin-top: 50px;
+}
+
+i.glyphicon {
+  border: 5px solid #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.col-sm-3 h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.col-sm-3 h4 {
+  font-size: 14px;
+}
+
+.footer-wrapper {
+  border-top: 3px solid #f96b61;
+  color: white;
+  background-color: #3b3b3b;
+  list-style: none;
+}
+
+.copy-wrapper {
+  color: white;
+  background-color: #292929;
+  height: 80px;
+}
+
+.copy-wrapper p {
+ margin-top: 30px;
+}
