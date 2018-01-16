@@ -1,0 +1,76 @@
+.home {
+  color: red;
+  text-align: center;
+}
+
+.container{
+  padding: 1%;
+    
+}
+.menu {
+  color: whitesmoke;
+}
+.nav-tem{
+
+  
+}
+
+.container-red{
+  padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: whitesmoke;
+}
+
+.glyphicon-glass {
+
+  border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    font-style: italic;
+    content: "\e001";
+}
+
+.glyphicon-star{
+
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  font-style: italic;
+  content: "\e001";
+}
+
+.glyphicon-heart {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  font-style: italic;
+  content: "\e001";
+}
+
+.container2{
+
+
+}
