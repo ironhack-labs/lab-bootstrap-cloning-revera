@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.fwidgets {
+  padding: 80px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  text-align: center;
+  color: white;
+}
+.bo {
+  padding: 20px;
+  border-radius: 50%;
+  border: 5px solid white;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.container {
+  padding: 60px 0;
+}
+hr {
+  background: black !important;
+}
