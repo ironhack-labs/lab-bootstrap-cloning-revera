@@ -1,0 +1,67 @@
+/* ---- reset ---- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+  
+  /* ---- typography ---- */
+  
+  h1 {
+      text-transform: uppercase;
+      font-weight: 800px;
+      margin-top: 25px;
+  }
+  
+  h2 {}
+  
+  h3 {}
+  
+  
+  /* ---- layout ---- */
+  
+  #site-header {}
+
+ .navbar li {
+      list-style-type: none;
+      display: inline;
+  }
+
+ li {
+      padding: 10px 15px;
+  }
+
+ .navbar ul {
+     margin-top: 15px;
+      margin-left: 0;
+  }
+
+  #site-footer {}
+  
+  #site-main {}
+  
+/* ---- components ---- */
+.dropdown-toggle {
+    color: black;   
+}
+
+.overlay {
+    background-image: url(img/overlay.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+img:hover {
+    filter: grayscale(60%);
+}
