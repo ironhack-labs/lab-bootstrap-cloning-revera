@@ -1,6 +1,4 @@
-nav, div, footer{
-    border: 1px solid red;
-}
+
 
 
 /* ------------ Typography ------------- */
@@ -64,8 +62,16 @@ nav, div, footer{
 .text-img{
     position: absolute;
     top: 30%;
-    left: 25%;
-    width: 50%;
+    left: 20%;
+    width: 60%;
     text-align: center;
     z-index: 2;
+}
+.btn-carousel{
+    background: rgba(255, 255, 255, 0.4); 
+    color:rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 5px 20px;
+    font-weight: bolder;
 }
