@@ -1,0 +1,17 @@
+.navbar-brand {
+    font-size: 40px;
+}
+
+.carousel-item {
+    background-image: url("../img/overlay.png");
+}
+
+.overlay {
+    background-image: url("./img/overlay.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
