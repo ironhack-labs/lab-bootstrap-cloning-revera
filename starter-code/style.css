@@ -1,3 +1,16 @@
+.white-boxes-container {
+    height: 800px;
+    border: 3px solid black;
+}
+.gray-boxes-container {
+    height: 300px;
+    border: 3px solid gray;
+}
+
+.footer-container {
+    height: 200px;
+    border: 2px solid black;
+}
 .red-boxes {
     background-color: red;
     text-align: center;
