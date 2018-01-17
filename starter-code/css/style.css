@@ -1,6 +1,3 @@
-nav, div, footer{
-    border: 1px solid red;
-}
 
 
 /* ------------ Typography ------------- */
@@ -12,10 +9,14 @@ nav, div, footer{
     color: white;
     font-size: 32px;
     text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
 }
 .text-img p{
     color: white;
     font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
 }
 .icons-info{
     text-align: center;
@@ -81,7 +82,7 @@ nav, div, footer{
 }
 .text-img{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 25%;
     width: 50%;
     text-align: center;
@@ -98,14 +99,18 @@ nav, div, footer{
 
 .icons-bckgn{
     background-color: #ed564b;
+    position: absolute;
+    top: 70%;
+    width: 100%;
 }
 .icons-ctn{
-    padding: 30px;
+    padding: 30px 0;
 }
 .fa{
     color: white;
     border: 5px solid white;
     border-radius: 35px;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
