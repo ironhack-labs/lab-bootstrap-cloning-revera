@@ -1,0 +1,25 @@
+/* ----- reset ----- */
+
+html {
+    box-sizing: border-box;   
+}   *, *:before, *:after {     box-sizing: inherit;   }
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+/* --------- typography ---------- */
+
+
+/* --------- layout ---------- */
+
+/* --------- components ---------- */
+
+
+/* --------- pages ---------- */
+
+
+/* --------- TEMP ----------
+div, header, section, footer, nav, article, p {
+	border: 1px solid black;
+} */
