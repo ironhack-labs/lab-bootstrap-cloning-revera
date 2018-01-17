@@ -1,0 +1,83 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  
+  
+  /* ---- typography ---- */
+  
+  body {}
+  
+  h1 {}
+  
+  h2 {}
+  
+  h3 {}
+  
+  
+  
+  
+  /* ---- layout ---- */
+  
+  #site-header {}
+  
+  #site-footer {}
+  
+  #site-main {}
+  
+  
+  
+  
+  /* ---- components ---- */
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-bar-list{
+
+  }
+  
+  .large-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ 
+
+  .center-page {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #F54143;
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+  } 
+
+  .center-page p{
+    font-size: 12px;
+  }
+  
+  
+  .projects{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .articles{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  div {
+      border: 1px solid red;
+  }
