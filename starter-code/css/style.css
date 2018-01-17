@@ -1,0 +1,116 @@
+
+
+/* ------------ Typography ------------- */
+
+.logo-nav h2{
+    font-weight: bolder;
+}
+.text-img h3{
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
+}
+.text-img p{
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
+}
+.icons-info{
+    text-align: center;
+}
+.icons-ctn h3{
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+.icons-ctn p{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+/* ------------ Layout -------------- */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.icons-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* ------------ Components ----------- */
+
+.nav-bar{
+    margin-right: 20px;
+}
+.nav-menu ul{
+    margin: 10px;
+}
+.nav-menu ul  li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.overlay{
+    background-image: url('../img/overlay.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.text-img{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    z-index: 2;
+}
+.btn-carousel{
+    background: rgba(255, 255, 255, 0.4); 
+    color:rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 5px 20px;
+    font-weight: bolder;
+}
+
+.icons-bckgn{
+    background-color: #ed564b;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+}
+.icons-ctn{
+    padding: 30px 0;
+}
+.fa{
+    color: white;
+    border: 5px solid white;
+    border-radius: 35px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
