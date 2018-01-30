@@ -1,0 +1,74 @@
+img {
+  max-width: 100%;
+}
+
+.revera-logo {
+  color: black;
+  font-weight: 700;
+  font-size: 25pt;
+}
+
+.nav-link {
+  color: #ed564b;
+}
+
+.nav-row {
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.red-section {
+  background-color: #ed564b;
+  text-align: center;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+}
+
+.fa {
+  padding-top: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+.projects > h6 {
+    color: rgb(156, 156, 156);
+}
+
+.articles > h6 {
+    color: rgb(156, 156, 156);
+}
+
+.center1 {
+  font-size: 12px;
+  padding: 30px;
+}
+
+.center2 {
+  font-size: 12px;
+  padding: 30px;
+}
+
+.bottom {
+  border-top: 5px solid #ed564b;
+  background-color: #505050;
+  color: lightgrey;
+  font-size: 12px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.footer {
+  background-color: #292929;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  padding-left: 32px;
+}
+ 
