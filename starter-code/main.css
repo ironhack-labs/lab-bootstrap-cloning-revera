@@ -72,6 +72,7 @@
     color: white;
     background-color: #DD6052;
     width: 100%;
+    padding-top: 100px;
   }
   
   .background-and-text h1 {
@@ -80,6 +81,7 @@
 
   .background-and-text p {
       font-size: .85em;
+      width: 90%;
   }
   
 
