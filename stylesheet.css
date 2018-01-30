@@ -31,9 +31,6 @@ h6{
     color: #f4473a;
 }
 
-.overlay{
-    filter: url("img/overlay.png");
-}
 
 #prev-icon, #next-icon{
     background-color: #f4473a;
