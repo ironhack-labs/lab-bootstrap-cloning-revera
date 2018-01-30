@@ -1,0 +1,64 @@
+html body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.navbar-brand{
+    font-size: 14;
+    font-weight: bolder;
+}
+
+#navbarSupportedContent{
+    margin-left: 300px; 
+    font-size: 14px;
+
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: red;
+}
+
+
+.row{
+    background-color: red;
+    height: 257.38px;  
+    color: white; 
+    font-size: 13px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.icono{
+    font-size: 30px !important;
+}
+
+
+.twidgets{
+    background-color: red;
+    height:687px;
+
+}
+
+.container{
+    background-color: white;
+    height:1949.63px; 
+    margin-top: 30px;
+}
+
+.container h5{
+    color:grey;
+}
+
+.container blog p{
+color: grey;
+}
+
+#bottom{
+    background-color: black;
+    height: 650px;
+}
+
+.fored-col-12{
+    background-color: grey;
+    height:58px; 
+}
