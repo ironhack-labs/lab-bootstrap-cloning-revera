@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0;
+  padding-left: 10vw;
+  padding-right: 20vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url(img/slider-1.jpg);
+  height: 75%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: #BABABA;
+  text-shadow: black;
+  filter: grayscale(100%);
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.glyphicon {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 4px solid white;
+  text-align: center;
+  padding-top: 2.5vh;
+}
+
+.red-icon-container {
+  background-color: #ED5749;
+  color: white;
+  width: 100%;
+  padding: 5vh 10vw;
+}
+
+.red-line-container {
+  background-color: #414141;
+  border-top: 3px #ED5749 solid;  
+  width: 100%;
+  padding: 5vh 10vw;
+  color: white;
+}
+
+.footer {
+  background-color: #292929;
+  color: white;
+  width: 100%;
+  padding: 2vh 10vw;
+}
+
+.red {
+  color: red;
+}
+
+.cat-container {
+  width: 50%;
+  padding-top: 10vh;
+  font-size: .75rem !important;
+}
