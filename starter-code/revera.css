@@ -1,0 +1,166 @@
+
+html, body{
+    margin: auto 0;
+}
+
+body, button, input, select, textarea {
+    color: #606060;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+    color: black;
+    margin-left: 8vw;
+}
+
+.nav-item{
+margin-left: 8vh;
+}
+
+
+.navbar li{
+font-size: 0.7em;
+}
+
+.mainPitch{
+    color: white;
+    text-align: center;
+}
+
+.DAcarousel h1{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.DAcarousel .formore{
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: white;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+
+
+
+/* html, body{
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body, button, input, select, textarea {
+    color: #606060;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+#masterh {
+    position: relative;
+    max-width: 1170px;
+}
+
+.site-header .site-branding h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+    color: black;
+}
+
+.col-sm-8 {
+    width: 66.66666666666666%;
+}
+
+.site-header .top-menu{
+    padding: 0px 0px;
+    margin: 15px 0px;
+    height: 60px;
+    border-bottom: none;
+    float: left;
+}
+
+.site-header ul{
+    width: auto;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0 0px;
+}
+
+.site-header li{
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding-right: 15px;
+        font-weight: 400;
+
+        
+}
+
+.site-header li:first-child{
+    color: #ed564b;
+}
+
+.flexslider{
+    background-image: url("img/overlay.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+<body>
+    
+    <header id="masterh" class="site-header container">
+
+        <div class="row">
+            <div class="site-branding col-sm-4">
+                <h1>revera</h1>
+            </div>
+            <div class="col-sm-8 site-menu">
+                <div class="top-menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Sample Page</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Parent Page »</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        
+    </header>
+    
+
+    <div class="flexslider">
+
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <footer></footer>
+
+
+
+
+</body>
+</html>
+*/
