@@ -1,0 +1,74 @@
+/* nav bar styling starts here */
+.revera-logo{
+  font-size: 2.6em;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.active{
+  color: #f4473a;
+}
+
+.nav{
+  font-size: 0.8em;
+  margin: 20px;
+}
+
+/* header styling starts here */
+header h5{
+  font-size: 3em;
+}
+
+header img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%)
+}
+
+/* web section starts here */
+.web-columns{
+  text-align: center;
+  color: white;
+  background-color: #f4473a;
+  padding: 50px 50px;
+}
+
+.web-columns h3{
+  padding: 20px 0;
+}
+
+.img-3 img{
+  max-width: 100%;
+}
+
+.img-grid h1{
+  padding-top: 50px;
+}
+
+.img-grid p{
+  color: gray;
+}
+
+.center-text{
+  text-align: center;
+}
+
+/* footer bottom */
+.btm-links{
+  background-color: #606060;
+  color: #aaa;
+  padding: 50px auto;
+}
+
+.btm-links h6{
+  color: white;
+  padding-top: 50px;
+}
+
+.btm-links span{
+  border-bottom: 1px dotted grey;
+  padding: 5px;
+}
+
+
