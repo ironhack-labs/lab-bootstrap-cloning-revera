@@ -71,12 +71,18 @@ html, body {
   border-top: 3px #ED5749 solid;  
   width: 100%;
   padding: 5vh 10vw;
-  color: white;
+  color: #ABABAB;
+}
+
+.red-line-container a {
+  color: #ABABAB;
+  border-bottom: 1px dotted #ABABAB;
+  padding: 1vh 0;
 }
 
 .footer {
   background-color: #292929;
-  color: white;
+  color: #ABABAB;
   width: 100%;
   padding: 2vh 10vw;
 }
@@ -96,4 +102,41 @@ html, body {
   font-size: 1.5rem;
   color: white;
   padding: 1.5vh 1.5vw;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 5vh 0;
+}
+
+.articles-headline {
+  font-weight: bold;
+  padding-top: 5vh;
+  font-size: 2.25rem;
+}
+
+.article-subhead {
+  color: #ABABAB;
+  font-weight: bold;
+}
+
+.articles-container {
+  padding-bottom: 5vh;
+}
+
+.articles-container p {
+  padding-top: 2vh;
+}
+
+.articles-container a {
+  color: #ED5749;
+}
+
+.articles-container h5 {
+  font-weight: bolder;
+  padding: 1vh 0;
+  line-height: 1.65rem;
 }
