@@ -1,0 +1,79 @@
+#nav{
+    margin-top: 40px;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#nav-items{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#projects, #articles, #copyrights-row, #bot-info{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#slider {
+    margin-top: 30px;
+    background-color: green;
+    height: 450px;
+}
+
+#slider-items{
+    background-color: red;
+    height: 250px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#bot-info {
+    height: 350px;
+    border-top: 6px solid #ed564b;
+    background-color: #3b3b3b;
+    color: #aaaaaa;
+}
+
+#copyrights {
+    height: 78px;
+    background-color: #292929;
+    color: white;
+    padding-top: 10px;
+}
+#date-user{
+    color:red;
+}
+
+#projects p {
+    font-size: 100%;
+}
+
+#articles h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#articles p {
+    margin-top: 1.4rem;
+}
+
+.dashed-border {
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+    height: 2.5rem;
+    border-bottom-color: #aaaaaa;
+    margin-bottom: 15px;
+}
+
+#bot-info h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#projects p {
+    font-weight: bold;
+}
