@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+}
+
+.background{
+    background: #ed564b;
+    color: white;
+}
+.container{
+    max-width: 100%;
+}
+img {
+    max-width: 100%
+}
+.gray {
+    background: #606060;
+    color: white;
+}
+ul {
+    list-style: none;
+    line-height: 30px;
+    
+}
+h3 {
+    padding-top: 20px;
+}
+h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
