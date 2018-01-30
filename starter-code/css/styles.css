@@ -1,0 +1,179 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: 'sans-serif';
+}
+
+figcaption {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#projects figcaption {
+  text-align: center;
+  padding: 5px;
+}
+
+#articles figcaption {
+  text-align: left;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.img-caption {
+  color: #aaa;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+.navbar {
+  background-color: #fff;
+  height: 90px;
+}
+.navbar h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.navbar span {
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+.navbar ul {
+  width: 65%;
+}
+.navbar li {
+  list-style: none;
+  display: inline;
+  margin: 7px;
+  font-size: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #777;
+  font-size: 16px;
+}
+.navbar a:hover {
+  color: #ed564b;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 750px;
+}
+
+#img-gallery {
+  background-image: url('../img/slider-4.jpg');
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+#img-gallery h2 {
+  font-size: 4em;
+}
+
+#img-gallery p {
+  font-size: 2em;
+}
+.gallery-text {
+  width: 70%;
+}
+
+.header-sections {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+#columns {
+  background-color: #ed564b;
+  color: #fff;
+  padding: 50px;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+#columns h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#columns p {
+  font-size: 15px;
+}
+
+#projects {
+  padding-top: 50px;
+}
+
+i.fa {
+  border: 3px solid #fff;
+  display: inline-block;
+  border-radius: 55px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+#articles .row p {
+  font-size: 14px;
+  color: #bf3939;
+}
+
+#articles span {
+  color: #ed564b;
+  font-weight: bold;
+}
+
+#footer {
+  border-top: 5px solid #ed564b;
+  background-color: #3b3b3b;
+  padding: 30px;
+}
+
+#footer ul,
+#footer li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted #aaa;
+  font-size: 16px;
+}
+
+#footer a {
+  color: #aaa;
+}
+#footer h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+#footer li {
+  list-style: none;
+  color: #606060;
+}
+
+footer {
+  background-color: #292929;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.lead {
+  font-size: 14px;
+  line-height: 150%;
+  color: #aaa;
+}
