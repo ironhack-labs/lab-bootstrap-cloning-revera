@@ -1,0 +1,31 @@
+.nav-ul li {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-color {
+    background-color: #3B3B3B;
+    color: white;
+}
+
+.background-red {
+    background-color: #DC6052;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color:#292929;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 15px;
+}
