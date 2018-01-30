@@ -28,6 +28,17 @@ nav{
     text-align: center;
 }
 
+.centered p{
+    color: white;
+}
+/* .overlay{
+    background-image: url("img/overlay.png");
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+     */
+}
 h2{
     font-size: 2.9em;
     text-transform: uppercase;
@@ -63,7 +74,9 @@ h2{
     color: white;
     align-items: center;
 }
-
+.col p{
+    color: white;
+}
 .fa{
     height: 30px;
 }
@@ -79,6 +92,10 @@ h2{
 .latest{
     width: 90%;
     margin: 50px auto;
+}
+
+.latest p{
+    color: #292929;
 }
 .col img{
     width: 60%;
