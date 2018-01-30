@@ -1,0 +1,94 @@
+.site-branding h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.nav-list a {
+    color: grey;
+}
+
+.nav-list a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.home a {
+    color: red;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainmenu {
+    padding-top: 5px;
+}
+
+/* begin header css */
+
+
+.image-holder{
+    background-image: url(img/slider-1.jpg), url(img/overlay.png);
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    margin: 0;
+    filter: grayscale(100%);
+}
+
+.big-container {
+    height: 500px;
+    width: 100%;
+    padding-top: 20vh;
+  }
+
+  .text-container {
+    padding-top: 50px;
+  }
+
+  .text-container p{
+    font-size: 14px;
+  }
+
+  .button {
+    opacity: 0.5;
+    background-repeat:no-repeat;
+    border: 3px solid white;
+    cursor:pointer;
+    /* when I add color: white, it makes the text disappear for some reason */
+}
+
+/* red section */
+
+  .background-and-text {
+    color: white;
+    background-color: #DD6052;
+    width: 100%;
+  }
+  
+  .background-and-text h1 {
+    font-size: 1.5em;
+  }
+
+  .background-and-text p {
+      font-size: .85em;
+  }
+  
+
+ /* latest projects */
+
+ .image-sizes {
+     height: 30%;
+ }
+
+ .image-sizes2 {
+     height: 12%;
+ }
