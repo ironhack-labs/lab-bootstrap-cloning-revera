@@ -1,0 +1,184 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+nav{
+    height: 100px;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ed564b;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.centered p{
+    color: white;
+}
+/* .overlay{
+    background-image: url("img/overlay.png");
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+     */
+}
+h2{
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+
+.read-button{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* .carousel-inner{
+    height: 500px;
+} */
+
+/* .overlay{
+    background: url(img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+} */
+
+.color-row{
+    height: 300px;
+    background-color: #ed564b;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.col p{
+    color: white;
+}
+.fa{
+    height: 30px;
+}
+
+.fa-circle-o{
+    width: 22px;
+}
+
+.links{
+    color: #ed564b;
+}
+
+.latest{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.latest p{
+    color: #292929;
+}
+.col img{
+    width: 60%;
+}
+h2{
+    font-weight: bold;
+}
+
+.desc{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: grey;
+} 
+/* .row .display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
+  }
+  .thumbnail img {
+    height:250px;
+    width:100%;
+} */
+
+.color-hr{
+    height: 4px;
+    background-color: #ed564b;
+    margin: 0;
+}
+p a{
+    color: #292929;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 a{
+    color: #292929;
+    font-size: 18px;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+h6 a{
+    color: #ed564b;
+}
+article p{
+    font-size: 13px;
+    color: #292929;
+}
+
+.col h5{
+    text-transform: uppercase;
+}
+.bottom{
+    background-color: #3B3B3B;
+}
+
+.bottom-row{
+    width: 80%;
+    color: white;
+}
+.bottom-list li{
+    list-style: none;
+}
+.bottom-list a, p{
+    color: gray;
+}
+
+footer{
+    font-weight: lighter;
+    color: white;
+    background-color: #292929;
+}
+
+/* .img-responsive {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+} */
+figure{
+    display: inline;
+}
