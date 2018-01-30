@@ -1,0 +1,20 @@
+.title a{
+   font-size: 28px;
+   color:#000;
+   padding-top: 36px;
+   font-weight: bold;
+}
+
+.mini a{
+    font-size: 13px;
+    color: grey;
+}
+
+.nav-height {
+    width: 1200px;
+    height: 90px;
+}
+
+.redhome a{
+    color: red;
+}
