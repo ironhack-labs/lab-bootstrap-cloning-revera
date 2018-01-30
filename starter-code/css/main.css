@@ -1,0 +1,78 @@
+#main-title{
+    margin-top: 30px;
+}
+#main-title a{
+    color: black;
+}
+
+#submenu{
+    margin: 45px 0;
+}
+
+#submenu li{
+    list-style-type: none;
+    display: inline;
+    padding: 19px 10px;
+}
+
+#submenu li a {
+    color: grey;
+}
+
+.doverlay{
+    background: url("../img/overlay.png");
+}
+
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+    border: 5px solid #FFDBD0;
+}
+
+i.fa-heart, i.fa-star, i.fa-glass{
+    font-size: 2em;
+}
+
+#content h8{
+    display: block; 
+    font-size: 1em; 
+    font-weight: bold;
+}
+
+#content h7{
+    display: block; 
+    font-size: 0.7em; 
+    color: grey;
+}
+
+#content p{
+    font-size:0.8em;
+}
+
+#bottom{
+    background-color: #3b3b3b;
+}
+
+#bottom li{
+    border-bottom: 1px dotted grey;
+}
+
+#first:hover, #second:hover, #third:hover, #fourth:hover, #fifth:hover, #sixth:hover, #special_menu:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#menu_drop{
+    padding-top: 19px;
+}
+
+@media screen and (max-width:991px){
+    #menu_drop{
+        padding-bottom: 19px;
+    }
+}
