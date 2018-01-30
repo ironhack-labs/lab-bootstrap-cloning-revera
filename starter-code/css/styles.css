@@ -1,0 +1,42 @@
+.mi-imagen {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.fwidgets{
+    background-color: red;
+}
+.circle{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.font-white{
+    color: white;
+}
+.image{
+    width: 270px;
+    height: 180px;
+}
+.grey-background{
+    color: white;
+    background-color: #3b3b3b;
+}
+.grey-background-fort{
+    background-color: #292929;
+    color: white;
+}
+.format{
+    text-decoration: none;
+    color: #aaa;
+}
+.list{
+    list-style: none;
+}
