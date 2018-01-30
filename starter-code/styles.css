@@ -11,9 +11,14 @@ html, body {
   padding-bottom: 2vh;
 }
 
-.navbar-brand {
-  font-size: 3rem;
+#revera-brand {
+  font-size: 3.5rem;
   font-weight: bold;
+  color: black;
+}
+
+.first-link {
+  color: #ED5749;  
 }
 
 .jumbotron {
@@ -24,9 +29,13 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  color: #BABABA;
+  color: white;
   text-shadow: black;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(.7);
+  text-shadow: 1px 1px #000;
+}
+
+.jumbotron img {
 }
 
 .vertical-center {
@@ -40,7 +49,8 @@ html, body {
   border-radius: 50%;
   border: 4px solid white;
   text-align: center;
-  padding-top: 2.5vh;
+  padding-top: 3.25vh;
+  font-size: 1.75rem;
 }
 
 .red-icon-container {
@@ -48,6 +58,12 @@ html, body {
   color: white;
   width: 100%;
   padding: 5vh 10vw;
+  font-size: 1.25rem;
+  line-height: 1.65em;
+}
+
+.red-icon-container h2 {
+  font-size: 2rem;
 }
 
 .red-line-container {
@@ -73,4 +89,11 @@ html, body {
   width: 50%;
   padding-top: 10vh;
   font-size: .75rem !important;
+}
+
+#learn-more {
+  border: 2px solid white;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1.5vh 1.5vw;
 }
