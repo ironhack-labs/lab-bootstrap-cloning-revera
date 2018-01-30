@@ -1,0 +1,38 @@
+
+
+.navbar_custom{
+    margin-left: 300px;
+}
+.navbar-brand{
+    margin-left: 200px;
+    font-size: 24pt;
+}
+.red_background{
+    background-color: #ed564b;
+    width: 100%;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.latest_projects{
+    margin: 50px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .latest_projects{
+      margin:50px;
+}
+h4{
+      color:grey
+}
+.line3000{
+    border-top: 5px solid #ed564b;
+}
+.last_section{
+    background-color: #3b3b3b;
+    color:white;
+    padding: 50px;
+}
