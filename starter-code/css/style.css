@@ -1,0 +1,101 @@
+/* pink = #eb574f
+  bottom = #3b3b3b
+  #292929
+  */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+h1 {
+  color: #000000;
+  font-weight: bolder;
+  font-size: 2em;
+}
+h2, p{
+  text-align: center;
+}
+nav {
+  height: 90px;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  justify-content: center;
+}
+nav ul li a {
+  margin: 0 10px;
+  color: #777777;
+  text-decoration: none;
+}
+header {
+  height: 510px;
+  width: 100%;
+  background-image: 
+  linear-gradient(rgba(88, 88, 88, 0.75), rgba(88, 88, 88, 0.75)),
+  url('../img/slider-1.jpg');
+}
+#header-text {
+  margin-top: 100px;
+}
+.jumbotron {
+  margin-bottom: 0px;
+}
+/*
+.overlay {
+  background-image: url('../img/overlay.png"');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+can't get this working, overlaid graident
+*/
+#landing-screen h2, #landing-screen p {
+  color: white;
+}
+#heading-button {
+  color: white;
+  border: 2px solid white;
+}
+#below-fold{
+  height: 314px;
+  width: 100%;
+  background-color: #eb574f;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+#icons-row {
+  padding: 10px 10px;
+}
+.icon-circle{
+  border: 5px solid white;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 40px auto 0 auto;
+  font-size: 20px;  
+}
+#middle-content{
+  height: 1121px;
+  width: 100%;
+}
+#bottom-nav-box {
+  height: 351px;
+  width: 100%;
+}
+.lower-image {
+  margin: 10px;
+}
+footer{
+  height: 78px;
+  width: 100%;
+}
