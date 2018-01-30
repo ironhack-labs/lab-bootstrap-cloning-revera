@@ -1,6 +1,9 @@
+html,
 body {
-  font-family: 'sans-serif';
+  margin: 0;
+  padding: 0;
   font-size: 10px;
+  font-family: 'sans-serif';
 }
 
 figcaption {
@@ -9,28 +12,57 @@ figcaption {
   font-size: 14px;
 }
 
+#projects figcaption {
+  text-align: center;
+  padding: 5px;
+}
+
+#articles figcaption {
+  text-align: left;
+  margin-bottom: 5px;
+  padding: 0;
+}
 .img-caption {
   color: #aaa;
   font-weight: bold;
   font-size: 14px;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-bottom: 30px;
 }
 .navbar {
   background-color: #fff;
   height: 90px;
 }
-.navbar span {
+.navbar h1 {
   font-size: 2em;
   font-weight: bold;
 }
+.navbar span {
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 40px;
+}
 
 .navbar ul {
-  width: 70%;
+  width: 65%;
 }
 .navbar li {
   list-style: none;
   display: inline;
   margin: 7px;
   font-size: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #777;
+  font-size: 16px;
+}
+.navbar a:hover {
+  color: #ed564b;
 }
 
 .background {
@@ -58,10 +90,19 @@ figcaption {
   width: 70%;
 }
 
+.header-sections {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
 #columns {
   background-color: #ed564b;
   color: #fff;
   padding: 50px;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
 }
 
 #columns h3 {
@@ -78,9 +119,16 @@ figcaption {
   padding-top: 50px;
 }
 
-#articles p {
+i.fa {
+  border: 3px solid #fff;
+  display: inline-block;
+  border-radius: 55px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+#articles .row p {
   font-size: 14px;
-  color: #606060;
+  color: #bf3939;
 }
 
 #articles span {
@@ -94,6 +142,17 @@ figcaption {
   padding: 30px;
 }
 
+#footer ul,
+#footer li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted #aaa;
+  font-size: 16px;
+}
+
+#footer a {
+  color: #aaa;
+}
 #footer h3 {
   color: white;
   font-size: 20px;
@@ -104,4 +163,17 @@ figcaption {
 #footer li {
   list-style: none;
   color: #606060;
+}
+
+footer {
+  background-color: #292929;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.lead {
+  font-size: 14px;
+  line-height: 150%;
+  color: #aaa;
 }
