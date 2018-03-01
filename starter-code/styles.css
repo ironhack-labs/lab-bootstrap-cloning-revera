@@ -1,0 +1,198 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#revera-brand {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.first-link {
+  color: #ED5749;  
+}
+
+.jumbotron {
+  background-image: url(img/slider-1.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: white;
+  text-shadow: black;
+  filter: grayscale(100%) brightness(.7);
+  text-shadow: 1px 1px #000;
+
+}
+
+#jumbotron-h1 {
+  font-size: 5rem;
+}
+
+#jumbotron-p {
+  font-size: 1.5rem;
+  padding-bottom: 2vh;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.glyphicon {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 4px solid white;
+  text-align: center;
+  padding-top: 3.25vh;
+  font-size: 1.75rem;
+}
+
+.red-icon-container {
+  background-color: #ED5749;
+  color: white;
+  width: 100%;
+  padding: 5vh 10vw;
+  font-size: 1.25rem;
+  line-height: 1.65em;
+}
+
+.red-icon-container h2 {
+  font-size: 2rem;
+}
+
+.red-line-container {
+  background-color: #414141;
+  border-top: 3px #ED5749 solid;  
+  width: 100%;
+  padding: 5vh 10vw;
+  color: #ABABAB;
+}
+
+.red-line-container a {
+  color: #ABABAB;
+}
+
+.red-line-container p {
+  border-bottom: 1px dotted #ABABAB;
+  padding: 2vh 0;
+}
+
+#no-bottom-border {
+  border: none;
+}
+
+.footer {
+  background-color: #292929;
+  color: #ABABAB;
+  width: 100%;
+  padding: 2vh 10vw;
+}
+
+.red {
+  color: red;
+}
+
+.cat-container {
+  width: 50%;
+  padding-top: 10vh;
+  font-size: .75rem !important;
+}
+
+#learn-more {
+  border: 2px solid white;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1.5vh 1.5vw;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 5vh 0;
+}
+
+.articles-headline {
+  font-weight: bold;
+  padding-top: 5vh;
+  font-size: 2.25rem;
+}
+
+.article-subhead {
+  color: #ABABAB;
+  font-weight: bold;
+}
+
+.articles-container {
+  padding-bottom: 5vh;
+}
+
+.articles-container p {
+  padding-top: 2vh;
+}
+
+.articles-container a {
+  color: #ED5749;
+}
+
+.articles-container h5 {
+  font-weight: bolder;
+  padding: 1vh 0;
+  line-height: 1.65rem;
+}
+
+.articles-container img {
+  height: 175px;
+  object-fit: cover;
+}
+
+.projects-container p {
+  padding-top: 2vh;
+}
+
+@media (max-width: 1200px) {
+  .articles-container img {
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
