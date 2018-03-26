@@ -1,0 +1,61 @@
+
+.navbar-brand{
+  font-family: helvetica;
+  font-weight: 800;
+  letter-spacing: -2;
+  color: black; 
+}
+
+.navbar-brand a{
+color: black;
+
+}
+.section1{
+  background-color: #ed564b;
+  padding: 20px 0;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner img{
+  filter: grayscale(100%);
+  width: 100vw; 
+}
+.circulo span{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.section1{
+  color: white;
+  padding: 5vh;
+}
+.section3{
+  border-bottom: 10px solid #ed564b;
+  padding: 10vh 0;  
+}
+.prefooter{
+  background-color: grey;
+  color: white;
+  padding: 10vh;
+  text-decoration: underline;
+  box-sizing: border-box; 
+  margin: 0 auto;
+}
+footer{
+  background-color: black;
+  color: white;
+  margin:0;
+  padding: 1%;
+
+}
