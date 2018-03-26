@@ -12,6 +12,7 @@ li {
   color : red;
   font-family: Helvetica;
   display: inline-block;
+  justify-content: flex-end;
   
 }
 
