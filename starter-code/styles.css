@@ -1,0 +1,105 @@
+.item img{
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.col-sm-4 {
+  width: 33.33333333333333%;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.homewidget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 940px;
+}
+
+.section-wide {
+  margin-top: 40px;
+}
+
+.portbox, .postbox, .hthumb {
+  position: relative;
+}
+
+.hthumb {
+  position: relative;
+  text-align: center;
+}
+
+.hthumb a img {
+  display: block;
+}
+
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.col-sm-3 {
+  width: 25%;
+}
+
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.botwid {
+  color: #aaa;
+}
+
+.col-lg-3 {
+  width: 25%;
+}
+
+
+
+.site-footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+
