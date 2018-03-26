@@ -1,0 +1,33 @@
+.item {
+  width: 100%;
+}
+
+#carousel-container {
+  width: 100%;
+}
+#carousel {
+  width: 100%;
+}
+
+.item img {
+  width: 100%;
+}
+.col-sm-4 {
+  text-align: center;
+}
+
+.glifos {
+  font-size: 30px;
+  border: 5px solid #FFF;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+}
+#features {
+  background-color: #ed564b;
+  padding: 40px 0;
+  color: #FFF;
+}
