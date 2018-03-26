@@ -87,3 +87,21 @@ color: grey;
   background-color: transparent;
   border-color: #ccc;
 }
+.carousel-control .glyphicon-chevron-left {
+  margin-left: -120px;
+  background-color: #ff5452;
+
+}
+.carousel-control .glyphicon-chevron-right {
+  margin-right: -120px;
+  background-color: #ff5452;
+
+}
+.overlay {
+  background: url(../img/overlay.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
