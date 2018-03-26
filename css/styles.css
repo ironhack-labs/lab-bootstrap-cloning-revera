@@ -10,6 +10,9 @@
 .fwidgets {
   background-color: #ed564b;;
   color: white;
+  padding-top: 40px;
+  height: 300px;
+  text-align: center;
 }
 
 .widget span {
@@ -25,10 +28,6 @@
 
 }
 
-col-6 {
-  width: 50%
-}
-
 .overlay {
   position:absolute;
   width: 100%;
@@ -42,7 +41,36 @@ col-6 {
   z-index: 15;
 }
 
-.flexslider {
- 
+.thumbnail {
+  border: none !important;
+  padding: 0px !important
 }
   
+.col-sm-3 h5{
+  text-align: center;
+  font-weight: bold;
+}
+
+.title h3 {
+  text-transform: uppercase;
+}
+
+.bottom {
+  background-color: #3b3b3b;
+  color: #aaa;
+}
+
+.bottom h4 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.bottom ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #292929;
+  color: #eee;
+}
