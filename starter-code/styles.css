@@ -8,6 +8,15 @@
 }
 
 
+.overlay {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
 
 .fwidgets {
   padding: 40px 0px;
@@ -29,6 +38,8 @@
   font-size: 20px;
 }
 
+
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -38,3 +49,37 @@
   color: #fff;
   text-align: center;
 }
+
+.container {
+  max-width: 940px;
+}
+
+.section-wide {
+  margin-top: 40px;
+}
+
+.portbox, .postbox, .hthumb {
+  position: relative;
+}
+
+.hthumb {
+  position: relative;
+  text-align: center;
+}
+
+.hthumb a img {
+  display: block;
+}
+
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.col-sm-3 {
+  width: 25%;
+}
+
+
+
