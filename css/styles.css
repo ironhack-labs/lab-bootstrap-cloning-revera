@@ -1,16 +1,19 @@
 .item img{
+  
   width: 100%;
   filter: grayscale(100%);
 }
-
+.carousel .item {
+  height: 580px;
+}
+  
 .fwidgets {
-  background-color: #FE343B;
+  background-color: #ed564b;;
   color: white;
 }
 
 .widget span {
   border: 5px solid #fff;
-  background: transparent;
   width: 70px;
   height: 70px;
   border-radius: 35px;
@@ -25,3 +28,21 @@
 col-6 {
   width: 50%
 }
+
+.overlay {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../starter-code/img/overlay.png");
+  background-repeat: repeat;
+  z-index: 3;
+}
+
+.carousel-control {
+  z-index: 15;
+}
+
+.flexslider {
+ 
+}
+  
