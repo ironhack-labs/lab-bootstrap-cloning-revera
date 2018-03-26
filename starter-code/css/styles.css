@@ -1,0 +1,74 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#rojo{
+    text-align: center;
+    background-color: #ed564b;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.glyphicon-chevron-right{
+    background-color:#ed564b;
+    
+}
+.glyphicon-chevron-left{
+    background-color:#ed564b;
+}
+.despuesRojo{
+    margin:100px;
+    margin-top: 25px;
+    background-color: white;
+}
+.col-md-3{
+    color:black;
+    font-size:12px;
+    text-align: center;
+
+}
+footer{
+    background-color: #2C2A2A;
+    color:white;
+}
+.mt-3{
+    color:white;
+    text-align: start;
+
+}
+.align-items-center{
+    background-color: black;
+
+}
+.font-weight-bold{
+    font-size:15px;
+}
+.mr-3{
+    font-size:1px;
+}
+.col-md-3{
+    text-align: start;
+}
+
+#barraBaja{
+    border-bottom: black 2px solid;
+    padding-bottom: 10px;
+}
+.perritos{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.botonCarru{
+    background-color: transparent;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.barraRoja{
+    height: 10px;
+    width: 100%;
+    background-color: #ed564b;
+}
+.row{
+    margin-top:10px
+}
