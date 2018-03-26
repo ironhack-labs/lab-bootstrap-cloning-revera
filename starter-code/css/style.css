@@ -1,0 +1,35 @@
+.bot {
+    padding-bottom: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+.border {
+    border-top: 5px red solid;
+    
+}
+.nav{
+    float: right;
+}
+.center{
+    text-align: center;
+}
+.medio{
+    background-color: #ed564b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.color-2{
+   background-color:  #3b3b3b;
+   color: white;
+}
+.color-3{
+    background-color: #292929;
+    color: white;
+}
+.pad-l{
+    padding-left: 30px; 
+}
