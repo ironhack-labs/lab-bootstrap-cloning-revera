@@ -50,7 +50,37 @@ nav {
 .topmenu li:first-child a:first-child{
   color:#f4473a;
 }
-
+.carousel-inner h2 {
+  z-index: 200;
+}
+.carousel-caption {
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: white;
+}
+.carousel-caption h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+.carousel-caption p {
+  margin: 0 0 10px;
+}
+.frmore {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  text-transform: uppercase;
+  width: 150px;
+  border: 1px solid white;
+  padding: 5px 0;
+  margin: 10px auto;
+  font-weight: bold;
+  color: white;
+}
 .centered {
   margin: 0 auto;
 }
@@ -87,7 +117,7 @@ nav {
   position: absolute;
   height: 100%;
   top: 0;
-  z-index: 100;
+  z-index: 10;
   left: 0;
 }
 .carousel img {
@@ -109,4 +139,8 @@ nav {
 }
 footer {
   color: white;
+}
+.section-wide a {
+  text-decoration: none;
+  text-align: center;
 }
