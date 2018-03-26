@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="../starter-code/css/styles.css"
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clonning Rivera</title>
+
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+      <!-- //// ////////////////////////////CARRUSEL//////////////////////////////////////////////////////////-->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../starter-code/img/slider-1.jpg" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="../starter-code/img/slider-2.jpg" alt="...">
+            <div class="carousel-caption">
+          </div>
+          </div>
+          <div class="item">
+                <img src="../starter-code/img/slider-3.jpg" alt="...">
+                <div class="carousel-caption">
+              </div>
+              </div>
+        <div class="item">
+                <img src="../starter-code/img/slider-4.jpg" alt="...">
+                <div class="carousel-caption">
+                  </div>
+                  </div>
+          ...
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--///////////////////////////////////////////COLUMNA DE 3 //////////////////////////////////////////-->
+      <div class="row">
+            <div class="col-md-4">
+                    Web design <br/>
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</div>
+            <div class="col-md-4">Web development <br/>
+                    Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</div>
+            <div class="col-md-4">User interface <br/>
+                    Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</div>
+        </div>
+        <!--/////////////////////////////COLUMNA COMPLETA //////////////////////////////////////////-->
+        <div class="row2">
+                <div class="col-md-12">LATEST PROJECTS <br/>
+                        FEW OF THE LATEST PORTFOLIO ITEMS</div>
+                
+        </div>
+        <!--/////////////////////////////4 COLUMNAS CON FOTO //////////////////////////////////////////-->
+        <div class="row3">
+                <div class="col-md-3"> <img src ="../starter-code/img/project-1.jpg"class="img-thumbnail">Nunc libero elit, iaculis nec augue non</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/project-2.jpg"class="img-thumbnail">Phasellus aliquet iaculis neque accumsan aliquam</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/project-3.jpg"class="img-thumbnail">Vivamus blandit ipsum sed arcu euismod</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/project-4.jpg"class="img-thumbnail">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</div>
+              </div>
+         <!--/////////////////////////////COLUMNA COMPLETA //////////////////////////////////////////-->
+        <div class="row2">
+                <div class="col-md-12">LATEST ARTICULES <br/>
+                    LATEST POSTS FROM THE BLOG</div>
+                
+        </div>
+        <!--/////////////////////////////4 COLUMNAS CON FOTO //////////////////////////////////////////-->
+        <div class="row3">
+                <div class="col-md-3"> <img src ="../starter-code/img/slider-1.jpg"class="img-thumbnail">Nunc libero elit, iaculis nec augue non</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/slider-2.jpg"class="img-thumbnail">Phasellus aliquet iaculis neque accumsan aliquam</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/slider-3.jpg"class="img-thumbnail">Vivamus blandit ipsum sed arcu euismod</div>
+                <div class="col-md-3"> <img src ="../starter-code/img/slider-4.jpg"class="img-thumbnail">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</div>
+          </div>
+         <div class="row3">
+                <div class="col-md-3"> POSTED ON AUGUST 18 , 2013 BY ADMIN</div>
+                <div class="col-md-3"> POSTED ON AUGUST 18 , 2013 BY ADMIN</div>
+                <div class="col-md-3"> POSTED ON AUGUST 18 , 2013 BY ADMIN</div>
+                <div class="col-md-3"> POSTED ON AUGUST 18 , 2013 BY ADMIN</div>
+          </div>
+          <div class="row3">
+            <div class="col-md-3"> Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</div>
+            <div class="col-md-3"> Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</div>
+            <div class="col-md-3"> Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</div>
+            <div class="col-md-3"> Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</div>
+      </div>
+      
+<footer class="page-footer font-small unique-color-dark pt-0">
+
+    <div style="background-color: #6351ce;">
+        <div class="container">
+            <!--Grid row-->
+            <div class="row5 py-4 d-flex align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <!--Facebook-->
+                    <a class="fb-ic ml-0">
+                        <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Twitter-->
+                    <a class="tw-ic">
+                        <i class="fa fa-twitter white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Google +-->
+                    <a class="gplus-ic">
+                        <i class="fa fa-google-plus white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Linkedin-->
+                    <a class="li-ic">
+                        <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row5 mt-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>RIVERA</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan..</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Products</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!">Log in</a>
+                </p>
+                <p>
+                    <a href="#!">Entries RSS</a>
+                </p>
+                <p>
+                    <a href="#!">Comments RSS</a>
+                </p>
+                <p>
+                    <a href="#!">WordPress.org</a>
+                </p>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>ARCHIVES</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!">August 2013</a>
+                </p>
+               
+            </div>
+            <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>RECIENT POST</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fa fa-home mr-3"></i>Etiam mauris tortor, phqwea quis lqwis in, phdsara in dadsm</p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> Etiam mauris tortor, pharetra quis lobortis in, pharqwa in diam/p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i> Tadsaam dsasdris tortor, phsada quis losadis in, pqwera in diam</p>
+                <p>
+                    <i class="fa fa-print mr-3"></i> oapoPOPiiam mauris tortor, pcxetra quis lobcxs in, phcxra in diam</p>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!-- Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2016 Copyright - Just another demo
+        <a href="https://mdbootstrap.com/material-design-for-bootstrap/">
+            <strong> RIVERA</strong>
+        </a>
+    </div>
+    <!--/.Copyright -->
+  </footer>
+</body>
+</html>
