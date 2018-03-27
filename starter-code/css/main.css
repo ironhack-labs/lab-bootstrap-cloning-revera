@@ -1,7 +1,4 @@
-.row{
-    background-color: green;
-    text-align: center;
-}
+
 .title{
     background-color:orange;
     height: 30px;
@@ -23,6 +20,40 @@
     border-top: 5px yellow solid;
     
 }
-.nav{
-    float: right;
+
+.h1{
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar-header{
+    left:0px;
+}
+.navbar-brand{
+    color: black;
+    font-size: 1.5em;
+
+}
+
+.col-4.left {
+    background-color: blueviolet;
+    
+    
+}
+.col-4.center {
+    background-color: yellow;
+    
+}
+
+.col-4.right {
+    background-color: blue;
+    
+}
+
+.bg-accent {
+    background: red;
+}
+
+.padded-row{
+    padding: 100px 0;
 }
