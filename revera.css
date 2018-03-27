@@ -1,0 +1,58 @@
+.btest {
+        border: 1px solid #000000;
+}
+
+.row {
+    color: black;
+    margin-left: 70px;
+    height: 75px;
+}
+
+.carrusel{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.glyphicon {
+    background-color: #ed564b;
+}
+
+.img-responsive {
+    height: 106px;
+}
+
+
+.col-sm-4 {
+text-align: center;
+color: white;
+}
+
+.nav-bar {
+    color: black;
+}
+
+.columnas {
+    height: 300px;
+    background-color: #ed564b;
+    padding-top: 30px;
+}
+
+.texto {
+    height: 1200px;
+}
+
+.info {
+    height: 650px;
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+}
+
+.red {
+    color: #ed564b;
+}
+
