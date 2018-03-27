@@ -21,6 +21,18 @@ color: black;
   background-image: url("../img/overlay.png");
   z-index: 50;
 }
+.text-slider{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 10%;
+}
+
+
+
+
 
 
 .carousel-control{
