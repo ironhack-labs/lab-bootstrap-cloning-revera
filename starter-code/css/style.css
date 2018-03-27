@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+body{
+    margin: 0;
+    font-family: 'Oxygen', 'sans-serif';
+}
+
+.image-project{
+    width: 100%;
+    height: auto;  
+}
+
+.red-section{
+    background-color: #EB574F;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.icon{
+    border: 5px solid #fff;
+   background: transparent;
+   width: 70px;
+   height: 70px;
+   border-radius: 35px;
+   display: block;
+   line-height: 65px;
+   text-align: center;
+   margin: 0px auto;
+   font-size: 20px; 
+}
+
+.p-project,
+.h-project{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p-project,
+nav li,
+h4{
+    color: #AAAAAA;
+}
+
+h3{
+    font-weight: bold;
+}
