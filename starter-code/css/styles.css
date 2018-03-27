@@ -9,7 +9,32 @@ de bootstrap por yo que sé*/
   height: auto;
   max-width: 100%;
 }
-
+.flex-caption {
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: #fff;
+  font-size: 1.2em;
+}
+.flex-caption h2{
+  text-transform: uppercase;
+}
+a.frmore {
+  background: rgba(255,255,255,0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 10px auto;
+  font-weight: bold;
+  color: #fff!important;
+}
 .portbox h3,
 .postbox h3{
   font-size: 14px;
@@ -54,8 +79,23 @@ a:hover, a:active{
   border-bottom: 1px solid rgb(220, 220, 220);
   margin-bottom: 30px;
 }
-.active{
-  color:  #f4473a;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f4473a;
+}
+.dropdown-item {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-left: 10%;
+}
+.dropdown-item:hover {
+  color: #f4473a;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  transition: all 0.25s ease-in; 
 }
 .navbar-brand{
   font-size: 2rem;
