@@ -1,0 +1,46 @@
+
+body {
+  background-color: white;
+}
+
+.home {
+  font-size: 30px;
+  float: left;
+  
+}
+li {
+  color : red;
+  font-family: Helvetica;
+  display: inline-block;
+  justify-content: flex-end;
+  
+}
+
+.glyphicon{
+  border-radius: 20%;
+}
+
+.fwidgets {
+  background-color: #F34637;
+  color: white;
+  padding: 30px;
+}
+
+.menu {
+  height: 50px;
+}
+
+h3 {
+  font-size: 30;
+}
+
+
+.footer2 {
+  background-color: #3D3D3D;
+  color:grey;
+}
+.footer img{
+  width: 100%;
+  height: 100%; 
+
+}
