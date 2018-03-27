@@ -47,9 +47,9 @@ ul.nav  a:hover {
   }
 
   .button {
-    background-color: transparent;
+    background:rgba(255,255,255, 0.2);
     color:white;
-    border: 1px solid white; 
+    border: 2px solid white; 
     padding: 5px 25px;
     font-weight:bold;
 }
@@ -104,4 +104,53 @@ ul.nav  a:hover {
     align-items: center;
 }
 
-.container
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.thumbnail img {
+    margin-bottom: 20px;
+}
+
+.thumbnail p {
+    color:black;
+}
+
+.containertext h2 {
+    padding-top: 30px;
+}
+
+.containertext p {
+    color:gray;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+    }
+
+.containertext {
+    margin-bottom: 25px;
+}
+
+
+.cuatros2 img{
+    height: 120px;
+}
+
+.cuatros img {
+    height: 120px;
+}
+
+.thumbnail h4 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.thumbnailtext {
+    text-align: left;
+}
+
+.textlargo {
+    text-align: left;
+}
+
