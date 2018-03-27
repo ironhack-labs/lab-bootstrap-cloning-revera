@@ -74,3 +74,24 @@ footer {
   background-color: #292929;
   color: #eee;
 }
+
+header {
+  height: 90px;
+} 
+
+
+header ul {
+  margin-top: 25px;
+}
+
+
+header li {
+  display: inline;
+  margin-right: 15px;
+  color: #777;;
+}
+
+brand {
+  font-weight: bold;
+}
+
