@@ -1,0 +1,152 @@
+nav h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+nav {
+  position: relative;
+}
+.brand {
+  margin-bottom: 20px;
+}
+.navbar-header {
+  padding: 0 0 10px 100px;
+}
+.site-title {
+  font-size: 2.3em;
+  font-weight: 700;
+}  
+.topmenu {
+  padding: 0 0;
+  margin: 15px 0;
+  height: 60px;
+  border-bottom: none;
+  float: left;
+}
+.topmenu ul {
+  width: auto;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+}
+.carousel-control {
+  z-index: 101;
+}
+.topmenu li a {
+  display: block;
+  margin: 0;
+  padding: 19px 10px 19px 10px;
+  text-decoration: none;
+  position: relative;
+}
+.topmenu li a {
+  color: gray;
+}
+.topmenu li:first-child a:first-child{
+  color:#f4473a;
+}
+.carousel-inner h2 {
+  z-index: 200;
+}
+.carousel-caption {
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: white;
+}
+.carousel-caption h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  z-index: 200;
+}
+.carousel-caption p {
+  margin: 0 0 10px;
+  z-index: 200;
+}
+.frmore {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  text-transform: uppercase;
+  width: 150px;
+  border: 1px solid white;
+  padding: 5px 0;
+  margin: 10px auto;
+  font-weight: bold;
+  color: white;
+}
+.centered {
+  margin: 0 auto;
+}
+.wrapper {
+  padding: 40px 0;
+  text-align: center;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+}
+.wrapper span {
+  border: 5px solid white;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+.carousel-control{
+  background-color: red;
+  height: 20%;
+  margin: auto auto;
+  width: 60px;
+}
+.overlay {
+  background-image: url('../img/overlay.png');
+  background-repeat: repeat;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  left: 0;
+}
+.carousel img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+#bottom {
+  padding: 20px 0 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: white;
+}
+#bottom p {
+  color: #aaa;
+}
+.site-footer {
+  padding: 10px 0;
+  background: #292929;
+}
+footer {
+  color: white;
+}
+.section-wide a {
+  text-decoration: none;
+  text-align: center;
+}
