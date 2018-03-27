@@ -1,2 +1,11 @@
 
 .menu { height: 6vw; }
+
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+#bottom h3 { color: #fff; }
+#bottom p { color: #aaa; }
