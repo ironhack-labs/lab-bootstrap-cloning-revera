@@ -46,6 +46,10 @@ li > a{
   color: white;
 }
 
+#features .row {
+  width: 80%;
+  margin: 0 auto;
+}
 ul > li {
   display: inline-block;
   margin-right: 20px;
