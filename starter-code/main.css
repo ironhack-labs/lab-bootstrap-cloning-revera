@@ -17,6 +17,7 @@ li > a{
 
 #carousel-container {
   width: 100%;
+  padding-bottom: 0;
 }
 #carousel {
   width: 100%;
@@ -43,7 +44,6 @@ li > a{
 #features {
   background-color: #ed564b;
   width: 100%;
-  padding: 40px 0;
   color: white;
 }
 
@@ -78,4 +78,6 @@ footer {
   margin: auto 0;
 }
 
-filter
+.container {
+  padding: 40px 0;
+}
