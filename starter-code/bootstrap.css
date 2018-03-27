@@ -21,7 +21,7 @@ h3 {
     text-align: center;
 }
 .imagenesPrimarias {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 50px;
     display: flex;
 }
 .carousel-inner img {
@@ -72,5 +72,5 @@ h3 {
     background-color: lightcoral;
 }
 .theText {
-    
+    color: white;
 }
