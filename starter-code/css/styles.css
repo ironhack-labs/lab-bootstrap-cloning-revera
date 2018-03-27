@@ -30,8 +30,7 @@
 .carousel .read-more {
   color: white;
   text-transform: uppercase;
-  border: 2px solid white;
-  padding: 10px;
+  background: none;
 }
 
 .carousel-control {
