@@ -63,3 +63,14 @@ h3 {
 .mauri {
     font-size: 14.4px;
 }
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+.fondo {
+    height: 350px;
+    background-color: lightcoral;
+}
+.theText {
+    
+}
