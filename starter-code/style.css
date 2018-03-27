@@ -1,0 +1,58 @@
+nav p{
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 100px;
+}
+
+ul {
+  padding-right: 200px;
+  padding-top: 15px;
+}
+  
+.icon  {
+ font-size: 20px;
+ border: 5px solid white;
+ padding: 25px;
+ border-radius: 1000px;
+ margin-right: 40px;
+ color: white;
+}
+
+  
+
+#carousel-example-generic {
+  width: 100%;
+}
+
+.row-1 {
+  background-color: tomato;
+  color: white;
+}
+
+.row-1  {}
+
+ .row-2 .col-md-3 img {
+   width: auto;
+   height: 185px;
+
+ }
+
+  .row-3 .col-md-3 img {
+    width: auto;
+    height: 120px;
+  }
+
+  #footer-line {
+    color: tomato;
+    background-color: tomato;
+    line-height: 1;
+  }
+
+  .row-4 {
+    background-color: #2f3640;
+    color: grey;
+  }
+
+  a {
+    text-decoration: none;
+  }
