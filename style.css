@@ -1,0 +1,107 @@
+
+.navbar-custom {
+    border-bottom:none;
+    background-color: white;
+    padding: 15px;
+    color:black;
+    
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: white;
+    
+}
+
+.navbar-brand {
+    font-size: 32px;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+nav a {
+    color:black;
+}
+ul.nav  a:hover {
+    background-color: white;
+    color: red;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .item img {
+      filter: grayscale(100%)
+  }
+
+  .button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid white; 
+    padding: 5px 25px;
+    font-weight:bold;
+}
+
+
+.tresc {
+    width: 30%;
+    margin:auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rowtres {
+    
+    margin:auto;
+    display:block;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(219, 87, 87);
+    
+}
+
+.buttontres {
+    background-color: transparent;
+    color:white;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding:17px;
+    
+}
+
+.glyphicon {
+    color:white;
+    font-size:30px;
+}
+
+.tresc h2 {
+    color:white;
+    font-weight: bold;
+}
+
+.tresc p {
+    color:white;
+
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.container
