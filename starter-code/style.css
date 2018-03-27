@@ -70,11 +70,12 @@ h3, h2{
 }
 
 .carousel-control{
-    background-color: #ff0000;
+    background-color: rgba(219, 2, 2);
     height: 100px;
     width: 50px;
     margin-top: 200px;
     z-index: 110;
+    opacity: 1;
 }
 
 .doverlay{
