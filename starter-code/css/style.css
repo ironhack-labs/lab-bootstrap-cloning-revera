@@ -1,0 +1,19 @@
+.navbar{
+    margin-bottom:0;
+    background-color:white; 
+
+}
+
+.item img{
+    width:100%;
+}
+
+.services{
+    background-color:#ed564b;
+    height: 20vw;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
