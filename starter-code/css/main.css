@@ -1,10 +1,38 @@
+/* --NavBar-- */
+.nav-bar h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 25px;
+}
+#flecha{
+  background-color: #e95846;
+  font-size: 45px;
+  width: 30%;
+  height: 47px;
+}
+
+
 /* --Section1-- */
 
 
 #section1{
   background-color: #e95846;
+  text-align: center;
+  color: white;
+  padding-top: 4%;
 }
-
+.icon{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
 footer{
   background-color: #3b3b3b;
   color: grey;
