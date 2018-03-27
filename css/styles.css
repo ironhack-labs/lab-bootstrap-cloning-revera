@@ -1,0 +1,97 @@
+.item img{
+  
+  width: 100%;
+  filter: grayscale(100%);
+}
+.carousel .item {
+  height: 580px;
+}
+  
+.fwidgets {
+  background-color: #ed564b;;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.widget span {
+  border: 5px solid #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+
+}
+
+.overlay {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../starter-code/img/overlay.png");
+  background-repeat: repeat;
+  z-index: 3;
+}
+
+.carousel-control {
+  z-index: 15;
+}
+
+.thumbnail {
+  border: none !important;
+  padding: 0px !important
+}
+  
+.col-sm-3 h5{
+  text-align: center;
+  font-weight: bold;
+}
+
+.title h3 {
+  text-transform: uppercase;
+}
+
+.bottom {
+  background-color: #3b3b3b;
+  color: #aaa;
+}
+
+.bottom h4 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.bottom ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #292929;
+  color: #eee;
+}
+
+header {
+  height: 90px;
+} 
+
+
+header ul {
+  margin-top: 25px;
+}
+
+
+header li {
+  display: inline;
+  margin-right: 15px;
+  color: #777;;
+}
+
+brand {
+  font-weight: bold;
+}
+
