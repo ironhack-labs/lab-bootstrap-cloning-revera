@@ -1,6 +1,7 @@
 
 body{
   font-size: 0.9em;
+  width:100%;
 }
 /*los selectores que no me vienen en mi versión 
 de bootstrap por yo que sé*/
@@ -136,7 +137,7 @@ a:hover, a:active{
   color: white;
   padding: 40px 0px;
 }
-#widgets span{
+#widgets i{
   border: 5px solid #fff;
   background: transparent;
   width: 70px;
