@@ -1,0 +1,135 @@
+.navbar-default {
+  background: white;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #ed564b;
+  background: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+  text-transform: uppercase;
+}
+
+.carousel-inner>.item>img {
+  width: 100vw;
+  filter: grayscale(100%);
+}
+
+.carousel h2 {
+  text-transform: uppercase;
+}
+
+.carousel .read-more {
+  color: white;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 0;
+}
+
+.carousel-control {
+  width: 50px;
+  opacity: 1;
+  top: 43%;
+  bottom: 43%;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background: #ed564b;
+}
+
+.features {
+  background: #ed564b;
+  padding: 50px 0;
+  color: white;
+}
+
+.features .glyphicon {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.projects h2,
+.articles h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.projects h3,
+.articles h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.projects img {
+  margin-bottom: 10px;
+}
+
+.title-post h2 {
+  font-size: 16px;
+  text-transform: none;
+}
+
+.title-post h3 {
+  font-size: 12px;
+  border-bottom: none;
+}
+
+.title-post a {
+  color: #ed564b;
+}
+
+.pre-footer {
+  background: #3b3b3b;
+  border-top: 3px solid #ed564b;
+  color: grey;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.pre-footer h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.pre-footer .meta p,
+.pre-footer .archives p,
+.pre-footer .recent p {
+  border-bottom: 1px dotted grey;
+}
+
+.footer {
+  background: #292929;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.footer a {
+  color: white;
+  border-left: 1px solid white;
+  padding: 5px;
+}
