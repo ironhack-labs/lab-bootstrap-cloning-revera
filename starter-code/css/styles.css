@@ -37,6 +37,9 @@ nav {
   color: #fff;
   font-weight: 400;
 }
+.carousel-control {
+  z-index: 101;
+}
 .topmenu li a {
   display: block;
   margin: 0;
@@ -64,11 +67,14 @@ nav {
   color: white;
 }
 .carousel-caption h2 {
+  position: relative;
   text-transform: uppercase;
   font-size: 2.5em;
+  z-index: 200;
 }
 .carousel-caption p {
   margin: 0 0 10px;
+  z-index: 200;
 }
 .frmore {
   background: rgba(255, 255, 255, 0.2);
