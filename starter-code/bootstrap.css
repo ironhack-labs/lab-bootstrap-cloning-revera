@@ -1,0 +1,76 @@
+.encabezado {
+    display: flex;
+    justify-content: center;
+    margin: -34px 0 0 200px;
+}
+.home {
+    color: red;
+}
+.rojo {
+    color:red;
+}
+.psiwdd {
+    color: grey;
+}
+.revera {
+    color: black;
+    margin: 20px 0 0 140px;
+}
+h3 {
+    font-size: 16px;
+    text-align: center;
+}
+.imagenesPrimarias {
+    margin: 0 0 0 50px;
+    display: flex;
+}
+.carousel-inner img {
+    margin: 30px 0 0 auto;
+    width: 100%;
+    max-height: 550px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
+.carousel-caption {
+    font-size: 20px;
+}
+.glyphicon-chevron-left {
+    background-color: red;
+}
+.glyphicon-chevron-right {
+    background-color: red;
+}
+.bg-primary {
+    height: 20px;
+    background-color: lightcoral;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+}
+.latest {
+    color: black;
+    font-size: 20px;
+}
+.few {
+    color: gray;
+}
+
+.imagenesSecundarias {
+    margin: 0 0 0 100px;
+    display: flex;
+}
+.mauri {
+    font-size: 14.4px;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+.fondo {
+    height: 350px;
+    background-color: lightcoral;
+}
+.theText {
+    color: white;
+}

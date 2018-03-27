@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Bootstrap Cloning Assignment</title>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="./bootstrap.css">
+    </head>
+    <body>
+        <div><h1 class="revera">REVERA</h1></div>
+      <header>   
+        <div class = "encabezado" air-placeholder = "rojo">
+          <button type="button" class="btn home">Home</button>
+          <button type="button" class="btn psiwdd">About</button>
+          <button type="button" class="btn psiwdd">Sample page</button>
+          <button type="button" class="btn psiwdd">Portfolio</button>
+          <button type="button" class="btn psiwdd">Blog</button>
+          <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Parent page
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Full page</a></li>
+                <li><a href="#">Child page 1</a></li>
+                <li><a href="#">Child page 2</a></li>
+              </ul>
+            </div>
+          <button type="button" class="btn psiwdd">Contact</button>
+        </div>        
+      </header>
+      <div id="carousel-example-generic" class="carousel" alt="Responsive image" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg" alt="...">
+              <div class="carousel-caption">
+                  <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                  Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+              </div>
+            </div>
+            <div class="item">
+              <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg" alt="...">
+              <div class="carousel-caption">
+                  <h2>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>               
+Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+              </div>
+            </div>
+            <div class="item">
+                <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+                    Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+                </div>
+              </div>
+              <div class="item">
+                  <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg" alt="...">
+                  <div class="carousel-caption">
+                      <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+                      Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]
+                  </div>
+                </div>
+          </div>
+          
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div>   
+        </div>
+        <div class="fondo">.
+          <div class = "icon">
+            <div>
+              <span class="glyphicon glyphicon-glass" aria-hidden="true" style="font-size:100px;"></span>
+              <h4 class "textIcon">Web design</h4>
+              <p class = "theText">Cum sociis natoque penatibus <br>et magnis dis parturient montes, <br> nascetur ridiculus mus. <br>Vestibulum vehicula erat non congue cursus.<br> Aenean auctor nulla quis augue dictum,<br> sed sagittis odio varius Link</p>
+            </div>
+            <div>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"  style="font-size:120px;"></span>
+            <h4 class "textIcon">Development</h4>
+            <p class = "theText">Duis tempus leo vitae ipsum viverra, <br>blandit condimentum sapien porttitor. <br>Duis porttitor sed metus eget mollis. <br>Curabitur bibendum imperdiet tortor, <br>ut pulvinar purus elementum nspendisse at erat luctus.</p>
+          </div>
+            <div>
+              <span class="glyphicon glyphicon-heart" aria-hidden="true" style="font-size:110px;"></span>
+              <h4 class "textIcon">User interface</h4>
+              <p class = "theText">Cras aliquet venenatis porttitor. <br>Donec rutrum sapien et sapien dignissim, <br> eu dapibus mi molestie.<br> Suspendisse dictum convallis quam et sodales. <br>Praesent non enim et magna congue gravida.</p>
+            </div> 
+          </div>
+        </div>
+
+        
+        <div class = "project">
+            <p class = "latest"> LATEST PROJECTS</p>
+            <p class = "few"> FEW OF THE LATEST PORTFOLIO ITEMS</p>
+        </div>
+
+
+      <div class = "imagenesPrimarias">
+          <div class="row">
+              <div class="col-sm-6 col-md-11">
+                <div class="thumbnail">
+                  <img src="./img/project-1.jpg">
+                  <div class="caption">
+                    <h3>Nunc libero elit, iaculis nec augue non</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+              <div class="col-sm-6 col-md-11">
+                <div class="thumbnail">
+                  <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg">
+                  <div class="caption">
+                    <h3>Nunc libero elit, iaculis nec augue non</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+              <div class="col-sm-6 col-md-11">
+                <div class="thumbnail">
+                  <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg">
+                  <div class="caption">
+                    <h3>Nunc libero elit, iaculis nec augue non</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-11">
+                  <div class="thumbnail">
+                    <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg">
+                    <div class="caption">
+                      <h3>Nunc libero elit, iaculis nec augue non</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+    <div><p class="bg-primary"></p></div>
+    <div class = "project">
+        <p class = "latest"> LATEST ARTICLES</p>
+        <p class = "few">LATEST POSTS FROM THE BLOG</p>
+    </div>
+    <div class = "imagenesSecundarias">
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+              <div class="thumbnail">
+                <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg">
+                <div class="caption">
+                  <h3 class = "mauri">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam </h3>
+                   <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+                   <p>
+                      Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+              <div class="thumbnail">
+                <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg">
+                <div class="caption">
+                    <h3 class = "mauri">Falauris sollicitudin quis dolor venenatis facilisis</h3>
+                    <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+                    <p>
+                        Donec sed dolor eu augue dignissim pellentesque. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+              <div class="thumbnail">
+                <img src="/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 2/Day 1/lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg">
+                <div class="caption">
+                    <h3 class = "mauri">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+                    <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+                    <p>
+                        Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Mauris […]
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-6 col-md-9">
+                <div class="thumbnail">
+                  <img src="http://demo.fabthemes.com/revera/files/2013/08/wallpaper-730909-750x500.jpg">
+                  <div class="caption">
+                      <h3 class = "mauri">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+                      <p>POSTED ON AUGUST 19, 2013 BY ADMIN</p>
+                      <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+    </body>
+  </html>
