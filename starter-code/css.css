@@ -1,0 +1,46 @@
+.site-branding {
+    margin-left: 30px; 
+}
+
+.row {
+margin-top: 20px;
+}
+
+img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.glyphicon {
+    background: #ed564b;
+}
+
+.red {
+    background: #ed564b;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+.text-center {
+    color: white;
+}
+
+.border {
+
+}
+
+iconos {
+    border: 20px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
