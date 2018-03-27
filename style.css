@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li a {
+  color: #777;
+}
+li {
+  background-color:white;
+}
+li a:hover{
+  color: red;
+}
+
+.desaturate {
+  filter: grayscale(100%);
+}
+
+.btn btn-primary{
+  background-color: rgba(255, 255, 255, 0.2);
+  border : 1px solid #ffff;
+}
+
+.left carousel-control .right carousel-control{
+  background-color: red;
+}
+
+.left carousel-control .right carousel-control :hover{
+  background-color: white;
+}
+
+.glyphicon glyphicon-chevron-left{
+  color: red;
+
+}
+
+
+
+.container-red{
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+
+}
+
+.circle{
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  margin : 0 auto;
+
+}
+
+
