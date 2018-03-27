@@ -21,6 +21,8 @@ color: black;
   background-image: url("../img/overlay.png");
   z-index: 50;
 }
+
+
 .carousel-control{
   z-index:100;
   width: 1.5%;
