@@ -23,12 +23,11 @@ header {
 .what{
   text-align: center;
   background-color: #ff5452;
-  height: 313px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
   border-top: 5px solid #f96b61;
-    border-bottom: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
 }
 .iconitos {
   border: 3px solid white;
@@ -86,16 +85,25 @@ color: grey;
 .btn {
   background-color: transparent;
   border-color: #ccc;
+  border-radius: 0px;
 }
 .carousel-control .glyphicon-chevron-left {
-  margin-left: -120px;
   background-color: #ff5452;
+  position: absolute;
+  left: 10px;
+  top: 40%;
+  padding: 40px 40px;
+}
+.carousel-control .left{
 
+  top: 40%;
 }
 .carousel-control .glyphicon-chevron-right {
-  margin-right: -120px;
   background-color: #ff5452;
-
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  padding: 40px 40px;
 }
 .overlay {
   background: url(../img/overlay.png);
