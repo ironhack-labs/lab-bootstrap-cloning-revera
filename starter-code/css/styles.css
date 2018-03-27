@@ -4,6 +4,10 @@
   border: none;
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
+
 .navbar {
   margin: 0;
 }
@@ -35,10 +39,14 @@
 
 .carousel-control {
   width: 50px;
-  background: #ed564b;
-  top: 50%;
-  bottom: 50%;
   opacity: 1;
+  top: 43%;
+  bottom: 43%;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background: #ed564b;
 }
 
 .features {
