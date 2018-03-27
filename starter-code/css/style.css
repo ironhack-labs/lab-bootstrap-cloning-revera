@@ -1,0 +1,36 @@
+body {
+    font-size: 1.4rem;
+}
+
+.navbar, .navbar-default {
+    height: 100px;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+}
+
+.navbar-brand {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.active a {
+   background-color: #f8f8f8;
+}
+
+.carousel-inner {
+    max-height: 70vh;
+}
+
+.item img {
+    width: 100vw;
+    filter: grayscale(100%);
+}
+
+#red-container {
+    background-color: #ed564b;
+    height: 300px;
+}
+
+#red-container .row {
+    padding: 30px;
+}
