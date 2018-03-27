@@ -35,6 +35,7 @@
   color: white;
   text-transform: uppercase;
   background: none;
+  border-radius: 0;
 }
 
 .carousel-control {
