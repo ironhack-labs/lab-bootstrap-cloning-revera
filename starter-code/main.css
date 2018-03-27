@@ -1,3 +1,16 @@
+body {
+  font-size: 14px;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+}
+
+li > a{
+  font-weight: normal;
+}
+
 .item {
   width: 100%;
 }
@@ -28,6 +41,20 @@
 }
 #features {
   background-color: #ed564b;
+  width: 100%;
   padding: 40px 0;
-  color: #FFF;
+  color: white;
+}
+
+ul > li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  height: 300px;
+  background-color: rgba(51, 51, 51, 1);
+  width: 100%;
+  color: white;
 }
