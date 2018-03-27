@@ -1,0 +1,59 @@
+
+.title{
+    background-color:orange;
+    height: 30px;
+}
+
+.box1{
+    background-color:red;
+    height: 100px;
+}
+.box2{
+    background-color: orangered;
+    height: 100px;
+}
+.box3{
+    background-color: pink;
+    height: 100px;
+}
+.border{
+    border-top: 5px yellow solid;
+    
+}
+
+.h1{
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar-header{
+    left:0px;
+}
+.navbar-brand{
+    color: black;
+    font-size: 1.5em;
+
+}
+
+.col-4.left {
+    background-color: blueviolet;
+    
+    
+}
+.col-4.center {
+    background-color: yellow;
+    
+}
+
+.col-4.right {
+    background-color: blue;
+    
+}
+
+.bg-accent {
+    background: red;
+}
+
+.padded-row{
+    padding: 100px 0;
+}
