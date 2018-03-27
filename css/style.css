@@ -1,0 +1,30 @@
+
+.container {
+  color:black;
+  /*background-color: black;*/
+}
+.navbar-brand, .navbar-link{
+  color:black;
+}
+/*.navbar-text {
+  margin-left:30px;
+}*/
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+  background-color: red;
+  color: white;
+  height:60px;
+}
+.row{
+  background-color: red;
+  color:white;
+  padding:20px 160px;
+}
+.col-md-4{
+  text-align:center;
+}
+.glyphicon-glass, .glyphicon-star,.glyphicon-heart{
+  border-radius:50%;
+  border:3px solid white;
+  padding:15px;
+}
