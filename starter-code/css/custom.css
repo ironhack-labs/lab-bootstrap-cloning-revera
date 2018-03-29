@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    line-height: 150%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+.navbar {
+    height: 80px;
+    border: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+.carousel-inner {
+    height: 80%;
+}
+.carousel-caption  {
+    top: 190;
+}
+.carousel-caption h2 {
+    font-size: 42;
+}
+.btn-slide{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid white;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.latest {
+    margin-top: 30px;
+}
+.latest img {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.latest h3 {
+    color: black;
+}
+.sub-sub-header {
+    color: #c4c4c4;
+    font-size: 15px;
+}
+#sub-carousel span {
+    font-size: 20px;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+#carousel-example-generic  {
+    margin-top: -20px;
+}
+#carousel-example-generic  a{
+    background: #ed564b;
+    background-color: #ed564b; 
+    color: white;
+    width: 50px;
+    height: 100px;
+    top: 220;
+}
+#carousel-example-generic  a:hover {
+    color: #ed564b;
+    background-color: white;
+}
+#sub-carousel {
+    height: 320px;
+    background-color: #ed564b;
+    border-top: solid 5px rgba(255,255,255,0.2);
+    border-bottom: solid 5px rgba(255,255,255,0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#sub-carousel .col-md-4 {
+    padding: 0 20px;
+}
+#articles {
+    padding-bottom: 20px;
+}
+#articles h5 {
+    color: dimgrey;
+    font-size: 11px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#articles h6 {
+    font-size: 15px;
+}
+#articles p {
+    font-size: 14px;
+}
+#articles a {
+    color:  #ed564b;
+}
+#articles a:hover {
+    color: black;
+    text-decoration: none;
+}
+#sub-footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(58, 58, 58);
+    border-top: solid 5px #ed564b;
+}
+#sub-footer h5 {
+    color: white;
+}
+#sub-footer p {
+    color: rgba(255,255,255,0.5);
+}
+#sub-footer hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+#footer {
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+#footer .col-md-5 {
+  
+}
+#footer p {
+    line-height: 8px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.9)
+}
