@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>revera</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap-3.3.7-dist" type="text/css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="navbar-header">
+              <a class="navbar-brand col-sm-12 col-md-3 col-lg-3" href="#">Revera</a>
+            </div>
+
+            <div class="collapse navbar-collapse col-sm-12 col-md-9 col-lg-9" id="bs-example-navbar-collapse-1">
+
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Sample Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+
+                  <!--dropdown menu -->
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parent Page <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Full Page</a></li>
+                        <li><a href="#">Child Page 1</a></li>
+                        <li><a href="#">Child Page 2</a></li>
+                      </ul>
+                    </li> <!--dropdown-menu -->
+
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- row -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+  <!--- carousel -->
+      <div id="carouselExampleControls" class="carousel slide col-xlg-12" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-responsive" src="./img/slider-1.jpg" alt="First slide">
+            </div>
+        </div>
+
+  <!--- three column layout -->
+  <div class="row">
+      <div class="col-md-4" style="background-color: #FF9999">Left</div>
+      <div class="col-md-4" style="background-color: #99CCFF">Middle</div>
+      <div class="col-md-4" style="background-color: #00CC99">Right</div>
+  </div> 
+
+  <!-- latest projects -->
+  <div class="row">
+
+      <img class="col-lg-3" src="./img/project-1.jpg">
+      <img class="col-lg-3" src="./img/project-2.jpg">
+      <img class="col-lg-3" src="./img/project-3.jpg">
+      <img class="col-lg-3" src="./img/project-4.jpg">
+
+      </div>
+
+  <!-- latest articles -->
+  <div class="row">
+
+      <img class="col-lg-3" src="./img/slider-1.jpg">
+      <img class="col-lg-3" src="./img/slider-3.jpg">
+      <img class="col-lg-3" src="./img/slider-4.jpg">
+      <img class="col-lg-3" src="./img/project-4.jpg">
+
+      </div>
+
+</body>
+</html>
