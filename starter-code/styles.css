@@ -1,0 +1,48 @@
+html{
+  margin: 0;
+}
+
+#masthead{
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+}
+
+#masthead .site-header container{
+  background-color: white;
+}
+
+.col-sm-7 a:first-child{
+  color:#f4473a;
+}
+
+.col-sm-7 a{
+  color:gray;
+  padding: 1%;
+}
+
+.col-sm-7 a:hover{
+  color: #f4473a;
+}
+
+#carouselExampleControls h5, p{
+  font-size: 1.3em;
+}
+
+.carousel-control-next span, .carousel-control-prev span{
+  height: 200px;
+  width: 70%;
+  background-color: #f4473a;
+}
+
+.container, .fwidgets{
+  height: 336px;
+  padding: 1%;
+  background-color: #f4473a;
+  
+}
+
+.col-sm-4 span h3 p{
+  background-color: #f4473a;
+  color: white;
+}
