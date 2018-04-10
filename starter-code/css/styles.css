@@ -1,0 +1,70 @@
+/* get rid of this eventually */
+body{
+  /* background-color: tomato; */
+  margin: 0;
+  padding: 0;
+}
+
+#my-home-link{
+  color:#ed564b;
+}
+
+#my-company-name{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+
+.my-nav-container{
+  padding: 0;
+}
+
+.my-highlight:hover{
+  color: #ed564b !important;
+}
+
+.slidebox{
+  width: 100%;
+  height: 600px;
+  background: url("../img/overlay.png") 100% 100% repeat, url("../img/slider-4.jpg") 100px 40px no-repeat;
+}
+
+.fidgets{
+  height: 20vw;
+  background-color: #ed564b;
+  border-top: 2px solid #f96b61;
+  border-bottom: 2px solid #f96b61;
+}
+
+.my-fidget{
+  color: white;
+  text-align: center;
+}
+
+.my-fidget a{
+  color: #f4473a;
+  text-decoration: none;
+}
+
+#black-hover:hover{
+  color: black !important;
+}
+
+#my-bottom-section{
+  background-color: #3b3b3b;
+  color: #aaa;
+  border-top: 5px solid #ed564b;
+}
+
+#my-bottom-section a{
+  text-decoration: none;
+  color: #aaa;
+}
+
+#my-bottom-section a:hover{
+  color: white;
+}
+
+.my-image{
+  width: 100%;
+}
