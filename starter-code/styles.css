@@ -1,0 +1,165 @@
+body {
+    color: #606060;
+}
+
+#submenu {
+    padding: 0px 0px;
+    margin: 4px 0px;
+    height: 60px;
+}
+
+a {
+    color: #606060;
+}
+
+a:hover {
+    color: #ed564b;
+    text-decoration: none;
+}
+
+li {
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.container {
+    margin-right: 150px;
+}
+
+#brand {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#slidebox {
+    max-height: 550px;
+    position: relative;
+    background: #000;
+}
+
+.flexslider {
+    margin: 0 0 0px;
+    zoom: 1;
+}
+
+.slides li {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+}
+
+.doverlay {
+    background: url(images/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.grayscale {
+    position: relative;
+    z-index: -2;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.fwidgets {
+    background-color: #ed564b;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.latest {
+    margin: 60px 40px;
+}
+
+.col-lg-3 img {
+    width: 267px;
+}
+
+.bottom {
+    padding: 40px 30px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.bottom h4 {
+    color: white;
+}
+
+.bottom p {
+    color: #c2c3c4;
+    font-size: 12px;
+}
+
+footer {
+    padding: 20px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.latest a {
+    color: #ed564b;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+h6 {
+    color: black;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+h4 {
+    color: black;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 13px;
+    color: #b0b1b2;
+}
+
+.latest-projects h6 {
+    text-align: center;
+}
+
+.slider h5 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+}
+
+.slider p {
+    font-size: 16px;
+}
+
+.read {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
