@@ -1,0 +1,212 @@
+*{
+  font-size: 14px;
+}
+h1{
+  font-size: 32px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background-color: white;
+  margin: 0 116px 0 116px;
+}
+nav .site-title{
+  font-weight: 800;
+  padding-right: 15%
+}
+nav .menu-items{
+  width: 65%;
+  text-align: right
+}
+nav .menu-items a{
+  padding: 10px 1% 10px 1%;
+  text-decoration: none;
+  color: black;
+}
+
+nav .menu-items a:hover{
+  color: red;
+}
+
+nav .menu-items a:first-child{
+  color: red;
+}
+nav #blabla{
+  background-color: white;
+  position: absolute;
+  height: 200px;
+  width: 160px;
+  top: 80px;
+  right: 140px;
+  z-index: 1;
+  display: none;
+}
+#dropdown-toggle:hover #blabla{
+  display: block;
+}
+
+header{
+  height: 480px;
+}
+#myCarousel img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 550px
+}
+/* .overlay {
+  background-image: url(img/overlay.png);
+  background-size: repeat;
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  top: 90px;
+} */
+.carousel-caption {
+  margin-bottom: 70px;
+  
+}
+.carousel-caption h5{
+  font-size: 38px;
+  font-weight: 700
+}
+#icons{
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  height: 350px;
+  margin-top:70px;
+  padding: 20px 5% 20px 5%;
+}
+#icons div{
+  width: 25%;
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white
+}
+#icons div span{
+  padding: 20px 20px 20px 20px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: white solid 5px;
+  border-radius: 50%
+}
+#icons div span i{
+  font-size: 1.7em
+}
+#icons div h3{
+  margin-top:20px;
+  margin-bottom:10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#content{
+  height: 1100px;
+  background-color: white;
+  padding: 6% 5% 6% 5%
+}
+#content > div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+#content > div h3{
+  font-size: 24px;
+  font-weight: 700
+}
+#content > div h4{
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(168, 167, 167)
+}
+#content > div hr{
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+  margin: 20px 0 20px
+}
+.squares{
+  display: flex;
+  justify-content: space-between;
+}
+.squares div{
+  width: 23%;
+  height: 200px;
+  text-align: center
+}
+.squares div img{
+  width: 100%;
+}
+.squares div a{
+  text-decoration: none;
+  color: black
+}
+
+#latestarticles .squares div{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+#latestarticles .squares div img{
+  margin-bottom: 20px;
+}
+#latestarticles .squares div h3{
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#latestarticles .squares div p{
+  font-size: 14px;
+  font-weight: 400;
+}
+#latestarticles .squares div h3 a{
+  color: red
+}
+#latestarticles .squares div h3 a:hover{
+  color: black
+}
+#bottom{
+  height: 500px;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 5% 5% 5%;
+}
+hr{
+  margin: 0;
+  height: 3px;
+  background-color: red;
+}
+#bottom div{
+  width: 20%;
+  height: 90%;
+  color: white;
+}
+#bottom div p{
+  margin-top: 20px;
+  color: rgb(192, 192, 192);
+}
+#bottom div a{
+  margin-top: 20px;
+  color: rgb(192, 192, 192);
+}
+#bottom div a:hover{
+  margin-top: 20px;
+  color: rgb(241, 241, 241);
+}
+footer{
+  height: 78px;
+  padding:10px 7% 10px 7%;
+  background-color: rgb(43, 43, 43);
+  color: white
+}
