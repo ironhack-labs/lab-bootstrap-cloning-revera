@@ -8,27 +8,29 @@ a{
   
 }
 
-.revera{
+/* .revera{
   margin-left: 20px;
   margin-top: 10px;
-}
-
+} */
+/* 
 .nav{
   margin-top: 20px;
   margin-left: 300px;
   font-size: 14px;
-}
+} */
 
-.nav-bar{
+.top-navigation-bar{
   height: 75px;
+  padding: 20px;
   
 }
 
 .hero-photo{
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+  background-image: url('img/slider-1.jpg');
+  height: 650px;
+  /* width: 100%; */
   /* z-index: 100;  */
 }
 
@@ -36,7 +38,10 @@ a{
   background-color: #E13D3A;
   color: white;
   height: 300px;
-  
+}
+
+.inner-row > .col-sm-4{
+  text-align: center;
 }
 
 /* .latest-projects{
