@@ -1,0 +1,60 @@
+body{
+  height: 100vh;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 90px;
+}
+.site-title{
+  justify-content: flex-start;
+  width: 200px;
+  height: 70px;
+  padding : 0 15px;
+  margin: 25px 0 20px 70px; 
+}
+h3{
+  font-size: 2.5em;
+  width: 50px;
+}
+#overlay{
+  position: absolute;
+    background-size: cover;
+    z-index: 1;
+    width: -webkit-fill-available;
+    height: 440px;
+}
+.doverlay {
+  background-image: url("img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+.carousel-item{
+  position: relative;
+  left: 46px;
+}
+#left-control{
+  position: absolute;
+  top: 304px;
+  bottom: 0px;
+  background-color: red;
+  height: 120px;
+  width: 80px;
+}
+#right-control{
+  position: absolute;
+  top: 304px;
+  bottom: 0px;
+  left: 1296px;
+  background-color: red;
+  height: 120px;
+  width: 80px;
+}
