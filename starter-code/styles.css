@@ -1,0 +1,181 @@
+
+
+/* nav */
+.nav-border{
+
+  background-color:white;
+  height: 90px;
+  
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.border-check2{
+
+  background-color: blue;
+  height: 550px;
+
+
+}
+.btn-outline-secondary{
+  /* color: black; */
+  background-color: transparent;
+  border-color: white;
+  background-image: url("./img/overlay.png")
+  
+}
+
+.myaligncenter{
+  display: flex;
+  /* display: ; */
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white
+}
+
+.boxcenter{
+  display: flex;
+  /* display: ; */
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.border-check3{
+
+  background: #ed564b;
+  height: 314px;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+
+}
+
+.circle-icon {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.circle-icon i {
+ color: white;
+ /* display:flex;
+ align-content: top;
+ justify-content: center; */
+ 
+}
+
+.title-area {
+
+  padding-top: 30px;
+
+}
+
+.title-area h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+.title-area p{
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+
+}
+
+/* .threeboxes{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+} */
+
+.border-check4{
+
+  background-color: white;
+  height: 1143px;
+
+}
+
+.projects-area{
+
+  margin-top: 30px;
+}
+
+.projects-area h3 {
+
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+
+.articles-area{
+
+  margin-top: 30px;
+}
+
+.articles-area h3 {
+
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.border-check5{
+
+  background-color: black;
+  height: 573px;
+
+}
+
+.border-check6{
+
+  background-color: darkslategray;
+  height: 78px;
+
+}
+
+
+
+.background-picture {
+  background-image: url("./img/slider-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
