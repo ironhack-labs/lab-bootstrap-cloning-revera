@@ -1,0 +1,281 @@
+/* Media queries */
+/* @media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... } */
+
+
+
+/* General CSS */
+.container-fluid {
+  padding: 0;
+}
+
+body {
+  font-family: 'Oxygen',sans-serif;
+  line-height: 1.6;
+}
+
+
+/* Navigation Bar */
+.nav {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-right: 0;
+}
+
+.nav h2 {
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ed564b;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ed564b
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #777;
+}
+
+.nav-link {
+  font-size: .9em;
+}
+
+
+/* Carousel */
+.headerCarousel {
+  margin: 0;
+  display: inline;
+}
+
+/* Spotlight section with 3 items */
+
+.spotlightSection {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  display: flex;
+  text-align: center;
+  margin: 0;
+}
+
+.spotlightItem h3 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.spotlightItem p {
+  color: white;
+  font-size: .9em;
+}
+
+
+/* Projects section */
+.latestProjects h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.latestProjects p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.projectsSection {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.projectImage img {
+  max-width: 100%;
+}
+
+.projects h3 {
+    color: #000;
+    font-size: .9em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}/* Projects section */
+.latestProjects h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.latestProjects p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.projectsSection {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.projectImage img {
+  max-width: 100%;
+}
+
+.projects h3 {
+    color: #000;
+    font-size: .9em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Articles section */
+.latestArticles h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.latestArticles p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.articlesSection {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.articleImage img {
+  max-width: 100%;
+}
+
+.article h3 {
+  color: #000;
+  font-size: 1em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.article span {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+.article a {
+  color: #f4473a;
+}
+
+.article p {
+  color: #000;
+  font-size: .9em;
+  margin-top: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+  margin-top: 30px;
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.footerColumn h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.footerColumn p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+  font-size: .9em;
+}
+
+.footerColumn a {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+  font-size: .9em;
+}
+
+.footerColumn a:hover {
+  color:#fff;
+  text-decoration: none;
+}
+
+.secondaryFooter {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+
+.secondaryFooter p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.secondaryFooter a {
+  color: #fff;
+}
+
+.secondaryFooter a:hover {
+  text-decoration: none;
+}
