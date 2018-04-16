@@ -1,0 +1,77 @@
+.textOver {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 25px;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+#color-overlay {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#servicios{
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: red;
+    color: white;
+}
+
+#primer{
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#primer img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#primer p{
+    text-align: center;
+}
+
+#division {
+        border: 10px;
+        height: 10px;
+        background-color: red;
+}
+
+#footer {
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    background-color: #2E2E2E;
+    color: white;
+}
+
+#footer p{
+    color: lightslategray;
+}
+
+#footer h5{
+    font-weight: bold;
+}
+
+#copy {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    justify-content:left;
+    background-color: black;
+    color: #6E6E6E;
+}
