@@ -1,0 +1,127 @@
+/* Nav */
+nav h3 {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.nav-container {
+  width: 1200px;
+  height: 90px;
+}
+#red-home {
+  color: #ed564b;
+}
+nav a {
+  color: #777777;
+  padding: 0 12px;
+  font-size: 14px;
+}
+nav a:hover {
+  text-decoration: none;
+  color: #ed564b;
+}
+.small-list-nav {
+  padding-top: 22px;
+}
+
+/* Picture block with overlay */
+.overlay-container {
+  height: 550px;
+  background-image: url("./img/slider-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+#grey-filter {
+  background-image: url("./img/overlay.png");
+  height: 550px;
+}
+.overlay-container .align-items-center {
+  color: white;
+  text-align: center;
+}
+.overlay-container .col-md-6 a {
+  color: white;
+  border: white solid thin;
+  padding: 6px 30px;
+  font-size: 14px;
+}
+
+/* Red Bar Section */
+.red-background {
+  background-color: #ed564b;
+  height: 300px;
+  border-bottom: #f96b61 5px solid;
+  border-top: #f96b61 5px solid;
+  color: white;
+  text-align: center;
+}
+.red-background h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.red-background p {
+  font-size: 15px;
+}
+.container {
+  height: 1150px;
+  max-width: 1200px;
+}
+.container h3 {
+  padding-top: 60px;
+  font-variant-caps: all-small-caps;
+  font-weight: 700;
+}
+.container h4 {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-variant-caps: all-small-caps;
+  padding-bottom: 30px;
+  border-bottom: #e7e7e7 solid thin;
+  margin-bottom: 30px;
+}
+.container .col-sm-3 {
+  padding-left: 30px;
+}
+.container img {
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.container p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.article-detail span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #606060;
+  font-variant: all-small-caps;
+}
+.article-detail a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f44765;
+  font-variant: all-small-caps;
+}
+.article-link {
+  color: black;
+  font-size: 16px;
+  font-variant: all-small-caps;
+  font-weight: 700;
+  word-spacing: -1px;
+}
+.second-row p {
+  padding-top: 30px;
+  color: #60606e;
+  font-size: 14px;
+  font-weight: 400;
+}
+.grey-bottom {
+  border-top: #ed564b solid 5px;
+  background-color: #3b3b3b;
+  height: 550px;
+}
