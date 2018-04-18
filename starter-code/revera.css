@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none;
+}
+.border-top{
+    border-width: 10px;
+}
+section{
+    background-color: #ed564b 
+}
