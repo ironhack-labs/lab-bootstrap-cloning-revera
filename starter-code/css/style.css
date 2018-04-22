@@ -1,0 +1,255 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Helvetica;
+  }
+.nav{
+  margin-bottom: 0px;
+  min-height: 80px;
+}
+h1 a{
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 32px;
+  text-decoration: none!important;
+  display: inline-block;
+  padding-top: 20px;
+}
+ul li{
+  display: inline-block;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+.home{
+  color: #ed564b;
+}
+.site-menu{
+  text-decoration: none!important;
+}
+.sub-dropmenu{
+  padding-top: 10px;
+}
+nav div h1 a:hover{
+  color: #000;
+}
+nav div a:hover{
+  color: #ed564b;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.slide-top-text{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+.img {
+  filter: grayscale(100%);
+}
+.slide-text{
+  width: 800px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+  z-index: 120;
+  color: #fff;
+}
+.slide-bot-text{
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+.slide-btn{
+  background: rgba(255,255,255,0.2);
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 20px auto;
+  font-weight: bold;
+  color: #fff!important;
+  border-radius: 0px;
+}
+.doverlay {
+  background: url("../img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+.widget{
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  height: auto;
+}
+.homewidget{
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+}
+.homewidget span{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.homewidget span i{
+  vertical-align: top;
+}
+.homewidget h3{
+  font-size: 26px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.homewidget p{
+  font-size: 14px;
+  padding-top: 10px;
+}
+.homewidget p a{
+  color: #f4473a;
+  text-decoration: none!important;
+}
+.homewidget p a:hover{
+  color: #000;
+}
+.mid-section{
+  padding: 60px 0px;  
+}
+.mid-section h2{
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.mid-section p{
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.img-project {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.text-project{
+  text-decoration: none!important;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  display: inline-block;
+}
+.col-sm-3 a{
+  color: inherit;
+}
+.article-2{
+  padding-top: 80px;
+}
+.text-article-top{
+  text-decoration: none!important;
+  color: #000;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+}
+.posted-on{
+  color: #606060;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.posted-on a{
+  text-decoration: none!important;
+  color: #f4473a; 
+}
+.posted-on a:hover{
+  color: #000; 
+}
+.text-article-bot{
+  color: #606060;
+  font-size: 14px;
+  display: inline-block;
+  padding-top: 15px;
+  line-height: 150%;
+}
+.bottom{
+  padding: 40px 0;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;  
+}
+.col-sm-3 h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.col-sm-3 p{
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #aaa;
+  line-height: 150%;
+}
+.col-sm-3 ul li a{
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #aaa;
+  line-height: 150%;
+}
+.col-sm-3 ul li{
+  width: 100%;
+  padding: 10px 0 5px 0;
+  border-bottom: 1px dotted #aaa;
+  text-decoration: none!important;
+}
+.col-sm-3 ul li a{
+  text-decoration: none!important;
+}
+.col-sm-3 ul li a:hover{
+  color: #fff;
+}
+.col-sm-3 ul li a abbr{
+  border-bottom: 1px dotted #aaa;
+  text-decoration: none!important;
+}
+.site-footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+.fcred {
+  padding: 10px 0px;
+  color: #eee;
+  line-height: 150%;
+}
+.fcred a{
+  color: #eee;
+  text-decoration: none!important;
+}
+
