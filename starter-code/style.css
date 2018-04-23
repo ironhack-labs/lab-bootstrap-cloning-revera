@@ -119,9 +119,58 @@ nav a:hover {
   color: #60606e;
   font-size: 14px;
   font-weight: 400;
+  text-align: left;
 }
 .grey-bottom {
   border-top: #ed564b solid 5px;
   background-color: #3b3b3b;
+  height: 460px;
+
+}
+.grey-container{
+  max-width: 1200px;
+  height: 460px;
+}
+.grey-bottom .container{
   height: 550px;
+}
+.grey-bottom .col-sm-3 h3{
+  color: white;
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+.grey-bottom .col-sm-3 ul{
+  padding-left: 0;
+}
+.grey-bottom .col-sm-3 p{
+  text-align: left;
+  font-size: 14px;
+  color: rgb(170, 170, 170);
+  font-weight:  normal
+}
+.grey-bottom .col-sm-3 a{
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+}
+.grey-bottom .col-sm-3 li{
+  border-bottom: rgb(170, 170, 170) dotted 1px;
+  padding-bottom: 12px
+}
+.black-bottom{
+  background-color: #292929;
+  height: 100px;
+}
+.black-bottom .container{
+  height: 100px;
+}
+.black-bottom p{
+  text-align: left;
+  color: rgb(238, 238, 238);
+  padding-top: 18px;
+  font-size: 12px;
+  margin-bottom: 6px
+}
+.black-bottom a{
+  color: rgb(238, 238, 238);
+  font-size: 12px;
 }
