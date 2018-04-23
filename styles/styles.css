@@ -1,0 +1,42 @@
+header {
+  height: 90px;
+  width: 1170px;
+  background-color: white;
+  margin: 0 362px;
+}
+
+.a {
+  background-color: black;
+  height: 550px;
+  width: 1894px;
+}
+
+.b {
+  background-color:red;
+  color: white;
+  height: 224px;
+  width: 1894px;
+  padding: 40px 0;
+  border: 5px 0;
+}
+
+.c {
+  background-color: white;
+  height: 1106px;
+  width: 1894px;
+}
+
+.d {
+  background-color:black;
+  height: 286px;
+  width: 1894px;
+  border-top: 5px;
+  padding: 20px 0 40px 0;
+}
+
+.e {
+  height: 58px;
+  padding: 10px 0;
+  width: 1894px;
+  background-color: gray;
+}
