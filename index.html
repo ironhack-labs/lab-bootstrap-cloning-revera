@@ -5,14 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- predefined styles reset -->
-  <link href="css/reset.css" type="text/css" rel="stylesheet">
-
   <!-- font awesome CDN -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- bootstrap CDN -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- own css file -->
   <link href="./styles/styles.css" type="text/css"  rel="stylesheet">
@@ -34,7 +31,7 @@
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Blog</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parent Page &gt;&gt;</a>
+            <a href="#" data-toggle="dropdown">Parent Page »</a>
             <ul class="dropdown-menu">
               <li><a href="#">Full Page</a></li>
               <li class="divider"></li>
@@ -88,44 +85,127 @@
     <hr>
     <div class="row">
       <div class="col-sm-3">
-        <a href="#"><img src="/home/teresa/code/lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg" class="img-responsive"></a>
+        <a href="#"><img src="./starter-code/img/project-1.jpg" class="img-responsive"></a>
         <a href="#">Nunc libero elit, iaculis nec augue non</a>
       </div>
       <div class="col-sm-3">
-          <a href="#"><img src="/home/teresa/code/lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg" class="img-responsive"></a>
+          <a href="#"><img src="./starter-code/img/project-2.jpg" class="img-responsive"></a>
         <a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>          
       </div>
       <div class="col-sm-3">
-         <a href="#"><img src="/home/teresa/code/lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg" class="img-responsive"></a>
+         <a href="#"><img src="./starter-code/img/project-3.jpg" class="img-responsive"></a>
          <a href="#">Vivamus blandit ipsum sed arcu euismod</a>         
       </div>
       <div class="col-sm-3">
-         <a href="#"><img src="/home/teresa/code/lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg" class="img-responsive"></a>
+         <a href="#"><img src="./starter-code/img/project-4.jpg" class="img-responsive"></a>
         <a href="#">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</a>         
       </div>
     </div>
     <div class="row">
-      <h2></h2>
+      <div class="col-12">
+        <h2>Latest Articles</h2>
+        <p>Latest posts from the blog</p>
+      </div>
     </div>
     <hr>
     <div class="row">
-      <div class="col-sm-3"></div>
-      <div class="col-sm-3"></div>
-      <div class="col-sm-3"></div>
-      <div class="col-sm-3"></div>
+      <div class="col-sm-3">
+          <a href="#"><img class="img-responsive" src="./starter-code/img/slider-1.jpg"></a>
+        <a href="#">
+          <h3>
+              Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+          </h3>
+        </a>
+        <span>
+          POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a>
+        </span>
+        <p>
+            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+        </p>
+      </div>
+      <div class="col-sm-3">
+          <a href="#"><img class="img-responsive" src="./starter-code/img/slider-2.jpg"></a>
+          <a href="#">
+              <h3>
+                  Falauris sollicitudin quis dolor venenatis facilisis
+              </h3>
+            </a>
+            <span>
+              POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a>
+            </span>
+            <p>
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+            </p>
+      </div>
+      <div class="col-sm-3">
+          <a href="#"><img class="img-responsive" src="./starter-code/img/slider-4.jpg"></a>
+          <a href="#">
+              <h3>
+                  Suspendisse ornare, felis feugiat suscipit pharetra
+              </h3>
+            </a>
+            <span>
+              POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a>
+            </span>
+            <p>
+                Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+            </p>
+      </div>
+      <div class="col-sm-3">
+          <a href="#"><img class="img-responsive" src="http://cdn.demo.fabthemes.com/revera/files/2013/08/wallpaper-730909-750x500.jpg"></a>
+          <a href="#">
+              <h3>
+                  Festibulum purus odio, ornare non posuere
+              </h3>
+            </a>
+            <span>
+              POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a>
+            </span>
+            <p>
+                Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]
+            </p>
+      </div>
     </div>
   </div>
   <div class="d container">
     <div class="row">
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3"></div>
+      <div class="col-lg-3">
+        <h3>REVERA</h3>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+      </div>
+      <div class="col-lg-3">
+        <h3>META</h3>
+        <ul>
+          <li><a href="#">Log in</a></li>
+          <li><a href="#">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+          <li><a href="#">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+          <li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h3>ARCHIVES</h3>
+        <ul>
+          <li><a href="#">August 2013</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h3>RECENT POSTS</h3>
+        <ul>
+          <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+          <li><a href="#">Nunc libero elit, iaculis nec augue non</a></li>
+          <li><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+          <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+          <li><a href="#">Vivamus blandit ipsum sed arcu euismod</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <footer class="e container">
     <div class="row">
-      <div class="col-12"></div>
+      <div class="col-12">
+          Copyright &copy; 2018 <a href="#" title="revera">revera</a> - Just another demo Sites site.<br />
+          | <a href="#">Cloned Revera Theme :)</a> 	
+      </div>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

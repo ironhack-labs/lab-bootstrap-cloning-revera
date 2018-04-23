@@ -27,16 +27,22 @@ header {
 }
 
 .d {
-  background-color:black;
+  background-color:#3b3b3b;;
   height: 286px;
   width: 1894px;
-  border-top: 5px;
+  border-top: 5px solid red;
   padding: 20px 0 40px 0;
+  color: white;
 }
 
 .e {
   height: 58px;
   padding: 10px 0;
   width: 1894px;
-  background-color: gray;
+  background-color: black;
+}
+
+img {
+  width: 270px;
+  height: 180px;
 }
