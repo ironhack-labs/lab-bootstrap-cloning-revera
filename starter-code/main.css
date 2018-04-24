@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.website-name {
+  background-color: white;
+  height: 70px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.revera {
+  align-self: center;
+}
+
+.header-links-total {
+  text-decoration: none;
+  /* padding-left: 50px; */
+  padding-right: 200px;
+  align-self: center;
+}
+
+.header-links-total a {
+  text-decoration: none;
+  /* padding-left: 50px; */
+  padding-right: 10px;
+  font-size: 13px;
+  color: grey;
+}
+
+.revera {
+  margin: 0;
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+.carousel {
+  /* background-color: black; */
+  height: 550px;
+  width: auto;
+  background: url('./img/slider-1.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: column;
+}
+
+.carousel-header-text {
+  font-size: 35px;
+}
+
+.carousel-subheader-text {
+  font-size: 17px;
+}
+
+.btn {
+  background-color: transparent;
+  size: 0px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  border-color: white;
+}
+
+.bottom-carousel {
+  background-color: red;
+  height: 200px;
+  width: auto;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.glyphicon {
+}
+
+.bottom-bottom-carousel {
+  background-color: white;
+  height: 700px;
+  width: auto;
+}
+
+.sub-footer {
+  background-color: black;
+  height: 350px;
+  width: auto;
+}
+
+.footer {
+  background-color: grey;
+  height: 200px;
+  width: auto;
+}
