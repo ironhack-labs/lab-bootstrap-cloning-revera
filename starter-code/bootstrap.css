@@ -1,0 +1,123 @@
+
+
+.navbar-header {
+    /* height: 90px; */
+    
+  }
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: Helvetica Neue ,Helvetica,Arial,sans-serif
+}
+
+  /* .active {
+  padding-left: ($spacer * 0.5) !important;
+  padding-right: ($spacer * 0.5) !important;
+} */
+
+
+
+.nav-link {
+  color: #606060;
+  font-family: 'Oxygen',sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 19px, 0 19px, 0
+}
+
+.nav-link a {
+  color: #606060;
+
+}
+a:hover {
+  color: #rgb(237, 86, 75)
+  ;;
+
+}
+
+
+  .doverlay {
+    background-image: url(./img/overlay.png);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .read-more {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  .info {
+    padding: 30px 30px;
+    background-color: rgb(237, 86, 75);
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .info h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .info p {
+    font-size: 12px;
+  }
+
+  .site-content h2 {
+    font: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+ .sub-header {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+  }
+
+
+  .projects {
+    max-width: 100%;
+  }
+
+  .articles {
+    max-width: 100%;
+  }
+
+  #bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+  }
+
+  #bottom p {
+    color: lightgrey;
+    font-size: 12px;
+  }
+
+  #bottom h3 {
+    color: white;
+    font-size: 14px;
+  }
+  #bottom hr {
+    border-top: 2px;
+  }
+  .site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+  }
+}
