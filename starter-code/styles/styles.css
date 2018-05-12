@@ -1,0 +1,105 @@
+
+.controls-carousel{
+    height: 90px;
+    width: 55px;
+    background-color: #ed564b;
+    opacity: 1;
+    position: absolute;
+    top:50%;
+    margin: -50px 0 0;
+}
+
+.controls-carousel:hover{
+    background-color: white;
+    color:#ed564b;
+}
+
+
+.content-icon{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.red-firstcontent{
+    background-color: #ed564b;
+}
+.first-content div{
+    padding-top:30px;
+    color: white;
+}
+
+.first-content div h3,.first-content p{
+    text-align: center;
+}
+
+
+.content-title{
+    margin-top: 35px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black; 
+}
+
+.main-content-1,.main-content-2{
+    padding-top: 30px;
+}
+.main-content-1 div img,.main-content-2 div img{
+    width: 100%;
+    align-content: center;
+}
+
+.main-content-1 div h3{
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.main-content-2 div h3,.main-content-2 div div,.main-content-2 div p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.color-red{
+    color:red;
+}
+.bottom{
+    background: #3b3b3b;
+    padding: 20px 0px 40px 0px;  
+    border-top: 5px solid #ed564b;
+}
+
+.content-bottom div h3{
+    font-size: 15px;
+    color: white;
+}
+.content-bottom div p,.content-bottom div ul{
+    font-size: 13px;
+    color:#A8A8A8;
+}
+.lists-bottom {
+    padding-left: 0;
+}
+.lists-bottom li{
+    list-style:none;
+    padding: 2px 0 2px 0;
+    border-bottom: 1px dotted white;
+
+}
+.lists-bottom li:hover {
+    color:white;
+}
+
+footer{
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    color:white;
+    background-color: #292929
+}
