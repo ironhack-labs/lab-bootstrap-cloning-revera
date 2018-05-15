@@ -1,0 +1,8 @@
+.carousel-item {
+    height:300px;
+    background: url("../img/slider-1.jpg")
+}
+
+.carousel-item .overlay {
+   
+}
