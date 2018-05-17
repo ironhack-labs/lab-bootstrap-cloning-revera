@@ -1,0 +1,169 @@
+/*
+-----> Second content    
+*/
+
+.fwidgets {
+    padding: 40px 0;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    font-size: .7rem;
+    font-weight: inherit;
+    line-height: 1.6;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.homewidget h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.homewidget p {
+    margin: 0 0 10px;
+}
+
+.col-sm-4 {
+    width: 33.33333333333333%;
+}
+
+
+.container {
+    max-width: 1170px;
+    font-size: .8rem;
+    padding: 0 15px 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*
+------> Third Content
+*/
+
+.section-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid #111;
+    border-bottom-style: dashed;
+    margin: 15px;
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.portbox h3 {
+    font-size: 17px;
+    text-align: center;
+}
+
+.hthumb a img {
+    display: block;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+
+.portbox .postbox .htumb {
+    position: relative;
+}
+
+.section-wide {
+    margin-top: 40px;
+}
+
+.padding-footer {
+    font-size: .8rem;
+}
+
+
+nav  {
+    padding: 2px 2px;
+}
+
+.menu {
+    color: #777777;
+}
+
+.black {
+    filter: grayscale(100)
+}
+
+.flex-caption {
+    width: 60vw;
+    position: absolute;
+    top: 10vh;
+    text-align: center;
+    left: 20vw;
+}
+
+.flex-caption h1 {
+    color: white;
+}
+
+.div {
+    border-bottom: #777777 solid 1px;
+    margin: 5vh 0;
+}
+
+.border-footer {
+    border-top: #DD6052 solid 5px;
+    background-color: #3B3B3B;
+}
+
+.footer-nav {
+    color: #AAAAAA;
+}
+
+.footer-copy{
+    background-color: #292929;
+    color: #fff;
+}
+
+.padding-footer {
+    padding: 5vh 0;
+}
+
+.padding-footer-nav {
+    padding: 0 5vh;
+}
+
+.white {
+    color: #fff;
