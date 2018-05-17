@@ -1,0 +1,175 @@
+.overlay {
+	background:  url(../starter-code/img/overlay.png);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.boton {
+	border-radius: 0;
+	padding: 10px 15px;
+	border: 1px solid white;
+	color: white;
+	background-color: rgba(255,255,255,0.1	)
+}
+
+
+.carousel-control-prev {
+	background-color: #ed564b;
+	width: 70px;
+	height: 100px;
+	margin: auto 0;
+}
+
+.carousel-control-next {
+	background-color: #ed564b;
+	width: 70px;
+	height: 100px;
+	margin: auto 0;
+}
+
+.services {
+	background-color: #ed564b;
+	color: white;
+}
+
+.services .servicio {
+	padding: 45px 25px;
+	text-align: center;
+}
+
+.services .servicio .wrap {
+	border: 4px white solid;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services .servicio .icono {
+	width: 40px;
+	height: 20px;
+	justify-content: center;
+}
+
+.projects {
+	padding: 50px 0;
+}
+
+.projects h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+.projects p, .blog p {
+	color: #aaa;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+
+.projects hr, .blog hr {
+	color: #aaa;
+	width: 100%;
+}
+
+.projects .proyecto img, .blog .articulo img {
+	padding-top: 15px;
+	width: 100%;
+}
+
+.projects h5, .articulo h5 {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+.projects h5 a, .blog h5 a {
+	text-decoration: none;
+	color: black;
+}
+
+.blog p.posted {
+	font-size: 12px;
+}
+
+.blog p a {
+	color: #ed564b;
+}
+.blog h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+.blog p {
+	font-size: 12px;
+	color: #555;
+}
+
+.articulo {
+	margin-bottom: 45px;
+}
+
+footer {
+	background-color: #3b3b3b;
+	padding: 35px 0;
+	color: white;
+	border-top: 10px solid #ed564b;
+}
+
+footer h3 {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+} 
+
+footer p {
+	font-size: 12px;
+	color: #aaa;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+footer ul li {
+	border-bottom: 5px;
+}
+
+footer ul li:not(:first-child) {
+	padding-top: 5px;
+	border-top: 1px dotted #aaa;
+	font-size: 12px;
+
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 12px;
+}
+
+footer ul li a:hover {
+	color: #ddd;
+}
+
+.copyright {
+	background-color: #292929;
+}
+
+.copyright p {
+	color: #aaa;
+	font-size: 12px;
+	padding: 15px;
+}
+
+.copyright a {
+	text-decoration: none;
+	color: #aaa;
+}
