@@ -1,0 +1,38 @@
+div{
+    border:dotted;
+}
+
+#row1{
+    background-color: white;
+    height: 13vh;
+}
+
+#row2{
+    background-color: grey;
+    height: 75vh;
+}
+
+#row3{
+    background-color: red;
+    height: 45vh;
+}   
+
+#row4{
+    background-color: white;
+    height: 70vh;
+}   
+
+#row5{
+    background-color: white;
+    height: 80vh;
+}  
+
+#row6{
+    background-color: grey;
+    height: 50vh;
+}   
+
+#row7{
+    background-color: black;
+    height: 10vh;
+}   
