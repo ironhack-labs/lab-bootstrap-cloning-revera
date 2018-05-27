@@ -2,37 +2,47 @@ div{
     border:dotted;
 }
 
-#row1{
+#header{
     background-color: white;
     height: 13vh;
 }
 
-#row2{
+#bigImage{
     background-color: grey;
     height: 75vh;
 }
 
-#row3{
+#redBar{
     background-color: red;
     height: 45vh;
 }   
 
-#row4{
+#projectsTitleBar{
     background-color: white;
-    height: 70vh;
+    height: 20vh; 
+}
+
+#projects{
+    background-color: white;
+    height: 50vh;
 }   
 
-#row5{
+#articlesTitleBar{
     background-color: white;
-    height: 80vh;
+    height: 20vh; 
+}
+
+#articles{
+    background-color: white;
+    height: 60vh;
 }  
 
-#row6{
+#footer{
     background-color: grey;
     height: 50vh;
 }   
 
-#row7{
+#copyrightBar{
     background-color: black;
     height: 10vh;
 }   
