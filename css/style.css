@@ -5,6 +5,15 @@
     height: 100%;
 }
 
+.gired
+{
+    font-size: 2em;
+}
+
+.gibigger{
+    font-size: 3em;
+}
+
 div{
     border:dotted;
 
@@ -23,12 +32,17 @@ div{
 #bigImage{
     background-color: grey;
     height: 75vh;
+    background-image: "../starter-code/img/slider-1.jpg";
+    color: white;
 }
 
 #redBar{
     background-color: red;
     height: 45vh;
+    color: white;
 }   
+
+
 
 #projectsTitleBar{
     background-color: white;
@@ -49,6 +63,11 @@ div{
     background-color: white;
     height: 60vh;
 }  
+
+img
+{
+    width: 100%;
+}
 
 #footer{
     background-color: grey;
