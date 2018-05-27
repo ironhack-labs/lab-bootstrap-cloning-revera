@@ -30,10 +30,16 @@ div{
 }
 
 #bigImage{
-    background-color: grey;
     height: 75vh;
-    background-image: "../starter-code/img/slider-1.jpg";
+    background-image: url("../starter-code/img/slider-1.jpg");
+    background-blend-mode: luminosity;
     color: white;
+    background-color: grey;
+}
+
+.overlay{
+    background-image: url("../starter-code/img/overlay.png");
+
 }
 
 #redBar{
