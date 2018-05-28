@@ -1,12 +1,15 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body > .container {
     padding: 0;
 }
-div {
+/* div {
     border: 1px solid red;
-}
+} */
+
 h1 {
     text-transform: uppercase;
     padding: 1.5rem;
@@ -26,8 +29,9 @@ h1 {
 .carousel-control-next, .carousel-control-prev {
     color: white;
     background: #f4473a;
-    top: 25%;
-    height: 50%;
+    top: 20%;
+    height: 60%;
+    width: 10%;
 }
 .carousel-item > img {
     filter: grayscale(100%);
@@ -42,15 +46,82 @@ h1 {
     color: white;
     font-size: .8rem;
     line-height: 1.5;
+    padding: 1rem 1rem;
+}
+.widgets  p {
+    margin-bottom: 1rem;
+}
+p, li {
+    font-size: small;
+    margin: .8rem 0 2rem 0;
 }
 h3 {
+    font-size: large;
+    padding-top: 1rem;
+}
 
-    font-size: 1.2rem;
+i {
+    font-size: xx-large;
+    border: 5px solid #fff;
+    border-radius: 50%;
     padding: 1rem;
 }
 
+.content {
+    padding: 4rem 0;
+}
+h2 {
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+.section > p{
+    font-weight: bold;
+    color: lightgray;
+    font-size: .8rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .5px solid lightgray;
+}
+.content  .img-container > p {
+    text-align: center;
+}
 img {
-    max-width: -webkit-fill-available;
+    width: 100%;
+}
+
+h4 {
+    font-size: smaller;
+    line-height: initial;
+    font-weight: 600;
+    padding: .5rem 0 1rem;
+}
+
+.details {
+    font-size: small;
+    font-weight: 500;
+    color: lightgray;
+}
+.details > .date,
+.details > .autor {
+    color: #ed564b; 
+}
+
+section {
+    background-color: #404040;
+    border-top: solid 2px #f4473a;
+    color: #aaa;
+}
+section  h3 {
+    color: white;
+}
+section li {
+    display: block;
+    margin: 1rem 0;
+    padding-bottom: .5rem;
+    border-bottom: dotted .5px;
+}
+footer {
+    background-color:black;
+    color: #fff;
 }
 
 
