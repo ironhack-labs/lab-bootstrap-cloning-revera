@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    border: 1px solid red;
+}
+h1 {
+    text-transform: uppercase;
+    padding: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.mobilemenu {
+    margin: .5rem;
+}
+
+#carouselExampleControls {
+    width: 100%;
+}
+
+img {
+    max-width: -webkit-fill-available;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
