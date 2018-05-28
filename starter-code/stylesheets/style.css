@@ -1,0 +1,31 @@
+.section3 {
+  background-color: #f96b61;
+}
+
+.navigation {
+  flex-grow: 0 !important;
+}
+
+.section4 {
+  border: 0 !important;
+}
+
+.pink {
+  height: 3px;
+  background-color: #f96b61;
+}
+
+.section5 {
+  background-color: #404040;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
