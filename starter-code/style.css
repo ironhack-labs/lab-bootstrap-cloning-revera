@@ -1,0 +1,23 @@
+.red{
+  background:#ed564b;
+  color:white;
+}
+
+.red h3{
+  text-emphasis: bold;
+}
+
+.redbottom{
+  border-bottom: 5px solid #ed564b;
+}
+
+.carousel-item img { -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);}
+
+  .specialBorder {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+  }
