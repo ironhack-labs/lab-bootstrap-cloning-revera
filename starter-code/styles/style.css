@@ -1,0 +1,94 @@
+a {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+a:active {
+  color: #f4473a;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+.nav-link {
+  font-size: 0.85em;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+  height: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: red;
+}
+.features {
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  background-color: #ed564b;
+  color: #fff;
+}
+.features i {
+  font-size: 1.5em;
+  padding: 18px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.features p {
+  font-size: 0.90em;
+}
+.subtitle {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #aaa;
+  border-bottom: 1px solid #dfdfdf;
+}
+.latest-posts h5 {
+  font-size: 1.05em;
+  font-weight: bold;
+}
+.post-details {
+  font-size: 0.80em;
+  font-weight: bold;
+  color: #606060;
+}
+.post-details a {
+  color: #f4473a;
+}
+.post-details a:hover {
+  color: #000;
+}
+.post-excerpt {
+  font-size: 0.85em;
+  color: #666;
+}
+footer {
+  border-top: 5px solid #f96b61;
+  background-color: #333;
+  color: #aaa;
+  font-size: 0.95em;
+}
+footer h5 {
+  color: #fff;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer ul li {
+  border-bottom: 1px dotted#aaa;
+  padding-bottom: 5px;
+}
+footer a {
+  color: #aaa;
+}
+footer a:hover {
+  color: #fff;
+}
+.colophon {
+  background-color: #292929;
+  color: #eee;
+  font-size: 0.80em; 
+}
+
