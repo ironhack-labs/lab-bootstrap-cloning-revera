@@ -1,0 +1,62 @@
+
+.site-navbar {
+  background-color: white;
+  height: 90px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.site-footer {
+  background-color: #292929;
+  height: 80px;
+  color: white;
+}
+
+.fwidgets {
+  background: #EB574F;
+  color: white;
+}
+
+.glyph-icons {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+.htthumb > h3 {
+  font-size: 1rem;
+}
+
+#bottom {
+  background: #3B3B3B;
+}
+
+.carousel-img {
+  width: 800px;
+  height: 400px;
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+
+
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 100px;
+  background:  #EB574F;
+
+}
+
+.carousel-control-next-icon {
+  width: 50px;
+  height: 100px;
+  background:  #EB574F;
+
+}
+
+.red-stripe {
+  background: #EB574F;
+  height: 5px;
+}
