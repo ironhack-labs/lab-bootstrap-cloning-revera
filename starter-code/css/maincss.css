@@ -1,0 +1,32 @@
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin: auto 0;
+}
+
+h5 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.carousel-image img
+{
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+        width: 100vw;
+        height: 100%;
+       
+        }
+
+.widgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
