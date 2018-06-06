@@ -1,0 +1,43 @@
+
+nav {
+  margin: 0 auto;
+  width: 970px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-family: Oxygen, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.nav-link:hover {
+  color: #ed564b;
+}
+
+.services {
+  background-color: #ed5549;
+}
+
+.sitemap{
+  background-color: #606060;
+}
+
+footer {
+  background-color: #252525;
+}
