@@ -1,0 +1,30 @@
+header{
+    background-color: white;
+    color: black;
+}
+
+.widgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+
+.container2{
+
+}
+
+.container3{
+
+}
+
+.container4{
+
+}
