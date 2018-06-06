@@ -1,0 +1,56 @@
+body, button, input, select, textarea {
+        color: #606060;
+        font-family: 'Oxygen',sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+        line-height: 1.6;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+
+.carousel-inner {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+}
+
+.container {
+    /* display: flex;
+    justify-content: center; */
+    background-color: red;
+    background-color: cover;
+    /* margin: 20px 0 20px 0;
+    padding: auto; */
+    color: white;
+}
+
+/* .latest-project {
+    display: flex;
+    flex-direction: row;
+    column-width: 20px;
+    /* justify-content: space-between; */
+    /* size: 50px;
+} */
+
+.all-containt {
+    margin: 40px solid border red;
+    /* border-bottom-color: red;
+    border-top-color: red; */
+}
+
+.container-menu-end {
+    background-color: gray;
+    color: white;
+}
+
+/* hr {
+    style: dashed;
+} */
