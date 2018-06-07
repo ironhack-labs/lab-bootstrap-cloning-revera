@@ -1,0 +1,85 @@
+.moreheight {
+    height: 90px;
+}
+
+.logo {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: 350px
+}
+
+.list {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.red {
+    color: red;
+}
+.backgr {
+background: url(../img/overlay.png) repeat; 
+background-size: cover;
+}
+
+.second-section {
+    height: 360px;
+    background-color: #ed564b;
+}
+.title-second-section {
+    font-family: Helvetica;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.text-second-section {
+    font-family:  sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.center {
+    margin-top: 120px;
+    /* margin-bottom: */
+}
+
+.site-content-container {
+    margin: 50px;
+}
+.titile-third-section {
+    font-family: Helvetica;
+     font-size: 24px;
+     font-weight: bold;
+}
+.sub-titile-third-section {
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 16px;
+    color: #aaaaaa;
+    border-bottom: 1px solid #dfdfdf;
+}
+.image-section-three {
+    height: 180px;
+    width: 270px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.text-section-three {
+    font-family: Helvetica;
+     font-size: 14px;
+     text-align: center;
+}
+.wrap {
+    flex-wrap: nowrap;
+    justify-content: center;
+} 
+/* .content-explan {
+    /* margin-left: 10px */
+} */
+
+/* equil {
+    margin: 10px;
+} */
