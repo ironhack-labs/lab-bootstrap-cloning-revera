@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.red {
+    background-color: #f4473a;
+}
+.container-4 {
+    background-color: orange;
+}
+.container-5 {
+    background-color: black;
+}
+.container-6 {
+    background-color: green;
+}
+.revera {
+    text-align: center;
+    align-items: center;
+}
+
+.d-block{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+}
+
+.text-center {
+    text-align: center;
+}
+i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+}
+.carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/overlay.png');
+    z-index: 1;
+}
