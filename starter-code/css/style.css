@@ -1,0 +1,40 @@
+.slice {
+    background: red ;
+    height: 70px;
+    width: 40px;
+    opacity: 0.5;
+}
+.icons{
+    background: red;
+    height: 300px;
+    color:white;
+    align-items: center;
+    padding-top: 20px;
+   padding-bottom: 40px;
+   display: flex;
+justify-items: ;
+}
+
+.col h2{
+font-size: 1.2em;
+
+}
+.icon-red{
+
+        text-align: center;
+        line-height: 60px;
+        font-size: 25px;
+        margin: 0px auto;
+        border: 3px solid #fff;
+        width: 65px;
+        height: 65px;
+        border-radius: 35px;
+        display: block;
+        
+      }
+    .icons span{
+        font-size:0.8em;
+    }
+
+
+
