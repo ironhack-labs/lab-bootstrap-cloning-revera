@@ -1,0 +1,59 @@
+header {
+  .carousel {
+    h5 {
+      font-size: 2.4rem;
+    }
+    .carousel-img {
+      background-size: cover;
+      height: 40vw;
+      filter: grayscale(100%);
+      &.first-img {
+        background: url("../img/slider-1.jpg") center no-repeat;
+      }
+      &.second-img {
+        background: url("../img/slider-2.jpg") center no-repeat;
+      }
+      &.third-img {
+        background: url("../img/slider-3.jpg") center no-repeat;
+      }
+      &.fourth-img {
+        background: url("../img/slider-4.jpg") center no-repeat;
+      }
+      &:after {
+        content: "";
+        background: url("../img/overlay.png") center repeat;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      top: calc(50% - 50px);
+      width: 50px;
+      height: 100px;
+      background: $red;
+      opacity: 1;
+    }
+  }
+
+  .red-container {
+    background: $red;
+    color: $white;
+    padding: 40px 0;
+    border-top: 5px solid lighten($red, 10%);
+    border-bottom: 5px solid lighten($red, 10%);
+    .items {
+      .ico-wrp {
+        border: 5px solid $white;
+        border-radius: 35px;
+        height: 70px;
+        width: 70px;
+        margin: 0 auto 25px auto;
+        font-size: 1.4rem;
+        line-height: 60px;
+      }
+    }
+  }
+}

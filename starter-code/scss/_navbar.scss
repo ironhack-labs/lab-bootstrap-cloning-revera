@@ -1,0 +1,20 @@
+.navbar {
+  background: $white !important;
+  .dropdown-toggle::after {
+    width: auto;
+    height: auto;
+    vertical-align: baseline;
+    content: "»";
+    border: none;
+  }
+  &.navbar-light {
+    .navbar-nav {
+      font-size: 0.9rem;
+      .active {
+        > .nav-link {
+          color: $red;
+        }
+      } 
+    }
+  }
+}
