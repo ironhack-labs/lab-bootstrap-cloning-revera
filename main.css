@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.collapse {
+    height: 2em;
+    margin-left: 25%;
+    font-size: 0.8em;
+}
+
+.navbar-nav:hover {
+    color: #F83A45;
+}
+
+.red-text {
+    color: #F83A45;
+}
+
+header {
+    padding:0;
+}
+.carousel-control-prev {
+    background-color: #F83A45;
+}
+.carousel-control-next {
+    background-color: #F83A45;
+}
+.carousel-item {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    filter: grayscale(100%); 
+    background-size: contain;
+}
+
+#redBlock {
+    background-color: #F83A45;
+    
+}
+.card-body {
+    color: #fff;
+    text-align: center;
+    padding: 3.2em;
+    margin: 0;
+    background-color: #F83A45;
+}
+.col-md-4 {
+    background-color: #F83A45;
+    border: 0;
+    height: 35vh;
+    width: 100%;
+    text-align: center;
+}
+.card-body > span {
+    width: 5%;
+    height: auto;
+}
