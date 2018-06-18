@@ -71,3 +71,46 @@
 .projects .title p, .projects .title h3{
     letter-spacing: -1px;
 }
+.projects .post-info{
+  color: #666;
+}
+.projects .post-info a{
+  color: #ed564b;
+}
+.projects .post-excerpt{
+  color: #666;
+}
+#footer{
+  background-color: #333;
+  border-top: 5px solid #f96b61;
+  padding: 40px 0 20px;
+  color: #fff;
+}
+#footer .col-3{
+  height: 300px;
+}
+#footer ul{
+  padding-left: 0;
+}
+#footer h4{
+  margin-bottom: 40px;
+}
+#footer p, #footer li{
+  color: #999;
+  font-size:
+}
+#footer li{
+  list-style: none;
+  border-bottom: 1px dotted #999;
+  padding: 6px 0;
+}
+
+#footer-bottom{
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+#footer-bottom p{
+  margin: 0;
+  font-size: 12px;
+}
