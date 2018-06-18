@@ -1,0 +1,49 @@
+.slice {
+    background: red ;
+    height: 70px;
+    width: 40px;
+    opacity: 0.5;
+}
+.icons{
+    background: red;
+    height: 300px;
+    color:white;
+    align-items: center;
+    padding: 20px 20px;
+   display: flex;
+   margin: 0 auto;
+
+}
+.btn-sec{
+    border: silver 1px transparent;
+}
+.col h2{
+font-size: 1.2em;
+
+}
+.icon-red{
+
+        text-align: center;
+        line-height: 60px;
+        font-size: 25px;
+        margin: 0px auto;
+        border: 3px solid #fff;
+        width: 65px;
+        height: 65px;
+        border-radius: 35px;
+        display: block;
+        
+      }
+    .icons span{
+        font-size:0.8em;
+    }
+    .footer-f{
+        background:silver;
+      
+    }
+    .footer-f a{
+        color:grey;}
+        
+
+
+
