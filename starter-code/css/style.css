@@ -1,5 +1,135 @@
-.col img{
-  width: 100%;
+body{
+  font-size: 1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, .post{
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 1.2em;
+  font-weight: 900;
+}
+h3{
+  font-size: 1em;
+}
+
+h4{
+  font-size: 0.8em;
 }
 
 .red{color: red;}
+
+/*navbar*/
+.navbar-brand{
+  font-weight: 900;
+  margin-right: 10%;
+}
+
+.nav-link{
+  font-size: .8em;
+}
+
+/*carousel*/
+.carousel img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.carousel-caption{
+  background: url("../img/overlay.png") repeat;
+  background-size: cover;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+}
+.flecha-container{
+  background: #EB5750;
+width: 51px;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*services*/
+.services{
+  background-color: #EB5750;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
+
+.icontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  
+}
+
+/*projects*/
+
+.projects .row{
+  margin: 30px auto;
+}
+
+.projects h3{
+  color: grey;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.col img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/**Footer**/
+
+footer{
+  background: #3B3B3B;
+  color: grey;
+  font-size: .8em;
+}
+footer .container{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.copy{
+  background: #292929;
+  color: #FFF;
+}
+
+footer h4{
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin-top: 5px; 
+  padding-bottom: 5px;
+  border-bottom: 1px dotted grey; 
+}
+
+li a{
+  color: grey;
+}
