@@ -1,0 +1,73 @@
+#carrousel-container img {
+  filter: grayscale(1);
+  height: 500px;
+  object-fit: cover;
+}
+.btn-carrousel {
+  border-radius: 0;
+  border-color: white;
+  color: white;
+}
+.btn-carrousel:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+.arrow-carrousel-right {
+  justify-content: flex-end;
+}
+.arrow-carrousel-left {
+  justify-content: flex-start;
+}
+.arrow {
+  background-color: #f4473a;
+  width: 50px;
+  height: 100px;
+}
+#red-background .col-4 {
+  height: 300px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#red-background {
+  background-color: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  padding: 40px 0;
+}
+#red-background span{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 62px;
+}
+.projects .col-3 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.projects .col-3{
+    font-weight: 700;
+}
+.projects-p{
+    text-align: center;
+}
+.projects{
+    margin-top: 40px;
+}
+.projects .title p{
+    color: #aaa;
+    font-weight: 700;
+}
+.projects .title h3{
+    letter-spacing: -1.5px;
+    font-weight: 900;
+}
+.projects .title p, .projects .title h3{
+    letter-spacing: -1px;
+}
