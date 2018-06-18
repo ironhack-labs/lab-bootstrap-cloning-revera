@@ -1,0 +1,15 @@
+.grey-color{
+  background-color: $darkGrey;
+  border-top:5px solid $red;
+  color:$white;
+  padding-top: 40px;
+  .footer-dark{
+    background-color: darken($darkGrey,10%);
+    padding:10px 0;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    p {
+      margin-bottom: 0;
+    } 
+  }
+}

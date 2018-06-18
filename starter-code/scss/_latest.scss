@@ -1,0 +1,33 @@
+.latest {
+  margin-top: 60px;
+  .sub-title {
+    color: $grey;
+    font-weight: bold;
+  }
+  hr {
+    margin-bottom: 30px;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  .padd {
+    padding: 0 10px;
+  }
+  .latest-articles {
+    .date {
+      margin: 10px 0 20px 0;
+      font-weight: bold;
+
+      a {
+        color: $red;
+        text-decoration: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+    p {
+      color: darken($grey, 20%);
+    }
+  }
+}
