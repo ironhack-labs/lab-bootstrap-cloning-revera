@@ -1,0 +1,82 @@
+.grey {
+  filter: grayscale(1);
+}
+
+.center {
+  text-align:center;
+  height:100px;
+}
+
+.icon1 {
+  background-color: red;
+  height: 100px;
+  width: 50px;
+  top: 50px;
+}
+
+.active {
+  background: url(./img/overlay.png) center center no-repeat;
+  background-size: cover;
+  
+}
+
+.absolute {
+  position:absolute;
+  z-index:100;
+  top:40%;
+  left: 20%;
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.relative {
+  position:relative;
+  
+}
+.red-background {
+  background-color: salmon;
+  height: 300px;
+  padding: 35px;
+}
+
+.whitening {
+  color:white;
+}
+
+.flex-red {
+display:flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.circulo {
+  border: 5px solid white ;
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.projects {
+  width: 250px;
+}
+
+.projects img {
+  width: 100%;
+}
+
+hr {
+  width: 60%
+}
+
+.final {
+  background-color: grey;
+  border-top: 3px solid red;
+  padding: 50px 0;
+}
+
+.nocolor li{
+  background-color: grey;
+}
