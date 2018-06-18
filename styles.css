@@ -1,0 +1,142 @@
+.rev{
+  padding-left:150px;
+  height:80px;
+}
+nav strong {
+  font-size:1.5em;
+}
+.ro {
+  margin-left:200px;
+  font-size:0.9em;
+}
+/*carousel section */
+.cat-carousel img {
+  height:550px;
+  filter:grayscale(100%);
+ 
+}
+.cat-carousel button {
+
+  border:2px solid white;
+  background-color:transparent;
+  color:white;
+  width:150px;
+  font-size:1em;
+  margin-top:30px;
+  
+ 
+}
+.car-cap {
+  margin-bottom:50px;
+  margin-left:65px;
+  width:60%;
+  
+}
+.car-cap p {
+  font-size:1.2em;
+}
+.car-cap h5 {
+  font-size:2em;
+}
+.red{
+  margin-right:170px;
+  height:60px;
+  width:30px;
+  background-color:rgb(226, 90, 90);
+}
+.red2 {
+  margin-left:170px;
+  height:60px;
+  width:30px;
+  background-color:rgb(226, 90, 90);
+}
+/* article section */
+.section-3 {
+  padding:50px 100px 0 100px;
+  height:350px;
+  width:100%;
+  background-color:rgb(226, 90, 90);
+  color:white;
+}
+.section-3 h3 {
+  text-align:center;
+  margin-top:20px;
+}
+.col-sm span {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.col-sm p {
+  text-align:center;
+  margin-top:10px;
+}
+.section-4 {
+  padding:0 140px 0 140px;
+  padding-top:50px;
+  height:300px;
+  width:100%;
+  color:black;
+}
+.kinda-grey {
+  color:grey;
+  border-bottom: 1px solid grey;
+}
+.section-4 img {
+  width:200px;
+}
+.equalize {
+  margin-left:15px;
+  width:95%
+}
+.just-this {
+  font-size:0.7em;
+  
+}
+.section-5 {
+  text-align:left;
+  padding:0 140px 0 140px;
+  padding-top:50px;
+  height:600px;
+  width:100%;
+  color:black;
+}
+.section-5 img {
+  width:200px;
+  height:120px;
+}
+.section-5 a {
+  font-size:0.7em;
+  color:rgb(185, 68, 1);
+}
+.long-p {
+  
+  margin-top:20px;
+}
+.container strong {
+  font-size:1em;
+}
+.left-align {
+  
+  font-size:0.6em;
+  
+}
+.fuck {
+  font-size:0.7em;
+}
+
+footer {
+  height:300px;
+  width:100%;
+  background-color:rgb(63, 63, 63);
+  border-top:4px solid rgb(185, 68, 1);
+  color:white;
+  padding-top:30px;
+ 
+}
+
