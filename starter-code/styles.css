@@ -1,5 +1,6 @@
-.carrousel_hero {
-  width: 100%;
+.img_filter {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .bajocarousel{
@@ -75,6 +76,8 @@ h5 {
   margin-bottom: 10px;
 }
 
-.nav2 {
-  margin-right: 15px;
+.iconos {
+text-align: center;
+width: 70px;
+margin: 0 auto;
 }
