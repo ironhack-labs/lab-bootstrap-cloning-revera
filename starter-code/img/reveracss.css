@@ -1,0 +1,36 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon {
+    background-color: red;
+    height: 65px;
+    width: 35px;
+}
+.carousel-control-next-icon {
+    background-color: red;
+    height: 65px;
+    width: 35px;
+}
+.row {
+    height: 180px;
+    
+}
+.col {
+    text-align: center;
+    color: white;
+
+}
+
+.rounded-circle {
+    color: white;
+    border: 4px solid white;
+    border-radius: 35px;
+    height: 50px;
+    width: 50px;   
+}
+.seccion1 {
+    background-color: red;
+    font-size: 0.8em;
+}
