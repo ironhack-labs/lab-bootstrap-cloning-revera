@@ -1,0 +1,29 @@
+.background-red{
+    background-color:red;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.redondeado {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    padding-left: 200px;
+} 
+.navbar-brand{
+    padding-left: 40px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:red;
+}
