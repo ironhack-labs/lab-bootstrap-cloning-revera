@@ -1,0 +1,46 @@
+.navbar{
+    height: 100px;
+}
+
+.navbar-collapse{
+    margin-left: 300px;
+}
+
+.container{
+    background-color: red;
+}
+.col-sm h3{
+    text-align: center;
+    color: aliceblue;
+}
+.round{
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.col-sm p{
+    text-align: justify;
+    color: aliceblue;
+}
+#home{
+    color: red;
+}
+.main{
+    margin: 0;
+    background-color: white;
+}
+img1{
+height: 50px;
+width: 50px;
+}
+.carousel-control-prev{
+    background-color: red;
+}
+.carousel-control-next{
+    background-color: red;
+}
+
+.arrow-conteiner{
+    width: 5px;
+    height: 10px;
+}
