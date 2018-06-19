@@ -1,0 +1,55 @@
+.carousel-item img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.third {
+  background-color: rgb(235, 87, 79);
+  color: white;
+}
+
+.icone {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.section-title{
+  padding: 20px 15px;
+}
+ br {
+   color: lightslategray;
+ }
+
+ .col-sm {
+   text-align: center;
+   margin: 10px;
+ }
+
+ .almostFoot {
+   background-color: #3B3B3B;
+   color: white;
+   padding: 0 30px;
+   width: 100%;
+ }
+
+ .container {
+   margin: 0;
+   padding: 0;
+ }
+
+ .mr-auto  {
+   margin-left: 100px;
+ }
+
+ footer{
+   color: white;
+   background-color: rgb(41, 41, 41);
+   
+ }
+
+ .insider {
+   margin: 10px;
+   padding-top: 20px;
+ }
+ 
