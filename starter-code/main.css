@@ -1,0 +1,57 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 7%;
+    padding-right: 2%;
+    font-size: 12px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.oj{
+    color:#ed564b;
+    font-weight: 445;
+}
+
+p{ text-align: center;
+
+    
+}
+
+.background{
+    color: white;   
+    background-color: #ed564b;
+
+}
+
+
+.bgimg{
+    background-image: url('./img/Miami.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#lP h3{
+    text-align: center; 
+}
+
+.glyphCenter {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}   
+
+
+.colPadding{
+    padding-top: 40px;
+}
+
+
+hr { 
+    width:80%,
+}
