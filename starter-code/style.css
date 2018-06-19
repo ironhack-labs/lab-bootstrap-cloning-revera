@@ -95,6 +95,7 @@ li {
 }
 
 .col-md-3 h3 {
+    margin-left: 20px;
     color: white;
     font-size: 16px;
     text-align: left;
@@ -105,6 +106,10 @@ li {
     text-align: left;
     margin-left: 2rem;
     font-weight: 400;
+}
+
+.meta-links li {
+    margin-right: 12rem;;
 }
 
 .col-md-3 ul {
