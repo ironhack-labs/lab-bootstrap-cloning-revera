@@ -1,0 +1,181 @@
+
+.red-icon {
+    background-color: #f4473a;
+    padding: 40px 20px;
+}
+
+.red {
+    color: #f4473a;
+}
+
+.nav-pad {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .nav-pad h2 {
+        font-weight: bold;
+    }
+
+.red-hover a:hover{
+    color: #f4473a;
+}
+
+.doverlay {
+    background: url('./img/overlay.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.carousel-caption d-none d-md-block h1, p{
+    z-index: 999;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.widgets {
+    background-color: #f4473a;
+    color: white;
+    text-align: center;
+    font-size: .9em;
+}
+
+.widget {
+    padding: 15px;
+    margin: 10px 50px;
+}
+
+
+
+.fas {
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 10px 0 20px 0;
+    border: 5px white solid;
+    border-radius: 50%;
+}
+
+.project-wrapper {
+    padding: 20px 100px;
+}
+
+    .project-wrapper h2 {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    .project-wrapper h5 {
+        font-weight: bold;
+        font-size: 1em;
+        color: #aaa;
+    }
+
+.projects {
+    color: white;
+    text-align: center;
+    font-size: .9em;
+}
+
+.project {
+    margin-right: 30px;
+    flex: 1 1;
+}
+
+    .project p {
+        text-align: center;
+        color: black;
+        line-height: 1.3;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: .9em;
+    }
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+p.headline{
+    color: black;
+    font-size: 1em;
+    text-align: left;
+}
+
+p.byline{
+    color: #606060;
+    text-align: left;
+}
+
+p.byline a {
+    color: #f4473a;
+}
+
+    p.byline a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+p.article{
+    text-align: left;
+    font-weight: normal;
+    font-size: 1em;
+    color: #606060;
+    line-height: 1.4;
+}
+
+.meta-wrapper {
+    background-color: #3b3b3b;
+    padding: 40px 100px;
+    border-top: solid 5px #f4473a;
+}
+
+    .meta-wrapper p {
+        color: #aaa;
+        font-weight: normal;
+        text-align: left;
+    }
+
+    .meta-wrapper h4{
+        color: white;
+        font-size: 1em;
+        margin-bottom: 25px;
+    }
+
+    .meta-wrapper p, a{
+        font-size: .9em;
+        line-height: 1.6;
+    }
+
+    .meta-wrapper a{
+        color: #aaa;
+    }
+
+    .meta-wrapper a:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    .meta-wrapper li{
+        border-bottom: 1px #aaa dotted;
+        line-height: 1.6;
+    }
+
+    .meta-wrapper ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    footer {
+        background-color: #292929;
+        color: white;
+        padding: 30px 40px;
+        font-size: .7em;
+    }
