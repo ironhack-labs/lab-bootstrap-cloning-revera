@@ -1,0 +1,78 @@
+.card{
+  background-color: coral;
+  color: white;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  padding-left: 100 px;
+  margin-left:0%;
+  margin-bottom: 300px;
+  padding-bottom: 60px;
+  text-size: 7em;
+  display: inline;
+}
+.card1{
+  background-color: coral;
+  color: white;
+  text-align: center;
+  position: absolute;
+  padding-left: 90 px;
+  margin-left:34.60%;
+  margin-bottom: 300px;
+  padding-bottom: 60px;
+  text-size-adjust: 4em;
+  display: inline;
+}
+.card2{
+  background-color: coral;
+  color: white;
+  text-align: center;
+  position: absolute;
+  padding-left: 100 px;
+  margin-left:70%;
+  margin-bottom: 300px;
+  padding-bottom: 60px;
+  text-size-adjust: 4em;
+  display: inline;
+}
+.titulo{
+  color: grey;
+}
+.card-text{
+  background-color: white;
+  color: black;
+  padding-left: 10 px;
+  margin-left:10%;
+  margin-bottom: 300px;
+  padding-bottom: 200px;
+  padding-top: 30px;
+  height: 10px;
+}
+tr{
+  margin-top: 600px;
+  padding-top:500px;
+  padding-bottom: 200px;
+  margin-bottom: 800px;
+}
+tr1{
+  margin-top: 100px;
+  padding-top:300px;
+}
+td{
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1vh;
+  width: 22vw;
+  height: 30vh;
+  background-color: #fff;
+  margin-top: 100px;
+  padding-top:100px;
+}
+.lastcontainer img{
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 1vh;
+  width: 22vw;
+  height: 30vh;
+  background-color: #fff;
+}
