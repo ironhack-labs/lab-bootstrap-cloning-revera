@@ -1,0 +1,78 @@
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.carousel-caption p.caption-text-pp{
+  text-overflow: ellipsis;
+  height:20%;
+}
+
+.caption-vertical-positioner{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.claims-section{
+  background-color: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.claims-section{
+  color:white;
+  text-align:center;
+}
+
+.claims-section i{
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 6.9%;
+}
+
+section img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section a{
+  color:black;
+  text-decoration:none;
+}
+
+.latest-projects p{
+  text-align: center;
+}
+
+.image-wrap{
+  height: 165px;
+}
+
+.footer{
+  background:#3b3b3b;
+  border-top: 5px solid #f96b61;
+  color:white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
