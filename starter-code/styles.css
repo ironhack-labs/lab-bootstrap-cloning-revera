@@ -1,0 +1,143 @@
+
+body{
+  font-family: inherit;
+}
+#navbarNavDropdown:hover{
+color: red
+}
+.carousel-inner img{
+  filter: grayscale(100%) contrast(65%)}
+#slicer{
+  align-items: row
+}
+.carousel-control-prev{
+top:43%;
+  background: red;
+  color: white;
+  height: 65px;
+  width: 30px;
+}
+.carousel-control-prev:hover{
+  background: transparent
+}
+.carousel-control-next{
+  top:43%;
+    background: red;
+    color: white;
+    height: 65px;
+    width: 30px;
+  }
+  .carousel-control-next:hover{
+    background: transparent
+  }
+  
+.carousel-control-prev-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.btn-light{background: transparent 50%;
+  color: white;
+  margin-bottom: 75px;
+}
+#redSection{
+padding: 5% 5%;
+  color: white;
+  background: #ed564b;
+  text-align: center;
+  max-height: 55VH;
+  width:100vw;
+  margin: 0;
+  max-width: 100vw;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+} 
+
+ i{
+   border: 4px solid white;
+padding: 25px;
+margin-bottom: 30px;
+border-radius: 100%;
+font-size: 36px;
+font-weight: 20px
+}
+
+#project img{
+  height: 80%;
+  width: 100%;;
+}
+#lastes{
+  padding-top: 3%;
+  }
+  #portafolioMain{
+    padding: 0 5%;
+  }
+  #portofolio{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    }
+
+    #portafolioMain2{
+      padding: 5% 5% 0;
+    }
+      #portofolio2{
+font-weight: bold;
+ border-bottom: 1px solid #dfdfdf;
+ color: #aaa;
+ }
+ #lastes2{
+ padding-top: 3%;
+        }
+
+#project2 img{
+height: 20%;
+width: 100%;
+        }
+        
+.sub{
+  font-size: bold;
+  color: #aaa;
+}
+.spanred{
+  color: red;
+}
+
+#black{
+  margin-top: 10%;
+  border-top: 5px solid #ed564b;
+  background: #3b3b3b;
+  padding-top: 3%;
+  color: #aaa
+}
+
+h5{
+  color:white;
+  margin-bottom: 2%;
+}
+.underlinks li{
+  border-bottom:1px #aaa dashed ;
+}
+
+.underlinks{
+  
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
+
+}
+.RSS{
+  text-decoration: underline dotted;
+}
+.date{
+  border-bottom:1px #aaa dashed ;
+}
+footer{
+  color:#eee;
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
