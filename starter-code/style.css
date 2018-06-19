@@ -1,0 +1,110 @@
+#navbarSupportedContent{
+  padding-left: 20vw;
+}
+nav h1{
+  padding-left:3vw;
+}
+#active{
+  color: red;
+}
+
+.carouselControl{
+  width:50px;
+  height:100px;
+  background-color:red;
+  margin-top: 250px;
+}
+#services{
+  background-color: rgb(250, 77, 77);
+  padding:5vh 5vw;
+  margin:0;
+  color:white;
+  text-align: center;
+}
+.icon{
+  border: 3px white solid;
+  border-radius: 50%;
+  padding:10px;
+  margin-bottom:3vh;
+  box-sizing: border-box;
+}
+#services a{
+  text-decoration: none;
+  color:red;
+}
+#services a:hover{
+  color:black;
+}
+#projects{
+  padding: 6vh 5vw 3vh;
+}
+#projects p{
+  color: gray;
+}
+#projects div:first-child img{
+  width: 100%;
+}
+#projects div p{
+  margin-top: 3vh;
+  color: black;
+  text-align: center;
+}
+
+#articles{
+  padding: 6vh 5vw 3vh;
+}
+#articles p{
+  color: gray;
+}
+#articles div:first-child img{
+  width: 100%;
+}
+#articles div p{
+  margin-top: 3vh;
+}
+#articles h6{
+  font-weight: bold;
+  margin-top: 3vh
+}
+.postdate{
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top:0;
+}
+.postdate a{
+  color:red;
+  text-decoration: none;
+}
+.postdate a:hover{
+  color:black;
+}
+#links{
+  background-color: #404040;
+  padding: 6vh 5vw 3vh;
+  border-top: 3px red solid;
+  color: gray;
+}
+#links h6{
+  color: white;
+  margin-bottom: 3vh;
+}
+#links li{
+  border-bottom: 1px gray dotted;
+  list-style: none;
+  text-decoration: none;
+  padding:7px 0;
+}
+#links li a{
+  color: gray;
+}
+footer{
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+  color: white;
+  padding: 3vh 3vw;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+}
