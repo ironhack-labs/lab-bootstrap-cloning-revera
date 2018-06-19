@@ -29,6 +29,7 @@
 
 .carousel-inner img {
     filter: grayscale(100%);
+    width: 100%;
 }
 
 .projects {
