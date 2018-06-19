@@ -1,0 +1,138 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ---- layout ---- */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* ---- first block ---- */
+
+.block-one {
+  height: 90px;
+}
+
+.navbar,
+p {
+  font-size: 0.8rem;
+}
+
+h5 {
+  font-weight: bold
+}
+
+/* ---- second block ---- */
+/* ---- somehow the image has not a width of 100% ---- */
+
+.d-block {
+  width: 100%;
+}
+
+.carouselExampleControls {
+  width: 100%;
+}
+
+/* ---- third block ---- */
+
+.block-three {
+  background: #ed564b;
+  height: 314px;
+  color: white;
+}
+
+/* ---- icons ---- */
+
+.fas {
+  size: 1px;
+  position: relative;
+  top: 25%;
+}
+
+.icons {
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 60px;
+  width: 60px;
+  margin: 0 auto 20px;
+}
+
+/* ---- cards ---- */
+
+.card-body {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* ---- images ---- */
+
+ .img {
+  max-width: 100%;
+ }
+
+/* ---- fourth block ---- */
+
+.block-four {
+  height: 1116px;
+}
+
+ .title {
+  border-bottom: 1px solid grey;
+  margin: 60px 0;
+ }
+
+ div.images1 p {
+   text-align: center;
+   margin-top: 10px;
+ }
+
+ .mini-div {
+   background-color: #ed564b;
+   height: 5px;
+ }
+
+  /* ---- pre-footer ---- */
+
+  .block-five {
+    background: #3b3b3b;
+    height: 350px;
+  }
+
+ .pre-footer h6 {
+   color: white;
+   margin-top: 40px;
+ }
+
+ .block-five p {
+   color: grey;
+ }
+
+ .border-b {
+  border-bottom: 1px dotted grey;
+}
+
+ /* ---- footer ---- */
+
+ .block-six {
+  background: #292929;
+  height: 76px;
+}
+
+ .footer p {
+   color: white;
+   margin-top: 20px;
+ }
+
+
