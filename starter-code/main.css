@@ -1,0 +1,21 @@
+
+.nav-item {
+    text-align: center;
+}
+
+.container carrousel {
+    margin-bottom: 20px;
+}
+
+card .col-sm-4 {
+    background-color: red;
+}
+
+li {
+    color: lightgrey;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
