@@ -1,0 +1,52 @@
+div {
+  border: 1px solid black;
+}
+
+.columns {
+  border: 1px solid red;
+  
+}
+
+.container {
+  height: 2600px;
+}
+
+.first {
+height: 100px;
+background-color: white;
+}
+
+.second{
+height: 695px;
+background-color: black;
+
+}
+.third {
+height: 300px;
+background-color: red;
+
+}
+.fourth {
+height: 250px;
+}
+.fifth {
+height: 300px;
+}
+.sixth {
+height: 250px;
+}
+.seventh {
+height: 300px;
+}
+.eighth {
+height: 5px;
+background-color: orange;
+}
+.ninth {
+height: 400px;
+}
+
+.tenth {
+height: 100px;
+}
+
