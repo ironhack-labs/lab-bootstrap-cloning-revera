@@ -1,0 +1,80 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.car {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.arrow-container {
+  height: 100px;
+  width: 40px;
+  color: #fff;
+  background-color: rgba(244, 71, 58, 1);
+}
+
+.arrow-container:hover {
+  background-color: #fff;
+}
+
+.bg-red {
+  background-color: #ed564b;
+  color: #fff;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.round{
+  border: 5px solid white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.articles h5 {
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.sub-t {
+  color: #606060;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+.main {
+  border-bottom: 5px solid #f96b61;
+}
+
+.footer {
+  background-color: #606060;
+}
+
+.footer div h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.footer div p, .footer div li {
+  color: #aaa;
+}
+
+.footer div ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer div li {
+  list-style: none;
+  padding: 5px 0;
+  margin:0;
+  border-bottom: 1px dotted #aaa;
+}
+
+.foot2{
+  background-color: #404040;
+  color: #fff;
+  padding: 10px;
+}
