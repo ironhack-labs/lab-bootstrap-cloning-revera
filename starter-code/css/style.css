@@ -1,0 +1,42 @@
+body{
+    font-family: Oxygen',sans-serif;
+} 
+
+.navbar-brand > p {
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.nav-item {
+    color: gray;
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 2em;
+}
+
+/*
+p, nav-link, a{
+    color: firebrick;
+    }
+*/
+
+.carousel-caption > p {
+    color: white;
+}
+
+.container {
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.lead > p{
+    font-size: 10px;
+}
+
+.overlay {
+    background-image: url("../img/overlay.png");
+    
+}
