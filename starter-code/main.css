@@ -1,0 +1,88 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ---- layout ---- */
+
+.container {
+  max-width: 80%;
+}
+
+/* ---- first block ---- */
+
+.block-one {
+  height: 90px;
+}
+
+.navbar,
+p {
+  font-size: 0.8rem;
+}
+
+/* ---- third block ---- */
+
+.block-three {
+  background: #ed564b;
+  height: 314px;
+}
+
+/* ---- icons ---- */
+
+.fas {
+  size: 1px;
+  position: relative;
+  top: 25%;
+}
+
+.icons {
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 60px;
+  width: 60px;
+  margin: 0 auto 20px;
+}
+
+/* ---- fourth block ---- */
+
+.block-four {
+  height: 1116px;
+}
+
+.title {
+  border-bottom: 1px solid grey;
+}
+
+.mini-div {
+  background-color: #ed564b;
+  height: 5px;
+}
+
+/* ---- pre-footer ---- */
+
+.block-five {
+  height: 350px;
+}
+
+.pre-footer h6 {
+  margin-top: 40px;
+}
+
+.block-five p {
+  color: grey;
+}
+
+.border-b {
+  border-bottom: 1px dotted grey;
+}
+
+/* ---- footer ---- */
+
+.block-six {
+  background: #292929;
+  height: 76px;
+}
