@@ -11,6 +11,44 @@
 </head>
 <body>
     <!-- navigation bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+         
     <div class="row">
             <div class="col-sm-4">
               <h1>REVERA</h1>
@@ -18,13 +56,13 @@
             <div class="col-sm-4">          
                 <div>
                     <ul>
-                        <li class="oj">Home</li>
-                        <li>About</li>
-                        <li>Sample page</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
-                        <li>Parent page>>></li>
-                        <li>Contact</li>
+                        <li class="oj"><a href="#"></a>Home</li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sample page</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Parent page>>></a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
             
                 </div>
@@ -46,7 +84,7 @@
         <div class="container">
                 <div class="row">
                         <div class="col-lg-4 colPadding" id='lP'>
-                            <div>
+                            <div class="glyphCenterByDic">
                             <span class='glyphicon glyphicon-glass glyphCenter'></span>
                             </div>
                             <h3>Web Design</h3>
@@ -55,7 +93,7 @@
                             Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
                         </div>
                         <div class="col-lg-4 colPadding" id='lP'>
-                            <div>
+                            <div class="glyphCenterByDic">
                                 <span class='glyphicon glyphicon-star glyphCenter'>
                                 </span>
                             </div>
@@ -65,7 +103,7 @@
                         </div>
                         
                         <div class="col-lg-4 colPadding" id='lP'>
-                                <div>
+                                <div class="glyphCenterByDic">
                                     <span class='glyphicon glyphicon-heart glyphCenter'>
                                     </span>
                                 </div>
@@ -83,16 +121,16 @@
         <h6 class="text-muted   ">FEW OF THE LATEST PORTFOLIO ITEMS</h6>
     </div>
     <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xsa-6">
               <img src="./img/project-1.jpg" alt="Man Doing Push Ups" class="img-responsive">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xsa-6">
                 <img src="./img/project-2.jpg" alt="LulCats" class="img-responsive">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xsa-6">
                 <img src="./img/project-3.jpg" alt="M" class="img-responsive">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-xsa-6">
                 <img src="./img/project-4.jpg" alt="M" class="img-responsive">
             </div>
           </div>
@@ -111,7 +149,7 @@
             
          </div>
          <hr>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xsa-6">
                    
                         <img src="./img/slider-1.jpg"   class="img-responsive">
                         <p><b>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</b><br>
@@ -120,7 +158,7 @@
                                 elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. 
                                 Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-xsa-6">
                             <img src="./img/slider-2.jpg"  class="img-responsive">
                             <p><b>Falauris sollicitudin quis dolor venenatis facilisis</b><br>
                                 <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
@@ -129,14 +167,14 @@
 
 
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-xsa-6">
                             <img src="./img/slider-3.jpg" class="img-responsive">
                             <p><b>Suspendisse ornare, felis feugiat suscipit pharetra</b><br>
                                 <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
                                 Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. 
                                 Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 col-xsa-6">
                       <img src="./img/slider-4.jpg"  class="img-responsive">
                       <p><b>Festibulum purus odio, ornare non posuere</b>
                             <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>

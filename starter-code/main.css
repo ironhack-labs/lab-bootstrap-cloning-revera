@@ -1,9 +1,32 @@
+a{
+    color;
+}
+
+
+
 li {
+
+    /* bootstrap approach would of been 
+    bootstrap offset could been used to set the Revera logo
+    FlexBox: 
+    justify-content: space-between 
+    display:flex;
+    align-items: center; 
+    
+    
+    
+    */
     list-style-type: none;
     display: inline-block;
     padding-top: 7%;
     padding-right: 2%;
     font-size: 12px;
+    
+}
+li a:hover{
+    color:#ed564b;
+    text-decoration: none;
+
 }
 
 h1{
@@ -35,20 +58,40 @@ p{ text-align: center;
     background-size: cover;
     
 }
+bgcolor{
+    background-color: rgba(0,0,255,0.3);
+    position: ;
+}
+
+
 
 #lP h3{
+   
     text-align: center; 
 }
 
+#lP p{
+
+}
+
 .glyphCenter {
-    display: block;
-    text-align: center;
-    font-size: 28px;
+    /* display: block; */
+    
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 25px;
+    border: 2px solid white;
+
 }   
+.glyphCenterByDic{
+    display: flex;
+    justify-content: center;
+}
 
 
 .colPadding{
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
