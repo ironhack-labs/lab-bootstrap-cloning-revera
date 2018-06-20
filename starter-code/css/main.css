@@ -1,0 +1,57 @@
+.bg-light {
+    background-color: rgba(255,255,255,.5)!important;
+}
+
+.btn-outline-secondary {
+    color: #e9ecef;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+
+.content_top {
+    background-color: #f24b54;
+    padding: 20px 0;
+}
+
+.content_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+}
+
+.h2 {
+    padding: 20px 0;
+}
+
+h3 {
+    padding: 10px 0;
+    color: white;
+    box-sizing: content-box;
+}
+
+p {
+    color: rgb(7, 7, 7);
+}
+
+.img_container {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-card {
+  width: 100%;
+}
+
+.nav-footer {
+    background-color: #6c757d;
+}
+
+.copy-footer {
+    background-color: #36383a
+}
