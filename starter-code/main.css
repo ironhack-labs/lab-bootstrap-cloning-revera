@@ -9,14 +9,8 @@ html {
 
 /* ---- layout ---- */
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 80%;
 }
 
 /* ---- first block ---- */
@@ -30,27 +24,11 @@ p {
   font-size: 0.8rem;
 }
 
-h5 {
-  font-weight: bold
-}
-
-/* ---- second block ---- */
-/* ---- somehow the image has not a width of 100% ---- */
-
-.d-block {
-  width: 100%;
-}
-
-.carouselExampleControls {
-  width: 100%;
-}
-
 /* ---- third block ---- */
 
 .block-three {
   background: #ed564b;
   height: 314px;
-  color: white;
 }
 
 /* ---- icons ---- */
@@ -69,70 +47,42 @@ h5 {
   margin: 0 auto 20px;
 }
 
-/* ---- cards ---- */
-
-.card-body {
-  text-align: center;
-  margin-top: 25px;
-}
-
-/* ---- images ---- */
-
- .img {
-  max-width: 100%;
- }
-
 /* ---- fourth block ---- */
 
 .block-four {
   height: 1116px;
 }
 
- .title {
+.title {
   border-bottom: 1px solid grey;
-  margin: 60px 0;
- }
+}
 
- div.images1 p {
-   text-align: center;
-   margin-top: 10px;
- }
+.mini-div {
+  background-color: #ed564b;
+  height: 5px;
+}
 
- .mini-div {
-   background-color: #ed564b;
-   height: 5px;
- }
+/* ---- pre-footer ---- */
 
-  /* ---- pre-footer ---- */
+.block-five {
+  height: 350px;
+}
 
-  .block-five {
-    background: #3b3b3b;
-    height: 350px;
-  }
+.pre-footer h6 {
+  margin-top: 40px;
+}
 
- .pre-footer h6 {
-   color: white;
-   margin-top: 40px;
- }
+.block-five p {
+  color: grey;
+}
 
- .block-five p {
-   color: grey;
- }
-
- .border-b {
+.border-b {
   border-bottom: 1px dotted grey;
 }
 
- /* ---- footer ---- */
+/* ---- footer ---- */
 
- .block-six {
+.block-six {
   background: #292929;
   height: 76px;
 }
-
- .footer p {
-   color: white;
-   margin-top: 20px;
- }
-
-
