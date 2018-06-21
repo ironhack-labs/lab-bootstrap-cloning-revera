@@ -1,0 +1,30 @@
+.container{
+    width: 1170px;
+    height: 90px;
+}
+
+.col-md-auto
+{
+    margin-top: 56px;
+}
+.col-md-auto:nth-child(8){
+    margin-right: 10%;
+}
+
+.col
+{
+    margin-left: 5%;
+    margin-top: 40px;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+#img_slide
+{
+    height: 550px;
+}
+
+.col-md-auto p{
+    position: absolute;
+}
+
