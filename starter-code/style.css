@@ -1,30 +1,197 @@
-.container{
-    width: 1170px;
+/* body {
+    background-color: #ed564b;
+} */
+
+.nav-bar {
+    background-color: #ffff;
+    align-items: center;
+    display: flex;
+    margin: 0px;
     height: 90px;
 }
 
-.col-md-auto
-{
-    margin-top: 56px;
-}
-.col-md-auto:nth-child(8){
-    margin-right: 10%;
+#home-link {
+    color: #ed564b;
 }
 
-.col
-{
-    margin-left: 5%;
-    margin-top: 40px;
-    font-size: 200%;
-    font-weight: bolder;
+.nav-bar h1 {
+    text-align: center;
 }
 
-#img_slide
-{
-    height: 550px;
+.nav-bar li a {
+    color: #333;
+    float: left;
+    width: auto;
+    list-style: none;
+    padding-right: 20px;
 }
 
-.col-md-auto p{
+.nav-bar a:hover {
+    color: #ed564b;
+    text-decoration: none;
+}
+
+.landing {
+    background-image: url("../img/slider-1.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.landing_overlay {
+    height: 690px;
+    width: 100%;
     position: absolute;
+    background-image: url("../img/overlay.png");
 }
 
+.landing_contnet {
+    width: 800px;
+    text-align: center;
+}
+
+.landing_btn {
+    padding: 10px 35px;
+    color: #ffff;
+    border: 1px solid #ffff;
+    background-color: rgba(5, 5, 5, 0);
+    font-weight: bold;
+}
+
+.landing-text {
+    /* width: 800px; when I add width it no longer centers...why? */
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.landing_contnet h1 p  {
+    margin-bottom: 100px;
+}
+
+.red-bar {
+    background-color: #ed564b;
+    color: #ffff;
+    padding: 40px 0px;
+    border-top: 5px solid #fc655a;
+    border-bottom: 5px solid #fc655a;
+}
+
+.red-bar h3 {
+    font-weight: bold;
+}
+
+.red-bar p {
+    line-height: 1.6;
+}
+
+.glyf {
+    color: #ffff;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 5px solid #ffff;
+    font-size: 22px;
+    padding: 21px;
+}
+
+.content {
+    background-color: #ffff;
+    padding-bottom: 50px;
+}
+
+.content_title {
+    padding-top: 35px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content_title h2 {
+    font-size: 25px;
+}
+
+.content_title p {
+    color: #aaa;
+    margin: 0px;
+}
+
+.content img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.content h4 {
+    font-weight: bold;
+}
+
+.content p {
+    margin-top: 10px;
+} 
+
+.content_posted {
+    text-transform: uppercase;
+    color: rgb(145, 144, 144);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.content_posted a{
+    color: #fc655a;
+}
+
+.content_posted a:hover{
+    color: black;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    padding-top: 40px;
+    border-top: 5px solid #ed564b;
+}
+
+.footer h4 {
+    color: #ffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #aaa;
+}
+
+.footer li {
+    border-bottom: 1px dotted #aaa;
+    color: #aaa;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.footer a {
+    color: #aaa;
+}
+
+a:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.footer_bottom {
+    background-color: #292929;
+    color: #ffff;
+    padding: 20px 0px;
+}
+
+.footer_bottom p {
+    margin: 0;
+    font-size: 12px;
+}
