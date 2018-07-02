@@ -1,0 +1,43 @@
+.links in-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-in-nav li {
+    list-style: none;
+}
+.links-in-nav li a{
+    color: black;
+
+}
+.links-in-nav li a:hover{
+    color: red;
+    text-decoration: none;
+}
+.nav-row {
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+#first-link{
+    color: red;
+}
+
+.main-image-div{
+    background-image: url('img/slider-1.jpg');
+    height: 690px;
+    background-size: cover;
+}
+
+.glyphicon{
+    font-size: 30px;
+    color: white;]
+    border: 6px solid white;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.background-reddish{
+    background-color: darkred;
+}
