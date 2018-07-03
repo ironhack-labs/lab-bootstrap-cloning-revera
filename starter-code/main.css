@@ -1,0 +1,42 @@
+.info-color {
+    background-color: #ed564b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.last-section-color {
+    background-color:#404040;
+    padding-top: 20px;
+}
+
+.footer-color {
+    background-color:#292929;
+}
+
+.to-space {
+    margin-top: 20px;
+}
+
+.last-section-font-color {
+    color:white;
+}
+
+.last-section-font-color2 {
+    color: #606060;
+}
+
+.info-font-color {
+    color: white;
+}
+
+body {
+    font-family: 'Oxygen',sans-serif;
+}
+
+body p {
+    font-size: 0.9em;
+}
+
+body h5 {
+    font-size: 1.3em;
+}
