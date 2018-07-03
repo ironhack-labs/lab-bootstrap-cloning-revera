@@ -1,0 +1,52 @@
+.btn-primary{
+    background-image: url(../img/overlay.png);
+    background-color: transparent;
+    border-color: white;
+}
+
+.head-section{
+    background-color: #ed564b;
+    padding: 40px 30px;
+    color: white;
+}
+#main-section-content{
+    margin-top: 20px;
+
+}
+
+p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.main-section-img{
+    height: 150px;
+    width: 210px;
+}
+
+h3{
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+list-style: none;
+color: #aaa;
+padding-bottom: 5px;
+border-bottom: 2px dotted rgba(255,255,255,.2);
+}
