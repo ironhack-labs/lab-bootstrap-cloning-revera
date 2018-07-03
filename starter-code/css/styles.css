@@ -1,0 +1,127 @@
+body {
+  font: 400 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #606060;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+a:hover{
+  text-decoration: none;
+  opacity: .7;
+}
+.btn{
+  border:1px solid #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+}
+.latest-projects,.widgets-section,.latest-articles{
+  padding: 40px 0;
+}
+.carousel-caption{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:80%;
+  bottom: auto;
+}
+.carousel-caption h1{
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.carousel-control-next, .carousel-control-prev{
+  width: auto;
+}
+.carousel-control-prev > .carousel-control-prev-icon,.carousel-control-next > .carousel-control-next-icon{
+  background-color:#ed564b;
+  padding: 30px 10px;
+  opacity: 1;
+}
+.widgets-section{
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #fff;
+}
+.icon-wrapper{
+  display: inline-block;
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  line-height: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.icon-wrapper i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.section-title p {
+  font-weight: 600;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.latest-projects img+p,.latest-articles img + h3{
+  font-weight: 600;
+  margin-top: 10px;
+}
+.post h3{
+  font-size: 16px;
+}
+.post h3 a{
+  color: #000;
+  font-weight: 600;
+}
+.post .meta{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.post .meta a, .post .meta span{
+  color: #ed564b;
+}
+
+footer.main-footer{
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+.main-footer h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.main-footer ul{
+  padding-left: 0;
+  list-style: none;
+}
+.main-footer ul li{
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+.main-footer a{
+  color: #aaa;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+@media (min-width:992px){
+  .carousel-caption{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:70%;
+    bottom: auto;
+  }
+}
