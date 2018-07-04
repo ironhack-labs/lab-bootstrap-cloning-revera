@@ -1,0 +1,43 @@
+.site-header{
+  background-color: white;
+  /*height:90px;*/
+  padding: 20px;
+}
+
+.site-content{
+  background-color: white;
+  height:1027px;
+
+}
+
+.slidder{
+  background: black;
+  height: 380px;
+
+}
+
+.fwidgets{
+  background: red;
+  /*height: 380px;*/
+  padding: 30px;
+  color:white;
+}
+
+.homewidget{
+  text-align: center;
+  /*height: 380px;*/
+}
+
+.bootom-site{
+  background: black;
+  height: 380px;
+}
+
+.footer{
+  background: grey;
+  height: 614px;
+}
+
+
+
+
