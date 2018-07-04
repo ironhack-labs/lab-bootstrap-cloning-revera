@@ -1,0 +1,179 @@
+html{
+    font-size: 10px;
+}
+
+nav h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    padding: 1em 0;
+}
+
+.menu {
+    font-size: 1.4em;
+}
+
+.menu a{
+    color: #777;
+}
+
+.menu .color-active, .menu a:hover{
+    color: #ed564b;
+}
+
+.bw img {
+    filter: grayscale(100%);
+}
+
+.carousel-inner .vertical-align {
+    top: 60%;
+    left: 22.5%;
+    transform: translateY(-50%);
+    width: 55%;
+}
+
+.carousel-caption h3{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.carousel-caption p{
+    font-size: 1.4em;
+}
+
+.carousel-caption button{
+    font-size: 1.6em;
+}
+
+.red-contents{
+    background: #ed564b; 
+    color: white;
+    padding: 4em 0 4.8em;
+}
+
+.red-contents i{
+    font-size: 1.8em;
+    padding: 1em;
+    border: 0.2em solid white;
+    border-radius: 100%;
+    margin-bottom: 1em;
+}
+
+.red-contents h2 {
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+.red-contents p {
+    font-size: 1.4em;
+    padding: 0.2em 0;
+}
+
+.contents {
+    padding: 4em 0;
+}
+
+.contents h2 {
+    font-size: 2em;
+}
+
+.contents h3 {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.contents .projects p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contents .projects p a{
+    text-decoration: none;
+    color: #292929;
+}
+
+.contents .articles h4, .contents .articles h4 a{
+    color: #292929;
+    text-decoration: none;
+    padding: 1em 0 0.5em;
+}
+
+.contents .articles p {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1em 0;
+    color: #777;
+    line-height: 1.8em;
+}
+
+.contents .articles h5 {
+    text-transform: uppercase;
+    color:#777;
+}
+
+.contents .articles h5 a{
+    color: #ed564b;
+}
+
+.contents hr{
+    margin: 3em 0;
+}
+
+.bottom{
+    color: white;
+    border-top: 0.4em solid #ed564b;
+    background: #3b3b3b;
+    padding-bottom: 3em;
+}
+
+.bottom .bottom-item{
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1em 1.2em;
+    line-height: 1.8em;
+}
+
+.bottom .bottom-item h4{
+    font-size: 1.2em;
+    text-align: left;
+    padding: 2em 0 0.5em;
+    line-height: 1.8em;
+    color: white;
+}
+
+.bottom .bottom-item p{
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1em 0;
+    line-height: 1.8em;
+    color: #777;
+}
+
+.bottom ul{
+    text-decoration: none;
+    padding: 0;
+}
+
+.bottom li{
+    padding: 0.6em 0;
+    border-bottom: 0.1em dotted #777;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+.bottom li a{
+    color: #777;
+    text-decoration: none;
+}
+
+footer {
+    background: #292929;
+    color: white;
+}
+
+footer .text-rights{
+    padding: 2em 0 1em;
+    font-size: 1.15em;
+}
