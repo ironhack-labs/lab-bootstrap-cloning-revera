@@ -1,0 +1,124 @@
+body {
+    font-family: lato;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+header {
+    padding-bottom: 30px;
+}
+.menuItem {
+    margin-right: 60px;
+}
+
+.picSection {
+    background-image: url("./img/slider-1.jpg");
+    color: white;
+    background-size: cover;
+    height: 605px;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    top: 250;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.red {
+    background-color: #f4473a;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.pic {
+    height: 20%;
+}
+.box1 {
+    width: 30%;
+}
+
+.box2 {
+    width: 30%;
+}
+
+.box3 {
+    width: 30%;
+}
+
+.item1 {
+    height: 150px;
+}
+
+.item2 {
+    height: 150px;
+}
+
+.item3 {
+    height: 150px;
+}
+
+.item4 {
+    height: 150px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #aaa;
+}
+.post {
+    width: 200px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.redhr {
+    background-color: #f4473a;
+    height: 10px;
+    color: #f4473a;
+}
+
+.greyhr {
+    background-color: #aaa;
+    height: 1px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.greyBox {
+    background-color: #3b3b3b;
+    color: #aaa;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+hr {
+    border: 1px dotted #aaa;
+    border-style: none none dotted;
+    color: #aaa;
+}
+
+.whiteback {
+    padding-left: 90px;
+    padding-right: 90px;
+}
