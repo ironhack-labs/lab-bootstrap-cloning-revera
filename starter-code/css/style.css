@@ -1,0 +1,130 @@
+.navbar-collapse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #FF4D4A;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FF4D4A;
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev-icon {
+  background-color: red;
+  height: 100px;
+  width: 30px;
+}
+
+.carousel-control-next-icon {
+  background-color: red;
+  height: 100px;
+  width: 30px;
+}
+
+#offers .row{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+#offers {
+  background-color: #FF4D4A;
+  color: white;
+}
+
+#offers img {
+  width: 100px;
+}
+
+#articles img {
+  object-fit: cover;
+}
+
+
+#projects h2 {
+  font-weight: bold;
+}
+
+#projects img {
+  margin-bottom: 20px;
+}
+
+#articles img {
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 0px;
+  border-top: 2px solid rgb(138, 138, 138)
+}
+
+#articles h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#articles h5 {
+  font-size: 0.8em;
+  color: rgb(84, 84, 84);
+  margin-bottom: 20px;
+}
+
+#articles p {
+  font-size: 0.8em;
+  color: rgb(84, 84, 84);
+}
+
+footer {
+  background-color: #3D3D3D;
+  border-top: 10px solid #FF4D4A;
+  color: #A5A5A5;
+  font-size: 0.9em;
+}
+
+footer h3 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.list-group-item {
+  background-color: #3D3D3D;
+}
+
+footer hr {
+  height: 0px;
+  border-top: 1px dotted rgb(138, 138, 138);
+  margin: 6px;
+}
+
+footer p {
+  margin: 6px;
+}
+
+.wide {
+  width: 100%;
+}
+
+.footerbottom {
+  background-color: #2D2D2D;
+  color:  rgb(223, 223, 223);
+  font-size: 0.8em;
+}
+
+.footerbottom .row {
+  height: auto;
+}
