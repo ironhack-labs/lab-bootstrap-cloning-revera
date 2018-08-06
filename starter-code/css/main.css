@@ -1,0 +1,233 @@
+/* TODO Overlay elements overflow */
+/* TODO Btn Overlay */
+/* TODO Carousel Arrows*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Navigtion */
+.nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.nav-logo button {
+  color: #4f4f44;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: white;
+  border: none;
+}
+
+.nav a {
+  padding-left: 1rem;
+  color: #4f4f4f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: orangered;
+}
+
+/* Header */
+i {
+  margin-bottom: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.overlay-txt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15%;
+  color: #999;
+}
+
+.overlay-txt {
+  text-align: center;
+}
+
+.overlay-txt a {
+  padding: 5px 15px;
+  color: #999;
+  text-decoration: none;
+  border: #999 solid 1px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 2;
+}
+
+.header-cards {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 30px 20px;
+  color: white;
+  background-color: orangered;
+}
+
+.header-cards div {
+  max-width: 25%;
+  text-align: center;
+  margin: 0 30px;
+}
+
+/* Main */
+.latest-things {
+  padding-bottom: 40px;
+}
+
+.main {
+  border-bottom: orangered solid 3px;
+}
+
+/* Latest project */
+.main-title {
+  padding: 40px 40px 10px 40px;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.main-title h4 {
+  font-weight: bold;
+}
+
+.main-title p {
+  border-bottom: #a3a3a3 solid 1px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+
+.card-1 {
+  width: 23%;  
+  text-align: center;
+}
+
+.main-cards img {
+  width: 100%;
+}
+
+.card-1 p {
+  margin-top: 15px;
+}
+
+/* Latest Article */
+.article-title {
+  font-weight: bold;
+}
+.posted {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.posted span {
+  color: orangered;
+}
+
+.article-title,
+.posted, 
+.art-txt {
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.footer a {
+  color: #999;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer-cards {
+  width: 23%;  
+  text-align: left;
+}
+
+.footer h5 {
+  padding-bottom: 30px;
+}
+
+.meta a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: #999 dotted 2px;
+}
+
+.meta span {
+  border-bottom: #999 dotted 2px;
+}
+
+.archives a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: #999 dotted 2px;
+}
+
+.recent-post a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: #999 dotted 2px;
+}
+
+/* Footer Footer :) */
+.footer-footer {
+  padding: 20px 40px;
+  margin-bottom: 5px;
+  background-color: #111;
+}
+
+.footer-footer p {
+  color: #666;
+  margin: 0;
+}
+
+.footer-footer a {
+  color: #666;
+  text-decoration: none;
+}
