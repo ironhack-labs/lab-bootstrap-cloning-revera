@@ -32,7 +32,7 @@ nav {
 }
 
 header {
-    background: url('./starter-code/img/slider-1.jpg');
+    /* background: url('./starter-code/img/slider-1.jpg'); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,19 +63,28 @@ header {
 }
 
 .page-two {
-    height: 100vh;
+    height: 90vh;
     background-color: #fff;
 }
 
 .latest-projects-img {
-    display: flex;
+    display: block;
+    text-align: center;
+}
+
+.latest-projects-img p {
+    text-align: left;
+    width: 85%;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #aaa;
 }
 
 .flex-wrapper-page-two {
     display: flex;
     width: 80%;
-    /* margin: 0 auto; */
-    margin-left: 80px;
+    margin: 0 auto 80px;
+    justify-content: space-between;
 }
 
 .flex-wrapper-page-two img {
@@ -86,4 +95,105 @@ header {
 
 .page-two {
     color: #000;
+}
+
+hr {
+    border-color: #aaa;
+}
+
+.title-wrapper {
+    width: 80%;
+    margin: 40px auto 25px auto;
+}
+
+footer {
+    height: 40vh;
+    background-color: #3b3b3b;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.flex-container-footer div {
+    width: 20%;
+}
+
+.flex-container-footer ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.flex-container-footer ul li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #aaa;
+    line-height: 18px;
+}
+
+h5 {
+    color: #aaa;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+body {
+    margin: 0;
+}
+div#slider {
+    overflow: hidden;
+}
+div#slider figure img {
+    width: 20%;
+    float: left;
+    height: calc(60vh - 100px);
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
 }
