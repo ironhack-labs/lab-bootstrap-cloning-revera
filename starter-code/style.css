@@ -1,0 +1,36 @@
+.navbar > a {
+font-size: 30px;
+margin-right: 100px;
+margin-left: 50px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.red {
+    background-color: #ed564b;
+}
+
+.card {
+    background-color:transparent;  
+    border: #ed564b;
+    color: white;
+}
+.textBlack {
+    color: black;
+}
+.textWhite{
+    color: white;
+}
+.b-and-w {
+    filter: grayscale(100%);
+}
+
+.footer {
+    background-color: #606060;
+    padding: 50px;
+}
+.closing   {
+    background: black;
+}
