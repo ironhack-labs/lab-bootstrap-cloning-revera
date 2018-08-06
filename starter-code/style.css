@@ -1,0 +1,103 @@
+nav {
+  color: #606060;
+}
+
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-image {
+  background: #eee;
+  position: relative;
+}
+
+.overlay-image {
+  /* position: absolute; */
+  background-image: url(./img/overlay.png);
+  /* background-repeat: repeat; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+  z-index: 200;
+  background: red;
+  height: 100px;
+  width: 60px;
+  top: 40%;
+}
+
+.carousel-item > img {
+  filter: grayscale(100%);
+}
+
+.section-1 {
+  background: #ed564b;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+i {
+  display: inline-block;
+  border-radius: 60px;
+  border: 3px solid;
+  box-shadow: 0px 0px 0px white;
+  padding: 0.5em 0.4em 0.5em 0.5em;
+}
+
+.fa-star, .fa-heart {
+  display: inline-block;
+  border-radius: 50px;
+  border: 3px solid;
+  box-shadow: 0px 0px 0px white;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.h3-caption {
+  font-weight: 400;
+  color: #606060;
+}
+
+.article-title {
+  line-height: 1rem;
+}
+
+.article-date {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.article-description {
+  color: #666;
+  line-height: 1.4rem;
+}
+
+.buttom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.buttom {
+  color: #aaa;
+}
+.buttom h6 {
+  color: white;
+}
+
+footer {
+  padding: 10px 0px;
+  background: #292929;
+  height: 70px;;
+  color: white;
+  font-size: 0.8rem;
+}
