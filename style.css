@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.logo p {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.nav-right ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.nav-right ul li {
+    padding-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    background-color: #fff;
+    height: 100px;
+    color: #000;
+}
+
+header {
+    background: url('./starter-code/img/slider-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(60vh - 100px);
+}
+
+.home-features {
+    height: 40vh;
+    background-color: red;
+}
+
+.flex-wrapper {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.icon-placeholder {
+    background-color: #fff;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+}
+
+.page-two {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.latest-projects-img {
+    display: flex;
+}
+
+.flex-wrapper-page-two {
+    display: flex;
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-left: 80px;
+}
+
+.flex-wrapper-page-two img {
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.page-two {
+    color: #000;
+}
