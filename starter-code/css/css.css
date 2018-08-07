@@ -1,0 +1,39 @@
+.h1 {
+  font-size: 33px;
+}
+
+.image-crop {
+  margin-bottom: -240px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel-control-next-icon {
+    height: 100px;
+    width: 40px;
+    outline: black;
+    background-size: 100%, 100%;
+    border: 1px solid black;
+    padding: auto 60px;
+    background-color: #ed564b;
+    margin-right: -100px;
+  }
+
+.carousel-control-prev-icon {
+    height: 100px;
+    width: 40px;
+    outline: black;
+    background-size: 100%, 100%;
+    border: 1px solid black;
+    padding: auto 60px;
+    background-color: #ed564b;
+}
+
+.section-2 {
+    padding: 30px 200px;
+    background-color: #ed564b;
+}
+
+.picturethingy {
+    margin-left: 4.9vw;
+}
