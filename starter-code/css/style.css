@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+hr {
+  margin: 16px 15px;
+  width: 100%;
+}
+h2 + p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+
+}
+h4 {
+  font-size: 1rem;
+}
+p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
