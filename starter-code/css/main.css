@@ -1,0 +1,47 @@
+/*theme colour: #ed564b
+*/
+
+.navbar {
+	background-color: #fff;
+}
+.navbar-brand {
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.nav-link {
+	color: grey;
+}
+.disabled {
+	color: #ed564b;
+}
+.orange-cont {
+	background-color: #ed564b;
+	color: #fff;
+	padding: 12px;
+}
+.material-icons {
+	font-size: 8rem;
+}
+
+.carousel-item img {
+	object-position: center;
+	overflow: hidden;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+.carousel-item:after {
+	background-image: url('img/overlay.png');
+	z-index: 2;
+	display: block;
+}
+.carousel-caption .read-more {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 12px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+#projects .container {
+	margin: 16px;
+}
