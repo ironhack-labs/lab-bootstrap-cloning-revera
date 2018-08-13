@@ -1,0 +1,10 @@
+@media only screen and (min-width: 992px) {
+  body {
+    background: none;
+    padding-top: 0;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    height: 100px;
+    width: 50px;
+  }
+}
