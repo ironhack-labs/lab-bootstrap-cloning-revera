@@ -1,0 +1,57 @@
+.sobre{
+	color:#f96b61  !important;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: red !important;
+	height: 90px!important;
+}
+
+ .txt-tit{
+   color: white;
+  text-align: center;
+ }
+
+ .txt-jus{
+  color: white;
+  text-align: center;
+ }
+
+.img-principal{
+	background-image: url('img/');  
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.txtrojo{
+	color: #f96b61;
+}
+.principal:before{ 
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,77,119,0.8);
+	top: 0;
+	left: 0 ;		
+}
+
+.txtgris{
+	color:gray;
+}
+
+.txt-tit-foo{
+	font-size: 18px;
+	color: white;
+	text-align: left;
+}
+
+
+.txt-tit-p{
+	color: gray;
+	text-align: left;
+}
