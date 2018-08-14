@@ -1,0 +1,120 @@
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 10px !important;
+    height: 30px !important;
+    background-color: #ED554B !important;
+    padding: 0 20px 0 0px !important;
+}
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 15% !important;
+}
+.navbar-brand {
+    margin-left: 10% !important;
+    font-size: 30px !important;
+}
+.container {
+    background-color: red !important;
+    color: white !important; 
+    display: flex !important;
+    justify-content: center;
+}
+@media (min-width: 1200px){
+.container{
+max-width: 100% !important;
+margin: 0 0 0 0 !important;
+padding-bottom: 50px;
+}
+}
+.row{
+    
+    width: 80% !important;
+}
+.col-sm {
+    font-size: 25px !important;
+}
+.fa, .fas{
+    border: 4px solid white !important;
+    padding: 30px !important;
+    border-radius: 50px !important;
+    margin: 50px 0px 30px 35% !important; 
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+}
+.Crds{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border: none !important;
+    margin: 0 15px 0 0;
+}
+button{
+    background-color: transparent;
+}
+h3{
+    margin: 50px 0px 0 12% !important;
+}
+.gray{
+    color: #aaa;
+    font-weight: bold;
+    text-align: initial;
+    margin: 8px 0 30px 12%;
+    border-bottom: 1px solid #dfdfdf;
+    width: 75%;
+}
+.RED{
+    color: red;
+}
+.text{
+    text-align: initial;
+    font-weight: lighter;
+    color: #aaa;
+    line-height: 20px;
+    margin: 17px 0 0 0;
+}
+.pie{
+    border-top: 5px solid #ed564b;
+    width: 100%;
+}
+.container1{
+    background-color: #3b3b3b !important;
+}
+.pie1{
+    background-color: #292929;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+h4{
+    font-size: 18px;
+    margin-top: 40px; 
+}
+.ul{
+    list-style: none;
+    margin: 0 0 0 -36px;
+}
+.li{
+font-size: 12px;
+text-align: initial !important;
+line-height: 30px;
+border-bottom: 1px dotted #aaa;
+}
+ul li a{
+    text-decoration: none !important;
+    color: #aaa !important;
+}
+.p{
+    text-align: initial;
+    line-height: 5px;
+    margin-left: 12%;
+}
