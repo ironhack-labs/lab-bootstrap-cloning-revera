@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.red{
+  background-color: red;
+}
+img{
+  width: 20vw;
+  height: 200px;
+}
+h2{
+  display: inline-block;
+}
