@@ -1,0 +1,179 @@
+/*------------------ Generals ------------------*/
+
+h1 {
+    font-weight: 600;
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.big{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.subtitle {
+    color: #aaa;
+    font-weight: 500;
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+/*------------------ Header ------------------*/
+
+#header {
+    padding: 10px 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#E95854;
+}
+
+
+/*------------------ Hero Slider ------------------*/
+
+#hero-slider.container-fluid {
+    padding: 0;
+}
+
+#hero-slider .carousel-caption {
+    width: 1000px;
+    margin: auto;
+    bottom: 27%;
+}
+
+#hero-slider h2 {
+    color: white;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    padding: 20px
+}
+
+#hero-slider img {
+    filter: grayscale(100%);
+}
+
+#hero-slider .btn-outline-secondary {
+    color: white;
+    border : 2px solid white;
+    border-radius: 0;
+    margin: 20px;
+}
+
+#hero-slider .carousel-control-next, .carousel-control-prev {
+    margin: 345px 0;
+    background: #E95854;
+    width: 3%;
+    opacity: 1;
+}
+
+#hero-slider .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*------------------ Services Section ------------------*/
+
+#services.container-fluid {
+    color: white;
+    background: #E95854;
+    padding: 100px;
+}
+
+#services .col-sm-4 {
+    text-align: center;
+}
+
+#services .fa, #services .fas {
+    font-weight: 900;
+    font-size: 35px;
+    border: 4px solid;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+#services h4 {
+    font-size: 1.5rem;
+    margin: 25px 0 10px 0;
+}
+
+/*------------------ Latest Projects Section ------------------*/
+
+#latest-projects {
+    margin-top: 70px;
+}
+
+#latest-articles {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.info {
+    font-size: 0.8rem;
+}
+
+.info span {
+    color: #E95854;
+}
+
+.first-p {
+    margin-top: 12px;
+}
+
+/*------------------ Footer ------------------*/
+
+#footer-top {
+    color: #adadad;
+    background: #3B3B3B;
+    border-top: 5px solid #E95854;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#footer-top h5{
+    padding-bottom: 10px;
+}
+
+#footer-top .list-group-item {
+    color: #adadad;
+    position: relative;
+    display: block;
+    padding: .35rem;
+    border-bottom: 1px dashed #adadad;
+    background-color: transparent;
+}
+
+#footer-top .list-group-item a{
+    color: #adadad;
+}
+
+#footer-top .list-group-item a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-top p, #footer-top ul {
+    font-size: 0.8rem;
+}
+
+#footer-top .list-group-item {
+    border-top: none;
+}
+
+#copyright {
+    font-size: 0.8rem;
+    color: #adadad;
+    background: #292929;
+    padding-top: 20px;
+}
