@@ -1,0 +1,25 @@
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+
+.bottomSection{
+
+color: rgb(255,255,255);
+background-color: rgb(59,59,59);
+
+}
+
+li {
+
+
+
+margin-left: -40px;
+text-decoration: none;
+
+list-style-type: none;
+border-bottom: 2px;
+}
