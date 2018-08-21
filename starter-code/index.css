@@ -1,0 +1,154 @@
+
+
+.first-class {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-class {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    
+}
+
+
+
+
+.second-class h2 {
+    color: white;
+    font-size: 20px;
+}
+
+
+.h2-class {
+    padding: 30px 10px;
+    
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+.fixing-images-one img {
+    height: 180px;
+    width: 270px;
+
+}
+
+.a-class {
+    font-size: 14px;
+}
+
+.bottom-last {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    
+}
+
+.last-of-one {
+    color: #aaa;
+    margin-left: 230px;
+}
+.last-of-one h5 {
+    color: white;
+}
+
+.last-of-two li {
+    color: #aaa;
+    list-style: none;
+    border-bottom: 1px dotted gray;
+}
+
+.last-of-two {
+    color: white;
+}
+
+
+h5 {
+    color: white;
+}
+
+.august-class {
+    border-bottom: 1px dotted gray;
+    color: #aaa;
+}
+
+.last-class-with-li {
+    color: #aaa;
+    
+    
+}
+.last-class-with-li li {
+    list-style: none;
+}
+
+.each-li {
+    border-bottom: 1px dotted gray;
+}
+
+
+.web-class {
+    margin-left: 100px;
+}
+
+
+.container-fluid {
+    padding: 0px 0px;
+}
+
+.ul-class li {
+    list-style: none;   
+}
+
+
+
+.change-color {
+    color: #aaa;
+    font-size: 15px;
+}
+
+.change-color-red {
+    color: red;
+}
+
+
+.row {
+    margin: 0px 0px;
+  
+}
+
+.weird-nature {
+    filter: grayscale(100%);
+}
+
+.first-col-fixing {
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 50px;  
+    width: 67px;
+    padding: 17px;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.second-col-fixing {
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 50px;  
+    width: 67px;
+    padding: 17px;
+}
+
+.third-col-fixing {
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 50px;  
+    width: 67px;
+    padding: 17px;
+}
