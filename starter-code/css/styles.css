@@ -1,0 +1,186 @@
+/* NAVBAR */
+
+.section-wrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    width: 40%;
+}
+
+.main-nav__list {
+    list-style: none;
+    width: 35rem;
+    float: right;
+
+}
+
+.main-nav__item {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+
+.main-nav__item--red {
+    color: #ed564a;
+}
+
+/* HEADER */
+
+.main-header {
+    height: 60vh;
+    background:  url("../img/overlay.png") 100px repeat,  url('../img/slider-1.jpg') center/cover;
+    padding-top: 10vw;
+    padding-bottom: 2rem;
+    color: white;
+    position: relative;
+}
+
+.main-header__heading {
+    text-align: center;
+    padding: 0 14vw;
+
+}
+
+.main-header__text {
+    text-align: center;
+    padding: 0 10rem;
+}
+
+.main-header__btn {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    background: transparent;
+    color: white;
+}
+
+.header-wrapper {
+    height: 100%;
+    position: absolute;
+    top:0;
+    background: rgba(66, 73, 81, 0.6);
+}
+
+/* OPTIONS */
+
+
+.options {
+    background: #8a271d;
+    hmax: 40vh;
+    color: white;
+    text-align: center;
+}
+
+.option__heading {
+    font-size: 1.6rem;
+}
+
+.option > i {
+    display: inline-block;
+    padding: 2rem;
+    border: 6px solid white;
+    border-radius: 100%;
+    margin-bottom: 1.7rem;
+    font-size: 2rem;
+}
+
+/* PROJECTS */
+
+.main__heading {
+    font-weight: 600;
+}
+
+.main__text {
+    color: #af7e62;
+    font-weight: 500;
+}
+
+hr {
+    color: #424140;
+    margin-bottom: 2rem;
+}
+
+.image-wrapper {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.project__image,
+.article__image {
+    width: 100%;
+    height: auto;
+}
+
+.project__heading {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* ARTICLE */
+
+.article__date {
+    margin-top: 2rem;
+}
+
+.article__date, .article__text {
+    color: #424140;
+}
+
+/* SOCIAL */
+
+.social-links {
+    border-top: 5px solid #9d2a1f;
+    background: #3d4149;
+    color: darkgrey;
+}
+
+.posts__heading {
+    color: white;
+}
+
+.meta__item {
+    margin-top: 0.7rem;
+}
+
+.post__item {
+    margin-bottom: 0.9rem;
+}
+
+.archives__text, .meta__item, .post__item {
+    border-bottom: 1px solid grey;
+}
+
+/* FOOTER */
+
+.main-footer {
+    background: #2d2f37;
+    border-bottom: 1px solid transparent;
+    color: white;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
