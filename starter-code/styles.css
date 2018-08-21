@@ -50,3 +50,10 @@ h2 {
 .banner {
   padding-top: 1vh;
 }
+
+.circle {
+  border: 3px solid white;
+  padding: 2vh;
+  margin: 2vh;
+  border-radius: 50%;
+}
