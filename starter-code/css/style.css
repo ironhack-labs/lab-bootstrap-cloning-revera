@@ -1,0 +1,172 @@
+/* color #ed564b */
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav{
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  margin-top: 30px;
+}
+
+nav li{
+  display: inline;
+  list-style: none;
+  margin: 12px;
+}
+
+.img-carousel{
+  background-image: url("../img/slider-1.jpg");
+  background-size:cover;
+  color: white;
+  height: 90vh;
+}
+
+.carousel-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.read-more-btn{
+  margin:2vh 25vw;
+  background: transparent;
+  border-color: white;
+  padding: 7px;
+}
+
+.red-box{
+  background-color:#ed564b;
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
+
+.cocktail-icon, .star-icon, .heart-icon{
+  font-size: 30px;
+  margin-top:50px;
+}
+
+.web-design, .web-dev, .user-i{
+  padding: 15px;
+}
+
+.latest-projects{
+  border-bottom: 1px solid gray;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.latest-projects p{
+  color:gray;
+}
+
+.images-first-row{
+  text-align: center;
+  margin:50px;
+}
+
+.images-first-row img{
+  width:20vw;
+}
+
+.images-first-row p{
+  margin-top:20px;
+  font-weight: bold;
+}
+
+.latest-articles{
+  border-bottom: 1px solid gray;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.images-second-row{
+  text-align: left;
+  margin:50px;
+}
+
+.images-second-row img{
+  width: 20vw;
+  height: 200%;
+}
+
+/* .images-second-row p{
+  margin-top:20px;
+} */
+
+.caption{
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.post-date {
+  font-size:12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: white;
+}
+
+.footer-content{
+  margin:50px;
+  margin-bottom: 30px;
+}
+
+.footer p{
+  color: gray;
+}
+.footer h5{
+  margin-bottom: 20px;
+}
+
+.meta p{
+  border-bottom: 0.5px dotted gray;
+}
+
+.archives p{
+  border-bottom: 0.5px dotted gray;
+}
+
+.recent-posts p{
+  border-bottom: 0.5px dotted gray;
+}
+
+.bottom-footer{
+  background-color: #292929;
+}
+
+.bottom-footer-content{
+  color: white;
+  font-size: 12px;
+  margin: 20px 50px;
+}
+
+
+@media (max-width: 992px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+}
