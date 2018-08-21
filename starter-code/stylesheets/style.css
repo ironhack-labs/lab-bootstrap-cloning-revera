@@ -1,0 +1,104 @@
+/* style.css */
+
+
+/*============== <Global> ==============*/
+
+.padding {
+  padding: 0 5%;
+}
+i {
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 100%;
+  padding: 20px; 
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+/*============== <nav bar> ==============*/
+
+ nav {
+  margin-top: 1.5vw;
+} 
+.revera {
+  font-size: 2.5vw;
+}
+.right-links {
+  display: inline-block;
+  margin-left: 20vw;
+}
+.right-links > a{
+  font-size: 1vw;
+  padding: 0 0.5vw;
+}
+.home {
+  color: red;
+}
+
+/*============== <header> ==============*/
+
+header {
+  background-image: url(../img/BlkImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  color: white;
+  text-align: center;
+  height: 80vh;
+  padding-top: 30vh;
+}
+
+header > h1, header > p {
+padding: 0 15%;
+}
+header > button {
+  color: white;
+  background-color: rgb(153, 146, 146, 0.2);
+  padding: 2px 2%
+}
+
+/*============== <section 1> ==============*/
+
+.section1 {
+  padding: 45px;
+  color: white;
+  background: rgb(240, 87, 87);
+  text-align: center;
+}
+
+/*============== <section 2> ==============*/
+
+.section2 {
+
+  margin: 60px 0;
+}
+
+/*============== <section 3> ==============*/
+
+.section3 {
+  border-bottom: 5px solid red;
+}
+
+/*============== <section footer> ==============*/
+
+.section-footer {
+  background: gray;
+}
+
+/*============== <footer> ==============*/
+footer {
+  line-height: 0.5;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-size: 13px;
+  color: white;
+  background: black;
+}
