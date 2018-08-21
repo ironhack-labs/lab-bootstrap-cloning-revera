@@ -1,0 +1,137 @@
+
+.navbar{
+  height: 14vh;
+}
+
+.navbar-left{
+  width: 33vw;
+  text-align: left;
+  font-size: 40px;
+}
+
+.navbar-right{
+  display: flex;
+  font-size: 14px;
+  color: grey;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.artwork{
+  background-image: url('img/slider-1.jpg');
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10vh 15vw 0 15vw;
+}
+
+.web{
+  background: #EB5050;
+  height: 50vh;
+  color: white;
+  text-align: center;
+}
+
+.projects{
+  height: 150vh;
+}
+
+.addendum{
+  height: 65vh;
+  background: darkgrey;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.footer{
+  height: 12vh;
+  background: grey;
+}
+
+.col-sm-4{
+  padding: 15vh 2vw 0 2vw;
+}
+
+.header > div div h2{
+  font-size: 24px;
+}
+
+.header > div div p{
+  font-size: 15px;
+}
+
+h4{
+  text-align: center;
+  font-size: 14px;
+  padding-top: 2vh;
+}
+
+.header > p{
+  color: grey;
+}
+
+.header > h2{
+  padding-top: 6vh;
+}
+
+header > div div h3{
+  font-size: 16px;
+  font-style: strong;
+}
+
+header > div div a{
+  font-size: 12px;
+}
+
+header > div .col-sm-3 p{
+  font-size: 13px;
+}
+
+.white-header{
+  padding-top: 8vh;
+  color: white;
+  margin-bottom: 4vh;
+}
+
+h5{
+  font-size: 16px;
+}
+
+text{
+  font-size: 13px;
+}
+
+i{
+  position: relative;
+  bottom: 5vh;
+}
+
+list > p{
+  line-height: .5;
+}
+
+.recent-posts > p{
+  line-height: 1.2;
+}
+
+.move-up{
+position: relative;
+bottom: 3vh;
+}
+
+hr{
+  line-height: .7;
+}
+
+h6{
+  color: white;
+  font-size: 13px;
+  margin-left: 4vw;
+}
