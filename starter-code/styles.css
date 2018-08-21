@@ -13,7 +13,6 @@
   display: flex;
   font-size: 14px;
   color: grey;
-  display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -35,7 +34,7 @@
 
 .web{
   background: #EB5050;
-  height: 52vh;
+  height: 50vh;
   color: white;
   text-align: center;
 }
@@ -45,8 +44,10 @@
 }
 
 .addendum{
-  height: 60vh;
+  height: 65vh;
   background: darkgrey;
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
 
 .footer{
@@ -93,14 +94,10 @@ header > div .col-sm-3 p{
   font-size: 13px;
 }
 
-.revera{
-  font-size: 30px;
-}
-
 .white-header{
   padding-top: 8vh;
-  padding-left: 2vw;
   color: white;
+  margin-bottom: 4vh;
 }
 
 h5{
@@ -108,5 +105,33 @@ h5{
 }
 
 text{
-  font-size: 12px;
+  font-size: 13px;
+}
+
+i{
+  position: relative;
+  bottom: 5vh;
+}
+
+list > p{
+  line-height: .5;
+}
+
+.recent-posts > p{
+  line-height: 1.2;
+}
+
+.move-up{
+position: relative;
+bottom: 3vh;
+}
+
+hr{
+  line-height: .7;
+}
+
+h6{
+  color: white;
+  font-size: 13px;
+  margin-left: 4vw;
 }
