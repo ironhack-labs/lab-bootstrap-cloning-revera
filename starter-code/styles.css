@@ -1,0 +1,59 @@
+.header {
+  background-image: url(img/project-2.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 70vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vh 5vw 0vh;
+}
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+.red {
+  color:#e97959;
+}
+
+.gray {
+  color: gray;
+}
+
+.services {
+  background-color: #e97959;
+  color: white;
+}
+.service-box {
+  padding: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: baseline;
+  text-align: center;
+}
+
+.imag {
+  width: 90%;
+}
+
+.banner {
+  padding-top: 1vh;
+}
+
+.circle {
+  border: 3px solid white;
+  padding: 2vh;
+  margin: 2vh;
+  border-radius: 50%;
+}
