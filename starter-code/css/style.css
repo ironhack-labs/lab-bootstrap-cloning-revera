@@ -1,0 +1,86 @@
+body{
+  /* background-color: red */
+}
+
+.myNav{
+  padding-bottom: 16px
+}
+
+.test1{
+  /* background-color: red */
+  font-size: 1.5vw
+}
+
+.burger-menu{
+  float: right;
+}
+
+.bigImage{
+  margin-left: 0;
+  margin-right: 0
+  /* background-color: red */
+  /* background-image: url(/img/bootImage1.jpg) */
+}
+.bigImage1{
+  width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%);  */
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* @media (max-width: 794px){
+  .burger-menu{
+    float: right;
+
+} */
+
+.secondBigOne{
+  background-color: rgb(230,62,58)
+}
+
+.menuOption{
+  color: white;
+  text-align: center
+}
+
+.minipic{
+  border: 2px white solid;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 40px;
+}
+
+
+.miniTitle{
+  font-size: 21px;
+  margin-top: 16px;
+}
+
+.row1{
+  padding-top: 42px;
+  padding-bottom: 38px
+}
+
+.miniP{
+  font-size: 13px;
+}
+
+
+.thirdBigOne{
+  padding-top: 50px;
+  padding-bottom: : 50px
+}
+
+
+.cardMarg{
+  padding: 0 10px;
+  background-color: white
+}
