@@ -1,0 +1,58 @@
+.custom-bg-dark {
+    background-color:  white!important;
+}
+.custom-navbar-brand {
+    color: black;
+    font-weight: Bolder;
+    font-size: 25px;
+    
+}
+
+    .custom-nav-link {
+    color: #a1a6ad;
+    padding-right: .5rem;
+    padding-left: .5rem;
+  
+}
+.custom-btn-primary {
+   color: #e9ecef;
+   background-color: rgba(0, 0 , 0 ,.075);
+   border-color: #e9ecef;
+}
+.custom-ml-auto {
+    margin-left: 15%!important;
+}
+.py-5-custom {
+    text-align: center;
+    height: 250px;
+    background-color: rgb(223, 84, 84);
+}
+.typeW {
+    width: 2
+}
+.img-projects {
+    height: 35%;
+    margin: 0;
+
+}
+h1{
+    font-size: 35px;
+    
+}
+h2 {
+    margin-left: 5%;
+}
+.latest-p {
+    margin-left: 5%;
+}
+hr {
+    width: 89%;
+    
+}
+.col-sm-3{
+    max-width: 30.3%;
+  margin-left: 5%;
+}
+.col-md-2{
+    margin-left: 5%;
+}

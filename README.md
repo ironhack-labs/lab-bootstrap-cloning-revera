@@ -1,58 +1,66 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+# [Start Bootstrap - Half Slider](https://startbootstrap.com/template-overviews/half-slider/)
 
-# Cloning with Bootstrap
+[Half Slider](http://startbootstrap.com/template-overviews/half-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full width, half page image slider header with captions.
 
-Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
+## Preview
 
-http://demo.fabthemes.com/revera/
+[![Half Slider Preview](https://startbootstrap.com/assets/img/templates/half-slider.jpg)](https://blackrockdigital.github.io/startbootstrap-half-slider/)
 
-![Revera Picture](https://i.imgur.com/3y7yay8.png)
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-half-slider/)**
 
-As we can see, this template is a very good example of the type of webpages we can see on the Internet. With Bootstrap, we are able, in barely a few hours, to copy the appearance of this template.
+## Status
 
-## Requirements
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-half-slider/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-half-slider.svg)](https://www.npmjs.com/package/startbootstrap-half-slider)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-half-slider.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-half-slider)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-half-slider/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-half-slider)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-half-slider/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-half-slider?type=dev)
 
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
+## Download and Installation
 
-## Submission
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/half-slider/)
+* Install via npm: `npm i startbootstrap-half-slider`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-half-slider.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-half-slider)
 
-Upon completion, run the following commands
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
+## Usage
 
-In the Pull request name, add your name and last names separated by a dash "-"
+### Basic Usage
 
-## Deliverables
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-Your page should look like the original one as much as possible. You should push every resource needed to make it work properly. Please, organize your code and your files carefully.
+### Advanced Usage
 
-## Iteration 1: General layout
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-Focus on the general layout. What do we mean by general? Most of you are thinking about the header, how to create the menu, whether you should use 2 columns for a link or maybe 3... Don't worry, this is a common mistake at the beginning. However, as we will see, the best way to approach it is to look at the big “boxes” first and don't lose ourselves on the details.
+You must have npm and Gulp installed globally on your machine in order to use these features.
 
-So we have to see the page as a big container and identify the most important sections. Here you have an example:
+## Troubleshooting and Help
 
-![general layout](https://i.imgur.com/IIAG0g0.jpg)
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
 
-Remember to use the inspector to determine the width and the height of the Revera page. Also, we could find out which Bootstrap classes have been used and anything else that is necessary to make our page looks like the original.
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
 
-One cool Boostrap feature is that you have three elements that make our lives easier: `container`,  `row` and `columns`. Don't hesitate to use them!
+## Bugs and Issues
 
-## Iteration 2: Internal structure
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-half-slider/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/half-slider/).
 
-Now that we have a global vision of the page, we can go to the second level, dividing our box into their own internal structure. This means that if you previously created a single container and various rows, now we are going to define the columns. You will have to estimate the number of cells you will need in each row.
+## About
 
-The [grid system](http://getbootstrap.com/css/#grid) of Bootstrap gives you all the `.col` classes. Remember that each row has a size of 12 columns.
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-## Iteration 3: Include the content
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-Really cool! Now, you need to insert the content in its respective places (text, images, ...) and change some CSS options like margins, paddings, etc. to finish the template. It´s just a matter of Bootstrap!
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-Well... Maybe it's not that easy. But try different things and make it happen!
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-Happy Coding!
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/gh-pages/LICENSE) license.
