@@ -1,0 +1,57 @@
+.mod-nav {
+  padding: 0 100px;
+  border-bottom: 5px solid rgb(255, 60, 0);
+ }
+.container img {
+  width: 100%;
+}
+.mod-web {
+  padding: 40px 50px;
+  text-align: center;
+}
+.container {
+  padding-top: 5%;
+}
+.container span {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3%;
+}
+.container h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.container h2 {
+  font-size: 16px;
+  color: rgb(146, 146, 146);
+}
+.container h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.container p {
+  color: rgb(146, 146, 146);
+  font-size: 12px; 
+}
+.mod-end a {
+  color: rgb(146, 146, 146);
+}
+.mod-end a:hover {
+  color: white;
+}
+
+.mod-end {
+  border-top: 5px solid rgb(255, 60, 0);
+}
+
+.grey {
+  color: rgb(146, 146, 146);
+  list-style: none;
+}
+
+.mod-end p {
+  margin-right: 18px;
+}
+ .meta {
+   margin-left: 40px;
+ }
