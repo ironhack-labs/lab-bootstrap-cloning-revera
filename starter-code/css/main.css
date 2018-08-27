@@ -1,0 +1,38 @@
+.customPadding{
+
+    padding-left: 25%;
+}
+
+.row img{
+
+    margin-left: 31%;
+}
+
+.cuatomCarousel{
+
+    width: 100%;
+}
+
+.customRowBackgr{
+    background-color: #ed564b;
+}
+
+.cont-final {
+    background-color: #3d3d3d;
+    padding: 5%;
+}
+
+.list-final li {
+    list-style: none;
+}
+
+.list-final a {
+    text-decoration: none;
+    color: white;
+}
+
+.custom-centrarImg img{
+
+ display: flex;
+ margin: 0 auto;
+}
