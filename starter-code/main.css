@@ -1,0 +1,35 @@
+.custom-padding {
+    padding-left: 20%;
+}
+
+.row img {
+    margin-left: 30%;
+}
+
+.custom-centrarImg img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.custom-rowbackground {
+    background-color: #f24231;
+}
+
+.cont-final {
+    background-color: #3d3d3d;
+    padding: 5%;
+}
+
+.list-final li {
+    list-style: none;
+}
+
+.list-final a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-firma {
+    background-color: #2d2d2d;
+    color: white;
+}
