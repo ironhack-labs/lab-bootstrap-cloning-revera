@@ -1,0 +1,175 @@
+* {
+  /*border: 1px solid black;*/
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+  line-height: 1.6em;
+}
+div {
+  display: block;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h1.site-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.header-nav {
+  position: relative;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.site-branding {
+  margin-bottom: 20px;
+}
+.col-sm-4 {
+  float: left;
+  width: 33.33333333333333%;
+}
+.col-sm-8 {
+  float: left;
+  width: 66.66666666666666%;
+}
+#submenu {
+  padding: 0px 0px;
+  margin: 15px 0px;
+  height: 60px;
+  border-bottom: none;
+  float: left;
+}
+#submenu ul {
+  width: auto;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 0px;
+}
+#submenu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color:black;
+  font-weight: 400;
+}
+a.home {
+  color: #ed564b;
+}
+
+.white {
+  height: 872px;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.red {
+  height: 385px;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+.homewidget {
+  color: white;
+  text-align: center;
+}
+.homewidget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.homewidget h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.section-wide {
+  margin-top: 40px;
+}
+.section-title {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.section-title h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.section-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+.col-12 {
+  width: 100%;
+}
+.portbox {
+    position: relative;
+
+}
+.postbox {
+  position: relative;
+}
+.postbox h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.second {
+  margin-bottom: 40px;
+}
+.hometa {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.bottom {
+  height: 385px;
+  width: 100%;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+.botwid {
+  color: #aaa;
+}
+h3.bothead {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+.site-footer {
+  width: 100%;
+  background: black;
+  font-size: 12px;
+}
