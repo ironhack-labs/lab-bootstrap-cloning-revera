@@ -167,6 +167,7 @@ nav a:link.active {
 .section-latest header {
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-bottom: 1.25rem;
 }
 
 .section-latest header h4 {
@@ -180,6 +181,23 @@ nav a:link.active {
 	border-bottom: 1px solid #dfdfdf;
 }
 
-.section-latest .projects p {
+.section-latest.projects article p {
 	color: #000;
+}
+
+.section-latest.articles h5 {
+	font-size: 1rem;
+	color: #000;
+}
+
+.section-latest.articles .post-info {
+	color: #606060;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 700;
+	margin-bottom: 1.25rem;
+}
+
+.section-latest.articles .post-info a:link {
+	color: #f4473a;
 }
