@@ -66,4 +66,7 @@ li.nav-item {
   background: none;
 }
 
+footer.text-light.border-top.border-primary{
+  border-top-width: 4px !important;
+}
 /* #EB6864 */
