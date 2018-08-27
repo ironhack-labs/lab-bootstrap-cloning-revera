@@ -1,0 +1,154 @@
+.portbox img {
+  width: 200px;
+}
+
+.postbox img {
+  width: 200px;
+}
+
+.item-active img {
+  filter: grayscale(100%);
+  z-index: -1;
+}
+
+#nyCarousel {
+  width: 1440px;
+}
+
+.item img {
+  filter: grayscale(100%);
+  z-index: -1;
+}
+
+.carousel-caption {
+  padding-bottom: 250px;
+}
+
+.row-red {
+  margin-left: -165px;
+  width: 1440px;
+  margin-top: -200px;
+  padding-top: 40px;
+  padding-left: 110px;
+  padding-bottom:50px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  ;
+  position: absolute;
+}
+
+.red-container {
+  position: relative;
+}
+
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  width: 1440px;
+  margin-left: -150px;
+}
+
+#bottom h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#bottom p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+}
+
+#bottom a {
+  text-decoration: none;
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+}
+
+footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+  margin: 0;
+  line-height: 150%;
+  color: #aaa;
+  width: 1440px;
+  margin-left: -150px;
+}
+
+footer a {
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 150%;
+  color: #aaa;
+}
+
+.projects {
+  padding-top:100px;
+}
+
+.url {
+  text-decoration: none;
+  color:red;
+}
+
+.homewidget span {
+  width: 370px;
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+
+.glyphicon {
+  
+  color: #fff;
+}
+
+.homewidget p {
+  color: #fff;
+    text-align: center;
+    width: 370px;
+}
+
+.homewidget h3 {
+  width: 370px;
+  color: #fff;
+    text-align: center;
+}
+
+.homewidget {
+  width: 400px;
+}
+
+#topmenu {
+  margin-top:20px;
+}
+#topmenu a {
+  color: #777;
+}
+
+.carousel-caption {
+  color:rgba(255,255,255, 0.7);
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color:rgba(255,255,255, 0.7);
+  
+}
