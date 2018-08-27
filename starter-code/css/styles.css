@@ -8,6 +8,11 @@ html {
 	/* font-size: 14px; */
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -181,11 +186,16 @@ nav a:link.active {
 	border-bottom: 1px solid #dfdfdf;
 }
 
-.section-latest.projects article p {
+.section-latest figure p {
 	color: #000;
 }
 
+.section-latest figcaption {
+	padding-top: 0.9375rem;
+}
+
 .section-latest.articles h5 {
+	margin-top: 0.9375rem;
 	font-size: 1rem;
 	color: #000;
 }
