@@ -1,0 +1,48 @@
+body {
+  font-family:Helvetica, sans-serif;
+}
+
+#center img {
+  filter: grayscale(100%);
+}
+
+.boxitems img {
+  width: 200px;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: rgb(240, 231, 231);
+}
+
+.boxitems img {
+  width: 200px;
+}
+footer {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+#bottom {
+  color: rgb(240, 231, 231);
+  text-align: left;
+  padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#bottom a {
+  color: rgb(240, 231, 231);
+}
+
+#bottom li {
+  list-style: none;
+  border-bottom: 1px solid rgb(240, 231, 231);;
+}
+
+#bottom h3 {
+  text-transform: uppercase;
+}
