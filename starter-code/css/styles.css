@@ -122,3 +122,35 @@ nav a:link.active {
 	padding: 0.5rem 1rem;
 	display: inline-block;
 }
+
+/* AREAS */
+.areas {
+	background-color: #f4473a;
+	color: #FFF;
+	text-align: center;
+	padding-top: 2.813rem;
+	padding-bottom: 2.813rem;
+}
+
+/* generic */
+.icon-frame {
+	border: 5px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    line-height: 65px;
+    margin: 0px auto;
+    font-size: 1.125rem;
+}
+
+.areas h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1.25rem;
+	margin-bottom: 0.625rem;
+}
+
+.areas p {
+	font-size: 0.875rem;
+}
