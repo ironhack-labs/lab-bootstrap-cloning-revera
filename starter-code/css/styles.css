@@ -154,3 +154,32 @@ nav a:link.active {
 .areas p {
 	font-size: 0.875rem;
 }
+
+/* PROJECTS */
+.section-latest {
+	margin-top: 2.5rem;
+}
+
+.section-latest p {
+	font-size: 0.875rem;
+}
+
+.section-latest header {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-latest header h4 {
+	color: #000;
+	font-weight: 700;
+}
+
+.section-latest header p {
+	color: #aaaaaa;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.section-latest .projects p {
+	color: #000;
+}
