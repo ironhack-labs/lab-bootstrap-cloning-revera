@@ -1,0 +1,89 @@
+#revera{
+    font-size:2em;
+    margin-left:10%;
+}
+.carousel-inner img{
+    height:500px;
+}
+#row{
+    background-color:rgb(226, 75, 75);
+    color:white;
+    text-align:center;
+    height:300px;
+    font-size:0.8em;
+}
+#row h2{
+    font-size:1.8em;
+}
+#row img{
+    margin-top:10%;
+    width:40px;
+    height:40px;
+}
+#row p{
+    width:70%;
+    margin:0 auto;
+}
+#row2{
+    height:300px;
+    text-align:center;
+    font-size:0.9em;
+}
+#row2 p{
+    margin-top:10px;
+}
+#row2 img{
+    height:125px;
+    width:250px;
+}
+#container1 h3{
+    margin-top:50px;
+} 
+#container1 h5,#container2 h5{
+    color:rgb(161, 160, 160);
+}
+#row3 img{
+    width:250px;
+    height:125px;
+}
+#row3 p{
+    margin-top:10px;
+    
+}
+.prow span{
+    color:red;
+}
+.prow{
+    font-family:0.8em;
+}
+.prow1{
+    font-weight: bold;
+}
+#container2{
+    margin-top:-50px;
+}
+#footer{
+    background-color:rgba(0, 0, 0, 0.678);
+    color:grey;
+
+}
+#footer h5{
+    font-size:1em;
+}
+#footer li{
+   border-bottom:1px solid grey;
+   border-width:100%;
+}
+#recentPosts{
+    margin-right:100px;
+    margin-bottom:30px;
+}
+#REVERA{
+    margin-left:100px;
+}
+#lastPart{
+    background-color:rgba(0, 0, 0, 0.781);
+    color:white;
+    font-size:0.7em;
+    margin-top:-48px;
+}
