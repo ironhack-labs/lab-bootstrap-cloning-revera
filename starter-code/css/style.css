@@ -1,0 +1,41 @@
+body {
+  width: 1425px;
+  height: 1594;
+}
+
+.justify-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.justify-content li {
+  margin: 0 10px;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: left;
+}
+
+p, a {
+ color: grey;
+}
+
+.widgets p, .widgets h3 {
+  color: white;
+  text-align: center;
+}
+
+.marked-in-red {
+  color: red;
+}
+
+.carousel-icon-color {
+  background-color: red;
+}
+
+.widgets {
+  margin-top: 100px;
+  background-color: red;
+}
