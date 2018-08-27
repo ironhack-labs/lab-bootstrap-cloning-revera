@@ -1,4 +1,5 @@
 /* GENERAL STYLES */
+
 /* 
 grayMedium = #777;
 */
@@ -12,13 +13,15 @@ body {
 }
 
 /* HEADER */
-.logo h1{
+
+.logo h1 {
 	text-transform: uppercase;
 	font-size: 2rem;
 	font-weight: 800;
 }
 
 /* NAVIGATION */
+
 nav ul {
 	list-style-type: none;
 	display: flex;
@@ -27,13 +30,13 @@ nav ul {
 }
 
 nav li {
-    align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+	align-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
-nav a{
-	font-size:  0.875rem;
+nav a {
+	font-size: 0.875rem;
 }
 
 nav a:link {
@@ -45,3 +48,77 @@ nav a:link.active {
 }
 
 /* HERO */
+
+.hero {
+	position: relative;
+	background-image: url('../img/overlay.png');
+	background-size: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: .25;
+	background-image: url('../img/overlay.png');
+}
+
+.hero .carousel-item img {
+	filter: grayscale(100%);
+}
+
+.hero a.carousel-control-prev, 
+.hero a.carousel-control-next {
+	background-color: #f4473a;
+    max-width: 50px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+	transform: translateY(-50%);
+	opacity: 1;
+}
+
+.hero a.carousel-control-prev:hover,
+.hero a.carousel-control-next:hover {
+	background-color: #fff;
+}
+
+.hero .carousel-control-prev-icon,
+.hero .carousel-control-next-icon {
+	width: 30px;
+    height: 30px;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	color: #FFF;
+	text-align: center;
+}
+
+.hero-text h2 {
+	text-transform: uppercase;
+	font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.hero-text p {
+	font-size: 0.75rem;
+}
+
+.hero .hero-button {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.75rem;
+	border: 1px solid #FFF;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+}
