@@ -1,0 +1,110 @@
+
+.navbar {
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.col.thumbnail img {
+  width: 100%;
+}
+
+.icons {
+  text-align: center;
+}
+
+#carouselExampleControls img {
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  height: 400px;
+}
+
+#carouselExampleControls h5 {
+  text-transform: capitalize;
+  font-size: 2.6em;
+}
+
+#carouselExampleControls button {
+  color: white;
+  border-color: white;
+}
+
+hr {
+  border: 1px solid rgba (0, 0, 0, 0.5);
+}
+
+#under-header {
+  background: #ed564b;
+  padding: 50px 0;
+  color: white;
+}
+
+#latest-projects, #blog {
+  padding: 50px 0 0 0;
+}
+
+#latest-projects h3, #blog h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#latest-projects h5, #blog h5 {
+  font-size: 1em;
+  color: #aaa;
+  font-weight: 700;
+}
+
+#blog h6 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+#latest-projects .row, #blog .row {
+  padding: 20px 0;
+}
+
+#info-lists {
+  background: #3b3b3b;
+  color: white;
+}
+
+#info-lists h4 {
+  font-size: 1.2em;
+}
+
+#info-lists p {
+  color: #aaa;
+}
+
+#info-lists ul {
+  background-color: #3b3b3b;
+  color: #aaa;
+}
+
+#info-lists li {
+  border-bottom: 1px dotted #aaa;
+  padding: 0.3em 0 0 0;
+  font-size: 1em;
+}
+
+.footer {
+  background: #292929;
+  text-align: left;
+  color: #aaa;
+  font-size: 0.7em;
+  line-height: 0.5em;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
