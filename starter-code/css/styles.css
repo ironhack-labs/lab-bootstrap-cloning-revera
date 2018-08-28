@@ -33,14 +33,16 @@ body {
     background-color: #EB5750;
     height: 100px;
     opacity:100;
-    margin-left: -10;
+    left: 0;
+    margin-left: 0;
 }
    
 .carousel-control-next-icon {
     background-color: #EB5750;
     height: 100px;
     opacity:100;
-    margin-right: -10;
+    right: 0;
+    margin-right: 0;
 }
 
 .navbar {
@@ -89,6 +91,7 @@ body {
     text-align: center;
     margin: 0px auto;
     font-size: 20px;
+    color: white;
 }
 .glyphicon {
     color: white;
@@ -138,7 +141,7 @@ h3 {
 
 }
 
-h3.bothead {
+h3.footer-title {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 10px 0px;
@@ -146,7 +149,7 @@ h3.bothead {
     text-transform: uppercase;
 }
 
-.botwid h3 {
+.footer-title h3 {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 10px 0px;
