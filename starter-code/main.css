@@ -1,0 +1,22 @@
+#salmoncolor {
+  background-color: #FF8C69;
+  color: white;
+  padding: 5% 10%;
+}
+
+.rowimages {
+  width: 200px;
+}
+
+.thirdblock {
+  padding: 5% 10%;
+}
+
+.thirdblocktitle {
+  margin: 50px;
+}
+
+.prueba {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
