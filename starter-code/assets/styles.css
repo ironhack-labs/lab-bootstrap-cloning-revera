@@ -1,0 +1,21 @@
+
+body {
+    font-size: 1em;
+}
+
+.row li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.bottom .container{
+    background-color: rgb(46, 48, 48);
+}
+
+.bottom .row{
+    padding-top: 20px;
+}
+
+.subtitle {
+    font-size: 0.75em;
+}
