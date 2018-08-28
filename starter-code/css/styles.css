@@ -1,0 +1,169 @@
+
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css")
+
+body {
+    color: #606060;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel-control-prev-icon {
+    background-color: #EB5750;
+    height: 100px;
+    opacity:100;
+    margin-left: -10;
+}
+   
+.carousel-control-next-icon {
+    background-color: #EB5750;
+    height: 100px;
+    opacity:100;
+    margin-right: -10;
+}
+
+.navbar {
+    background-color: silver;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.sub-header {
+    background-color: #EB5750;
+    padding: 50px;
+    color: white;
+} 
+
+.content {
+    margin-top: 30px;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.glyphicon {
+    color: white;
+}
+
+.homewidget h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.homewidget p {
+    font-size: 15px;
+}
+
+.card-title a {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    display:block;
+}
+
+.card-title span{
+    font-size: 14px;
+    color: #606060;
+    font-weight: bold;
+
+}
+
+.card-text {
+    font-size: 14px;
+    color: #606060;
+
+}
+
+h3.bothead {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.botwid h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bottom ul li {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+    border-bottom: 0.5px dotted #dfdfdf;
+}
+
+.bottom ul {
+    padding: 0px;
+}
+
+.bottom p {
+    font-size: 14px;
+    color: #aaa;
