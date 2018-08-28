@@ -1,0 +1,61 @@
+/* // With variable */
+.alpha { color: #f4473a; }
+
+/* // From the Sass map with our `color()` function */
+.beta { color: color(#f4473a); }
+
+.logo{
+  padding-right: 50px;
+}
+.red-btn{
+
+}
+p{
+  font-size: 12px;
+}
+h3{
+  font-size: 21px;
+}
+h4{
+  font-size: 17px;
+  color: gray;
+}
+
+.red-section {
+  background-color: #f4473a;
+  color: white;
+  padding: 40px 30px;
+}
+
+.red-section .row{
+  display: flex;
+  justify-content: space-between;
+}
+.red-section .col-sm{
+  text-align: center;
+
+}
+.container{
+  padding: 30px;
+}
+.row.separator{
+  border-top: 1px solid #aaa;
+  padding-top: 30px;
+}
+.footer-container{
+  background-color: #3b3b3b;
+  color: white;
+  border-top: 4px solid #f4473a;
+  padding: 35px 30px 35px;
+}
+li{
+  font-size: 13px;
+}
+.col-sm li{
+  border-bottom: 1px dotted gray;
+}
+.copyright{
+  background-color: #292929;
+  color: white;
+  padding: 25px 30px 15px;
+}
