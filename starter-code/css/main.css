@@ -1,0 +1,29 @@
+/* red-orange #FE4437 */
+
+h1{color:aqua; background-color: green;}
+.nav-link-custom{
+    color:grey;
+    font-size: 14px;
+}
+.brand-custom{
+    color:black;
+}
+h2{
+    color:white;
+}
+.custom-bw-img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.span-car{
+    background-color: #FE4437;
+    max-height:15%;
+    max-width: 2%;
+    opacity: unset;
+}
+.span-color{
+    background-color:#FE4437
+}
+.color-white{
+    color:white;
+}
