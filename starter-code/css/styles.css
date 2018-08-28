@@ -1,0 +1,269 @@
+/* GENERAL STYLES */
+
+/* 
+grayMedium = #777;
+*/
+
+html {
+	/* font-size: 14px; */
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* HEADER */
+
+.logo h1 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+/* NAVIGATION */
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+nav li {
+	align-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+nav a {
+	font-size: 0.875rem;
+}
+
+nav a:link {
+	color: #777;
+}
+
+nav a:link.active {
+	color: #DC6052;
+}
+
+/* HERO */
+
+.hero {
+	position: relative;
+	background-image: url('../img/overlay.png');
+	background-size: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: .25;
+	background-image: url('../img/overlay.png');
+}
+
+.hero .carousel-item img {
+	filter: grayscale(100%);
+}
+
+.hero a.carousel-control-prev, 
+.hero a.carousel-control-next {
+	background-color: #f4473a;
+    max-width: 50px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+	transform: translateY(-50%);
+	opacity: 1;
+}
+
+.hero a.carousel-control-prev:hover,
+.hero a.carousel-control-next:hover {
+	background-color: #fff;
+}
+
+.hero .carousel-control-prev-icon,
+.hero .carousel-control-next-icon {
+	width: 30px;
+    height: 30px;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	color: #FFF;
+	text-align: center;
+}
+
+.hero-text h2 {
+	text-transform: uppercase;
+	font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.hero-text p {
+	font-size: 0.75rem;
+}
+
+.hero .hero-button {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.75rem;
+	border: 1px solid #FFF;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+}
+
+/* AREAS */
+.areas {
+	background-color: #f4473a;
+	color: #FFF;
+	text-align: center;
+	padding-top: 2.813rem;
+	padding-bottom: 2.813rem;
+}
+
+/* generic */
+.icon-frame {
+	border: 5px solid #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    line-height: 65px;
+    margin: 0px auto;
+    font-size: 1.125rem;
+}
+
+.areas h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1.25rem;
+	margin-bottom: 0.625rem;
+}
+
+.areas p {
+	font-size: 0.875rem;
+}
+
+/* PROJECTS */
+.section-latest {
+	margin-top: 2.5rem;
+}
+
+.section-latest p {
+	font-size: 0.875rem;
+}
+
+.section-latest header {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 1.25rem;
+}
+
+.section-latest header h4 {
+	color: #000;
+	font-weight: 700;
+}
+
+.section-latest header p {
+	color: #aaaaaa;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.section-latest figure p {
+	color: #000;
+}
+
+.section-latest figcaption {
+	padding-top: 0.9375rem;
+}
+
+.section-latest.articles h5 {
+	margin-top: 0.9375rem;
+	font-size: 1rem;
+	color: #000;
+}
+
+.section-latest.articles .post-info {
+	color: #606060;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 700;
+	margin-bottom: 1.25rem;
+}
+
+.section-latest.articles .post-info a:link {
+	color: #f4473a;
+}
+
+/* FOOTER MENU */
+.footer {
+	padding-top: 1.25rem;
+	padding-bottom: 2.5rem;
+    background: #3b3b3b;
+	border-top: 5px solid #ed564b;
+	margin-top: 2.5rem;
+}
+
+.footer-box {
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	color: #aaaaaa;
+}
+
+.footer h3 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 500;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+
+.footer-box-text ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.footer-box-text li {
+	border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.footer-box-text a {
+	display: block;
+	text-decoration: none;
+	padding-bottom: 0.5rem;	
+}
+
+.footer-box-text a:link:hover {
+	color: #FFF;
+}
+
+.footer-box-text li a:not(:first-child) {
+	padding-top: 0.5rem;
+}
+
+.footer-box-text a:link {
+	color: #aaaaaa;
+}
+.footer-box-text abbr {
+	cursor: help;
+    border-bottom: 1px dotted #999;
+}
