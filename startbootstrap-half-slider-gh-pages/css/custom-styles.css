@@ -1,0 +1,38 @@
+.custom-bar {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.nav-link {
+  color:rgb(75, 66, 66);
+}
+
+a:hover {
+  color:red;
+}
+
+.custom-section {
+  background-color: rgb(221, 79, 79);
+  color:white;
+  text-align: center;
+}
+
+.centered-section img {
+  width: 80%;
+}
+
+.centered-section {
+  margin: 0 5%;
+}
+
+.customed-footer {
+  color: rgb(218, 218, 218);
+  text-align: center;
+}
+
+#cust-hr {
+  color: rgb(218, 218, 218)
+}
