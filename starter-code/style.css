@@ -1,0 +1,72 @@
+nav .revera{
+  margin-left: 200px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav .links{
+  margin-left: 350px;
+}
+
+
+.img-div img{
+  filter: grayscale(100%);
+  height: 700px;
+}
+
+.color-arrows{
+  background-color: red;
+  width:50px;
+  height: 100px;
+  margin-top:300px; 
+}
+
+.back-red{
+  height:300px;
+  background-color:rgb(228, 66, 66);
+  text-align: center;
+}
+
+.back-red{
+  margin-top: -50px;
+ background-color: rgb(230, 57, 57);
+ color:white;
+}
+
+.back-red{
+  padding-top: 60px; 
+}
+
+.mod-web {
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.container{
+  margin-top:50px;
+}
+
+.latest h2 p{
+  font-size: 20px; 
+  font-weight: bold;
+} 
+
+.first-row img{
+  width: 100%;
+  height: 65%;
+  padding-top: 20px;
+  border-top: 1px solid grey;  
+}
+
+.second-row img{
+  width: 100%;
+  height: 33%;
+  padding-top: 20px;
+  border-top: 1px solid grey; 
+}
+
+.row span{
+  font-weight: bold;
+}
+
+
