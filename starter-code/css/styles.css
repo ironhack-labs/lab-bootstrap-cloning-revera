@@ -211,3 +211,59 @@ nav a:link.active {
 .section-latest.articles .post-info a:link {
 	color: #f4473a;
 }
+
+/* FOOTER MENU */
+.footer {
+	padding-top: 1.25rem;
+	padding-bottom: 2.5rem;
+    background: #3b3b3b;
+	border-top: 5px solid #ed564b;
+	margin-top: 2.5rem;
+}
+
+.footer-box {
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	color: #aaaaaa;
+}
+
+.footer h3 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 500;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+
+.footer-box-text ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.footer-box-text li {
+	border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.footer-box-text a {
+	display: block;
+	text-decoration: none;
+	padding-bottom: 0.5rem;	
+}
+
+.footer-box-text a:link:hover {
+	color: #FFF;
+}
+
+.footer-box-text li a:not(:first-child) {
+	padding-top: 0.5rem;
+}
+
+.footer-box-text a:link {
+	color: #aaaaaa;
+}
+.footer-box-text abbr {
+	cursor: help;
+    border-bottom: 1px dotted #999;
+}
