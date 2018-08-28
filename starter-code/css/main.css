@@ -1,0 +1,8 @@
+#navbarNav {
+  margin-left:25%;
+}
+.bg {
+  /* The image used */
+  background-image: url("img/slider-1.jpg");
+  filter: grayscale(100%);
+}
