@@ -21,6 +21,7 @@ body {
   min-height: 300px;
   background: no-repeat center center scroll;
   background-size: cover;
+  filter: grayscale(100%);
 }
 .carousel-caption {
     top: 50%;
@@ -51,6 +52,8 @@ body {
     font-weight: bold;
     
 }
+
+
 
 .nav-item {
     display: block;
