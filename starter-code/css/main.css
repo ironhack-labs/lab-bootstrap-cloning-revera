@@ -1,0 +1,95 @@
+#top-nav {
+    background-color: white;
+    height: 90px;
+    padding: 25px 25px 25px 0;
+
+}
+
+.revera-logo {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.top-nav-menu ul {
+    display: block;
+    text-decoration: none;
+
+}
+
+.top-nav-menu li {
+    display: inline;
+    padding: 15px 8px 15px 8px;
+    font-size: 15px;
+    color: #777;
+}
+
+.top-banner-overlay {
+    background-image: url("../img/overlay.png");
+    height: 600px;
+}
+
+
+.top-banner {
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.left-arrow-box {
+    display: inline-block;
+    margin: 250px 0px 150px 0px;  
+}
+
+.left-arrow-icon {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    object-position: center;
+}
+
+.left-arrow-background {
+    background-color: #f4473a;
+    width: 50px;
+    height: 100px;
+}
+
+.top-mid-column {
+    text-align: center;
+    padding: 150px 0 150px 0;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.tagline {
+    font-size: 20px;
+}
+
+.right-arrow-box {
+    display: inline-block;
+    margin: 250px 0px 150px 0px;
+}
+
+.right-arrow-background {
+    background-color: #f4473a;
+    height: 100px;
+}
+
+.right-arrow-icon {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    object-position: center;
+}
+
+.services-row {
+    background-color: #f4473a;
+    height: 300px;
+}
