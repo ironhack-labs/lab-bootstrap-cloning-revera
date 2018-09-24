@@ -1,0 +1,52 @@
+
+  //--------------- HEADER ----------------
+
+header
+  //height: 5.5em
+  +flexCSB
+
+nav
+  width: 100%
+  .navbar-brand
+    color: black
+    font-size: 2em
+    font-weight: 700
+  .collapse
+    justify-content: flex-end
+    ul
+      &.navbar-nav
+        font-size: .9em
+        li
+          &.nav-item
+            position: relative
+            position: inline-block
+            a
+              &.nav-link
+                color: $grey
+                text-decoration: none
+                //opacity: 1
+                transition: all 150ms ease-out
+                &.active
+                  color: $coral
+                &:hover
+                  color: $coral
+                  text-decoration: none
+                  //opacity: .7
+                  transition: all 150ms ease-in
+            &:hover
+              .dropdown-content
+                display: block
+
+      &.dropdown-content
+        display: none
+        position: absolute
+        min-width: 12em
+        font-size: .85em
+        background-color: $white
+        padding: .8em
+        z-index: 1
+        li
+          list-style-type: none
+          border-bottom: 1px solid $grey-ultra-light
+          &:last-child
+            border: none

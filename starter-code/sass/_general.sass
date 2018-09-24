@@ -1,0 +1,42 @@
+
+// -------------- VARIABLES ----------------
+
+$white: #fff
+$grey-ultra-light: #eee
+$grey-light: #aaa
+$grey: #777777
+$grey-dark: #3b3b3b
+$coral-light: #f96b61
+$coral: #ed564b
+$black-semi: #292929
+$black: #000
+
+// -------------- MIXINS ----------------
+
+=flexCSB
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-between
+  align-items: center
+
+
+// -------------- GENERAL STYLES ----------------
+*
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+html, body
+  height: 100%
+
+button
+  outline: none !important
+
+a
+  text-decoration: none
+  color: $black
+  opacity: 1
+  transition: all 150ms ease-out
+  &:hover
+    color: $black
+    text-decoration: none
+    opacity: .7
+    transition: all 150ms ease-in
