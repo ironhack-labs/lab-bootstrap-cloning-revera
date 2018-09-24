@@ -1,0 +1,57 @@
+
+// -------------- SECTIONS ----------------
+
+.container
+  &.section
+    .row
+      .section-title
+        font-weight: bold
+        text-transform: uppercase
+        h2
+          &.title
+            font-weight: bold
+            font-size: 1.5em
+            color: $black
+            margin-bottom: .3em
+        p
+          &.subtitle
+            font-size: 1em
+            color: $grey-light
+
+      &.section-box
+        .img-box
+          p
+            &.footer-line
+              margin-top: 1em
+              font-size: .9em
+              line-height: 1.1em
+              text-align: center
+              font-weight: 500
+          .res-img
+            img
+              &.img-fluid
+                //width: auto
+                //height: 170px
+                //object-fit: cover
+          h3
+            &.article-title
+              margin-top: 1em
+              font-size: 1em
+              font-weight: bold
+          .author
+            margin-bottom: 1em
+            font-size: .7em
+            font-weight: bold
+            text-transform: uppercase
+            color: $grey
+            a
+              &.user, time
+                color: $coral
+                transition: all 150ms ease-out
+                &:hover
+                  color: $black
+                  transition: all 150ms ease-in
+          p
+            &.article-abstract
+              font-size: .9em
+              color: $grey
