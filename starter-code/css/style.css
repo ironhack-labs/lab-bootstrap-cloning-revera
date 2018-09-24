@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+.navbar{
+  /* height: 90px; */
+  
+}
+.navbar-brand {
+  
+  font-weight: bolder;
+}
+
+
+.hero img {
+  filter: grayscale(100%);
+}
+
+.content {
+/* height: 200px; */
+background: rgb(255,60,70);
+color:white;
+}
+
+.list-group-item {
+  background: none;
+}
+
+
+
