@@ -1,0 +1,170 @@
+* {
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+body {
+font-size: 14px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+.navbar {
+  width: 100%;
+  height: 70px; 
+  background-color: white;
+}
+
+.navbar .brand-name a {
+  text-decoration: none; 
+  font-size: 30px;
+  color: black;
+  font-weight: bold; 
+}
+
+.nav-item activ .nav-link{
+  color: red; 
+}
+
+header {
+  background-color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left; 
+}
+
+.collapse navbar-collapse {
+  text-align: right; 
+}
+
+
+#carousel img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.control, .carousel-control-prev, .carousel-control-next {
+ width: 8%;
+}
+
+
+.carousel-control-prev-icon {
+  border: none; 
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-next-icon {
+  border: none; 
+  width: 50px;
+  height: 50px;
+}
+
+.red-box {
+  background-color: #ed564b;
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  color: white; 
+  vertical-align: baseline;
+}
+
+span {
+  border: 4px solid white; 
+  border-radius: 50%;
+  padding: auto auto; 
+  width: 70px;
+  height: 70px; 
+  display: block; 
+  text-align: center; 
+  line-height: 65px; 
+  margin: 30px auto; 
+  font-size: 20px;
+}
+
+.container-fluid {
+  max-width: 1170px;
+}
+
+.img-responsive {
+width: 100%;
+padding-top: 25px; 
+padding-bottom: 25px;
+}
+
+.blog-articles h3 {
+  font-size: 16px;
+}
+
+.projects {
+  margin-top: 40px;
+  margin-bottom: 40px;; 
+  }
+  
+  .projects .subtitle {
+      font-weight: bold;
+      border-bottom: 2px solid #dfdfdf;
+      color: #aaa;
+      padding-bottom: 20px; 
+  }
+  
+  .articles {
+   margin-bottom: 40px;
+  }
+  
+  .articles .subtitle {
+      font-weight: bold;
+      border-bottom: 2px solid #dfdfdf;
+      color: #aaa;
+      padding-bottom: 20px; 
+  }
+
+
+.footer {
+    width: 100%;
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white; 
+    vertical-align: baseline;
+}
+
+.footer h4 {
+color: white;
+margin-top: 20px; 
+margin-bottom: 10px; 
+padding-top: 10px; 
+padding-bottom: 10px; 
+text-transform: uppercase;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 270px;
+}
+
+.footer li {
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+  line-height: 32px; 
+  color: #aaa;
+  width: 100%;
+}
