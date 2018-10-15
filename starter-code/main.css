@@ -1,0 +1,119 @@
+.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 30px;
+font-weight: 600;
+color: black;
+
+
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+
+
+}
+
+a.nav-link {
+  color: orange
+}
+.carousel-item  img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.fwwidgets {
+  background-color: #EC564A;
+  color: white;
+  padding: 40px 0
+}
+
+.pictureborder {
+  border: 2px black solid;
+  border-radius: 100px;
+  padding: 20px;
+  color: #f00;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.projects{
+  width: 80%;
+  margin: 40px auto;
+}
+
+.projecttitles {
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: 25px;
+
+}
+
+.projecttitles h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.projecttitles h3 {
+  font-family: sans-serif;
+  color: lightgray;
+  font-size: 1rem
+}
+
+.projecttitles p {
+  font-weight: bold;
+  text-align: center
+}
+
+.card {
+  border: 0
+}
+
+.card-body h3 { 
+  font-size: 0.9em
+
+}
+
+.card-body h4 { 
+  font-size: 0.8em
+
+}
+.card-body p { 
+  font-size: 0.8em
+
+}
+.card-body1 p { 
+text-align: center;
+font-weight: bold;
+font-size: 0.85em;
+
+}
+.card-body2 p { 
+
+font-size: 1em;
+
+}
+.card-body span{ 
+  color: orange
+
+}
+
+
+footer {
+
+  background-color: #3B3B3B ;
+}
+.card1 {
+  
+  background-color: #3B3B3B ;
+  color: white;
+  margin: 0 20px
+}
+
+.aborder {
+  border-bottom: 2px grey dotted;
+  text-decoration: none;
+  color: lightgray
+
+}
+.footer {
+  padding: 
+}
+
