@@ -1,0 +1,80 @@
+/* 
+#606060   grey
+ #f96b61  salmon
+*/
+
+
+body {
+  
+}
+
+.navbar {
+  padding-top: 15px;
+}
+
+.active a {
+  color: #f96b61;
+}
+
+.slider-button {
+  padding-top: 15px;
+  height: 50px;
+  background-color: #ed564b;
+}
+
+.infos-section-container {
+  height: 600px;
+  background-color: #ed564b;
+}
+
+.card {
+  border: none;
+  background-color: #ed564b;
+  color: white;
+
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+
+.latest-projects-container {
+  padding-top: 100px;
+}
+
+.h3-title {
+  text-transform: uppercase;
+}
+
+.h5-untertitel {
+  text-transform: uppercase;
+  color: lightgrey;
+}
+
+.untertitel {
+  padding: 100px, 0;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.infos-card {
+  background-color: white;
+  color: black;
+}
+
+.card-deck {
+  margin-bottom: 100px;
+}
+
+
+.footer {
+  background-color: #3b3b3b;
+  height: 300px;
+  border-top: 4px solide #ed564b;
+}
+
+.footer-bottom {
+  background-color: #292929;
+  height: 100px;
+}
