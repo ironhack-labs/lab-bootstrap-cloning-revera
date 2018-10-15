@@ -1,0 +1,31 @@
+
+
+.navbar-nav li {
+  padding: 0 4px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  background-color: #f96b61;
+  position: absolute;
+  bottom: 0vh;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.info-box {
+  width: 30%;
+  padding: 0 3% 
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+
+}
+
+.latest-project {
+  text-align: center;
+  margin: 10px;
+}
