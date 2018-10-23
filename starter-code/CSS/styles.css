@@ -1,0 +1,13 @@
+.nav-bar-style li {
+    list-style-type: none;
+}
+
+.home-mainoptions {
+    display: flex;
+    height: 300px;
+    background-color: red;
+}
+
+.home-mainoptions img {
+    width: 50px;
+}
