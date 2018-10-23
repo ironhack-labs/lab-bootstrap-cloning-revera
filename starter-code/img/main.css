@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+padding-top: 15px;
+height: 70px;
+
+}
+
+#section-1 {
+    background-color: #ed564b;
+    height: 500px; 
+}
+
+#section-1 p {
+    font-size: 1.2em;
+}
