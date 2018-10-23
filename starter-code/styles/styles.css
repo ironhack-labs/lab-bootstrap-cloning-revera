@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV ELEMENT */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 20px 0 0;
+}
+/* END OF NAV ELEMENT */
+
+/* HEADER */
+header {
+    margin: 60px 0;
+    width: 100%;
+}
+
+.slidebox {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.services {
+    height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+/* END OF HEADER */
+
+/* SECTION */
+section {
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+/* ID #PROJECTS */
+#projects {
+    border-bottom: 5px solid red;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper div {
+    width: inherit;
+}
+
+.wrapper hr {
+    width: 100%;
+}
+/* END OF ID #PRJECTS */
+
+/* ID #ABOUT */
+#info {
+    background-color: #3B3B3B;
+    color: white;
+    height: 400px;
+}
+
+#about ul {
+    list-style-type: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #292929;
+    color: white;
+}
