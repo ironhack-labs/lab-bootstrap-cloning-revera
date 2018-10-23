@@ -76,6 +76,46 @@ a .carousel-control-next-icon, a .carousel-control-prev-icon {
     top: 30%;
 }
 
+@media (min-width: 700px){
+    .lit {
+        zborder: 1px solid pink;
+        zfloat: left;
+        zdisplay: inline;
+
+    }
+}
+
+@media (max-width: 820px){
+    .carousel-item div {
+        top: 3%;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    .btn {
+        font-size: 80%;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .carousel-item-div p {
+        display: none;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 290px){
+    .carousel-item-div p {
+        display: none;
+    }
+    .carousel-item div {
+        top: 0;
+    }
+}
+
 .carousel-item-div span {
     padding: 0 10%;
 }
