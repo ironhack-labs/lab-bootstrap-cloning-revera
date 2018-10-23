@@ -1,0 +1,46 @@
+.body {
+  margin: 0;
+}
+
+.col-sm {
+  padding: 62px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-sm > h2, .col-sm > p, .col-sm > i {
+  color: white;
+  line-height: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.col-sm > i {
+  font-size: 30px;
+  color: white;
+}
+
+.roundbutton{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: transparent;
+}
+
+.home {
+  color: red;
+}
+
+.rectangle {
+  height: 80px;
+  width: 40px;
+  margin-top: 250px;
+}
+
+.red-box {
+  margin: 0;
+  width: 100%;
+  padding: 0 100px;
+}
