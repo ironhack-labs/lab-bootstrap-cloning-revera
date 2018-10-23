@@ -1,0 +1,36 @@
+header li {
+
+}
+
+.catDogBackground {
+  background-image: url(img/slider-1.jpg);
+  background-size: 100%;
+  height: 550px;
+  filter: grayscale(1);
+  color: white;
+}
+
+.catDogContent {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.flexboxColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexboxRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.alignSelf {
+  align-self: center;
+}
+
+.redBackground {
+  background-color: rgb(237, 86, 75);
+}
