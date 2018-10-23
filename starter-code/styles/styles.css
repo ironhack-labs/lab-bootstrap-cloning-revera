@@ -50,6 +50,14 @@ nav ul li {
 header {
     margin: 60px 0 0 0;
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+header h1,
+header p {
+    width: 700px;
 }
 
 #right-arrow,
@@ -92,11 +100,13 @@ header {
     border-top: 5px solid red;
     border-bottom: 5px solid red;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .service-item {
-    margin: 40px 0;;
-    width: 530px;
+    margin: 40px 20px;
+    width: 400px;
     text-align: center;
     display: flex;
     flex-flow: column wrap;
@@ -113,6 +123,7 @@ header {
 section {
     width: 100%;
     display: flex;
+    justify-content: center;
     align-content: center;
 }
 /* ID #CONTENT */
@@ -124,7 +135,7 @@ section {
 
 #projects img,
 #articles img {
-    height: 250px;
+    height: 200px;
 }
 
 #articles p:nth-of-type(2){
@@ -136,14 +147,13 @@ section {
 }
 
 .item {
-    width: 400px;
+    width: 300px;
     margin: 0 20px 0 0;
     box-sizing: border-box;
 }
 
 .wrapper {
     width: 80%;
-    margin: 0 auto;
 }
 
 /* END OF ID #PRJECTS */
@@ -153,7 +163,7 @@ section {
     padding: 30px 0;
     background-color: #3B3B3B;
     color: white;
-    height: 300px;
+    height: 500px;
 }
 
 #about p {
@@ -185,4 +195,6 @@ footer {
     padding: 10px 0;
     background-color: #292929;
     color: white;
+    display: flex;
+    justify-content: center;
 }
