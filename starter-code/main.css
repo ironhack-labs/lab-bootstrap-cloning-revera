@@ -1,0 +1,160 @@
+body {
+    font-size: 16px;
+}
+
+nav {
+    background-color: #fff;
+    height: 90.2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #606060;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ED564B;
+}
+
+footer {
+    background-color: #292929;
+    color: #fff;
+}
+
+#gray-sec{
+    background-color: #3B3B3B;
+    min-height: 500px;
+    color: #fff
+}
+
+#white-sec{
+    background-color: #fff;
+    color: #606060;
+}
+
+#pink-sec{
+    background-color: #ED564B;
+    color: #fff
+
+}
+
+.carousel {
+    color: #fff;    
+}
+
+a .carousel-control-next-icon, a .carousel-control-prev-icon {
+    background-color: #ED564B;
+    opacity: 100% !important;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ED564B;
+    padding: 4px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #ED564B;
+    height: 20%;
+    top: 40%;
+    width: 50px;
+    z-index: 4;
+}
+
+.carousel-control-prev {
+    margin: -3px;
+}
+
+.carousel-control-next {
+    margin: -3px;
+}
+
+.carousel-item-div {
+    position: absolute;
+}
+
+.carousel-item div {
+    position: absolute;
+    top: 30%;
+}
+
+.carousel-item-div span {
+    padding: 0 10%;
+}
+
+.btn-outline-light {
+    border-radius: 0;
+    z-index: 30;
+}
+
+.btn-outline-light:hover {
+    background-color: #ED564B;
+    border-color: #ED564B;
+    color: #fff;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.span-pink {
+    color: #F76961;
+}
+
+.col-sm-3 span p {
+    font-weight: 600;
+}
+
+#img-overlay {
+    opacity: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: #000;
+    mix-blend-mode: saturation;
+}
+
+.carousel-item img {
+    background-color: #000;
+    background-image: url("img/overlay.png");
+}
+
+.fas {
+    position: absolute;
+    font-size: 2rem;
+    top: 30%;
+    right: 33%;
+}
+
+.container {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    padding: 0 50px;
+    width: 100%;
+}
+
+.col-sm-3 {
+    min-width:120px;
+}
+
+hr {
+    box-sizing: border-box;
+    border: 1px solid #EBEBEB;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    border-bottom: 2px dotted rgba(235, 235, 235, 0.637);
+}
+
+h5, h3 {
+    margin-bottom: 20px;
+}
+
