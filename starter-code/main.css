@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.carousel-item img {
+  filter: grayscale(1);
+}
+
 .fwidgets {
   background-color:#ed564b;
   color: white;
@@ -10,5 +14,9 @@
   padding: 40px 0px;
   border-top: 5px solid #f96b61;
   border-bottom: 5px solid #f96b61;
+}
+
+ul{
+  display: none; 
 }
 
