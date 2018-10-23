@@ -1,0 +1,49 @@
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+ul{
+    margin: auto; 
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #f4473A;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    margin-top: 15%;
+    width: 3%;
+    height: 10%;
+    background-color: #f4473A;
+}
+
+.col-4 > img {
+    height: 150px;
+}
+
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 25%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    color: #606060;
+}
+
+.section-under {
+    padding-left: 150px;
+}
+
+hr{
+    margin-left: 0;
+    width: 85%;
+}
