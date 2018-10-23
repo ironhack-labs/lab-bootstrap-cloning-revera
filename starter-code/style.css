@@ -1,0 +1,12 @@
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+
+.d-block  {
+  filter: grayscale(1)
+}
+ 
