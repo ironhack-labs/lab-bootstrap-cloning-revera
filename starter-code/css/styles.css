@@ -1,5 +1,176 @@
 body {
-  background-color: lightgray;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+}
+
+#section-one {
+  background-color: #ED564B;
+  color: white;
+}
+#section-one .carousel-div img {
+  filter: grayscale(100%);
+}
+#section-one .carousel-div .carousel-caption h5 {
+  font-size: 26px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#section-one .carousel-div .carousel-caption p {
+  font-size: 16px;
+  font-weight: 200;
+}
+#section-one .carousel-div .carousel-caption button {
+  background-color: transparent;
+  border-color: white;
+}
+#section-one .three-parts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 7.5%;
+}
+#section-one .three-parts .part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#section-one .three-parts .part span {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 50px;
+}
+#section-one .three-parts .part span i {
+  width: 20px;
+  height: 20.5px;
+}
+#section-one .three-parts .part h3 {
+  margin: 15px;
+  font-size: 24px;
+}
+#section-one .three-parts .part p {
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+}
+
+#section-two .container-section {
+  padding: 50px 7.5%;
+  box-sizing: border-box;
+}
+#section-two .container-section .latest h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+#section-two .container-section .latest h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Oxygen", sans-serif;
+  color: #aaaaaa;
+  font-weight: 700;
+}
+#section-two .container-section .latest ul {
+  padding: 0;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  flex-grow: 1;
+}
+#section-two .container-section .latest ul li {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#section-two .container-section .latest ul li a h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+#section-two .container-section .latest ul li img {
+  width: 175px;
+}
+#section-two .container-section .latest ul li p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+#section-two .container-section .latest ul li .item-title {
+  text-align: left;
+}
+#section-two .container-section .latest ul li .meta-data {
+  text-align: left;
+  width: 100%;
+}
+#section-two .container-section .latest ul li .meta-data em {
+  color: #ED564B;
+  font-weight: 700;
+  font-style: normal;
+}
+#section-two .container-section .latest ul li .articles-desc {
+  text-align: left;
+  flex-grow: 1;
+}
+
+footer {
+  border-top: 5px solid #ED564B;
+}
+footer .upper-footer {
+  padding: 30px 7.5%;
+  background-color: #3B3B3B;
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+footer .upper-footer .footer-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 10px;
+}
+footer .upper-footer .footer-section h2 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+footer .upper-footer .footer-section p, footer .upper-footer .footer-section a {
+  font-family: "Oxygen", sans-serif;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+footer .upper-footer .footer-section a {
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 0.7px dotted #aaaaaa;
+}
+footer .lower-footer {
+  background-color: #292929;
+  padding: 10px 7.5%;
+}
+footer .lower-footer span {
+  color: #eeeeee;
+  font-family: "Oxygen", sans-serif;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=styles.css.map */
