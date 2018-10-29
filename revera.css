@@ -1,0 +1,49 @@
+.white-box-nav{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.black-box{
+background-color: black;
+height: 300px;
+width: 100%;
+
+}
+.control-box{
+    background-color:#ed564b;
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.red-box{
+    background-color: red;
+    height: 150px;
+    width: 100%;
+
+}
+
+.white-box{
+    background-color: white;
+    height: 900px;
+    width: 100%;
+
+}
+
+.second-black-box{
+    background-color: black;
+    height: 375px;
+    width: 100%;
+
+}
+
+.grey-box{
+    background-color: grey;
+    height: 150px;
+    width: 100%;
+
+}
