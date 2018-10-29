@@ -1,0 +1,12 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-size-adjust: 100%;
+}
+
+#nav{
+    background: rgb(120,120,120)
+}
+
+#widgets {
+    background: rgb(160,160,160)
+}
