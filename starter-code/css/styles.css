@@ -1,0 +1,29 @@
+#nav-bar{
+  height: 50px;
+  background-color:white;
+}
+
+#header{
+  background-color: black;
+  height: 400px;
+}
+
+#functions{
+  background-color: red;
+  height: 200px;
+}
+
+#latest{
+  background-color: white;
+  height: 700px;
+}
+
+#map{
+  background-color: grey;
+  height: 200px;
+}
+
+#footer{
+  background-color: black;
+  height: 50px;
+}
