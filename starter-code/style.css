@@ -1,0 +1,91 @@
+nav{
+    height: 90px;
+    padding: 24px 0;
+}
+
+nav li a{
+    color: rgb(61, 61, 61);
+}
+
+.active{
+    color: #ed564b;
+}
+
+
+
+
+.jumbotron{
+    background-image: url("./img/slider-1.jpg"); 
+    filter: grayscale(100%);   
+    background-size: cover;
+    padding: 8.5% 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.c-red{
+    text-align: center;
+}
+
+.widgets{
+    background-color: #ed564b;
+    border: 3px solid #e96f67;
+    color: #fff;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.pad3{
+ padding-left: 15px;
+}
+
+.iconp{
+    border: 3px solid white;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto; 
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 35px;
+}
+
+.latest-projects{
+    margin-top: 60px;
+}
+
+.grey{
+    color: grey;   
+}
+
+.date{
+    text-transform: uppercase;
+}
+
+.red{
+    color: #ed564b;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #3B3B3B;
+    color: white;
+    border-top: 3px solid #ed564b;
+    color: rgb(126, 126, 126);
+}
+
+footer p{
+    font-size: 0.9em;
+    line-height: 1em;
+}
+
+.footer-titles{
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer hr{
+    /* background-color: #fff; */
+	border-top: 2px dotted rgb(126, 126, 126);
+}
