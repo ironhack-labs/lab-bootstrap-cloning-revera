@@ -1,6 +1,10 @@
 p{
     font-size: 0.8rem;
 }
+
+.nav-content{
+    padding: 10px 150px;
+}
 .control-box{
     background-color:#ed564b;
     height: 60px;
@@ -71,4 +75,12 @@ p{
 
 #sub-footer{
     background-color: #292929;
+    color:white;
+}
+#sub-footer div {
+    padding: 20px 150px;
+}
+
+.active{
+    color: #ed564b !important;
 }
