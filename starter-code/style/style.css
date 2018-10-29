@@ -4,3 +4,56 @@
     margin-right: auto;
     text-align: center;
 }
+.sub-slider{
+    background-color: #ed554a;
+    color: white;
+    text-align: center;
+    padding: 4% 0;
+}
+.footer{
+    background-color: #383838;
+    color:white;
+}
+.sub-footer{
+    background-color: #242424;
+    padding: 1% 0;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+header img{
+    filter: grayscale(100%);
+}
+.icon{
+    font-size: 4em;
+    margin-bottom: 10%;
+}
+h2{
+    margin-bottom:10%;
+}
+.nameCompany{
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+nav li a{
+    color: #777;
+}
+nav li a:hover{
+    color: #ed554a;
+}
+.active a{
+    color: #ed554a;   
+}
+.padding{
+    padding: 4% 0;
+}
+.delimitador{
+    border-bottom:solid 2px #eaeaea;
+}
+.footer a{
+    color: white;
+}
+.footer li{
+    list-style: none;
+}
