@@ -1,0 +1,148 @@
+
+nav{
+  height: 85px;  
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 28px;
+  padding-left: 15%;
+}
+.navbar-nav{
+  padding-left: 15%;
+}
+
+.contact-red{
+  color: #EB5650;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: 	#EB5650;
+  color: white;
+}
+
+header span{
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5%;
+  margin-top: 25%;
+}
+header i{
+  color: white;
+  font-size: 20px;
+  margin-top: 19%;
+
+}
+header h3{
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 4%;
+
+}
+header p{
+  margin-bottom: 17%;
+  font-size: 15px;
+
+}
+.carousel img {
+  filter: grayscale(); 
+}
+hr{
+  border: 1px solid lightgray;
+}
+section{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+section img{
+  width: 100%;
+  
+}
+.img-group1 .col {
+  text-align: center;
+}
+.h-projects{
+  margin-top: 5%;
+
+}
+.h-articles{
+  margin-top: 5%;
+}
+section h2{
+  color: black;
+  font-weight: bold;
+  font-size: 24px
+  
+}
+section h3{
+  color: lightgray;
+  font-weight: bold;
+  font-size: 18px;  
+}
+.img-group1{
+  margin-bottom: 7%;
+}
+.img-group2{
+  text-align: left;
+}
+.img-group1 img{
+  margin-bottom: 5%;
+}
+.img-group2 img{
+  margin-bottom: 5%;
+}
+.img-group1 span{
+  font-weight: bold;
+}
+
+ .lore{
+  font-weight: bolder;
+  color: black;
+}
+.posted{
+  font-size: 11px;
+  color: grey;
+  font-weight: bold;
+  padding-top: 15%;
+}
+.red  {
+  color: red;
+}
+.img-group2 p {
+  color: grey;
+  margin-bottom: 25%;
+}
+.section-grey{
+  padding-left: 12%;
+  padding-right: 12%;
+  height: 480px;
+  background-color: #3B3B3B;
+  color: white;
+}
+.slim-red{
+  background-color: #EB5650;
+  height: 5px;
+}
+.section-grey h3{
+  padding-top: 25%;
+  margin-bottom: 15%;
+}
+.section-grey p, span{
+  color: grey;
+}
+.section-grey hr{
+  border: 1px dashed grey;
+}
+footer{
+  background-color: #292929;
+  padding: 2% 12%;  
+}
+footer span{
+  color: lightgrey;
+  font-size: 12px;
+}
