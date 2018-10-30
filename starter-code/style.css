@@ -1,0 +1,60 @@
+#navH1{
+      display: flex;
+    justify-content: center;
+
+}
+ul{
+  padding: 0px;
+}
+
+.blackAndWhite {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.colorful{
+  color: tomato;
+}
+.tomato{
+  background-color: tomato;
+}
+
+body{
+  background-color: tomato;
+}
+
+.centerLogo {
+      display: flex;
+    justify-content: center;
+}
+.white{
+  background-color: white;
+}
+
+hr{
+  color: black;
+  background-color: black;
+}
+.whiteColor {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 5vw;
+    padding: 23px;
+}
+.fontWhite{
+  color: white;
+}
+.spacedContainer{
+  margin: 35px 0px;
+}
+.gray{
+  background-color: #222223;
+}
+.dottedBorder{
+  border-bottom: 0.5px dotted gray;
+  list-style: none;
+
+}
+.black{
+  background-color: black;
+}
