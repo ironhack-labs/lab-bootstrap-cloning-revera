@@ -1,3 +1,7 @@
+body{
+  padding:0;
+  margin:0;
+}
 #nav-bar{
   height: 50px;
   background-color:white;
@@ -6,6 +10,8 @@
 #header{
   background-color: black;
   height: 400px;
+  padding:0;
+  margin:0;
 }
 
 #functions{
@@ -27,3 +33,51 @@
   background-color: black;
   height: 50px;
 }
+
+/* div, section, header, nav, footer{
+  border: 1px solid green;
+} */
+
+.contenedor{
+  margin:0 100px;
+}
+
+.navbar-nav{
+  margin: 0 100px;
+}
+
+.carousel-item img{
+  height: 400px;
+  width:100%;
+  filter: grayscale(100%);
+}
+
+.indicators{
+  display:flex;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color:red;
+}
+
+
+#functions .col-sm{
+  color:white;
+  justify-self: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glyphicon-ring {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid white;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+
+
+
