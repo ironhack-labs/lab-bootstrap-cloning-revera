@@ -2,21 +2,81 @@ nav{
     height: 60px;
 }
 
+img{
+    object-fit: cover;
+}
 header{
-    height: 415px;
+  
 }
 
 .sec-header{
     height: 235px;
+    background-color: rgb(230, 62, 58);
+   
 }
 .sec-articles{
-    height: 700px;
+    
 }
 
 .sec-info{
-    height: 305px;
+   
 }
 
 footer{
-    height: 69px;
+    
+}
+
+.second-li{
+    color: red;
+}
+
+.first-li{
+    color: black;
+    font-size: 30px;
+
+}
+
+nav h1{
+    width: 150px;
+}
+
+
+.nav-item{
+    padding-top: 15px;
+}
+
+.nav-item-title{
+    margin-right: 100px;
+}
+
+.row{
+    height: 100%;
+    padding-top: 50px;
+}
+
+.container{
+    margin: auto;
+}
+
+.sec-header > div{
+    color: white;
+}
+
+.image-sec{
+    width: 250px;
+    height: 200px;
+}
+
+.container-articles{
+    padding-top: 30px;
+}
+
+.footer-div{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border-top: 2px solid red;
+}
+
+.copy-div{
+    background-color: rgb(31, 31, 31);
 }
