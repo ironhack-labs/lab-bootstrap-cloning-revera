@@ -1,0 +1,79 @@
+.nav-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:link {
+    color: grey;
+}
+
+.contact {
+    color: #ed564b;
+}
+
+.reveraHead {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-headings {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.column-bar {
+    color: white;
+    background-color: #ed564b;
+    display: flex;
+    border: 5px solid #f96b61;
+    padding-top: 20px;
+}
+
+h6 {
+    color: white;
+}
+
+.column-bar-three {
+    border-top: 5px solid #f96b61;
+    background-color: #3b3b3b;
+    color: #aaa;
+}
+
+.link1:visited {
+    color: #aaa;
+}
+
+.link1:link {
+    color: #aaa;
+}
+
+.column-bar-four {
+    color: white;
+    background-color: #292929;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.circle{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.iconsCenter {
+    text-align: center;
+    padding-left: 20px;
+}
