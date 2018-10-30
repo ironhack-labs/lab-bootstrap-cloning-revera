@@ -2,17 +2,17 @@
 /*------------------------------------------*/
 
 .nav{
-  background:gray;
   height: 50px;
+  background: white;
 }
 
-nav div{
-  background:gray;
-  height: 50px;
+li{
+  text-decoration: none;
+  display: inline;
+  padding-left: 10px;
 }
 
 .header{
-  background: black;
   height: 400px;
 }
 
@@ -22,16 +22,11 @@ div .section1{
 }
 div .section2{
   height: 400px;
-  background: greenyellow
 }
 
-div .section2 .rowSec2{
-  background: green;
-  height: 50%;
-}
 
 div .section3{
-  background: black;
+  background: lightslategray;
   height: 300px;
 }
 
@@ -40,10 +35,14 @@ div .section3{
   height: 50px;
 }
 div{
-  border: 1px blue solid;
+  border: 0px blue solid;
 }
 
 .text-center {
   text-align: center;
 }
 
+.section2 div img{
+  width: 200px;
+  height: auto;
+}
