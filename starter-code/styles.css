@@ -1,3 +1,83 @@
+
 .navigator {
     height: 90px;
+}
+
+.slider {
+    height: 550px;
+    background: black;
+}
+
+.carousel img {
+    filter: grayscale(100%);
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+    
+}
+
+.carousel-control-next-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30px;
+    height: 80px;
+    background: #FF5453;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 4px;
+}
+
+.carousel-control-prev-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30px;
+    height: 80px;
+    background: #FF5453;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 4px;
+}
+
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.firstSection {
+    background: #FF5453;
+    height:330px;
+    text-align: center;
+    color: white;
+    padding: 0px 280px;
+}
+
+.firstSection i {
+    font-size: 100px;
+    margin-bottom: 20px
+}
+
+.firstSection article {
+    margin: 40px 0px 60px 0px;
+}
+
+.secondSection {
+    padding: 0px 280px;
+}
+
+.secondSection img {
+    width: 400px;
+
+}
+
+
+
+.secondSection h3 {
+    font-size: 12px;
 }
