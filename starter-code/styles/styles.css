@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background-color: white;
+    color:black;
+}
+
+.rightnavbar {
+    margin-left: 20%;
+    color: grey;
+    font-size: 12px;
+}
+
+.revera{
+    font-size: 24px;
+}
+
+.home {
+    color: red;
+}
+
+.carousel-caption{
+    margin-bottom: 15%;
+}
+
+.section1{
+    background-color: red;
+    width: 100%;
+    color: white;
+}
+
+.section1 i{
+    color: white;
+}
