@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body{
+    font-family: Roboto; 
+}
+nav img{
+    position: absolute;
+    width:100px; 
+    margin: 10px 0 10px 100px; ; 
+}
+nav{
+    color: black;
+}
+
+header{
+    height: 800px; 
+    margin
+}
+header img{
+    height: 800px; 
+}
+header h1{
+    width: 800px; 
+    text-align: center; 
+    margin: -200px 0 200px 200px; 
+    position: absolute; 
+}
+header p{
+    width: 900px; 
+    text-align:center;
+    margin-left: -1100px;
+    margin-top: -100px; 
+  
+    font-weight: bold; 
+}
+.red{
+    background-color: #ec564a;
+    height: 500px; 
+}
+.col{
+    text-align: center; 
+}
+.col img{
+    margin-top: 70px;
+    width: 220px; 
+}
+
+.section1{
+    margin: 30px 90px; 
+}
+.section1 h1{
+    font-size: 30px;
+}
+.section1 h3{
+    font-size: 15px; 
+    font-weight: bold; 
+}
+
+.separator{
+    margin: 50px 0;
+}
+.section1 p{
+    text-align: justify;
+}
+.section2 {
+    background: #3b3b3b;
+    height: 400px; 
+    color: gray; 
+    
+}
+.section2 p{
+    text-align: left;
+}
+.section2 li{
+    list-style-type: none;
+    text-align: left;
+    border-bottom: 2px dotted gray;
+}
+.section2>div{
+    padding: 50px 100px;
+}
+.section2 h3{
+    font-size: 20px; 
+    text-align: left; 
+    color: white;
+}
+footer{
+    background-color: #292929;
+    color: gray; 
+    margin-bottom:0;
+}
