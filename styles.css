@@ -18,7 +18,7 @@ body{
   align-items: center;
   margin-top: 2rem;
 }
-.top-bar li:first-child{
+a{
   color: red;
 }
 
@@ -45,7 +45,28 @@ body{
 }
 .section2 img{
   max-width: 100%;
-  max-height: 100%;
+  
+}
+.section2 p{
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.section2 h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.section2 h3{
+  font-size: 1rem;
+  color: grey
+}
+.section2 span{
+  font-size: 0.6rem;
+}
+.text p{
+  font-size: 0.8rem;
+  text-align: left;
+  font-weight: 100;
 }
 
 .section3{
