@@ -8,6 +8,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="revera.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <style>
+    .first-row{
+        width: 85%;
+        height: 85%;
+    }
+    .second-row{
+        width: 85%;
+        height: 45%;
+        }
+
+    i {
+        color: white;
+        font-size: 30px;
+
+    }
+    .red-bc{
+        background-color: red;
+        padding: 20px 0;
+    }
+    .line-red{
+        background-color: red;
+        height: 10px;
+        width: 100%;
+    }
+    .bc-grey{
+        background-color: gray;
+    }
+
+    </style>
     <title>Rever Clone</title>
   </head>
   <body>
@@ -28,13 +58,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="starter-code/img/slider-1.jpg" alt="First slide">
+                <img class="w-100" src="starter-code/img/slider-1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="starter-code/img/slider-2.jpg" alt="Second slide">
+                <img class="w-100" src="starter-code/img/slider-2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="starter-code/img/slider-3.jpg" alt="Third slide">
+                <img class="w-100" src="starter-code/img/slider-3.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -46,7 +76,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <header>
+          <header class="red-bc">
             <div class="container">
               <div class="row">
                 <div class="col">
@@ -77,21 +107,21 @@
               <h2 class="h-projects">LATEST PROJECTS</h2>
               <h3>FEW OF THE LATEST PORTFOLIO ITEMS</h3>
               <hr><br>
-              <div class="row img-group1">
+              <div class="row img-group1 d-flex justify-content-between">
                 <div class="col">
-                  <img src="starter-code/img/project-1.jpg" alt="">
+                  <img src="starter-code/img/project-1.jpg" alt="" class="first-row">
                   <span>Lorem, ipsum dolor sit amet</span>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/project-2.jpg" alt="">
+                  <img src="starter-code/img/project-2.jpg" alt="" class="first-row">
                   <span>Lorem, ipsum dolor sit amet consectetur</span>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/project-3.jpg" alt="">
+                  <img src="starter-code/img/project-3.jpg" alt="" class="first-row">
                   <span>Lorem, ipsum dolor sit amet</span>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/project-4.jpg" alt="">
+                  <img src="starter-code/img/project-4.jpg" alt="" class="first-row">
                   <span>Lorem, ipsum dolor sit amet consectetur sit amet</span>
                 </div>
               </div>
@@ -100,7 +130,7 @@
               <hr><br>
               <div class="row img-group2">
                 <div class="col">
-                  <img src="starter-code/img/slider-1.jpg" alt="">
+                  <img src="starter-code/img/slider-1.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing</span><br>
                   <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sunt! Sit ut ducimus modi maxime
@@ -108,7 +138,7 @@
                     inventore ducimus!</p>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/slider-3.jpg" alt="">
+                  <img src="starter-code/img/slider-3.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur</span><br>
                   <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem labore, ipsum modi ea asperiores
@@ -116,7 +146,7 @@
                     fuga?</p>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/slider-4.jpg" alt="">
+                  <img src="starter-code/img/slider-4.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
                   <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid necessitatibus quo illo ipsa
@@ -124,7 +154,7 @@
                     natus aliquam?</p>
                 </div>
                 <div class="col">
-                  <img src="starter-code/img/slider-2.jpg" alt="">
+                  <img src="starter-code/img/slider-2.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
                   <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed, deleniti iusto ipsum amet tenetur
@@ -134,8 +164,8 @@
               </div>
             </div>
           </section>
-          <div class="slim-red"></div>
-          <section class="section-grey">
+          <div class="line-red"></div>
+          <section class="bc-grey">
              <div class="container">
               <div class="row">
                 <div class="col">
