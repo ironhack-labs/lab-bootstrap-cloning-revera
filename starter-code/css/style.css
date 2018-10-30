@@ -1,13 +1,31 @@
 /* ---------------------------------------------- */
 /* ------------------- GENERAL ------------------ */
 /* ---------------------------------------------- */
+* {
+  overflow-x: hidden;
+}
 
+a {
+  color: #ff0020
+}
+
+.text-white a {
+  color: #fff;
+}
+
+p.subtitule {
+  color: #606060;
+}
 
 /* ---------------------------------------------- */
 /* -------------------- NAV --------------------- */
 /* ---------------------------------------------- */
-.menu {
-  min-height: 5rem;
+nav a {
+  color: #606060;
+}
+
+nav a.active {
+  color: #ff0020;
 }
 
 /* ---------------------------------------------- */
@@ -18,12 +36,29 @@ header {
   background-color: #FB363C;
 }
 
+header img {
+  filter: grayscale(100%) brightness(70%) blur(1px);
+}
+
 /* ---------------------------------------------- */
 /* -------------- VALUES SECTION ---------------- */
 /* ---------------------------------------------- */
 .values {
   min-height: 10rem;
   background-color: #FB363C;
+}
+
+.values .icon {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem auto 1rem;
 }
 
 /* ---------------------------------------------- */
