@@ -32,18 +32,34 @@
     color: white;
     background-color: #ed564b;
     display: flex;
-    border: 5px solid #f96b61;
-    padding-top: 20px;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 h6 {
     color: white;
 }
 
+.columnWebDesign {
+    margin-right: 50px;
+}
+
+.columnWebDev {
+    margin-right: 50px;
+}
+
 .column-bar-three {
     border-top: 5px solid #f96b61;
     background-color: #3b3b3b;
     color: #aaa;
+    padding-top: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .link1:visited {
@@ -76,4 +92,17 @@ h6 {
 .iconsCenter {
     text-align: center;
     padding-left: 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
