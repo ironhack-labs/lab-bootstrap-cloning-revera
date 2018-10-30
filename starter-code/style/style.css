@@ -46,7 +46,7 @@ nav li a:hover{
     color: #ed554a;   
 }
 .padding{
-    padding: 4% 0;
+    padding: 2% 0;
 }
 .delimitador{
     border-bottom:solid 2px #eaeaea;
@@ -57,3 +57,19 @@ nav li a:hover{
 .footer li{
     list-style: none;
 }
+section img{
+    padding-bottom: 4%;
+}
+.bold{
+    font-weight: bold;
+}
+section div{
+    text-align:left;
+}
+.date_blog{
+    margin:4% 0;
+}
+.date_blog span{
+    color: #ed554a;
+}
+
