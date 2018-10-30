@@ -26,12 +26,12 @@ div .section2{
 
 
 div .section3{
-  background: lightslategray;
+  background: rgba(0,0,0,0.8);
   height: 300px;
 }
 
 .footer{
-  background: gray;
+  background: rgba(0,0,0,0.6);
   height: 50px;
 }
 div{
