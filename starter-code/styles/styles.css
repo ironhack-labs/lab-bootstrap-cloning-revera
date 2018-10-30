@@ -1,0 +1,49 @@
+
+/*------------------------------------------*/
+
+.nav{
+  background:gray;
+  height: 50px;
+}
+
+nav div{
+  background:gray;
+  height: 50px;
+}
+
+.header{
+  background: black;
+  height: 400px;
+}
+
+div .section1{
+  background: red;
+  height: 200px;
+}
+div .section2{
+  height: 400px;
+  background: greenyellow
+}
+
+div .section2 .rowSec2{
+  background: green;
+  height: 50%;
+}
+
+div .section3{
+  background: black;
+  height: 300px;
+}
+
+.footer{
+  background: gray;
+  height: 50px;
+}
+div{
+  border: 1px blue solid;
+}
+
+.text-center {
+  text-align: center;
+}
+
