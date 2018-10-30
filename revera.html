@@ -19,9 +19,12 @@
         height: 45%;
         }
 
-    i {
+    span i {
         color: white;
         font-size: 30px;
+        border: white 3px solid;
+        border-radius: 70%;
+        padding: 10px;
 
     }
     .red-bc{
@@ -36,13 +39,27 @@
     .bc-grey{
         background-color: gray;
     }
+    .dark-grey-bc{
+        background-color: rgb(80, 79, 79);
+        width: 100%;
+    }
+
+    footer i{
+        color: white;
+        font-size: 20px;
+        border:none;
+    }
+
+    .red{
+        color: red;
+    }
 
     </style>
     <title>Rever Clone</title>
   </head>
   <body>
       <nav>
-          <a href="#" class="nav-item active p-2 bd-highlight">REVERA</a>
+          <a href="#" class="">REVERA</a>
           <div>
               <ul class="navbar-nav d-flex flex-row bd-highlight mb-3 d-flex justify-content-end">
                   <li class="nav-item active p-2 bd-highlight"><a href="#"></a>Home</li>
@@ -132,7 +149,7 @@
                 <div class="col">
                   <img src="starter-code/img/slider-1.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing</span><br>
-                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
+                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY <span class="red">ADMIN</span></span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sunt! Sit ut ducimus modi maxime
                     blanditiis debitis cupiditate accusamus, officia voluptatum iste illo, magnam, ad sequi quasi? Nostrum,
                     inventore ducimus!</p>
@@ -140,7 +157,7 @@
                 <div class="col">
                   <img src="starter-code/img/slider-3.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur</span><br>
-                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
+                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY <span class="red">ADMIN</span></span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem labore, ipsum modi ea asperiores
                     sequi officia eum dolore quas aut, nobis similique mollitia consequuntur ratione placeat officiis provident
                     fuga?</p>
@@ -148,7 +165,7 @@
                 <div class="col">
                   <img src="starter-code/img/slider-4.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
-                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
+                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY <span class="red">ADMIN</span></span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid necessitatibus quo illo ipsa
                     recusandae maxime vero veritatis libero cum quis incidunt molestias eius commodi dicta, facilis veniam
                     natus aliquam?</p>
@@ -156,7 +173,7 @@
                 <div class="col">
                   <img src="starter-code/img/slider-2.jpg" alt="" class="second-row">
                   <span class="lore">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><br>
-                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY ADMIN</span><br><br>
+                  <span class="posted">POSTED ON<span class="red"> AUGUST 19, 2013</span> BY <span class="red">ADMIN</span></span><br><br>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed, deleniti iusto ipsum amet tenetur
                     incidunt animi dolores est reprehenderit adipisci, similique fuga eveniet mollitia nemo, ex hic aperiam
                     consectetur.</p>
@@ -207,7 +224,7 @@
               </div>
             </div>
           </section>
-          <footer>
+          <footer class=" dark-grey-bc">
             <div class="container">
               <div class="row">
                 <div class="col">
