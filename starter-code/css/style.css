@@ -12,11 +12,10 @@ nav{
 }
 
 .carousel-caption h1{
-  position: absolute;
-  top: 0.1%;
+  
   padding-top: 3%;
   margin-left: 15%;
-  margin-bottom: 20%;
+  margin-bottom: 2%;
   font-size: 36px;
   width: 70%;
   text-align: center;
@@ -121,6 +120,7 @@ section h3{
 }
 .img-group1 span{
   font-weight: bold;
+  color: black;
 }
 
  .lore{
