@@ -1,0 +1,43 @@
+body {
+ 
+  
+}
+
+#menu {
+  padding: 1%;
+  background-color: white;
+  color: black;
+}
+
+.bloque{
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+.fila1 {
+  height: 300px;
+}
+
+.fila2 {
+  height: 300px;
+}
+
+
+.fila {
+  width: 300px;
+ height: 200px;
+}
+
+
+.footer {
+  background-color: black;
+  height: 500px;
+  color: white;
+  padding: 50px 30px 50px 70px;
+}
+
+li {
+ list-style: none;
+}
