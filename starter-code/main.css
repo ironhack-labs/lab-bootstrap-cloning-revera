@@ -1,0 +1,42 @@
+.container1{
+    background-color: white;
+    height:50px;
+    justify-content: center
+}
+.baw{
+    filter:grayscale(100%);
+}
+.container2{
+    background-color:black;
+    height:540px;
+}
+.container3{
+    background-color: red;
+    height:250px
+}
+.container4{
+    background-color: white;
+    height:800px;
+    margin-top:50px
+}
+.container5{
+    background-color: black;
+    height:300px
+}
+.container6{
+    background-color: grey;
+    height:250px
+}
+.col-md-4{
+    color:white;
+}
+.col-md-12{
+    
+}
+.col-md-3 {
+  
+
+}
+.col-md-3 li{
+    list-style:none;
+}
