@@ -1,0 +1,31 @@
+.nav-bar{
+    padding-top: 2rem;
+}
+.revera{
+    color:black;
+    margin-right: 6rem;
+}
+.section{
+    background: palevioletred;
+}
+h3{
+    color:whitesmoke;
+    padding-top: 4rem;
+}
+.title-footer{
+    padding-top: 4rem;
+    border-bottom:1px solid grey;
+    padding-left: 12rem;
+}
+.Und-title-footer{
+    color:grey;
+}
+.img-footer{
+    width: 15rem;
+}
+.container-phrph{
+    padding-top: 1rem;
+}
+.content-img-colums{
+    padding-top: 2rem;
+}
