@@ -1,0 +1,87 @@
+@media (min-width: 992px) { 
+  .top-bar{
+    height: 66px;
+    background-color: white;
+  }
+  .navigation-top{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .navigation-top span {
+    justify-content: flex-start;
+    width:20px;
+  }
+  .background-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-image: url("../lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .wrapper{
+    width: 700px;
+    margin-top: 170px;
+  }
+  .background-img h2{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .background-img p{
+    color: white;
+    text-align: center;
+  }
+  .background-img button{
+    border: 1px solid white;
+    width: 150px;
+    height: 45px;
+    margin-left: 39%;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+  }
+  .eachImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  } 
+   .third-section{ 
+    background-color: #ed564b;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .third-section i{
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+  }
+  .third-section h3 {
+    color: white;
+    padding: 0 1%;
+    justify-content: center;
+    text-align: center;
+
+  }
+  third-section p{
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 3px 40px;
+
+  }
+  .space {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+
+ }
