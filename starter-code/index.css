@@ -13,7 +13,11 @@
     color: grey;
 }
 
-.contact {
+.contact:visited {
+    color: #ed564b;
+}
+
+.contact:link {
     color: #ed564b;
 }
 
@@ -105,4 +109,52 @@ h6 {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    font-weight: bold;
 }
+
+
+.carousel-control-prev {
+    background-color: #f96b61;
+    top: 373px;
+    bottom: 272px;
+    width: 4%;
+    height: 11%;
+    opacity: 1.5;
+}
+
+.carousel-control-next {
+    background-color: #f96b61;
+    top: 373px;
+    bottom: 272px;
+    width: 4%;
+    height: 11%;
+    opacity: 1.5;
+}
+
+.link3:visited {
+    color: white;
+}
+
+.link3:link {
+    color: white;
+}
+
+.noHov {
+    opacity: 1.5;
+    filter: alpha(opacity=1000); /* For IE8 and earlier */
+    background-color: f2f3f4
+}
+
+.noHov:hover {
+    opacity: .5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.blackWhite {
+    filter: grayscale(100%)
+}
+
+.underlineLink > li {
+    border-bottom: .5px solid gray;
+}
+
