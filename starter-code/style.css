@@ -1,0 +1,88 @@
+.nav-bar{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    list-style: none;
+    color: grey;
+    padding-left: 1vw;
+}
+
+.h1-car{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.img-height{
+    height: 57vh;
+    filter: grayscale();
+}
+
+.container-background-top{
+    background-color: #ed564b;
+    height: 30vh;
+}
+.about div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container-background-top h6{
+    line-height: 1.5em;
+}
+
+.icon1{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+/* 
+.cnt-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 3vh;
+} */
+
+.second-container{
+    padding-top: 4vh;
+}
+.second-container p {
+    color: grey;
+}
+
+.img-projects{
+    height: 18vh;
+    width: 13vw;
+    text-align: center;
+}
+
+.img-space{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.third-container h6{    
+    padding-top: 1vh;
+    display: flex;
+    align-items: baseline;
+}
+.third-container p {
+    color: grey;
+}
+
+.border{
+    border-bottom: 1px solid grey;
+    padding-bottom: 2vh;
+}
