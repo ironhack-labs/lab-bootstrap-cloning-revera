@@ -29,6 +29,10 @@ body{
 }
 .white{
   background-color: white;
+  margin-bottom: -30px;
+}
+.logoDiv{
+  padding: 30px 1px;
 }
 
 hr{
