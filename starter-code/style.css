@@ -11,7 +11,12 @@ ul{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+/* .arrowSize{
+  height: 15vh;
+  width: 3.5vw;
+  
 
+} */
 .colorful{
   color: tomato;
 }
