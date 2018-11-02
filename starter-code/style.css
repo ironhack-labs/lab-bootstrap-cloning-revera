@@ -1,0 +1,44 @@
+.title-brand{
+    width: 33.33%;
+    float: left;
+}
+
+.carousel-item img{
+    filter: grayscale();
+}
+
+.carousel a{
+
+    background-color: #ed564b;
+    height: 13vh;
+    width: 5vh;
+    margin-top: 32vh;
+
+}
+
+.content{
+    background-color: #ed564b;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 14px;
+    
+}
+
+.content i {
+    font-size:17px;
+    padding: 25px;
+    border: 5px solid white;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.img-content img{
+    width: 100%;
+
+
+}
+
+.project-content{
+    padding: 50px 0;
+}
