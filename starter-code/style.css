@@ -7,6 +7,7 @@
     filter: grayscale();
 }
 
+
 .carousel a{
 
     background-color: #ed564b;
@@ -33,12 +34,53 @@
     margin-bottom:20px;
 }
 
+nav{
+    height: 80px;
+}
+
 .img-content img{
     width: 100%;
+}
 
+.articles img{
+    height: 170px;
+}
 
+.articles span{
+    color:#ed564b;
 }
 
 .project-content{
     padding: 50px 0;
+}
+
+footer{
+border-top:5px solid #ed564b;
+background-color:#3b3b3b;
+color: #aaa;
+font-size:1em;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #aaa;
+    margin:0;
+    padding: 0;
+    text-decoration:none;
+
+}
+
+footer h2{
+    color: white;
+    font-size: 1.5em;
+}
+
+#copyright{
+   background-color: #292929;
+   height:70px;
 }
