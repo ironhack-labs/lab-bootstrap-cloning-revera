@@ -1,0 +1,115 @@
+.navbar-end{
+    justify-content: center;
+    margin: auto;
+
+}
+
+/*.navbar-item, .navbar-link {
+    color:rgb(255, 51, 0);
+}*/
+
+.Banner{
+    background-image:url("../img/slider-1.jpg");
+    background-size: cover;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    a {
+        color:rgb(253, 93, 53);
+        cursor: pointer;
+
+     
+    }
+
+    .tile{
+
+        border:black;
+        padding: 50px;
+        background-color: #eb574f;
+        height: 100px;
+       
+    }
+    .title{
+        color:white;
+        text-align: center;
+    }
+
+    .subtitle{
+        color:white;
+        text-align: center;
+        font-size:12px; 
+
+    }
+
+    .content{
+        color:white;
+        text-align: center;
+        font-size:14px; 
+
+    }
+ 
+
+    #copa{
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+    
+        
+    }
+
+    #estrella{
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+        
+    }
+    #corazon{
+        width: 70px;
+        height: 70px;
+        margin-left: 120px;
+        
+    }
+    
+    .columns.is-variable.is-3-desktop {
+        --columnGap: 0.75rem;
+        margin:90px;
+    }
+
+    hr{
+       
+  
+        margin-left:150px;
+        width: 1100px;
+    }
+
+    #Latest1 {
+    color:black;
+    margin-left:90px;
+    font-size: 20px;
+
+    }
+    #Latest1 p{
+    opacity: .5;
+    font-size:12px;
+    font-weight: strong;
+    }
+
+
+    .footer{
+
+        background-color: black;
+        opacity: .7;
+        padding: 0px, 0px, 0px;
+           
+    }
+
+    
+
+    
+        #BaraNegra{
+            background-color:black;
+            opacity: .9;
+            height: 80px;
+            color:white;
+        }
