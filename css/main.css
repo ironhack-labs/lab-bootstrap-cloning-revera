@@ -1,0 +1,38 @@
+
+.uk-cover-container{
+  background-image: cover;
+  background-position: center;
+  height: 650px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.uk-position-bottom{
+  color: black;
+  text-align: center;
+}
+
+.uk-position-bottom button{
+  background-color: transparent;
+  margin: 10px 10px;
+}
+
+.uk-grid-collapse{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.uk-background-primary{
+  background-color: red;
+  padding-top: -50px;
+  height: 200px;
+  text-align: center;
+  color: white;
+}
+
+.finish-div{
+  width:100%;
+  height: 200px;
+  display:block;
+}
