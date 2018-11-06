@@ -1,0 +1,52 @@
+.uk-slider img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.rojo {
+    background-color: #eb574F;
+    
+}
+.rojo h2{
+    color:white;
+    text-align: center;
+}
+.rojo p{
+    color:white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.columnas{
+    margin-top: 50px;
+    margin-left:150px;
+    margin-right: 150px;
+    margin-bottom:50px;
+}
+
+.columnas img{
+    margin-left: 70px;
+  
+}
+.altura{
+    height: 900px;
+}
+
+.oscuro {
+    font-size: 10px;
+   
+}
+.plomo{
+
+    background-color: rgb(73, 67, 67);
+}
+.plomo p{
+    color:white;
+}
+.plomo h4{
+    color:white;
+}
+.ultimo{
+    background-color:black;
+}
+.ultimo p{
+    color:white;
+}
