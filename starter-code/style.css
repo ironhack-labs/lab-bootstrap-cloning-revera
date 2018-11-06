@@ -1,0 +1,174 @@
+/*BG Color red: #ed574b
+  BG footer: #3a3a3a
+  BG Footnote: #292929*/
+a{
+  color: black;
+}
+
+.nav{
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+h2{
+  font-weight: 700;
+}
+
+.nav-link {
+  padding: .5rem 0.5rem;
+  font-size: 14px;
+}
+
+.carousel-item img {
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+          filter: grayscale(100%); 
+}
+
+.active{
+  color: #ed574b;
+}
+
+
+.carousel-caption {
+  bottom: 115px;
+}
+
+.icono{
+  text-align: center;
+  margin: 20px 42%;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 2em;
+  width: 70px;
+  height: 70px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  top: 50%;
+  width: 5%;
+  background-color: #ed574b;
+  opacity: 1;
+  height: 70px;
+}
+
+.card{
+  text-align: center;
+  border: 0;
+  color: white;
+  background-color: #ed574b;
+}
+
+#cards{
+  background-color: #ed574b;
+}
+
+.card-body{
+  background-color: #ed574b;
+}
+
+.card-title{
+  font-weight: 700;
+}
+
+#lastest-projects{
+  padding: 5em;
+}
+
+hr{
+  background-color: gray;
+}
+
+.section-title p{
+  color: gray;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.no-red .card .card-body{
+  background-color: white;
+  color: black;
+  padding: 1em;
+  text-align: justify;
+}
+
+.no-red .card .card-body h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+span{
+  color: #ed574b;
+}
+
+h6{
+  font-size: 14px;
+  color: gray;
+}
+
+.parrafo{
+  color: #292929;
+}
+
+ul{
+  margin-left: -40px;
+}
+
+li{
+  list-style: none;
+}
+
+.margen{
+  margin: 20px 0;
+}
+
+ul hr{
+  border: 1px dotted #292929;
+    background-color: transparent;
+}
+
+.full{
+  background-color: #ed574b;
+  border: 3px solid #ed574b;
+  margin: 0;
+}
+
+#footer{
+  background-color: #3a3a3a;
+  color: #a7a7a7;
+}
+
+h3{
+  color: white;
+}
+
+
+@media (min-width: 800px){
+.card-deck {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+}
+
+.footer-bottom{
+  background-color: #292929;
+  color: #eee;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.footer-bottom p{
+  margin-left: 5em;
+  font-size: 14px;
+  margin-bottom: 0;
+}
