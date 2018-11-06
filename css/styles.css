@@ -1,0 +1,21 @@
+.banner {
+  background: url(../starter-code/img/project-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FAFAFA;
+  /* height: 400px; */
+}
+
+.categories {
+  background: #FB4E4E;
+}
+
+.level-section {
+  background: #454545;
+  color: #FAFAFA;
+}
+
+.revera-footer {
+  background: #222222;
+  color: #000;
+}
