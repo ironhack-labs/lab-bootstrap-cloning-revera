@@ -1,0 +1,13 @@
+.navbar-end{
+    justify-content: center;
+    margin: auto;
+}
+.banner{
+    background-image: url('../img/project-2.jpg');
+    background-size: cover;
+}
+
+.red{
+    font-size: 16px;
+    color: brown;
+}
