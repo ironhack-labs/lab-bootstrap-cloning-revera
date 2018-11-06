@@ -1,0 +1,86 @@
+
+h5{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-caption p{
+    padding-bottom: 50px;
+}
+
+.imageCard{
+width: 70px;
+height: 70px;
+margin: auto;
+border:4px solid white;
+border-radius: 50%;
+}
+
+.cardBorder{
+    border: 0;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 10px 0px;
+    margin: 0;
+}
+
+.titleCard{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.titleCard p{
+    color:grey;
+}
+
+hr{
+    margin-right: 10%;
+    border: 1px solid grey;
+}
+
+.marginCards{
+margin-left: 10%;
+margin-right: 10%;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.redText{
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(61,61,61);
+    color: grey;
+}
+
+li p{
+    border-bottom: 1px dotted grey;
+}
+
+footer h5{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.darkGrey{
+    background-color: rgb(45,45,45);
+    color:white;
+    text-align: left;
+    padding:10px 10%;
+}
