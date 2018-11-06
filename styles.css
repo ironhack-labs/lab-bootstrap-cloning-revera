@@ -1,0 +1,104 @@
+.uk-navbar-left{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left:8%;
+  background-color: white;
+}
+
+.uk-margin{
+  height: 50px;
+}
+
+.uk-navbar-center{
+  background-color: white;
+}
+
+.uk-slideshow-items{
+  filter: grayscale(1)
+}
+
+
+.uk-position-center-left{
+  background-color: #E74C3C;
+  height:40px;
+  padding-top: 15px;
+}
+
+.uk-position-center-right{
+  background-color: #E74C3C;
+  height:40px;
+  padding-top: 15px;
+}
+
+
+.uk-flex{
+  background-color: #E74C3C;
+  padding-left: 8%;
+}
+.uk-card{
+  width:30%;
+  text-align: center;
+  background-color: #E74C3C;
+  border: 0px;
+  color: white;
+
+}
+
+.latest{
+  margin-left:10%;
+  margin-top: 10%;
+}
+
+.latest h2{
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.latest span{
+  font-size: 12px;
+  color: lightgray;
+}
+
+.uk-card h2{
+  color: white;
+  font-size: 22px;
+  font-weight: bold
+}
+
+.uk-grid{
+margin-right: 10%;
+margin-left: 10%;
+margin-bottom: 10%;
+padding-top: 40px;
+border-top: 1px gray solid;
+
+}
+
+.uk-grid span{
+  font-size: 12px;
+  text-align: center;
+ 
+}
+
+/* .textoImg{
+  border: 10px black solid;
+  width:10px;
+} */
+
+.uk-grid h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.columnas{
+  border-bottom: #E74C3C 4px solid;
+  position: relative;
+}
+
+.pie{
+  background-color: darkgray;
+  margin-top: 300px;
+  width: 100%;
+}
