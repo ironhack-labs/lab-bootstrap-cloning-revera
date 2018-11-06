@@ -1,0 +1,85 @@
+
+.bar{
+  height: 90px;
+}
+.bar a{
+  color: #777;
+}
+.back{
+  background-color: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  padding: 40px 0;
+}
+.container{
+  margin: 0 89px;
+}
+.row{
+  margin: 0 15px;
+}
+.col-sm{
+  padding: 0 15px;
+  text-align: center;
+  color: white;
+}
+
+i{
+  display: inline-block;
+  border-radius: 50px;
+  border:  5px solid white;
+  padding: 0.5em 0.6em;
+  margin: 10px; 
+  font-size: 30px;
+}
+.card-text{
+  text-align: center; 
+}
+
+.card{
+  padding: 10px  15px;
+  margin-left: 40px;
+}
+
+.col-12{
+  margin:60px;
+}
+
+.hometa{
+  margin: 15px 0;
+  font-size: 10px;
+}
+.card-body{
+  padding: 20px 0px;
+}
+.border{
+ 
+}
+.foot{
+  border-top: 5px solid #f96b61;
+  background-color: #3b3b3b;
+  color: #aaa;
+  padding: 50px 0 ;
+}
+.foot li{
+  list-style: none;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+.foot h3{
+  color: white;
+
+}
+footer{
+  background: #292929;  
+  color: #aaa;
+ 
+
+}
+.foot a{
+  color:#aaa;
+  
+  
+}
+.container a{
+  color:#aaa;
+
+}
