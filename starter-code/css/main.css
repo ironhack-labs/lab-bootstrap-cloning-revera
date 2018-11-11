@@ -1,0 +1,18 @@
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+.section-title p {
+    border-bottom: 1px solid #7e7e7e;
+    padding-bottom: 20px;
+}
+
+.col-12 {
+    padding: 0px 0px 0px 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+
+}
