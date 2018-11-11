@@ -16,3 +16,35 @@
     padding: 0px;
 
 }
+#navbarNav a {
+    font-size: 0.8em;
+}
+
+#red-frame {
+    background-color: rgb(220, 96, 82);
+    color: white;
+    padding: 10%;
+}
+
+.section-title {
+    padding-top: 5%;
+}
+
+#footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-top: 2%;
+}
+
+#copyrights {
+    background-color: #242424;
+    color: white;
+}
+
+#footer-content {
+    padding-bottom: 2%;
+}
+
+#lastest-articles {
+    margin-bottom: 5%;
+}
