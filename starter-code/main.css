@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+}
+#section1{
+  padding: 0;
+}
+.section1a{
+  margin-top: 12%;
+  height: 15%;
+  width: 3%;
+  background: #f2544f;
+}
+#section-im1{
+  background: url('../starter-code/img/slider-1.jpg');
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+#section-im2{
+  background: url('../starter-code/img/slider-2.jpg');
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+#section-im3{
+  background: url('../starter-code/img/slider-3.jpg');
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+#section-im4{
+  background: url('../starter-code/img/slider-4.jpg');
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.section-2{
+  color: #FFF;
+  background: #f2544f;
+}
+.section6{
+  color: #aaaaaa;
+  background: #3b3b3b;
+  border-top: 4px solid #f2544f; 
+  padding: 2% 0% 2% 0%;
+}
+.section6cl{
+  list-style: none;
+  padding: 0;
+}
+.section6cl > li > a{
+  color: #aaaaaa;
+}
+.section6cl > li{
+  padding-bottom: 2.3%;
+  padding-top: 2.3%; 
+  border-bottom: 2px dotted #aaaaaa;
+}
+.section7{
+  color: #FFF;
+  background: rgb(40,40,40);
+  padding: 2% 0% 2% 0%;
+  font-size: 12px;
+}
+.section7 > div > div > div > a{
+  color: #FFF;
+}
+.section-3{
+  text-align: center;
+}
+.section-4{
+  border-bottom: 1px solid #e1e1e1; 
+  padding: 0;
+  margin-bottom: 2%;
+}
+.section-4 > h2{ 
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.section-4p{
+  padding: 0;
+  margin-bottom: 4%;
+}
+.section-4p > div > h3 > a{
+  color: #000000;
+  font-weight: bolder;
+}
+.section-4p > div > h3{
+  margin: 1% 0% 2% 0%;
+  font-size: 1.1em;
+  line-height: 1.2;
+
+}
+.time-p{
+  color: #f2544f;
+}
+.circle{
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  padding: 20px;
+  line-height: 1.6em;
+}
+.section2-h{
+  margin-top: 13%;
+}
+.nav-list-a{
+  color: #aaaaaa;
+}
+.nav-list-color > a{
+  color: #aaaaaa;
+}
+.home-co{
+  color: #f2544f;
+}
+.section1h{
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 2.4em;
+}

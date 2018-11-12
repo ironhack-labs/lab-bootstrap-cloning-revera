@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>revera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="../starter-code/main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div>
+    <header class="header">
+      <div class="navbar">
+        <div class="col-sm-4">
+          <h1 class="site-title">
+            <a title="revera" rel="home">REVERA</a>
+          </h1>
+        </div>
+        <div class="col-sm-8 ">
+          <div class="navbar navbar-expand-lg justify-content-end">
+            <ul class="navbar-nav nav-list-color">
+              <li class="nav-item">
+                <a class="nav-link home-co" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-a" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-a" href="#">Sample Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-a" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-a" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-list-a" href="#" id="navbardrop" data-toggle="dropdown">Parent page</a>
+                <div class="dropdown-menu nav-list-color">
+                  <a class="dropdown-item" href="#">Full Page</a>
+                  <a class="dropdown-item" href="#">Child page 1</a>
+                  <a class="dropdown-item" href="#">Child page 2</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-a" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="section1" class="carousel slide container-fluid" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="section-im1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="section1h">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h2>
+              <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              <a class="frmore" href="#"> READ MORE </a>
+            </div>
+          </div>
+          <div class="carousel-item" id="section-im2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="section1h">Falauris sollicitudin quis dolor venenatis facilisis</h2>
+              <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+              <a class="frmore" href="#"> READ MORE </a>
+            </div>
+          </div>
+          <div class="carousel-item" id="section-im3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="section1h">Suspendisse ornare, felis feugiat suscipit pharetra</h2>
+              <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+              <a class="frmore" href="#"> READ MORE </a>
+            </div>
+          </div>
+          <div class="carousel-item" id="section-im4">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="section1h">Fusce scelerisque nibh ac nisl luctus interdum.</h2>
+              <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+              <a class="frmore" href="#"> READ MORE </a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev section1a" href="#section1" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next section1a" href="#section1" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="jumbotron section-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 homewidget section-3">
+            <span class="circle">
+              <i class="fas fa-glass-martini"></i>
+            </span>
+            <h3 class="section2-h">Web design</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+          </div>
+          <div class="col-sm-4 homewidget section-3">
+            <span class="circle">
+              <i class="fas fa-star"></i>
+            </span>
+            <h3 class="section2-h">Web development</h3>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+          </div>
+          <div class="col-sm-4 homewidget section-3">
+            <span class="circle">
+              <i class="fas fa-heart"></i>
+            </span>
+            <h3 class="section2-h">User interface</h3>
+            <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-content">
+      <div class="container">
+        <div class="section-wide">
+          <div class="row">
+            <div class="section-title col-12 section-4">
+              <h2>Latest Projects</h2>
+              <p>Few of the latest portfolio items</p>
+            </div>
+            <div class="container row section-4p">
+              <div class="col-sm-3 col-6 portbox">
+                <img class="img-fluid" src="../starter-code/img/project-1.jpg" alt="">
+                <h3>
+                    <a href="#"> Nunc libero elit, iaculis nec augue non</a>
+                </h3>
+              </div>
+              <div class="col-sm-3 col-6 portbox">
+                <img class="img-fluid" src="../starter-code/img/project-2.jpg" alt="">
+                <h3>
+                    <a href="#"> Nunc libero elit, iaculis nec augue non</a>
+                </h3>
+              </div>
+              <div class="col-sm-3 col-6 portbox">
+                <img class="img-fluid" src="../starter-code/img/project-3.jpg" alt="">
+                <h3>
+                    <a href="#"> Vivamus blandit ipsum sed arcu euismod</a>
+                </h3>
+              </div>
+              <div class="col-sm-3 col-6 portbox">
+                <img class="img-fluid" src="../starter-code/img/project-4.jpg" alt="">
+                <h3>
+                    <a href="#"> Vivamus blandit ipsum sed arcu euismod</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-wide sec">
+          <div class="row">
+            <div class="section-title col-12 section-4">
+              <h2>Latest Articles</h2>
+              <p>Latest posts from the blog</p>
+            </div>
+            <div class="container row section-4p">
+              <div class="col-sm-3 col-6 postbox">
+                <img class="img-fluid" src="../starter-code/img/slider-1.jpg" alt="">
+                <h3>
+                    <a href="#"> Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+                </h3>
+                <div class="hometa">
+                    <span class="posted-on">Posted on
+                      <a href="#" title="5:33 am" rel="bookmark">
+                        <time class="entry-date published time-p" datetime="2013-08-19T05:33:33+00:00">August 19, 2013</time>
+                      </a>
+                    </span>
+                    <span class="byline"> by
+                      <span class="author vcard time-p">
+                        <a class="url fn n time-p" href="#" title="View all posts by admin">admin</a>
+                      </span>
+                    </span>
+                </div>
+                <p>uis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+              <div class="col-sm-3 col-6 postbox">
+                <img class="img-fluid" src="../starter-code/img/slider-2.jpg" alt="">
+                <h3>
+                    <a href="#"> Falauris sollicitudin quis dolor venenatis facilisis</a>
+                </h3>
+                <div class="hometa">
+                    <span class="posted-on">Posted on
+                      <a href="#" title="5:32 am" rel="bookmark">
+                        <time class="entry-date published time-p" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time>
+                      </a>
+                    </span>
+                    <span class="byline"> by
+                      <span class="author vcard time-p">
+                        <a class="url fn n time-p" href="#" title="View all posts by admin">admin</a>
+                      </span>
+                    </span>
+                </div>
+                <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+              </div>
+              <div class="col-sm-3 col-6 postbox">
+                <img  class="img-fluid" src="../starter-code/img/slider-3.jpg" alt="">
+                <h3>
+                  <a href="#"> Suspendisse ornare, felis feugiat suscipit pharetra</a>
+                </h3>
+                <div class="hometa">
+                  <span class="posted-on">Posted on
+                    <a href="#" title="5:30 am" rel="bookmark">
+                      <time class="entry-date published time-p" datetime="2013-08-19T05:30:37+00:00">August 19, 2013</time>
+                    </a>
+                  </span>
+                  <span class="byline time-p"> by <span class="author vcard time-p">
+                    <a class="url fn n time-p" href="#">admin</a>
+                  </span>
+                </span>
+              </div>
+                   <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+              </div>
+              <div class="col-sm-3 col-6 postbox">
+                  <img class="img-fluid" src="../starter-code/img/slider-4.jpg" alt="">
+                  <h3>
+                    <a href="#"> Festibulum purus odio, ornare non posuere</a>
+                  </h3>
+                  <div class="hometa">
+                    <span class="posted-on">Posted on
+                      <a href="#" title="5:30 am" rel="bookmark">
+                        <time class="entry-date published time-p" datetime="2013-08-19T05:30:01+00:00">August 19, 2013</time>
+                      </a>
+                    </span>
+                    <span class="byline"> by
+                      <span class="author vcard time-p">
+                        <a class="url fn n time-p" href="#" title="View all posts by admin">admin</a>
+                      </span>
+                    </span>
+                  </div>
+                  <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom" class="section6">
+        <div class="container">
+            <div class="row">
+              <div class="botwid col-6 col-lg-3 widget_text">
+                <h3 class="bothead">Revera</h3>
+                <div class="textwidget">
+                  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                </div>
+              </div>
+              <div class="botwid col-6 col-lg-3 widget_meta ">
+                <h3 class="bothead">Meta</h3>
+                <ul class="section6cl">
+                  <li><a rel="nofollow" href="#">Log in</a></li>
+                  <li><a href="#">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                  <li><a href="#">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                  <li><a href="#" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+                </ul>
+              </div>
+              <div class="botwid col-6 col-lg-3 widget_archive">
+                <h3 class="bothead">Archives</h3>
+                <ul class="section6cl">
+                  <li>
+                  <a href="#">August 2013</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="botwid col-6 col-lg-3 widget_recent_entries">
+            <h3 class="bothead">Recent Posts</h3>
+            <ul class="section6cl"> 
+                <li>
+                  <a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+                </li>
+                <li>
+                  <a href="#">Nunc libero elit, iaculis nec augue non</a>
+                </li>
+                <li>
+                  <a href="">Falauris sollicitudin quis dolor venenatis facilisis</a>
+                </li>
+                <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>
+                  </li>
+                <li>
+              <a href="#">Vivamus blandit ipsum sed arcu euismod</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer id="colophon" class="site-footer section7" role="contentinfo">
+        <div class="container">
+          <div class="site-info wrap row">
+            <div class="fcred col-12">
+              Copyright © 2018 <a href="#" title="revera">revera</a> - Just another demo Sites site.<br>
+               | <a href="http://topwpthemes.com/Revera/">Revera Theme</a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
