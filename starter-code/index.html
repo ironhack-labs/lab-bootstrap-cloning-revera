@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My first styled page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">revera</a>
+      <button id="not-border" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link" href="#">home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">about</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">sample page</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">blog</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="parent-page-dropdown" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">parent page</a>
+            <div class="dropdown-menu" aria-labelledby="parent-page-dropdown">
+              <a href="#" class="dropdown-item">full page</a>
+              <a href="#" class="dropdown-item">child page 1</a>
+              <a href="#" class="dropdown-item">child page 2</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3" class=""></li>
+    </ol>
+    <div class="carousel-inner carrousel-inner-main">
+      <div class="carousel-item active">
+        <img class="d-block w-100 image-carousel" src="assets/img/slider-1.jpg" alt="First slide [800x400]"
+          data-holder-rendered="true">
+        <div class="carousel-caption   d-md-block caption-div">
+          <h5>Lorem ipsum dolor sit amet, quis consectetur adipiscing elit.</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. [...]</p>
+          <button type="button" class="btn btn-outline-light carousel-button">READ MORE</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 image-carousel" src="assets/img/slider-2.jpg" alt="First slide [800x400]"
+          data-holder-rendered="true">
+        <div class="carousel-caption d-md-block caption-div">
+          <h5>Lorem quis consectetur adipiscing elit,orem ipsum dolor sit.</h5>
+          <p>irure dolor in reprehenderit inLorem ipsum dolor sit amet, orem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod teconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco [...]</p>
+          <button type="button" class="btn btn-filled-light carousel-button">READ MORE</button>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100 image-carousel" src="assets/img/slider-3.jpg" alt="First slide [800x400]"
+          data-holder-rendered="true">
+        <div class="carousel-caption   d-md-block caption-div">
+          <h5>Lorem ipsum dolor sit amet, quis consectetur.</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. [...]</p>
+          <button id="carousel-button-1" type="button" class="btn btn-outline-light carousel-button">READ MORE</button>
+          <button id="carousel-button-2" type="button" class="btn btn-filled-light carousel-button">READ MORE</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 image-carousel" src="assets/img/slider-4.jpg" alt="First slide [800x400]"
+          data-holder-rendered="true">
+        <div class="carousel-caption d-md-block caption-div">
+          <h5>Lorem quis consectetur adipiscing elit,orem ipsum dolor sit.</h5>
+          <p>irure dolor in reprehenderit inLorem ipsum dolor sit amet, orem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod teconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco [...]</p>
+          <button type="button" class="btn btn-filled-light carousel-button">READ MORE</button>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="arrow-back" id="prev"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="arrow-back" id="next"></span>
+      </a>
+    </div>
+  </div>
+
+  <section class="section-2">
+    <div class="container new-max-width">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4  col-12 icon-text">
+          <span class="cup-icon"><i class="fas fa-glass-martini"></i></span>
+          <h5 class="cup-h5">Web design</h5>
+          <p class="paragraph-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
+          </p>
+        </div>
+        <div class="col-lg-4 col-sm-4  col-12 icon-text">
+          <span class="star-icon"><i class="fas fa-star"></i></span>
+          <h5 class="cup-h5">Web development</h5>
+          <p class="paragraph-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
+          </p>
+        </div>
+        <div class="col-lg-4 col-sm-4  col-12 icon-text">
+          <span class="cup-icon"><i class="fas fa-heart"></i></span>
+          <h5 class="cup-h5">User interface</h5>
+          <p class="paragraph-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-main-1" class="section-main">
+    <div class=container>
+      <h4>LATEST PROJECTS</h4>
+      <p class="subtitle">FEW OF THE LAST PORTFOLIO ITEMS</p>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-6 project">
+          <img src="./assets/img/project-1.jpg" alt="">
+          <p>Nunc libero elit, iaculis nec augue non</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 project">
+          <img src="./assets/img/project-2.jpg" alt="">
+          <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 project">
+          <img src="./assets/img/project-3.jpg" alt="">
+          <p>Vivamus blandit ipsum sed arcu euismod</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 project">
+          <img src="./assets/img/project-4.jpg" alt="">
+          <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-main-2" class="section-main">
+    <div class=container>
+      <h4>LATEST ARTICLES</h4>
+      <p class="subtitle">LATEST POSTS FROM THE BLOG</p>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-6 post">
+          <img src="./assets/img/post-1.jpg" alt="">
+          <p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
+          <span>POSTED ON <a class="post-info">AUGUST 19, 2013</a> BY <a>ADMIN</a></span>
+          <p id="post-content">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis
+            porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+            Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+            erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+            Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 post">
+          <img src="./assets/img/post-2.jpg" alt="">
+          <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+          <span>POSTED ON <a class="post-info">AUGUST 19, 2013</a> BY <a>ADMIN</a></span>
+          <p id="post-content">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem
+            in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+            Suspendisse at magna ut sem blandit hendrerit non ut
+            magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat.
+            Maecenas fermentum bibendum […]</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 post">
+          <img src="./assets/img/post-3.jpg" alt="">
+          <p>Vivamus blandit ipsum sed arcu euismod</p>
+          <span>POSTED ON <a class="post-info">AUGUST 19, 2013</a> BY <a>ADMIN</a></span>
+          <p id="post-content">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra,
+            lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique.
+            Curabitur imperdiet leo in nisl consectetur mattis. Quisque
+            bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin
+            blandit id tellus non pellentesque. Mauris […]</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 post">
+          <img src="./assets/img/post-4.jpg" alt="">
+          <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+          <span>POSTED ON <a class="post-info">AUGUST 19, 2013</a> BY <a>ADMIN</a></span>
+          <p id="post-content">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque
+            vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Nulla facilisi.
+            Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque
+            dictum, ligula […]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="botwid col-6 col-lg-3">
+          <h5>REVERA</h5>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula
+            erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec
+            venenatis turpis. Aenean euismod arcu
+            vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+        </div>
+        <div class="botwid col-6 col-lg-3">
+          <h5>META</h5>
+          <ul>
+            <li><a>Log In</a></li>
+            <li><a>Entries RSS</a></li>
+            <li><a>Comments RSS</a></li>
+            <li><a>Wordpres</a></li>
+          </ul>
+        </div>
+        <div class="botwid col-6 col-lg-3">
+          <h5>ARCHIVES</h5>
+          <ul>
+            <li><a>August 2013</a></li>
+          </ul>
+        </div>
+        <div class="botwid col-6 col-lg-3">
+          <h5>RECENT POSTS</h5>
+          <ul>
+            <li><a>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+            <li><a>Nunc libero elit, iaculis nec augue non</a></li>
+            <li><a>Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+            <li><a>Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+            <li><a>Vivamus blandit ipsum sed arcu euismod</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="footer-copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" id="no-padding">
+          <p>Copyright © 2018 revera - Just another demo Sites site.</p>
+          <p>| Revera Theme</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
