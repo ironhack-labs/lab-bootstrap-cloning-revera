@@ -1,0 +1,60 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  /*Sin esto si le das click en el link full page se queda desplegada la lista!!!*/
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  
+  header{
+   background-image: url(img/slider-1.jpg);
+   
+  }
+
+
+
+
+
+.head-container h1{
+    font-weight: lighter;
+    color: rgb(57, 55, 55);
+    text-align: center;
+}
+
+
+.container-fluid{
+    background-color: rgb(242, 84, 79);
+    color: #fff;
+    font-size: 10px;
+    height: 300px;
+    
+}
+.circle{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline;
+    padding: 2px;
+}
+
+
+.cont2-img{
+    width: 80%;
+    text-align: center;
+}
+
+.art-text{
+    color: #989595;
+    font-size: 1em;
+}
+span{
+    color: #8e2121;
+    font-size: 1em;
+}
+.titles{
+    font-size: 1.5em;
+}
+
+.articles{
+    font-size: .8em;
+    text-align: center;
+}
