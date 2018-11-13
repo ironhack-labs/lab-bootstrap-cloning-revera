@@ -1,0 +1,33 @@
+.fwidgets
+{
+    padding: 40px 0px;background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+#bottom{
+    padding: 20px 0px 40px 0px; 
+    background: #3b3b3b; 
+    border-top: 5px solid #ed564b;
+    color: white;
+}
+
+
+#colophon{
+
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+}
+
+
+.homewidget{
+    background: transparent; 
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+ }
