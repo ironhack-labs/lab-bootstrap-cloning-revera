@@ -1,0 +1,111 @@
+.icon-big {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.contenedor {
+   background: #ed564b;
+   padding: 40px 0px;
+   text-align: center;
+   color: #fff;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.carousel img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.title-container {
+  padding-top: 40px;
+}
+.title {
+  border-bottom: 1px solid #aaa;
+  text-transform: uppercase;
+}
+
+.title h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.title p {
+  color: #aaa;
+}
+
+.projects {
+  padding-top: 40px;
+}
+
+.articles {
+  padding-top: 40px;
+}
+
+.articles p {
+  color: #aaa;
+}
+
+.articles h3 {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.sub-footer {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+.sub-footer ul {
+    margin: 0px
+    0px;
+    padding: 0px
+}
+
+.sub-footer h3 {
+  color: #fff;
+}
+
+
+.sub-footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub-footer li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+}
+
+.sub-footer li a {
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+  display: block;
+  color: #aaa;
+}
+
+.text-bg {
+  color: #aaa;
+}
