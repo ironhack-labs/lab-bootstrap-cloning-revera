@@ -1,0 +1,80 @@
+body{
+   margin: 0;
+   padding: 0;
+
+}
+a{    
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.archivo{
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    padding: 20px 0px 40px 0px;
+    
+}
+.archivo h3 {
+    color: #ffffff;
+}
+
+.servicios{
+    background-color: #ed564b;
+    padding: 50px 0 50px;
+    color: #ffffff
+}
+.servicio-text{
+    text-align: center
+}
+
+#icono{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+}
+.img-icono{
+    margin-top: 30%
+}
+.footer{
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: #ffffff
+}
+.footer a{
+    color: #ffffff; 
+    text-align: left; 
+    padding-top: 1px;
+}
+
+.latest{
+    padding-top: 30px;
+
+
+}.latest p{
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+
+}
+.link-footer a{
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: justify;
+    
+
+    
+}
