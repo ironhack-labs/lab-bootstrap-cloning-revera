@@ -23,7 +23,7 @@
 #red-frame {
     background-color: rgb(220, 96, 82);
     color: white;
-    padding: 10%;
+    padding: 6%;
 }
 
 .section-title {
@@ -47,4 +47,26 @@
 
 #lastest-articles {
     margin-bottom: 5%;
+}
+
+#red-frame div span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.slider-btn {
+    color-background:  rgb(220, 96, 82);
+};
+
+.img-slider {
+    width: 100%;
 }
