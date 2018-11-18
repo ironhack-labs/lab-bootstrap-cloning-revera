@@ -3,6 +3,15 @@ body {
   font-size: 14px;
 }
 
+/* BOOTSTRAP CHANGES */
+
+.col-sm-3 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* NAVBAR */
+
 h1 {
   font-weight: bold;
 }
@@ -76,13 +85,13 @@ h1 {
 
 
 
-/* LATEST PROJECTS */
+/* LATEST PROJECTS & ARTICLES */
 
-.project-container {
-  padding: 5% 10%;
+.project-container, .blog-container {
+  padding: 3% 10%;
 }
 
-.project-container h2 {
+.project-container h2, .blog-container h2 {
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -91,7 +100,7 @@ h1 {
   color: #aaa;
 }
 
-.project-container img {
+.project-container img, .blog-container img {
   padding-top: 1rem;
 }
 
@@ -107,3 +116,46 @@ h1 {
   text-decoration: none;
   color: #000;
 }
+
+
+
+/* LATEST ARTICLES */
+
+.subtitle {
+  color: #aaa;
+}
+
+.blog-container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-container h3  {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1rem;
+  padding-top: 1rem;
+}
+
+.blog-container img {
+  padding-top: 1rem;
+}
+
+.posted {
+  font-size: 0.6rem;
+  color: #000;
+}
+
+.blog-container p a {
+  color: #ed564b;
+  text-decoration: none;
+}
+
+.description-post {
+  font-size: 0.8rem;
+}
+
+
+
+
+
