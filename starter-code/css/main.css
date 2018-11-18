@@ -22,6 +22,10 @@ h1 {
   margin: 0 12px;
 }
 
+
+
+/* SLIDER */
+
 .slide-container {
   background-color: #000;
   height: 400px;
@@ -41,10 +45,12 @@ h1 {
   margin: auto;
 }
 
+
+
+/* CATEGORY ICONS */
+
 .category-icons {
   background-color: #ed564b;
-  border-top: 5px solid #f96b61;
-  border-bottom: 5px solid #f96b61;
   text-align: center;
   color: #FFF;
   padding: 3% 10%;
@@ -58,6 +64,7 @@ h1 {
 .card h3 {
   font-weight: bold;
   margin-top: 10%;
+  font-size: 1.4rem;
 }
 
 .card i {
@@ -67,3 +74,36 @@ h1 {
   padding: 5%;
 }
 
+
+
+/* LATEST PROJECTS */
+
+.project-container {
+  padding: 5% 10%;
+}
+
+.project-container h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.project-container p {
+  color: #aaa;
+}
+
+.project-container img {
+  padding-top: 1rem;
+}
+
+.project-container h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.project-container a {  
+  text-decoration: none;
+  color: #000;
+}
