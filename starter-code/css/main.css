@@ -1,4 +1,58 @@
-
 #rev-bran {
 	font-size: 60px;
+
+}
+.active a {
+	color: #FA8072;
+}
+.nav-link:hover {
+	color: #FA8072;
+	text-decoration: none;
+}
+
+
+#coral {
+	background-color: #FA8072;
+	color: white;
+}
+.glyphicon {
+	padding: 1.5em;
+	border: 2px solid white; 
+	border-radius: 99px;
+}
+
+.card {
+	border-style: none;
+	display: inline-block;
+	width: 20em;
+
+}
+
+	
+
+
+#grey {
+	border-top: 5px solid #FA8072;
+	background-color: #57595D;
+	color: white;
+}
+
+
+#grey a {
+	color: #BCC0C4;
+}
+
+#grey a:link {
+	color: #BCC0C4;
+	text-decoration: none;
+}
+
+#grey a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#dark-grey {
+	background-color: #393B3D;
+	color: white;
 }
