@@ -56,19 +56,21 @@ nav a {
 #carousel .carousel-control .glyphicon-chevron-right,
 #carousel .carousel-control .icon-next {
     background: #ed564b;
-    height: 100px;
-    padding: 15px;
-    width: 50px;
+    height: 70px;
+    padding: 2%;
+    width: 50px;    
 }
 
 #carousel .carousel-control .glyphicon-chevron-left,
 #caoursel .carousel-control .icon-prev {
     left: 10px;
+    line-height: 60px;
 }
 
 #carousel .carousel-control .glyphicon-chevron-right,
 #carousel .carousel-control .icon-next {
     right: 10px;
+    line-height: 60px;
 }
 
 #carousel .carousel-inner>.item>a>img,
@@ -103,7 +105,7 @@ main section a {
 
 footer {
     background: #666;
-    border-top: 2px solid #f96b61;
+    border-top: 3px solid #f96b61;
     color: #FFF;
     margin: 40px 0 0;
     padding-top: 40px;
