@@ -1,0 +1,136 @@
+#highlights {
+    background: #ed564b;
+    border-top: 2px solid #f96b61;
+    color: #FFF;
+    padding: 40px 0;
+}
+
+#highlights .glyphicon {
+    border: 4px solid #FFF;
+    border-radius: 50%;
+    height: 70px;
+    font-size: 18px;
+    line-height: 62px;
+    width: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+}
+
+hr {
+    border-top-color: #CCC;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #333;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #ed564b;
+    background: transparent;
+}
+
+#carousel .carousel-control {
+    background: none;
+    opacity: 1;
+}
+
+#carousel .carousel-control .glyphicon-chevron-left,
+#caoursel .carousel-control .icon-prev,
+#carousel .carousel-control .glyphicon-chevron-right,
+#carousel .carousel-control .icon-next {
+    background: #ed564b;
+    height: 100px;
+    padding: 15px;
+    width: 50px;
+}
+
+#carousel .carousel-control .glyphicon-chevron-left,
+#caoursel .carousel-control .icon-prev {
+    left: 10px;
+}
+
+#carousel .carousel-control .glyphicon-chevron-right,
+#carousel .carousel-control .icon-next {
+    right: 10px;
+}
+
+#carousel .carousel-inner>.item>a>img,
+#carousel .carousel-inner>.item>img {
+    width: 100%;
+}
+
+#carousel img {
+    filter: grayscale(1)
+}
+
+main section .header h2 {
+    text-transform: uppercase;
+}
+
+main section .header p {
+    color: #CCC;
+    text-transform: uppercase;
+}
+
+main section img {
+    margin-bottom: 10px;
+}
+
+main section .data {
+    text-transform: uppercase;
+}
+
+main section a {
+    color: #ed564b;
+}
+
+footer {
+    background: #666;
+    border-top: 2px solid #f96b61;
+    color: #FFF;
+    margin: 40px 0 0;
+    padding-top: 40px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    list-style: none;
+    border-bottom: 1px dotted #CCC;
+    padding: 5px 0;
+}
+
+footer li a {
+    color: #CCC;
+    text-decoration: none;
+}
+
+#copyright {
+    background: #333;
+    padding: 15px 0;
+    margin: 40px 0 0;
+}
