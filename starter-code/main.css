@@ -1,0 +1,77 @@
+.logo {
+    margin-left: 10%;
+    font-weight: bolder;
+    color: black;
+}
+
+span ul{
+    display: inline-flex !important;
+    
+}
+
+span ul li a {
+    color: black;
+}
+
+.containerPrincipal {
+    background-image: url("img/slider-1.jpg");
+    background-size: cover;
+    height: 630px;
+    background-attachment: fixed;
+    filter: grayscale(94%);
+    display: inline-block;
+    justify-items: center;
+}
+
+.containerPrincipal p, h1 {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+.containerInfo {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.item {
+    width: 20%;
+}
+
+.divItens{
+    width: 100%;
+    font-size: 10px;
+}
+
+.containerLink {
+    width: 90%;
+    margin: 5% auto;
+
+}
+
+.containerLink > div > p {
+    border-bottom: 1px solid black;
+    width: 320px;
+}
+
+.containerLink h2 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.divItens img {
+    width: 160px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+    padding: 2% auto;
+}
