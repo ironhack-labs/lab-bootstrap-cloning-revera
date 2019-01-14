@@ -1,0 +1,15 @@
+.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+}
+
+a.nav-link {
+  color: rgb(175, 130, 47);
+}
+
