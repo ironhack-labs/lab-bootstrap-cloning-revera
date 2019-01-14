@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+/***NAV***/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 20px;   
+}
+
+.name-theme span {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 2em;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 400px;
+}
+
+.main-menu a {
+    color: #777;
+    text-decoration: none;
+}
+
+.main-menu li {
+    padding: 10px;
+}
+
+.main-menu a:hover {
+    color: #ed564b;
+}
+
+.main-menu span{
+    color: #ed564b;
+}
+
+/***HEADER***/
+header {
+    background-image: url("img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;   
+    text-align: center;
+    color: white;
+}
+
+.header-text {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.header-text h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.header-text header p {
+    font-size: 1em; 
+}
+
+.header-text button {
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 20px;
+}
+
+/***SECTION 1***/
+
+.service-box{
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    padding: 40px 200px; /**Puedo usar padding con las columnas?**/
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+} 
+
+.service-box h3 {
+    font-size: 1.5em;
+}
+
+.service-box p {
+    font-size: 0.8em;
+
+    
+}
+
+.service-box article img {
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+
+/***SECTION 2***/
+
+.section-projects {
+    background-color: white;
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.section-projects img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.section-projects .center-text{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-projects a {
+    color: #ed564b;
+    text-decoration: none;
+}
+
+.section-projects a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.section-projects h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.section-projects span {
+    color: #aaa;
+    font-size: 1.4;
+    font-weight: bold;
+}
+.section-projects h5 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.section-projects h6 {
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    color: #606060;
+}
+
+.section-projects p {
+    font-size: 0.8em;
+    color:#606060;
+}
+
+/***SECTION 3***/
+.resume-section{
+    background-color: #2E2E2E;
+    padding: 40px 0;
+    border-top: 3px solid #ed564b;
+}
+
+.resume-section h4 {
+    color: white;
+}
+
+.resume-section p{
+   color:#606060;
+}
+
+.content-box {
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+.content-box a {
+    text-decoration: none;
+    color: #606060;
+}
+
+.content-box hr {
+    background-color:#606060;
+}
+
+.content-box h4 {
+    font-size: 1em;
+}
+
+.content-box p{
+    font-size: 0.8em;
+}
+
+/***FOOTER***/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 0.7em;
+    padding: 10px 0;
+}
+
+footer .footer-box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
