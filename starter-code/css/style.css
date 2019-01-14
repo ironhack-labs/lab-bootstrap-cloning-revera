@@ -97,6 +97,9 @@ h4 a {
     background: #292929;
     font-size: 12px;
 }
+.fixSlider {
+    width:100%;
+}
 
 .gris {
     color: #aaa;
