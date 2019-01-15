@@ -1,0 +1,65 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+ }
+
+
+.list {
+  margin: 0 5px;
+}
+
+
+header {
+background-image: url("project-2.jpg");
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+height: 550px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center; 
+flex-direction: column;
+text-align: center;
+}
+
+/* h1 {
+  width: 300px;
+} */
+
+.first-box-text{
+  margin: 0 20%;
+}
+
+.white-text {
+  color: white;
+}
+
+.button {
+  width: 150px;
+  text-transform: uppercase;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+}
+
+.redbox {
+  background-color: #CD5C5C;
+}
+.images {
+  width: 255px;
+}
+
+.hr-general {
+  height: 1px;
+  color: grey
+}
