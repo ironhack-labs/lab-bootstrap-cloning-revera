@@ -52,3 +52,32 @@ ul {
    width: 70px;
    height: 70px;
  }
+
+
+ #preFooter {
+   border-top: 2px solid rgb(237, 86, 75);
+   background-color: #3B3B3B;
+   color: white;
+ }
+
+ #preFooter  li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;  
+}
+.botwid li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.botwid{
+  padding-top: 30px;
+}
+
+.textwidget{
+  color: #aaa;
+}
