@@ -1,0 +1,71 @@
+h1 {
+  font-size: 30px;
+}
+
+.header-class {
+  margin: 10px; 
+  height: 100px; 
+}
+
+.background-columns {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  height: 400px;
+
+}
+
+.color-white {
+  color: white;
+  padding: 187px
+}
+
+.icon1 {
+  padding-top: 10px;
+  padding-bottom: 18px;
+
+}
+
+.icon2 {
+  padding-bottom: 12px;
+  padding-top: 16px;
+}
+
+.icon3 {
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3 {
+
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: grey;
+}
+
+.last-proj {
+  margin-top: 100px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.fn-cards {
+  margin-top: 60px;
+  
+  
+}
+
+.width-img{
+  max-width: 242px;
+}
