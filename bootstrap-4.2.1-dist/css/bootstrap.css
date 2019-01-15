@@ -4623,6 +4623,9 @@ input[type="button"].btn-block {
   font-size: 0.8rem !important;
 }
 
+.latest-articles-align {
+  text-align: left !important;
+}
 
 .background-black {
   background-color: rgba(0, 0, 0, 0.7) !important;
@@ -4631,7 +4634,7 @@ input[type="button"].btn-block {
   padding-left: 60px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .background-black1 {
@@ -4640,7 +4643,7 @@ input[type="button"].btn-block {
   padding-left: 60px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .text-footer {
