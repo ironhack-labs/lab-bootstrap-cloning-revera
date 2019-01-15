@@ -1,0 +1,86 @@
+header{
+  padding:15px;
+  margin:5px;
+ 
+}
+#menu{
+  text-decoration: none;
+  
+}
+
+#menu li{
+  float:left;
+  list-style-type: none;
+  padding:5px;
+}
+
+#menu li a{
+  text-decoration: none
+}
+
+#slider img {
+  width:100%;
+}
+
+#webs{
+  background-color:red;
+  padding:50px;
+  color:white;
+  
+}
+
+#title{
+margin-top: 30px;
+}
+
+
+
+#webs img{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+} 
+
+#webs h2{
+  text-align: center;
+  padding:5px;
+  
+}
+
+img{
+  align-content: center;
+}
+
+
+#latest-projects img{
+  width:100%
+}
+
+#lastest-articles img{
+  width:100%;
+}
+
+
+#latest-projects p{
+  text-align: center;
+}
+
+
+#footer{
+  text-align: center;
+  background-color:grey;
+  margin-top:30px;
+  padding-right: 140px;
+  padding-left:140px;
+}
+
+footer h4{
+color:white
+}
+
+#copy{
+  background:black;
+  color:white;
+  text-align: left;
+  padding-left:150px;
+}
