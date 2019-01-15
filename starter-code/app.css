@@ -1,0 +1,162 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: #606060;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: 800;
+  margin-top: 25px;
+  color: black;
+}
+
+.nav-menu {
+    width: auto;
+    margin: 20px 0 0 0;
+    padding: 0 0px;
+  }
+  
+.nav-menu li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+
+.nav-menu li a {
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+  }
+
+#services {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.services {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services img {
+    width: 30px;
+    padding-bottom: 30px;
+}
+
+.latest-projects {
+    margin: 40px 0;
+  }
+
+.latest-projects h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+.latest-projects h2 {
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.projects h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.projects-blog h3 {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+  
+.projects-blog footer {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+.projects-blog p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.footer-menu li a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+#copyright {
+    padding: 20px 0px;
+    background: #292929;
+    font-size: 12px;
+  }
+
+#website-info {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    font-size: 14px;
+  }
+
+#website-info h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+  }
+  
+
+
+
