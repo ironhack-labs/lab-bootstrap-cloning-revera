@@ -73,6 +73,14 @@ nav .nav-menu{
   position: relative;
 }
 
+.slide{
+  display: none;
+}
+
+.active{
+  display: block
+}
+
 .slider .overlay{
   background-image: url(../img/overlay.png);
   position: absolute;
@@ -84,6 +92,7 @@ nav .nav-menu{
 }
 .slider img{
   filter: grayscale();
+  width: 100%;
 }
 
 .slider .content{
