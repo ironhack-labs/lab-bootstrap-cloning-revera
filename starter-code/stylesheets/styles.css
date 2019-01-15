@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+}
+
+.menu_bar {
+  background-color: white;
+  height: 40px;
+}
+.first_box {
+  background-color: black;
+  height: 160px;
+}
+.options_box {
+  background-color: red;
+  height: 80px;
+}
+.projects_box {
+  background-color: white;
+}
+
+.titles_box {
+  padding: 20px;
+}
+
+.project p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.articles {
+}
+
+.last_box {
+  background-color: black;
+  height: 240px;
+}
+.copyright_box {
+  background-color: grey;
+  height: 80px;
+}
