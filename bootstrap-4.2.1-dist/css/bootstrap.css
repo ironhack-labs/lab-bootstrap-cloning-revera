@@ -4627,10 +4627,20 @@ input[type="button"].btn-block {
 .background-black {
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: white !important;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.8em;
 }
 
 .background-black1 {
   background-color: rgba(0, 0, 0,1) !important;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.8em;
 }
 
 .text-footer {
