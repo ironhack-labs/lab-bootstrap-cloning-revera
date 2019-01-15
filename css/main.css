@@ -1,4 +1,14 @@
-
+nav p {
+	display: inline;
+}
+nav a {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img {
+	max-width: 100%;
+}
 #main-features {
 	background-color: #FA8072;
 	color: white;
