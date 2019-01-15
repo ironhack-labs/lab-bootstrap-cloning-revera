@@ -1,0 +1,96 @@
+.row { margin: 10px 0; }
+      .row div[class*='col'] { padding: 10px; text-align: center; border: 1px solid;}
+      
+body {
+  width: 100%;
+}
+ul {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+header {
+  width: 80%;
+  text-align: center;
+  height: 50%;
+  border-color: black;
+}
+
+h2, h3, h6 {
+  color: white;
+}
+
+h1 {
+  text-align: left;
+}
+
+h2 {
+  padding-top: 20%;
+  align-items: center;
+}
+
+h3 {
+  border: 4px solid grey 20%;  
+}
+
+p {
+  text-align: left;
+  margin-left: 20%;
+  color: grey;
+  font-size: .5em;
+}
+
+.products {
+  background-color: brown;
+ 
+}
+
+.summary {
+  background-color: black;
+  
+}
+
+.slogam {
+  background-image: url(./img/slider-1.jpg);
+  background-color: gray;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  filter: grayscale(100%);
+  height: 500px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.latest img {
+  width: 80%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.latest h4 {
+  color: black;
+}
+
+.latest p {
+  color: rgb(66, 62, 62);
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.items p{
+  text-align: center;
+  padding: 0px;
+}
+
+.footer {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+}
