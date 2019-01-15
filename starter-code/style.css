@@ -1,0 +1,53 @@
+.imageProject {
+display: inline;
+height: auto;
+max-width: 100%;
+}
+
+.grey{
+    background: #292929;
+    color: white;
+}
+
+.grey p{
+   color: #aaaaaa;
+}
+
+.grey li{
+    color: #aaaaaa;
+    list-style-type: none;
+    margin: 0px;
+    clear: left;
+    border-bottom: 1px #aaaaaa dotted;
+    padding: 7px;
+}
+
+.slider{
+    filter: grayscale(100%)
+}
+
+.red{
+    background: #ed564b;
+    color: white;
+    
+}
+
+.icon {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+ }
+
+ .web {
+     padding: 30px;
+ }
+
+
+
