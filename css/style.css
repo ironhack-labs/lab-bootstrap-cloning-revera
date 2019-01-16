@@ -52,6 +52,7 @@ h1 {
 .sec-red {
   background-color: #ED564A;
   height: 350px;
+  border-bottom: 3px solid tomato;
 }
 
 .card-style {
@@ -124,4 +125,32 @@ h5 {
   font-weight: 700;
   text-align: left;
 
+}
+
+.sec-footer {
+  height: 300px;
+  background-color: #3B3B3B;
+}
+
+footer h5 {
+  color: grey;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.sec-sub-footer {
+
+  height: 100px;
+  background-color: #292929;
+
+}
+
+.sec-sub-footer p {
+
+  color: white;
+  line-height: 1em;
+  font-size: 12px;
+  padding: 40px 0 0 20px;
 }
