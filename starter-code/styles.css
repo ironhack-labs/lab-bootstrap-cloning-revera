@@ -1,0 +1,53 @@
+#homelink{
+    color: red;
+}
+
+#icons{
+    background-Color: firebrick;
+    color: white;
+    text-align: center;
+    padding: 2% 10%;
+}
+
+#icons p{
+    padding: 0 10%;
+}
+
+#projects img, #articles img{
+    width: 90%;
+}
+
+#projects, #articles{
+    text-align: center;
+    padding: 2% 10%;
+}
+
+#links{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 2% 10%;
+    font-size: 12px;
+}
+
+#footer{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 0.7% 10%;
+    font-size: 8px;
+}
+
+.list-group-item{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: 12px;
+    border-top: dotted 0.5px white;
+    text-align: left;
+}
+
+.list-group-flush :first-child{
+    border-top: none;
+}
+
+.blockquote{
+    text-align: left;
+}
