@@ -1,0 +1,63 @@
+h3 {
+    font-size: 1.25rem;
+}
+
+.h3-like {
+    color: #7d7e80;   
+}
+
+.latest-art a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.latest-art h5:hover {
+    font-size: 1.30rem;
+}
+
+
+.latest-art time, .latest-art span {
+    color: #e47564;
+}
+
+.round-box {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    border: #fff solid 4px;
+    border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #e47564;
+    font-weight: bold;
+}
+
+.head-top h5 {
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 2.85rem;
+}
+
+.head-baseline {
+    background-color: #e47564;
+}
+
+.txt-lightGrey {
+    color: #cdd0d2;
+}
+
+.txt-small {
+    font-size: 0.8rem;
+}
+
+footer {
+    background-color: #505050;
+    border-top: 6px solid #e47564;
+}
+
+.footer-categories li {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #fff;
+}
