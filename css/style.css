@@ -1,0 +1,155 @@
+.logo {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.bold {
+  font-weight: bold;
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*overriting the bootstrap to change the color*/
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ff4740;
+}
+.red {
+  color: #ff4740;
+}
+.carrousel {
+  height: 300px;
+}
+/*overriting the bootstrap to change the button slider*/
+.carousel-control-next,
+.carousel-control-prev {
+  height: 60px;
+  top: 50%;
+  width: 2%;
+  background-color: #ff4740;
+}
+
+/*filter on the images of the caroussel*/
+.carousel-item img {
+  filter: grayscale(100%);
+}
+.carousel-caption {
+  width: 850px;
+  padding-bottom: 140px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+.btn {
+  border-radius: 0;
+}
+p {
+  text-align: center;
+  color: white;
+}
+h5 {
+  text-align: center;
+  color: white;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: block;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+.fas {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.bg-red {
+  background-color: #ff4740;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.black {
+  color: black;
+}
+.big-title {
+  border-bottom: 1px solid #e7e7e7;
+  padding-top: 50px;
+}
+.big-title p {
+  text-align: left;
+  color: gray;
+  font-size: 14px;
+}
+.big-title h5 {
+  text-align: left;
+}
+.project img {
+  width: 100%;
+  height: auto;
+}
+.project {
+  padding-top: 30px;
+}
+.project p {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 20px;
+  color: black;
+  font-size: 13px;
+}
+.articles p {
+  text-align: left;
+  padding-top: 20px;
+  color: black;
+  font-size: 13px;
+}
+.articles {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.articles img {
+  width: 100%;
+  height: auto;
+}
+.date {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.bg-gray {
+  background-color: #3b3b3b;
+  border-top: 3px solid #ff4740;
+}
+.footer {
+  padding-top: 30px;
+}
+.footer p {
+  text-align: left;
+  opacity: 0.5;
+  font-size: 13px;
+}
+.title {
+  color: white;
+  padding-bottom: 20px;
+}
+.dashed {
+  color: white;
+  opacity: 0.5;
+  border-bottom: 1px dashed gray;
+  font-size: 13px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.dark-footer {
+  background-color: #292929;
+  height: 80px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.copy {
+  margin-left: 11%;
+  color: gray;
+  font-size: 13px;
+}
