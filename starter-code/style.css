@@ -1,3 +1,7 @@
+html, body{
+    margin:0;
+    border:0;
+}
 nav {
   height: 8vh;
 }
@@ -62,6 +66,16 @@ nav {
     height: 50vh;
     padding: 0 10%;
 }
+#projectsection h2, #articlesection h2{
+    padding:2vh;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#projectsection p, #articlesection p{
+    padding:0;
+    font-size:16;
+}
 #articlesection {
     height: 75vh;
     padding: 0 10%;
@@ -69,4 +83,41 @@ nav {
 #projectsection img, #articlesection img{
     height:20vh;
     width: 25vh;
+}
+#greysection {
+    height: 50vh;
+    background: rgb(59,59,59);
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin:0;
+    border-top:2px solid;
+    border-top-color: rgb(237, 86, 75);
+}
+#greysection .column{
+    padding:2%;
+    padding-bottom:0;
+    width:15%
+}
+#greysection *{
+    color:white;
+}
+footer{
+    margin:0;
+    border:0;
+    height: auto;
+    width:100vw;    
+    background: rgb(41,41,41);
+}
+footer div{
+    margin:0;
+    border:0;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+footer p{
+    color:white;
+    padding-left:5vh;
 }
