@@ -1,0 +1,113 @@
+.red{
+    background-color: #ed564b;
+    color:white;
+    text-align: center;
+}
+
+.navbar-item{
+    margin-top:10px;
+}
+
+.j{
+    font-weight: bold;
+    color:black;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+span{
+    color:red;
+    font-weight: bold;
+}
+
+.latest-projects h2{
+    margin-top:6%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.latest-projects h3{
+    margin-left: 10%;
+    font-size:18px;
+    font-weight: bold;
+    color:gray;
+}
+
+.last{
+    color:whitesmoke;
+    background-color: rgb(54, 49, 42);
+    border-top:2px solid red;
+}
+
+.footer{
+    color:white;
+    background-color:black;
+    height: 100px;
+}
+
+.column h2{
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.last-p{
+    color:gray;
+}
+
+.p{
+    margin-top:5%;
+    border-bottom: 1px dashed gray;
+    margin-right: 10%;
+    padding-bottom: 2%;
+}
+
+.columns{
+    margin:1% 10% 10% 10%;
+}
+
+.latest-articles h2{
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.latest-articles h3{
+    margin-left: 10%;
+    color:gray;
+    font-weight: bold;
+}
+
+
+.a-latest-article{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.p-latest-article-1{
+    font-size: 13px;
+    color:gray;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.p-latest-article-2{
+    font-size: 13px;
+    color:gray;
+    padding-bottom: 20%;
+    padding-top:7%;
+}
+
+.ic{
+    color:white;
+}
+
+.c{
+    border-radius: 50%;
+    border:1px solid white;
+}
