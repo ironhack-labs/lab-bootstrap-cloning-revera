@@ -1,0 +1,26 @@
+.red {
+    background-color: orange;
+}
+
+.imagesfirstSec{
+ height: 50px 
+ width: 50px
+}
+
+footer {
+    color: white;
+    text-decoration: none;
+    border: 0;
+}
+
+a {
+    color: white;
+}
+
+.containercolumns {
+    color: gray;
+}
+
+* {
+ font-family: 'Aleo', serif;
+}
