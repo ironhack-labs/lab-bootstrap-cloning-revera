@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.notification{
+    font-size: 33px;
+}
+.tile{
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    align-content: space-between;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hero-body{
+    background-color: rgba(237, 15, 15, 0.865);
+    height: 300px;
+    color:white;
+    font-size: 18px;
+}
+/* .fas-fa-glass-martini{
+    height: 150px;
+    width: 150px;
+} */
+
+#hola {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px white;
+    padding: 0.2em 0.7em;
+  
+  }
+  .subtitle{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  .title{
+      font-size: 15px;
+      color: white;
+  }
+  .footer{
+      background-color: rgb(55, 55, 55)
+  }
+  .footer-text{
+      color:white;
+      text-align: left;
+  }
+  h4{
+      font-size: 18px;
+      color:black;
+  }
+  h5{
+    font-size: 10px;
+    color: rgb(84, 84, 84); 
+  }
+  hr {
+    border:1.2px dotted gray; width:300px
+  }
