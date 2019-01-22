@@ -1,9 +1,72 @@
-nav{
-    height: 10vh;
+nav {
+  height: 8vh;
 }
 .carousel-container {
-    height:50vh
+  height: 60vh;
 }
-#navbar-item-home{
-    color:red
+#navbar-item-home {
+  color: rgb(237, 86, 75);
+}
+#redsection {
+  background: rgb(237, 86, 75);
+  margin: 0;
+  height: 32vh;
+  display:flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+}
+#redsection span{
+    font-size:65px;
+    color: white;
+    text-align: center;
+}
+
+#redsection h3{
+    font-size:22px;
+    color: white;
+    text-align: center;
+}
+#redsection p{
+    font-size:15px;
+    color: white;
+    text-align: center;
+}
+
+#redsection .column{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.carousel-container .title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column
+}
+.carousel-container .title h2{
+    padding:5vh 20%;
+    font-weight:bold;
+    font-size: 40px;
+}
+.carousel-container .title p{
+    padding:5vh 15%;
+    font-size: 24px;
+}
+.carousel-container .title a{
+    margin:0 40%;
+}
+#projectsection {
+    height: 50vh;
+    padding: 0 10%;
+}
+#articlesection {
+    height: 75vh;
+    padding: 0 10%;
+}
+#projectsection img, #articlesection img{
+    height:20vh;
+    width: 25vh;
 }
