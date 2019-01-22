@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+body {
+  margin: 0;
+}
+body,button,input,select,textarea{
+    color:#606060;
+    font-family:'Oxygen',sans-serif;
+    font-size:14px;
+    line-height:1.6
+}
+h2{
+    font-size:26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+h3{
+    font-size:20px
+}
+h4{
+    font-size:18px
+}
+h5{
+    font-size:16px;
+    font-weight: bold;
+    color: #000000;
+}
+a{
+    color:#f4473a
+}
+h1{
+    font-size: 32px;
+    text-transform:uppercase;
+    font-weight:800;
+    color: #000000;
+}
+ nav{
+     height: 90px;
+     width: 80%;
+     margin: 0 auto;
+     background-color: #ffffff;
+}
+.navbar-nav {
+  padding: 0 20px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.red{
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #ffffff;
+  text-align: center;
+}
+.redcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+.smallred {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
+.icons{
+  border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+section{
+  width: 75%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+section span {
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: bold;
+}
+.meta {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #606060;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  border-top: 1px solid #dfdfdf;
+}
+article > div {
+  width: 25%;
+  padding: 10px;  
+}
+article > div > img {
+  width: 100%;
+  margin: 20px 0;
+}
+ footer {
+     padding: 20px 0px 40px 0px;
+     background: #3b3b3b;
+     border-top: 5px solid #ed564b;
+     color: #aaaaaa;
+}
+ footer a, .footer-copyright a{
+     text-decoration: none;
+     color: #aaaaaa;
+}
+ footer h5 {
+     color: #ffffff;
+}
+ .footer-copyright {
+     padding: 10px 0px;
+     background: #292929;
+     font-size: 12px;
+}
