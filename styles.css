@@ -1,0 +1,23 @@
+.hero-body{
+    background-image: url(../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+    size:cover;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:white;
+}
+
+#subnav{
+    background-color: #DD6052;
+    color:white;
+    padding:30px;
+}
+
+.footer{
+    background-color:grey;
+
+}
+
+hr{
+    color:black;
+}
