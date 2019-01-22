@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="bulma-carousel.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Revera</title>
+  </head>
+  <body>
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+      <div class="navbar-menu is-mobile">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#"><p class="title">Revera</p></a>
+        </div>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" id="navbar-item-home">Home</a>
+          <a class="navbar-item">About</a>
+          <a class="navbar-item">Sample Page</a>
+          <a class="navbar-item">Portfolio</a> <a class="navbar-item">Blog</a>
+          <a class="navbar-item">Parent Page</a>
+          <a class="navbar-item">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel carousel-animated carousel-animate-slide">
+      <div class="carousel-container">
+        <div class="carousel-item has-background is-active">
+          <img
+            class="is-background"
+            src="https://wikiki.github.io/images/merry-christmas.jpg"
+            alt=""
+            width="640"
+            height="310"
+          />
+          <div class="title">Merry Christmas</div>
+        </div>
+        <div class="carousel-item has-background">
+          <img
+            class="is-background"
+            src="https://wikiki.github.io/images/singer.jpg"
+            alt=""
+            width="640"
+            height="310"
+          />
+          <div class="title">
+            Original Gift: Offer a song with
+            <a href="https://lasongbox.com" target="_blank">La Song Box</a>
+          </div>
+        </div>
+        <div class="carousel-item has-background">
+          <img
+            class="is-background"
+            src="https://wikiki.github.io/images/sushi.jpg"
+            alt=""
+            width="640"
+            height="310"
+          />
+          <div class="title">Sushi time</div>
+        </div>
+        <div class="carousel-item has-background">
+          <img
+            class="is-background"
+            src="https://wikiki.github.io/images/life.jpg"
+            alt=""
+            width="640"
+            height="310"
+          />
+          <div class="title">Life</div>
+        </div>
+      </div>
+      <div class="carousel-navigation is-overlay">
+        <div class="carousel-nav-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="carousel-nav-right">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
+      });
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
