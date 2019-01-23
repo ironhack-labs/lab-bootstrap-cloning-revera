@@ -1,0 +1,16 @@
+.hero-img{
+  background-image: url('./img/slider-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.col-md-4{
+  background: lightblue;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
