@@ -1,3 +1,9 @@
+.text-centered{
+  text-align: center;
+}
+.glyphicon {
+    font-size: 150px;
+}
 .hero-text{
   position: absolute;
   top: 50%;
@@ -10,6 +16,10 @@
 .navbar-brand>a{
     color:black;
 }
+.info-row{
+  background-color: rgb(249, 107, 97);
+  color: white;
+}
 .hero-img{
   background-image: url('./img/slider-1.jpg');
   background-position: center;
@@ -17,13 +27,17 @@
   background-size: cover;
   height: 80vh;
   position: relative;
+  color: white;
+  filter: grayscale();
+  font-size: 16px;
 }
-.col-md-4{
-  background: lightblue;
+img{
+  max-width: 100px;
 }
 
 *{
   margin: 0;
   padding: 0;
   font-family: Helvetica, "Helvetica Nue", Arial;
+  line-height: 1.7
 }
