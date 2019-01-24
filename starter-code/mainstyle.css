@@ -1,8 +1,27 @@
+.showcase-container{
+  padding: 0 30px;
+}
+.float-left{
+  margin-left: 2rem;
+}
+.info-row{
+  background-color: rgb(249, 107, 97);
+  color: white;
+}
+.glyphicon{
+  font-size: 80px;
+}
 .img-fluid{
   max-width: 80%;
 }
 .showcase-card{
   border: 1px solid lightgray;
+
+}
+.card{
+  /* you need these color properties or bug */
+  background-color: rgb(249, 107, 97);
+  color: white;
 }
 .hero-img{
   background-image: url('./img/slider-1.jpg');
@@ -23,5 +42,19 @@
   top: 50%;
   transform: translate(-50%, -50%);
   color: #FFF;
+}
 
+h5{
+  margin-top: -.5em;
+}
+hr {
+  width: 95%;
+  margin: 0 auto;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+*{
+  margin: 0;
+  padding: 0;
 }
