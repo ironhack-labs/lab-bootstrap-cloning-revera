@@ -7,7 +7,10 @@
 }
 .hero-text{
   position: absolute;
+  left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 
 }
 .navbar-brand>a{
@@ -21,12 +24,13 @@
   background-image: url('./img/slider-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fill;
   height: 80vh;
   position: relative;
   color: white;
   filter: grayscale();
   font-size: 16px;
+  display: inline-block
 }
 
 
@@ -35,5 +39,5 @@
   padding: 0;
   font-family: Helvetica, "Helvetica Nue", Arial;
   line-height: 1.7;
-  
+
 }
