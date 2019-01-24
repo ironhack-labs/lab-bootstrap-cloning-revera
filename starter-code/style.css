@@ -5,7 +5,12 @@
 
 
 .navbar-light .navbar-nav .nav-link.active{
-  color: #ED564B;
+  colononer: #ED564B;
+}
+
+.card{
+  border: none; 
+  border-radius: 0px;
 }
 
 .carousel-item img {
@@ -23,3 +28,24 @@
   top: calc(50% - 50px);
 }
 
+.container-fluid{
+  padding: 0;
+}
+
+.features i{
+  border: 5px solid white;;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.features > div.row{
+  background: #ED564B;
+  margin: 0 auto;
+  padding: 0 200px;
+
+}
+
+main{
+  padding: 3rem 12rem;
+  width: 100%;
+}
