@@ -1,0 +1,25 @@
+.navbar-brand{
+  padding: 0 200px;
+  text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: #ED564B;
+}
+
+.carousel-item img {
+  filter: grayscale(100%);
+}
+
+.carousel-caption{
+  padding-bottom: 15%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  background-color: #ED564B;
+  width: 50px;
+  height: 100px;  
+  top: calc(50% - 50px);
+}
+
