@@ -1,16 +1,13 @@
-.text-centered{
-  text-align: center;
+.nav-item{
+  padding: 0 10px;
 }
+
 .glyphicon {
     font-size: 150px;
 }
 .hero-text{
   position: absolute;
   top: 50%;
-
-}
-.landing-text{
-  width: 400px;
 
 }
 .navbar-brand>a{
@@ -31,13 +28,12 @@
   filter: grayscale();
   font-size: 16px;
 }
-img{
-  max-width: 100px;
-}
+
 
 *{
   margin: 0;
   padding: 0;
   font-family: Helvetica, "Helvetica Nue", Arial;
-  line-height: 1.7
+  line-height: 1.7;
+  
 }
