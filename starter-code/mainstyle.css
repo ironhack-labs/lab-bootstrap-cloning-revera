@@ -1,5 +1,5 @@
-.showcase-container{
-  padding: 0 30px;
+.card-container{
+  margin: 3em 2em;
 }
 .float-left{
   margin-left: 2rem;
@@ -13,10 +13,6 @@
 }
 .img-fluid{
   max-width: 80%;
-}
-.showcase-card{
-  border: 1px solid lightgray;
-
 }
 .card{
   /* you need these color properties or bug */
@@ -42,6 +38,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
   color: #FFF;
+}
+footer{
+  border-top: 2px solid rgb(249, 107, 97);
 }
 
 h5{

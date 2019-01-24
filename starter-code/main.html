@@ -4,11 +4,6 @@ Victoria Hickam @
 Revera Clone | 23/01/19 -->
 
 
-<!-- TODO:
--detail style articles <section>
--footer
-</section>
- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,11 +18,8 @@ Revera Clone | 23/01/19 -->
 </head>
 <body>
   <nav class="navbar navbar-expand navbar-light bg-light">
-    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <a class="navbar-brand" href="#">Navbar</a>
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
@@ -40,15 +32,15 @@ Revera Clone | 23/01/19 -->
         <li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Parent page</a>
-        </li>
       </ul>
   </nav>
   <!-- Hero -->
   <div class="container-fluid hero-img">
       <div class="row">
-        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quasi ullam sint ea iste. Ab vitae omnis accusamus quidem nisi ratione aliquid, libero molestiae? Dolores, nesciunt! Delectus quod ut cupiditate, quae sit veniam adipisci est.</p>
+        <div class="hero-text">
+          <h1>Inspiring Text</h1>
+          <p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quasi ullam sint ea iste. Ab vitae omnis accusamus quidem nisi ratione aliquid, libero molestiae? Dolores, nesciunt! Delectus quod ut cupiditate, quae sit veniam adipisci est.</p>
+        </div>
       </div>
   </div>
 
@@ -76,51 +68,55 @@ Revera Clone | 23/01/19 -->
   </div>
 
   <!-- note showcase-card and card classes are different from above -->
-  <div class="container-fluid">
-    <div class="row">
-      <h3 class="float-left">Recent Projects</h3>
-    </div>
-    <div class="row"><h5 class="float-left">Look Work wow wow wow</h5></div>
-    <div class="row ">
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+  <div class="card-container">
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="float-left">Recent Projects</h3>
       </div>
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
-      </div>
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      <div class="row"><h5 class="float-left">Look Work wow wow wow</h5></div>
+      <div class="row ">
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
       </div>
     </div>
   </div>
+
   <hr>
   <!-- latest articles same code as projects section but slightly modified -->
   <div class="container-fluid">
-    <div class="row">
-      <h3 class="float-left">Recent Projects</h3>
+    <div class="card-container">
+      <div class="row">
+        <h3 class="float-left">Recent Projects</h3>
+      </div>
+      <div class="row"><h5 class="float-left">Look Work wow wow wow</h5></div>
+      <div class="row ">
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
+        <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+          <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+        </div>
+      </div>
     </div>
-    <div class="row"><h5 class="float-left">Look Work wow wow wow</h5></div>
-    <div class="row ">
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
-      </div>
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
-      </div>
-      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
-        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
-      </div>
     </div>
-  </div>
-  <hr>
-<hr>
-  <footer class="page-footer font-small bg-dark text-light">
+
+  <footer class="page-footer font-small bg-secondary text-light">
     <div class="container-fluid">
       <div class="row">
         <div class="col-xl-2 col-lg-2 col-md-12 cl-sm-12 offset-lg-2">
@@ -136,24 +132,25 @@ Revera Clone | 23/01/19 -->
           </ul>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-6 text-center">
-          <h3>Meta</h3>
+          <h3>Archives</h3>
           <ul class="list-unstyled">
             <li>Link</li>
           </ul>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-6 text-center">
-          <h3>Meta</h3>
+          <h3>Recent Post</h3>
           <ul class="list-unstyled">
-            <li>Link</li>
+            <li>Why dogs and cats hate each other</li>
             <li>Link</li>
             <li>Link</li>
             <li>Link</li>
           </ul>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 cl-sm-6"></div>
-        <div class="col-xl-2 col-lg-2 col-md-2 cl-sm-6"></div>
       </div>
     </div>
+    <div class="footer-copyright text-center  bg-dark py-3">© 2018 Copyright:
+  <a href="https://mdbootstrap.com/education/bootstrap/"> Revera.com</a>
+</div>
   </footer>
 
 
