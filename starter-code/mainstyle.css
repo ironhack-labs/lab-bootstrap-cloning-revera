@@ -1,0 +1,27 @@
+.img-fluid{
+  max-width: 80%;
+}
+.showcase-card{
+  border: 1px solid lightgray;
+}
+.hero-img{
+  background-image: url('./img/slider-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  color: white;
+  filter: grayscale();
+  font-size: 16px;
+  display: inline-block
+  overflow-x: hidden;
+}
+.hero-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+
+}

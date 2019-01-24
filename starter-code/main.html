@@ -1,3 +1,15 @@
+
+<!-- Cameron Chromiak @cameron-Chromiak
+Victoria Hickam @
+Revera Clone | 23/01/19 -->
+
+
+<!-- TODO:
+-remove border showcase card styling
+-detail style articles <section>
+-footer
+</section>
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,33 +19,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="mainstyle.css">
   <title>Document</title>
 </head>
-<style>
-  .hero-img{
-    background-image: url('./img/slider-1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: fill;
-    height: 80vh;
-    position: relative;
-    color: white;
-    filter: grayscale();
-    font-size: 16px;
-    display: inline-block
-  }
-  .hero-text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-
-  }
-</style>
 <body>
   <nav class="navbar navbar-expand navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -57,51 +48,82 @@
   </nav>
   <!-- Hero -->
   <div class="container-fluid hero-img">
-      <div class="row hero-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quasi ullam sint ea iste. Ab vitae omnis accusamus quidem nisi ratione aliquid, libero molestiae? Dolores, nesciunt! Delectus quod ut cupiditate, quae sit veniam adipisci est.</p>
+      <div class="row">
+        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quasi ullam sint ea iste. Ab vitae omnis accusamus quidem nisi ratione aliquid, libero molestiae? Dolores, nesciunt! Delectus quod ut cupiditate, quae sit veniam adipisci est.</p>
       </div>
   </div>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center">
-          <h3>Web Development</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center card">
+        <i class="glyphicon glyphicon-asterisk"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Nam, totam, illo! Fugit enim sit, quisquam.</p>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center card">
+        <i class="glyphicon glyphicon-asterisk"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Nam, totam, illo! Fugit enim sit, quisquam.</p>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center card">
+        <i class="glyphicon glyphicon-asterisk"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
              Nam, totam, illo! Fugit enim sit, quisquam.</p>
       </div>
     </div>
   </div>
-<div class="container-fluid">
-  <div class="row info-row">
-    <div class="col-md-4 col-sm-12 col-lg-4 text-center">
-      <i class="glyphicon glyphicon-asterisk"></i>
-      <h3>Web design</h3>
-      <p>Cum sociis natoque penatibus et magnis
-      dis parturient montes, nascetur ridiculus
-      mus. Vestibulum vehicula erat non congue
-      cursus. Aenean auctor nulla quis augue
-      dictum, sed sagittis odio varius Link</p>
+
+  <!-- note showcase-card and card classes are different from above -->
+  <div class="container">
+    <div class="row">
+      <h3 class="float-left">Recent Projects</h3>
     </div>
-    <div class="col-md-4 col-sm-12 col-lg-4 text-center">
-      <i class="glyphicon glyphicon-asterisk"></i>
-      <h3>Web design</h3>
-      <p>Cum sociis natoque penatibus et magnis
-      dis parturient montes, nascetur ridiculus
-      mus. Vestibulum vehicula erat non congue
-      cursus. Aenean auctor nulla quis augue
-      dictum, sed sagittis odio varius Link</p>
-    </div>
-    <div class="col-md-4 col-sm-12 col-lg-4 text-center">
-      <i class="glyphicon glyphicon-asterisk"></i>
-      <h3>Web design</h3>
-      <p>Cum sociis natoque penatibus et magnis
-      dis parturient montes, nascetur ridiculus
-      mus. Vestibulum vehicula erat non congue
-      cursus. Aenean auctor nulla quis augue
-      dictum, sed sagittis odio varius Link</p>
+    <div class="row ">
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- latest articles same code as projects section but slightly modified -->
+  <div class="container">
+    <div class="row">
+      <h3 class="float-left">Recent Projects</h3>
+    </div>
+    <div class="row ">
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
+      <div class="showcase-card col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center ">
+        <img class=" img-fluid center-block" src="img\project-1.jpg" alt="*Really hot boy*">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, laudantium.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <h3>Footah</h3>
+    </div>
+  </footer>
+
 
 </body>
 </html>
