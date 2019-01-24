@@ -5,7 +5,7 @@
   margin-left: 2rem;
 }
 .info-row{
-  background-color: rgb(249, 107, 97);
+  background-color: tomato;
   color: white;
 }
 .glyphicon{
@@ -16,7 +16,7 @@
 }
 .card{
   /* you need these color properties or bug */
-  background-color: rgb(249, 107, 97);
+  background-color: tomato;
   color: white;
 }
 .hero-img{
