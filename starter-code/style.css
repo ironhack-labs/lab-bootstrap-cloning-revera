@@ -1,16 +1,15 @@
-.navbar-brand{
-  padding: 0 200px;
-  text-transform: uppercase;
-}
-
-
-.navbar-light .navbar-nav .nav-link.active{
-  colononer: #ED564B;
-}
 
 .card{
   border: none; 
   border-radius: 0px;
+}
+
+.card .smaller-text{
+  font-size: 0.9rem;
+}
+
+.card .even-smaller-text{
+  font-size: 0.75rem;
 }
 
 .carousel-item img {
@@ -44,7 +43,19 @@
   padding: 0 200px;
 
 }
+.navbar-brand{
+  padding: 0 200px;
+  text-transform: uppercase;
+}
 
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: #ED564B;
+}
+
+.theme-red{
+  color: #ED564B;
+}
 main{
   padding: 3rem 12rem;
   width: 100%;
