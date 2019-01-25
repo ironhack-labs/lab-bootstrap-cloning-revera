@@ -5,7 +5,7 @@
 
 
 .navbar-light .navbar-nav .nav-link.active{
-  colononer: #ED564B;
+  color: #ED564B;
 }
 
 .card{
@@ -48,4 +48,41 @@
 main{
   padding: 3rem 12rem;
   width: 100%;
+}
+
+footer .container-fluid .row {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+footer .row {
+  color: #aaa;
+  background: #292929;
+}
+
+footer .row:first-child {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+footer h5 {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+footer h6 {
+  border-bottom: .5px dotted #aaa;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+
+footer .row p {
+  padding: 0;
+  margin: 0;
+  color: #eee;
+  line-height: 1rem;
+  font-size: .8rem;
 }
