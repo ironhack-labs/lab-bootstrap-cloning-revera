@@ -71,6 +71,7 @@ main{
   width: 100%;
 }
 
+
 footer .container-fluid .row {
   padding-left: 150px;
   padding-right: 150px;
@@ -79,6 +80,7 @@ footer .container-fluid .row {
 footer .row {
   color: #aaa;
   background: #292929;
+  padding-bottom: 3rem;
 }
 
 footer .row:first-child {
@@ -100,10 +102,11 @@ footer h6 {
   padding-bottom: .5rem;
 }
 
-footer .row p {
+footer .row:last-child p {
   padding: 0;
   margin: 0;
   color: #eee;
   line-height: 1rem;
   font-size: .8rem;
 }
+
