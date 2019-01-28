@@ -1,0 +1,56 @@
+
+
+.text-centered{
+  text-align: center;
+}
+.glyphicon {
+    font-size: 60px;
+}
+.hero-text{
+  position: absolute;
+  top: 50%;
+
+}
+.landing-text{
+  width: 400px;
+
+}
+
+.info-row{
+  background-color: rgb(249, 107, 97);
+  color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.info-row h3{
+font-size: 20px;
+    justify-content: space-between;
+}
+.info-row p{
+    font-size: 12px;
+}
+
+.hero-img{
+  background-image: url('./img/slider-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  color: white;
+  filter: grayscale();
+  font-size: 16px;
+}
+img{
+  max-width: 100px;
+}
+
+
+.hero-img{
+    margin-top: -20px;
+}
+
+.main-div{
+    padding-left: 15%;
+    padding-right: 15%;
+}
