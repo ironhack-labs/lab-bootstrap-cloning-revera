@@ -1,0 +1,78 @@
+
+.navbar-light .navbar-nav .active > .nav-link.red {
+  color: rgb(230, 87, 87);
+}
+
+.navbar-brand {
+  padding-left: 160px;
+}
+
+.container-red {
+  background: rgb(202, 69, 69);
+}
+
+.jumbotron {
+  color: rgb(218, 216, 216);
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.lead {
+  font-size: 0.85rem;
+}
+
+.fas {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.card {
+  border: none;
+}
+
+.card-text {
+  font-size: 0.65rem;
+  list-style-type: none;
+  line-height: 1.2rem;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.card-img-top {
+  margin: 15px;
+}
+
+.latest-projects {
+  color: rgb(143, 132, 132);
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.footer {
+  background-color: rgb(194, 189, 189);
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-top: 1px solid rgb(240, 25, 25); 
+}
+
+.footer li {
+  border-bottom: 1px dotted rgb(156, 29, 78);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.bottom-footer {
+  padding: 15px;
+  background-color: rgb(100, 98, 98);
+  color: rgb(218, 216, 216);
+}
