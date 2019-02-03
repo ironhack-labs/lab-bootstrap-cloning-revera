@@ -1,0 +1,156 @@
+/* custom properties */
+:root {
+  --primary-color: #ed564b;
+  --primary-border-color: #f96b62;
+  --light-grey: #aaa;
+  --footer-back-color: #3d3d3d;
+  --abbr-color: #999;
+  --nav-links-color: #777;
+  --copyright-back-color: #2d2d2d;
+}
+
+/* General selectors */
+* {
+  font-family: "Oxygen", sans-serif;
+}
+
+/* override default style for em tags */
+em {
+  font-style: normal;
+}
+
+/* override text color*/
+.light-text {
+  color: white;
+}
+
+/* grayscale filter for images */
+.filter-gray {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* adjust nav height */
+nav.nav-height {
+  height: 100px;
+}
+
+/* styles for logo revera */
+nav a.logo {
+  color: black;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+nav a.logo:hover {
+  text-decoration: none;
+}
+
+/* styles for links in nav bar */
+nav ul > li > a.active-link {
+  color: var(--primary-color);
+}
+
+nav ul > li > a.nav-links {
+  color: var(--nav-links-color);
+}
+
+nav ul > li > a.nav-links:hover {
+  color: var(--primary-color);
+}
+
+/* styles for icon */
+main section span.icon-border {
+  border-radius: 50%;
+  width: 4vw;
+  height: 7.5vh;
+  border: 5px solid white;
+  line-height: 7vh;
+}
+
+/* custom anchors for slider*/
+main section div a.left-slide {
+  background: url("../img/red-left.png");
+  width: 50px;
+  height: 100px;
+}
+
+main section div a.left-slide:hover {
+  background-color: white;
+  background: url("../img/white-left.png");
+  width: 50px;
+  height: 100px;
+}
+
+main section div a.right-slide {
+  background: url("../img/red-right.png");
+  width: 50px;
+  height: 100px;
+}
+
+main section div a.right-slide:hover {
+  background-color: white;
+  background: url("../img/white-right.png");
+  width: 50px;
+  height: 100px;
+}
+
+/* override primary color of uikit */
+main section.slider-foot {
+  background: var(--primary-color);
+  border-top: 5px solid var(--primary-border-color);
+  border-bottom: 7px solid var(--primary-border-color);
+}
+
+/* border for articles section */
+section.sect-art {
+  border-bottom: 5px solid var(--primary-color);
+}
+
+/* defailt color for footer */
+footer.footer-style {
+  color: var(--light-grey);
+  background-color: var(--footer-back-color);
+}
+
+footer h4 {
+  color: white;
+}
+
+/* override divider for lists */
+ul > li.border-dot:nth-child(n + 2) {
+  border-top-style: dotted;
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+/* add final border to last li item */
+footer article ul > li:last-child {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #e5e5e5;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+/* styles for anchors */
+footer article ul > li > a {
+  color: var(--light-grey);
+}
+
+footer article ul > li > a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* selector to all abbr with an attribute equal to title */
+abbr[title] {
+  text-decoration: none;
+  cursor: help;
+  border-bottom: 1px dotted var(--abbr-color);
+}
+
+/* styles for final section */
+section.copyr {
+  background-color: var(--copyright-back-color);
+  color: white;
+  font-size: 0.8em;
+}
