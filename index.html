@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Home - revera</title>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li id="revera"><strong>REVERA</strong></li>
+                <li class="uk-active"><a href="#" style="color: red;">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sample page</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li>
+                    <a href="#">Parent page >></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+      </div>
+    </nav>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: false; animation: slide">
+        <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; offset-bottom: 0">
+            <li>
+                <img src="./starter-code/img/slider-1.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS<br>LOBORTIS IN, PHARETRA IN DIAM</h2>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [...]</p>
+                    <button class="uk-button uk-button-default">READ MORE</button>
+                  </div>
+            </li>
+            <li>
+                <img src="./starter-code/img/slider-2.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS<br>LOBORTIS IN, PHARETRA IN DIAM</h2>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [...]</p>
+                    <button class="uk-button uk-button-default">READ MORE</button>
+                </div>
+            </li>
+            <li>
+                <img src="./starter-code/img/slider-3.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS<br>LOBORTIS IN, PHARETRA IN DIAM</h2>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [...]</p>
+                    <button class="uk-button uk-button-default">READ MORE</button>
+                </div>
+            </li>
+            <li>
+                <img src="./starter-code/img/slider-4.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS<br>LOBORTIS IN, PHARETRA IN DIAM</h2>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [...]</p>
+                    <button class="uk-button uk-button-default">READ MORE</button>
+                </div>
+            </li>
+        </ul>
+        <div class="uk-light">
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+        <div class="uk-section uk-section-default">
+            <div class="uk-container">
+                <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                    <div class="card-container">
+                        <a href="#" uk-icon="world"></a>
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                    <div class="card-container">
+                        <a href="#" uk-icon="star"></a>
+                        <h4>Web development</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                    <div class="card-container">
+                        <a href="#" uk-icon="heart"></a>
+                        <h4>User interface</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="latest">
+        <h1 id="latest-projects">LATEST PROJECTS</h1>
+        <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+    </div>
+    <section class="grid">
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/project-1.jpg" alt="man-gym"></div>
+                <div><p class="card-portfolio-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/project-2.jpg" alt="kitten"></div>
+                <div><p class="card-portfolio-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/project-3.jpg" alt="flower"></div>
+                <div><p class="card-portfolio-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/project-4.jpg" alt="woman-sun"></div>
+                <div><p class="card-portfolio-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+            </div>
+        </div>
+    </section>
+    <div class="latest">
+        <h1>LATEST ARTICLES</h1>
+        <p>LATEST POSTS FROM THE BLOG</p>
+    </div>
+    <section class="grid">
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/slider-1.jpg" alt="man-gym"></div>
+                <div><p class="card-articles-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+                <p class="card-articles-text-2">POSTED ON <span style="color: red">AUGUST 19, 2013</span> BY <span style="color: red">ADMIN</span></p>
+                <p class="card-articles-text-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/slider-2.jpg" alt="kitten"></div>
+                <div><p class="card-articles-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+                <p class="card-articles-text-2">POSTED ON <span style="color: red">AUGUST 19, 2013</span> BY <span style="color: red">ADMIN</span></p>
+                <p class="card-articles-text-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/slider-3.jpg" alt="flower"></div>
+                <div><p class="card-articles-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+                <p class="card-articles-text-2">POSTED ON <span style="color: red">AUGUST 19, 2013</span> BY <span style="color: red">ADMIN</span></p>
+                <p class="card-articles-text-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default"><img src="./starter-code/img/slider-4.jpg" alt="woman-sun"></div>
+                <div><p class="card-articles-text">Excepteur sint occaecat cupidatat non proident, sunt in</p></div>
+                <p class="card-articles-text-2">POSTED ON <span style="color: red">AUGUST 19, 2013</span> BY <span style="color: red">ADMIN</span></p>
+                <p class="card-articles-text-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div class="uk-grid-small uk-child-width-expand@s uk-text-left" uk-grid>
+                <div>
+                    <div class="uk-card-2">
+                        <h3>REVERA</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card-2">
+                        <h3>META</h3>
+                        <p class="paragraph-border">Log in</p>
+                        <p class="paragraph-border">Entries RSS</p>
+                        <p class="paragraph-border">Comments RSS</p>
+                        <p class="paragraph-border">WordPress.org</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card-2">
+                        <h3>ARCHIVES</h3>
+                        <p class="paragraph-border">August 2013</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card-2">
+                        <h3>RECENT POSTS</h3>
+                        <p class="paragraph-border">rem aperiam, eaque ipsa quae ab illo inventore veritatis et</p>
+                        <p class="paragraph-border">sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+                        <p class="paragraph-border">Nemo enim ipsam voluptatem quia voluptas sit aspernatur</p>
+                        <p class="paragraph-border">qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                        <p class="paragraph-border">sed quia non numquam eius modi tempora incidunt ut labore</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <div class="last-footer">
+            <p>Copyright 2016 Revera - Just another demo site.<br>| Revera theme.</p>
+        </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+</body>
+</html>
