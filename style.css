@@ -55,9 +55,7 @@ nav div > ul {
 }
 
 .uk-grid-match a {
-  height: 5px;
-  max-width: 60px;
-  margin-left: 45.5%;
+  margin-left: 42%;
 
 }
 
@@ -71,6 +69,7 @@ nav div > ul {
 }
 
 .uk-section h4 {
+  margin-top: 22px;
   margin-bottom: -15px;
   text-align: center;
 }
