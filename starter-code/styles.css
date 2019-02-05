@@ -1,0 +1,126 @@
+li.uk-active:hover{
+    color: red;
+}
+
+.uk-slider-items img{
+    filter: grayscale(100%)
+}
+
+.uk-margin{
+    margin-bottom: 0;
+}
+
+.next{
+    background-color: #ed564b;
+}
+
+.orange{
+    background-color: #ed564b;
+    height: 300px;
+}
+
+.orange .uk-card{
+    margin: 50px;
+    height: 150px;
+    background-color: #ed564b;
+    color: white;
+}
+
+.latest-proyects{
+    height: 400px;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.latest-proyects p, h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.latest-proyects .uk-card{
+    margin-top: 20px;
+}
+
+.uk-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.proyect1{
+    margin: 0;
+    background-image: url(../starter-code/img/project-1.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.proyect2{
+    margin: 0;
+    background-image: url(../starter-code/img/project-2.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.proyect3{
+    margin: 0;
+    background-image: url(../starter-code/img/project-3.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.proyect4{
+    margin: 0;
+    background-image: url(../starter-code/img/project-4.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+.latest-articles{
+    height: 600px;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.latest-articles p, h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.article1{
+    margin: 0;
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.article2{
+    margin: 0;
+    background-image: url(../starter-code/img/slider-2.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.article3{
+    margin: 0;
+    background-image: url(../starter-code/img/slider-3.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.article4{
+    margin: 0;
+    background-image: url(../starter-code/img/slider-4.jpg);
+    background-size: cover;
+    height: 180px;
+}
+h5{
+    margin: 0;
+}
+.footer{
+    height: 600px;
+    background-color: #3b3b3b;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.footer .uk-card{
+    margin-top: 100px;
+    background-color: #3b3b3b;
+    color: white;
+    text-align: left;
+}
+.footer h5{
+    color: white;
+}
