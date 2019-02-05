@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>UIKit Lab</title>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar>
+
+        <div class="uk-navbar-center">
+            <a class="uk-navbar-item- uk-logo" href="#">REVERA</a>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    
+                </li>
+                <li>
+                    <a href="#">Sample Page</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Parent Page</a>
+                    <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li>Item</li>
+                            </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<section>
+        <div class="uk-position-relative uk-visible-toggle uk-background-blend-overlay" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+
+                <ul class="uk-slideshow-items " id="slider" >
+                    <li>
+                        <img src="./img/slider-1.jpg" alt="" uk-cover>
+                        <div class="uk-position-center uk-position-small uk-text-center uk-light" >
+                            <h2 class="uk-margin-remove">ETIAN MAUTIS TORTOR</h2>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, labore sed praesentium qui rem consequuntur corrupti.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/slider-2.jpg" alt="" uk-cover>
+                        <div class="uk-position-bottom uk-position-medium uk-text-center uk-dark">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/slider-3.jpg" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center">
+                            <h3 class="uk-margin-remove">Overlay Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/slider-4.jpg" alt="" uk-cover uk-dark>
+                        <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small">
+                            <h3 class="uk-margin-remove">Overlay Bottom Right</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                </ul>
+            
+                <div class="uk-light">
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                </div>
+            
+            </div>
+</section>
+<section>
+        <div class="uk-section uk-section-primary uk-light " id="first_Section">
+                <div class="uk-container">
+                    <div class="uk-grid-match uk-child-width-1-3@m " uk-grid>
+                        <div >
+                            <span uk-icon="paint-bucket" ></span>
+                            <a href="#" class="uk-card-Title uk-text-bold">Web Design</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div >
+                            <span uk-icon="star" ></span>
+                            <a href="#" class="uk-card-Title uk-text-bold">Web Development</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div >
+                            <span uk-icon="heart" ></span>
+                            <a href="#" class="uk-card-Title uk-text-bold">User Interface</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            
+</section>
+<section >
+        <div class="uk-section uk-section-primary uk-light" id="second_section" >
+                <div class="uk-container">
+            
+                    <h3>Section Primarys</h3>
+            
+                    <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+</section>
+<section>   
+        <div class="uk-section uk-section-primary uk-light" id="third_section" >
+                <div class="uk-container">
+            
+                    <h3>Section Primary</h3>
+            
+                    <div class="uk-grid-match  uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                    <h3 class="uk-card-title">Default</h3>
+                                    <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>     
+                    </div>
+            
+                </div>
+            </div>
+            
+</section>
+<section>   
+        <div class="uk-section uk-section-primary uk-light" id="last_section" >
+                <div class="uk-container">
+            
+                    <h3>Section Primary</h3>
+            
+                    <div class="uk-grid-match  uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                    <h3 class="uk-card-title">Default</h3>
+                                    <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-large uk-card-hover uk-card-secondary uk-card-body">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>     
+                    </div>
+            
+                </div>
+            </div>
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+</body>
+</html>

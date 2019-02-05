@@ -1,0 +1,28 @@
+#first_Section{
+    background-color: #e74c3c;
+}
+#last{
+    background-color: transparent;
+}
+#second_section{
+    color: black;
+    background-color: white;
+}
+#third_section{
+    color: black;
+    background-color: white;
+}
+#last_section{
+    color: black;
+    background-color: white;
+}
+.h3{
+    color: black;
+}
+.uk-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.uk-card{
+    padding: 0px 0px 0px 0px;
+}
