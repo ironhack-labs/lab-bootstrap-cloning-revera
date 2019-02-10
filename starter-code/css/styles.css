@@ -1,13 +1,88 @@
-.navbar {
-
+body {
+  margin: 0;
 }
 
-.slide-div{
+.nav-bar {
+  height: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nav-logo {
+  width: 30%;
+}
+
+.nav-logo h1 {
+  margin: 25px 10px 0;
+}
+
+.nav-logo a {
+  color: black;
+}
+
+.nav-links {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style-type: none;
+  margin: 15px 10px 0;
+  font-size: 1.2rem;
+  color: grey
+}
+
+.nav-list .first-li {
+  color: #ed564b;
+}
+
+.slide-div {
   background-color: black;
+}
+.carousel-item {
+  height: 28rem;
 }
 
 .three-items {
-  background-color: red;
+  background-color: #ed564b;
+  height: 20rem;
+  width: 100%;
+}
+
+.three-items-container {
+  color: white;
+  padding: 20px;
+}
+
+.three-items span{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.three-items h3, p{
+  text-align: center;
 }
 
 .main-content {
@@ -15,11 +90,11 @@
 }
 
 .bottom {
-  background-color: darkgrey;
+  background-color: #3b3b3b;
   height: 10%;
 }
 
 .footer {
-  background-color: grey;
+  background-color: #292929;
   height: 10%;
 }
