@@ -1,0 +1,85 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+}
+
+/* BOOTSTRAP CHANGES */
+
+.col-sm-3 {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+/* NAVBAR */
+
+h1 {
+  font-weight: bold;
+}
+
+.nav {
+  padding: 1% 10%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+
+.navbar-nav {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin: 0 12px;
+}
+
+
+
+/* SLIDER */
+
+.slide-container {
+  background-color: #000;
+  height: 400px;
+}
+
+.carousel-control-prev {
+  background: #ed564b;
+  height: 18%;
+  width: 4%;
+  margin: auto;
+}
+
+.carousel-control-next {
+  background: #ed564b;
+  height: 18%;
+  width: 4%;
+  margin: auto;
+}
+
+
+
+/* CATEGORY ICONS */
+
+.category-icons {
+  background-color: #ed564b;
+  text-align: center;
+  color: #FFF;
+  padding: 3% 10%;
+}
+
+.card {
+  background: transparent;
+  border: none;
+}
+
+.card h3 {
+  font-weight: bold;
+  margin-top: 10%;
+  font-size: 1.4rem;
+}
+
+.card i {
+  font-size: 1.5rem;
+  border: 4px solid #FFF;
+  border-radius: 100%;
+  padding: 5%;
+}
+
