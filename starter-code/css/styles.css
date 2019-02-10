@@ -1,0 +1,25 @@
+.navbar {
+
+}
+
+.slide-div{
+  background-color: black;
+}
+
+.three-items {
+  background-color: red;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.bottom {
+  background-color: darkgrey;
+  height: 10%;
+}
+
+.footer {
+  background-color: grey;
+  height: 10%;
+}
