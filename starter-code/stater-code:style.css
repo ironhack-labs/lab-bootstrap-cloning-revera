@@ -1,0 +1,92 @@
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .navbar-nav  .nav-link:hover {
+  color: #ed564b;
+}
+
+.slide-button {
+  background-color: #ed564b;
+}
+
+.container-icons h4, .container-icons p {
+  color: #fff;
+}
+
+.container-icons h4 {
+  color: #fff;
+}
+
+.fas {
+  color: #fff;
+}
+
+.icons {
+  padding-top: 20px;
+  align-items: center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  text-align: center;
+  background-color: #ed564b;
+}
+
+.date-post {
+  color: #8c8c8c;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.date-span {
+  color: #ed564b;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.par-article {
+  text-align: justify;
+  width: 80%;
+}
+
+.latest-article {
+  padding-top: 50px;
+  margin-left: 18px;
+}
+
+.latest-article p {
+  color: #8c8c8c;
+  font-weight: bold;
+}
+
+.latest-article h3 {
+  font-weight: bold;
+}
+
+.end {
+  border-top: 4px solid #ed564b;
+  margin-top: 30px;
+  background-color: #404040;
+  color: #ccc;
+}
+
+.list-group-item {
+  background-color: #404040;
+}
+
+.row.footer {
+  background-color: #262626;
+  color: #b3b3b3;
+}
+
+.list-footer {
+  font-size: 14px;
+}
