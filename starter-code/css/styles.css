@@ -1,0 +1,139 @@
+h1{
+    font-size: 6em;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 14px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+nav li{
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.minititle{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+nav .row{
+    margin-top: 20px;
+}
+
+body>header{
+    background-color: black;
+    position: relative;
+}
+
+body>header img{
+    filter: grayscale(100%);
+}
+
+.maintitle{
+    position: absolute;
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    width: 40%;
+    left: 50%;
+    top: 8vw;
+    transform: translateX(-50%);
+    z-index: 200;
+}
+
+.maintitle h1{
+    text-transform: uppercase;
+}
+
+.maintitle p{
+    color: rgba(255,255,255,0.8);
+}
+
+.overeffect{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/overlay.png");
+    background-repeat: repeat;
+}
+
+
+.upmove{
+    transform: translateY(-260px);
+}
+
+
+
+.redarea{
+    background-color: rgb(236, 73, 73);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+}
+
+.redarea article{
+    text-align: center;
+    margin-top: 20px;
+    color:  rgba(255,255,255,0.8); 
+}
+
+
+.redarea span {
+    margin: 25px auto;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: 5px solid rgba(255,255,255,0.8); 
+    padding: 15px;
+    font-size: 2.2em;
+}
+
+.latestprojects{
+    margin-top: 50px;
+}
+
+.latestprojects header{
+    text-transform: uppercase;
+}
+
+.latestprojects header p{
+    color: gray;
+    font-weight: bolder;
+    font-size: .9em;
+}
+
+.latestprojects hr{
+    border: 1px solid rgba(85, 84, 84, 0.2);
+    width: 100%;
+    margin-top: 0;
+}
+
+.latestprojects img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.latestprojects article{
+    text-align: center;
+}
