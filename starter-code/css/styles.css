@@ -23,6 +23,11 @@ body {
   color: black;
 }
 
+.nav-logo a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .nav-links {
   width: 65%;
   display: flex;
@@ -45,6 +50,15 @@ body {
   margin: 15px 10px 0;
   font-size: 1.2rem;
   color: grey
+}
+
+.nav-list a{
+  color:grey;
+}
+
+.nav-list a:hover{
+  color:#ed564b;
+  text-decoration: none;
 }
 
 .nav-list .first-li {
@@ -86,12 +100,35 @@ body {
   text-align: center;
 }
 .three-items h3 {
-  padding: 10px 0;
+  padding: 15px 0;
   font-weight: 700;
+}
+
+.three-items p {
+  font-size: 0.9rem;
 }
 
 .main-content {
   background-color: white;
+}
+
+.main-titles {
+  margin: 25px 0 30px;
+  padding: 5px 0 0;
+  border-bottom: #bebebe solid 2px;
+}
+
+.main-titles h2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main-titles p {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #a8a8a8;
 }
 
 .project-images-container {
@@ -111,9 +148,53 @@ body {
   width: 100%;
 }
 
-.project-images-article h3 {
+.project-images-article p {
   font-size: 1rem;
   text-align: center;
+}
+
+.posts-dates {
+  color: grey;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.posts-dates span {
+  color: #ed564b;
+}
+
+.slider-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.slider-images-article {
+  width: 24%;
+  font-size: 1rem;
+  margin: 0 3px;
+}
+
+.slider-images-article img {
+  width: 100%;
+}
+
+.slider-images-article h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.slider-images-article p {
+  font-size: 0.9rem;
+  padding: 10px 0;
+  text-align: left
+}
+
+.redline {
+  background-color: #ed564b;
+  height: 3px;
 }
 
 .bottom {
@@ -121,7 +202,51 @@ body {
   height: 10%;
 }
 
+.bootom-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+  padding: 4% 0;
+}
+
+.bootom-article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 22%;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.bootom-article h3 {
+  color: white;
+  font-size: 1rem;
+  padding-bottom: 15px;
+}
+
+.bootom-article p {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.bootom-article a {
+  width: 100%;
+  color: grey;
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: grey dotted 1px;
+  padding: 3px 0;
+}
+
 .footer {
   background-color: #292929;
   height: 10%;
+  color: white;
+}
+
+.footer-container {
+  padding: 20px 0;
+  font-size: 0.8rem;
 }
