@@ -16,6 +16,7 @@ body {
 
 .nav-logo h1 {
   margin: 25px 10px 0;
+  font-weight: 700;
 }
 
 .nav-logo a {
@@ -65,7 +66,7 @@ body {
 
 .three-items-container {
   color: white;
-  padding: 20px;
+  padding: 35px 0;
 }
 
 .three-items span{
@@ -84,9 +85,35 @@ body {
 .three-items h3, p{
   text-align: center;
 }
+.three-items h3 {
+  padding: 10px 0;
+  font-weight: 700;
+}
 
 .main-content {
   background-color: white;
+}
+
+.project-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-images-article {
+  width: 24%;
+  font-size: 1rem;
+  margin: 0 3px;
+}
+
+.project-images-article img {
+  width: 100%;
+}
+
+.project-images-article h3 {
+  font-size: 1rem;
+  text-align: center;
 }
 
 .bottom {
