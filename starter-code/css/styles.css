@@ -1,0 +1,59 @@
+img {
+    max-width: 100%;
+}
+
+nav {
+    height: 100px;
+    padding: 20px;
+}
+
+nav h1 {
+    float: left;
+}
+
+.menu {
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 15px 15px 0px 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+
+}
+
+.services {
+    padding: 20px;
+    background-color: #ED564B;
+    color: #FFFFFF;
+}
+
+.projects h2, .articles h2 {
+    margin: 20px 0 0 20px;
+}
+
+.projects > p, .articles > p {
+    margin: 0 0 20px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #3B3B3B;
+    border-top: 5px solid #ED564B;
+}
+
+.footer h3 {
+    color: #FFFFFF;
+}
+
+.footer p, .footer li {
+    color: #AAAAAA;
+}
