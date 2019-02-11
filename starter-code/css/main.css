@@ -1,4 +1,37 @@
+.NavMain{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavMain .container-fluid{
+	width: 85%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavMain .container-fluid .navbar-header{
+	margin-right: 40px;
+}
+.Navigation .nav.navbar-nav{
+	font-size: 11px;
+}
+.Navigation .nav.navbar-nav li.active a{
+	background-color: transparent;
+	color: red;
+}
+.Navigation .nav.navbar-nav li a:hover{
+	color: red;
+	transition: .2s ease-in-out;
+}
+.Navigation .nav.navbar-nav li a{
+	padding: 10px 8px;
+}
+.navbar-brand.Logo{
+	color: black!important;
+	font-weight: bold;
+    font-size: 27px;
 
+}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     height: 400px;
@@ -7,6 +40,61 @@
     max-width: 100%;
     line-height: 1;
 }
+/*Carousel arrows control*/
+.carousel-control{
+	width: 80px;
+}
+.carousel-control span{
+	background-color: #ed564b;
+	padding: 0 3px;
+}
+.left.carousel-control span{
+	left: 6%;
+	height: 80px;
+    width: 37px;
+}
+.right.carousel-control span{
+	right: 6%;
+	height: 80px;
+    width: 37px;
+}
+.glyphicon-chevron-right:before{
+	top: 22px;
+    position: absolute;
+    left: 5px;
+}
+.glyphicon-chevron-left:before {
+	top: 22px;
+    position: absolute;
+    right: 5px;
+}
+.carousel-text{
+	bottom: 50px;
+}
+.carousel-title{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: lighter;
+}
+.carousel-description{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: lighter;
+	margin-bottom: 25px;
+}
+.carousel-button{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 8px 15px;
+}
+.carousel-button:hover{
+	color: black;
+	text-decoration: none;
+	background-color: white;
+}
+
 
 .navbar {
 	margin-bottom: 0px !important;
@@ -14,9 +102,6 @@
 	background-color: #fff !important;
 	border-color: #fff !important;
 }
-
-
-
 .carousel-inner img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -47,7 +132,12 @@
 span {
 	padding-top: 10px;
 }
-
+.img-responsive{
+	margin-bottom: 15px;
+}
+.red-time{
+	color: red;
+}
 
 .first-container {
 	background: #ed564b;
@@ -134,4 +224,23 @@ footer {
     background: #292929;
 	font-size: 12px;
 	color: white;
+}
+
+@media screen and (max-width: 765px) {
+	.NavMain .container-fluid {
+		display: block;
+		width: 100%;
+	}
+	.Navigation .nav.navbar-nav li a{
+		font-size: 18px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+		background-color: black!important;
+	}
+	.icon-bar{
+		padding-top: 4px;
+	}
+	.NavMain .container-fluid .navbar-header{
+		margin-right: 0;
+	}
 }
