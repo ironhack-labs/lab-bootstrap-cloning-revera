@@ -23,7 +23,7 @@
   border-bottom: 5px solid #f96b61;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   line-height: 1.6;
 }
 
@@ -35,8 +35,19 @@
   font-size: 1.8rem;
 }
 
-.projects-class {
-  color: green; /* borrar */
+.latest-class {
+  text-transform: uppercase;
+}
+
+.latest-class > h2 {
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.latest-class > p {
+  color: #ccc;
+  font-weight: bold;
 }
 
 .footer-1 {
