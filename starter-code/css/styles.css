@@ -26,7 +26,14 @@ nav h1 {
 }
 
 header {
+    position: relative;
+}
 
+.hero {
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
 }
 
 .services {
