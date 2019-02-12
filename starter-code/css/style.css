@@ -1,0 +1,21 @@
+nav .navbar-brand {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.aRed {
+  color: #E84425;
+}
+
+.header-section {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+  background-color: #E84425;
+  border-top: 10px;
+  border-top-color: #E85839;
+}
+
