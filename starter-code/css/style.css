@@ -32,6 +32,11 @@ ul {
     background: #ed564b;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
+    color: whitesmoke;
+}
+
+.fwidgets {
+    text-align: center;
 }
 
 .container img {
