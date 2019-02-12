@@ -1,0 +1,45 @@
+.lista li {
+    display: inline;
+    padding: 3px;
+}
+
+.section-1 {
+    /* background-image: url("starter-code/img/slider-1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 10%; */
+    /* padding: 15% */
+}
+
+.section-1 {
+    color: white;
+    text-align: center;
+}
+
+.section-2 {
+    background-color: #ed564b;
+    padding: 20px 0;
+    text-align: center;
+    color: white
+}
+
+.container img {
+    width: 80%;
+}
+
+.section-3 {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 20px 0;
+}
+
+.section-4 {
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #292929;
+    color: white;
+    padding: 20px 20px 20px 60px
+}
