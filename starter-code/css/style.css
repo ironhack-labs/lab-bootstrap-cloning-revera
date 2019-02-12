@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, sans-serif;
+} 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center; 
+}
+
+header a {
+    margin-right: 10px;
+}
+
+.hero {
+    background-image: url(../img/project-2.jpg) no-repeat cover ;
+    width: 100px;
+    height: 800px;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-top:30px;
+}
+
+.info {
+    margin-top: 30 px;
+}
