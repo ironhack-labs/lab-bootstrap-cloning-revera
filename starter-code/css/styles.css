@@ -24,6 +24,20 @@ h1,h2,h3 {
   margin-top: 20px;
 }
 
+h2 {
+  font-size: 24px;
+  color:black;
+  font-weight:bold;
+  margin-bottom:5px;
+
+}
+
+h3 {
+  font-size:24px;
+  font-weight: bold;
+
+}
+
 .site-branding {
   margin-bottom: 20px;
 }
@@ -53,6 +67,8 @@ h1,h2,h3 {
   font-weight: 400;
 }
 
+/* Red-part*/
+
 /* Hacer un hover al terminar*/
 
 .container-red {
@@ -62,10 +78,21 @@ h1,h2,h3 {
   background-color: #ed564b; 
 }
 
-.container-middle {
-  width: 1170px;
-  height: 761px;
-  margin: 0 134.500px;
+.center {
+  color:white;
+  text-align: center;
+}
+
+
+/* Container-middle classes*/
+
+.section-wide {
+  margin-top:40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .container-black {
@@ -85,4 +112,21 @@ footer {
   padding :10px 0;
   background-color: #292929;
   height: 59px;
+}
+
+.center span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.personal-navbar li {
+  font-size: 100%;
 }
