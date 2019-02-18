@@ -40,7 +40,7 @@
 }
 
 .projects-class {
-  padding: 40px 150px;  
+  padding: 40px;
 }
 
 .latest-class {
@@ -58,12 +58,57 @@
   font-weight: bold;
 }
 
+.overlay {
+  background: url(../img/overlay.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none; /* DGG: Para poder pinchar en los botones laterales del slider */
+}
+
+.posted {
+  color: #606060;
+  padding: 5px 0;
+}
+
+.red-letter {
+  color: #f4473a;
+}
+
+
 .footer-1 {
-  background-color: black;
+  /*background-color: #606060;*/
+  color: white;
+  padding: 40px;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.footer-1 p, .footer-1 li {
+  color: #AAA;
+  padding: 7px 0;
+}
+
+.footer-1 a {
+  color: #AAA;
+  text-decoration: none;
+}
+
+.footer-1 a:hover {
   color: white;
 }
 
-.footer-2 {
-  background-color: red;
-  color: white;
+.separator {
+  border-bottom: dotted 1px #AAA;
 }
+
+.footer-2 {
+  background-color: #333;
+  color: #eee;
+  padding: 20px;
+}
+
+
