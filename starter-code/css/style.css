@@ -105,10 +105,7 @@ color:#8a999c;
     background: #e7554a;
     margin-left: -128px;
     padding: 27px 10px 10px 10px
-        
-
 }
-
 
 .carousel-my-control-next{
 
@@ -121,20 +118,49 @@ color:#8a999c;
 
 .icon-1{
  
-margin-left: 23px;
-margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid white;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-left: 23px;
+    margin-bottom: 10px;
 
+}
+.icon-inside{
+
+    margin-top: 15px;
+}
+
+.icon-inside-1{
+
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.icon-inside-2{
+    margin-left: 11px;
+    margin-top: 15px;
 }
 
 .icon-2{
-
-    margin-left: 38px;
+    border: 2px solid white;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-left: 23px;
+    margin-left: 43px;
     margin-bottom: 10px;
 
 }
 .icon-3{
-
-    margin-left: 23px;
-margin-bottom: 10px;
+    border: 2px solid white;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-left: 30px;
+    margin-bottom: 10px;
 
 }
