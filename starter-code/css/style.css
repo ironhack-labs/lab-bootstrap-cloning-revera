@@ -98,3 +98,25 @@ color:#8a999c;
 
    background: white
 }
+
+.carousel-my-control-prev{
+
+    height: 80px;
+    background: #e7554a;
+    margin-left: -128px;
+    padding: 27px 10px 10px 10px
+        
+
+}
+
+
+.carousel-my-control-next{
+
+    height: 80px;
+    background: #e7554a;
+    margin-right: -128px;
+    padding: 27px 10px 10px 10px
+
+}
+
+
