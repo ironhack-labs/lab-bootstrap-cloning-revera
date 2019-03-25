@@ -1,0 +1,345 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: Arial, serif;
+}
+
+.navbar-menu{
+  font-size: 1.6rem;
+}
+
+.nav-title{
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: 20%;
+  font-weight: bold;
+}
+
+.nav-title a{
+  color: #000;
+}
+
+.navbar .navbar-menu .navbar-nav .active {
+  color: #ed564b;
+  font-weight: bold;
+}
+
+.carousel-title{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.feature-title{
+  font-size: 1.6rem;
+}
+
+.grayscale{
+  filter: grayscale(100%);
+}
+
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+.carousel-control-next{
+  justify-content: flex-end;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: #ed564b;
+  height: 5rem;
+  width: 2.5rem;
+  background-image: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.feature-title h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: .5rem;
+}
+
+.features-section{
+  background-color: #ed564b;
+  color: white;
+}
+
+.icon-box{
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.icon-box::after{
+  content: '';
+  width: 5rem;
+  height: 5rem;
+  border: .3rem solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-left: -3.25rem;
+}
+
+.secondary-header{
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.subheader{
+  text-transform: uppercase;
+  color: grey;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.subtitle{
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+
+.hr{
+  width: 100%;
+  height: .1rem;
+  background-color: #3B3B3B;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.date{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+}
+
+.special{
+  color: #ed564b;
+  font-weight: bold;
+}
+
+.description{
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.description p{
+  padding-bottom: 2rem;
+}
+
+.description.article p{
+  color: grey;
+  font-weight: normal;
+}
+
+
+.first-footer{
+  background-color: #3B3B3B;
+  border-top: .3rem solid #ed564b;
+  color: white;
+}
+
+
+.first-footer{
+  color: #aaa;
+}
+
+.title h3{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #eee;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.first-footer ul{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.first-footer ul li{
+  list-style: none;
+  border-bottom: 1px dotted #aaa;
+  padding: .5rem 0;
+}
+
+.first-footer ul li a{
+  color: #aaa;
+}
+
+.second-footer{
+  background-color: #292929;
+  color: white;
+}
+
+.copyright{
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.theme::before{
+  content: '|';
+  margin-right: .5rem;
+  color: white;
+}
+
+@media(min-width:576px){
+  .feature-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel-title .btn{
+    font-size: 1.6rem;
+  }
+
+  .feature-title h2{
+    font-size: 1.8rem;
+  }
+
+  .description p{
+    margin-top: 1rem;
+  }
+
+  .subtitle{
+    font-size: 1.8rem;
+  }
+
+  .date{
+    font-size: 1.6rem;
+  }
+
+  .description.article{
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px){
+  .carousel-title .btn{
+    font-size: 1.8rem;
+  }
+
+  .feature-title h2{
+    font-size: 2.2rem;
+  }
+
+  .secondary-header{
+    font-size: 1.8rem;
+  }
+
+  .subheader{
+    font-size: 1.6rem;
+  }
+
+  .subtitle{
+    font-size: 2rem;
+  }
+
+  .date{
+    font-size: 1.6rem;
+  }
+
+  .description{
+    font-size: 1.6rem;
+  }
+
+  .description.article{
+    font-size: 1.8rem;
+  }
+
+  .paragraph{
+    font-size: 1.8rem;
+  }
+  
+  .first-footer ul li{
+    font-size: 1.8rem;
+  }
+
+  .copyright{
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 992px){
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon{
+    font-size: 2rem;
+    height: 7rem;
+    width: 4rem;
+  }
+  
+  .carousel-title .btn{
+    font-size: 2rem;
+  }
+
+  .carousel-title p{
+    font-size: 2rem;
+  }
+
+  .secondary-header{
+    font-size: 2.2rem;
+  }
+
+  .feature-title h2{
+    font-size: 2.6rem;
+  }
+
+  .feature-description{
+    font-size: 1.8rem;
+  }
+
+  .subheader{
+    font-size: 1.8rem;
+  }
+
+  .subtitle{
+    font-size: 2rem;
+  }
+
+  .date{
+    font-size: 1.6rem;
+  }
+
+  .description{
+    font-size: 1.6rem;
+  }
+
+  .description.article{
+    font-size: 1.8rem;
+  }
+
+  .paragraph{
+    font-size: 1.8rem;
+  }
+  
+  .first-footer ul li{
+    font-size: 1.8rem;
+  }
+
+  .copyright{
+    font-size: 1.8rem;
+  }
+}
+
+@media(min-width: 1200px){
+  
+}
