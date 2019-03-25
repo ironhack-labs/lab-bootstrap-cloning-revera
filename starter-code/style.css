@@ -1,0 +1,33 @@
+body,html{
+  margin: 0;
+  padding: 0
+}
+a {
+  color: grey
+}
+a:hover{
+  color: red
+}
+.navbar-brand {
+  color: red
+}
+.red {
+  background-color: #ed564b;
+}
+.item {
+  color: white;
+  font-size: 40px;
+  margin: 50px 0
+}
+.thumbnail img{
+  width: 200px;
+  margin: 40px 0
+}
+.grey {
+  background: #3b3b3b;
+  height: 20vh;
+}
+.footer {
+  background: #292929;
+  height: 20vh;
+}
