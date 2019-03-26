@@ -9,3 +9,8 @@ div{
   html {
     font-size: 10px;
   }
+
+[class^="fas-"], [class*=" fas-"] {
+  display: inline-block;
+  width: 100%;
+}
