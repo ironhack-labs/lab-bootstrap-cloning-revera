@@ -21,13 +21,25 @@ a:hover{
 }
 .thumbnail img{
   width: 200px;
-  margin: 40px 0
+  margin: 20px 0
 }
 .grey {
   background: #3b3b3b;
-  height: 20vh;
+  color: white
 }
 .footer {
   background: #292929;
-  height: 20vh;
+}
+h3 {
+  margin-top: 50px
+}
+h5 {
+  padding-top: 15px
+}
+p {
+  color: white;
+}
+
+.border-bottom-dotted {
+  border-bottom: 1px dotted grey
 }
