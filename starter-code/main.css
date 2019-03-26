@@ -1,0 +1,147 @@
+nav
+{
+  display: flex;
+  align-content: center;
+}
+
+.title
+{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav.justify-content-center>li>a
+{
+  color: silver;
+}
+
+.nav.justify-content-center>li>a.active
+{
+  color:orange;
+}
+
+.nav.justify-content-center>li>a:hover
+{
+  color: orange;
+}
+
+.d-block.w-100
+{
+  filter: grayscale(100%)
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  background-color: red;
+  height: 60px;
+}
+
+.btn.btn-outline-light>a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.red-back
+{
+  background-color: red;
+  display: flex;
+}
+
+.red-back>.col-sm-4>h3,
+.red-back>.col-sm-4>p
+{
+  color: white;
+  text-align: center;
+}
+
+.blog
+{
+  margin: 30px 20px;
+  
+}
+
+.blog>h4,
+.blog>hr
+{
+  color: silver;
+}
+
+.blog>h4
+{
+  font-size: 18px;
+}
+
+.blog>.container>.row>.col-sm-3>a
+{
+  color: black;
+}
+
+.article
+{
+  margin: 30px 20px; 
+}
+
+.article>h4,
+.article>hr
+{
+  color: silver;
+  font-size: 18px;
+}
+
+.article>.container>.row>.col-sm-3>a
+{
+  color: black;
+}
+
+.article>.container>.row>.col-sm-3>h6>a
+{
+  color: red;
+}
+
+.article>.container>.row>.col-sm-3>h6
+{
+  line-height: 28px;
+}
+
+.bottom
+{
+  background-color: rgb(58, 58, 58);
+  border-top: 5px solid red;
+}
+
+.bottom .row
+{
+  margin-top: 20px; 
+}
+
+.bottom h5
+{
+  color: white;
+}
+
+.bottom p, .bottom a
+{
+  color: grey;
+}
+
+.bottom ul
+{
+  list-style: none;
+}
+
+.bottom a
+{
+  border-bottom: 1px dashed grey;
+}
+
+footer
+{
+  background-color: black;
+  color: white;
+  height: 40px;
+  text-align: center;
+}
+
+
