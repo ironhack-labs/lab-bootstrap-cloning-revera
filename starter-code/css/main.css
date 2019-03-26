@@ -1,6 +1,6 @@
-div{
+/* div{
     border: 1px solid silver;
-  }
+  } */
   
   * {
     box-sizing: border-box;
@@ -10,7 +10,54 @@ div{
     font-size: 10px;
   }
 
-[class^="fas-"], [class*=" fas-"] {
+.brand{
+  color:black;
+}
+
+.diff-section{
+  background-color: #ED564B;
+  color:  white;
+}
+
+.title-section{
+  margin-top:25px;
+  border-bottom: 2px solid silver;
+  margin-bottom: 10px;
+
+}
+
+.center-fas{
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+i.fas {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px white;
+  padding: 0.5em 0.6em;
+  margin-top: 10px;
+}
+
+.justify-text{
+  text-align: justify;
+}
+
+.separador{
+  border-top: 3px solid #ED564B;
+}
+
+.archive-section{
+  background-color: #3B3B3B;
+  color:  white;
+}
+
+.copyright-section{
+  background-color: #000000;
+  color:  white;
+}
+
+.copyright-col{
+  padding-left: 0px;
 }
