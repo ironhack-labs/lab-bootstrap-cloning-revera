@@ -1,0 +1,19 @@
+
+
+
+
+html{
+    font-size: 10px;
+}
+
+#carouselExampleControls img {
+    height: 40rem;
+}
+#textCarrousel{
+    display: flex;
+    
+}
+.carousel-control-next,.carousel-control-prev{
+   
+    background-color: red;
+}
