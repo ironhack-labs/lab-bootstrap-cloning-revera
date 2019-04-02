@@ -1,0 +1,142 @@
+.carousel-item img {
+  filter: grayscale(100%) brightness(0.7);
+}
+
+.caption-image {
+  position: absolute;
+  top: 25%;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: #777;
+}
+
+.nav-link:hover {
+  color: #ed564b;
+}
+
+.active {
+  color: #ed564b;
+}
+
+.brand-name {
+  position: relative;
+  right: 100px;
+  font-size: 26px;
+}
+
+span {
+  color: black;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  border: 7px solid white;
+  padding-top: 22px;
+  border-radius: 100%;
+  margin: 30px 0 30px 0;
+}
+.jumbotron-one {
+  background-color: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+}
+
+.section-one p > a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.section-one p > a:hover {
+  color: #eb9f9a;
+}
+
+.section-two {
+  margin: 5% 7%;
+}
+
+.section-two > p {
+  color: #aaa;
+}
+
+.section-two .container img {
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.section-two .container p {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.section-two .container h5 {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project {
+  cursor: pointer;
+}
+.link {
+  color: #ed564b;
+}
+
+.link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.section-three .container p {
+  color: #606060;
+}
+
+.font-bolder {
+  font-weight: 600 !important;
+  font-size: 13px;
+}
+
+footer > div:nth-child(1) {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  height: auto;
+  color: white;
+}
+footer .container {
+  padding: 5% 0;
+  background-color: #3b3b3b;
+}
+
+footer > div:nth-child(2) {
+  background-color: #292929;
+  height: 78px;
+  color: white;
+}
+
+footer > div:nth-child(2) p {
+  position: relative;
+  margin: 0;
+  width: 25%;
+  top: 25%;
+  left: 50px;
+}
+
+footer > div:nth-child(2) p:last-child {
+  width: 90px;
+}
+
+.footer-link {
+  color: #aaa;
+  cursor: pointer;
+  padding: 5px 0;
+  border-bottom: 0.5px dotted #aaa;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
