@@ -1,0 +1,35 @@
+#nav-links > li {
+  padding: 20px;
+  color: black;
+
+}
+#catpic {
+
+width: 90vh;
+background-color:red;
+}
+#div1 {
+  height: 150px;
+  background-color:black;
+}
+
+#div2{
+  height: 150px;
+  background-color:red;
+}
+
+#div3 {
+  height: 150px;
+  background-color: white;
+}
+
+#div4 {
+  height: 150px;
+  background-color:black;
+}
+
+#footer {
+height: 50px;
+background-color: gray;
+
+}
