@@ -16,6 +16,28 @@
   color: #ed564b;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-edited {
+  transition: all 2s;
+  background-color: #f8f9fa;
+  border: none;
+  margin-top: -7px;
+  text-align: center;
+}
+.dropdown-edited ul {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.dropdown-edited li {
+  color: #777;
+  border-bottom: 1px solid #aaa;
+  width: 120px;
+  margin-left: 12%;
+}
+
 .active {
   color: #ed564b;
 }
@@ -108,10 +130,13 @@ footer > div:nth-child(1) {
   color: white;
 }
 footer .container {
-  padding: 5% 0;
+  padding: 3% 0 5% 0;
   background-color: #3b3b3b;
 }
 
+footer h5 {
+  margin-top: 40px;
+}
 footer > div:nth-child(2) {
   background-color: #292929;
   height: 78px;
@@ -121,7 +146,7 @@ footer > div:nth-child(2) {
 footer > div:nth-child(2) p {
   position: relative;
   margin: 0;
-  width: 25%;
+  width: 50%;
   top: 25%;
   left: 50px;
 }
@@ -129,7 +154,6 @@ footer > div:nth-child(2) p {
 footer > div:nth-child(2) p:last-child {
   width: 90px;
 }
-
 .footer-link {
   color: #aaa;
   cursor: pointer;

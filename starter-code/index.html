@@ -61,9 +61,34 @@
         <li class="nav-item nav-link small">
           Blog
         </li>
-        <li class="nav-item nav-link small">
-          Parent Page ≫
+        <li class="nav-item nav-link small dropdown">
+          <div
+            class="dropdown-toggle"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Parent Page
+          </div>
+          <div
+            class="dropdown-menu dropdown-edited "
+            aria-labelledby="dropdownMenu2"
+          >
+            <ul class="nav flex-column small">
+              <li class="nav-item nav-link">
+                Full Page
+              </li>
+              <li class="nav-item nav-link">
+                Child One
+              </li>
+              <li class="nav-item nav-link" style="border: none;">
+                Child Two
+              </li>
+            </ul>
+          </div>
         </li>
+
         <li class="nav-item nav-link small">
           Contact
         </li>
@@ -257,7 +282,7 @@
             <img src="./img/project-2.jpg" />
             <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
           </div>
-          <div class="col-md text-centerproject ">
+          <div class="col-md text-center project ">
             <img src="./img/project-3.jpg" />
             <p>Vivamus blandit ipsum sed arcu euismod</p>
           </div>
@@ -369,7 +394,6 @@
           <div class="row">
             <div class="col-md font-weight-light">
               <h5 class="text-uppercase">Revera</h5>
-
               <p style="color:#aaa;">
                 Cum sociis natoque penatibus et magnis dis parturient montes,
                 nascetur ridiculus mus. Vestibulum vehicula erat non congue
