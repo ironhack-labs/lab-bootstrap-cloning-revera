@@ -30,7 +30,16 @@ padding:20px 0;
 
 #section3{
   background-color:black;
-  height:70vh;
+  height:40vh;
+}
+
+#section3 h3,p,ul li{
+  color:white;
+  list-style:none;
+}
+
+#section3 li{
+  border-bottom:1px dotted gray;
 }
 
 footer{
