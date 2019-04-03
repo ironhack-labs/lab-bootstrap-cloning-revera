@@ -1,0 +1,12 @@
+.container{
+    background-color: #ed564a;
+    height: 200px;
+    width: 5000px;
+    color: white;
+}
+.carousel-control-prev{
+    color: #ed564a;
+}
+.carousel-control-next{
+    color: #ed564a;
+}
