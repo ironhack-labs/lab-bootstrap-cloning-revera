@@ -1,4 +1,10 @@
+html{
+  box-sizing:border-box;
+}
 
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 
 nav li{
   padding:20px;
@@ -6,16 +12,20 @@ nav li{
 
 header{
   background-color: black;
-  height: 30vh;
+  height: 30%;
 }
 
 #section1{
-  height:30vh;
+padding:20px 0;
+}
+
+#section1 article{
+  padding:0 20px;
 }
 
 #section2{
   background-color: white;
-  height:70vh;
+  height:45%;
 }
 
 #section3{
