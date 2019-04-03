@@ -1,0 +1,34 @@
+/* 
+
+nav li{
+  padding:20px;
+}
+
+header{
+  background-color: black;
+  height: 30vh;
+}
+
+#section1{
+  background-color:red;
+  height:20vh;
+}
+
+#section2{
+  background-color: white;
+  height:70vh;
+}
+
+#section3{
+  background-color:black;
+  height:35vh;
+}
+
+footer{
+  background-color: gray;
+  height:20vh;
+} */
+
+#section1{
+  display: flex;
+}
