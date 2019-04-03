@@ -1,4 +1,4 @@
-/* 
+
 
 nav li{
   padding:20px;
@@ -10,8 +10,7 @@ header{
 }
 
 #section1{
-  background-color:red;
-  height:20vh;
+  height:30vh;
 }
 
 #section2{
@@ -21,7 +20,7 @@ header{
 
 #section3{
   background-color:black;
-  height:35vh;
+  height:70vh;
 }
 
 footer{
