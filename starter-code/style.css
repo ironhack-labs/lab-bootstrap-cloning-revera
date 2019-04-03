@@ -1,0 +1,15 @@
+nav{
+  background-color: white;
+}
+.top{
+  background-color: salmon;
+}
+.middle{
+  background-color: white;
+}
+footer{
+  background-color: gray;
+  border-top: 10px;
+  border-top-color: salmon;
+  list-style: none;
+}
