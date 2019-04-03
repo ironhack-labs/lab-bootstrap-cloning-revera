@@ -1,35 +1,17 @@
-#nav-links > li {
-  padding: 20px;
-  color: black;
 
-}
-#catpic {
-
-width: 90vh;
-background-color:red;
-}
-#div1 {
-  height: 150px;
-  background-color:black;
+#nav-bar1 {
+font-size: 32px;
 }
 
-#div2{
-  height: 150px;
-  background-color:red;
-}
-
-#div3 {
-  height: 150px;
-  background-color: white;
-}
-
-#div4 {
-  height: 150px;
-  background-color:black;
+#main-div1 {
+  border-top: 30px solid #ed564b;
+  background-color: #ed564b;
 }
 
 #footer {
-height: 50px;
-background-color: gray;
+  background-color: #3b3b3b;
+  border-top: 10px solid #ed564b;
+  color: white;
+  
 
 }
