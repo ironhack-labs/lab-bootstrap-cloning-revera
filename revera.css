@@ -1,0 +1,47 @@
+.menubar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.revera-logo{
+position: relative;
+left: 50px;
+}
+.list-items{
+    width: 90%;
+    text-align: right;
+}
+
+.threeRows{
+    background-color: #ed564b;
+    padding: 40px;
+    text-align: center;
+}
+
+.latestProject{
+    position: relative;
+    left: 30px;
+
+}
+
+.few{
+    position: relative;
+    left: 30px;
+
+}
+
+.container{
+    margin-top: 3%;
+}
+
+.firstFourthRow{
+    padding-top: 3%;
+
+}
+
+.secondFourthRow{
+    padding-top: 3%;
+
+}
