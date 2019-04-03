@@ -1,0 +1,128 @@
+* {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+  list-style: none;
+}
+
+body {
+  background: white;
+}
+
+nav {
+  background: white;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  align-self: center;
+}
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.tri {
+  text-align: center;
+  margin: 10px;
+}
+
+#logo {
+  font-weight: bolder;
+  align-self: center;
+  font-size: 2em;
+}
+
+#slideshow {
+  background: black;
+  height: 550px;
+  background: url("img/slider-1.jpg");
+  filter: grayscale();
+}
+
+#trilist {
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+}
+
+#trilist ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-content: center;
+}
+
+#latest {
+  width: 65%;
+  background: white;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#latest h3 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+#latest h5 {
+  color: darkgray;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#bottom {
+  background-color: #3b3b3b;
+  margin: auto;
+  border-top: 5px solid #ed564b;
+}
+
+#bottomContainer {
+  width: 65%;
+  margin: auto;
+  color: white;
+  margin-top: 33px;
+}
+
+.col-sm-3 p,
+li {
+  font-size: 0.75rem;
+  /* text-align: center; */
+}
+
+footer {
+  background-color: #292929;
+  padding: 10px;
+}
+
+footer p {
+  color: white;
+}
+
+#copyright {
+  width: 65%;
+  margin: auto;
+}
+.row {
+  margin: 0px;
+}
+
+.images {
+  width: 90%;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 668px) {
+  body {
+    background: black;
+  }
+}
+
+hr {
+  margin: 4px;
+  border-color: white;
+}
