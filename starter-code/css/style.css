@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.navContainer {
+  height: 90px;
+}
+
+.menubuttons {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: helvetica;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rowContainer {
+  padding: 50px;
+  color: white;
+  height: 45%;
+  background-color: #ed564b;
+  justify-content: center;
+  text-align: center;
+}
+
+.rowContainer h2 {
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.rowContainer p {
+  padding-bottom: 5px;
+}
+.wineGlass {
+  font-size: 3em;
+}
+
+.star {
+  font-size: 3em;
+}
+
+.heart {
+  font-size: 3em;
+}
+
+.projects {
+  text-align: center;
+  padding: 100px;
+}
+
+hr {
+  width: 85%;
+}
+
+.mainContent h1 {
+  font-size: 22px;
+  font-family: helvetica;
+  font-weight: bold;
+  padding-top: 75px;
+  padding-left: 100px;
+  padding-bottom: 100px;
