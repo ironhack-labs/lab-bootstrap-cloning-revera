@@ -1,0 +1,114 @@
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.features {
+  background-color:#EA5750;
+  padding: 40px 100px;
+}
+
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature i {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.feature h2 {
+  color: white;
+  font-size: 32px;
+}
+
+.feature p {
+  color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.projects {
+  margin-top: 48px;
+}
+
+.projects h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.projects h3 {
+  font-size: 20px;
+  opacity: 0.7;
+  padding-bottom: 24px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 24px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project p {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+
+
+.article {
+  text-align: left;
+}
+
+.article p:first-of-type {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.article .inner-text span {
+  color: #EA5750;
+}
+
+.footer {
+  padding: 40px 150px;
+  border-top: 3px solid  #EA5750;
+  background-color: #3B3B3B;
+  color: white;
+  height: 400px;
+}
+
+.footer .col-1 h3,
+.footer .col-2 h3,
+.footer .col-3 h3,
+.footer .col-4 h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu a {
+  color: white;
+  display: block;
+  opacity: 0.7;
+  text-decoration: underline !important;
+  text-decoration-color: white;
+  padding: 10px 0;
+}
+
+.copyright {
+  background-color: #292929;
+  padding: 20px 150px;
+  color: white;
+}
