@@ -1,0 +1,102 @@
+body {
+  color: #a3a4a7;
+}
+
+/* Nav Styles */
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+a {
+  color: #ed564b;
+}
+
+/* Header Styles */
+
+header div.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url('../img/overlay.png');
+}
+
+header div.details {
+  padding: 50px 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ed564b;
+}
+
+header div.icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 2em;
+  line-height: 2.8em;
+  border: 3px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Section styles */
+
+section {
+  padding: 50px 0;
+  color: #000000;
+}
+
+section p.title {
+  font-weight: 600;
+}
+
+section p.subtitle {
+  text-transform: uppercase;
+  color: #a3a4a7;
+}
+
+section hr {
+  margin: 35px 0;
+}
+
+article img {
+  width: 100%;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #3b3b3b;
+  border-top: 3px solid #ed564b;
+}
+
+footer h3 {
+  color: #ffffff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  padding: 5px 0;
+  border-bottom: 1px dotted gray;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer div.row {
+  padding: 50px 0;
+}
+
+footer div.copyright {
+  padding: 10px 0;
+  background: #292929;
+}
