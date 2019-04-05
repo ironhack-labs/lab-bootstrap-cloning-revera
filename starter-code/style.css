@@ -1,6 +1,31 @@
-#container-coral {
-    margin-top: 0;
-    background-color: rgb(233, 94, 84);
-    display: flex;
-    align-items: center;
+.col-sm-mainmenu {
+    font-size: 15px;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    filter: grayscale(1);
+  } 
+  
+.fwidgets {
+    background-color:#ed564b;
+    background-size: 100% 450px;
+    color: white;
+    text-align: -webkit-center;
+    padding: 40px 0px;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+  }
+  
+  ul{
+    display: none; 
+  }
+
+.PALAVRAS{
+  font-size: 5px;
+}
+
