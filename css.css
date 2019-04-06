@@ -1,0 +1,77 @@
+.carousel-item{
+    filter: grayscale(100%);
+}
+
+.btnSize{
+    margin-top: 19%;
+    height: 15%;
+    width: 5%;
+}
+
+a {
+    color:white;
+}
+
+ .active{
+  color:red;   
+ }
+
+.red{
+width: 100vw;
+height: 20vw;
+background-color: #f4463aef;
+border: 6px solid #fa7167;
+}
+
+.textOfRed{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.circle{
+    width: 21%;
+    height: 30%;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+i{
+margin: 18%;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.gray{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    }
+
+ul{
+    list-style: none;  
+    text-decoration: none;
+}
+
+
+
+#footer{
+   width: 100vw;
+   height: 6vw;
+   background-color:  #141414; 
+   color:white; 
+ }
+
+
+
