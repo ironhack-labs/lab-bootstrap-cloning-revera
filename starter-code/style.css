@@ -1,0 +1,49 @@
+#section3{
+    background-color: #e32636;
+     color: white;
+}
+.fas {
+    font-size: 50px;
+    margin: 30px;
+}
+
+.section4 img{
+width:250px;
+height: 166px;
+
+}
+
+.section5 img{
+    width:250px;
+    height:166px;
+}
+.footer{
+    border-top-color: #e32636;
+    background-color: #3d3d3d;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+}
+#last-bg{
+background-color: #232323
+}
+.carousel h5{
+font-size: 80px;
+}
+.carousel p{
+    font-size: 20px;
+}
+.flechita-izq{
+    background-color: #e32636;
+    width: 50px;
+    margin-top:270px;
+    margin-bottom:270px;
+}
+.flechita-der{
+    background-color: #e32636;
+    width: 50px;
+    margin-top:270px;
+    margin-bottom:270px;
+}
+
