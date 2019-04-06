@@ -1,0 +1,50 @@
+*{
+  font-size: 10px
+}
+.header {
+  height:300px;
+  background-color: red;
+  color:white;
+  text-align: center;
+}
+
+.border-test {
+  border:2px solid black;
+}
+
+.page-logo {
+  font-size: 40px;
+} 
+.nav-float {
+  margin-left: 220px;
+}
+
+.nav-float > a {
+  font-size: 13px;
+}
+
+
+.allmmargin {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.allmmarginTwo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.boxed-photos{
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+footer { 
+  color:white;
+  background-color: dimgray;
+}
+
+.upBottom {
+  color:white;
+  background-color: gray;
+}
