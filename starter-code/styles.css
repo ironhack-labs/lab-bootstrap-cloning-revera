@@ -1,0 +1,85 @@
+.container-fluid {
+  padding: 0px;
+}
+
+ul {
+  margin: 0px 270px;
+  font-size: 12px;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+  margin-left: 200px;
+}
+
+.leitbild-text {
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.carousel-title {
+  font-size: 30px;
+}
+
+header {
+  height: 300px;
+  font-size: 12px;
+  padding-top: 5%;
+}
+
+.container__img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects {
+  margin-left: 7%;
+}
+
+.latest_projects {
+  padding-bottom: 10%;
+}
+
+.container__img2 {
+  width: 100%;
+  height: 40%;
+}
+
+.atricles-title {
+  font-size: 13px;
+}
+
+.articles-text {
+  font-size: 12px;
+}
+
+footer {
+  color: white;
+  font-size: 8px;
+}
+
+.footer1 {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 2%;
+  margin: 0;
+}
+
+.footer2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 0;
+}
+
+.hr-footer {
+ margin: 0;
+ border: 1.5px solid red;
+}
+
+ul {
+  list-style: none;
+}
+
+.bg-footer {
+  background-color: #272424;
+}
