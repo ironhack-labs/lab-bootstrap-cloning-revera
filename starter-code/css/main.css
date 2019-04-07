@@ -6,3 +6,18 @@
 .branding-name:hover {
   text-decoration-line: none;
 }
+.home-works{
+  background: #ed564b;
+  color:white;
+  padding: 3%;
+  text-align: center;
+}
+.home-works i{
+  border: 4px solid white;
+  border-radius: 2em;
+  padding: 20px;
+  width: 75px;
+}
+.title-section{
+  border-bottom:1px solid #dfdfdf;
+}
