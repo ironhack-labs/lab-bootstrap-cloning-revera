@@ -1,0 +1,78 @@
+.navbar-default {
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  
+   .navTitle {
+    font-size: 3rem;
+    color: black;
+  }
+  
+   .controlContainer {
+    display: flex;
+    align-items: center;
+    background-color: #ED564B;
+  }
+  
+   .leftCarouselControlBackground {
+    background-color: #ED564B;
+    width: 50px;
+    height: 20%;
+    margin-top: 200px;
+  }
+
+  rightCarouselControlBackground {
+    background-color: #ED564B;
+    width: 50px;
+    height: 20%;
+    margin-top: 200px; 
+  }
+  
+   .highlights {
+    background-color: #ED564B;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+  }
+  
+   .highlights .h3 {
+    line-height: 2;
+  }
+  
+   .latestProjects {
+    margin: 50px 0;
+  }
+  
+   .listsFooter, .list-group, .list-group-item{
+    background-color: #3B3B3B;
+    z-index: 100;
+    border: none;
+    color: #7A7A7A;
+    border-radius: 0;
+  }
+  
+  
+   .list-group-item .head {
+    color: white;
+  }
+  
+   footer {
+    background-color: #3B3B3B;
+    color: #7A7A7A;
+  }
+  
+   .subFooter {
+    background-color: #292929;
+    z-index: 100;
+  }
+  
+   .circle {
+    font-size: 20px;
+    border: solid 4px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 35px;
+    text-align: center;
+  }
