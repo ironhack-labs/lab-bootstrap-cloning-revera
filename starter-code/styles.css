@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: inline-flex;
+  height: 90px;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav li {
+  list-style-type: none;
+  align-self: flex-end;
+}
+
+p {
+  font-size: 12px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  padding-right: 200px;
+  color: black;
+}
+
+.carousel-btn {
+  background-color: #ed564b;
+  font-size: 16px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.carousel-caption > h2 {
+  color: lightgrey;
+}
+
+.carousel-caption p {
+  color: lightgrey;
+}
+
+.myButton {
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 10%;
+  padding: 5px 20px;
+}
+
+.myButton:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.carousel-control-next {
+  height: 100px !important;
+  width: 40px !important;
+  margin: 16% 0;
+}
+
+.carousel-control-prev {
+  height: 100px !important;
+  width: 40px !important;
+  margin: 16% 0;
+}
+
+.snuggles-img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.sub-heading {
+  background-color: #ed564b;
+  display: inline-flex;
+  color: white;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  align-items: center;
+}
+
+.sub-heading p {
+  font-size: 14px;
+}
+
+.sub-heading h2 {
+  font-size: 24px;
+}
+
+.icon {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 30px 0;
+  padding-top: 20px;
+}
+
+.icon > i {
+  margin-top: 20px;
+}
+
+.sub-text p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.latest h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.latest h4 {
+  color: gray;
+  font-size: 16px;
+}
+
+.latest p {
+  margin-top: 10px;
+}
+
+.red-text {
+  color: red;
+}
+
+.pre-footer {
+  background-color: #404040;
+  color: grey;
+  width: 100%;
+  border-top: 3px solid red;
+  font-size: 12px;
+  padding: 30px 0;
+}
+
+.pre-footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.pre-footer ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.pre-footer li {
+  border-bottom: 1px dotted grey;
+}
+
+footer {
+  background-color: #202020;
+  color: grey;
+  padding: 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.copyright {
+  margin-left: 15%;
+}
