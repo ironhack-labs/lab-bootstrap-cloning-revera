@@ -1,0 +1,100 @@
+a {
+text-decoration: none;
+}
+.cabecera a {
+color: grey;
+border: none;
+}
+
+.toplinks {
+display: inline-block;
+padding: 10px 3px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+.hero {
+  text-align: center;
+  color: white;
+  background-image: url("../img/project-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0 300px 0;
+}
+.hero a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.web-info {
+  background-color: red;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+.fas {
+  border:3px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+figure img{
+  height: 130px;
+  width: 100%;
+  margin-top: 15px;
+  
+
+}
+.project img{
+  height: 120px;
+  width: auto;
+  margin-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.read {
+border: 1px solid white;
+padding: 5px 10px;
+}
+
+.red-text{
+  color:red;
+}
+.subtitle, h2 {
+  text-transform: uppercase;
+  
+}
+footer h3{
+  text-transform: uppercase;
+}
+footer {
+  background-color: rgb(88, 82, 102);
+  border-top: 2px solid red;
+  padding-top: 50px;
+  color: rgb(201, 201, 201) ;
+}
+.footer-links {
+  color: rgb(201, 201, 201) ;
+
+}
+ul {
+  list-style-type: none;
+}
+.subdotted  {
+  border-bottom: 1px dotted rgb(201, 201, 201) ;
+
+}
+aside {
+  background-color: black;
+  color: rgb(201, 201, 201);
+  text-align: justify;
+  padding-left: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#meta {
+  padding-left: 40px;
+}
+
+
