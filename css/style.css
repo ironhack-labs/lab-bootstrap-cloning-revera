@@ -1,0 +1,138 @@
+ul {
+  float: right;
+  margin-left: 30px; 
+  text-decoration: none;
+  list-style:none;
+
+}
+li {
+
+  display: inline;
+  padding: 0 15px;
+  font-size: 0.7em;
+}
+li a {
+  color: black;
+}
+nav {
+ 
+  margin-right: 58px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  margin-left: 160px;
+}
+.logo { 
+
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+ .jumbotron {
+  filter: grayscale(100%);
+  color: white;
+  text-align: center;
+  height: 405px;
+  background-image: url("../starter-code/img/slider-1.jpg");
+  background-size: cover;
+}
+.jumbotron h1 {
+  text-transform: uppercase;
+  padding: 111px 170px 0;
+  font-size: 1.6em;
+}
+.jumbotron p {
+padding: 0 186px;
+font-size: 0.8em;
+}
+.jumbotron a {
+  color: white;
+  font-size: 10.4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1.3px solid white;
+  padding: 7px 24px;
+  }
+
+.hero {
+  background: rgb(213, 94, 94);
+  text-align: center;
+  padding: 0 91px;
+  height: 215px;
+}
+.hero p {
+  font-size: 11px;
+}
+.hero h2 {
+  font-size: 17px;
+}
+.hero section {
+  padding-top:37px;
+  color: white;
+}
+.titulo {
+  text-transform: uppercase;
+  padding-top: 40px;
+  font-size: 19px;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  height: 133px;
+}
+
+.seccion1 p {
+  font-size: 11px;
+  text-align: center;
+}
+.seccion1 h3 {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 10px;
+}
+.seccion2 p {
+  text-align: left;
+}
+.seccion2 h5 {
+  font-weight: 8px;
+  text-transform: uppercase;
+}
+footer {
+ 
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  padding: 0 50px 30px 50px;
+  border-top: 4px solid red
+}
+footer h2 {
+  text-transform: uppercase;
+  
+  font-size: 13px;
+  padding-top: 29px;
+  padding-bottom: 9px;
+}
+small {
+  padding-top: 15px;
+  padding-left: 50px;
+  color:white;
+  font-size:10px;
+  font-size: 4px;
+  color: white;
+  height: 50px;
+  display: block;
+  background-color: rgb(57, 57, 57);
+}
+footer p {
+  font-size:10px;
+}
+footer a {
+  color:white;
+  font-size:10px;
+}
+
+
+
+
+
