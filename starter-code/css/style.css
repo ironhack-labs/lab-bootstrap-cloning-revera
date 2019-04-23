@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: helvetica, sans-serif;
+  font-weight: 300;
+  
+}
+
+h1 { 
+  text-transform: uppercase;
+  font-size: 2.2em;
+  width: 55%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.logo-revera {
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 5px 0 15px 100px;
+}
+
+.lista-nav{
+  display: inline-block;
+  margin-left: 400px;
+}
+
+
+
+.lista-nav li{
+  display: inline-block;
+}
+
+.lista-nav a{
+  font-size: 0.9em;
+  color: gray;
+  padding: 0 5px;
+}
+
+.hero {
+  background-image: url("../img/slider-1.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero a {
+  color: white;
+}
+
+.hero p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.button {
+  width: 150px;
+  display: block;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 10px 5px;
+}
+
+.general-info{
+  background: rgb(238, 72, 72);
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 60px 0;
+
+}
+
+.general-info i {
+  border: 3px solid white;
+  border-radius: 100px;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+section img {
+  width: 250px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.latest-articles span {
+  display: block;
+  font-size: 0.7em; 
+  margin-bottom: 20px;
+}
+
+span a {
+  color: red;
+}
+
+.latest-articles p {
+  font-size: 0.9em;
+}
+
+.latest-articles {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: rgb(63, 62, 62);
+  border-top: 3px solid red;
+  color: white;
+  padding-top: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(211, 207, 207);
+}
+
+footer li {
+  list-style: none;
+  border-bottom: 1px dotted white;
+
+}
+
+footer ul {
+  padding: 0;
+}
+
+
+small {
+  display: block;
+  background: rgb(24, 24, 24);
+  color: white;
+  padding: 30px 210px;
+}
+
+small span{
+  display: block;
+}
+
+footer p{
+  color: rgb(211, 207, 207);
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
