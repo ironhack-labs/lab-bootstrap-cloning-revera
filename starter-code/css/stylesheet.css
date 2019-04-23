@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+}
+
+.top-menu {
+    padding: 20px 0 10px 0px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #868282;
+}
+
+.red-link {
+    color: red;
+}
+
+.hero {
+    padding: 10% 0;
+    background: url("../img/project-2.jpg") no-repeat center / cover;
+    color: #868282;
+}
+h1{
+    text-transform: uppercase;
+    width: 70%;
+    margin: 0 auto;
+    color:rgb(209, 208, 208);
+}
+
+.hero p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color:rgb(209, 208, 208);
+}
+.button{
+    display:block;
+    padding: 10px 5px;
+    border: 1px solid rgb(209, 208, 208);
+    width: 150px;
+    margin: 0 auto;
+    top: 25px;
+    position: relative;
+}
+.section-info{
+    padding: 50px 30px;
+    background-color: rgb(226, 86, 68);
+    color: white;
+    text-transform: lowercase
+}
+.section-info h2{
+    color:white;
+}
+
+.section-info p{
+    font-size: 0.7em;
+}
+.icons{
+    font-size: 2em;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+main img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.projects{
+    padding:20px 0;
+}
+
+.latest-header {
+    padding: 10px 0;
+    border-bottom: 2px solid lightgrey;
+    margin: 0 90px 30px;
+    text-align: left;
+}
+
+.latest-header p {
+    text-align: left;   
+    color: grey;
+}
+
+.latest-articles {
+    font-size: 0.7em;
+    text-align: left;
+}
+footer{
+    background-color: rgb(49, 49, 49);
+    color: #868282;
+    font-size: 0.7em;
+    padding: 40px 0px 0 0;
+    text-align: left;
+    border-top: 2px solid red;
+}
+
+footer li {
+    display: block;
+    border-bottom: 1px dotted gray;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+footer ul {
+    padding: 0;
+}
+.copyright{
+    background-color: black;
+    padding: 10px 0;
+}
+
+small{
+    margin: 0 0 0 7%;
+}
