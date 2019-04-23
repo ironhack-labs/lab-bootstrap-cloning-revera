@@ -1,0 +1,35 @@
+header {
+  background: white;
+  padding: 30px;
+}
+
+.hero {
+  background: black;
+  padding: 200px;
+}
+
+.services {
+  background: red;
+  padding: 200px;
+}
+
+
+.projects {
+  background: white;
+  padding: 200px;
+}
+
+.articles {
+  background: white;
+  padding: 200px;
+}
+
+.footer {
+  background: gray;
+  padding: 200px;
+}
+
+.copyright {
+  background: black;
+  padding: 50px;
+}
