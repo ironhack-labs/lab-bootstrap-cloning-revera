@@ -2,10 +2,18 @@
   background: white;
   padding: 30px;
 }
-
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
 .hero {
-  background: black;
-  padding: 200px;
+  background: url("../img/slider-1.jpg") no-repeat;
+  background-size: cover;
+  padding: 200px 250px;
+  filter: grayscale(100%);
+  text-align: center;
 }
 
 .services {
@@ -34,4 +42,41 @@
   padding: 50px;
 }
 
-.logo
+.logo{
+  text-transform: uppercase;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 800;
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+}
+.logo:hover{
+  color: black;
+}
+ul li{
+  display: inline-block;
+  margin-right: 10px
+}
+ul li a{
+  color: rgb(73, 73, 73);
+}
+ul li a:hover{
+  color: rgb(237, 86, 75);
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.hero p{
+  color: white;
+  font-weight: 100;
+}
+.button{
+  display: block;
+  padding: 10px 5px;
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid white;
+  color: white;
+}
