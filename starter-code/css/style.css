@@ -1,0 +1,83 @@
+img {
+  max-width: 100%;
+}
+.logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2em;
+  display: block;
+  padding: 3px 10px;
+  
+}
+nav ul li{
+  display: inline-block;
+  padding: 5px;
+}
+.hero-img{
+  background: black url(../img/slider-1.jpg);
+  background-size:  cover;
+  color: white;
+  filter: grayscale(100%);
+  text-align: center;
+  padding: 50px;
+}
+.hero{
+  max-width: 75%;
+  text-transform: uppercase;
+  font-weight:100;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button{
+  width: 150px;
+  display: block;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 10px auto;
+  padding:10px 5px;
+}
+.sub-hero{
+  background-color: #ED564B;
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+.sub-hero span {
+  font-size: 3em;
+}
+.latestProjects{
+  padding:20px 100px;
+}
+.latestProjects a{
+  color:#ED564B;
+}
+.lp {
+  color:gray;
+}
+footer{ text-align: center;
+  background-color: gray;
+  border-top: 3px solid #ED564B;
+  color: lightgrey;
+  padding: 10px;
+}
+.Copyright{
+  background-color: black;
+  color: lightgray;
+}
+footer a{
+  color: lightgray;
+  text-decoration: none;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li{
+  border-bottom: 1px solid lightgrey;
+  text-align: left;
+}
