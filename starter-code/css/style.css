@@ -1,0 +1,130 @@
+/* 
+COLOR GREY #aaa
+COLOR DARK GREY #777
+COLOR REDORANGEY #f4473a
+*/
+
+html{
+  font-size: 1.1em;
+}
+
+img {
+  width: 280px;
+}
+
+li {
+  list-style-type: none;
+}
+
+header li{
+  display: inline-block;
+  color:  #777;
+  padding: 20px 12px 0 12px;
+}
+
+header li:hover{
+  color: #f4473a;
+}
+
+header li:first-child { 
+  color: #f4473a;
+}
+
+a:visited, a:link, a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.6em;
+}
+
+.hero {
+  background-image: url("../img/slider-1.jpg");
+  height: 60vh;
+  background-size: cover;
+  text-align: center;
+  padding: 10% 25% ;
+  color: white;
+  filter: grayscale(100%);
+
+}
+
+.button-header{
+  padding: 4px 12px;
+  border: solid white 2px;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.hero h2{
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.header-foot{
+  background-color: #f4473a;
+  padding: 2em 0;
+  text-align: center;
+  color: white;
+}
+
+section{
+  margin-top: 3em;
+}
+
+hr{
+  color: #aaa;
+  margin-top: 1em;
+  margin-bottom: 1.8em;
+}
+
+.light-grey{
+  color: #aaa
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+footer h3{
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+footer{
+  color: white;
+  background-color: #3b3b3b;
+  padding: 3em 0;
+  margin-top: 2em;
+}
+
+footer li{
+  border-bottom: dotted grey 1px;
+}
+
+footer ul{
+  display: inline;
+}
+
+
+
+aside {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+/*  CAMBIA COLOR LINKS  */
+.red-link{
+  color: #f4473a;
+}
+
+
+.margin-bottom-small{
+  margin-bottom: 30px;
+}
