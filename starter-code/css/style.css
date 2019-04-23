@@ -1,13 +1,21 @@
 .nav {
   background: white;
   padding: 30px;
+
 }
-a{
+
+h2 {
+  text-transform: uppercase;
+}
+
+a {
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
+
 .hero {
   background: url("../img/slider-1.jpg") no-repeat;
   background-size: cover;
@@ -17,32 +25,93 @@ a:hover{
 }
 
 .services {
-  background: red;
-  padding: 200px;
+  background: rgb(237, 86, 75);
+  padding: 100px;
+  text-align: center;
+  color: white;
 }
 
+.circle {
+  border-radius: 100%;
+  border: 3px solid white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
 
 .projects {
   background: white;
-  padding: 200px;
+  padding: 50px;
+}
+
+.projects p,
+.articles p {
+  color: #a9a9a9;
+  text-transform: uppercase;
+
+}
+
+.articles p {
+  font-size: 0.8em;
+}
+
+.articles span {
+  color: rgb(237, 86, 75);
+}
+
+.projects .caption {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.articles .caption {
+  color: black;
+  text-transform: initial;
+  font-size: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.m-top-20 {
+  margin-top: 20px;
 }
 
 .articles {
   background: white;
-  padding: 200px;
+  margin-bottom: 25px;
 }
 
 .footer {
-  background: gray;
-  padding: 200px;
+  background: #3b3b3b;
+  color: white;
+  padding: 30px 0;
+  border-top: 4px solid rgb(237, 86, 75);
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+}
+
+.footer {
+  color: #9b9b9b;
 }
 
 .copyright {
-  background: black;
-  padding: 50px;
+  background: #292929;
+  padding: 20px;
+  color: #dfdfdf;
 }
 
-.logo{
+.copyright small {
+  display: block;
+}
+
+.logo {
   text-transform: uppercase;
   font-family: 'Gothic A1', sans-serif;
   font-weight: 800;
@@ -50,33 +119,61 @@ a:hover{
   font-size: 2em;
   text-decoration: none;
 }
-.logo:hover{
+
+.logo:hover {
   color: black;
 }
-ul li{
+
+
+.nav ul li {
   display: inline-block;
-  margin-right: 10px
+  margin-right: 10px;
+  vertical-align: middle;
 }
-ul li a{
+
+.nav ul li a {
   color: rgb(73, 73, 73);
 }
-ul li a:hover{
+
+.nav ul li a:hover {
   color: rgb(237, 86, 75);
 }
-h1{
+
+h1 {
   color: white;
   text-transform: uppercase;
   font-weight: 100;
 }
-.hero p{
+
+.hero p {
   color: white;
   font-weight: 100;
 }
-.button{
+
+.button {
   display: block;
   padding: 10px 5px;
   width: 200px;
   margin: 0 auto;
   border: 1px solid white;
   color: white;
+}
+
+footer li {
+  list-style-type: none;
+  border-bottom: 1px dotted #a6a6a6;
+  padding: 5px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+.footer a {
+  color: #a6a6a6;
+
+}
+
+.rss {
+  border-bottom: 1px dotted white;
 }

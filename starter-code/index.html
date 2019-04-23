@@ -9,27 +9,31 @@
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,800" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Revera</title>
 </head>
+
 <body>
   <header class="nav">
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-            <a class="logo" href="index.html">Revera</a>
+          <a class="logo" href="index.html">Revera</a>
         </div>
         <div class="col-sm-8">
+          <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sample page</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Parent page</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Sample page</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Parent page</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
         </div>
       </div>
     </div>
@@ -47,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <i class="fas fa-trophy"></i>
+            <i class="fas fa-trophy circle"></i>
             <header>
               <h3>Web design</h3> <!-- Preguntar -->
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi harum maiores tenetur aliquam hic enim
@@ -56,7 +60,7 @@
             </header>
           </div>
           <div class="col-md-4">
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star circle"></i>
             <header>
               <h3>Web development</h3> <!-- Preguntar -->
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vitae, dicta excepturi tempora
@@ -65,7 +69,7 @@
             </header>
           </div>
           <div class="col-md-4">
-            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart circle"></i>
             <header>
               <h3>User interface</h3> <!-- Preguntar -->
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim earum et harum itaque
@@ -77,47 +81,50 @@
       </div>
     </section>
     <section class="projects">
-      <header>
-        <h2>Latest Projects</h2>
-        <p>Few of the latest portfolio items.</p>
-      </header>
       <div class="container">
-        <div class="row">
+        <header>
+          <h2>Latest Projects</h2>
+          <p>Few of the latest portfolio items.</p>
+        </header>
+        <hr>
+
+        <div class="row m-top-20">
           <div class="col-md-3">
             <figure>
               <img src="img/project-1.jpg" alt="project 1">
             </figure>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="caption">Lorem ipsum dolor sit amet</p>
           </div>
           <div class="col-md-3">
             <figure>
               <img src="img/project-2.jpg" alt="project 2">
             </figure>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="caption">Lorem ipsum dolor sit amet</p>
           </div>
           <div class="col-md-3">
             <figure>
               <img src="img/project-3.jpg" alt="project 3">
             </figure>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="caption">Lorem ipsum dolor sit amet</p>
           </div>
           <div class="col-md-3">
             <figure>
               <img src="img/project-4.jpg" alt="project 4">
             </figure>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="caption">Lorem ipsum dolor sit amet</p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="articles">
       <div class="container">
-        <!-- Preguntar, 1 container por sección o uno por main? -->
         <header>
           <h2>Latest articles</h2>
           <p>Latest post from the blog</p>
         </header>
-        <div class="row">
+        <hr>
+        <div class="row m-top-20">
           <div class="col-md-3">
             <figure>
               <img src="img/slider-1.jpg" alt="slider 1">
@@ -126,7 +133,8 @@
               <h4>Lorem ipsum dolor sit amet 1</h4>
               <p>Posted on <span>August 19, 2013</span> by <span>admin</span></p>
             </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam, consequuntur quam
+            <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam,
+              consequuntur quam
               repellat deserunt quasi ea ut saepe. Voluptates necessitatibus esse explicabo error corrupti eaque sit
               hic, mollitia non distinctio.</p>
           </div>
@@ -138,7 +146,8 @@
               <h4>Lorem ipsum dolor sit amet 1</h4>
               <p>Posted on <span>August 19, 2013</span> by <span>admin</span></p>
             </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam, consequuntur quam
+            <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam,
+              consequuntur quam
               repellat deserunt quasi ea ut saepe. Voluptates necessitatibus esse explicabo error corrupti eaque sit
               hic, mollitia non distinctio.</p>
           </div>
@@ -150,7 +159,8 @@
               <h4>Lorem ipsum dolor sit amet 1</h4>
               <p>Posted on <span>August 19, 2013</span> by <span>admin</span></p>
             </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam, consequuntur quam
+            <p class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam,
+              consequuntur quam
               repellat deserunt quasi ea ut saepe. Voluptates necessitatibus esse explicabo error corrupti eaque sit
               hic, mollitia non distinctio.</p>
           </div>
@@ -162,7 +172,8 @@
               <h4>Lorem ipsum dolor sit amet 1</h4>
               <p>Posted on <span>August 19, 2013</span> by <span>admin</span></p>
             </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam, consequuntur quam
+            <p class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam,
+              consequuntur quam
               repellat deserunt quasi ea ut saepe. Voluptates necessitatibus esse explicabo error corrupti eaque sit
               hic, mollitia non distinctio.</p>
           </div>
@@ -177,7 +188,7 @@
         <div class="row">
           <div class="col-md-3">
             <header>
-              <p>Revera</p>
+              <h4>Revera</h4>
             </header>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis omnis debitis repellat voluptatum
               ullam placeat deleniti dolore assumenda, est eum sapiente natus. Enim animi, repudiandae eligendi
@@ -185,18 +196,18 @@
           </div>
           <div class="col-md-3">
             <header>
-              <p>Meta</p>
+              <h4>Meta</h4>
             </header>
             <ul>
               <li><a href="#">Log in</a></li>
-              <li><a href="#">Entrees <a href="">RSS</a></a></li>
-              <li><a href="#">Comments <a href="">RSS</a></a></li>
+              <li><a href="#">Entrees <a class="rss" href="#">RSS</a></a></li>
+              <li><a href="#">Comments <a class="rss" href="#">RSS</a></a></li>
               <li><a href="#">Wordpress.org</a></li>
             </ul>
           </div>
           <div class="col-md-3">
             <header>
-              <p>Archives</p>
+              <h4>Archives</h4>
             </header>
             <ul>
               <li><a href="#">August 2013</a></li>
@@ -204,7 +215,7 @@
           </div>
           <div class="col-md-3">
             <header>
-              <p>Recent posts</p>
+              <h4>Recent posts</h4>
             </header>
             <ul>
               <li><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></li>
@@ -218,10 +229,13 @@
       </div>
     </section>
     <section class="copyright">
-      <small>
-        Copyright &copy; 2015 Revera - Just another demo site
-      </small>
-      <small>| Revera Theme</small>
+      <div class="container">
+        <small>
+          Copyright &copy; 2015 Revera - Just another demo site
+        </small>
+        <small>| Revera Theme</small>
+      </div>
+
     </section>
   </footer>
 
