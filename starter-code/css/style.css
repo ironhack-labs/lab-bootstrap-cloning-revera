@@ -1,0 +1,118 @@
+
+
+.menu{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.menu-special {
+  font-size: 2em;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 13px 30px;
+  color: black;
+  width: 110px;
+
+}
+
+
+.hero{
+  background: black url(../img/slider-1.jpg) no-repeat center / cover;
+  text-align: center;
+  padding:  130px 0;
+  color: lightgray;
+  filter: grayscale();
+  opacity: 0.7; 
+}
+
+.hero p{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.button{
+  width: 150px;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid white;
+  margin: 10px auto;
+  color: white;
+}
+
+.first{
+  background-color: #FA6343;
+  padding: 60px 10px;
+  text-align: center;
+  color: white;
+}
+
+.first p{
+  font-size: 0.9em;
+}
+
+.first header{
+  font-size: 0.9em;
+}
+
+.modify{
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text-modify{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.foot{
+  background-color: rgb(36, 35, 35);
+  text-align: left;
+  padding: 0 80px; 
+  color: white;
+  font-size: .8em;
+}
+
+.foot h2{
+  text-transform: uppercase;
+}
+
+.list {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
+.nav {
+  text-align: center;
+  text-decoration: none;  
+  color: black;
+  
+}
+
+.centernav{
+  text-align: center;
+  position: relative;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+.iconspc{
+  font-size: 40px;
+}
