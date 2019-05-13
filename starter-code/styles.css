@@ -1,0 +1,154 @@
+.unico{
+  margin:0 auto;
+}
+.container{
+ 
+}
+
+#navbar-brand{
+  font-size: 2em;
+  color: black;
+  padding-right: 10%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  font-weight: 700;
+}
+.filtroImg{
+  filter: grayscale(100%);
+}
+.textImg{
+  position: absolute;
+  top: 200px;
+  width: 65%;
+  padding-left: 7%;
+  text-align: center;
+}
+.botonImg{
+  background: transparent;
+  border: 1.5px solid white;
+  width: 150px;
+  height: 40px;
+  color: white;
+
+}
+.mayusculas{
+  text-transform: uppercase;
+  font-size: 2.3em;
+}
+
+#home{
+  color:#f96b61;
+}
+
+#wholebar{
+  font-size: .9em;
+}
+
+#controles{
+  background-color: #ed564b;
+  width: 4%;
+  height: 30%;
+  position: absolute;
+  top:35%;
+  opacity:1;
+}
+
+#controles2{
+  background-color: #ed564b;
+  width: 4%;
+  height: 30%;
+  position: absolute;
+  top:35%;
+  opacity:1;
+}
+
+.fondos-naranja{
+  background-color: #ed564b;
+}
+
+.dostitulos{
+  background-color: white;
+  padding-top: 3%;
+
+}
+
+.dosPrimero{
+font-size:1.7em;
+font-weight: 700;
+width:80%;
+padding-left: 13%;
+}
+
+.dosSegundo{
+ font-size: 1em;
+ color: grey;
+ width:80%;
+ padding-left: 13%;
+ }
+
+ #naranjas{
+   color:white;
+   text-align: center;
+   margin: 0 auto;
+   width:80%;
+ }
+
+ #blancos4{
+   padding-top: 3%;
+   width:80%;
+   margin:0 auto;
+   font-weight: 700;
+   text-align: center;
+ }
+
+ #combinados4{
+   text-align: left;
+   width:80%;
+   margin: 0 auto;
+   padding-bottom: 4%;
+ }
+
+ .parrafoGrey{
+   color:grey;
+   font-size: 0.8em;
+   font-weight: 500;
+   line-height: 30px;
+ }
+ .parrafoOrange{
+   color: #ed564b;
+   font-size: 0.8em;
+   font-weight: 500;
+   line-height: 30px;
+ }
+ .espacio4{
+   padding-bottom: 11%;
+ }
+
+ #division{
+   border: 2px #ed564b solid; 
+ }
+
+ #footer1{
+  background-color: #3b3b3b;
+  padding: 0 10%;
+  font-size: 0.8em;
+  color:white;
+  padding-top: 3%;
+ }
+
+ #footer2{
+   background-color: #292929;
+   color: white;
+   padding: 0 11%;
+   text-align: left;
+   padding-top: 2%;
+ }
+
+ .footerParrafos{
+   color:lightgray;
+   padding-top: 2%;
+ }
+
+ #ultimoh6{
+   font-size: 0.6em;
+ }
