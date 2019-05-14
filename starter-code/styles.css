@@ -1,0 +1,164 @@
+/* 
+*{
+margin: 1px;;
+  
+} */
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+
+#Home{
+  color: #eb584e;
+}
+
+
+/* Carrucel */
+img.d-block{
+  filter: grayscale(100%)
+}
+
+/* .carousel-control-prev{
+  color: blue;
+  background-color: black;
+} */
+/* p.circulo {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: solid 3px black;
+    text-align: center;
+    overflow:hidden; } */
+
+
+
+/* footer de la foto */
+.second{
+  position: relative;
+  top:  -99px;
+  height: 300px;;
+
+}
+  .txt{
+    background-color: #eb584e;
+    text-align: center; 
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0rem;
+
+  }
+
+  .card-deck{
+    background-color: #eb584e;
+    padding: 3em;
+    border-color: #eb584e;
+ 
+
+  }
+
+  /* projectos */
+   .card-body{
+    background-color: #eb584e;
+    text-align: center;
+    color: white;
+  }
+  div.card{
+    border:0em;
+  }
+
+  div.projects{
+    padding: 2em;
+  }
+
+  p.last{
+    color: #adb3ad;
+  }
+
+  .card2{
+    height: 10em;
+    width: 10em;
+  }
+
+#card-deck-4{
+  background-color: white;
+}
+
+#card4, #card42, #card43, #card44{
+  background-color: white;
+  color: black;
+}
+
+/* CARDS BLOG   */
+
+#card-blog{
+  background-color: white;
+  color: black;
+
+}
+
+#card-body-blog, #card-body-blog2, #card-body-blog3, #card-body-blog4{
+  background-color: white;
+  color: black;
+  padding: .5em;
+
+}
+
+.Title-subtitle > h2{
+  font-size: 1em;
+  text-align: left;
+
+  
+}
+.Title-subtitle > h3{
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: left;
+}
+.card-text-blog{
+  text-align: justify;
+  color: gray;
+}
+
+/* Aqui inicia el footer */
+
+#footer{
+  background-color: #4b4c4b;
+  border-top: .4em solid;
+  border-color: #eb584e;
+}
+
+.cardFoo{
+  background-color: #4b4c4b;
+}
+
+.card-bodyFoo{
+  background-color: #4b4c4b;
+  color: white;
+}
+.nameFoot{
+  text-transform: uppercase;
+  text-align: left;
+  background-color: #4b4c4b;
+}
+
+.card-textFoot{
+  text-align: justify;
+  color: grey;  
+  background-color: #4b4c4b;
+}
+
+a.foohip{
+  text-decoration: none;
+  text-underline-position: none;
+  border-bottom: .1em dotted gray;
+  color: grey;
+  background-color: #4b4c4b;
+}
+
+div a .foohip{
+  background-color: #dfecdf;
+}
+ .card {
+   background-color: #4b4c4b !important;
+ }
