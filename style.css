@@ -10,12 +10,15 @@
   justify-content: space-between;
   align-items: center;
   color: black;
+ 
 }
 .nav h1 {
   margin-left: 200px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
-
+  animation: myanimation;
+  animation-delay: 1s;
+  animation-duration: 3s;
 
 }
 .nav ul {
@@ -153,6 +156,19 @@ hr {
 }
 .footer p {
   margin-left: 200px;
+}
+@keyframes myanimation{
+  0% {
+    margin-left: 200px;
+
+  }
+  50% {
+    margin-left: 500px;
+  }
+  100% {
+    margin-left: 200px;
+  }
+
 }
 
 
