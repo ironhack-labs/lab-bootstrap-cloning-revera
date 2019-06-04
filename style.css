@@ -1,0 +1,50 @@
+nav{
+    height: 70px;
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+    text-align: center;
+    display:inline-block;
+}
+
+.menu{
+    width: 50%;
+    list-style: none; 
+    justify-content: space-between;
+    display:inline-flex;
+}
+
+header{
+    background: url("../lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg") no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+section{
+    background-color: red;
+    height: 200px;
+    display: flex;
+}
+section div{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    
+}
+
+.col-4{
+    display: flex;
+    width: 25%;
+}
+
+.footer1{
+    height: 300px;
+    background-color: darkgray;
+}
+.footer2{
+    height: 100px;
+    background-color: rgb(31, 30, 30);
+}
