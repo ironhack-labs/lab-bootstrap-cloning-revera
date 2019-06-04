@@ -1,0 +1,130 @@
+.nav-flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center
+}
+.revera{
+  margin: 10px;
+  font-size: 35px;
+}
+.nav{  
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+}
+#home{
+  color: red;
+}
+.slide1{
+  background-image: url(./img/slider-1.jpg); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100vw;
+  height: 320px;
+  padding: 60px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+} 
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+.subtitulo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+}
+.flex-rojo{
+  display: flex;
+  background-color: red;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  padding: 15px;
+  border-top: 2px solid palevioletred;
+  border-bottom: 2px solid palevioletred;
+}
+.infostit, .infos {
+  text-align: center;
+  text-justify: auto;
+  margin: 10px;
+}
+.infos{
+  font-size: 14px;
+  color: white;
+}
+.infostit{
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
+.projects {
+  padding: 20px 80px 10px 80px;
+}
+.big {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: left
+}
+.medium{
+  font-size: 20px;
+  text-align: left;
+  color: gray;
+  margin-top: 10px; 
+  border-bottom: 3px solid gray;
+}
+.project-pics, .articles-pics{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 1280px;
+  padding-left: 80px;
+}
+.ppitems{
+  display: flex;
+  flex-direction: column;
+}
+.ppics{
+  height: 145px;
+  width: 215px;
+}
+.bbottom{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  border-top: 2px solid red;
+}
+.bottom-unit{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+}
+.bottomtit{
+  font-size: 18px;
+  color: white;
+}
+.bottomtext{
+  font-size: 10px;
+  color: white;
+}
+.footer{
+  background-color: grey;
+  padding-left: 80px;
+}
+.footer-text{
+font-size: 8px;
+color: white;
+}
