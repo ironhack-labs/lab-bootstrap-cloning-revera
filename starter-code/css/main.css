@@ -1,0 +1,162 @@
+
+
+
+body {
+  font-family: "Helvetica Thin", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  margin: 20px;
+}
+
+ul {
+  display: flex;
+  margin-top: 8px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: grey;
+  margin: 20px 10px;
+  font-size: 16px;
+}
+
+nav ul a:hover {
+  color: red;
+}
+
+nav h2 {
+  margin: 0 160px;
+}
+
+header {
+  background-image: url("../img/slider-1.jpg");
+  height: 370px;
+  filter: grayscale(100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 340px 0 340px;
+  text-align: center;
+  color: white;
+}
+
+header p {
+  padding: 20px 0;
+}
+
+.red {
+  background-color: #ED564B;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.red div {
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.red div h4 {
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-bottom: 14px;
+  font-size: 30px;
+}
+
+.circle img {
+  width: 20px;
+  height: 20px;
+}
+
+.photos {
+  margin: 50px 170px;
+}
+
+.photos h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.content div {
+  width: 220px;
+}
+
+.content div img {
+  width: 220px;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.material {
+  background-color: #3B3B3B;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 170px;
+}
+
+.material div {
+  width: 220px;
+}
+
+.material div p {
+  margin: 15px 0;
+}
+
+footer {
+  background-color: #292929;
+  color: white;
+  padding: 20px 160px;
+}
