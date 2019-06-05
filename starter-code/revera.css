@@ -1,0 +1,108 @@
+/**hacerlo responsive*/
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 0 1%;
+}
+/*.box-nav{
+  
+  /*display: block;*/
+
+h4 {
+  color: grey;
+} 
+header img {
+  width: 100%;
+}
+.barr {
+  display: inline-block;
+  width: 230px;
+ 
+}
+.barra {
+  display: inline-block;
+}
+.barra li {
+  display: inline;
+  padding: 5px;
+  
+}
+nav {
+  text-align: center;
+  align-items: center;
+}
+nav a {
+  color: rgba(153, 140, 140, 0.8);
+  text-decoration: none;
+  
+}
+
+.box1 {
+  display: flex;
+  /* this is for the cross axis */
+  align-items: center;
+  /* this is for the main axis */
+  justify-content: space-evenly;
+  background: #FF5733;/*white;*/
+  /* width: 525px; */
+  height: auto;/*320px;*/
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+.box1-mini {
+  width: 320px;
+  height: auto;
+  text-align: center;
+
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 40%;
+
+}
+.box1-mini h1 {
+  color: white;
+}
+.box1-mini p{
+  color: white;
+}
+.circle p{
+  color: white;
+}
+.box2 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  height: auto;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+}
+.box2 img {
+  width: 150px;
+}
+.box3 {
+  width: auto;
+  display: block;
+  align-items: center;
+  /*justify-content: space-evenly;*/
+  background: rgb(56, 52, 52);
+  height: auto;
+  padding-top: 45px;
+  padding-left: 10%;
+}
+.box3 p{
+  color: white;
+}
+footer {
+  background-color: rgb(27, 24, 24);
+}
+footer p{
+  color: white;
+}
