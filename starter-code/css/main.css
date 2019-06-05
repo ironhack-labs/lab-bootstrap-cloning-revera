@@ -1,0 +1,269 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.big-container {
+    height: 1252px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    height: 75px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    flex-shrink: 0;
+    width: 200px;
+    font-size: 30px;
+}
+
+.menu-links {
+    flex-grow: 1;
+    text-align: right;
+    margin: 0px;
+    padding-top: 25px;
+    padding-right: 25px;
+    color: #abadb8;
+    align-items: center;
+}
+
+.menu-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 550px;
+}
+
+.title-slider {
+    text-align: center;
+    width: 800px;
+    color: #c1c2c1;
+}
+
+.title-slider h1 {
+    font-size: 30px;
+}
+
+.title-slider h2 {
+    font-size: 10px;
+}
+
+.button-title {
+    background: transparent;
+    color: #c1c2c1;
+    border-bottom: 1px solid #c1c2c1;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eb5750;
+    border-top: 2px solid #f76c65;
+    border-bottom: 2px solid #f76c65;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.skills img {
+    height: 72px;
+    width: 92px;
+}
+
+.skills:nth-child(1) {
+    margin-left: 400px;
+}
+
+.skills:nth-child(3) {
+    margin-right: 400px;
+}
+
+.skills h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.skills h4 {
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.last-projects {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.last-projects h3 {
+    width: 100%;
+    margin-left: 355px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.last-projects h4 {
+    width: 100%;
+    margin-left: 355px;
+    font-size: 10px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 203px;
+    height: 136px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.project p {
+    font-size: 10px;
+    padding-right: 30px;
+}
+
+.last-articles {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.last-articles h3 {
+    width: 100%;
+    margin-left: 355px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.last-articles h4 {
+    width: 100%;
+    margin-left: 355px;
+    font-size: 10px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.lastarticle {
+    text-align: center;
+}
+
+.lastarticle img {
+    width: 203px;
+    height: 136px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.lastarticle h5 {
+    font-size: 10px;
+    padding-right: 30px;
+    width: 203px;
+}
+
+.lastarticle h5 {
+    font-size: 10px;
+    padding-right: 30px;
+    width: 203px;
+    font-weight: bold;
+}
+
+.lastarticle h6 {
+    font-size: 10px;
+    width: 203px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lastarticle span {
+    color: red;
+}
+
+.lastarticle p {
+    font-size: 10px;
+    width: 203px;
+}
+
+.pseudofooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3b3b3b;
+    height: 500px;
+    width: 100%;
+}
+
+.first-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-item {
+    height: 500px;
+    width: 200px;
+    text-align: left;
+}
