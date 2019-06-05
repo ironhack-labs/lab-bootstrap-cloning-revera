@@ -1,0 +1,91 @@
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  display: inline;
+  margin-left: 2em 3em;
+  padding-left: 6em;
+}
+h2,h4{
+  margin-left: 120px;
+}
+hr{
+  margin: 0 115px;
+}
+.container{
+  display: flex;  
+  justify-content: center;
+}
+.menu,ul{
+  margin-left: 7em;
+}
+ul{
+  list-style-type: none;
+  display: inline;
+  font-size: 1.5em;
+}
+ul li{
+  display: inline;
+  margin: 5px;
+}
+.red-text{
+  color:red;
+}
+.landing {
+  text-align: center;
+  color: white;
+  background-image: url("img/dog-cat.jpg");
+  filter: grayscale(100%);
+  background-position: center center;
+  background-size: cover;
+  height: 30em;
+}
+.landing-text{
+  padding-top: 5em;
+  font-size: 1.5em;
+}
+.landing-bottom{
+  height: 15em;
+  order: 2;
+}
+.flex-item{
+  margin: 5px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.flex-img{
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  
+}
+.landing-bottom{
+    background-color: #e25134;
+}
+.landscape-img{
+  width: 300px;
+  height: 200px;
+}
+.footer{
+  background-color: rgb(50, 50, 50);
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #e25134;
+}
+.container-footer{
+  justify-content: center;
+  text-align: left;
+}
+.footer-list{
+  display: block;
+
+}
+.footer h4{
+  font-size: 1.5em;
+}
+.footer-list li{
+  display: block;
+  
+}
