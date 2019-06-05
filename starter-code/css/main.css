@@ -1,0 +1,192 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #615b60;
+}
+
+.actual{
+    color: #EC564B;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.logo{
+    display:flex;
+    width: 30%;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 19px;
+    padding-bottom: 10px;
+}
+
+span{
+    font-size: 10px;
+}
+
+.navi{
+    display: flex;
+    width: 70%;
+    padding-top: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/cat.png");
+    background-size: cover;
+    height: 400px;
+    margin: 0px;
+}
+
+.slider{
+    color: #C1C2C1;
+    width: 640px;
+    text-align: center;
+}
+
+.btnSlider{
+    background: transparent;
+    color: #C1C2C1;
+    border-bottom: 1px solid #C1C2C1;
+    padding: 6px 20px; 
+}
+
+.s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EC564B;
+    height: 250px;
+}
+
+.icons img{
+    height: 80px;
+}
+
+.icons h3{
+    width: 300px;
+    text-align: center;
+    margin: 0px;
+}
+
+.icons p{
+    width: 300px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    color: white;
+    width: 300px;
+}
+
+.s2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerS2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.containerS2 h4{
+    margin-bottom:0px;
+}
+
+.containerS2 h6{
+    margin-top:0px;
+    color:grey;
+}
+
+.containerS2-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.itemS21{
+}
+
+.itemS22{
+    width: 200px;
+    height: 200px;    
+}
+
+.itemS22 p{
+    margin:0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.itemS23{
+    width: 200px;
+    height: 200px; 
+}
+
+.itemS23 p{
+    margin:0px;
+    font-size: 12px;
+}
+
+.s2Pict{
+    width: 200px;
+}
+
+.itemS22Izq{
+    margin-left: 150px;
+}
+
+.itemS22Der{
+    margin-right: 150px;
+}
+
+spam{
+    color:rgb(235, 80, 106);
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.litt p{
+    font-size: 10px;
+    color:grey;
+    
+}
+
+.space{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.s3{
+    background-color: grey;
+    height: 300px;
+}
