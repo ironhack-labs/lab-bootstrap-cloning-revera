@@ -1,0 +1,31 @@
+.header-row {
+    background-color: white;
+    height: 90px;
+
+}
+
+a .navbar-brand .h1 {
+    color: #000;
+    font-size: 140px;
+}
+
+.widget-row {
+    background-color:#ed564b;
+    color: white;
+    height: 336px;
+}
+
+.latest-row {
+    background-color: white;
+    height: 125px;
+}
+
+.bottom-widget-row {
+    background-color: #3b3b3b;
+    height: 387px;
+}
+
+.footer-row {
+    background-color: #292929;
+    height: 78px;
+}
