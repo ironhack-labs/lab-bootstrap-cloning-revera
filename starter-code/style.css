@@ -1,0 +1,48 @@
+/* *{
+  border: 0.05px dashed red
+} */
+
+a {
+  color: white
+}
+.sep{
+  padding-top: 40px;
+}
+.box {
+  border: 1px solid black;
+  height: 300px;
+  width: 300;
+}
+
+span {
+  color: red;
+}
+
+.wtxt{
+  color: white;
+}
+
+.col >hr{
+  border-top: 1px dashed white;
+}
+
+.sec-2 {
+  background-color: #ed564b;
+  min-height: 359px;
+  padding-top: 50px;
+}
+.sec-3 {
+  background-color: white;
+  min-height: 986px;
+}
+.sec-4 {
+  border-top: 8px solid #ed564b;
+  background-color: #3b3b3b;
+  min-height: 467px;
+}
+
+.img-article { 
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
