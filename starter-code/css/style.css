@@ -17,3 +17,15 @@
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
+
+.big-icon{
+  position: relative;
+  
+}
+
+.small-icon{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  font-size: 20px;
+}
