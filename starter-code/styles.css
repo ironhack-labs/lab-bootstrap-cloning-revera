@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  margin: 0 15%;
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .home{
+  color:#f4473a;
+}
+
+.jumbotron {
+  background: url(./img/project-2.jpg) center center / cover;
+  margin-bottom: 0;
+  color: white;
+}
+
+.jumbo-contain {
+  color:#aaa;
+}
+
+.lead .btn-primary {
+  background: transparent;
+  border-radius: 0;
+  color: #aaa;
+  border: 2px solid #aaa;
+}
+
+div.row.text-center {
+  background:#f4473a;
+  color: white;
+  padding: 5%;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.proj-p {
+  color: #aaa;
+}
+
+img {
+  width: 100%;
+}
+
+.slider-p {
+  font-weight: bold;
+}
+
+.txt-color {
+  color: #f4473a;
+}
+
+.posted {
+  font-size: 0.7rem;
+}
+
+.bottom-hr {
+  background: #f4473a;
+  height: 5px;
+  margin-bottom: 0;
+}
+
+.btm-row {
+  background:#3b3b3b;
+}
+
+.btm-col {
+  padding: 4%;
+}
+
+.btm-h {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.btm-p {
+  color:#fff;
+  margin-bottom: 0;
+  padding: 2% 4%;
+}
+
+footer {
+  background: #292929;
+
+}
+
