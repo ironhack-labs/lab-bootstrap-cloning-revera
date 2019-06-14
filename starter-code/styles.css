@@ -1,0 +1,56 @@
+h1{
+    margin-left: 50px;
+}
+
+.red-container{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+}
+.carousel-control-prev{
+    background-position: 100% 0;
+    left: 0;
+    opacity: 1;
+    background: #f4473a;
+    margin-top: 150px ;
+    margin-bottom: 150px;
+    margin-left: -30px;
+    
+}
+
+.carousel-control-next{
+    background-position: 100% 0;
+    right: 0;
+    opacity: 1;
+    background: #f4473a;
+    margin-top: 150px ;
+    margin-bottom: 150px;
+margin-left: -800px;
+    
+    
+
+}
+
+
+section{
+    border: 2px solid black;
+}
