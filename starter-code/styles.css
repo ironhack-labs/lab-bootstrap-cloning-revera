@@ -40,6 +40,28 @@ div.row.text-center {
   margin-top: 5%;
 }
 
+.fa-glass-martini {
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 100%;
+}
+
+.fa-star {
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 100%;
+}
+
+.fa-heart {
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 100%;
+}
+
+.fas {
+  margin-bottom: 2%;
+}
+
 .proj-p {
   color: #aaa;
 }
@@ -68,10 +90,7 @@ img {
 
 .btm-row {
   background:#3b3b3b;
-}
-
-.btm-col {
-  padding: 4%;
+  padding: 4% 11%;
 }
 
 .btm-h {
@@ -82,11 +101,10 @@ img {
 .btm-p {
   color:#fff;
   margin-bottom: 0;
-  padding: 2% 4%;
 }
 
 footer {
   background: #292929;
-
+  padding: 2% 11%;
 }
 
