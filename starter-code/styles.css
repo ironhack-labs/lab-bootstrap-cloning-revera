@@ -1,8 +1,29 @@
-body{
-  background-color: dimgray;
+
+/* 
+img {
+filter: grayscale(100%);
+} */
+
+h6{
+  font-weight: bold;
 }
 
-.big-blue{
-
+.carousel-inner img{
+  filter: grayscale(100%);
 }
 
+.jumbotron.jumbotron-fluid{
+  text-align: center;
+}
+
+.latest-projects p{
+  text-align: center;
+}
+
+.latest.container img{
+  width: 100%;
+}
+
+footer {
+  background-color: gray;
+}
