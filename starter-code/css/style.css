@@ -1,0 +1,36 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.about {
+	background-color: rgb(234, 87, 80);
+	color: white;
+	padding: 40px 0px;
+	border-top: 5px solid #f96b61;
+	border-bottom: 5px solid #f96b61;
+	text-align: center;
+}
+
+.footer {
+	padding-top: 20px;
+	background: #3b3b3b;
+	border-top: 5px solid #ed564b;
+	color: white;
+}
+
+.end-footer {
+	padding: 10px 0px;
+	background: #292929;
+	font-size: 12px;
+}
+
+.dark-list {
+	background: #3b3b3b;
+	color: white;
+}
