@@ -1,0 +1,139 @@
+nav ul {
+  color: rgb(109, 109, 109);
+  line-height: 90px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+}
+
+nav li {
+  padding-right: 13px;
+  font-size: .88rem;
+  font-weight: 500;
+}
+
+nav li:first-child a {
+  color: red;
+}
+
+nav li:first-child a:hover {
+  color: rgb(255, 160, 160);
+}
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+header {
+  height: 90px;
+}
+
+.carousel-inner {
+  height: 550px;;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  height: 100px;
+  margin-top: 250px;
+  width: 50px;
+  background: rgb(255, 84, 84);
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  top: -20px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.overlay-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/overlay.png");
+  z-index: 0;
+}
+
+.text-one {
+  background-image: url("img/slider-1.jpg");
+}
+
+.text-two {
+  background-image: url("img/slider-2.jpg");
+}
+
+.text-three {
+  background-image: url("img/slider-3.jpg");
+}
+
+.text-four {
+  background-image: url("img/slider-4.jpg");
+}
+
+.text-one, .text-two, .text-three, .text-four {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+  padding: 240px 20%;
+  background-size: cover;
+  /* z-index: 1; */
+}
+
+.d-block > h1 {
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.d-block > button {
+  color: white;
+  font-size: .85rem;
+  font-weight: 800;
+  padding: .4rem 2rem;
+  background: rgba(255, 255, 255, 0.295);
+}
+
+.d-block > h1, .d-block > p, .d-block > button {
+  position: relative;
+  z-index: 1;
+}
+
+.red-section {
+  color: white;
+  padding-top: 30px;
+  height: 310px;
+  background: rgb(255, 84, 84);
+  text-align: center;
+}
+
+.circle {
+  margin: 10px auto;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.fas {
+  color: white;
+}
