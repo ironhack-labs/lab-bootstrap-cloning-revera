@@ -1,0 +1,50 @@
+.header{
+  margin-top:40px;
+}
+
+.redBlock{
+  background-color:#ed564b;
+  height:200px;
+}
+.redBlockContent {
+  display:flex;
+  justify-content: center;
+}
+.redBlockContent div{
+  margin: 20px 50px 0px 50px;
+  color:white;
+}
+.containerContent img{
+   width:250px;
+   height:150px;
+}
+.containerContent2 img{
+  width:250px;
+   height:150px;
+}
+.containerContent2 p{
+  font-size:12px;
+}
+footer{
+  height:300px;
+  background-color:#3b3b3b;
+  border-top: solid;
+  border-color:#ed564b;
+  color:white;
+}
+footer .container{
+  margin-top:50px;
+}
+footer h3{
+   font-size: 12px; 
+}
+footer li{
+    font-size:10px;
+}
+footer p{
+  font-size: 10px;
+  margin:0px;;
+}
+footer hr{
+  margin:5px;
+}
