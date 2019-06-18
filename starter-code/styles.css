@@ -1,3 +1,6 @@
+body {
+  font-family: 'Oxygen',sans-serif;
+}
 .container-fluid {
     padding-right: 0; 
     padding-left: 0;
@@ -69,6 +72,7 @@
 .footer-main {
   background-color: #3B3B3B;
   color: #fefdfa;
+  border-top: 5px solid #f96b61;
 }
 .footer-last-line {
   background-color: #292929;
@@ -83,13 +87,14 @@
   border-bottom: 1px dotted #4a4a4a;
 }
 .color-grey-light {
-  color: #a0a3a0;
-  font-size: .9em;
+  color: #aaa;
+  line-height: 1.3em;
+
 }
 h4 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
-.footer-last-line {
-  padding: 0;
+.footer-last-line > p {
   margin: 0;
+  font-size: 80%;
 }
