@@ -5,8 +5,9 @@
 }
 
 #top-nav h1{
-  padding-left: 240px;
-  font-size: 34px;
+  padding-left: 120px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 
@@ -14,7 +15,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
 }
 
 #top-links a{
@@ -37,13 +37,13 @@ padding: 0;
 
 
 .centered {
-  position: absolute;
-  top: 50%;
+  position: absolute ;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background-color: red;
-  z-index: -5;
+  z-index: 9; 
+  width: 500px;
 }
 
 .carousel-inner{
@@ -65,4 +65,31 @@ color: white;
 
 .rd1, .rd2, .rd3{
  text-align: center
+}
+
+.img99{
+  z-index: 4;
+}
+
+.above-images-row{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.above-images-row .col-11{
+  padding-top: 50px;
+  border-bottom: 0.5px solid lightslategrey;
+}
+
+.images-row img{
+  width: 95%;
+}
+
+.images-row .col-3{
+  text-align: center;
+}
+
+.col-6 a{
+  text-decoration: none;
+  color: black;
 }
