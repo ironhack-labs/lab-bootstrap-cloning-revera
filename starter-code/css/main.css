@@ -1,0 +1,14 @@
+.tiles-div{
+    background-color: #ed564b;
+}
+.icon-round-border{
+    width: 80px;
+    height: 80px;
+    padding: 23px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.icon-round-borderer i{
+    font-size: 20px;
+}
