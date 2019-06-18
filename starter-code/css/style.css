@@ -10,6 +10,24 @@ body {
 	margin: 0;
 }
 
+.main-carousel {
+	background: url('./../img/overlay.png');
+}
+.carousel-control-prev {
+	background-color: #f96b61;
+	height: 15%;
+	width: 3%;
+	top: 50%;
+	opacity: 1;
+}
+.carousel-control-next {
+	background-color: #f96b61;
+	opacity: 1;
+	width: 3%;
+	height: 15%;
+	top: 50%;
+}
+
 .about {
 	background-color: rgb(234, 87, 80);
 	color: white;
@@ -45,8 +63,6 @@ a.navbar-brand.mb-0.font-weight-bold {
 i.icon {
 	display: inline-block;
 	border-radius: 35px;
-	/* width: 70px;
-	height: 70px; */
 	border: 5px solid #fff;
 	padding: 0.75em 0.6em;
 }
@@ -117,7 +133,11 @@ p > a {
 }
 
 .footer-title {
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px 0px;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .footer-list {
@@ -142,4 +162,9 @@ p > a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10px 0px;
+	color: #eee;
+}
+.end-footer__p {
+	font-size: 12px;
 }
