@@ -1,0 +1,93 @@
+.menu-item{
+  display: flex;
+  align-content: center;
+}
+.menu-item li{
+  list-style-type: none;
+  padding: 10px 10px;
+}
+#slidebox{
+  background-image: url(./img/slider-1.jpg);
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  align-content: center;
+}
+#slidebox button{
+  color: white;
+  width: 25%;
+  border-color: white;
+
+}
+.nav-tabs  *{
+  color: black;
+  padding: 10px 5px;
+}
+.userImg img{
+  height: 70%;
+  width: 90%;
+}
+#bottom{
+  background-color: gray;
+}
+#bottom *{
+  color: lightgray;
+  text-align: left;
+}
+#bottom h3{
+  color: white;
+  padding-top: 50px;
+}
+#bottom li{
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 2px lightgray;
+}
+#bottom > *{
+  padding: 0 30px;
+}
+.blog img{
+  height: 15%;
+  width: 90%;
+}
+#blog{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#project{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.userImg{
+  align-content: center;
+}
+.red{
+  color: red;
+}
+.menu-item li{
+  color: black;
+}
+#title-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#top-info{
+  color: white;
+  height: 100%;
+}
+#three-bodies *{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.third-part{
+  background-color: lightcoral;
+  color: white;
+}
+#three-bodies{
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
