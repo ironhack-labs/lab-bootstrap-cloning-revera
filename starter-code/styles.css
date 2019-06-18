@@ -1,8 +1,8 @@
 
-/* 
-img {
-filter: grayscale(100%);
+/* .active a {
+  color: red;
 } */
+
 
 h6{
   font-weight: bold;
@@ -24,6 +24,17 @@ h6{
   width: 100%;
 }
 
+
+
 footer {
   background-color: gray;
+}
+
+footer div.col-6.col-md-3 > div{
+  border-bottom: 1px solid #ddd;
+}
+
+footer div.col-6.col-md-3 > div > a{
+  text-decoration: none;
+  color: inherit;
 }
