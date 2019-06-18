@@ -1,0 +1,68 @@
+#top-nav{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#top-nav h1{
+  padding-left: 240px;
+  font-size: 34px;
+}
+
+
+#top-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#top-links a{
+  padding-right: 20px;
+  color: dimgray;
+}
+
+#top-links :nth-child(1){
+  color: red;
+}
+
+#test{
+margin: 0;
+padding: 0;
+}
+
+#carouselExampleControls{
+  padding-top: 20px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: red;
+  z-index: -5;
+}
+
+.carousel-inner{
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.red-div{
+padding: 90px 180px;
+background-color: tomato;
+color: white;
+}
+
+.icons{
+  margin-bottom: 20px;
+}
+
+.rd1, .rd2, .rd3{
+ text-align: center
+}
