@@ -1,0 +1,170 @@
+.background-overlay {
+  background-image: url("./img/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  padding: 150px 200px 0 200px;
+  height: 500px;
+  text-align: center;
+}
+
+#carouselExampleControls img {
+  filter: grayscale(100%);
+}
+
+.bg-img-padding {
+}
+
+.about {
+  background-color: #ed554b;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.test {
+  padding: 30px;
+  color: #fff;
+}
+
+i {
+  margin-bottom: 40px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 25px;
+}
+.articles {
+  padding-top: 40px;
+}
+
+.hr {
+  height: 5px;
+  background-color: #ed554b;
+  margin: 0;
+}
+
+.articles span {
+  color: #ed554b;
+}
+
+.articles span:hover {
+  color: #000;
+}
+
+.extra {
+  background-color: #424242;
+}
+
+.extraPad {
+  padding: 40px;
+}
+
+.articlePadding {
+  margin-bottom: 60px;
+}
+
+.extraPad hr {
+  margin: 0;
+}
+
+.metaPar {
+  margin: 1.5px;
+}
+
+.footer {
+  background-color: #282729;
+  color: #fff;
+}
+.footer p {
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: #ed554b !important;
+}
+
+.slider {
+}
+/* .container-fluid:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+
+  
+
+  background-image: -webkit-gradient(
+    linear,
+    0 100%,
+    100% 0,
+    color-stop(0.25, rgba(0, 0, 0, 0.09)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(0, 0, 0, 0.09)),
+    color-stop(0.75, rgba(0, 0, 0, 0.09)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.09) 2px,
+    transparent 2px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.09) 4px,
+    rgba(0, 0, 0, 0.09) 6px,
+    transparent 6px,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.09) 2px,
+    transparent 2px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.09) 4px,
+    rgba(0, 0, 0, 0.09) 6px,
+    transparent 6px,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.09) 2px,
+    transparent 2px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.09) 4px,
+    rgba(0, 0, 0, 0.09) 6px,
+    transparent 6px,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.09) 2px,
+    transparent 2px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.09) 4px,
+    rgba(0, 0, 0, 0.09) 6px,
+    transparent 6px,
+    transparent
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.09) 2px,
+    transparent 2px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.09) 4px,
+    rgba(0, 0, 0, 0.09) 6px,
+    transparent 6px,
+    transparent
+  );
+  -webkit-background-size: 6px 6px;
+  -moz-background-size: 6px 6px;
+  -ms-background-size: 6px 6px;
+  -o-background-size: 6px 6px;
+  background-size: 6px 6px;
+} */
