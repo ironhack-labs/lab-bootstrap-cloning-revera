@@ -1,0 +1,23 @@
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-full img {
+  filter: grayscale(100%);
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+
