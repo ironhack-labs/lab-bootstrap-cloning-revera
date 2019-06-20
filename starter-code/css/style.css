@@ -1,0 +1,85 @@
+.main-nav{
+  height: 100px;
+  padding: 25px 0;
+}
+
+.main-nav > div > h3{
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.main-nav a{
+  margin: 7px;
+}
+
+.main-image{
+  height: 600px;
+  background-image: url("img/slider-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  color: white;
+}
+
+.image-content-container{
+  height: 300px;
+  text-align: center; 
+}
+
+.red-box{
+  background-color: #ed564b;
+  min-height: 300px;
+  padding: 40px 0;
+  margin-top: 50px;
+  color: white;
+}
+
+.fas{
+  font-size: 20px;
+  border: 4px solid white;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.red-column{
+  text-align: center;
+}
+
+.red-column *{
+  margin: 10px 0;
+}
+
+.above-images-row, .images-row{
+  padding-top: 50px;
+}
+
+.above-images-row > .col-11{
+  border-bottom: 0.5px solid gray;
+}
+
+.images-row img{
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.images-row .col-6, .images-row .col-lg-3{
+  text-align: center;
+}
+
+.images-row a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: gray;
+  color: gainsboro;
+  border-top-color: red;
+  border-block-width: 5px;
+}
+
+.footer strong {
+  color: white;
+}
