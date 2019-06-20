@@ -1,0 +1,144 @@
+p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+#navbarNavAltMarkup .navbar-nav {
+  font-size: 14px;
+}
+#navbarNavAltMarkup .navbar-nav a.nav-item.active {
+  color: #f4473a;
+}
+#navbarNavAltMarkup .navbar-nav a:hover {
+  color: #f4473a;
+}
+
+/***********
+** HEADER **
+***********/
+
+#carouselExampleControls a {
+  width: 50px;
+  background: url(../img/bg_direction_nav.png) no-repeat 0 0;
+  position: absolute;
+  height: 100px;
+  margin: -50px 0 0;
+  display: block;
+  top: 50%;
+  z-index: 1100;
+  cursor: pointer;
+  text-indent: -9999px; /**/
+}
+
+#carouselExampleControls a.carousel-control-left {
+  left: 0px;
+}
+#carouselExampleControls a.carousel-control-next {
+  background-position: 100% 0;
+  right: 0px;
+}
+
+#carouselExampleControls a.carousel-control-next:hover {
+  background-position-y: -100px;
+}
+#carouselExampleControls a.carousel-control-left:hover {
+  background-position-y: -100px;
+}
+
+/***************
+** CATEGORIES **
+***************/
+
+#categories {
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: #fff;
+}
+
+#categories h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/************************
+** PROJECTS / ARTICLES **
+************************/
+section#projects h2,
+section#articles h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+section#projects h3,
+section#articles h3 {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+}
+
+article h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+span.posted {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+span a:link {
+  color: #f4473a;
+}
+
+/***********
+** FOOTER **
+***********/
+footer {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+
+footer h4 {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+footer ul li {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  color: #aaa;
+  font-size: 14px;
+  height: 100%;
+  line-height: 18px;
+}
+footer ul li a:link,
+footer ul li a:visited {
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.footer {
+  background: #292929;
+  font-size: 12px;
+}
+
+.footer p {
+  color: #eee;
+}
