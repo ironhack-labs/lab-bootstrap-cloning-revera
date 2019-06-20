@@ -1,0 +1,165 @@
+
+
+.left {
+  position: absolute;
+  left:0;
+}
+
+.right {
+  position: absolute;
+  right:0;
+}
+
+.carousel-content {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top:20%;
+  bottom: 50%;
+  left: 30%;
+  z-index: 20;
+  color: rgba(255,255,255, 0.8);
+}
+
+#before-footer {
+  background-color: #3B3B3B;
+  border-top: solid 6px #ed564a;
+}
+
+footer {
+  color: white;
+  background-color: #2A2A2A;
+  height: 100px;
+}
+
+container > *  {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+container-full-width>container > *  {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.carousel-inner img {
+  filter: grayscale(100%);
+}
+
+
+.bg-tomato {
+  background-color: #ed564a;
+}
+
+.center-icon{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+} 
+
+.circle {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+
+
+.test {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ed564a;
+  height: 120px;
+  width: 50px;
+}
+.carousel-content>h4 {
+  margin-bottom: 15px;
+  font-size: 6vw;
+}
+
+.carousel-content>p{
+  font-size: 2vw;
+}
+
+.text-tomato {
+  color: #ed564a;
+  font-weight: 700;
+
+}
+
+.red-border {
+  border-top: 7px solid #ed564a;
+}
+
+#signature {
+  background-color: black;
+  color: rgba(255,255,255, 0.8);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+} 
+
+#abacaxi {
+  height: 300px;
+}
+
+.go {
+  margin-top: 2%;
+  width: 100px;
+}
+
+#before-footer {
+  background-color: #3B3B3B;
+  border-top: solid 6px #ed564a;
+}
+
+footer {
+  color: white;
+  background-color: #2A2A2A;
+  height: 100px;
+}
+
+container > *  {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+container-full-width>container > *  {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.carousel-inner img {
+  filter: grayscale(100%);
+}
+
+
+.bg-tomato {
+  background-color: #ed564a;
+}
+
+.center-icon{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+} 
+
+.circle {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 20px;
+
+}
+
+
+.test {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ed564a;
+  height: 120px;
+  width: 50px;
+}
