@@ -1,0 +1,33 @@
+.limited-height {
+  height: 450px;
+}
+.footer {
+  background-color: #222222;
+  height: 200px;
+}
+.carousel-control-prev-icon {
+  background-color: red;
+  opacity: 0.5;
+  padding: 40px 20px;
+  margin-right: 100px;
+}
+.carousel-control-next-icon {
+  background-color: red;
+  opacity: 0.5;
+  margin-left: 100px;
+  padding: 40px 20px;
+}
+.jumbotron-color {
+  background-color: #ed564b;
+  color: white;
+  border-top: 4px solid #fe675c
+}
+.remove-padding {
+  padding: 0 15px;
+}
+.card-remove-border {
+  border: 0;
+}
+.cart-text {
+  font
+}
