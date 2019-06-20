@@ -1,0 +1,132 @@
+nav a{
+  font-size: 0.85rem !important;
+}
+
+li.active > a {
+  color: red !important;
+}
+
+li > a:hover {
+  color: red !important;
+}
+
+footer {
+  background-color: #3b3b3b;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  margin-top: -5px;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.jumbotron {
+  background-color: #ed564b;
+  color: white;
+
+  padding: 40px 0 !important;
+
+  border-width: 5px 0;
+  border-style: solid;
+  border-color: #f96b61;
+}
+
+.jumbotron h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card {
+  width: 15rem;
+  border: none;
+}
+
+#underfooter {
+  background-color: #292929;
+}
+
+#underfooter-text {
+  font-size: .75rem;
+  padding: 20px 0 20px 75px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+div .circle {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.jumbo-article-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 28%;
+  margin: 0 12px;
+  text-align: center;
+}
+
+.article-title h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.article-title p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color:#a9a9a9;
+}
+
+.card-text-title {
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.card-text-posted {
+  font-size: .7rem;
+  font-weight: bold;
+  color: #777;
+}
+
+.card-text-posted a{
+  color: red;
+}
+
+.card-text {
+  font-size: .7rem;
+}
+
+.card-body {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-text-title {
+  color: white;
+}
+
+.footer-text {
+  color: #a9a6a6;
+  font-size: .85rem;
+}
+
+@media (min-width: 992px) {
+.container {
+    max-width: 1200px; 
+}
+}
