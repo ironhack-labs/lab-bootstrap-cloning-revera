@@ -1,0 +1,24 @@
+#revera{
+  text-align: center;
+  font-weight: 800;
+  margin-top: 6px;
+}
+#mynav{
+  background-color:white !important;
+}
+#maincarousel{
+  filter: grayscale(95%);
+}
+.main-snippet{
+  background-color:#e6534b;
+  color: white;
+}
+
+.boxsection img{
+  width:100%;
+  height: auto;
+}
+.site-footer{
+  color: white;
+  background-color: #3b3b3b !important;
+}
