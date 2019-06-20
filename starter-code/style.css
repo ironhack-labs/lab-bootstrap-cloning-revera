@@ -1,0 +1,19 @@
+.red {
+  background-color: #ed564b;
+}
+
+.grey {
+  background-color: #3b3b3b;
+}
+
+.black {
+  background-color: #292929;
+}
+
+text-red{
+    color: #ed564b;
+}
+
+.card{
+    border: none;
+}
