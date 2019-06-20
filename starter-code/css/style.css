@@ -1,0 +1,69 @@
+body {
+  font-family: Helvetica, Arial;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.nav-item:hover {
+  color: #ed564b;
+}
+
+.image-home {
+  background: url('../img/slider-1.jpg') no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.bg-red {
+  background-color: #ed564b;
+}
+
+i {
+  font-size: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  color: #f4473a;
+
+}
+
+.footer {
+  background-color: #292929;
+}
+
+.border-li {
+  border-bottom: 1px dotted rgba(255, 255, 255, .2)
+}
+
+.carousel img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.carousel .carousel-control-prev {
+  opacity: 1;
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  opacity: 1;
+  justify-content: flex-end;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ed564b;
+  padding: 40px 25px;
+  background-size: 20px;
+}
+
+.border-footer {
+  border-top: #f4473a solid 4px;
+}
