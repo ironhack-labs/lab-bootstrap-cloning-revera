@@ -1,0 +1,45 @@
+.navbar-brand {
+    font-size: 1.8em;
+}
+
+#carousel { 
+    filter: grayscale(100%);
+}
+
+#red-bar {
+    background-color: rgb(184, 67, 67);
+    height: auto;
+    color: white;
+}
+
+#red-elements {
+    display: flex;
+    text-align: center;
+}
+
+.linha {
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+}
+
+.projects {
+    width: 110%;
+    height: auto;
+}
+
+#footer {
+    background-color: rgb(54, 53, 53);
+    color: white;
+    border-top-width: 20px !important;
+    border-top-color: rgb(184, 67, 67) !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 4rem;
+}
+
+footer > p {
+    margin-bottom: 0 !important;
+}
