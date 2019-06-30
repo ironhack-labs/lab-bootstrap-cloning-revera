@@ -1,0 +1,89 @@
+.main-nav {
+  height: 100px;
+  padding: 25px 0;
+}
+
+.main-nav > div > h3 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.main-nav a:first-of-type {
+  color: #ed564b;
+}
+
+.main-nav a {
+  margin: 7px;
+  color: gray;
+  opacity: 0.8;
+}
+
+.main-image {
+  background-image: url('./img/slider-1.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  filter: grayscale(100%);
+}
+
+.image-content-container {
+  height: 300px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  opacity: 0.5;
+}
+
+.red-three-columns {
+  background-color: #ed564b;
+  min-height: 300px;
+  padding-top: 40px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.fas {
+  font-size: 20px;
+  border: 4px solid white;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.red-column {
+  text-align: center;
+}
+
+.red-column * {
+  margin: 10px 0;
+}
+
+.above-images-row, .images-row, .image-row {
+  padding-top: 50px;
+}
+
+.above-images-row > .col-11 {
+  border-bottom: 0.5px solid gray;
+}
+
+.images-row img {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.images-row .col-6, .images-row .col-lg-3 {
+  text-align: center;
+}
+
+.image-row img {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.images-row a {
+  color: black;
+  text-decoration: none;
+}
+  
