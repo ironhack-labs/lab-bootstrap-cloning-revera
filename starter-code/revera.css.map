@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,OAAO;CAIO;;AALzB,AAEE,GAFC,CAED,EAAE,CAAC;EACD,WAAW,EAAE,MAAM;CAAG;;AAH1B,AAIE,GAJC,CAID,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "revera.sass"
+    ],
+    "names": [],
+    "file": "revera.css"
+}
