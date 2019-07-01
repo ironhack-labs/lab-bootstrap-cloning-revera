@@ -1,5 +1,8 @@
 nav {
   padding: 2.5% 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav h1 {
@@ -8,5 +11,41 @@ nav h1 {
 
 nav ul {
   list-style: none;
+}
+
+nav ul li {
+  margin: 0 2%;
+  cursor: pointer;
+}
+
+nav ul li:first-child {
+  color: #ed564b;
+}
+
+nav ul li:hover {
+  color: #ed564b;
+}
+
+.carousel-inner {
+  height: 550px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  position: relative;
+}
+
+.services {
+  background-color: #ed564b;
+  color: white;
+}
+
+.services .item {
+  padding: 2%;
+}
+
+.services .item i {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5%;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=revera.css.map */
