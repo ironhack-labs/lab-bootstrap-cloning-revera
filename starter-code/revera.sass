@@ -1,3 +1,10 @@
+@mixin positions($number1, $number2)
+  position: absolute
+  left: $number1
+  top: $number2
+  transform: translate(-$number1,-$number2)
+
+  
 nav
   padding: 2.5% 5%
   align-items: center
@@ -17,10 +24,32 @@ nav
   height: 550px
   filter: grayscale(100%)
   position: relative
+
+  .text-content
+    color: white
+    text-align: center
+    z-index: 3
+    background: none
+    @include positions(50%, 50%)
+
+  .overlay
+    position: absolute
+    height: 100%
+    width: 100%
+    z-index: 2
+    background-image: url(./img/overlay.png)
+  
+  button
+    border: 1px solid white
+    font-weight: bold
+    color: white
+    padding: 1% 5%
+    background-color: rgba(255, 255, 255, 0.10)
       
 .services
   background-color: #ed564b
   color: white
+  padding: 1.5% 5%
 
   .item
     padding: 2%
@@ -30,4 +59,12 @@ nav
       border-radius: 50%
       padding: 5%
       font-size: 1.5rem
+
+.bottom-text
+  padding: 5%
+  .label
+    border-bottom: 1px solid #999
+    margin-bottom: 2rem
+  
+
     
