@@ -1,0 +1,17 @@
+.cat{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    color: bisque;
+    text-align: center;
+}
+.container-rojo{
+    color: bisque;
+    background-color: crimson; width: 100%;
+}
+.columns img {
+    width: 100%;
+}
