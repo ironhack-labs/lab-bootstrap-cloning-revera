@@ -1,0 +1,47 @@
+nav {
+  background-color: #fff;
+  display:flex;
+  justify-content: space-around;
+}
+.nav-bar {
+margin-right: 30%;
+}
+.nav-bar a {
+  margin: 0 5px;
+}
+.red {
+color: rgb(136, 36, 36);
+}
+.grey {
+color: grey;
+}
+header {
+  text-align: center;
+}
+.background {
+  padding: 200px 0 40px; 
+  background-image: url("img/slider-1.jpg");
+  background-size: cover;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+.red-back {
+  background-color: red;
+}
+.space img {
+  width: 100%;
+}
+
+.pre-footer {
+  background-color: grey;
+}
+footer {
+  background-color: rgb(105,105,105 );
+}
+
+.line {
+  background-color: red;
+  height: 2px;
+}
+
