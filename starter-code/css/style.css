@@ -1,0 +1,90 @@
+li{
+  display:inline;
+  list-style: none;
+  padding:0 5px;
+}
+.brand{
+  font-weight: 800;
+  font-size: 1.5em;
+}
+nav .container{
+ text-align:center;
+ 
+}
+nav{
+  margin-top: 25px;
+  
+}
+.hero{
+  background-image: url(../img/slider-1.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+.hero p{
+  text-align: center;
+}
+
+h1, h3{
+  text-align: center;
+  color:white;
+}
+h1{
+  padding-top: 150px;
+}
+.hero p{
+  color:white;
+}
+i {
+  text-align:center;
+  color: white;
+  font-size: 2em;
+}
+header .container{
+  
+  text-align: center
+}
+.color-red{
+  background-color: rgb(212,25,22);
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.color-black{
+  background-color: rgb(43, 29, 29);
+  color: white;
+  border-top: 3px solid rgb(212,25,22);
+}
+span {
+  color:rgb(212,25,22);
+}
+img{
+  width:100%;
+}
+
+.underlined p {
+  text-decoration: dotted;
+  color: white;
+}
+.button{
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin: 30px auto;
+  width: 200px;
+  text-align: center;
+}
+a{
+  list-style: none;
+
+}
+footer{
+  background-color: rgb(49, 40, 40);
+  color: white;
+  padding: 20px 0;
+}
+/*img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}*/
