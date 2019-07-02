@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size: 0.8em;
+ 
+}
+
+.home {
+    color: red;
+}
+
+.enlaces {
+    display:flex;
+}
+
+h1 {
+    padding-top:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+header {
+    background: url(../img/slider-1.jpg) no-repeat center /cover; 
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+header i {
+    background-color: coral;
+    padding: 5px;
+}
+h2 {
+    text-transform: uppercase;
+}
+.button {
+    border-color: white;
+    border: 0.7px;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.bootstrap {
+    background-color:coral;
+    text-align: center;
+    color: white;
+    font-size: 0.5em;
+    padding: 20px;
+}
+.bootstrap i {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 1.5em;
+}
+.lates {
+    padding-top: 10px;
+}
