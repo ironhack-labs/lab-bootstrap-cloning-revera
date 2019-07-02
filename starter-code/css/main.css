@@ -1,0 +1,100 @@
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.home-button{
+    color: red;
+}
+
+header h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+header p{
+    color: white;
+    font-size: 13px;
+    margin: 0px 40px;
+}
+
+header {
+    text-align: center;
+    background: url("../img/project-2.jpg") no-repeat center /cover;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.read-button{
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    margin: 15px auto 0 auto;
+}
+
+.head-info {
+    background-color: coral;
+    padding-top: 17px;
+}
+
+.font {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.par-info {
+    font-size: 10px;
+    
+}
+.img-info {
+    font-size: 10px;
+    text-align: center;
+}
+.imagenes-pec{
+    width: 150px;
+}
+
+.img-tittle{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+h4{
+   font-size: 20px;
+   margin-top: 15px;
+}
+
+h5 {
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+p a{
+    color: red;
+}
+
+.info-post {
+    font-size: 8px;
+}
