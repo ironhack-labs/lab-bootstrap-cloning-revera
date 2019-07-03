@@ -86,4 +86,25 @@ nav ul li:hover {
   border-bottom: 1px solid #999;
   margin-bottom: 2rem;
 }
+
+figcaption p:first-child {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+figcaption p:nth-child(2) {
+  font-size: 90%;
+  font-weight: 500;
+}
+
+figcaption span {
+  color: #ed564b;
+}
+
+footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  padding: 2.5% 5%;
+  color: white;
+}
 /*# sourceMappingURL=revera.css.map */

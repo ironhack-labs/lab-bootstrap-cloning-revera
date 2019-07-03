@@ -4,6 +4,7 @@
   top: $number2
   transform: translate(-$number1,-$number2)
 
+$red: #ed564b
   
 nav
   padding: 2.5% 5%
@@ -16,9 +17,9 @@ nav
       margin: 0 2%
       cursor: pointer
       &:first-child
-        color: #ed564b
+        color: $red
       &:hover
-        color: #ed564b
+        color: $red
 
 .carousel-inner
   height: 550px
@@ -47,7 +48,7 @@ nav
     background-color: rgba(255, 255, 255, 0.10)
       
 .services
-  background-color: #ed564b
+  background-color: $red
   color: white
   padding: 1.5% 5%
 
@@ -66,5 +67,18 @@ nav
     border-bottom: 1px solid #999
     margin-bottom: 2rem
   
+figcaption
+  p:first-child
+    font-weight: bold
+    font-size: 110%
+  p:nth-child(2)
+    font-size: 90%
+    font-weight: 500
+  span
+    color: $red
 
-    
+footer
+  background-color: #3b3b3b
+  border-top: 5px solid #ed564b
+  padding: 2.5% 5%
+  color: white
