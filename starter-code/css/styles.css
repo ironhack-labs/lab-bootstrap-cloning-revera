@@ -1,0 +1,28 @@
+body {
+  background-color: aquamarine;
+}
+.nav-bar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.slider {
+  height: 55vh;
+  background-color: blue;
+}
+.carousel-inner {
+  height: 60vh;
+}
+.carousel-img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.carousel-caption {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.about {
+  height: 30vh;
+  background-color: #ed564b;
+}
