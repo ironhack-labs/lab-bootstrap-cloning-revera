@@ -25,4 +25,19 @@ body {
 .about {
   height: 30vh;
   background-color: #ed564b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.latest-projects {
+  margin-top: 50px;
+}
+footer {
+  background-color: #3b3b3b;
+  border-top: 2px solid #ed564b;
+  color: white;
+}
+footer > .container {
+  margin-top: 30px;
 }
