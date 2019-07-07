@@ -105,6 +105,20 @@ footer {
   background-color: #3b3b3b;
   border-top: 5px solid #ed564b;
   padding: 2.5% 5%;
+  color: #aaa;
+}
+
+footer .footer-title {
+  font-size: 110%;
+  color: white;
+}
+
+footer .hover {
+  border-bottom: 1px dotted #aaa;
+  padding: 1.5% 0;
+}
+
+footer .hover:hover {
   color: white;
 }
 /*# sourceMappingURL=revera.css.map */
