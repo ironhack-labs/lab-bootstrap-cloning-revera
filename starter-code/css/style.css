@@ -1,0 +1,53 @@
+.carousel-item > img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: rgba(250, 128, 114, 1);
+}
+
+a:active {
+  color: rgba(250, 128, 114, 1);
+}
+
+.color-button {
+  padding: 20px 10px;
+  border-spacing: 10px;
+  background: rgba(250, 128, 114, 1);
+}
+
+.list-group-item {
+  border: none;
+  border-bottom-style: dashed;
+  border
+}
+
+#areas {
+  background: rgba(250, 128, 114, 1);
+  color: white;
+}
+
+footer {
+  background: gray;
+  color: white;
+}
+
+#copyright {
+  background: dimgray;
+}
+
+li {
+  border-bottom: 1px dashed white;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
