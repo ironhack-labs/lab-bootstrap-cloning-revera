@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header-bullet-points{
+  background-color:#ed564b;;
+  height: 200px;
+  width: 100%;
+}
+
+
+.nav-item a {
+  color: grey
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border: 1px bold white
+  
+}
+
