@@ -1,0 +1,26 @@
+.red-background {
+    background-color: rgb(249, 107, 97);
+    color: #fff;
+}
+
+.dark-background {
+    background-color: #606060;
+    color: #fff;
+}
+.short {
+    height: 5px;
+}
+.row {
+    color:
+}
+ul>li {
+    color: lightgray;
+    padding: 10px 0;
+    list-style-type: none;
+border-bottom: 2px dotted lightgray;
+}
+
+.text-rev {
+    color: lightgray; 
+    padding: 10px 0;
+}
