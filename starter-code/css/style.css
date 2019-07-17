@@ -1,23 +1,13 @@
+nav > a:first-child {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 75px;
+}
+
 .carousel-item > img {
   filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-}
-
-a:link {
-  color: gray;
-}
-
-a:visited {
-  color: gray;
-}
-
-a:hover {
-  color: rgba(250, 128, 114, 1);
-}
-
-a:active {
-  color: rgba(250, 128, 114, 1);
 }
 
 .color-button {
@@ -26,15 +16,39 @@ a:active {
   background: rgba(250, 128, 114, 1);
 }
 
-.list-group-item {
-  border: none;
-  border-bottom-style: dashed;
-  border
+.learn-more {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
 }
 
 #areas {
   background: rgba(250, 128, 114, 1);
   color: white;
+  padding: 30px 0;
+}
+
+#projects {
+  margin-top: 30px;
+}
+
+#articles {
+  margin: 30px auto;
+}
+
+span {
+  color: rgba(250, 128, 114, 1);
+}
+
+.project, .article, .area, .menu-item {
+  margin-bottom: 15px;
+}
+
+body > hr {
+  background: rgba(250, 128, 114, 1);
+  margin: 0;
+  height: 3px;
 }
 
 footer {
@@ -42,8 +56,14 @@ footer {
   color: white;
 }
 
+#footer-menu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #copyright {
   background: dimgray;
+  padding: 10px 0;
 }
 
 li {
@@ -51,3 +71,4 @@ li {
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
+
