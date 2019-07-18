@@ -1,3 +1,4 @@
+
 .content {
   display: flex;
   flex-direction: column;
@@ -5,12 +6,9 @@
 }
 
 
-.header-bullet-points{
-  background-color:#ed564b;;
-  height: 200px;
-  width: 100%;
+body {
+  font-family: "Helvetica 
 }
-
 
 .nav-item a {
   color: grey
@@ -26,4 +24,66 @@
   border: 1px bold white
   
 }
+
+.carousel-control-next-icon {
+  background-color:#ed564b;
+}
+
+.carousel-control-prev-icon {
+  background-color:#ed564b;
+}
+
+.header-bulletpoints {
+  height: 300px;
+  background-color: #ed564b;
+  color: white;
+}
+
+.header-bulletpoints h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.header-bulletpoints p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.section-one h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.section-one p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+.site-content {
+  margin-top: 45px;
+}
+
+.section-two h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.section-two p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+.card-body h3  {
+  font-size: 20px;
+}
+
+.card-body span  {
+  font-size: 10px;
+}
+
+
 
