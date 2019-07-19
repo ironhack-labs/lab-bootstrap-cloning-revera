@@ -1,0 +1,24 @@
+.red-section {
+  background-color: rgb(233, 98, 69); /* fire opal */
+  color: white;
+  padding: 6% 5%;
+}
+
+.cards {
+  border: 0px solid white;
+}
+
+.dark-background-section {
+  border-top: 5px solid rgb(233, 98, 69);
+  color: white;
+  margin: 0;
+  padding: 3% 10%;
+}
+
+.footer {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 14px;
+}

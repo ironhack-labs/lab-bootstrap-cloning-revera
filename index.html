@@ -15,276 +15,385 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Hello, world!</title>
+    <!--  BUT these icons are Bootstrap Icons.
+    Martini glass: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyph_glass&stacked=h
+    Star: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyph_star&stacked=h
+    Heart: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyph_heart&stacked=h -->
+
+    <title>Revera Clone!</title>
   </head>
+
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">REVERA</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <!-- Navbar -->
+    <div class="row">
+      <div class="section-title col-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light cm-nav-bar">
+          <a class="navbar-brand" href="#"><strong>REVERA</strong></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav text-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sample page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Parent page
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Full page</a>
+                  <a class="dropdown-item" href="#">Child page 1</a>
+                  <a class="dropdown-item" href="#">Child page 2</a>
+                </div>
+                <!-- added drop-down menu -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Slider -->
+
+      <div class="container-fluid">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide cm-carousel"
+          data-ride="carousel"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="starter-code/img/slider-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block cm-carousel-caption text-center"
+              >
+                <h2>
+                  Jadi anna, zhey yalli anni. Asshekh yer vannevae rhojosores
+                  yeri ma adothrae yomme krazaajoon.
+                </h2>
+                <p>
+                  Vosma hatif athezari yeri, vosm’anha vazhak yeraan jin zhilli.
+                  Vo shillo mahrazhes fin vastera adrasea. Adrasi lazim vos
+                  avvirsae, majin mori varrokhi hrazef yeri. Adakhi fes kash
+                  jalan hatifi disse. Jalan vahhaja fes majin yer nem vahhaji.
+                  Ha nakhaan, vos frakho soqwof vosecchi. Soqwof dozgo yeri.
+                  Soqwof azichomee ma yeraan, ma sajosaan yeri, ma kimisiraan.
+                  Ei soqwof meli nakhaan. Anha ma afonak yera ma addrivak yera,
+                  hash yer tihie soqwof akka. Anha astak asqoy yeraan, zhey
+                  yalli anni...
+                </p>
+                <button type="button" class="btn btn-outline-secondary btn-sm">
+                  READ MORE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="starter-code/img/slider-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="starter-code/img/slider-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="starter-code/img/slider-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev cm-carousel-control"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next cm-carousel-control"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Red background -->
+
+      <div class="container-fluid red-section">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 class="h3 text-center">Web Design</h3>
+            <p class="small">
+              Jadi anna, zhey yalli anni. Asshekh yer vannevae rhojosores yeri
+              ma adothrae yomme krazaajoon. Vosma hatif athezari yeri, vosm’anha
+              vazhak yeraan jin zhilli. Vo shillo mahrazhes fin vastera adrasea
+            </p>
+          </div>
+
+          <div class="col-sm-4">
+            <h3 class="h3 text-center">Web Development</h3>
+            <p class="small">
+              Jadi anna, zhey yalli anni. Asshekh yer vannevae rhojosores yeri
+              ma adothrae yomme krazaajoon. Vosma hatif athezari yeri, vosm’anha
+              vazhak yeraan jin zhilli. Vo shillo mahrazhes fin vastera adrasea
+            </p>
+          </div>
+
+          <div class="col-sm-4">
+            <h3 class="h3 text-center">Interface</h3>
+            <p class="small">
+              Jadi anna, zhey yalli anni. Asshekh yer vannevae rhojosores yeri
+              ma adothrae yomme krazaajoon. Vosma hatif athezari yeri, vosm’anha
+              vazhak yeraan jin zhilli. Vo shillo mahrazhes fin vastera adrasea
+            </p>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
 
-    <div class="container-fluid">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+      <!-- Latest Projects Section -->
+
+      <div class="container">
+        <h4 class="h4">LATEST PROJECTS</h4>
+        <h5 class="h5 small">FEW OF THE LATEST PORTFOLIO ITEMS</h5>
+        <div class="card-deck">
+          <div class="card cards">
             <img
-              class="d-block w-100"
+              src="starter-code/img/project-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text small">
+                Nunc libero elit, iaculis nec augue non.
+              </p>
+            </div>
+          </div>
+          <div class="card cards">
+            <img
+              src="starter-code/img/project-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text small">
+                Phasellus aliquet iaculis neque accumsan aliquam.
+              </p>
+            </div>
+          </div>
+          <div class="card cards">
+            <img
+              src="starter-code/img/project-3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text small">
+                Yer jif adakhi soqwe.
+              </p>
+            </div>
+          </div>
+          <div class="card cards">
+            <img
+              src="starter-code/img/project-4.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text small">
+                Soqwof azichomee ma yeraan, ma sajosaan yeri, ma kimisiraan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest Articles Section -->
+
+      <div class="container">
+        <h4 class="h4">LATEST ARTICLES</h4>
+        <h5 class="h5 small">LATEST POSTS FROM THE BLOG</h5>
+
+        <div class="card-deck">
+          <div class="card cards">
+            <img
               src="starter-code/img/slider-1.jpg"
-              alt="First slide"
+              class="card-img-top"
+              alt="..."
             />
+            <div class="card-body">
+              <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
+              <p class="card-text small">Posted on</p>
+              <p class="card-text small">
+                The morning had dawned clear and cold, with a crispness that
+                hinted at the end of summer. They set forth at daybreak to see a
+                man beheaded, twenty in all, and Bran rode among them, nervous
+                with excitement. This was the first time he had been deemed old
+                enough to go with his lord father and his brothers to see the
+                king's justice done[...]
+              </p>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="card cards">
             <img
-              class="d-block w-100"
               src="starter-code/img/slider-2.jpg"
-              alt="Second slide"
+              class="card-img-top"
+              alt="..."
             />
+            <div class="card-body">
+              <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
+              <p class="card-text small">Posted on</p>
+              <p class="card-text small">
+                But the man they found bound hand and foot to the holdfast wall
+                awaiting the king's justice was old and scrawny, not much taller
+                than Robb. He had lost both ears and a finger to frostbite, and
+                he dressed all in black, the same as a brother of the Night's
+                Watch, except that his furs were ragged and greasy[...]
+              </p>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="card cards">
             <img
-              class="d-block w-100"
               src="starter-code/img/slider-3.jpg"
-              alt="Third slide"
+              class="card-img-top"
+              alt="..."
             />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm text-center">
-            <h5>Web design</h5>
-          </div>
-          <div class="col-sm text-center">
-            <h5>Web development</h5>
-          </div>
-          <div class="col-sm text-center">
-            <h5>interface</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h5>LATEST PROJECTS</h5>
-      <br />
-      FEW OF THE LATEST PORTFOLIO ITEMS
-      <br />
-      <hr />
-    </div>
-
-    <div class="container">
-      <!-- Content here -->
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-              <img
-                class="card-img-top"
-                src="starter-code/img/project-1.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
+            <div class="card-body">
+              <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
+              <p class="card-text small">Posted on</p>
+              <p class="card-text small">
+                The man had been taken outside a small holdfast in the hills.
+                Robb thought he was a wildling, his sword sworn to Mance Rayder,
+                the King-beyond-the-Wall. It made Bran's skin prickle to think
+                of it. He remembered the hearth tales Old Nan told them. The
+                wildlings were cruel men, she said, slavers and slayers and
+                thieves. They consorted with giants and ghouls, stole girl
+                children in the dead of night, [...]
+              </p>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-              <img
-                class="card-img-top"
-                src="starter-code/img/project-2.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-              <img
-                class="card-img-top"
-                src="starter-code/img/project-3.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
-              <img
-                class="card-img-top"
-                src="starter-code/img/project-4.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
+          <div class="card cards">
+            <img
+              src="starter-code/img/slider-4.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
+              <p class="card-text small">Posted on</p>
+              <p class="card-text small">
+                The breath of man and horse mingled, steaming, in the cold
+                morning air as his lord father had the man cut down from the
+                wall and dragged before them. Robb and Jon sat tall and still on
+                their horses, with Bran between them on his pony, trying to seem
+                older than seven, trying to pretend that he'd seen all this
+                before. A faint wind blew through the holdfast gate[...]
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <h5>LATEST ARTICLES</h5>
-      <br />
-      LATEST POSTS FROM THE BLOG
-      <br />
-      <hr />
-    </div>
+      <!-- Dark-Background section -->
+      <div class="row dark-background-section bg-secondary">
+        <div class="col-sm-3">
+          <h3>REVERA</h3>
+          <p>
+            Approach me, my child. Today you will leave your family behind and
+            ride beyond the mountains. Before your departure, though, I will
+            give you this advice. Don’t trust a man who speaks with turtles.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <h3>META</h3>
+          <p>Entries</p>
+          <p>Comments</p>
+          <p>Wordpress.org</p>
+        </div>
+        <div class="col-sm-3">
+          <h3>ARCHIVES</h3>
+          <p>August 2013</p>
+        </div>
+        <div class="col-sm-3">
+          <h3>RECENT POSTS</h3>
+          <p>
+            Approach me, my child.
+          </p>
+          <p>
+            Today you will leave your family behind and ride beyond the
+            mountains.
+          </p>
 
-    <div class="container">
-      <div class="card-deck">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="starter-code/img/slider-1.jpg"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="starter-code/img/slider-2.jpg"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="starter-code/img/slider-3.jpg"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="starter-code/img/slider-4.jpg"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
+          <p>Before your departure, though, I will give you this advice.</p>
+          <p>Don’t trust a man who speaks with turtles.</p>
         </div>
       </div>
-    </div>
+      <!-- Footer -->
 
-    <div class="container-fluid">
-      <!-- Content here -->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
+      <div class="row bg-dark footer">
+        <div class="col-sm-12">
+          <p class="small">Copyright (c) 2019 revera</p>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid">
-      <!-- Content here -->
     </div>
 
     <!-- Optional JavaScript -->
