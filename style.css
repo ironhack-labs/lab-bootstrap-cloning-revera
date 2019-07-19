@@ -1,5 +1,5 @@
 .red-section {
-  background-color: rgb(233, 98, 69); /* fire opal */
+  background-color: rgb(233, 98, 69); /* muted fire opal! */
   color: white;
   padding: 6% 5%;
 }
@@ -21,4 +21,28 @@
   padding-top: 10px;
   width: 100%;
   font-size: 14px;
+  padding-left: 120px;
+}
+
+.main-section {
+  padding-top: 25px;
+}
+
+.main-section > h5 {
+  color: gray;
+}
+
+.main-section p {
+  width: 100%;
+}
+
+.dark-background-section p {
+  color: darkgray;
+  font-size: 14px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(233, 98, 69);
+  height: 100px;
 }
