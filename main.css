@@ -1,0 +1,80 @@
+body {
+  font-size: 12px;
+}
+.parent-img {
+  position: relative;
+}
+.parent-img-responsive {
+  width: 100%;
+  height: auto;
+}
+.child-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-inner {
+  max-height: 500px;
+}
+.row {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.container-top {
+  height: fit-content;
+  background-color: #ed564b;
+  margin: 0;
+  padding: 20px 50px 20px 50px;
+  max-width: none;
+  text-align: center;
+  color: white;
+}
+.icon {
+  margin: 5px;
+}
+.subheadline {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card-deck {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h5 {
+  font-size: 14px;
+}
+.footer-divider {
+  height: 5px;
+  background-color: #ed564b;
+  margin-top: 40px;
+}
+.page-footer {
+  background-color: #5d5d5d;
+  color: #b6b6b6;
+}
+.page-footer h6 {
+  color: white;
+}
+.page-footer a {
+  color: #b6b6b6;
+}
+.d-flex {
+  background-color: #444444;
+  margin: 0px;
+  height: 100px;
+  color: white;
+  padding-left: 70px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-caption h5 {
+  font-size: 24px;
+  font-style: bold;
+  padding-bottom: 10px;
+}
