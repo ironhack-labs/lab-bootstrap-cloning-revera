@@ -4,7 +4,7 @@
 
 Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
 
-http://demo.fabthemes.com/revera/
+[Revera Theme](https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/)
 
 ![Revera Picture](https://i.imgur.com/3y7yay8.png)
 
