@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lab Bootstrap Cloning Revera</title>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="menu">
+      <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">REVERA</a>
+
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Sample page</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li>
+                <a href="#">Parent Page</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Full Page</a></li>
+                        <li><a href="#">Child page 1</a></li>
+                        <li><a href="#">Child page 2</a></li>
+                    </ul>
+                </div>
+              </li>   
+              <li><a href="#">Contact</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="hero">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                        <h2 class="uk-margin-remove">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+                        <p class="uk-margin-remove">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                        <button class="uk-button uk-button-default uk-margin">Read more</button>
+                      </div>
+                </li>
+                <li>
+                    <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                        <h2 class="uk-margin-remove">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+                        <p class="uk-margin-remove">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                        <button class="uk-button uk-button-default uk-margin">Read more</button>
+                      </div>
+                </li>
+                <li>
+                    <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                        <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                        <p class="uk-margin-remove">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                        <button class="uk-button uk-button-default uk-margin">Read more</button>
+                      </div>
+                </li>
+                <li>
+                    <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                        <h2 class="uk-margin-remove">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
+                        <p class="uk-margin-remove">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                        <button class="uk-button uk-button-default uk-margin">Read more</button>
+                      </div>
+                </li>
+            </ul>
+        
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+        </div>
+    </div>
+  </main>
+  <section id="services">
+      <div class="uk-container">
+          <div class="uk-child-width-expand@s uk-text-center uk-padding-large" uk-grid>
+              <div>
+                  <div class="uk-card uk-card-default uk-card-body uk-margin">
+                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
+                      <h3>Web design</h3>
+                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
+                  </div>
+              </div>
+              <div>
+                  <div class="uk-card uk-card-default uk-card-body uk-margin">
+                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
+                      <h3>Web development</h3>
+                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
+                  </div>
+              </div>
+              <div>
+                  <div class="uk-card uk-card-default uk-card-body uk-margin">
+                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
+                      <h3>User interface</h3>
+                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  <section id="latestProjects">
+      <div class="uk-container">
+        <h3>LATEST PROJECTS</h3>
+        <h5 class="uk-heading-divider">FEW OF THE LATEST PORTFOLIO ITEMS</h5>
+
+      </div>    
+  </section>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+</body>
+</html>
