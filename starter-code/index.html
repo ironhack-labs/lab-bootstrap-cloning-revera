@@ -8,34 +8,34 @@
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
   <!-- STYLESHEET -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
     <div id="menu">
-      <nav class="uk-navbar-container uk-margin" uk-navbar>
-        <div class="uk-navbar-left">
+      <nav class="uk-navbar-container uk-margin-remove-bottom" uk-navbar>
+        <div class="uk-navbar-center uk-flex-between">
 
-            <a class="uk-navbar-item uk-logo" href="#">REVERA</a>
+            <a class="uk-navbar-item uk-logo uk-text-bold" href="#">REVERA</a>
 
-            <ul class="uk-navbar-nav">
-              <li class="uk-active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Sample page</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Blog</a></li>
-              <li>
-                <a href="#">Parent Page</a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Full Page</a></li>
-                        <li><a href="#">Child page 1</a></li>
-                        <li><a href="#">Child page 2</a></li>
-                    </ul>
-                </div>
-              </li>   
-              <li><a href="#">Contact</a></li>
-          </ul>
+            <ul class="uk-navbar-nav uk-text-capitalize">
+                <li class="uk-active uk-text-capitalize"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sample page</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li>
+                  <a href="#">Parent Page</a>
+                  <div class="uk-navbar-dropdown uk-margin-remove-top">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="#">Full Page</a></li>
+                          <li><a href="#">Child page 1</a></li>
+                          <li><a href="#">Child page 2</a></li>
+                      </ul>
+                  </div>
+                </li>   
+                <li><a href="#">Contact</a></li>
+            </ul>
 
         </div>
       </nav>
@@ -49,35 +49,47 @@
             <ul class="uk-slideshow-items">
                 <li>
                     <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-align-center uk-light uk-padding-large">
+                        <div class="uk-container">
                         <h2 class="uk-margin-remove">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
                         <p class="uk-margin-remove">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
                         <button class="uk-button uk-button-default uk-margin">Read more</button>
                       </div>
+                      </div>
                 </li>
                 <li>
                     <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-align-center uk-light uk-padding-large">
+                        <div class="uk-container">
                         <h2 class="uk-margin-remove">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
                         <p class="uk-margin-remove">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
                         <button class="uk-button uk-button-default uk-margin">Read more</button>
                       </div>
+                      </div>
                 </li>
                 <li>
-                    <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <img src="https://web.archive.org/web/20170607074544im_/http://demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-1280x550.jpg" alt="" uk-cover>
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-align-center uk-light uk-padding-large">
+                        <div class="uk-container">
                         <h2 class="uk-margin-remove">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
                         <p class="uk-margin-remove">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
                         <button class="uk-button uk-button-default uk-margin">Read more</button>
                       </div>
+                      </div>
                 </li>
                 <li>
                     <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-position-center uk-position-small uk-text-center uk-align-center uk-light uk-padding-large">
+                      <div class="uk-container">
                         <h2 class="uk-margin-remove">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
                         <p class="uk-margin-remove">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
                         <button class="uk-button uk-button-default uk-margin">Read more</button>
                       </div>
+                    </div>
                 </li>
             </ul>
         
@@ -88,28 +100,28 @@
     </div>
   </main>
 
-  <section id="services">
+  <section id="services" class="uk-background-primary">
       <div class="uk-container">
           <div class="uk-child-width-expand@s uk-text-center uk-padding-large" uk-grid>
               <div>
-                  <div class="uk-card uk-card-default uk-card-body uk-margin">
-                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
-                      <h3>Web design</h3>
+                  <div class="uk-card uk-margin uk-light">
+                      <span class="tm-image-pull" uk-icon="icon: home; ratio: 1" width="70"></span>
+                      <h3 class="uk-text-bold uk-margin-small-top">Web design</h3>
                       <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
                   </div>
               </div>
               <div>
-                  <div class="uk-card uk-card-default uk-card-body uk-margin">
-                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
-                      <h3>Web development</h3>
-                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
-                  </div>
+                  <div class="uk-card uk-margin uk-light">
+                      <span class="tm-image-pull" uk-icon="icon: star; ratio: 1" width="70"></span>
+                      <h3 class="uk-text-bold uk-margin-small-top">Web development</h3>
+                      <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                      </div>
               </div>
               <div>
-                  <div class="uk-card uk-card-default uk-card-body uk-margin">
-                      <span class="tm-image-pull" uk-icon="icon: check; ratio: 1" width="90"></span>
-                      <h3>User interface</h3>
-                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
+                  <div class="uk-card uk-margin uk-light">
+                      <span class="tm-image-pull" uk-icon="icon: heart; ratio: 1" width="70"></span>
+                      <h3 class="uk-text-bold uk-margin-small-top">User interface</h3>
+                      <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
                   </div>
               </div>
 
@@ -119,10 +131,10 @@
 
   <section id="latestProjects">
       <div>
-        <div class="uk-section uk-section-default">
+        <div class="uk-section uk-section-default uk-padding-remove-bottom">
             <div class="uk-container">
-              <h3>LATEST PROJECTS</h3>
-              <h5 class="uk-heading-divider">FEW OF THE LATEST PORTFOLIO ITEMS</h5>
+                <h3 class="uk-margin-remove-bottom uk-text-bold">LATEST PROJECTS</h3>
+                <h5 class="uk-heading-divider uk-text-bold uk-margin-remove-top uk-text-muted">FEW OF THE LATEST PORTFOLIO ITEMS</h5>
                 <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
                     <div>
                         <img data-src="https://web.archive.org/web/20170607072729im_/http://demo.fabthemes.com/revera/files/2013/08/wallpaper-771047-750x500.jpg" width="1800" height="1200" alt="" uk-img>
@@ -151,8 +163,8 @@
       <div>
         <div class="uk-section uk-section-default">
             <div class="uk-container">
-              <h3>LATEST ARTICLES</h3>
-              <h5 class="uk-heading-divider">LATEST POSTS FROM THE BLOG</h5>
+              <h3 class="uk-margin-remove-bottom uk-text-bold">LATEST ARTICLES</h3>
+              <h5 class="uk-heading-divider uk-text-bold uk-margin-remove-top uk-text-muted">LATEST POSTS FROM THE BLOG</h5>
                 <div class="uk-child-width-1-4@m" uk-grid>
                     <article>
                         <img data-src="https://web.archive.org/web/20170607082056im_/http://demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-750x500.jpg" width="1800" height="1200" alt="" uk-img>
@@ -189,13 +201,13 @@
       <div>
           <div id="footerTop" class="uk-section uk-section-default uk-background-secondary">
             <div class="uk-container">
-              <div class="uk-child-width-1-4@m" uk-grid>
+              <div class="uk-child-width-1-4@m uk-text-small" uk-grid>
                 <div>
-                  <h5 class="uk-light">REVERA</h5>
+                  <h5 class="uk-light uk-text-bold">REVERA</h5>
                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
                 </div>
                 <div>
-                  <h5 class="uk-light">META</h5>
+                  <h5 class="uk-light uk-text-bold">META</h5>
                   <ul class="uk-list">
                       <li><a href="#">Log in</a></li>
                       <li><a href="#">Entries RSS</a></li>
@@ -204,13 +216,13 @@
                   </ul>
                 </div>
                 <div>
-                  <h5 class="uk-light">ARCHIVES</h5>
+                  <h5 class="uk-light uk-text-bold">ARCHIVES</h5>
                   <ul class="uk-list">
                       <li><a href="#">August 2013</a></li>
                   </ul>
                 </div>
                 <div>
-                  <h5 class="uk-light">RECENT POSTS</h5>
+                  <h5 class="uk-light uk-text-bold">RECENT POSTS</h5>
                   <ul class="uk-list">
                       <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
                       <li><a href="#">Nunc libero elit, iaculis nec augue non</a></li>
@@ -221,9 +233,9 @@
               </div>
             </div> 
           </div>
-          <div id="footerBottom" class="uk-section uk-section-default uk-background-primary">
+          <div id="footerBottom" class="uk-section uk-section-default uk-background-muted uk-padding-small">
               <div class="uk-container">
-                <p>Copyright © 2018 revera - Just another demo Sites site.
+                <p class="uk-text-small">Copyright © 2018 revera - Just another demo Sites site.<br>
                     | Revera Theme</p>
               </div>
           </div>   

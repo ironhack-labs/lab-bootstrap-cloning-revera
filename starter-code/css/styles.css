@@ -1,0 +1,47 @@
+/* Revera styles */
+
+/* Navbar styles*/
+.uk-navbar-nav>li.uk-active>a {
+  color: #ed564b; 
+}
+.uk-navbar-nav>li:hover>a{
+  color: #ed564b; 
+}
+
+/* Hero styles */
+.uk-slideshow.uk-slideshow-items{
+  height: calculate(100vw - 80px);
+}
+.uk-background-primary {
+  background-color: #ed564b; 
+}
+.uk-background-secondary {
+  background-color: #3b3b3b;
+}
+.uk-background-muted {
+  background-color: #292929;
+}
+.uk-light .uk-slidenav {
+  background-color: #ed564b;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+/* Custom footer styles */
+#footerTop {
+  border-top: 5px solid #f4473a;
+}
+#footerTop ul li{
+  border-bottom: 1px dotted rgba(255, 255, 2555, 0.5);
+  padding: 5px 0;
+}
+#footerTop li a{
+  color: rgba(255, 255, 2555, 0.5);
+  text-decoration: none;
+}
+#footerTop li a:hover{
+  color: rgba(255, 255, 2555, 1);
+}
+#footerBottom {
+  color: #ffffff;
+}
