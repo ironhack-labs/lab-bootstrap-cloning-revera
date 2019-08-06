@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li><a id="title-mark" href="#">REVERA</a></li>
+        </ul>
+      </div>
+      <div class="uk-navbar-center">
+        <ul class="uk-navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sample Page</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="#">Parent Page</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="#">Full Page</a></li>
+                <hr class="uk-divider-small" />
+                <li><a href="#">Child Page 1</a></li>
+                <hr class="uk-divider-small" />
+                <li><a href="#">Child Page 2</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- SLIDESHOW -->
+    <div
+      class="uk-position-relative uk-visible-toggle"
+      tabindex="-1"
+      uk-slideshow="animation: fade"
+    >
+      <ul class="uk-slideshow-items">
+        <li>
+          <img src="./img/slider-1.jpg" alt="" uk-cover />
+          <div class="uk-overlay-default uk-position-cover"></div>
+          <div
+            class="uk-position-center uk-position-small uk-text-center uk-light"
+          >
+            <h2 class="uk-margin-remove">
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </h2>
+            <p class="uk-margin-in-image ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              accumsan sed eros nec varius. Fusce condimentum ex eu mi commodo
+              tristique non nec purus. Suspendisse potenti. Nam sed luctus leo.
+              Cras congue, sapien eu maximus posuere, eros purus interdum eros,
+              et convallis dui lacus eu dolor. Donec luctus aliquet tortor, sit
+              amet congue mauris mollis eget. Nullam ac nisi orci. Cras ut
+              euismod felis. Cras tristique dolor ex, at sodales lorem
+              condimentum eget. Mauris hendrerit tincidunt neque, in porta leo
+              dictum quis.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/slider-2.jpg" alt="" uk-cover />
+          <div class="uk-overlay-default uk-position-cover"></div>
+          <div
+            class="uk-position-center uk-position-small uk-text-center uk-light"
+          >
+            <h2 class="uk-margin-remove">
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </h2>
+            <p class="uk-margin-in-image">
+              Nullam tellus erat, faucibus et rutrum quis, gravida sit amet
+              mauris. Donec lobortis pellentesque elit in luctus. Nulla semper
+              dui eu orci aliquam dapibus. Nullam venenatis tempus pretium.
+              Mauris urna nisi, bibendum quis metus eu, venenatis gravida
+              tortor. Etiam porta tincidunt lacus. Morbi vitae elit sed urna
+              eleifend suscipit.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/slider-3.jpg" alt="" uk-cover />
+          <div class="uk-overlay-default uk-position-cover"></div>
+          <div
+            class="uk-position-center uk-position-small uk-text-center uk-light"
+          >
+            <h2 class="uk-margin-remove">
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </h2>
+            <p class="uk-margin-in-image">
+              Phasellus sit amet sagittis quam. Donec eu neque ac nibh auctor
+              lacinia. Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Pellentesque aliquet
+              imperdiet iaculis. Fusce eget diam vitae neque finibus ultricies
+              vitae id erat. Aliquam non fermentum lectus, egestas dignissim
+              augue. Nam interdum arcu sit amet nisl consequat, ut dapibus ante
+              auctor. Sed finibus, massa eu viverra eleifend, risus metus mattis
+              neque, ac molestie erat purus non quam. Vivamus ac massa sagittis,
+              tincidunt lacus in, convallis magna. Vivamus sed gravida tellus.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/slider-4.jpg" alt="" uk-cover />
+          <div class="uk-overlay-default uk-position-cover"></div>
+          <div
+            class="uk-position-center uk-position-small uk-text-center uk-light"
+          >
+            <h2 class="uk-margin-remove">
+              Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </h2>
+            <p class="uk-margin-in-image">
+              Cras mattis dui orci. Aenean tincidunt convallis ex, sed
+              condimentum lectus. Etiam elit arcu, mollis at lacinia id,
+              molestie vitae dui. Pellentesque condimentum ac leo eget suscipit.
+              Ut aliquet leo eu nibh laoreet faucibus. Ut scelerisque mauris nec
+              lectus fermentum euismod. Morbi cursus tristique nibh, et suscipit
+              ligula faucibus nec.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="uk-light">
+        <a
+          class="uk-position-center-left uk-position-small uk-hidden-hover alter-color"
+          href="#"
+          uk-slidenav-previous
+          uk-slideshow-item="previous"
+        ></a>
+        <a
+          class="uk-position-center-right uk-position-small uk-hidden-hover alter-color"
+          href="#"
+          uk-slidenav-next
+          uk-slideshow-item="next"
+        ></a>
+      </div>
+    </div>
+    <!-- SLIDESHOW -->
+
+    <!-- SECTION -->
+    <div class="uk-section uk-section-secondary uk-light">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+          <div class="content-first-section">
+            <img class="invert uk-margin" src="./img/internet.svg" alt="" />
+            <h3>Web Design</h3>
+            <p>
+              Nullam tellus erat, faucibus et rutrum quis, gravida sit amet
+              mauris. Donec lobortis pellentesque elit in luctus. Nulla semper
+              dui eu orci aliquam dapibus. Nullam venenatis tempus pretium.
+              Mauris urna nisi, bibendum quis metus eu, venenatis gravida
+              tortor. Etiam porta tincidunt lacus.
+            </p>
+          </div>
+          <div class="content-first-section">
+            <img class="invert" src="./img/edit.svg" alt="" />
+            <h3>Web Development</h3>
+            <p>
+              Donec eu neque ac nibh auctor lacinia. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Pellentesque aliquet imperdiet iaculis. Fusce eget diam vitae
+              neque finibus ultricies vitae id erat. Aliquam non fermentum
+              lectus, egestas dignissim augue.
+            </p>
+          </div>
+          <div class="content-first-section">
+            <img class="invert" src="./img/picture.svg" alt="" />
+            <h3>User Interface</h3>
+            <p>
+              Phasellus id augue vehicula, imperdiet mauris ac, fermentum quam.
+              Nulla dictum pharetra ante sollicitudin pretium. Integer ut erat
+              vel ligula varius accumsan. Nullam ut quam nec risus imperdiet
+              rhoncus ut ut ipsum. Nullam tristique dui ac nisi sollicitudin
+              maximus.Etiam dictum nulla diam, sed viverra metus accumsan sit
+              amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION -->
+
+    <!-- ANOTHER SECTION -->
+    <div class="uk-section uk-section-default my-uk-div">
+      <div class="uk-container">
+        <div>
+          <h2 class="title-section">LATEST PROJECTS</h2>
+        </div>
+        <div>
+          <h4 class="subtitle-section">FEW OF THE LATEST PORTFOLIO ITEMS</h4>
+        </div>
+        <hr />
+        <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <!-- <h3 class="uk-card-title">Default</h3> -->
+              <img src="./img/project-1.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <!-- <h3 class="uk-card-title">Default</h3> -->
+              <img src="./img/project-2.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <!-- <h3 class="uk-card-title">Default</h3> -->
+              <img src="./img/project-3.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <!-- <h3 class="uk-card-title">Default</h3> -->
+              <img src="./img/project-4.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ANOTHER SECTION -->
+
+    <!-- LATEST ARTICLES SECTION -->
+    <div class="uk-section uk-section-default">
+      <div class="uk-container">
+        <div>
+          <h2 class="title-section">LATEST ARTICLES</h2>
+        </div>
+        <div>
+          <h4 class="subtitle-section">LATEST POSTS FORM THE BLOG</h4>
+        </div>
+        <hr />
+        <div class="uk-child-width-1-4@m" uk-grid>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <img
+                class="img-in-blog-section"
+                src="./img/slider-1.jpg"
+                alt=""
+                uk-cover
+              />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <p class="image-footer">
+                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+              </p>
+              <p class="posted-on">
+                POSTED ON <a href="#">AUGUST 19, 2013 </a> BY
+                <a href="#">ADMIN</a>
+              </p>
+              <p>
+                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+                erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+                libero nunc. Etiam mauris tortor, pharetra […]
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <img src="./img/slider-2.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <p class="image-footer">
+                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+              </p>
+              <p class="posted-on">
+                POSTED ON <a href="#">AUGUST 19, 2013 </a> BY
+                <a href="#">ADMIN</a>
+              </p>
+              <p>
+                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+                erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+                libero nunc. Etiam mauris tortor, pharetra […]
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <img src="./img/slider-3.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <p class="image-footer">
+                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+              </p>
+              <p class="posted-on">
+                POSTED ON <a href="#">AUGUST 19, 2013 </a> BY
+                <a href="#">ADMIN</a>
+              </p>
+              <p>
+                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+                erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+                libero nunc. Etiam mauris tortor, pharetra […]
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card-default uk-card-body uk-cover-container"
+            >
+              <img src="./img/slider-4.jpg" alt="" uk-cover />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div>
+              <p class="image-footer">
+                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+              </p>
+              <p class="posted-on">
+                POSTED ON <a href="#">AUGUST 19, 2013 </a> BY
+                <a href="#">ADMIN</a>
+              </p>
+              <p>
+                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+                erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+                libero nunc. Etiam mauris tortor, pharetra […]
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LATEST ARTICLES SECTION -->
+    <div class="division">
+      <p>s</p>
+    </div>
+    <!-- INFO SECTION -->
+    <div class="uk-section uk-section-large uk-section-muted">
+      <div class="uk-container">
+        <h3>Section Large</h3>
+
+        <div class="uk-grid-match uk-child-width-1-4@m" uk-grid>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INFO SECTION -->
+
+    <!-- FOOTER -->
+    <div class="uk-section uk-section-terciary uk-light">
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+          <div class="footer-div">
+            <p>
+              Copyright © 2018 revera - Just another demo Sites site.
+            </p>
+            <p>| Revera Theme</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+  </body>
+</html>
