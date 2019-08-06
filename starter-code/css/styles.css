@@ -1,0 +1,143 @@
+/* ESTILOS DE NAVBAR */
+#title-mark {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+.uk-navbar-nav > li > a {
+  color: #777777;
+  text-transform: none;
+}
+
+.uk-navbar-nav > li > a:hover {
+  color: #ed564b;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: white;
+}
+
+.uk-divider-small {
+  margin: 5px;
+}
+
+/* ESTILOS DE NAVBAR */
+
+/* ESTILOS DE SLIDESHOW */
+.uk-overlay-default {
+  background: url("/starter-code/img/overlay.png");
+}
+
+.uk-slideshow-items img {
+  filter: grayscale(100%);
+}
+
+/*Estilo al boton de navegacion del slideshow*/
+.alter-color {
+  background-color: #ed564b;
+  width: 2%;
+  height: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+polyline {
+  stroke-width: 5;
+}
+
+/*Estilo al <p> de cada imagen*/
+.uk-margin-in-image {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+}
+/* ESTILOS DE SLIDESHOW */
+
+/*ESTILOS DE LA PRIMERA SECCION*/
+.uk-section-secondary {
+  background: #ed564b;
+}
+
+.content-first-section h3 {
+  text-align: center;
+  margin: 0 0 0 0;
+  font-weight: bold;
+}
+.invert {
+  filter: invert(100%);
+  width: 10%;
+  height: 80px;
+  /* margin: 0 0 -40px 0; */
+  margin: 8%;
+  padding: 0;
+}
+/*ESTILOS DE LA PRIMERA SECCION*/
+
+.title-section {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.subtitle-section {
+  color: #aaaaaa;
+  font-size: 1em;
+}
+
+.my-uk-div {
+  padding-bottom: 8px;
+}
+
+/*ESTILOS DE LA SEGUNDA SECCION: BLOG SECTION*/
+.image-footer {
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.posted-on {
+  color: #606060;
+  font-size: 0.8em;
+}
+.posted-on a {
+  color: #f4473a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.posted-on a:hover {
+  color: black;
+}
+/*ESTILOS DE LA SEGUNDA SECCION: BLOG SECTION*/
+
+/* ESTILOS DE PEQUEÑA DIVISION */
+.division {
+  color: transparent;
+  /* border: 0.5px solid red; */
+  background-color: #f4473a;
+  font-size: 0.18em;
+}
+
+.division p {
+  margin: 0;
+}
+/* ESTILOS DE PEQUEÑA DIVISION */
+
+/* ESTILOS DE SECCION DE INFO */
+.uk-section-muted {
+  background-color: #3b3b3b;
+}
+/* ESTILOS DE SECCION DE INFO */
+
+/* ESTILOS DE FOOTER */
+.uk-section-terciary {
+  background-color: #292929;
+  padding: 2%;
+}
+
+.footer-div p {
+  margin: 0;
+}
+/* ESTILOS DE FOOTER */
