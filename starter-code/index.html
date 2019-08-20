@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap clone</title>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="main-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1 class="main-title">Revera</h1>
+        </div>
+        <ul class="col-md-8 main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--active">Home</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">About</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Sample page</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Portfolio</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Parent page</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Contanct</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Slide -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-text">
+          <h2 class="red-container__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti assumenda harum excepturi eos perspiciatis explicabo, fugit omnis consequuntur minus.</p>
+          <a href="#" class="carousel-button">Read more</a>
+        </div>
+        <img src="./img/slider-1.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-text">
+          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti assumenda harum excepturi eos perspiciatis explicabo, fugit omnis consequuntur minus.</p>
+          <a href="#" class="carousel-button">Read more</a>
+        </div>
+        <img src="./img/slider-2.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti assumenda harum excepturi eos perspiciatis explicabo, fugit omnis consequuntur minus.</p>
+          <a href="#" class="carousel-button">Read more</a>
+        </div>
+        <img src="./img/slider-3.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corrupti assumenda harum excepturi eos perspiciatis explicabo, fugit omnis consequuntur minus.</p>
+          <a href="#" class="carousel-button">Read more</a>
+        </div>
+        <img src="./img/slider-4.jpg" alt="">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!-- Red section -->
+  <div class="red-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <section class="red-container__section">
+            <i class="red-container__icon fas fa-glass-martini"></i>
+            <h2 class="red-container__title">Web design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium quam dolorum laborum alias ratione vitae corporis ea deleniti accusamus!</p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="red-container__section">
+            <i class="red-container__icon fas fa-star"></i>
+            <h2 class="red-container__title">Web development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium quam dolorum laborum alias ratione vitae corporis ea deleniti accusamus!</p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="red-container__section">
+            <i class="red-container__icon fas fa-heart"></i>
+            <h2 class="red-container__title">User interface</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium quam dolorum laborum alias ratione vitae corporis ea deleniti accusamus!</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <section class="section">
+      <h2 class="section__title">Latest project<span>FEW OF THE LATEST PORTFOLIO ITEMS</span></h2>      
+      
+      <!-- Gallery -->
+      <div class="gallery row">
+        <div class="col-sm-6 col-lg-3 gallery__image">
+          <img src="./img/project-1.jpg" alt="Image of a man doing exercise">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallery__image">
+          <img src="./img/project-2.jpg" alt="Image of a cat over a piano">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallery__image">
+          <img src="./img/project-3.jpg" alt="Image of a flower over the water">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallery__image">
+          <img src="./img/project-4.jpg" alt="Image of a girl on sunshine">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section">
+      <h2 class="section__title">LATEST ARTICLES<span>LATEST POSTS FROM THE BLOG</span></h2>
+      
+      <div class="projects row">
+        <article class="col-sm-6 col-lg-3 projects__project">
+          <img src="./img/slider-1.jpg" alt="Image of a dog and a cat sleeping together">
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<span>POSTED ON <a href="#" class="link">AUGUST 19, 2013</a> BY <a href="#" class="link">ADMIN</a></span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa cumque dolorum ipsum porro odit maiores facilis doloremque odio? Molestias, id. Non, veniam! Tempore fuga ipsum iste nemo provident! Porro voluptas aliquam magnam nemo, perferendis aspernatur quod nisi officiis quam?</p>
+        </article>
+        <article class="col-sm-6 col-lg-3 projects__project">
+          <img src="./img/slider-2.jpg" alt="Image of a bunch of grapes">
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<span>POSTED ON <a href="#" class="link">AUGUST 19, 2013</a> BY <a href="#" class="link">ADMIN</a></span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa cumque dolorum ipsum porro odit maiores facilis doloremque odio? Molestias, id. Non, veniam! Tempore fuga ipsum iste nemo provident! Porro voluptas aliquam magnam nemo, perferendis aspernatur quod nisi officiis quam?</p>
+        </article>
+        <article class="col-sm-6 col-lg-3 projects__project">
+          <img src="./img/slider-3.jpg" alt="Image of a flowers">
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<span>POSTED ON <a href="#" class="link">AUGUST 19, 2013</a> BY <a href="#" class="link">ADMIN</a></span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa cumque dolorum ipsum porro odit maiores facilis doloremque odio? Molestias, id. Non, veniam! Tempore fuga ipsum iste nemo provident! Porro voluptas aliquam magnam nemo, perferendis aspernatur quod nisi officiis quam?</p>
+        </article>
+        <article class="col-sm-6 col-lg-3 projects__project">
+          <img src="./img/slider-4.jpg" alt="Image of people going down a mountain">
+          <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<span>POSTED ON <a href="#" class="link">AUGUST 19, 2013</a> BY <a href="#" class="link">ADMIN</a></span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsa cumque dolorum ipsum porro odit maiores facilis doloremque odio? Molestias, id. Non, veniam! Tempore fuga ipsum iste nemo provident! Porro voluptas aliquam magnam nemo, perferendis aspernatur quod nisi officiis quam?</p>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+
+    <div class="footer__articles">
+      <div class="container">
+        <div class="row">
+          <article class="col-sm-6 col-lg-3">
+            <h2>REVERA</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione unde fugit nobis molestiae dolorem neque beatae quidem suscipit non quae, blanditiis labore, magni doloribus? Tempore, earum possimus illo nostrum deserunt nulla consequatur quis amet quia rem eum obcaecati ipsam blanditiis?</p>
+          </article>
+          <article class="col-sm-6 col-lg-3">
+            <h2>META</h2>
+            <ul>
+              <li><a href="#">Lorem, ipsum dolor.</a></li>
+              <li><a href="#">Lorem, ipsum.</a></li>
+              <li><a href="#">Lorem, ipsum dolor.</a></li>
+              <li><a href="#">Lorem, ipsum.</a></li>
+            </ul>
+          </article>
+
+          <article class="col-sm-6 col-lg-3">
+            <h2>ARCHIVES</h2>
+            <ul>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+            </ul>
+          </article>
+
+          <article class="col-sm-6 col-lg-3">
+            <h2>RECENT POSTS</h2>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit amet dolor adipisicing elit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet dolor adipisicing elit..</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet dolor adipisicing elit..</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet dolor adipisicing elit..</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet dolor adipisicing elit..</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer__copyright">
+      <div class="container">
+        <p>Copyright © 2018 revera - Just another demo Sites site.<span>| Revera Theme</span></p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+  <script>
+    
+    $('.carousel').carousel()
+    
+  </script>
+  
+</body>
+</html>
