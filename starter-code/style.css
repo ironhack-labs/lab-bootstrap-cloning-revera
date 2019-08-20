@@ -1,0 +1,108 @@
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+   color: #ed564b;
+}
+.carousel-item:before {content: ''; 
+position: absolute;
+height: 100%;
+width: 100%;
+background-image: url(img/overlay.png);
+}
+
+#hero h1 { font-size: 2rem;
+
+}
+#hero button { background-color: rgba(0,0,0,6);
+color: white;
+border: 1px solid #ffff;
+padding: 7 px 17px;
+}
+
+.carousel-control-next, .carousel-control-prev { width: 40px; height: 80px; top:50%; opacity: .0; background-color: #ed564b}
+
+#services {background-color: #ed564b; padding: 50px;
+text-align: center; color: white; 
+}
+
+#services h3 { 
+    margin: 20px 0px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.rounded-circle {
+    padding: 15px;
+    border: 3px solid #fff;
+    color: white;
+
+}
+
+#hero button {background-color: rgba(0,0,0,0); color: white; 
+    border: 1px solid white;
+}
+
+#services p {
+  font-size: .9rem  
+}
+
+.portfolio {margin: 50px}
+.portfolio img {width: 100%; margin-bottom: 15px; ;
+} 
+
+.portfolio .row {padding-top: 15px;
+border-top: 1px solid #bbb;
+ }
+.portfolio p {line-height: 1rem;}
+
+#projects .row p {text-align: center;
+}
+
+.portfolio h4, .portfolio p4 {text-transform: uppercase}
+
+#articles .row p { color: #606060}
+
+.portfolio h5 { 
+    font-size: .9rem;
+    line-height: .9rem;
+    font-weight: bold;
+}
+.portfolio .postinfo { 
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: .9rem;
+    color: grey;
+    margin: 15px 0;
+
+}
+.portfolio .postinfo span {color: #ed564b }
+
+
+#footer {
+    background-color:#3b3b3b; border-top: 4px solid #ed564b;
+    color: #aaa; padding: 50px;}
+
+
+
+#footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+#footer ul li a { border-bottom: dotted;
+display: block;
+width: 100%;
+padding: 7px 0;
+
+
+}
+#footer ul a { 
+    padding-left: 0;
+    color: #aaaa}
+
+#footer h5 {text-transform: uppercase;
+color: white;
+letter-spacing: 1px;
+ }
+footer {background-color: #292929; color: white;
+    padding: 15px 0;
+}
