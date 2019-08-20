@@ -1,0 +1,282 @@
+@import url(https://web.archive.org/web/20171026195135cs_/http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+body {
+  font-family: oxygen;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-link {
+  color: #777777;
+  font-size: 1rem;
+}
+
+.carousel-control-next {
+  right: 0;
+  background: #f4473a;
+  width: 50px;
+  height: 100px;
+  top: 35%;
+  opacity: 1;
+}
+
+.carousel-control-next:hover {
+  background: #1A1A1A;
+}
+
+.carousel-control-prev {
+  left: 0;
+  background: #f4473a;
+  width: 50px;
+  height: 100px;
+  top: 35%;
+  opacity: 1;
+}
+
+.carousel-control-prev:hover {
+  background: #1A1A1A;
+}
+
+.carousel-inner h5 {
+  font-size: 26px;
+}
+
+.carousel-inner p {
+  font-size: 16px;
+}
+
+.carousel-caption {
+  margin: auto;
+  width: 42%;
+  bottom: 30%;
+}
+
+.overlay {
+  background-image: url(starter-code/img/overlay.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.btn-reverge {
+  background: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  color: #fff;
+  width: 15rem;
+  border: 1px solid #fff;
+  padding: 0.5rem 0;
+  margin: 1rem auto;
+  font-weight: bold;
+  /* font-size: 1.3rem; */
+}
+
+
+/* features */
+
+.features {
+  background: #f4473a;
+  padding: 6rem 0 3rem;
+  position: relative;
+  top: -10rem;
+  z-index: 3;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features-list__item {
+  text-align: center;
+  width: 40rem;
+}
+
+.features-list__item:nth-child(2) {
+  margin: 0 8rem;
+}
+
+.features-list__item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.features-list__item p {
+  font-size: 16px;
+  color: #FFF;
+}
+
+.projects {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  top: -8rem;
+}
+
+.projects h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.projects h3 {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects .card {
+  border: none;
+  text-align: center;
+}
+
+.projects .card-text {
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+
+
+
+.articles {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  top: -4rem;
+}
+
+.articles h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.articles h3 {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.articles-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles .card {
+  border: none;
+  text-align: center;
+}
+
+.articles .card-text {
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+
+.articles .card-body {
+  padding: 1rem 0 0;
+  text-align: left;
+}
+
+.articles .card-posted {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.articles .card-posted__red {
+  color: #f4473a;
+}
+
+.articles .card-information {
+  font-size: 14px;
+  color: #606060;
+}
+
+.more-informartion {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.belt {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.more-features {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 3rem 0;
+  margin: 0;
+}
+
+.more-features-item {
+  width: 15em;
+}
+
+.more-features-item h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.more-features-item p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.more-features-item a {
+  color: #aaa;
+  font-size: 14px;
+  border-bottom: 1px dotted rgba(255, 255, 255, .2);
+  display: block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background: #292929;
+  padding: 1rem 0;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.footer-block {
+  width: 100%;
+  display: block;
+}
