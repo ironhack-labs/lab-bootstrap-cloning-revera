@@ -1,0 +1,34 @@
+* {
+
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.top-white {
+
+}
+
+nav {
+  margin-top: 100px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.tools {
+  background-color: #ed564b;
+}
+
+.col-md-4 h2, p {
+  text-align: center;
+  margin: 50px auto;
+}
