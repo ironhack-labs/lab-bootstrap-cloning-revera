@@ -3,6 +3,10 @@
 # Attention:
 This lab has been edited. Check the image in template and build that.
 
+[Significa Website](https://significa.co/)
+
+![Significa Base](https://raw.githubusercontent.com/josecarneiro/lab-bootstrap-cloning-template/master/starter-code/template.png)
+
 # Cloning with Bootstrap
 
 Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
