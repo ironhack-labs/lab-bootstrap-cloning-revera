@@ -1,5 +1,8 @@
 ![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
+# Attention:
+This lab has been edited. Check the image in template and build that.
+
 # Cloning with Bootstrap
 
 Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
