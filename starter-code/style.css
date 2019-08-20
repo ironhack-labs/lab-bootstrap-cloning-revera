@@ -1,0 +1,106 @@
+nav {
+  padding: 2.5% 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav h1 {
+  font-weight: bolder;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 2%;
+  cursor: pointer;
+}
+
+nav ul li:first-child {
+  color: #ed564b;
+}
+
+nav ul li:hover {
+  color: #ed564b;
+}
+
+.carousel-inner {
+  height: 550px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  position: relative;
+}
+
+.carousel-inner .text-content {
+  color: white;
+  text-align: center;
+  z-index: 3;
+  background: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.carousel-inner button {
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+  padding: 1% 5%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.services {
+  background-color: #ed564b;
+  color: white;
+  padding: 1.5% 5%;
+}
+
+.services .item {
+  padding: 2%;
+}
+
+.services .item i {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+.bottom-text {
+  padding: 5%;
+}
+
+.bottom-text .label {
+  border-bottom: 1px solid #999;
+  margin-bottom: 2rem;
+}
+
+
+figcaption span {
+  color: #ed564b;
+}
+
+footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  padding: 2.5% 5%;
+  color: #aaa;
+}
+
+footer .footer-title {
+  font-size: 110%;
+  color: white;
+}
+
+footer .hover {
+  border-bottom: 1px dotted #aaa;
+  padding: 1.5% 0;
+}
+
+footer .hover:hover {
+  color: white;
+}
