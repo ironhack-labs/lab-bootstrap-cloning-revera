@@ -75,7 +75,7 @@ postmeta {
 .nav-link {
     color: #292929;
     font-weight: 400;
-    font-size: 1.05rem;
+    font-size: .9rem;
 }
 
 .active {
@@ -138,6 +138,10 @@ postmeta {
     align-items: center;
 }
 
+.justify-fe {
+    justify-content: flex-end;
+}
+
 .justify-c {
     justify-content: center;
 }
@@ -160,6 +164,22 @@ break {
     width: 95%;
 }
 
+.carousel-caption {
+    top: 45%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    color: rgba(255, 255, 255, .5)
+}
+
+.carousel-caption h5 {
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+}
+
 #footer h4 {
     padding-bottom: 15px;
 }
@@ -172,6 +192,25 @@ break {
 #footer ul li {
     border-bottom: 1px dotted rgba(255, 255, 255, .3);
     padding: .5rem 0;
+}
+
+#header .col-lg-2 {
+    width: 150px;
+}
+
+#carouselExampleInterval img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+#carouselExampleInterval button {
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: rgba(255,255,255,.2);
+    color: white;
+    font-weight: 700;
+    opacity: 0.6;
+    width: 125px;
 }
 
 #bottom p {
