@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.fa-bars {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+#redbox h2,
+#redbox p {
+  color: white;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+#redbox {
+  background-color: red;
+}
+
+.project-img {
+  height: 150px;
+  width: auto;
+}
+
+#footer {
+  background-color: grey;
+  color: white;
+}
+
+#copyright {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.card {
+  border: none;
+  text-align: center;
+}
+
+
+#redbox .card {
+  background-color: red;
+}
+
+.fa {
+  font-size: 30px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#articles,
+#projects {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#footer .card {
+  background-color: inherit;
+}
+
+
+#footer .list-group-item {
+  background-color: inherit;
+  border-bottom-color: inherit;
+  border-bottom-style: dashed;
+  border-top: none;
+  border-bottom: 1px inherit;
+}
+
+#footer a {
+  color: white;
+  border-bottom: 1px;
+  border-bottom-style: dashed;
+  border-color: inherit;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.carousel-inner {
+  min-height: 450px;
+}
+
+.carousel-item img {
+  min-height: 450px;
+  width: auto;
+}
+
+#copyright .container {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#articles .card-subtitle a {
+  color: red;
+}
+
+#footer hr {
+border: 5px solid red;
+width: 100%;
+}
+
+#footer {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: red;
+  width: 50px;
+  height: 100px;
+  margin: auto 0;
+  opacity: 1;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  transform: all 1s;
+  background-color: rgb(163, 3, 3);
+  width: 50px;
+  height: 100px;
+  margin: auto 0;
+  opacity: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header h1 {
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: black;
+}
+
+
+
+.nav a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 700px) {
+  .fa-bars {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  header .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
