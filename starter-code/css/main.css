@@ -1,0 +1,37 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+.nav-item.active .nav-link{
+  color: #F4473A !important;
+}
+
+.main-title a {
+  color: #000;
+}
+  .main-title a:hover {
+    text-decoration: none;
+  }
+
+.section-3 {
+  text-align: center;
+  padding: 80px 0;
+  background-color: #F4473A;
+  color: #fff;
+}
+
+.section-3 .col-sm-4 {
+  padding: 0 80px;
+}
+
+@media (min-width: 576px) { 
+
+}
+@media (min-width: 768px) { 
+
+}
+@media (min-width: 992px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
