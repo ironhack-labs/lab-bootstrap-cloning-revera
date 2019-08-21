@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container-sm-12 {
+  text-align: center;
+  
+  height: 70px;
+}
+.col-sm-3 {
+  font-size: 32px;
+  font-family: helvetica;
+  color: black;
+  text-align: center;
+  margin: 0 0 20px;
+  
+  height: 70px;
+  background-color: white;
+}
+.col-sm-1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+  padding-top: 17px;
+  height: 70px;
+  
+}
+.col-sm-4 {
+  font-size: 20px;
+  font-family: helvetica;
+  color: white;
+  height: 70px;
+  background-color: rgba(255, 0, 0, 0.562);
+  text-align: center;
+}
