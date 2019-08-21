@@ -2,6 +2,7 @@ body {
 
   background-color: #fff;
   font-size: 20px;
+  height: auto;
 }
 
 .row-two {
@@ -96,6 +97,58 @@ body {
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+h5{
+
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+h5 span{
+  color: #ed564e;
+}
+
+.gray-background{
+  background-color: rgb(68, 62, 62);
+  color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 4px solid #ed564e; 
+  
+}
+
+.gray-background a{
+
+  text-decoration: none;
+  color: gray;
+}
+
+.gray-background a:hover{
+
+  text-decoration: none;
+  color: white;
+}
+
+h3 span{
+  margin-top: 30px;
+  color: white;
+  font-size: .5em;
+
+}
+
+footer {
+
+  color: black;
+  height: 50px;
 }
 
 
