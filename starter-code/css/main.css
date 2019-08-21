@@ -1,0 +1,77 @@
+html {
+  font-size: 10px;
+}
+*{
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  height: 11rem;
+}
+
+.nav-bar .wrap-nav {
+  padding-top: 5rem;
+  width: 60vw;
+}
+.nav-bar h1 {
+  font-weight: bold;
+  font-size: 2.7rem;
+ }
+.nav-bar ul {
+  list-style-type: none; 
+}
+.nav-bar li {
+ margin-right: 3rem;
+ font-size: 1.2rem;
+}
+
+.nav-bar .wrap-links {
+  
+}
+
+.header {
+  color: black;
+}
+.highlights {
+  background-color: #ed564b;
+  height: 35vh;
+  color: white;
+  
+}
+.red-cards-container {
+
+  
+}
+ .highlights .red-cards {
+  width: 110rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.highlights .red-card {
+  background-color: #ed564b;
+}
+.highlights .icon {
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding-top:5px;
+} 
+.projects .col {
+  border-top: 1px solid rgb(182, 182, 182);
+  padding:2rem 0 0 0;
+  margin:5rem 0 0 0;
+  width:5rem;
+  text-decoration: none;
+}
+
+.projects img {
+  width: 100%;
+}
+.projects a{
+  text-decoration: none;
+}
