@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#section3 {
+  background-color: rgb(237, 85, 75);
+}
+#section4 {
+}
+
+#section6 {
+  background-color: black;
+}
+
+/* Section 3 */
+.red-card {
+}
+/* Section 4 */
+#section4 {
+  border-bottom: solid 4px rgb(237, 85, 75);
+}
+#section4 .headline {
+  border-bottom: solid gray 1px;
+}
+#section4 span {
+  color: red;
+}
+/* Section 5 */
+
+#section5 li {
+  border-bottom: dotted gray 1px;
+}
+/* Section 6 */
+#section6 p {
+  font-size: 12px;
+}
