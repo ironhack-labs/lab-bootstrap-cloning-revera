@@ -1,8 +1,27 @@
-/* font-family: 'Roboto', sans-serif; */
-
 nav {
-    
- }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 
- nav a {
- }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.latest img {
+    width: 220px;
+    height: 150px;
+}
