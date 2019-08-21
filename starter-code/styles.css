@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-around;
+}
+.navList{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navOption{
+    padding: 10px;
+}
+
+
+.info-slider{
+    display:flex;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+}
