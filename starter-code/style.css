@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+.navbar-light {
+  background-color: white;
+}
+
+.padding-nav {
+  padding-right: 30%;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.features {
+  background-color: #ed564b;
+  height: 400px;
+}
