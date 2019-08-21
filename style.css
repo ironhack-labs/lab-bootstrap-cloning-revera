@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+nav {
+    /* height: 15vh; */
+    background-color: white;
+}
+.text{
+    top:50%;
+    left:20%;
+}
+
+
+a{
+    color: black;
+}
+.carousel-item>img {
+    /* height: 500px; */
+}
+
+
+
+
+main {
+    /* height: 120vh; */
+
+}
