@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+header h1 {
+  padding: 1rem;
+}
+header ul li{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.nav-link {
+  text-decoration: none;
+
+  font-size: 1.7rem; 
+}
