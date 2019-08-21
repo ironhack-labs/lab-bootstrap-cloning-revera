@@ -1,0 +1,7 @@
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.red-sect {
+  background-color: red;
+}
