@@ -28,3 +28,23 @@ body{
     align-items: center;
     margin: 10rem;
 }
+
+.red-div{
+    margin:0px;
+    padding:0px;
+}
+
+#red-info{
+    background-color: red;
+    width: 100%;
+    margin: 0px;
+    padding: 75px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content{
+    text-align: center;
+}
