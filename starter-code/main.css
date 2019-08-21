@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+.top-menu {
+  list-style: none;
+  display: flex;
+  align-content: center;
+}
+
+.services {
+  background-color: rgb(237, 86, 75);
+  height: 200px;
+}
