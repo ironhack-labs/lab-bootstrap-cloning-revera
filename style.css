@@ -1,0 +1,63 @@
+
+
+
+.container-fluid .portfolio h1 {
+  margin-left: 110px;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.container-fluid .portfolio h2 {
+  margin-left: 110px;
+  font-size: 20px;
+  color:lightgray;
+  
+}
+
+.container-fluid .portfolio hr {
+  margin-bottom: 50px;
+  max-width: 1200px;
+}
+
+.col-sm img {
+  width: 200px;
+  height: 150px;
+}
+
+.navbar-brand {
+  margin-top: 100px;
+  margin-right: 450px;
+  margin-left: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-top: 100px;
+  color: gray;
+}
+
+.hover:hover {
+  color: red;
+}
+
+.red-ish {
+  background-color: lightcoral
+}
+
+.icon img {
+  width: 80px;
+  display: flex;
+
+}
+
+
+.darkgrey {
+  background: #444;
+  color: white;
+}
+
+.black {
+  background: #111111;
+  color: white;
+}
