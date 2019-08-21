@@ -1,0 +1,220 @@
+html{
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+}
+
+#header{
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  height: 90px;
+}
+
+#header h1{
+  font-family: "oxygen";
+  font-weight: bold;
+  font-size: 3.0rem;
+}
+
+#header ul{
+  list-style: none;
+}
+
+#header ul li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 550px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+
+#red-banner{
+  background-color: #ED564B;
+  color: white;
+  height: 336px;
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.circle{
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 20px;
+  padding: auto, auto;
+}
+
+.bigger-bolder{
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+}
+
+#red-banner p{
+  text-align: center;
+}
+
+#projects{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#projects h3{
+  margin-left: 15px;
+  font-size: 2.0rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+#projects p{
+  color: #888;
+  margin-left: 15px;
+  font-size: 1.5rem;  
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#projects hr{
+  width: 98%;
+  margin-bottom: 25px;
+}
+
+.project-pic{
+  width: 270px;
+  height: auto; 
+}
+
+#projects figcaption{
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+#articles{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#articles h3{
+  margin-left: 15px;
+  font-size: 2.0rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+#articles > p{
+  color: #888;
+  margin-left: 15px;
+  font-size: 1.5rem;  
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#articles hr{
+  width: 98%;
+  margin-bottom: 25px;
+}
+
+.articles-pic{
+  width: 270px;
+  height: auto; 
+}
+
+#articles figcaption{
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+#articles .article-title{
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+#articles .red{
+  text-decoration: none;
+  color: #ED564B;
+  font-weight: 600;
+}
+
+#articles .red:hover{
+  color: black;
+}
+
+#further-reading{
+  border-top: 4px solid #ED564B;
+  background: #3B3B3B;
+  /* width: 100%; */
+  height: 348px;
+}
+
+#further-reading ul{
+  margin: 30px 0 30px 20px;
+  list-style: none;
+  color: white;
+  line-height: 1.4;
+}
+
+
+#further-reading ul li:nth-child(1){
+  font-size: 1.6rem;
+  color: white;
+  padding-bottom: 20px;
+  border: none;
+}
+
+#further-reading ul li{
+  font-size: 1.4rem;
+  color: #888;
+  margin-bottom: 15px;  
+  border-bottom: 1px dashed #888;
+}
+
+#further-reading ul li a{
+  text-decoration: none;
+}
+
+#further-reading ul li a:hover{
+  color: white;
+}
+
+#further-reading .no-border{
+  border: none;
+}
+
+footer{
+  background-color: #292929;
+  color: white;
+  height: 80px;
+  /* width: 100%; */
+  text-align: center;
+}
+
+footer p{
+  position: relative;
+  top: 30px;
+}
+
+#smaller-width{
+  width: 90%;
+  margin-left: 3%;
+}
