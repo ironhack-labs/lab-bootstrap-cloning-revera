@@ -1,0 +1,151 @@
+nav .text-uppercase {
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: 900;
+}
+
+#slidebox {
+    position: relative;
+    background: #000;
+}
+
+.flexslider {
+    margin: 0 0 0px;
+    zoom: 2;
+    height: 350px;
+    
+}
+
+#slidebox img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 350px;
+}
+
+#slidebox p button {
+    border-color: white;
+    color: white;
+    transform: scale(0.8);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#slidebox p  {
+   font-size: 12px;
+}
+h5 {
+    font-size: 25px;
+}
+
+.glyphicon {
+    color: black;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+
+#section-1 {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+}
+
+#section-1 .col-4 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px 80px; 
+}
+
+.dot i {
+    transform: scale(2)
+}
+#section-2 {
+    padding: 80px;
+    padding-bottom: 50px;
+}
+#section-2 h3 {
+    padding:20px 0px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.para {
+    font-weight: bold;
+    color: grey; 
+}
+
+#section-2 img {
+    height: 250px;
+    width: 400px;
+}
+#section-2 p {
+    font-size: 20px;
+    color: black;
+}
+/* .red {
+    border:  
+} */
+
+#section-4 {
+    background-color: #3B3B3B;
+    padding: 40px 80px;
+    border-top:4px solid #ed564b;
+
+    
+}
+#section-4 div {
+    color:lightgray;
+}
+
+#section-4 hr {
+    border: 0.3px dotted lightgrey;
+    transform: scale(1, 0.2);
+}
+
+footer {
+    background-color: #292929;
+    color: lightgray;
+    padding: 20px 80px;
+}
+#section-4 h3 {
+    padding-bottom: 20px;
+}
+#section-4 p {
+    font-size: 20px;
+}
+
+.carousel-control-prev-icon {
+    background-color: red;
+    height: 70px;  
+    width: 25px;
+}
+
+
+.carousel-control-prev {
+    display: flex; 
+    justify-content: flex-start
+}
+
+.carousel-control-next-icon {
+    background-color: red;
+    height: 70px;  
+    width: 25px;
+}
+
+
+.carousel-control-next {
+    display: flex; 
+    justify-content: flex-end
+}
+
