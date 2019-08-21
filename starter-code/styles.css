@@ -1,0 +1,50 @@
+header {
+    border: .1px solid red;
+}
+
+.row.mainmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+.col-sm-8.mainmenu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    border: .1px solid red;
+    margin: 0 auto;
+}
+
+
+.lorem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: white;
+    margin: 15rem;
+}
+
+.red-section {
+    background-color: #ed564b;
+    color: white;
+    height: 300px;
+}
+
+.widget {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.widget h3 {
+    font-size: 1.5em;
+}
+.widget p {
+    font-size: .8em;
+}
