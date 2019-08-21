@@ -1,0 +1,80 @@
+nav {
+  padding: 2.5% 5%;
+  box-align: center;
+  text-align: center;
+  align-items: center;
+}
+
+nav h1 {
+  font-weight: bolder;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 2%;
+  cursor: pointer;
+}
+
+nav ul li:first-child {
+  color: #ed564b;
+}
+
+nav ul li:hover {
+  color: #ed564b;
+}
+
+.carousel-inner {
+  height: 550px;
+  position: relative;
+}
+
+.carousel-inner .text-content {
+  color: white;
+  text-align: center;
+  z-index: 3;
+  background: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.carousel-inner button {
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+  padding: 1% 5%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.services {
+  background-color: #ed564b;
+  color: white;
+  padding: 1.5% 5%;
+}
+
+.services .item {
+  padding: 2%;
+}
+
+.services .item i {
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+.bottom-text {
+  padding: 5%;
+}
+
+.bottom-text .label {
+  border-bottom: 1px solid #999;
+  margin-bottom: 2rem;
+}
+
+figcaption span {
+  color: #ed564b;
+}
