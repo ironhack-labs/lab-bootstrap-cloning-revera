@@ -1,0 +1,30 @@
+
+
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.collapse {
+  margin-left: 200px;
+}
+
+.active li {
+  color: red;
+}
+
+.carousel-inner p {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h5 {
+  font-size: 80px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container {
+  background-color: red;
+  padding: 80px 0px;
+  width: 100%;
+  align-items: center;
+}
