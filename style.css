@@ -1,0 +1,51 @@
+#sliderimg {
+  -webkit-filter: grayscale(90%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.navbar {
+  background-color: white;
+}
+
+#icons {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.container-fluid,
+.py-5 {
+  background-color: #eb554a;
+  color: white;
+}
+
+.bottom-div {
+  background-color: #3b3b3b;
+  color: lightgray;
+}
+
+.bottom-div h3 {
+  background-color: #3b3b3b;
+  color: white;
+}
+
+.footer {
+  background-color: #292929;
+  color: white;
+}
+
+.projects span {
+  color: #eb554a;
+}
+
+.projects p {
+  color: grey;
+}
