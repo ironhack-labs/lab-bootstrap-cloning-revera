@@ -1,0 +1,154 @@
+#nav {
+  margin-top: 100px;
+  text-decoration: none;
+  margin-right: 200px;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 200px;
+}
+
+#imagem1 {
+  filter: grayscale(100%);
+}
+
+#txtedit h5 {
+  font-size: 40px;
+}
+.principalgrid {
+  padding: 60px 0;
+  background-color: red;
+  filter: grayscale(20%);
+}
+
+.principalgrid .grid {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  padding: 0 100px;
+}
+
+.principalgrid h3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.principalgrid .grid div {
+  padding: 0 20px;
+}
+
+.principalgrid .grid p {
+  font-size: 15px;
+  color: white;
+}
+
+.pageprincipal {
+  padding: 60px 0;
+  background-color: white;
+  filter: grayscale(20%);
+}
+
+.pageprincipal .page {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0 100px;
+}
+
+.pageprincipal img {
+  width: 100%;
+  height: 200px;
+}
+
+.pageprincipal h2 {
+  color: black;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-bottom: 1px;
+}
+
+.pageprincipal .page div {
+  padding: 0 20px;
+}
+
+.pageprincipal p {
+  color: gray;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+hr {
+  width: 1200px;
+}
+
+.pageprincipal2 {
+  padding: 60px 0;
+  background-color: white;
+  filter: grayscale(20%);
+}
+
+.pageprincipal2 .page2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0 100px;
+}
+
+.pageprincipal2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.pageprincipal2 h3 {
+  color: black;
+  font-size: 10px;
+  margin-left: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 1000;
+}
+
+.pageprincipal2 .page2 div {
+  padding: 0 20px;
+}
+
+.pageprincipal2 .page2 p {
+  font-size: 12px;
+  color: gray;
+}
+
+#footer {
+  background-color: #404040;
+  padding: 30px;
+  border-top: 6px solid red;
+}
+
+#footer h5 {
+  color: white;
+  text-transform: uppercase;
+}
+
+#txtfooter li a {
+  font-size: 15px;
+  color: gray;
+}
+
+#row {
+  padding: 20px;
+}
+
+#footer2 {
+  background-color: #333;
+  padding: 40px;
+}
+
+#red {
+  color: red;
+}
