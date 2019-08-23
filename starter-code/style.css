@@ -1,0 +1,151 @@
+body {
+    background-color: #F0F0F0;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, Sans-Serif;
+    border: 0;
+  }
+
+  .navbar{
+  display:flex;
+  justify-content:center;
+  }
+
+  .navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 200px;
+  }
+
+  .nav-item active{
+      color: red;
+  }
+
+  .carsimages {
+    height: 500px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    filter: grayscale();
+  }
+  
+a{
+color:red;
+}
+
+#redsection{
+    background-color: #ed564f;
+}
+
+.redgroup{
+    color: white;
+}
+
+
+.btn-outline-secondary{
+    color: white;
+    border-color: white;
+}
+
+.card-img-top{
+    margin-top: 20px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    color: white
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.img-card{
+    height: 200px;
+    width: auto;
+}
+
+.deck-text{
+    text-align: left;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.projects h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.projects h6{
+    font-size: 15px;
+    color: gray;
+    }
+
+.projects{
+margin: 100px;
+
+}
+
+#cardproject{
+    background-color:#F0F0F0;
+    border: #F0F0F0
+}
+
+
+.articles h3 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.articles h5{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.articles h6{
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+    }
+
+.articles{
+margin: 0  100px;
+
+}
+
+#cardarticles{
+    background-color:#F0F0F0;
+    border: #F0F0F0
+}
+
+.row{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: left;
+}
+
+.row h6{
+    margin:10px 110px;
+}
+
+.row p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    color: rgb(117, 117, 117);
+
+}
+
+footer{
+    background-color: rgb(48, 47, 47);
+    color: white; 
+}
