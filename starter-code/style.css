@@ -1,0 +1,14 @@
+.carousel-controls {
+  width: 200px;
+  height: 200px;
+}
+
+.myFooter {
+  background-color: red;
+  color: white;
+}
+
+.annotations {
+  background-color: darkred;
+  padding: 20px;
+}
