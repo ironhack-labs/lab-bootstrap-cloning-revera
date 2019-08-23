@@ -1,0 +1,48 @@
+* {
+  font-weight: 300;
+}
+
+#slideBox {
+  background-image: url("/starter-code/img/overlay.png")
+}
+
+.card-body {
+  background: rgb(237, 86, 75);
+  text-align: center;
+  color: white;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+#latest {
+  font-size: 23px;
+  color: black;
+  font-weight: 700;
+
+}
+
+#few {
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
+}
+
+#latestArticles {
+  font-size: 23px;
+  color: black;
+  font-weight: 700;
+}
+
+#latestNext {
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
+}
+
+/* #white {
+  width: 100vw;
+  height: 400px;
+  padding: 0 50px;
+} */
