@@ -1,0 +1,121 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 2px;
+}
+
+.carousel-control-prev {
+  background-color: #ed564b;
+  margin: auto 0;
+  width: 60px;
+  height: 100px;
+  opacity: 1;
+}
+
+.carousel-control-next {
+  background-color: #ed564b;
+  margin: auto 0;
+  width: 60px;
+  height: 100px;
+  opacity: 1;
+}
+.navbar {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin: 15px 10%;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.naranja {
+  color: #ed564b;
+}
+
+#carrusel {
+  margin: 0px;
+}
+
+#carrusel img {
+  -webkit-filter: grayscale(100%);
+}
+
+#figuras {
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  color: white;
+  padding: 15px 10%;
+}
+
+#figuras i {
+  border-radius: 100px;
+  border: 5px solid #fff;
+  margin: 5%;
+}
+
+.fas {
+  padding: 10px;
+}
+
+#projects {
+  background-color: white;
+  padding: 15px 10%;
+}
+
+#articles {
+  background-color: white;
+  padding: 15px 10%;
+}
+
+#articles img {
+  height: 129.26px;
+}
+
+#mas {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+  padding: 15px 10%;
+}
+
+#mas .contfeat p {
+  border-bottom-style: dotted;
+  border-color: white;
+  border-width: 1px;
+  padding: 2px;
+}
+
+#mas a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+#mas a:hover {
+  color: white;
+}
+
+h5,
+h6 {
+  color: white;
+}
+#footer {
+  background-color: #292929;
+  padding: 15px 10%;
+}
+
+.overlay {
+  background: url(./img/overlay.png);
+  position: absolute;
+  background: transparent(0, 0, 0, 0);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
