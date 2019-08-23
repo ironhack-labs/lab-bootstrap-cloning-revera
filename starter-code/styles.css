@@ -1,0 +1,141 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand{
+    margin-right: 300px !important;
+   
+}
+
+.navbar-light .navbar-brand{
+    
+}
+
+#carrousel{
+
+}
+
+#revera{
+
+}
+
+.card-img-top{
+    width: 5vw !important;
+    height: 5vw !important;
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    align-content: center ;
+    background-color: #ed564b !important;
+    border-color: #ed564b !important;
+    color: white;
+    justify-content: center;
+    padding-right: ;
+    
+    
+}
+
+#cartitas{
+    background-color: #ed564b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    max-width: 100vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+.card-img-top1{
+    width: 17vw;
+}
+
+.card1{
+    width: 17vw !important;
+}
+
+.titulos{
+    margin-top: 5vh;
+    margin-left: 12vw;
+    
+
+}
+
+.titulos p{
+    color: gray
+}
+
+hr{
+    margin-right: 10vw;
+    margin-left: 10vw;
+    color: gray
+}
+
+.card-text1{
+    font-weight: bold;
+    text-align: left;
+}
+
+.links{
+    color: red
+}
+
+.textogris{
+    color: gray;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-evenly;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    
+}
+
+.footerdiv{
+    padding-top: 40px;
+  
+    height: 45vh;
+    width: 17vw
+}
+
+.linksgrises{
+    color: gray
+}
+
+.grayhr{
+    color: gray
+}
+
+h4{
+    color: white
+}
+
+footer{
+    width: 100vw;
+    color: white;
+    padding-left: 20vw;
+    height: 10vh;
+    background-color: #292929;
+    padding-top: 2vh;
+}
