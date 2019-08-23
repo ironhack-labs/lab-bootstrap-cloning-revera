@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif`;
+}
+.Features {
+  background-color: #ed564a;
+}
+.circle-border {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
