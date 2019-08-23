@@ -1,0 +1,159 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#navigation {
+  display: flex;
+  width: 100vw;
+}
+
+.highlight {
+  color: #FF7653;
+}
+
+.article-title {
+  font-weight: bolder;
+  font-size: 18px;
+  display: block;
+}
+
+.article-sub-title {
+  font-weight: bolder;
+  color: gray;
+  font-size: 14px;
+}
+
+.body-title {
+  margin-left: 4%;
+
+  margin-bottom: -22px;
+}
+
+.row {
+
+  margin-left: 30px;
+}
+
+#about-text {
+  width: 250px;
+  padding: 18px 0 18px 0;
+  text-align: center;
+}
+
+#project-text {
+  width: 250px;
+  padding: 18px 0 18px 0;
+  text-align: justify;
+}
+
+.all-elements {
+  color: white;
+  width: 100%;
+  padding-top: 12px;
+  text-align: justify;
+  position: relative;
+  display: block;
+}
+
+#footer-text {
+  color: white;
+  width: 90%;
+  padding: 18px 0 18px 0;
+  text-align: justify;
+}
+
+
+#header-image {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: relative;
+}
+
+#projects-card {
+  margin-top: 100px;
+}
+
+.footer-title {
+  font-size: 20px;
+  position: relative;
+  display: block;
+  margin-top: 28px;
+  color: white;
+}
+
+
+#articles-card {
+  margin-top: 50px;
+}
+
+.body-title {
+  font-size: 28px;
+  position: relative;
+  display: block;
+  margin-top: 40px;
+}
+
+.body-sub-title {
+  font-size: 14px;
+  position: relative;
+  font-weight: bolder;
+  color: gray;
+  display: flexbox;
+  display: block;
+  margin-left: 4%;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+#about {
+  position: relative;
+  display: flexbox;
+  width: 100vw;
+  padding: 80px;
+  background-color: #EE6F4F;
+  height: 300px;
+  color: white;
+  margin-bottom: 22px;
+}
+
+#about-container {
+  display: flexbox;
+}
+
+.about-body {
+  margin-top: 40px;
+}
+
+#circle {
+  width: 250px;
+  height: 250px;
+  color: white;
+  margin: 30px;
+}
+
+.the-image {
+  display: inline-block;
+}
+
+col {
+  display: flex;
+}
+
+#latest-projects {
+  display: flexbox;
+  position: relative;
+  width: 100vw;
+}
+
+#latest-articles {
+  display: flexbox;
+  position: relative;
+  width: 100vw;
+}
+
+#bottom {
+  display: flex;
+  width: 100vw;
+  background-color: #3F3E3B;
+}
