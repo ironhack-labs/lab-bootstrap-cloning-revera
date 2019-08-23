@@ -1,0 +1,152 @@
+body {
+  background-color: #F0F0F0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Helvetica, Sans-Serif;
+  border: 0;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+h8 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.btn-outline-secondary {
+ color: white;
+ border-color: white;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+  margin-right: 28vw;
+}
+
+.collapse navbar-collapse {
+float: right;
+
+}
+
+#navbarNavDropdown {
+float: right;
+}
+
+.image-title {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: ;
+  height: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.red-headlines {
+  background-color: #ed564b
+}
+
+#red-cards {
+  color: white;
+
+}
+
+
+
+.card-body h5 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align:center;
+
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+div.card.red-headlines img {
+  width: 100px;
+}
+
+div.card.red-headlines {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+header {
+  background-color: #F0F0F0;
+}
+
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.card-group latest {
+  color: #000000
+}
+
+.links {
+  background-color: #404040;
+}
+
+.copyright {
+  background-color: #000000;
+  color: white;
+}
+
+#hr-red {
+border: 3px solid #ed564b;
+}
+
+#div-articles {
+  border: 1px solid lightgray
+}
+
+.col-sm {
+  color: white;
+  margin-top: 20px;
+}
+
+.col-sm p{
+  font-size: 0.9rem;
+  color: lightgray
+}
+
+.col-sm h6 {
+  margin-top: 35px;
+
+}
+
+.col-sm hr {
+  border: 0.3px solid lightgray;
+}
+
+footer p {
+  font-size: 0.9rem;
+  padding-top: 20px;
+}
+footer  {
+  padding: 20px;
+}
