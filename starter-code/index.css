@@ -1,0 +1,53 @@
+
+
+#carouselExampleCaptions {
+    filter: grayscale(100%);
+    z-index: 1;
+}
+
+#overlapText {
+    z-index: 1000;
+    position: absolute;
+    top:25%;
+}
+
+
+/* section 3  css */ 
+ .heart-icon{
+    width: 120px;
+    height: 120px;}
+.star-icon{
+    width: 120px;
+    height: 120px;}
+.glass-icon{
+    width: 120px;
+    height: 120px;}
+/* section 3  css */ 
+
+
+
+
+
+
+/* main  1 y 2 */ 
+.position-relative {margin-left: 3%;}
+
+#imgMedidas {
+    width: 286px;
+    height: 122.89px;
+    }
+    
+/* main 1 y 2 */ 
+
+
+
+
+
+
+
+/* footer */ 
+
+#footer-grey {background-color: #606060;}
+
+.border-bottom-dotted {border-bottom-style: dotted;}
+/* footer */ 
