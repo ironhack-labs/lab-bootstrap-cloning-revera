@@ -1,0 +1,191 @@
+body {
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-right: 200px;
+}
+
+.nav-item.active {
+  color: #ed564b;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid rgba(182, 177, 177, 0.623);
+  color: rgb(124, 119, 119);
+}
+
+.dropdown-menu {
+  background-color: #f0f0f0;
+  border: none;
+
+  font-size: 80%;
+}
+
+.carousel-simages {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  filter: grayscale();
+}
+
+a {
+  color: #ed564b;
+}
+
+#redsection {
+  background-color: #ed564f;
+}
+
+.redgroup {
+  color: white;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: white;
+}
+
+.card-img-top {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  color: white;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+.card {
+  border: none;
+}
+.img-card {
+  height: 160px;
+  width: 250px;
+}
+.redgroup {
+  border-top: 4px solid #f96b61;
+  border-bottom: 4px solid #f96b61;
+}
+
+.deck-text {
+  text-align: left;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.projects h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.projects h6 {
+  font-size: 15px;
+  color: gray;
+}
+
+.projects {
+  margin: 100px;
+}
+span {
+  border: 5px solid white;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+span > img {
+  filter: invert(1);
+}
+
+#cardproject {
+  background-color: white;
+  border: white;
+}
+
+.articles h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.articles h5 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.articles h6 {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.articles {
+  margin: 0 100px;
+}
+
+#cardarticles {
+  background-color: #f0f0f0;
+  border: #f0f0f0;
+}
+
+.row {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  text-align: left;
+}
+
+.row h6 {
+  margin: 10px 110px;
+}
+
+.row p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  color: rgb(117, 117, 117);
+}
+
+.last-content {
+  border-top: 4px solid #ed564b;
+  background-color: rgb(71, 71, 71);
+}
+
+footer {
+  background-color: rgb(48, 47, 47);
+  color: white;
+}

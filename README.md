@@ -6,7 +6,7 @@ Internet provides lots of templates and themes. But some of them cost money. How
 
 [Revera Theme](https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/)
 
-![Revera Picture](https://i.imgur.com/3y7yay8.png)
+![Revera Picture](https://i.icolor: rgb(172, 165, 165);mgur.com/3y7yay8.png)
 
 As we can see, this template is a very good example of the type of webpages we can see on the Internet. With Bootstrap, we are able, in barely a few hours, to copy the appearance of this template.
 
@@ -18,11 +18,13 @@ As we can see, this template is a very good example of the type of webpages we c
 ## Submission
 
 Upon completion, run the following commands
+
 ```
 $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
+
 Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
 
 In the Pull request name, add your name and last names separated by a dash "-"
@@ -41,7 +43,7 @@ So we have to see the page as a big container and identify the most important se
 
 Remember to use the inspector to determine the width and the height of the Revera page. Also, we could find out which Bootstrap classes have been used and anything else that is necessary to make our page looks like the original.
 
-One cool Boostrap feature is that you have three elements that make our lives easier: `container`,  `row` and `columns`. Don't hesitate to use them!
+One cool Boostrap feature is that you have three elements that make our lives easier: `container`, `row` and `columns`. Don't hesitate to use them!
 
 ## Iteration 2: Internal structure
 
