@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans|Roboto:500&display=swap');
+
+html, body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.nav-bar {
+    justify-content:space-between;
+}
+
+.nav-bar h1 {
+    font-family: 'Archivo Black';
+    font-size: 40px;
+    
+}
+
+.middle {
+    height: 339;
+}
+.middle p {
+    text-align:center;
+    padding: 0.5em;
+    font-size:13px;
+    margin: 0 0 0 12px;
+}
+
+.middle h3 {
+    font-size:20px;
+    text-align:center;
+    margin:2em 0;
+}
+.corousel {
+    filter: grayscale(100%), opacity(50%)
+}
+
+.container{
+    display:flex;
+    align-content:center;
+    padding: 3% 5%;
+    width:800px;
+    height:10%px;
+
+}
+
+.text {
+    flex-direction:column;
+    align-items:center; justify-content:center;
+
+}
+.padding {
+    align-content: center;
+}
+
+#section-2 {
+    display:flex;
+    justify-content:center;
+    background-color:red;
+    
+}
+.card {
+    flex-direction:column;
+
+
+}
+
+.card, h2, p {
+    margin: 5% 0 0 0;
+}
+
+.corousel {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) brightness(45%);
+}
+
+.bg {
+    align-content: center;
+    background-color: #ed564b;
+    height: 300px;
+    color:white;
+}
+
+.projects {
+    background-color:white;
+}
+
+.projects img {
+    width: 10em;
+}
+
+.articles-margin {
+    margin: 0 0 80% 0;
+}
+.wrap {
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer {
+    color:white;
+    position:relative;
+    margin: 2em 0 0 0;
+    height:384px;
+    font-family:'Open Sans';
+    border-top:5px solid #ed564b;
+    background-color:#3b3b3b;
+}
+
+.sample {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.space {
+}
+
+.footer-links {
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links ul {
+    list-style-type:none;
+    color:white;
+    align-content:center;
+}
+
+.footer-links h5 {
+    text-align:center;
+}
+
+.carousel-control-prev-icon {
+ background-color:red;
+}
+
+.carousel-control-next {
+    background-color:red;
+    margin: 10em 0;
+}
+
+.carousel-control-prev {
+    background-color:red;
+    margin: 10em 0;
+    filter: opacity(100%)
+}
