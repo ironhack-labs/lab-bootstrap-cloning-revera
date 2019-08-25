@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' , href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+    <script src="js/app.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">   <!--Contenedor Principal-->
+        <div class="row">  <!--Contenedor vacío-->
+            <div class="col-12 contenedor-vacio">
+        </div>
+        <div class="col-10 offset-lg-1 menu-opciones">
+            <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">REVERA</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Simple Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink " role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Parent Page<span class="sf-sub-indicator"> »</span>
+                            </a>
+                            <div class="dropdown-menu menu-drop" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Full page</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Child page 1</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Child page 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </div>
+    <!-- CARRUSEL -->
+        <div class="row carrusel">
+            <div class="col-lg-12">                          
+                <div class="bd-example">
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="overlay" src="img/overlay.png" width="1000%" height="1000%" alt="">
+                                <img src="img/slider-1.jpg" class="d-block w-100 img-car" alt="...">
+                                <div class="row pena">
+                                    <div class="carousel-caption d-none d-md-block col-lg-8">
+                                        <h2 class="text-center" >ETIAM MAURIS TORTOR, PHARETRA QUIS 
+                                        <br>
+                                            LOBORTIS IN, PHARETRA IN DIAM</h2>
+                                        <p class="text-center" >Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                                        <a href="#">
+                                            <button type="button" class="btn btn-secondary btn-sm">READ MORE</button>
+                                        </a>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="overlay" src="img/overlay.png" width="3000%" height="3000%" alt="">
+                                <img src="img/slider-3.jpg" class="d-block w-100 img-car" alt="...">
+                                <div class="carousel-caption letras d-none d-md-block col-lg-8">
+                                    <h2>FALAURIS SOLLICITUDIN QUIS DOLOR 
+                                    <br>
+                                        VENENATIS FACILISIS</h2>
+                                    <p class="text-center" >Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-secondary btn-sm">READ MORE</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="overlay" src="img/overlay.png" width="3000%" height="3000%" alt="">
+                                <img src="img/slider-4.jpg" class="d-block w-100 img-car" alt="...">
+                                <div class="carousel-caption d-none d-md-block col-lg-8">
+                                    <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT 
+                                    <br>
+                                        SUSCIPIT PHARETRA</h2>
+                                    <p class="text-center" >Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-secondary btn-sm">READ MORE</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="overlay" src="img/overlay.png" width="3000%" height="3000%" alt="">
+                                <img src="img/slider-2.jpg" class="d-block w-100 img-car" alt="...">
+                                    <div class="carousel-caption d-none d-md-block col-lg-8">
+                                        <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS 
+                                        <br>  
+                                            INTERDUM.</h2>
+                                        <p class="text-center" >Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                                        <a href="#">
+                                        <button type="button boton" class="btn btn-secondary btn-sm">READ MORE</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon previo" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVUCIOS -->
+    <div class="row servicios">
+        <div class="col-lg-12">
+            <div class="row col-lg-12 serv">
+                <div class="col p1">
+                    <span class="circulo">
+                        <i class="glyphicon glyphicon-glass copa"></i>
+                    </span>
+                    <h3 class="titulo text-center" >Web design</h3>
+                    <p class="text-center texto">
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius 
+                    </p>
+                </div>
+                        
+                <div class="col estrella">
+                    <span class="circulo" >
+                        <i class="glyphicon glyphicon-star"></i>
+                    </span>
+                    <h3 class="titulo text-center" >Web design</h3>
+                    <p class="text-center texto">
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus. 
+                    </p>
+                </div>
+                        
+                <div class="col p3">
+                    <span class="circulo">
+                        <i class="glyphicon glyphicon-heart"></i>   
+                    </span>
+                    <h3 class="titulo text-center" >Web design</h3>
+                    <p class="text-center texto">
+                        Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="row cards">
+        <div class="col-10 offset-lg-1">
+            <div class="row">
+                <div class="col-lg-12 projects1">
+                    <h1 class="texto-cards">LASTESTS PROJECTS</h1>
+                    <p class="texto-gris">FEW OF THE LATEST PORTFOLIO ITEMS</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row fotos">
+                <div class="col pro-foto1">
+                    <p class="text-center texto-foto">Nunc libero elit, iaculis nec augue non</p> 
+                </div>
+                
+                <div class="col pro-foto2">
+                    <p class="text-center texto-foto">Phasellus aliquet iaculis neque accumsan aliquam</p> 
+                </div>
+                <div class="col pro-foto3">
+                    <p class="text-center texto-foto">Vivamus blandit ipsum sed arcu euismod</p> 
+                </div>
+                <div class="col pro-foto4">
+                    <p class="text-center texto-foto">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p> 
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="col-lg-12 projects2">
+                    <h1 class="texto-cards texto-cards2">LASTESTS ARTICLES</h1>
+                    <p class="texto-gris">LATEST POSTS FROM THE BLOG</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row fotos">
+                <div class="col pro-foto5">
+                    <p class="text-left texto-foto2">Nunc libero elit, iaculis nec augue non</p>
+                    <p class="text-left fecha">POSTED ON <span class="rojo">AUGUST 19, 2013</span> BY <span class="rojo">ADMIN</span></p>
+                    <p class="texto-largo">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+                    
+                <div class="col pro-foto6">
+                    <p class="text-left texto-foto2">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                    <p class="text-left fecha">POSTED ON <span class="rojo">AUGUST 19, 2013</span> BY <span class="rojo">ADMIN</span></p>
+                    <p class="texto-largo">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+                <div class="col pro-foto7">
+                    <p class="text-left texto-foto2">Vivamus blandit ipsum sed arcu euismod</p>
+                    <p class="text-left fecha">POSTED ON <span class="rojo">AUGUST 19, 2013</span> BY <span class="rojo">ADMIN</span></p>
+                    <p class="texto-largo">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                </div>
+                <div class="col pro-foto8">
+                    <p class="text-left texto-foto2">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p> 
+                    <p class="text-left fecha">POSTED ON <span class="rojo">AUGUST 19, 2013</span> BY <span class="rojo">ADMIN</span></p>
+                    <p class="texto-largo">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row contacto">
+        <div class="col-10 offset-lg-1">
+            <div class="row cont">
+                <div class="col">
+                    <h4 class="text-col">REVERA</h4> 
+                    <p class="text-par">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                </div>
+                            
+                <div class="col">
+                    <h4 class="text-col">META</h4>
+                    <a class="enlaces" href="#">Log in</a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Entries <u>RSS</u> </a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Comments <u>RSS</u></a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">WordPress.org</a>
+                    <hr class="lin-punt">
+                </div>
+                            
+                <div class="col">
+                    <h4 class="text-col">ARCHIVES</h4> 
+                    <a class="enlaces" href="#">August 2013</a>
+                    <hr class="lin-punt">
+                </div>
+                <div class="col">
+                    <h4 class="text-col">RECENT POST</h4>
+                    <a class="enlaces" href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Nunc libero elit, iaculis nec augue non</a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Falauris sollicitudin quis dolor venenatis facilisis</a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>
+                    <hr class="lin-punt">
+                    <a class="enlaces" class="lin-punt" href="#">Vivamus blandit ipsum sed arcu euismod</a>
+                    <hr class="lin-punt">
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="row pie">
+        <div class="col-lg-11 offset-lg-1">
+            <span class="text-foot"> 
+                <br>
+                Copyright © 2018 revera - Just another demo Sites site.
+                <br>
+                | Revera Theme
+            </span>
+        </div>
+    </div> 
+
+</body>
+</html>
