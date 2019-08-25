@@ -1,0 +1,134 @@
+* {
+    margin: 0
+}
+
+
+h5 {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+nav{
+    margin: 0!important;
+    padding: 20px 0!important;
+    padding-left: 80px!important;
+}
+
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.navbar-collapse{
+    padding-left: 260px;
+}
+
+.collapse ul li a {
+    color: gray
+}
+
+.collapse ul li a:hover {
+    color: red
+}
+
+.carousel-item {
+
+    background-size: cover;
+}
+
+.img-overlay {
+    position: absolute;
+    z-index: 1;
+    width: auto !important;
+    background-repeat: repeat-x
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: red;
+    height: 120px;
+    width: 75px;
+    margin-top: 200px;
+}
+
+.btn {
+    border: solid white 1px;
+    font-size: medium;
+    padding: 10px 30px;
+    color: white;
+}
+.btn:hover{
+    color: white
+}
+
+.widgets {
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    padding: 3rem 50px;
+}
+
+.section-title p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.projects {
+    padding: 50px 80px;
+}
+
+.articles {
+    padding: 0 80px;
+    padding-bottom: 40px
+}
+
+.item-title {
+    font-weight: 600;
+    color: black;
+    font-size: 1.6rem
+}
+.item-sub{
+    font-weight: bolder;
+    color: #494747
+}
+
+.item-sub span{
+    color: red
+}
+
+.item-sub span:hover{
+    color: black;
+}
+
+.dog img {
+    height: 122px;
+}
+
+.bottom {
+    padding: 20px 50px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+}
+
+.text-bottom {
+    color: #aaa;
+}
+
+.text-bottom ul{
+    list-style: none;
+    padding: 0;
+}
+
+.text-bottom ul li{
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    padding: 7px 0;
+}
+
+footer {
+    padding: 10px 50px;
+    background: #292929;
+    color: white;
+}
