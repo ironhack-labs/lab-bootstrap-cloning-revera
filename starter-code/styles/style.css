@@ -8,18 +8,18 @@ h5 {
     font-weight: 300;
 }
 
-nav{
-    margin: 0!important;
-    padding: 20px 0!important;
-    padding-left: 80px!important;
+nav {
+    margin: 0 !important;
+    padding: 20px 0 !important;
+    padding-left: 80px !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 3.5rem;
     font-weight: 600;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     padding-left: 260px;
 }
 
@@ -38,9 +38,12 @@ nav{
 
 .img-overlay {
     position: absolute;
+    display: -webkit-flex;
     z-index: 1;
-    width: auto !important;
-    background-repeat: repeat-x
+}
+
+.grayscale {
+    filter: grayscale(100%);
 }
 
 .carousel-control-prev,
@@ -57,7 +60,8 @@ nav{
     padding: 10px 30px;
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     color: white
 }
 
@@ -68,7 +72,16 @@ nav{
     padding: 3rem 50px;
 }
 
-.section-title p{
+.glyphicon{
+    font-size: x-large;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding-top: 1rem;
+}
+
+.section-title p {
     font-weight: bold;
     border-bottom: 1px solid #dfdfdf;
     color: #aaa;
@@ -89,16 +102,17 @@ nav{
     color: black;
     font-size: 1.6rem
 }
-.item-sub{
+
+.item-sub {
     font-weight: bolder;
     color: #494747
 }
 
-.item-sub span{
+.item-sub span {
     color: red
 }
 
-.item-sub span:hover{
+.item-sub span:hover {
     color: black;
 }
 
@@ -117,13 +131,13 @@ nav{
     color: #aaa;
 }
 
-.text-bottom ul{
+.text-bottom ul {
     list-style: none;
     padding: 0;
 }
 
-.text-bottom ul li{
-    border-bottom: 1px dotted rgba(255,255,255,.2);
+.text-bottom ul li {
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
     padding: 7px 0;
 }
 
