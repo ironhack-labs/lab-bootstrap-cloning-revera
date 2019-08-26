@@ -1,0 +1,50 @@
+.container-fluid links {
+    background-color: grey
+}
+
+.carousel-item {
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+ }
+
+footer {
+	background-color: #292929;
+	color: white;
+ }
+
+.bottom {
+	background-color: #3b3b3b;
+	border-top: 5px solid red;
+	color: #aaa;
+ }
+
+ .information {
+    background-color: rgb(236, 84, 84);
+    color: white;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+ }
+
+ h2 {
+     font-size: 2.4rem
+ }
+ .carousel-item {
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+ }
+
+ h3 {
+     font-weight: bold
+ }
+
+.red {
+     color: red;
+ }
+
+ h5 {
+     font-size: 0.8rem;
+     font-weight: bold
+ }
