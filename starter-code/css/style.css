@@ -1,0 +1,42 @@
+
+
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.navbar{
+  background-color:white;
+  margin:40px;
+  
+}
+.title{
+ color:black;
+ font-size:40px;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.img-responsive {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.center{
+	margin-top:20px;
+text-align:center;
+}
+
+
+
