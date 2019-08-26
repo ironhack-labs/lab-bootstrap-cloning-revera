@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+
+h1.site-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.overlay{
+    background-image:url('./img/overlay.png') ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.carousel-inner img{
+    filter: grayscale(100%);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 120px;
+  width: 45px;
+  color:#fff;
+  z-index: 2;
+  background-color: #ed564b;
+}
+
+
+.carousel-control-prev{
+    opacity: 1;
+}
+.carousel-control-next{
+    opacity: 1;
+}
+
+.carousel-caption{
+    bottom:17%;
+}
+
+.iconos{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 1rem auto;
+}
+
+#bloque2{
+    padding:2em 0;
+    text-align: center;
+    background-color: #ed564b;
+    color: white;
+}
+
+#bloque3 img{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+#bloque3{
+    padding: 4rem 0;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.sub{
+    text-align:center;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#subtitulo{
+    font-weight: bold;
+    color: #aaa;
+}
+
+h3{
+        font-size: 24px;
+        font-weight: bold;
+
+}
+
+#bloque4 img{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+#bloque4 span{
+    color:red;
+}
+
+#bloque4 h3{
+    line-height: 1.1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dia{
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.texto{
+    color: #606060;
+    line-height: 1.6;
+}
+
+#footer{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#footer h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#footer p{
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+    color: #aaa;
+}
+
+#footer ul li{
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+    border-bottom: 1px dotted #aaaaaa;
+}
+
+#footer a{
+    color: #aaa;!important
+}
+
+#bloque6{
+    font-size: 12px;
+    padding: 10px 0px;
+    background: rgb(41, 41, 41);
+    color: rgb(238, 238, 238);
+}
+
+
