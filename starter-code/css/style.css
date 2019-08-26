@@ -74,9 +74,19 @@ button {
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
-#bottom {
-  border-top: 5px solid red;
+
+
+btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
+.default:hover {
+  background: yellow;
+}
 
 
