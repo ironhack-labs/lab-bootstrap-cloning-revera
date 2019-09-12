@@ -100,8 +100,17 @@ hr {
     text-decoration: none;
 }
 
-a:hover {
-   text-decoration: black;
+p.date a:hover {
+   color: black !important;
+   text-decoration: none;
+}
+
+p.date a {
+    color: rgb(220, 96,82);
+}
+
+p a:hover {
+    color: black;
 }
 
 h5 {
@@ -144,3 +153,4 @@ h5 {
 .margin {
     margin: 20px 0 10px 0;
 }
+
