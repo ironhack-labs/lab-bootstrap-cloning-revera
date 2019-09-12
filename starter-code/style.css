@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.logo {
+  font-size: 9rem;
+}
+
+.nav-link {
+  color: gray;
+
+}
+
+#home {
+  color: tomato;
+}
+
+.carousel-item {
+  filter: grayscale(50);
+}
+
+.info {
+  color: white;
+  background: tomato;
+}
+
+.btn {
+  border: 1px solid white;
+  background: rgba(253, 253, 253, 0.2);
+  padding: 5px 35px;
+  color: white;
+}
+
+
+.infos {
+  background: tomato;
+  height: 200px;
+  border: none;
+}
+
+.contentdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.content,
+.blog {
+  border: none;
+}
