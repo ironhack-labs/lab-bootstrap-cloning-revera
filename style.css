@@ -1,0 +1,72 @@
+
+
+.navbar-nav {
+  position: relative;
+  left: 335px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 75px;
+  font-size: 32px;
+}
+
+.nav-padding {
+  padding-top: 80px;
+}
+
+.carousel-item > img {
+  filter: grayscale(100%);
+}
+
+.carousel-p {
+  font-size: 15px;
+}
+.vermelho {
+  background-color: rgb(237,86,75);
+  padding: 50px 25px 50px 25px;
+}
+
+.arrow-position-right {
+  position: relative;
+  right: 80px;
+}
+
+.arrow-position-left {
+  position: relative;
+  left: 80px;
+}
+
+.container-vermelho {
+  height: 290px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center-div > p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.center-div > h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.img-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-body {
+  height: 100px;;
+}
