@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0
+ }
+ .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-size: 2rem;
+    font-weight: bold;
+ }
+ #navbarNav {
+    display: flex;
+    justify-content: center;
+ }
+ .navbar {
+    display: flex;
+    justify-content: flex-start;
+ }
+ .bg-light {
+    background-color: white!important;
+ }
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ed564b;
+ }
+ #background-red {
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    padding: 38px;
+ }
+
+ .carousel-inner {
+     filter: grayscale(100%);
+ }
+
