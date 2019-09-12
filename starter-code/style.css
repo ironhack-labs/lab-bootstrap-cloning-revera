@@ -20,15 +20,14 @@
   height: 100%;
   left: 0px;
   top: 0px;
-  z-index: 100;
+  z-index: 2;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover{
   background-color: white;
+  
 }
-
-
 .carousel-control-prev{
-  z-index:101;
+  z-index: 3;
   width: 50px;
   height: 100px;
   background-color: tomato;
@@ -36,20 +35,12 @@
   top:50%;
 }
 .carousel-control-next{
-  z-index:101;
+  z-index:3;
   width: 50px;
   height: 100px;
   background-color: tomato;
   margin-top: -50px;
   top:50%;
-}
-
-.carousel-caption{
-  z-index: 101;
-}
-
-.carousel-caption > h2{
-  text-transform: uppercase;
 }
 
 .under-carousel{
@@ -75,4 +66,26 @@
 .rounded-circle a{
   color: tomato;
 }
+.carousel-caption{
+  z-index:3;
+}
+
+.frmore{
+  border:2px solid white;
+  /* z-index: 10; */
+  opacity: 0.5;
+  color: white;
+  text-decoration: none;
+  /* background-color: rgb(255,255,255); */
+  opacity: 0.5;
+}
+
+.card{
+  border:none;
+}
+
+.internal-link{
+color:tomato;
+}
+
 
