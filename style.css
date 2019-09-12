@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #606060;
+  font-size: 1.6px;
+}
+
+.text-brand{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20em;
+}
+
+.nav_list {
+  color: #606060;
+  height: 60px;
+}
+
+.padding_nav {
+  padding: 19px 10px;  
+}
+
+.item_nav {
+  color: #777;
+  text-decoration: none;
+  font-size: 10em;
+}
+
+.current_page {
+  color: #ED564B;
+  text-decoration: none;
+  font-size: 10em;
+}
+
+.general_information {
+  background-color: #EC554B;
+  width: 100%;
+  margin: 0;
+}
+
+.icon_border {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.general_information h4 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15em;
+}
+
+.general_information p {
+  color: white;
+  text-align: center;
+  font-size: 10em;
+}
+
+.projects h2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20em;
+}
+
+.projects h4 {
+  color: #606060;
+  font-size: 10em;
+  text-transform: uppercase
+}
+
+.projects img {
+  width: 100%; 
+}
+
+.projects p{
+  color: #606060;
+  width: 100%;
+  font-size: 8em;
+  text-align: center;
+}
+
+.articles h2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20em;
+}
+
+.articles h4 {
+  color: #606060;
+  font-size: 10em;
+  text-transform: uppercase
+}
+
+.articles h5 {
+  color: #606060;
+  font-size: 10em;
+}
+
+.articles img {
+  width: 100%; 
+}
+
+.articles span{
+  color: black;
+  width: 100%;
+  font-size: 8em;
+  text-transform: uppercase
+}
+
+.articles p{
+  color: black;
+  width: 100%;
+  font-size: 8em;
+}
+
+.footer_information {
+  background-color: #3B3B3B;
+}
+
+.footer_information h4 {
+  color: white;
+  font-size: 10em;
+  text-transform: uppercase
+}
+
+.footer_information p {
+  color: #F5F5F5;
+  font-size: 8em;
+}
+
+.footer_information a {
+  color: #F5F5F5;
+  font-size: 8em;
+}
+
+.copyrights {
+  background-color: #292929;
+}
+
+.copyrights p {
+  color: #F5F5F5;
+  font-size: 8em;
+}
