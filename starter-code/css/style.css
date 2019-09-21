@@ -9,13 +9,19 @@ header h1 {
   font-size: 32px;
   font-weight: 800;
 }
-.home-slider img {
+/* .home-slider img {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
-}
+} */
 .home-slider,
 .home-slider .carousel-item {
   position: relative;
+}
+.home-slider .carousel-item {
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
 }
 .home-slider .carousel-item .flex-caption {
   text-align: center;
