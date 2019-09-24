@@ -1,0 +1,11 @@
+.list {
+  list-style-type: none;
+}
+
+a {
+  border-bottom: 1px dotted
+}
+
+footer {
+  background: black;
+}
