@@ -20,12 +20,13 @@ footer {
 @media screen and (max-width: 991px) {
   
   header{
-    text-align-last: center;
+    text-align: center;
+    padding: 0;
   }
 
   header, header nav ul {
     flex-direction: column;
-    
+    padding: 0;
   }
 }
 
