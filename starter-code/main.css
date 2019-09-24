@@ -9,3 +9,38 @@ a {
 footer {
   background: black;
 }
+
+@media screen and (max-width: 1199px) {
+  
+  header, header nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  
+  header{
+    text-align-last: center;
+  }
+
+  header, header nav ul {
+    flex-direction: column;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+  #red-section div{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  
+  #latest-projects, #latest-articles, #pre-footer {
+    flex-direction: column;
+  }
+
+}
