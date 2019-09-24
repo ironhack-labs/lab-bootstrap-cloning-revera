@@ -1,0 +1,50 @@
+#menu{
+    padding-top: 1%;
+}
+
+.carousel-item {
+    height: 550px;
+    /* background: url(./img/overlay.png); */
+    /* z-index: 99999; */
+}
+
+.card-info {
+    border: none;
+}
+
+.bg-red {
+    background-color: #ed564b;
+}
+
+.pd-40-20 {
+    padding: 40px 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+    width: 50px;
+    height: 100px;
+    top: 40%;
+}
+
+.btn-rmore {
+    background: url(./img/overlay.png);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.projects-title {
+    margin-top: 50px;
+}
+
+.projects-title p {
+    color: #aaa;
+}
+
+/* #card-group-info {
+    border: 3px solid red;
+    display: flex;
+   justify-content: center;
+} */
+
+
