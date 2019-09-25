@@ -1,0 +1,181 @@
+/*
+background-color:#ed564b;
+filter: grayscale(100%);
+*/
+
+.rever h1{
+padding-left: 40px;
+font-weight: bolder;
+font-size: 30px;
+padding-top:  15px;
+padding-bottom: 15px;
+}
+
+.rever-list {
+  padding-top: 20px;
+}
+
+.rever-list a{
+  color:lightgrey;
+}
+
+.rever-list a:hover{
+  text-decoration: none;
+  color:red;
+}
+
+.slides img{
+  filter: grayscale(100%);
+  width: 300px; 
+  height: 600px;
+  
+}
+.slides h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.slides p {
+  font-size: 16px;
+}
+
+.arrow-cont{
+  background-color:#ed564b;
+  height: 80px;
+  width:40px; 
+  margin-top:250px;
+}
+
+.btn-link {
+  border:1px solid white;
+  background-color: lightgray;
+  border-radius: 0;
+  width:15em;
+  opacity: 0.3;
+}
+
+.btn-link a {
+  color:white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.btn-link a:hover{
+  text-decoration: none;
+}
+
+.web {
+  background-color: #ed564b;
+  height: 18em;
+}
+
+.col-sm {
+  text-align: center;
+  padding-top: 30px;
+  color:white;
+}
+
+.col-sm h4{
+  font-weight: bolder;
+}
+
+.latest{
+  margin-top:40px;
+  }
+
+.latest h4{
+    font-size: 21px;
+    font-weight: bolder;
+  }
+
+.latest h5{
+    font-size: 15px;
+    color:lightgray;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    border-bottom: 1px solid lightgrey;
+  }
+
+.latest-img{
+    padding-top:15px;
+  }
+
+.latest-img h3{
+  font-size: 14px;
+  padding-top: 20px;
+  width:60%;
+  text-align: center;
+}
+
+.latest-img a{
+  color:black;
+}
+
+.latest-img a:hover{
+  text-decoration: none;
+}
+
+.articles h3{
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: bolder;
+  width:80%;
+}
+
+.articles p{
+  padding-top: 10px;
+  color:gray;
+  width: 80%;
+}
+
+.bottom{
+  border-top: 5px solid red;
+  background-color: #4A4644;
+  color:lightgray;
+  padding-top:25px;
+  font-size: 12px;
+}
+
+.bottom h3{
+  color:white;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.bottom ul li, .arch{
+  list-style-type: none;
+   color: lightgray;
+   border-bottom: 1px dotted lightgray;
+}
+
+.bottom ul li a, a{
+  color: lightgray;
+}
+
+.bottom ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.widt{
+  width: 70%;
+}
+
+.bottom a{
+  list-style-type: none;
+   color: lightgray;
+}
+
+.bottom a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.copy{
+  background-color: #272524;
+  color:white;
+  font-size:12px;
+  padding-bottom:15px;
+  padding-top:15px;
+}
