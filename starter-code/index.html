@@ -2,12 +2,18 @@
 <html lang="en">
 
 <head>
+
     <title>Revera-Clone</title>
+
     <!-- BOOSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
@@ -15,8 +21,8 @@
 
     <!-- MENU -->
     <div class="container-fluid" id="menu">
-        <div class="row menu">
-            <p class="h2 col-3 text-center">REVERA</p>
+        <div class="row menu align-self-center">
+            <p class="h2 col-3 text-center font-weight-bold">REVERA</p>
             <ul id="nav-bar" class="navbar list-unstyled col-6 justify-content-md-center">
                 <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -42,7 +48,7 @@
     </div>
 
     <!-- IMAGENES - CAROUSEL-->
-    <div class="container-fluid">
+    <div class="container-fuid">
         <div id="carousel" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner">
@@ -54,11 +60,14 @@
                         <h1>ETIAM MAURIS TORTOR, PHARETRA QUIS<br>
                             LOBORTIS IN, PHARETRA IN DIAM
                         </h1>
-                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor
+                            sed
                             metus eget mollis.<br>
-                            Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat
+                            Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at
+                            erat
                             luctus; hendrerit<br>
-                            sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla
+                            sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                            fringilla
                             dolor vitae lacus<br>
                             lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
                         </p>
@@ -73,9 +82,11 @@
                         <h1>FALAURIS SOLLICITUDIN QUIS DOLOR<br>
                             VENENATIS FACILISIS
                         </h1>
-                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in,
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem
+                            in,
                             dictum leo. Ut at <br>
-                            congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at
+                            congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                            Suspendisse at
                             magna ut sem<br>
                             blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus
                             fringilla feugiat libero nec<br>
@@ -92,7 +103,8 @@
                         <h1>SUSPENDISSE ORNARE, FELIS FEUGIAT<br>
                             SUSCIPIT PHARETRA
                         </h1>
-                        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem
+                        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra,
+                            lorem
                             est
                             viverra odio;<br>
                             tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur
@@ -146,48 +158,36 @@
         </div>
     </div>
 
-    <!-- CARD GROUP -->
-    <div id="mainmenu" class=" bg-red">
-        <div id="card-group-info" class="container">
-            <div class="card-group">
+    <!-- INFO MENU -->
+    <div id="info-menu" class="bg-red text-white text-center">
+        <div class="container">
+            <div class="row">
 
-                <div class="card card-info text-center col-4 bg-red">
-                    <!-- <img src="..." class="card-img-top" alt="glassIcon"> -->
-                    <i class="fas fa-glass-martini" alt="glassIcon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Web design</h5>
-                        <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient <br>
-                            montes, nascetur ridiculus mus. Vestibulum vehicula erat <br>
-                            non congue cursus. Aenean auctor nulla quis augue <br>
-                            dictum, sed sagittis odio varius.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
+                <div class="col-4 info-menu">
+                    <span><i class="fa fa-glass"></i></span>
+                    <h3>Web design</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient <br>
+                        montes, nascetur ridiculus mus. Vestibulum vehicula erat <br>
+                        non congue cursus. Aenean auctor nulla quis augue <br>
+                        dictum, sed sagittis odio varius.</p>
                 </div>
 
-                <div class="card card-info text-center col-4 bg-red">
-                    <!-- <img src="..." class="card-img-top" alt="starIcon"> -->
-                    <i class="fas fa-glass-martini card-img-top" alt="startIcon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Web development</h5>
-                        <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum<br>
-                            sapien porttitor. Duis porttitor sed metus eget mollis.<br>
-                            Curabitur bibendum imperdiet tortor, ut pulvinar purus<br>
-                            elementum nspendisse at erat luctus.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
+                <div class="col-4 info-menu">
+                    <span><i class="fa fa-star"></i></span>
+                    <h3>Web development</h3>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum<br>
+                        sapien porttitor. Duis porttitor sed metus eget mollis.<br>
+                        Curabitur bibendum imperdiet tortor, ut pulvinar purus<br>
+                        elementum nspendisse at erat luctus.</p>
                 </div>
 
-                <div class="card card-info text-center col-4 bg-red">
-                    <!-- <img src="..." class="card-img-top" alt="starIcon"> -->
-                    <i class="fas fa-heart" atl="heart-icon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">User interface</h5>
-                        <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et<br>
-                            sapien dignissim, eu dapibus mi molestie. Suspendisse<br>
-                            dictum convallis quam et sodales. Praesent non enim et<br>
-                            magna congue gravida.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                    </div>
+                <div class="col-4 info-menu">
+                    <span><i class="fa fa-heart"></i></span>
+                    <h3>User interface</h3>
+                    <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et<br>
+                        sapien dignissim, eu dapibus mi molestie. Suspendisse<br>
+                        dictum convallis quam et sodales. Praesent non enim et<br>
+                        magna congue gravida.</p>
                 </div>
 
             </div>
@@ -195,45 +195,191 @@
     </div>
 
     <!-- PROJECTS -->
-    <div class="container">
+    <div id="projects" class="container">
+
         <div class="projects-title">
-            <h2> Latest Projects</h2>
-            <p>Few of the latest portfolio items </p>
+            <h4 class="text-uppercase font-weight-bold"> Latest Projects</h4>
+            <p class="text-uppercase font-weight-bold">Few of the latest portfolio items </p>
             <hr>
         </div>
 
-        <div class="card-deck">
-            <div class="card text-center">
+        <div class="row text-center projects-info">
+            <div class="col-3">
                 <img src="./img/project-1.jpg" class="card-img-top" alt="project-1">
-                <div class="card-body">
-                    <p class="card-text">Nunc libero elit, iaculis nec augue non</p>
-                </div>
+                <p>Nunc libero elit, iaculis nec augue non</p>
             </div>
 
-            <div class="card text-center">
+            <div class="col-3">
                 <img src="./img/project-2.jpg" class="card-img-top" alt="project-2">
-                <div class="card-body">
-                    <p class="card-text">Phasellus aliquet iaculis neque accumsan aliquam</p>
-                </div>
+                <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
             </div>
-
-            <div class="card text-center">
+            <div class="col-3">
                 <img src="./img/project-3.jpg" class="card-img-top" alt="project-3">
-                <div class="card-body">
-                    <p class="card-text">Vivamus blandit ipsum sed arcu euismod</p>
-                </div>
+                <p>Vivamus blandit ipsum sed arcu euismod</p>
             </div>
 
-            <div class="card text-center">
+            <div class="col-3">
                 <img src="./img/project-4.jpg" class="card-img-top" alt="project-4">
-                <div class="card-body">
-                    <p class="card-text">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
-                </div>
+                <p>Curabitur auctor dolor risus, vitae <br>
+                    pellentesque arcu consequat</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- LATEST ARTICLES -->
+    <div id="articles" class="container">
+        <div class="articles-title">
+            <h4 class="text-uppercase font-weight-bold"> Latest articles</h4>
+            <p class="text-uppercase font-weight-bold">Latest posts from the blog</p>
+            <hr>
+        </div>
+
+        <div class="row articles-info">
+
+            <div class="col-3">
+                <img src="./img/slider-1.jpg" class="card-img-top" alt="article-1">
+                <a href="#" class="title-link">
+                    <h3 class="font-weight-bold title-text">Etiam mauris tortor, pharetra quis lobortis in, pharetra in
+                        diam</h3>
+                </a>
+                <p class="text-uppercase font-weight-bold posted-on-text">
+                    POSTED ON <a class="posted-on-link" href="#">AUGUST 19, 2013</a> BY <a class="posted-on-link"
+                        href="#">ADMIN</a>
+                </p>
+                <p class="article-info-text">
+                    Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus
+                    eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus;
+                    hendrerit sapien sed,
+                    consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus
+                    lacinia eleifend.
+                    Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                </p>
+            </div>
+
+            <div class="col-3">
+                <img src="./img/slider-3.jpg" class="card-img-top" alt="article-3">
+                <a href="#" class="title-link">
+                    <h3 class="font-weight-bold title-text">Falauris sollicitudin quis dolor venenatis facilisis</h3>
+                </a>
+                <p class="text-uppercase font-weight-bold posted-on-text">
+                    POSTED ON <a class="posted-on-link" href="#">AUGUST 19, 2013</a> BY <a class="posted-on-link"
+                        href="#">ADMIN</a>
+                </p>
+                <p class="article-info-text">
+                    Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum
+                    leo. Ut at congue
+                    quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem
+                    blandit hendrerit non
+                    ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec
+                    volutpat. Maecenas
+                    fermentum bibendum […]
+                </p>
+            </div>
+
+            <div class="col-3">
+                <img src="./img/slider-4.jpg" class="card-img-top" alt="article-4">
+                <a href="#" class="title-link">
+                    <h3 class="font-weight-bold title-text">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+                </a>
+                <p class="text-uppercase font-weight-bold posted-on-text">
+                    POSTED ON <a class="posted-on-link" href="#">AUGUST 19, 2013</a> BY <a class="posted-on-link"
+                        href="#">ADMIN</a>
+                </p>
+                <p class="article-info-text">
+                    Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est
+                    viverra odio; tristique
+                    tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl
+                    consectetur mattis.
+                    Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna
+                    at justo. Proin
+                    blandit id tellus non pellentesque. Mauris […]
+                </p>
+            </div>
+
+            <div class="col-3">
+                <img src="./img/slider-2.jpg" class="card-img-top" alt="article-2">
+                <a href="#" class="title-link">
+                    <h3 class="font-weight-bold title-text">Festibulum purus odio, ornare non posuere</h3>
+                </a>
+                <p class="text-uppercase font-weight-bold posted-on-text">
+                    POSTED ON <a class="posted-on-link" href="#">AUGUST 19, 2013</a> BY <a class="posted-on-link"
+                        href="#">ADMIN</a>
+                </p>
+                <p class="article-info-text">
+                    Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at
+                    arcu porttitor
+                    laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Nulla
+                    facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel
+                    pellentesque
+                    dictum, ligula […]
+                </p>
             </div>
 
         </div>
+
     </div>
 
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer" class="container">
+            <div class="row">
+                <div class="col-3 revera">
+                    <h4 class="text-white text-uppercase">REVERA</h4>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                        vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                        varius?
+                        Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis
+                        magna feugiat, id tempus metus accumsan.
+                    </p>
+                </div>
+
+                <div class="col-3 meta">
+                    <h4 class="text-white text-uppercase">META</h4>
+                    <ul>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Entries RSS</a></li>
+                        <li><a href="#">Comments RSS</a></li>
+                        <li><a href="#">WordPress.org</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 archives">
+                    <h4 class="text-white text-uppercase">ARCHIVES</h4>
+                    <ul>
+                        <li><a href="#">August 2013</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 recent-posts">
+                    <h4 class="text-white text-uppercase">RECENT POSTS</h4>
+                    <ul>
+                        <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                        <li><a href="#">Nunc libero elit, iaculis nec augue non</a></li>
+                        <li><a href="#">Falauris sollicitudin quis door venenatis facilisis</a></li>
+                        <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+                        <li><a href="#">Vivamus blandit ipsum sed arcu euismod</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-cr">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-white">
+                        <p>Copyright © 2018 revera - Just another demo Sites site.<br>
+                            <a href="#">| Revera theme</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <!-- BOOSTRAP -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

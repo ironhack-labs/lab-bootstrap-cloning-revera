@@ -2,14 +2,31 @@
     padding-top: 1%;
 }
 
+#menu a {
+    color: #777;
+}
+
+#menu a:hover {
+    color: #f4473a;
+}
+
 .carousel-item {
     height: 550px;
-    /* background: url(./img/overlay.png); */
+    /* NO HE CONSEGUIDO PONER EL OVERLAY... */
+    /* background: url(./img/overlay.png);
     /* z-index: 99999; */
 }
 
-.card-info {
-    border: none;
+.info-menu {
+    padding: 30px 0;
+}
+
+.info-menu p{
+    font-size: 0.85rem;
+}
+
+.info-menu span{
+    font-size: 25px;
 }
 
 .bg-red {
@@ -33,18 +50,145 @@
     margin-bottom: 20px;
 }
 
-.projects-title {
-    margin-top: 50px;
+#projects {
+    margin: 50px auto;
 }
 
 .projects-title p {
     color: #aaa;
+    font-size: 0.9rem;
 }
 
-/* #card-group-info {
-    border: 3px solid red;
-    display: flex;
-   justify-content: center;
-} */
+.projects-info p {
+    font-size: 0.8rem;
+}
+
+.articles-info {
+    margin-bottom: 30px;
+}
+
+.articles-info .title-text {
+    color: black;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    margin: 10px auto;
+}
+
+.articles-info .title-link {
+    text-decoration: none;
+}
+
+.articles-info .posted-on-link {
+    color: #f4473a;
+    text-decoration: none;
+}
+
+.articles-info .posted-on:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.articles-info .posted-on-text {
+    color: #606060;
+    font-size: 0.7rem;
+}
+
+.articles-info .article-info-text {
+    color: #606060;
+    line-height: 1.6;
+    font-size: 0.75rem;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    border-top: 5px solid rgb(237, 86, 75);
+}
+
+#footer .revera,.meta,.archives,.recent-posts {
+    margin: 30px auto;
+}
+
+#footer .revera p {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+#footer .revera.meta.archives.recent-posts h4 {
+    margin-bottom: 20px;
+}
+
+#footer .meta ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .archives ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .recent-posts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .meta li{
+    border-bottom: 1px dotted #aaa;
+    margin: 5px auto;
+}
+/* NO SÉ POR QUÉ NO ME DEJA ENCADENAR LAS CLASES .meta.archives li... */
+#footer .archives li{
+    border-bottom: 1px dotted #aaa;
+    margin: 5px auto;
+}
+
+#footer .recent-posts li{
+    border-bottom: 1px dotted #aaa;
+    margin: 5px auto;
+}
+
+#footer .meta a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+#footer .archives a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+#footer .recent-posts a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+#footer .meta a:hover{
+    color: white
+}
+
+#footer .archives a:hover{
+    color: white
+}
+
+#footer .recent-posts a:hover{
+    color: white
+}
+
+#footer-cr {
+    background-color: rgb(41, 41, 41);
+}
+
+#footer-cr p {
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
+#footer-cr a{
+    text-decoration: none;
+    color: white
+}
 
 
