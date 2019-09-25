@@ -1,0 +1,85 @@
+/*main css
+    color: #f4473a;
+*/
+
+.fa{
+  vertical-align: middle;
+}
+
+/*nav*/
+header nav h1{
+  margin: 0;
+}
+.navbar .dropdown-toggle::after{
+  content: "»";
+  border: none;
+  vertical-align: baseline;
+}
+.navbar .dropdown-menu{
+  border: none;
+  border-radius: 0;
+}
+
+/*slider*/
+.homeSlider .carousel-caption{}
+.homeSlider .carousel-inner::after{
+  content: "";
+  background-image: url(../img/overlay.png);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-repeat: repeat;
+}
+.homeSlider .carousel-inner img{
+  filter:grayscale(100%);
+}
+
+.homeSlider .carousel-control-next, .homeSlider .carousel-control-prev {
+  width: 50px;
+  height: 100px;
+  background: #f4473a;
+  opacity: 1;
+  top: 40%;
+  cursor: pointer;
+}
+
+/* services*/
+.services {
+  padding: 60px 0;
+  background: #f4473a;
+  color: white;
+}
+.services .services_box .icon{
+  font-size: 2.5rem;
+  border: 5px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 0px auto;
+  margin: 0 auto 30px;
+}
+
+/*
+QUERIES ------------------------
+*/
+
+@media (max-width: 576px) {
+  .homeSlider .carousel-control-next, .homeSlider .carousel-control-prev {
+    width: 40px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
