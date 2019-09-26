@@ -1,9 +1,170 @@
+* {
+    margin: 0
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .header {
     padding: 1rem;
 }
 
-.overflow{
-	height: 400px;
-    overflow: hidden;
-    position: bottom
+.col-md-auto {
+    padding-top: 6px;
 }
+
+.red {
+    background-color: #ed564b;
+    width: 100%;
+}
+
+.text-red {
+    color: #ed564b;
+}
+
+.z-up {
+    z-index: 200 !important
+}
+
+.img-fluid {
+    width: 100vw;
+}
+
+.overlay-bw {
+    background-image: url(https://i.ibb.co/KNPy2y3/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.carousel a {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    background-color: #ed564b;
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+    text-indent: -9999px;
+    opacity: 100
+}
+
+.icons span{
+    border: 4px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    color: white
+}
+
+.container-icons{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.icons h3 {
+    color: white;
+    padding: 5%
+}
+
+.icons p {
+    color: white
+}
+
+.posts {
+    padding: 4% 10% !important;
+    border-bottom: 5px solid #f96b61;    
+}
+
+.projects-images img {
+    width: 16rem;
+    height: auto;
+}
+
+.projects-images p {
+    font-size: 0.8rem;
+    padding: 3%
+}
+
+.posts hr {
+    padding: 10px
+}
+
+.articles-images img {
+    width: 16rem;
+    height: auto;
+}
+
+.articles-images h5 {
+    padding-top: 4%;
+    font-size: 1rem;
+}
+
+.articles-images h6 {
+    font-size: 0.7rem;
+    padding-top: 3%;
+}
+
+h6 span {
+    color: #ed564b
+}
+
+.articles-images p{
+    font-size: 0.8rem
+}
+
+.info-container {
+    background-color: #3b3b3b;
+    width: 100%;
+    height: 400px;
+}
+
+.info-container h6 {
+    padding-bottom: 7%;
+    color: white;
+}
+
+.info-container p {
+    font-size: 0.9rem;
+    color: rgb(161, 161, 161);
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.info {
+    padding: 4% 10% !important;
+}
+
+.info hr {
+    background-color: rgb(161, 161, 161);
+    margin: 10px 0;
+    
+}
+
+.copyright {
+    background-color: #292929;
+    width: 100%;
+    height: 100px;
+}
+
+.copyright p {
+    color: white;
+    padding: 2% 10%;
+    font-size: 0.8rem;
+
+}
+
