@@ -1,0 +1,71 @@
+.bg-red {
+    background-color: tomato
+}
+
+.smaller-font {
+    font-size: 14px;
+}
+
+.foot-font {
+    font-size: 16px;
+}
+.very-small-font {
+    font-size: 13px;
+}
+
+.color-tomato {
+    color: tomato;
+}
+.bg-gray {
+    background-color: rgb(64, 64, 64)
+}
+
+.bg-black {
+    background-color: black
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+.padding-header {
+    padding-top: 25%;
+    padding-bottom: 15%;
+}
+.padding-text {
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+.shorter-padding {
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+.header-cat{
+    background-image: url(https://raw.githubusercontent.com/nasciba/lab-bootstrap-cloning-revera/master/starter-code/img/slider-1.jpg);
+     background-size: cover;
+     filter: grayscale(100%);
+     
+    background-position: center;  
+}
+
+.hr-gray {
+    margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  padding-bottom: 1%;
+  border-top: 2px solid rgb(224,224, 224);
+}
+
+.dotted-line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px dotted rgb(224,224, 224);
+}
+
+.red-line {
+    margin-top: 0;
+margin-bottom: 0;
+border: 0;
+border-top: 3px solid tomato};
