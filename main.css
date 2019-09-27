@@ -1,0 +1,153 @@
+nav {
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 200px;
+}
+
+
+
+#nav-bar ul li a {
+  color: grey;
+  font-weight: 400;
+  font-size: 0.75em;
+}
+
+#brand {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+
+#slider p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+#slider h1 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+  font-weight: 100;
+}
+.slider-imgs {
+  filter: grayscale(100%);
+  z-index: 2;
+  position: absolute
+}
+
+.slider-height {
+  height: 60vh;
+}
+
+#slider button {
+  background-color: rgb(124, 108, 108, 0.2);
+  border: 2px solid rgb(83, 78, 78, 0.8);
+  border-radius: 0;
+  width: 17%;
+}
+
+#slider button a {
+  text-decoration: none;
+  color: white;
+}
+
+#button-red-left{
+  left: 0;
+  padding:0;
+  height: 100px;
+  width: 30px;
+  background-color: rgb(233, 92, 92);
+  top: 23vh;
+  
+}
+
+#button-red-right{
+  right: 0;
+  padding:0;
+  height: 100px;
+  width: 30px;
+  background-color: rgb(233, 92, 92);
+  top: 23vh;
+}
+.ovelay{
+  
+  z-index: 1;
+  position: absolute;
+
+}
+/*==================ICONS=======*/
+
+
+#icons{
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 400px;
+  background-color: rgb(211, 76, 76);
+  
+  border-top: 5px solid rgb(233, 92, 92);
+  border-bottom: 5px solid rgb(233, 92, 92);
+}
+
+#icons i{
+  padding: 15px;
+  border: 5px solid white;
+  border-radius: 100%
+}
+
+
+
+/*=========================CONTENT=============*/
+#content img {
+  width: 300px;
+
+  height: auto;
+}
+#content{
+  height: 500px;
+ 
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/*=========================ARTICLES=============*/
+
+#articles{
+  
+  height: 700px; 
+  width: 180%;
+  border-bottom: 5px solid rgb(233, 92, 92);
+}
+#articles img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*=========================DIRECTIONS=============*/
+
+#directions{
+  background-color: rgb(63, 59, 59)
+}
+
+/*=========================COPYRIGHT=============*/
+
+#copyright{
+  width: 100%;
+  background-color: rgb(37, 34, 34);
+
+}
+
+
+hr{
+  width: 95%;
+  margin: 0 auto;
+}
+
+#directions div hr{
+  border-top: 1px dotted 
+}
