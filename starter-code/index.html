@@ -10,38 +10,37 @@
 </head>
 <body>
 <div class="container">
-    <div class="d-flex flex-row justify-content-center">
-        <nav class="navbar navbar-expand navbar-light">
-            <a class="navbar-brand" href="#">REVERA</a>
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sample Page</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link" id="navbarDropdownMenuLink" role="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parent Page</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">option1</a>
-                        <a class="dropdown-item" href="#">option2</a>
-                        <a class="dropdown-item" href="#">option3</a>
-                    </div>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+  <nav class="d-flex flex-row justify-content-start navbar navbar-expand navbar-light">
+      <a class="navbar-brand offset-1 col-2" href="#">REVERA</a>
+      <ul class="navbar-nav offset-1">
+          <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sample Page</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item dropdown">
+              <a href="#" class="nav-link" id="navbarDropdownMenuLink" role="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parent Page</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">option1</a>
+                  <a class="dropdown-item" href="#">option2</a>
+                  <a class="dropdown-item" href="#">option3</a>
+              </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+  </nav>
 </div>
 
 <div class="container">
 
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
+
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="overlay"></div>
           <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-lg-block">
+          <div class="carousel-caption d-flex justify-content-center flex-column">
             <h2 class="h1">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
             <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
                 Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, 
@@ -53,11 +52,12 @@
             <a class="btn btn-outline-light text-uppercase font-weight-bold" href="#">Read More</a>
           </div>
         </div>
+
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="overlay"></div>
           <img src="./img/slider-2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-lg-block">
+          <div class="carousel-caption d-flex justify-content-center flex-column">
             <h2 class="h1">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
             <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus 
                 sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat 
@@ -68,11 +68,12 @@
             <a class="btn btn-outline-light text-uppercase font-weight-bold" href="#">Read More</a>
           </div>      
         </div>
+
         <!-- Slide 3 -->
         <div class="carousel-item">
           <div class="overlay"></div>
           <img src="./img/slider-3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-lg-block">
+          <div class="carousel-caption d-flex justify-content-center flex-column">
             <h2 class="h1">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
             <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur 
                     placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at
@@ -83,11 +84,12 @@
             <a class="btn btn-outline-light text-uppercase font-weight-bold" href="#">Read More</a>
           </div>
         </div>
+
         <!-- Slide 4 -->
         <div class="carousel-item">
           <div class="overlay"></div>
           <img src="./img/slider-4.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-lg-block">
+          <div class="carousel-caption d-flex justify-content-center flex-column">
             <h2 class="h1">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
             <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra,
                     lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur 
@@ -98,6 +100,7 @@
             <a class="btn btn-outline-light text-uppercase font-weight-bold" href="#">Read More</a>
           </div>
         </div>
+
       </div>
 
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -111,7 +114,7 @@
 
     </div>
 
-    <section class="services">
+    <section class="boxes">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-12 text-center">

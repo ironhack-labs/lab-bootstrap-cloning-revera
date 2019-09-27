@@ -3,15 +3,11 @@
 /* negro footer #292929*/
 
 @media (min-width: 768px) {
-
-    section {  
-        padding: 40px 0;
-    }
-
+  /* MORE to do */
     p { 
         font-size: 0.8rem; 
     }
-    .services h3 { 
+    .boxes h3 { 
         font-size: 1.50rem;
     }
 
@@ -39,8 +35,8 @@ img {
     vertical-align: middle;
 }
 
-.text-white { 
-    color: #fff; 
+nav.row {
+  width:100%;
 }
 
 .navbar .navbar-nav .active > .nav-link { 
@@ -54,7 +50,7 @@ img {
 #myCarousel .btn{
   border-radius: 0;
   background: rgba(255,255,255,0.2);
-  padding: 4px 20px;
+  margin: 0 auto;
 }
 
 .carousel-caption .h1{
@@ -76,14 +72,12 @@ img {
   background-repeat: repeat;
 }
 
-/* FILTRO!!! */
 #myCarousel .carousel-inner img {
   filter:grayscale(100%);
 }
 
 #myCarousel .carousel-caption {
   z-index: 120;
-  max-width: 800px;
 }
 
 #myCarousel .carousel-control-next, #myCarousel .carousel-control-prev {
@@ -106,11 +100,13 @@ img {
     background-image: URL("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23f4473a' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
   }
 
-.services {
+/* ================================== BOXES SECTION =========================================== */
+
+.boxes {
   background: #f4473a;
   color: #fff;
 }
-.services .icon{
+.boxes .icon{
   font-size: 2.5rem;
   border: 5px solid #fff;
   width: 80px;
@@ -120,6 +116,8 @@ img {
   margin: 0 auto 30px;
 }
 
+/* ================================== ARTICLES SECTION =========================================== */
+/* Projects */
 .articles, .projects {
     padding: 5% 5%;
 }
@@ -181,7 +179,7 @@ footer ul li a:hover {
 }
 
 footer .bottom {
-  padding: 10px 0px;
+  padding: 2% 3%;
   background: #292929;
   font-size: 0.9rem;
 }
