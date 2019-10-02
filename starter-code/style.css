@@ -1,0 +1,18 @@
+.sec1{
+    height: 550px;
+}
+.sec2{
+    height: 350px;
+    
+}
+.cacatua{
+    
+   border-bottom: solid 2 90%;
+}
+.color{
+    background-color: rgba(0,0,0,0.8);
+}
+.filtro-bn{
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
