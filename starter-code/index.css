@@ -1,0 +1,100 @@
+#carousel{
+    position: relative;
+}
+
+#carousel img{
+    filter: grayscale(100%) brightness(0.8);
+}
+
+#carousel .carousel-control-next-icon{
+    position: absolute;
+    right: 0;
+}
+
+#carousel .carousel-control-prev-icon{
+    position: absolute;
+    left: 0;
+}
+
+.carousel-text{
+    position: absolute;
+    bottom: 1vh;
+    color:white;
+    z-index: 1;
+    background: transparent;
+    text-align: center;
+}
+
+#intro{
+    border-top: 0.5vw solid palevioletred;
+    border-bottom: 0.5vw solid palevioletred;
+}
+
+#intro div{
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+#intro i{
+    padding:7%;
+    border-radius: 50%;
+    border: 0.4vw solid white;
+}
+
+.col-sm-10{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section{
+    padding: 0 4%;
+}
+
+section p{
+    padding-bottom: 5vh;
+    border-bottom: 1px solid lightgrey;
+}
+
+section a, section a:hover{
+    text-decoration: none;
+}
+
+section h2{
+    padding-top: 10vh;
+}
+
+.latest-news a, .latest-news a:hover{
+    display: inline-block;
+    margin: 2vh 0 6vh;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.latest-articles article>a:first-of-type{
+    display: inline-block;
+    margin: 2vh 0 2vh;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+.latest-articles span{
+    font-weight: bold;
+    color:grey;
+}
+
+.latest-articles span a{
+    color: lightcoral;
+}
+
+footer a, footer p{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+footer h3{
+    color: white;
+}
