@@ -1,0 +1,52 @@
+
+
+.overlay {
+    background-image: url('/starter-code/img/overlay.png');
+    background-size: cover;
+    
+}
+
+#widgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.circle {
+    border: 5px solid #fff; 
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    margin: 0px auto;
+}
+
+.button {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-control-next , .carousel-control-prev{
+    background-color: black;
+    height: 19%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 4%;
+}
+
