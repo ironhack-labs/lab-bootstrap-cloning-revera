@@ -1,0 +1,66 @@
+#skills {
+  border-top: solid 8px #f96b61;
+  border-bottom: solid 8px #f96b61;
+}
+
+#links {
+  border-top: solid 5px #f96b61;
+}
+
+.divider {
+  border-bottom: solid 0.5px #909090;
+}
+
+.grayscale {
+  filter: grayscale(100%) blur(1px) brightness(80%);
+}
+
+.dark-background {
+  background-color: #3b3b3b;
+}
+
+.darker-background {
+  background-color: #292929;
+}
+
+.orange-background {
+  background-color: #ed564b;
+}
+
+.text-smaller {
+  font-size: 0.7rem;
+}
+.text-small {
+  font-size: 0.8rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.text-large {
+  font-size: 2rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.links a:hover {
+  color:white;
+}
+
+.text-gray {
+  color: #aaa;
+}
