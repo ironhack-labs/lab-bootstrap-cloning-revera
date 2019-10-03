@@ -17,33 +17,50 @@
 <body>
 
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-ligth bg-white">
-    <a href="#" class="navbar-brand text-dark font-weight-bold"><h1>REVERA</h1></a>
 
-    <div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sample page</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li> Parent page
-                <div>
-                    <a href="#">Main</a>
-                    <a href="#">Full page</a>
-                    <a href="#">Child page 1</a>
-                    <a href="#">Child page 2</a>
-                </div>   
-            </li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">REVERA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sample page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Parent page
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Main</a>
+            <a class="dropdown-item" href="#">Full page</a>
+            <a class="dropdown-item" href="#">Child page 1</a>
+            <a class="dropdown-item" href="#">Child page 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    
-</nav>
 <!--end of navbar-->
-<!--p-num y m-num son para margin y padding, px/mx en el eje x (rigth and left) py/my para el eje y, pb,pt,pr,pl o mb, mt,mr,ml para cada una de las opciones-->
-<!--banner-->
+
+<!--slide-->
 <section id="carrousel" class="pt-5">
     <div class="my-div bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -82,12 +99,12 @@
                 </div>
                 <div class="doverlay"></div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="my-car-btn carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="my-a carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="my-car-btn carousel-control-prev-icon py-5 px-3" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="my-car-btn carousel-control-next-icon display-5" aria-hidden="true"></span>
+            <a class="my-a carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="my-car-btn carousel-control-next-icon py-5 px-3" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
             
@@ -96,7 +113,7 @@
     </div>
    
 </section>
-<!--end of banner-->
+<!--slide-->
 
 <!--skills-->
 <section id="red" class="container-fluid">

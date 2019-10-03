@@ -40,11 +40,18 @@ button{
     height: 100%;
     left: 0px;
     top: 0px;
-    z-index: 100;
+    z-index: 80;
 }
 .my-div{
     background-color: #292929;
 }
 .my-car-btn{
     background-color: #ed564b;
+}
+
+.my-a{
+    background-color: #ed564b;
+    max-height: 35%;
+    max-width: 8%;
+    margin: auto;
 }
