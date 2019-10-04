@@ -3,11 +3,21 @@
     flex-direction: row;
     align-content: flex-end;
     justify-content: space-around;
-    }
+}
 
-    
-ul {    
-display: flex;
-justify-content: flex-end;
+ul {
+    display: flex;
+    justify-content: flex-end;
 
+}
+
+.UXrojo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+}
+
+.footer2 {
+    color: white;
 }
