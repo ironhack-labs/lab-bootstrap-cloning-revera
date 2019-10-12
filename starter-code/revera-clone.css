@@ -1,0 +1,35 @@
+#nav-bar {
+    height: 80px;
+    
+}
+
+#transparent {
+    background-color: white;
+}
+
+.overlay {
+  z-index: 2;
+  background-image: url('./img/overlay.png');
+}
+
+
+#links:hover {
+    color:#ed564b;
+  }
+#active {
+  color:#ed564b;
+}
+
+.web {
+  
+  background-color: #ed564b;
+  color: white;
+}
+
+.circle {
+  border: solid 5px white;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+ 
+}
