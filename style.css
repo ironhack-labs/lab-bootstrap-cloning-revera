@@ -35,3 +35,34 @@ ul.navbar-nav>li>a:hover {
 ul.navbar-nav>li:first-child>a{
     color: red !important;
 }
+
+.carousel-inner img {
+    filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: red;
+    width: 60px;
+    height: 100px;
+    background-repeat : no-repeat;
+    background-size: 30%;
+
+}
+.carousel-control-prev-icon{
+    background-position-x: 33px;
+}
+
+.carousel-control-next-icon{
+    background-position-x: 5px;
+}
+
+.carousel-caption > h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.trans-btn {
+    border: 1px solid #fff;
+    display: inline;
+    padding: 5px 20px;
+}
