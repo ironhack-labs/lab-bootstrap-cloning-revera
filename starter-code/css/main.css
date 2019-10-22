@@ -4,6 +4,10 @@ body{
     font-family: 'Oxygen';
 }
 
+.container{
+    max-width: 880px;
+}
+
 .overlay{
     background-image: url("../img/overlay.png");
     position: absolute;
@@ -61,4 +65,83 @@ body{
 .btn-line:hover{
     color: white;
     text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 a{
+    color:#222;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header h1:hover a{
+    text-decoration-line: none;
+    color: #222;
+}
+
+header .menu{
+    margin: 0;
+    padding: 0;
+}
+
+header .menu li{
+    margin-right: 16px;
+}
+
+header .menu li a{
+    color: grey; 
+    transition: color .3s;
+}
+
+header .menu li:hover a{
+    color: #f4473a;
+    text-decoration: none;
+}
+
+header .menu .current{
+    color: #f4473a;
+}
+
+header .menu li:last-child{
+    margin-right: 0;
+}
+
+
+header .menu > li{
+    display: inline-block;
+    list-style:none;
+    position: relative;
+}
+
+header .submenu{
+    position: absolute;
+    background:white;
+    color: grey;
+    padding: 16px 4px;
+    box-shadow: 0 0 3px grey;
+    z-index: 2;
+
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+header .submenu li{
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+
+header .menu li.parent:hover .submenu{
+    opacity: 1;
 }
