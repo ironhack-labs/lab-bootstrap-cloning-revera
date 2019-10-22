@@ -1,0 +1,51 @@
+h1,h2,h3{
+    font-size: 2em;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    padding-left: 100px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.backimg{
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+}
+.flex-container{
+    display: flex;
+}
+.header{
+    justify-content: space-around;
+}
+.backcolor{
+    background-color: wheat;
+    padding-top: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.bigger-icon{
+    font-size: 3em;
+}
+.title{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+.projects img {
+    width: 100%;
+}
+.backgr{
+    background-color: teal;
+}
+.text-white a{
+    text-decoration:none;
+    color: white;
+}
+
+
