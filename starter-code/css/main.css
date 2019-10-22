@@ -1,15 +1,166 @@
-.red{
-    height:200px;
-    background-color: red;
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+
+.row{
+    margin:0;
+    padding:0;
+}
+
+.heroheader h2{
+    font-weight: bold;
+}
+
+.heroheader{
+    padding:20px;
+}
+
+ul.nav{
+padding-top:10px;
+}
+
+ul.nav li{
+    margin: 0 10px;
+    text-align: left;
+    font-size: 0.9rem;;;
+}
+
+ul.nav li a{
+    text-decoration: none;
+    color:#727272;
+   
+}
+
+ul.nav li a:hover, ul.nav li .active{
+    text-decoration: none;
+    color:#f5574e;
+    
+}
+
+.features-wrapper{
+    padding:0;
+    margin:0;
+    background-color: #f5574e;
+}
+.carousel{
+    width:100%;
+}
+
+.carousel-item {
+    filter: grayscale(1);
+}
+
+.features div{
+    text-align: center;
+    color:#ffffff;
+    padding:30px 20px;;
 }
 
 
-.blue{
-    height:100px;
-    background-color: blue;
+.features h2{
+    margin-top:20px;
+    font-size:1.5rem;
 }
 
-.green{
-    height:200px;
-    background-color: green;
+.features p{
+    font-size:0.8rem;
+}
+
+.features i{
+    padding:20px;
+    border-radius:50%;
+    border:3px solid #ffffff;
+}
+
+.projects-title {
+    padding-top: 50px;
+}
+
+.projects, .articles{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top:solid 1px #cccccc;
+}
+
+.projects img, .article img{
+    width:100%;
+    margin:0 auto;
+    display:block;
+}
+
+.project p{
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top:10px;
+}
+
+
+.article h4{
+    font-size:1.1rem;
+    padding-top:10px;
+}
+
+.article span{
+    font-size:0.9rem;
+    text-transform: uppercase;
+    color:#727272;
+}
+
+.marked{
+    color:#f5574e !important;
+}
+
+.article p{
+    font-size:0.9rem;
+    padding-top:15px;
+}
+
+.footer{
+    background-color: #4e4e4e;
+    color:#ffffff;
+    padding-top:80px;
+    border-top:3px solid #f5574e;
+    font-size:0.9rem
+}
+
+.footer h3{
+    font-size:1.2rem;
+    font-weight: 400;
+    padding-bottom:20px;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.footer ul li{
+    border-bottom: 1px dotted #cccccc;
+    padding-top:15px;
+}
+
+.footer ul li:first-child{
+    border-bottom: 1px dotted #cccccc;
+    padding-top:0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color:#f5574e;
+}
+
+.footer-credits{
+    background-color: #272727;
+    color:#cccccc;
+    font-size:0.8rem;
+}
+
+.footer-credits .col6{
+    padding:16px;
 }
