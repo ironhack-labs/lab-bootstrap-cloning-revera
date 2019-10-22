@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 75px;
+}
+
+header.menu>h1{
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 900;
+    
+}
+
+header.menu>ul{
+    display: flex;
+    padding-right: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+header.menu>ul>li{
+    margin-left: 15px;
+    list-style: none;
+}
+
+.red{
+    color: red; 
+}
+
+section.columns{
+    background-color: rgb(223, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.columns>div{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 25px;
+}
+
+section.columns>div>img{
+    height: 50px;
+    width: 50px;
+    background-color: (223, 118, 118);
+    border: black solid 2px;
+    border-radius: 50%;
+}
+section.projects{
+    margin: 30px 200px;
+}
+
+section.projects>div>h3{
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+section.projects>div>h4{
+    font-size: 11px;
+    color: grey;
+    font-weight: 700;
+    border-bottom: grey solid 3px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+}
+
+div.projects1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+div.projects1>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0 10px 5px;
+}
+
+div.projects1>div>img{
+    width: 240px
+}
