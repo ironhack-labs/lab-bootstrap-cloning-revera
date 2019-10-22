@@ -3,10 +3,19 @@
 body{
     font-family: 'Oxygen';
     font-size: 14px;
+    color: #666;
+}
+
+a{
+    color: #666;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .container{
-    max-width: 880px;
+    max-width: 960px;
 }
 
 .overlay{
@@ -65,7 +74,6 @@ body{
 
 .btn-line:hover{
     color: white;
-    text-decoration: none;
 }
 
 
@@ -88,7 +96,6 @@ header h1 a{
 }
 
 header h1:hover a{
-    text-decoration-line: none;
     color: #222;
 }
 
@@ -102,13 +109,11 @@ header .menu li{
 }
 
 header .menu li a{
-    color: grey; 
     transition: color .3s;
 }
 
 header .menu li:hover a{
     color: #f4473a;
-    text-decoration: none;
 }
 
 header .menu .current{
@@ -212,8 +217,62 @@ header .menu li.parent:hover .submenu{
 }
 
 .section-subtitle{
-    color: gray;
+    color: #aaa;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
+}
+
+#blog .post-img{
+    height: 144px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+}
+
+#blog .post:nth-child(1) .post-img{
+    background-image: url("../img/slider-1.jpg");
+}
+
+#blog .post:nth-child(2) .post-img{
+    background-image: url("../img/slider-2.jpg");
+}
+
+#blog .post:nth-child(3) .post-img{
+    background-image: url("../img/slider-3.jpg");
+}
+
+#blog .post:nth-child(4) .post-img{
+    background-image: url("../img/slider-4.jpg");
+}
+
+#blog  .post-img a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#blog .post h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#blog .post h2 a,
+#blog .post h2:hover a{
+    color: #222;
+}
+
+#blog .post-info{
+    text-transform: uppercase;
+    color: #777;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#blog .post-info span{
+    color: #f4473a;
+}
+
+#blog .post-info span:hover{
+    color: black;
 }
