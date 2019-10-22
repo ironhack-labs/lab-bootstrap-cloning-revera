@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Oxygen';
+    font-size: 14px;
 }
 
 .container{
@@ -145,3 +146,48 @@ header .submenu li{
 header .menu li.parent:hover .submenu{
     opacity: 1;
 }
+
+#services{
+    background-color: #f4473a;
+    padding: 64px 0;
+}
+
+#services .col > *{
+    text-align: center;
+    color: white;
+}
+
+#services .item h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#services .item p{
+    display: inline-block;
+}
+
+#services .item a{
+    color: #f4473a;
+    transition: color 0.3s;
+    display: inline-block;
+}
+
+#services .item:hover a{
+    color: #222;
+}
+
+.icon-circle{
+    border: 6px solid white;
+    border-radius:50%;
+    padding: 32px;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
