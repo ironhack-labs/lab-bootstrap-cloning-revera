@@ -1,0 +1,95 @@
+ 
+ .button {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+    width: 300px;
+    margin-bottom: 100px;
+    margin: 100px auto;
+}
+ 
+ .first-section {
+    background-image: url(img/slider-1.jpg);
+    background-size: 100%;
+    padding: 70px;
+    background-repeat: no-repeat;
+    color: white;
+    filter: grayscale(100%);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+img {
+    height: auto;
+    width: 100%
+}
+
+
+nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.backgrounder {
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    padding: 50px;
+     border-bottom: 2px solid red;
+}
+
+.last-section {
+    background-color: #3b3b3b;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    border-top: 2px solid red;
+}
+
+footer {
+    background-color: #2a2a2a;
+}
+
+.lastp {
+    margin: 0px;
+}
+
+section div article a {
+    text-decoration: none;
+    color: white;
+
+}
