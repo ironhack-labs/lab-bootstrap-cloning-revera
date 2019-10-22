@@ -3,6 +3,8 @@ html {
     font-size: 10px;
 }
 
+/**************************************************/
+
 header {
     display: flex;
     justify-content: space-around;
@@ -31,7 +33,7 @@ nav ul li {
 
 /***************************************************/
 
-.bd-example{
+.bd-example {
     margin: 0;
 }
 
@@ -42,10 +44,20 @@ img {
 
 .bd-example h5 {
     font-size: 4rem;
+    margin-bottom: 1.5rem;
 }
 
 .bd-example p {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    margin-bottom: 17rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 0.4rem 1rem;
 }
 
 /*******************************************/
@@ -78,6 +90,42 @@ img {
 }
 
 #section2 p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/***************************************************/
+
+#section3 {
+    padding: 4rem 15rem;
+}
+
+#section3-title {
+    margin-bottom: 3rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid grey;
+}
+
+#section3-title h4 {
+    font-size: 1.8rem;
+}
+
+#section3-title h5 {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+#section3-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img {
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+h6 {
     text-align: center;
     font-size: 1.2rem;
 }
