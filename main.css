@@ -1,0 +1,191 @@
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.encabezado a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: grey;
+}
+
+.encabezado p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#two {
+    background-color: #ed564b;
+    width: 100vw;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+#containerthree {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.row .col img {
+    max-width: 100%;
+    width: 100%;
+}
+
+section {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.textos h1 {
+    padding-top: 30px;
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.textos p {
+    color: #babcbd;
+    text-align: left
+}
+
+.textos {
+    border-bottom: 1px #babcbd solid;
+    margin-bottom: 3%;
+}
+
+#header {
+    padding: 0;
+    color: black
+}
+
+#one {
+    padding: 0;
+}
+
+#containerfour {
+    width: 100vw;
+}
+
+.carousel-control-next-icon {
+    background-color: #ed564b;
+    width: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%
+}
+
+.carousel-control-prev-icon {
+    background-color: #ed564b;
+    width: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%
+}
+
+.carousel-caption {
+    transform: trans bY(-50%);
+    bottom: 0;
+    top: 50%;
+
+}
+
+.active img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.font-awesome-container {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.containerfour .col p {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.col h4 {
+    text-align: left;
+}
+
+h4 {
+    color: #babcbd;
+    font-size: 0.6rem;
+}
+
+.fiveclass {
+    background-color: #3b3b3b;
+}
+
+ul li {
+    border-bottom: 1px dotted #9999CC;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin: 30px 20px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.textofinal {
+    text-align: left;
+}
+
+
+h6 {
+    border-bottom: 1px dotted #9999CC;
+    text-decoration: none;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 0px;
+
+
+}
+
+footer {
+    background-color: grey;
+}
+
+.textocontainer3 {
+    text-size: 14px;
+    margin-top: 15px;
+    color: black;
+}
+
+#five {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.containerfive {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+ul {
+    padding-inline-start: 0
+}
