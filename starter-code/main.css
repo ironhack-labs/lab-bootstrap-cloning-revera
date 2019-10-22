@@ -1,0 +1,69 @@
+.revera {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+    text-align: end;
+}
+
+.header-bg {
+    background: url("./img/project-2.jpg") no-repeat center / cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 10em 10em 0 10em;
+}
+
+.container {
+    margin: auto;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+img {
+    width: 100%
+}
+
+.section5 {
+    background-color: #3b3b3b;
+    color: white;
+    border-top:1px solid  #ed564b 
+}
+
+ul  {
+    list-style-type: none;
+}
+
+ul li a {
+    color: none;
+}
+
+.section2 {
+    text-align: center;
+    background: #ed564b;
+    color: white;
+    padding: 3em;
+}
+
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 1em 3em;
+    
+}
