@@ -1,0 +1,112 @@
+body {
+    font-size: 0.5em;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    padding: 0 175px;
+}
+
+
+
+.touppercase {
+    text-transform: uppercase;
+}
+
+nav ul li {
+    justify-content: left;
+    margin: auto 10px;
+}
+header {
+    align-items: center;
+}
+li a {
+    color: grey;
+}
+
+.tored {
+    color: red;
+}
+
+.sec1 {
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 150px 100px 150px;
+    flex-direction: column;
+    align-items: center;;
+    
+    
+}
+
+.sec1 p {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.sec2 {
+    background: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.button {
+    padding: 5px 27px;
+    border: 1px solid white;
+    text-align: center;
+    width: 15%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.roundborder {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+i {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.topmargin {
+    margin-top: 25px;
+}
+
+h6 {
+    padding-bottom: 10px;
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
