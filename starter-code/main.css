@@ -1,6 +1,9 @@
 * {
     font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Header classes */
 
 header {
     display: flex;
@@ -8,13 +11,91 @@ header {
     align-items: center;
     flex-direction: row;
     width: 100%;
+    padding: 15px;
 }
 
-header ul.pers-nav {
-    color: red;
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
 }
+
+.font-nav {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.font-nav-home {
+    color: red;
+    font-size: .8em;
+}
+
+/* Sections classes */
+
 
 .section-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: rgb(238, 66, 66);
+    padding: 20px;
+}
+
+.section-2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(238, 66, 66);
+    border-style: none;
+    color: white;
+}
+
+.section-2 h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-2 p {
+    text-align: center;
+    font-size: .7em;
+}
+
+.section-2 i {
+    border: white;
+    border-style: solid;
+    padding: 15px 25px;
+    border-radius: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100vw;
+    padding: 100px;
+    border-style: none;
+}
+
+.section-3 h5 {
+    text-align: left;
+}
+
+.section-3 p-title {
+    text-align: left;
+}
+
+.section-3 p {
+    text-align: center;
+}
+
+.section-4 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -22,9 +103,9 @@ header ul.pers-nav {
 }
 
 .pers-slider {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-  }
+}
 
 .row-images {
     display: flex;
