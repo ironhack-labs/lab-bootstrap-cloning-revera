@@ -100,6 +100,21 @@ h1 {
     justify-content: center;
     align-content: center;
     flex-direction: row;
+    padding: 100px;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    width: 100vw;
 }
 
 .pers-slider {
