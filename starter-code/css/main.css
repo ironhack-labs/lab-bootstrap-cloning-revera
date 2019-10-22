@@ -47,9 +47,31 @@ ul.nav li a:hover, ul.nav li .active{
     width:100%;
 }
 
-.carousel-item {
-    filter: grayscale(1);
+.carousel-control-next, .carousel-control-prev {
+    top: 42%;
+    background-color: #f5574e;
+    width: 4%;
+    height: 16%;
+    color:#ffffff;
+    opacity: 1;
 }
+
+.carousel-control-next:hover , .carousel-control-prev:hover {
+    opacity: 0.5;
+}
+
+
+.carousel-item img{
+    filter: grayscale(1);
+    
+}
+
+.overlay{
+    position:absolute;
+    opacity:0.3;
+    z-index: 1;
+}
+
 
 .features div{
     text-align: center;
@@ -123,7 +145,9 @@ ul.nav li a:hover, ul.nav li .active{
     border-top:3px solid #f5574e;
     font-size:0.9rem
 }
-
+.footer-columns{
+    padding-bottom:80px;
+}
 .footer h3{
     font-size:1.2rem;
     font-weight: 400;
