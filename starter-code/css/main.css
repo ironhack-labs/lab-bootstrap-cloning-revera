@@ -1,3 +1,19 @@
+.testeos .col-md-4{
+    background-color: #f5574e;
+    height:300px;
+    border:2px solid blue;
+}
+
+.testeos .row{
+    background-color: aqua;
+
+}
+
+.testeos{
+    background-color: blue;
+
+}
+
 .container-fluid{
     margin:0;
     padding:0;
