@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+}
+
+.hr-silver {
+    width: 77%;
+    background: silver;
+    height: 3px;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lista {
+    display: flex;
+}
+
+.lista ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.lista ul li {
+    margin-left: 20px;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.lista ul li a:hover {
+    text-decoration: none;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoRevera {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.box-red {
+    height: 425px;
+    background: #ed564b;
+}
+
+.hr-red {
+    height: 4px;
+    background: red;
+    margin: 0;
+}
+
+footer {
+    height: 500px;
+    background: #3b3b3b;
+}
+
+.footer {
+    height: 150px;
+    background: #292929;
+}
+
+.mBottom {
+    margin-bottom: 60px;
+}
+
+.circulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position:relative;
+    background-color:Red;
+    width:130px;
+    height:130px;
+    border-radius:50% 50%;
+}
+.circulo::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-Color:#fff;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+}
+
+.img-notice{
+    height: 170px;;
+}
+
+.img-notice-1{
+    height: 100px;;
+}
+
+.centrar-titulo{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.img-completa{
+    height: 700px;;
+    width: 100vw;
+}
+
+h3 {
+    font-size: 14px;
+}
