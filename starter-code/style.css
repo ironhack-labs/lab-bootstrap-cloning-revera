@@ -1,0 +1,83 @@
+html {
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    margin-right: 1.7em;
+    margin-top: 0.5rem;
+}
+
+#home {
+    color: red
+}
+
+/***************************************************/
+
+.bd-example{
+    margin: 0;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.bd-example h5 {
+    font-size: 4rem;
+}
+
+.bd-example p {
+    font-size: 1.5rem;
+}
+
+/*******************************************/
+
+#section2 {
+    background: rgb(206, 95, 95);
+    padding: 4rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#section2 div {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    color: white;
+}
+
+#section2 i {
+    margin-bottom: 1.3rem;
+}
+
+#section2 h3 {
+    margin-bottom: 1.3rem;
+    font-size: 2rem;
+}
+
+#section2 p {
+    text-align: center;
+    font-size: 1.2rem;
+}
