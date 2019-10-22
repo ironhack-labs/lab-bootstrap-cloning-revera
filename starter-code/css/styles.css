@@ -1,0 +1,88 @@
+header{
+    background-color: rgb(248 249 250);
+    height:  6rem;
+    padding-top: 2rem;
+}
+
+.web-name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.slider img {
+    filter: grayscale(100%);
+}
+
+.col-8 a{
+    font-size: .9rem;
+    
+}
+
+
+.col-8 a:first-child{
+    color: red;
+}
+
+
+.slider h5 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, .2);
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: 150px;
+    height: 35px;
+    border-radius: 0;
+    color: white;
+    border-color: white;
+}
+
+.services {
+    background-color: #ED564B;
+    color: white;
+    height: 20rem;
+}
+
+.services img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.latest-projects img {
+    max-width: 270px;
+    max-height: 185px;
+}
+
+.col-3 p{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.latest-projects-head {
+    margin: 20px auto;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase;
+}
+
+.text-projects {
+    color: silver;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
