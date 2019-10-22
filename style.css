@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div.logo {
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header>nav.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul.navbar-nav>li {
+    margin-left: 40px;
+}
+
+ul.navbar-nav>li:first-child {
+    margin-left: 0;
+}
+
+ul.navbar-nav>li>a:hover {
+    color: red !important;
+}
+
+ul.navbar-nav>li:first-child>a{
+    color: red !important;
+}
