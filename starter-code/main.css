@@ -32,6 +32,7 @@ header.menu>ul{
 header.menu>ul>li{
     margin-left: 15px;
     list-style: none;
+    font-size: 11px;
 }
 
 .red{
@@ -43,6 +44,7 @@ section.columns{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:25px;
 }
 
 section.columns>div{
