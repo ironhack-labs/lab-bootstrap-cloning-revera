@@ -191,3 +191,29 @@ header .menu li.parent:hover .submenu{
     margin: 0 auto 20px;
 }
 
+#projects{
+    padding: 64px 0;
+}
+
+.project img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.project p{
+    text-align: center;
+}
+
+.section-title{
+    color: #222;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-subtitle{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
