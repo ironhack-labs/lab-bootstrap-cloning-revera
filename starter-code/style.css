@@ -1,0 +1,165 @@
+.nav-link{
+    color: #ed564b;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+   text-align: center;
+}
+
+header{
+    padding: 60px 40px 30px;
+}
+.carousel{
+    width: 100%;
+}
+.carousel-inner{
+    max-height: 550px;
+}
+.carousel-control-next, .carousel-control-prev{
+    background: #ed564b;
+    opacity: 1;
+    width: 5%;
+    height: 30%;
+    margin: auto;
+}
+.carousel-item{
+     background-image: url(./img/overlay.png);
+
+}
+
+.carousel-item img{
+    -webkit-filter: grayscale();
+    opacity: 0.75;
+}
+
+.card-deck{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border: none;
+    background: #ed564b;
+}
+
+.card img {
+    height: 70px;
+    width: 70px
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.flex-caption{
+    width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.flex-caption h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+}
+.flex-caption p{
+    font-size: 16px;
+}
+
+.more{
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
+
+.container{
+    margin-top: 40px;
+}
+.container h3{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.row{
+    justify-content: flex-start;
+   }
+
+.col-12{
+    width: 100%;
+    flex: none;
+}
+
+.card-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    background: #fff;
+    
+}
+
+.new-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background: #fff;
+}
+
+.new-card img {
+   
+    width: 80%;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-caption{
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    font-weight: 400;
+}
+}
