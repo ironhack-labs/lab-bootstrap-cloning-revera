@@ -1,0 +1,93 @@
+        body {
+            font-family: Oxygen;
+            font-size: 14px;
+        }
+
+        .container-fluid {
+            background-color: #ed564b;
+            color: white;
+        }
+
+        .blog-img {
+            width: 300px;
+        }
+
+        h1 {
+            font-family: Helvetica;
+            font-weight: bolder;
+            font-size: 32px;
+        }
+
+        .head {
+            font-family: Helvetica;
+            font-size: 14px;
+        }
+
+        .navbar-light {
+            color: #ed564b;
+        }
+
+        .navbar-light .navbar-nav .active>.nav-link {
+            color: #ed564b;
+        }
+
+        .about-section {
+            background-color: #3b3b3b;
+            font-size: 14px;
+            color: #AAAAAA;
+        }
+
+        footer {
+            padding: 10px 0px;
+            background: #292929;
+            color: white;
+            font-size: 12px;
+        }
+
+        .icon {
+            border: 4px solid white;
+            border-radius: 50%;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .border {
+            text-decoration: dotted;
+        }
+
+        .overlay {
+            background-size: cover;
+            background-position: center;
+            height: 75vh;
+            filter: grayscale(100%);
+        }
+
+        #img1 {
+            background-image: url("img/slider-1.jpg");
+        }
+
+        #img2 {
+            background-image: url("img/slider-2.jpg");
+        }
+
+        #img3 {
+            background-image: url("img/slider-3.jpg");
+        }
+
+        #img4 {
+            background-image: url("img/slider-4.jpg");
+        }
+
+        .btn-outline-light {
+            font-weight: bolder;
+        }
+
+        .main {
+            border-bottom: 5px solid #ed564b;
+        }
+
+        .p-3 {
+            margin-top: 20%;
+            height: 20%;
+            width: auto;
+        }
