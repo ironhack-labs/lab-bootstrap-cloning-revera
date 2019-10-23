@@ -61,26 +61,50 @@ nav ul li a {
 }
 
 .card-container {
-    
+    background-color:  #ed564b;
     display: flex;
     justify-content:center;
-    ;
-}
+    height: 300px;
+    }
 
 .card {
     display: flex;
     margin-right: 10px;
     padding: 10px;
-    background-color: red;
-    width: 400px;
+    background-color:  #ed564b;
+    width: 300px;
     height: 250px;
-    display: flex
+    display: flex;
+    border: none;
 }
 
 .card h2 {
     color: white;
 }
 
+.card div {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card div img {
+    width:45px;
+    display: flex;
+    
+    
+
+}
+.card div p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin-top: 15px;
+}
 h1 {
     font-size: 40px;
     font-weight:100;
@@ -94,4 +118,35 @@ button {
     margin-top: 30px;
     margin-bottom: 30px;
     border: 1px solid white;
+}
+
+.grey-tones {
+    -webkit-filter: grayscale(1); 
+     filter: grayscale(1);
+}
+
+i {
+    color: white;
+    padding: 25px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.carousel-control-next-icon {
+    background-color: #ed564b;
+    width: 60px;
+    height: 100px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.carousel-control-prev-icon {
+    background-color:  #ed564b;
+    width: 60px;
+    height: 100px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
 }
