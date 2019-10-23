@@ -61,5 +61,25 @@ img{
 }
 
 .img-height{
-    height: 165px;
+    height: 165;px;
+}
+
+footer {
+    color: white;
+    padding: 2% 0;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer1 {
+    background-color:rgb(71, 69, 69);
+    padding: 2% 0;
+}
+
+.footer2 {
+    background-color: rgb(33, 32, 32);
+    padding: 2% 0;
 }
