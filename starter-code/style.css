@@ -1,0 +1,47 @@
+body {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+
+  
+.landing {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.redsection {
+ background-color: solid 4px rgb(199, 88, 80);
+}
+
+.iconography {  
+    border: 6px solid white;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.latest {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.webtext {
+    font-size: 14px;
+}
+
+.copyrightcolor {
+    background-color: rgb(41, 41, 41);
+}
+
+
+.footerlighter {
+    background-color: rgb(69, 69, 69);
+    border-top: solid 4px rgb(199, 88, 80);
+}
