@@ -1,0 +1,147 @@
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0 1vw;
+    color: #606060;
+    
+}
+
+.nav-list {
+    margin-top: 2vh;
+}
+
+.nav-list li:hover {
+   color: red;
+}
+
+.nav-list li:first-child {
+    color: red;
+ }
+
+.carousel h1 {
+    text-transform: uppercase;
+}
+
+.carousel-arrow-box {
+    background-color: #ed564b;
+    width: 8vh;
+    height: 15vh;
+    top: 35%;
+}
+
+.carousel-arrow {
+    width: 5vh;
+    height: 10vh;
+}
+
+.read-button {
+    margin-top: 3vh;
+    padding: 8px 25px;
+    background-color: rgba(170, 164, 164, 0.4);
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.red-container {
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    max-width: none;
+    text-align: center;
+    padding: 5vh 10vh 8vh 10vh;
+}
+
+.red-container h3 {
+font-size: 1.7em;
+font-weight: bold;
+}
+
+.red-container p{
+    font-size: 1.1em;
+}
+
+.latest-projects img {
+    max-width: 100%;
+}
+
+.latest-header {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+
+.latest-header + p {
+    color: #aaaaaa;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 3vh;
+    margin-top: 6vh;
+}
+
+.red-span {
+    color: #f4473a;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: .8em;
+}
+
+.latest-projects a {
+    font-weight: bolder;
+}
+
+.footer {
+    background-color:#3b3b3b;
+    color: white;
+    max-width: none;
+    border-top: 5px solid  #ed564b;
+    padding: 0vh 12vh 5vh 12vh;
+}
+
+.footer li {
+    list-style: none;
+    border-bottom: 1px dotted #aaa;
+    font-size: .9em;
+}
+
+.footer a {
+    color: #aaa;
+}
+
+.footer p {
+    font-size: .9em;
+    color: #aaa;
+}
+
+.footer h4 {
+    font-size: 1em;
+    padding-bottom: 4vh;
+    padding-top: 10vh;
+}
+
+.carousel-control-next-icon {
+    background-color: #ed564b;
+}
+
+.icons {
+    color: white;
+    padding: 16px;
+    border: 3px solid white; 
+    border-radius: 50%;
+    font-size: 25px;
+}
