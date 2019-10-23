@@ -82,3 +82,82 @@ footer, header, hgroup, menu, nav, section {
     width: 100%;
     margin: 30px;
 }
+
+
+.middle-group{
+    background-color: #ed564b;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.icon-mini-group{ 
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.icon-mini-group h3{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.icon-mini-group h4{
+    font-size: 12px;
+}
+
+.button-center-text{
+    background-color: rgba(255, 255, 255, .02);
+    border-color: white;
+    border: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.bd-example img{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+}
+
+.bottom-group{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botton-mini-group img{
+    height: 100px;
+}
+
+.botton-mini-group{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
