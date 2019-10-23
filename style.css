@@ -1,0 +1,28 @@
+.gray {
+  filter: grayscale(100%);
+}
+
+.icon {
+  content: "";
+  color: white;
+  /* font-size: 20px; */
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background: transparent;
+  display: block;
+}
+
+.hr-red {
+  border: 3px solid #ec564a;
+  margin: 0;
+}
+
+.hr-gray hr {
+  border-color: gray;
+}
+
+.bg-black {
+  background-color: black;
+}
