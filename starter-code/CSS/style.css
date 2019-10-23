@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+#introSlide img {
+    z-index: 0;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+}
+
+
+div.overlay {
+    background-image: url(/starter-code/img/overlay.png
+);
+
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/* .carousel-inner {
+    padding-left: 0 !important;
+} */
+
+nav {
+    background-color: none !important;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-right: 15%;
+}
+
+a.nav-link {
+    color: rgb(140, 144, 161) !important;
+}
+
+a.nav-link:hover {
+    color: rgba(237, 86, 74, 1) !important;
+}
+
+a.nav-link:active {
+    color: rgba(237, 86, 74, 1) !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 10px !important;
+
+}
+
+.dropdown-item {
+    width: 170px;
+    margin: 10px 0 !important;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    color: rgb(140, 144, 161) !important;
+
+}
+
+div.overlay {
+    z-index: 2;
+}
+
+.dropdown-item:hover {
+    color: rgba(237, 86, 74, 1) !important;
+
+    background-color: none !important;
+
+}
+
+.dropdown-menu :last-child {
+    border-bottom: none !important;
+}
+
+.carousel-control-next {
+    z-index: 3 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 50px;
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    z-index: 3 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 50px;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    height: 100px !important;
+    width: 50px !important;
+    opacity: 1 !important;
+    background-color: rgba(237, 86, 74, 1) !important;
+    z-index: 0 !important;
+}
+
+.carousel-control-prev-icon {
+    height: 100px !important;
+    width: 50px !important;
+    opacity: 1 !important;
+    background-color: rgba(237, 86, 74, 1) !important;
+    z-index: 5 !important;
+}
+
+
+
+header button {
+    border: 2px solid white !important;
+    border-radius: 0px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    width: 180px !important;
+    font-weight: bold !important;
+}
+
+header {
+    background-color: rgba(237, 86, 74, 1) !important;
+}
+
+#basicInfo {
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#basicInfo .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  margin-bottom: 30px; */
+
+}
+
+#carouselExampleIndicators>a {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+#basicInfo .symbols {
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 2em;
+    margin-bottom: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#basicInfo h2 {
+    margin-bottom: 30px;
+}
+
+main {
+    padding: 50px 0;
+}
+
+
+
+main h4 {
+    border-bottom: 1px solid grey;
+    color: rgb(140, 144, 161);
+    font-size: 1.2em;
+    padding-bottom: 60px;
+}
+
+main article {
+    /* border-top: 1px solid grey; */
+    padding: 40px 0;
+    padding-bottom: 60px;
+    /*  margin-top: 30px; */
+}
+
+article h4 {
+    color: black;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+
+main img {
+
+    margin-bottom: 20px;
+}
+
+main h5 {
+    color: rgb(90, 91, 99) !important;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: 1px solid grey;
+    color: rgb(140, 144, 161) !important;
+}
+
+main b {
+    color: rgba(237, 86, 74, 1)
+}
+
+
+
+.footer {
+    border-top: 6px solid rgba(237, 86, 74, 1);
+    background-color: rgb(41, 49, 66);
+    text-decoration: none;
+    color: rgb(218, 218, 218) !important;
+}
+
+.footer p {
+    color: rgb(140, 144, 161) !important;
+}
+
+.footer a {
+    color: rgb(140, 144, 161) !important;
+
+}
+
+.footer li {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(140, 144, 161, 0.2) !important;
+}
+
+.footer a:hover {
+    color: rgb(218, 218, 218) !important;
+}
+
+.footer h5 {
+    font-weight: normal !important;
+}
+
+.footer .copyrightWrap {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-copyright {
+    color: rgb(180, 185, 207) !important;
+
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    #basicInfo .info {
+        margin-bottom: 30px;
+    }
+
+}
