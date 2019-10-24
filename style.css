@@ -3,6 +3,23 @@
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
 h2 {
   font-size: 36px;
 }
@@ -24,9 +41,9 @@ p {
 }
 
 span {
-  border: 3px solid white;
+  border: 5px solid white;
   border-radius: 50%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .info-border-red {
@@ -47,25 +64,50 @@ span {
   height: 80px;
   width: 40px;
   top: 40%;
+  opacity: 1;
 }
 
 .carousel-control-prev-icon {
   border: none;
+  /* padding: 20px; */
 }
 
 .carousel-control-next-icon {
   border: none;
+  /* padding: 20px; */
 }
 
 .carousel-slide {
   align-items: center;
 }
 
-img {
-  /* opacity: 0; */
+.carousel img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .carousel-inner {
   justify-content: center;
   align-items: center;
+}
+
+.glyphicon {
+  font-size: 20px;
+}
+
+.carousel-item div {
+  top: 30%;
+}
+
+.frmore {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 5px 0px;
+  margin: 10px auto;
+  font-weight: bold;
+  color: #fff !important;
 }
