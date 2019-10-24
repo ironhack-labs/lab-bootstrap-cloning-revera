@@ -111,3 +111,7 @@ span {
   font-weight: bold;
   color: #fff !important;
 }
+
+.navbar-brand {
+  font-size: 32px;
+}
