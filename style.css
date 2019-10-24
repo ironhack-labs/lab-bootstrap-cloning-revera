@@ -51,6 +51,10 @@ span {
   border-bottom: 5px solid #f96b61;
 }
 
+.footer-border-top-red {
+  border-top: 5px solid #f96b61;
+}
+
 .carousel-control-prev {
   background-color: #ed564b;
   height: 80px;
@@ -114,4 +118,14 @@ span {
 
 .navbar-brand {
   font-size: 32px;
+}
+
+li {
+  border-bottom: 1px dotted #aaaaaa;
+  color: #aaaaaa;
+  padding: 7px 0;
+}
+
+footer p {
+  color: #aaaaaa;
 }
