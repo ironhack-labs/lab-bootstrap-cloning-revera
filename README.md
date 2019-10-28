@@ -1,65 +1,59 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
-
-# Attention:
-This lab has been edited. Check the image in template and build that.
-
-[Significa Website](https://significa.co/)
-
-![Significa Base](https://raw.githubusercontent.com/josecarneiro/lab-bootstrap-cloning-template/master/starter-code/template.png)
+<p align="center"><img width="250" src="https://i.imgur.com/lMo1s1G.png"/></p>
 
 # Cloning with Bootstrap
 
-Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
+In this Lab we'll be reproducing an existing design using Bootstrap.
 
-[Revera Theme](https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/)
+The [Significa](https://significa.co/) website is a beautiful example of what can be achieved with some simple styling and a minimalist mindset.
 
-![Revera Picture](https://i.imgur.com/3y7yay8.png)
-
-As we can see, this template is a very good example of the type of webpages we can see on the Internet. With Bootstrap, we are able, in barely a few hours, to copy the appearance of this template.
-
-## Requirements
-
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-
-## Submission
-
-Upon completion, run the following commands
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
-
-In the Pull request name, add your name and last names separated by a dash "-"
+![Significa Base](https://raw.githubusercontent.com/josecarneiro/lab-bootstrap-cloning-template/master/starter-code/template.png)
 
 ## Deliverables
 
-Your page should look like the original one as much as possible. You should push every resource needed to make it work properly. Please, organize your code and your files carefully.
+You should aim to get as close to the original design as possible, while using as little custom CSS as possible.
 
-## Iteration 1: General layout
+## Instructions
 
-Focus on the general layout. What do we mean by general? Most of you are thinking about the header, how to create the menu, whether you should use 2 columns for a link or maybe 3... Don't worry, this is a common mistake at the beginning. However, as we will see, the best way to approach it is to look at the big “boxes” first and don't lose ourselves on the details.
+First, let's download Bootstrap from the [official website](https://getbootstrap.com). Select the compiled CSS + JS version, and download the `.zip` file. Inside, you'll find some of the compiled Bootstrap files we'll need to develop our Bootstrap-based website.
 
-So we have to see the page as a big container and identify the most important sections. Here you have an example:
+Copy the `css/bootstrap.min.css` file to the folder `stater-code/style`, and the `js/bootstrap.bundle.js` to the folder `stater-code/scripts`.
 
-![general layout](https://i.imgur.com/IIAG0g0.jpg)
+Inside of the `head` tag in our `index.html` let's import the following CSS files:
 
-Remember to use the inspector to determine the width and the height of the Revera page. Also, we could find out which Bootstrap classes have been used and anything else that is necessary to make our page looks like the original.
+- A [CSS reset](https://meyerweb.com/eric/tools/css/reset/reset.css), to normalize the base stylings between every browser.
+- The minified version of Bootstrap's stylesheets, `style/bootstrap.min.css`.
+- Our custom styles, `styles/index.css`.
 
-One cool Boostrap feature is that you have three elements that make our lives easier: `container`,  `row` and `columns`. Don't hesitate to use them!
+Additionally, include the [responsive meta tag](https://getbootstrap.com/docs/4.3/getting-started/introduction/#responsive-meta-tag).
 
-## Iteration 2: Internal structure
+At the bottom of the `body` tag in our `index.html`, include the following scripts:
 
-Now that we have a global vision of the page, we can go to the second level, dividing our box into their own internal structure. This means that if you previously created a single container and various rows, now we are going to define the columns. You will have to estimate the number of cells you will need in each row.
+- A [minified version of jQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js), to provide Bootstrap with some of it's interactive functionalities.
+- The minified version of Bootstrap's scripts, `scripts/bootstrap.bundle.js`.
+- Our custom scripts, `scripts/script.js`.
 
-The [grid system](http://getbootstrap.com/css/#grid) of Bootstrap gives you all the `.col` classes. Remember that each row has a size of 12 columns.
+### Iteration 1: Build the general layout
 
-## Iteration 3: Include the content
+To start, focus on the [general layout](https://getbootstrap.com/docs/4.3/layout/overview/) of the page. Use semantically appropriate HTML tags to outline the contents of your page, and include Bootstrap [components](https://getbootstrap.com/docs/4.3/components/) when relevant.
 
-Really cool! Now, you need to insert the content in its respective places (text, images, ...) and change some CSS options like margins, paddings, etc. to finish the template. It´s just a matter of Bootstrap!
+Don't waste time on the minutia at this stage. Your priority should be placing things where they should be.
 
-Well... Maybe it's not that easy. But try different things and make it happen!
+At this stage, you'll find its particularly useful to use the following Bootstrap classes: `container`, `row` and `col`.
 
-Happy Coding!
+Remember, you are not allowed to use custom CSS at this stage.
+
+## Iteration 2: Apply utility classes
+
+It's time to make things look good.
+
+Using Bootstrap [utilities](https://getbootstrap.com/docs/4.3/utilities/), try to approximate your page as much as possible to the original.
+
+Remember, you are not allowed to use custom CSS at this stage.
+
+## Iteration 3: Add custom CSS
+
+Now lets make it perfect.
+
+By writing custom CSS in the `style/index.css` file, you should make your website look as close as possible to the original. You might want to use a custom font loaded from the [Google Fonts website](https://fonts.google.com/).
+
+**Happy Coding!** 💙
