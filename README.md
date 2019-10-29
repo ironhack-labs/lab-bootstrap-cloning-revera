@@ -42,7 +42,7 @@ At this stage, you'll find its particularly useful to use the following Bootstra
 
 Remember, you are not allowed to use custom CSS at this stage.
 
-## Iteration 2: Apply utility classes
+### Iteration 2: Apply utility classes
 
 It's time to make things look good.
 
@@ -50,10 +50,14 @@ Using Bootstrap [utilities](https://getbootstrap.com/docs/4.3/utilities/), try t
 
 Remember, you are not allowed to use custom CSS at this stage.
 
-## Iteration 3: Add custom CSS
+### Iteration 3: Add custom CSS
 
 Now lets make it perfect.
 
 By writing custom CSS in the `style/index.css` file, you should make your website look as close as possible to the original. You might want to use a custom font loaded from the [Google Fonts website](https://fonts.google.com/).
+
+### Bonus | Iteration 4: Deploy
+
+Deploy your project to [Netlify](https://www.netlify.com) or [GitHub Pages](https://pages.github.com/).
 
 **Happy Coding!** 💙
