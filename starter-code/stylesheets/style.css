@@ -1,0 +1,55 @@
+
+.nav-link{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    margin: 50px 0;
+}
+
+.subtitle{
+    size: 40px;
+    margin: 30px 90px;
+}
+.carousel-caption{
+    background-color: tomato;
+}
+
+
+.principal-text{
+    color: lightslategray;
+}
+
+.col-text{
+    color: white;
+    margin: 10px 70px;
+}
+
+.col-text p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.row-footer{
+    margin: 0 30px;
+}
+
+.container-footer{
+    background-color: rgb(59, 59, 59);
+}
+
+.foot-text{
+    font-size: 10px;
+    margin: 10px 68px;
+}
+
+#footer-text{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-size: 12px;
+}
