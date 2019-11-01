@@ -1,0 +1,75 @@
+#navigation .navbar-brand{
+    padding-left: 18%;
+
+}
+#navigation div[class="collapse navbar-collapse"]{
+    padding-left: 19%;
+
+}
+#latest-projects {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+
+}
+#latest-projects .body-title{
+    font-weight: 700;
+    color:black;
+}
+#latest-projects hr{
+    padding-bottom: 2%;
+}
+#latest-projects .body-sub-title{
+    font-size: 0.8em;
+    font-weight: 400;
+    color:grey;
+}
+#latest-projects span[class="article-title"]{
+    font-size: 0.7em;
+    margin-left:0;
+    margin-right:0;
+    
+}
+#latest-projects span[class="article-title"] p{
+    margin-left:0;
+    padding-top:5%;
+} 
+#about{
+    background-color:'coral';
+}
+#latest-articles {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#latest-articles span[class = "body-title"]{
+    font-weight: 800;
+
+}
+
+#latest-articles span[class = "body-sub-title"]{
+    font-weight: 600;
+    font-size: 0.7em;
+    color:grey;
+}
+#latest-articles hr{
+    padding-bottom:2%;
+}
+#project-text .article-title{
+    font-weight: 600;
+    color:black;
+    font-size:0.9em;
+    margin-right:1%;
+}
+
+#project-text span[class="article-sub-title"]{
+    font-weight:600;
+    color:black;
+    font-size: 0.5em;
+}
+#project-text span[class="article-sub-title"] .highlight{
+    color:coral;
+}
+#project-text div[id="project-text" alt='text']{
+    font-size: 20em;
+}
