@@ -1,0 +1,59 @@
+.navbar-collapse {
+  text-align: center;
+  margin-left: 30%;
+}
+
+.nav-link {
+  padding: 5px !important;
+}
+
+.img-1 {
+  position: absolute;
+  z-index: -1;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.img-2 {
+  background-image: url("./img/overlay.png");
+  background-repeat: repeat;
+  height: 618.15px !important;
+}
+.btn-car {
+  background: transparent;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.div-1 {
+  background: #ed564b;
+}
+
+.circle {
+  border: solid 4px white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.card {
+  border: none !important;
+}
+
+.arti-spam {
+  font-size: 12px;
+}
+
+.foot-div-1 {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.foot-hr {
+  border-top: 1px dotted #7a7e80;
+}
+
+.foot-div-2 {
+  background: #292929;
+  font-size: 12px;
+}
