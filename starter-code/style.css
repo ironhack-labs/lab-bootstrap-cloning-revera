@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: 2;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+
+
+.col-sm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.rowRed {
+    background-color: rgb(197, 67, 34);
+}
+
+.whiteFont {
+    color: white
+}
+
+#bottom{
+    background-color: rgb(87, 86, 86);
+    width:100%;
+
+}
+
+.orange{
+    background-color: rgb(255, 102, 0);
+    height: 10px;
+}
+
+.grey {
+    background-color: rgb(87, 86, 86); 
+}
