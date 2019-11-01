@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .bg-red {
+    background-color: #ed564b;
+  }
+  
+  .bg-grey {
+    background-color: #3b3b3b;
+  }
+  
+  span {
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  
+  .info-border-red {
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+  }
+  
+  .footer-border-top-red {
+    border-top: 5px solid #f96b61;
+  }
+  
+  .carousel-control-prev {
+    background-color: #ed564b;
+    height: 80px;
+    width: 40px;
+    top: 40%;
+    opacity: 1;
+  }
+  
+  .carousel-control-next {
+    background-color: #ed564b;
+    height: 80px;
+    width: 40px;
+    top: 40%;
+    opacity: 1;
+  }
+  
+  .carousel-control-prev-icon {
+    border: none;
+    /* padding: 20px; */
+  }
+  
+  .carousel-control-next-icon {
+    border: none;
+    /* padding: 20px; */
+  }
+  
+  .carousel-slide {
+    align-items: center;
+  }
+  
+  .carousel img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
+  .carousel-inner {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .glyphicon {
+    font-size: 20px;
+  }
+  
+  .carousel-item div {
+    top: 30%;
+  }
+  
+  .frmore {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .navbar-brand {
+    font-size: 32px;
+  }
+  
+  footer li {
+    border-bottom: 1px dotted #aaaaaa;
+    color: #aaaaaa;
+    padding: 7px 0;
+  }
+  
+  footer p {
+    color: #aaaaaa;
+  }
