@@ -1,0 +1,277 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+}
+
+header h1 {
+  font-size: 175%;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header li a {
+  padding: 10px;
+  margin: 5px;
+  color: #606060;
+}
+
+header li a.active,
+header li a:hover {
+  color: #f4473a;
+  text-decoration: none;
+}
+
+.carousel {
+  height: 80vh;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item.active,
+.carousel-item.carousel-item-next,
+.carousel-item.carousel-item-prev {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  padding: 0 120px;
+  height: 100%;
+  color: white;
+  background-attachment: fixed, scroll;
+  background-color: darkgray;
+  background-image: url(./img/overlay.png);
+  background-position: 0% 0%, center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-blend-mode: luminosity;
+}
+
+.carousel-item.slider-1 {
+  background-image: url(./img/overlay.png), url(./img/slider-1.jpg);
+}
+
+.carousel-item.slider-2 {
+  background-image: url(./img/overlay.png), url(./img/slider-2.jpg);
+}
+
+.carousel-item.slider-3 {
+  background-image: url(./img/overlay.png), url(./img/slider-3.jpg);
+}
+
+.carousel-item.slider-4 {
+  background-image: url(./img/overlay.png), url(./img/slider-4.jpg);
+}
+
+.carousel-item h1 {
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+.carousel-item button {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 6px 36px;
+  text-transform: uppercase;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+  width: 60px;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+  width: 60px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #f4473a;
+  padding: 60px 30px;
+  background-size: 30px;
+}
+
+.services {
+  background-color: #f4473a;
+  border: 5px solid #f96b61;
+  border-left: 0;
+  border-right: 0;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.services div {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.services i {
+  border: 4px solid white;
+  border-radius: 40px;
+  font-size: 125%;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.services h1 {
+  font-size: 150%;
+}
+
+.services p {
+  font-size: 100%;
+}
+
+.projects,
+.articles {
+  padding: 20px 60px;
+}
+
+.projects h1,
+.articles h1 {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.projects h2,
+.articles h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #aaa;
+  font-size: 100%;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.projects div,
+.articles div {
+  margin: 30px -10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.projects article,
+.articles article {
+  font-size: 80%;
+  margin: 0 10px;
+}
+
+.projects article img,
+.articles article img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.projects article p {
+  text-align: center;
+}
+
+.articles h3 {
+  font-size: 100%;
+}
+
+.articles h4 {
+  color: #606060;
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.articles h4 a {
+  color: #f4473a;
+}
+
+.articles h4 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #f96b61;
+  color: #aaa;
+  font-size: 80%;
+}
+
+footer .top {
+  padding: 40px 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+footer .top article {
+  flex-basis: 25%;
+  padding: 0 10px;
+}
+
+footer .top h1 {
+  color: white;
+  font-size: 150%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+footer .top ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .top a {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.25);
+  color: #aaa;
+  display: block;
+  padding: 6px 0;
+}
+
+footer .top a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer .copyright {
+  background-color: #292929;
+  color: white;
+  padding: 20px 60px;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+footer .copyright a {
+  color: white;
+}
+
+footer .copyright a:hover {
+  color: white;
+  text-decoration: none;
+}
