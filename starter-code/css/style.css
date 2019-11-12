@@ -1,0 +1,12 @@
+.flex-direction-nav span {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: red
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+    text-indent: -9999px;
+    }
