@@ -3,10 +3,30 @@
     height: 100px;
     margin: -50px 0 0;
     display: block;
-    background: red
+    background: red;
     position: absolute;
     top: 50%;
     z-index: 110;
     cursor: pointer;
     text-indent: -9999px;
+    }
+
+    .card-title {
+        color:white ;
+    }
+
+    .card-body {
+        background: tomato;
+        border-spacing: 0em;
+
+    }
+
+    .card-group {
+        border-color: tomato;
+    }
+
+    .card-body.projects {
+        background: white;
+        border-spacing: 0em;
+
     }
