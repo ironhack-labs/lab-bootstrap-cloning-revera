@@ -1,0 +1,112 @@
+.top-spacer {
+    height: 65px;
+}
+
+.carousel img {
+    filter: grayscale(100%)
+}
+
+.red-divider {
+    background-color: #ed564b;
+    height: 5px;
+}
+
+.widgets {
+    background-color: #ed564b;
+    color: white;
+    padding-top: 30px;
+}
+
+.widget-box{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.widget-box p {
+    font-size: 0.9rem;
+}
+
+.widgets svg {
+    padding: 5px;
+    border: solid 4px white;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+}
+
+.subtitles p {
+    font-size: 0.9rem;
+    padding: 15px 0;
+}
+
+.articles h4{
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.articles h6 {
+    font-size: 0.9rem;
+    color: #585858;
+}
+
+.articles p {
+    color: #585858;
+    font-size: 0.8rem;
+}
+
+.divider {
+    background-color: #dfdfdf;
+    height: 1px;
+    margin: 15px 0 30px 0;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.content h4 {
+    text-transform: uppercase;
+}
+
+.content h6 {
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+.bottom {
+    padding-top: 50px;
+    background-color: #3b3b3b;
+    color: white;
+    line-height: 1.3.rem;
+}
+
+.bottom p, ul {
+    color: #aaaaaa;
+    font-size: 0.8rem;
+}
+
+.bottom ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.bottom li {
+    list-style: none;
+    border-bottom: dotted 1px #aaaaaa;
+    padding-bottom: 5px;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #292929;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+    padding: 20px 0;
+}
