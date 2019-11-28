@@ -1,0 +1,85 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.padding {
+    padding: 0 5%;
+}
+
+.glyphicon-ring {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid white;
+    color: white;
+    display: inline-table;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.overlay {
+    background: url(./img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.filter {
+    filter: grayscale(100%);
+}
+
+.button-left-layout {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: url(./img/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+.button-right-layout {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: url(./img/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    cursor: pointer;
+    text-indent: -9999px;
+    background-position: 100% 0;
+}
+
+.footer {
+    background: #3b3b3b;
+}
+
+.border-footer {
+    border-top: 5px solid #ed564b;
+}
+
+.copyright {
+    background-color: #292929;
+}
+
+a:hover {
+    color: #f82e42 !important;
+    text-decoration: none;
+}
