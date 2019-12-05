@@ -1,0 +1,3 @@
+img .black-white {
+  filter: grayscale(100%);
+}
