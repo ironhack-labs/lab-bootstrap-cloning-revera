@@ -20,21 +20,6 @@
     background-color: red;
     height: 5px;
   }
-  
-  .footer-box {
-    background-color: #3B3B3B;
-    margin-top: 25px;
-  }
-  
-  .footer-links {
-    padding: 30px 0;
-  }
-  
-  .footer-links h4 {
-    color: white;
-    padding: 5px 0;
-  }
-  
   .dotted-ul li {
     border-bottom: 1px dotted #AAA;
     margin: 5px 0;
@@ -45,9 +30,26 @@
     color: #AAAAAA;
   }
   
-  .black-footer {
+  .footer-box {
+    background-color: #3B3B3B;
+    margin-top: 25px;
+  }
+
+  .grey-footer {
     background-color: #292929;
     color: white;
     padding: 10px 0;
   }
+
+  .footer-links {
+    padding: 30px 0;
+  }
+  
+  .footer-links h4 {
+    color: white;
+    padding: 5px 0;
+  }
+  
+  
+  
   
