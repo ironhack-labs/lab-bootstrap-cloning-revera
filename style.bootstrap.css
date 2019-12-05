@@ -1,0 +1,27 @@
+.carousel-item>img{
+    filter:grayscale(100%)
+    opacity: 0.7;
+    
+}
+
+.carousel-control-prev, .carousel-control-next {
+    
+}
+
+
+.cardfist {
+    background-color: red;
+    border: none;
+}
+
+
+.latest-projects {
+    border-bottom: 2px solid gray;
+
+}
+.h1latest {
+color: gray;
+}
+.h2latest {
+    color: gray;
+}
