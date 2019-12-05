@@ -1,0 +1,14 @@
+.overlayInMyCss {
+  width: 100%;
+  height: 100%;
+  background-image: url("./img/overlay.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  background-repeat: repeat;
+}
+
+.grayscaler {
+  filter: grayscale(100%);
+}
