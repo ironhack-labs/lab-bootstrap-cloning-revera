@@ -1,0 +1,151 @@
+
+.header {
+  padding-top: 70px;
+}
+.navbar {
+  height: 90px;
+  font-size: 14px;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.navbar a {
+  margin: 5px;
+}
+.navbar > a {
+  font-size: 31px;
+  font-weight: bolder;
+  margin-left: 120px;
+  margin-right: 200px;
+}
+
+.doverlay {
+  background: url(img/overlay.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.carousel-control-prev {
+  z-index: 8;
+}
+
+#carouselExampleFade img {
+  height: 560px;
+  filter: grayscale(100%);
+}
+
+.carousel-caption h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.carousel-caption {
+  width: 800px;
+  font-size: 16px;
+  margin-bottom: 80px;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.read-more {
+background: rgba(255,255,255,0.2);
+display: block;
+text-transform: uppercase;
+color: #fff;
+width: 150px;
+border: 1px solid #fff;
+padding: 5px 0px;
+margin: 10px auto;
+font-weight: bold;
+color: #fff!important;
+}
+
+.red-container {
+background-color: #ed564b;
+height: 314px;
+}
+
+.row h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.col-sm-4 {
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.card-body {
+  color: white; 
+  width: 400px;
+}
+
+.card-deck img {
+  height: 180px;
+  width: 270px;
+}
+
+.card-subtitle {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+.red-container__item p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.sub-container {
+  width: 1110px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 24px;
+  margin-top: 50px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aaaaaa;
+  font-weight: bold;
+}
+.sub-container h2 {
+  color: black;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.card-deck {
+  padding-bottom: 50px;
+}
+.card-deck h6 {
+  font-weight: bold;
+  font-size: 12px;
+}
+.card-deck p {
+  font-size: 14px;
+  color: #606060;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.bottom {
+  height: 320px;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+footer {
+  height: 74px;
+  background-color: #292929;
+}
