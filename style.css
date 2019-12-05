@@ -1,0 +1,104 @@
+#navbarTogglerDemo01 {
+    justify-content: space-evenly;
+    
+}
+
+.navbar-collapse > ul{
+    margin-right: 0px !important;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+/* Carrossel section*/
+
+.carousel-control-next {
+    background: red;
+    height: 10%;
+    width: 3% !important;
+    margin-top: 412px;
+}
+
+.carousel-control-prev {
+    background: red;
+    height: 10%;
+    width: 3% !important;
+    margin-top: 412px;
+}
+
+/* Projects sections */
+
+.col-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.col-sm > h1 {
+    color: white;
+}
+
+.col-sm > p {
+    text-align: center;
+    color: white;
+}
+
+.ball {
+    border: solid 5px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 50px;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+
+
+ .container {
+     max-width: 100% !important;
+    background-color: #ed554b;
+}
+
+/*------------------Responsive------------------*/
+
+
+@media only screen and (max-width:1330px){
+
+    .carousel-control-next {
+        background: red;
+        height: 10%;
+        width: 3% !important;
+        margin-top: 206px;
+    }
+    
+    .carousel-control-prev {
+        background: red;
+        height: 10%;
+        width: 3% !important;
+        margin-top: 206px;
+    }
+}
+
+@media only screen and (max-width:1330px){
+
+    .carousel-control-next {
+        background: red;
+        height: 10%;
+        width: 3% !important;
+        margin-top: 115px;
+    }
+    
+    .carousel-control-prev {
+        background: red;
+        height: 10%;
+        width: 3% !important;
+        margin-top: 115px;
+    }
+}
