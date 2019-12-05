@@ -12,6 +12,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./style.css">
@@ -64,9 +66,7 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="view">
-            <img src="./img/slider-1.jpg" class="d-block w-100 img-fluid" alt="...">
-          </div>
+          <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="h2">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
             <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget
@@ -118,24 +118,32 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+      <div class="overlay"></div>
     </div>
     <div id="maincontentjumbotron">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-4 col-sm-12">
+              <span class="glyphicon glyphicon-glass rounded-circle"></span>
               <h4 class="h4">Web development</h4>
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
-              <a href="#">Link</a>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+              <a href="#" class="text-danger text-decoration-none">Link</a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4 col-sm-12">
+              <span class="glyphicon glyphicon-star rounded-circle"></span>
               <h4 class="h4">User interface</h4>
-              <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+              <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus
+                eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.
+              </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4 col-sm-12">
+              <span class="glyphicon glyphicon-heart rounded-circle"></span>
               <h4 class="h4">Web design</h4>
-              <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+              <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie.
+                Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
             </div>
           </div>
         </div>
@@ -150,19 +158,19 @@
           </div>
         </header>
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-12 col-md-3">
             <img src="./img/project-1.jpg" alt="" class="img-responsive img-thumbnail">
             <p>Nunc libero elit, iaculis nec augue non</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-12 col-md-3">
             <img src="./img/project-2.jpg" alt="" class="img-responsive img-thumbnail">
             <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-12 col-md-3">
             <img src="./img/project-3.jpg" alt="" class="img-responsive img-thumbnail">
             <p>Vivamus blandit ipsum sed arcu euismod</p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-12 col-md-3">
             <img src="./img/project-4.jpg" alt="" class="img-responsive img-thumbnail">
             <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
           </div>
