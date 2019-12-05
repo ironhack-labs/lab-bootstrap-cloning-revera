@@ -1,0 +1,33 @@
+.jumbotron-fluid {
+    max-height: 550px;
+}
+
+.carousel-container {
+    margin: 0;
+    width: 100%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-img {
+    filter: grayscale(100%);
+    object-fit: cover;
+    /* z-index: -1; */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 10;
+    width: 50px;
+    height: 100px;
+    background-color: tomato;
+    margin-top: -50px;
+    top: 50%;
+    opacity: 1 !important;
+}
