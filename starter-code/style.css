@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.navbar-nav {
+  font-size: 14px;
+}
+
+.btn-outline-primary {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.btn-outline-primary:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.h2 {
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 15px 0px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-muted {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.text-muted > a {
+  color: tomato;
+}
+
+.card-title > a {
+  color: black;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+#projecttitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+#subtitle1 {
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+#articletitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#subtitle2 {
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.col-sm-3 > p {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#maincontentjumbotron > .jumbotron {
+  background-color: #ed554b;
+  color: white;
+  border-top: 5px solid rgb(245, 118, 96);
+  border-bottom: 5px solid rgb(243, 109, 85);
+}
+
+#footer > .jumbotron {
+  background-color: rgba(0,0,0,0.7);
+  border-top: 5px solid rgb(241, 101, 76);
+  margin-bottom: 0px;
+  color: white;
+}
+
+#copyright > .jumbotron {
+  background-color: rgba(0,0,0,0.8);
+  margin-bottom: 0px;
+  color: white;  
+}
+
+#copyright > .jumbotron-fluid {
+  padding: 15px;
+}
+
+#copyright a{
+  color: white;
+  font-size: 12px;
+  display: block;
+}
+
+#copyright .container {
+  padding: 10px 15px;
+  margin: 0px;
+}
+
+#copyright p {
+  font-size: 12px;
+}
+
+#copyright .lead {
+  margin-bottom: 0px;
+}
+
+.h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.col-sm-3 a {
+  color: darkgray;
+  border-bottom: 1px dotted darkgray;
+  font-size: 14px;
+  display: block;
+  padding: 5px 0px;
+  line-height: 18px;
+}
+
+#footer-p {
+  font-weight: 400;
+  text-align: left;
+  padding-top: 0;
+  color: darkgray;
+}
+
+.card-deck {
+  padding-bottom: 30px;
+}
