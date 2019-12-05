@@ -149,3 +149,10 @@ footer {
   height: 74px;
   background-color: #292929;
 }
+
+.footer__data {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 165px;
+  padding-top: 20px;
+}
