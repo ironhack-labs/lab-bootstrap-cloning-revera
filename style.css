@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+    font-family: Roboto;
+  }
+
+.container-header {
+    height: 80px;   
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.revera {
+    font-size:2em;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 0 5px 0 5px;
+    text-decoration:none;
+    color:black;
+}
+
+a:first-child {
+    color:red;
+}
+
+.main-image {
+    width:100%;
+    position: relative;
+    text-align: center;
+    height: 600px;
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+    color:white;
+}
+
+.headline {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    color:white;
+    font-size:1.4em;
+}
+
+.read-button {
+    border:solid;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    padding: 5px 20px 5px 20px;
+}
+
+.features-container {
+    background-color: #ED564B;
+    height: 300px;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    display:flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+
+    text-align: center;    
+    width:20%;
+}
+
+.fas, .far{
+    font-size: 3em;
+}
+
+.projects-headline, .articles-headline {
+    padding-left: 17%;
+    padding-top:2%;
+}
+
+hr {
+    width: 66%;
+}
+
+.projects-container, .articles-container, .footer-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top: 1%;
+}
+
+.projects-container {
+    text-align: center;
+}
+
+.vignette-project {
+    width:200px;
+}
+
+.vignette-article {
+    width:200px;
+    height: 100px;
+}
+
+.articles {
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.articles-container h4, .articles-container p {
+    padding-left:20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.footer-container  {
+    margin-top:5%;
+    background-color: #3B3B3B;
+    color:white;
+}
+
+.articles hr {
+    width:100%;
+}
+
+footer .articles {
+    width: 40%;
+    text-align: left;
+    height: 300px;
+}
+
+.legal-notes {
+    height: 100px;
+    background-color: #292929;
+    color:white;
+    padding
+}
+
+.copyrights {
+    padding-left:16%;
+    padding-top:2%;
+}
