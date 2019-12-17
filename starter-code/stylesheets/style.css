@@ -1,6 +1,10 @@
 html{
     font-size: 16px;
 }
+
+header{
+    background-image: url(../img/overlay.png);
+}
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     max-width: 768px;
@@ -61,6 +65,10 @@ body{
 .bg-grey {background-color: #3b3b3b;}
 .bg-dark-grey {background-color: #292929;}
 
+.fc-red{color: #ed564b;}
+.fc-white{color: #fff;}
+.fc-grey{color: #aaa;}
+
 .boder-top-red {border-top: 5px solid #f96b61;}
 .border-btm-grey {border-bottom: 1px solid #dfdfdf;}
 
@@ -68,3 +76,14 @@ body{
 .ta-center { text-align: center; }
 .ta-right { text-align: right; }
 .ta-inherit { text-align: inherit; }
+
+.main-footer li {
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+.main-footer a, .main-footer p{
+    color: #aaa;
+    text-decoration: none;
+}
+.main-footer li:hover a{
+    color: #fff;
+}
