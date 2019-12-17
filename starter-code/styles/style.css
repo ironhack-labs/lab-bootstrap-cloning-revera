@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  background-color: red;
+}
+
+.header {
+  background-image: url(/img/cat\ slider.jpg);
+  height: 50rem;
+  color: white;
+}
+
+.features-red {
+  background-color: #ff6b6b;
+}
+
+.footer {
+  background-color: #576574;
+}
