@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.nav-bar {
+    text-decoration: none;
+    font-size: ;
+}
+
+header {
+    background-image: url(/starter-code/img/slider-1.jpg);
+}
+
