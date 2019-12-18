@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+.content{
+    width: 100%;
+    /*background-color: blue;*/
+}
+.navbar{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+.navbar__list{
+    display: flex;
+    margin-right: 5%;
+    font-size: 16px;
+}
+#revera{
+    font-size:24px;
+    font-weight: bold;
+}
+.navbar__list li{
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.navbar__list a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+}
+.image-text{
+    background-image: url("/img/slider-1.jpg");
+    background-size: 100%;   /*importante: la foto no ocupaba todo esto permite reescalar */
+    -webkit-filter: grayscale(100%);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-text h1{
+    color: white;
+    height: 30px;
+    margin-top: 20%;
+}
+.image-text p{
+    color: white;
+    margin-bottom: 20%;
+}
+.description{
+    background-color: #ed564b;
+    display: flex;
+    justify-content: center;
+    padding: 0 17% 0 17%;
+}
+.description-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 5% 1% 5% 1%;
+}
+.description__image{
+    height: 70px;
+}
+.description-list{
+    color: white;
+}
+.description-list p{
+    margin-top: 10px;
+    text-align: justify;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 17% 0 17%; 
+    margin-bottom: 3%;
+}
+.latest-projects{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 26px;
+    margin: 60px 0 20px; /* alomejor es poner padding top a main? */
+    font-weight: bold;
+}
+.grayText {
+    color: gray;
+}
+.main-hr{
+    width: 100%;
+    margin: 20px 0 20px;
+}
+.flex-projects{
+    display: flex;
+    flex-direction: row;
+}
+.project-list li{
+    margin-right: 25px;
+}
+.project__image{
+    height: 124px;
+    width: 100%;
+}
+.flex-articles{
+    display: flex;
+    flex-direction: row;
+}
+.articles-list li{
+    color: gray;
+    margin-right: 25px;
+    padding-bottom: 10px;
+}
+.article__image{
+    height: 124px;
+    width: 100%;
+}
+.article__title{
+    color: black;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+.posted__on__by{
+    color: red;
+    text-decoration: none;
+}
+.info-revera{
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    padding: 0 17% 2% 17%; 
+}
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+}
+.info-list{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    color: gray;
+    margin-right: 3%;
+    font-size: 12px;
+}
+.h3info{
+    color: white;
+    font-size: 16px;
+    margin: 15% 0 10%;
+}
+.info__links a{
+    color: gray;
+    text-decoration: none;
+}
+.hr-dotted{
+    opacity: 0.4;
+    border: 0.5px dotted;
+}
+.copyright{
+    background-color: #292929;
+    color: white;
+    padding: 1.2% 17% 1.2% 17%; 
+    font-size: 10px;
+}
