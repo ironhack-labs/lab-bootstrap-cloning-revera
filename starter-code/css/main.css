@@ -1,0 +1,144 @@
+body {
+  font-family: 'Abel';
+  font-size: 22px;
+}
+
+.header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-container div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.menu-nav>ul li:hover {
+  color: #ed564b;
+}
+
+.menu-nav li {
+  padding: 0 5px;
+}
+
+.revera-logo {
+  margin: 0 100px 0 0;
+}
+
+.landing-description {
+  background: #ed564b;
+  height: 900px;
+  width: 100%;
+}
+
+.landing-description div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.landing-description input {
+  position: absolute;
+  top: 350px;
+  background-color: transparent;
+  color: white;
+}
+
+.img {
+  background-image: url("/starter-code/img/overlay.png");
+  background-repeat: no-repeat;
+  width: 100%
+}
+
+.div-description {
+  position: absolute;
+  top: 0px;
+  color: lightgray;
+  margin: 300px;
+  text-align: center;
+}
+
+.container {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.container-description {
+  padding: 4px;
+  text-align: center;
+}
+
+.container-description p {
+  padding: 5%;
+}
+
+.circle-icon {
+  position: relative;
+  height: 55px;
+  width: 55px;
+  margin: 2em auto;
+  box-shadow: 0 0 1em white;
+  border-radius: 100%;
+}
+
+.circle-icon i {
+  position: absolute;
+  top: 13px;
+  font-size: 30px;
+  align-items: center;
+}
+
+.lasted-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lasted-projects hr {
+  color: gray;
+}
+
+.project-images img {
+  height: 100px;
+  width: 100px;
+}
+
+.footer {
+  background: #3b3b3b;
+  color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.footer-copyright {
+  background: #292929;
+  color: lightgray;
+}
+
+.footer-copyright h6 {
+  margin-left: 1.5rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
