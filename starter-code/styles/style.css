@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Titles */
+.title {
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 14px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+/* Header */
+nav .row {
+    width: 1200px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.active a {
+    color: #ed564b !important;
+}
+
+.navbar li {
+    padding: 0 5px;
+}
+
+/* Hero with slider */
+#hero img {
+    filter: grayscale(100%);
+}
+
+/* 3 Red Box Section */
+#red-section {
+    background: #ed564b;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+#red-section h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+
+/* Latest Projects Section */
+.boxes img {
+    width: 270px;
+    height: 180px;
+}
+
+.boxes h3 {
+    line-height: 0.8;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.col-6 {
+    float: left;
+}
+
+.caption {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.posted, .admin {
+    color: #606060;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.posted a, .admin a {
+    color: #f4473a;
+}
+
+#latest-projects {
+    padding: 50px;
+}
+
+#latest-projects hr {
+    margin: 5px 20px 30px 20px;
+}
+
+#latest-projects h3 {
+    line-height: 0.5;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+}
+
+#latest-projects a {
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Latest Articles Section */
+#latest-articles {
+    padding: 40px;
+    border-bottom: 4px solid red;
+}
+
+.boxes p {
+    font-size: 14px;
+}
+
+#latest-articles hr {
+    margin: 5px 20px 30px 20px;
+}
+
+#latest-articles h3 a {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Bottom Grey Section */
+#bottom {
+    background: #3b3b3b;
+    color: #AAAAAA;
+    padding: 40px;
+    font-size: 14px;
+}
+
+#bottom h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#bottom a {
+    color: #AAAAAA;
+}
+
+#bottom ul {
+    list-style: none;
+}
+
+#bottom li {
+    border-bottom: 1px dotted #999999;
+    padding: 7px 0;
+}
+/* Footer Section */
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+    background: #292929;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+}
