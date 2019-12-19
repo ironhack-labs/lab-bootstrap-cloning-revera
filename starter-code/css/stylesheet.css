@@ -1,0 +1,234 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu-list {
+    display: flex;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+}
+.menu-list li a:hover {
+    color: #ed564b;
+}
+.hero-section {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: grayscale(100%);
+}
+.over-effect {
+    background-image: url(/starter-code/img/overlay.png);
+    height: 450px;
+    position: absolute;
+    width: 100%;
+}
+.hero-text{
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    z-index: 99;
+}
+.hero-title{
+    font-size:  35px;
+    margin-bottom: 20px;
+}
+.hero-btn {
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: #fff 1px solid;
+    padding: 5px 10px;
+    background-color: #fff 0.3;
+    z-index: 999;
+}
+.hero-btn-content{
+    text-decoration: none;
+    color: #fff;
+
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+    height: 450px;
+}
+.arrow{
+    background-color: #ed564b;
+    width: 15px;
+    color: #fff;
+    font-size: x-large;
+    padding: 20px 10px;
+}
+.icons-info{
+    background-color: #ed564b;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    padding: 50px;
+
+}
+.icon-fontawesome {
+    font-size: 25px;
+}
+.border-color-top{
+    border-top: #f96b61 7px solid;
+
+}
+.border-color-bottom {
+        border-bottom: #f96b61 7px solid;
+}
+.content-icon{
+    width: 30%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.title-icon{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.border-radius{
+    border: #fff 3px solid;
+    border-radius: 50%;
+    width: max-content;
+    padding: 15px;
+}
+.icon-section {
+    width: 50px;
+    padding: 5px;
+}
+.text-icon {
+    line-height: 25px;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.projects {
+    padding: 5%;
+}
+.title-project {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.subtitle-project {
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.line {
+    color: grey;
+}
+.project-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0  ;
+}
+.project-box {
+    width:23%;
+}
+.img-project {
+    width: 100%;
+}
+.info-project {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.blog-section {
+    margin-top: 75px;
+}
+.title-blog {
+    font-weight: bold;
+    margin: 15px 0 ;
+}
+.subtitle-blog{
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.text-decoration-blog{
+    color: red;
+}
+.info-blog {
+    color: grey;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 20px 0; 
+}
+.main-footer {
+    background-color: #3b3b3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 5% 5% 0 5%;
+
+}
+.footer-box {
+    width: 23%;
+}
+.main-info-box{
+    width:25%;
+}
+.main-info-footer {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.title-footer {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-list li {
+
+    border-bottom: #fff 1px dotted;
+    width: 100%;
+    padding: 15px 0;
+}
+.footer-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.subfooter{
+    background-color: #292929;
+    padding: 20px 5%;
+}
+.subfooter-info{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 13px;
+}
