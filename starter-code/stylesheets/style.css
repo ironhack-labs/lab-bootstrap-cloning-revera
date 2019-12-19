@@ -1,0 +1,256 @@
+/*
+Comentarios personales:
+- Tengo que poner mas classes en los elementos.
+- Vigilar mas estrategia CSS.
+- Para estos ejercicios y con este poco tiempo, ya esta bien siempre que lo tenga en cuenta.
+- Falta crear una buena classe container para que todos los elementos de texto esten justificados verticalmente y empiezen y acaben como maximo en el mismo lugar.
+*/
+
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+nav li{
+    display: inline;
+}
+
+
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: gray;
+}
+
+nav ul > li:first-child a{
+    color: tomato;
+}
+
+
+.slide {
+    background-image: url("../img/slider-1.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    filter: grayscale(95%);
+    background-position: bottom;
+}
+
+/* TODO: Poner a fuera para que no se aplique filter BW del .slide background */
+.slide-button{
+    width: 30px;
+    height: 60px;
+    background-color: #f96b61;
+    position: absolute;
+    
+}
+
+.left{
+    left: 0px;
+}
+
+.right{
+    right: 0px;
+}
+
+.slide button{
+    border: 1px solid white;
+    background: rgba(228, 228, 228, 0.43);
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    z-index: 1;
+
+}
+
+h2{
+    font-size: 35px;
+    max-width: 60%;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+
+}
+
+.slide p{
+    max-width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    background-image: url(../img/overlay.png);
+    width: 100%;
+    height: 100%;
+}
+
+.types{
+    background-color: #ed564b;
+    height: 250px;
+    border: 5px solid #f96b61;
+    color: white;
+    display: flex;
+}
+
+.types > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+}
+
+
+.types > div *{
+    padding: 5px;
+}
+
+.types img{
+    width: 30px;
+    height: 30px;
+}
+
+.types h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rounded{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+}
+
+.projects > div{
+    margin: 20px;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.latest-projects{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.latest-projects h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.latest-projects h3 + p{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 13px;
+}
+
+.articles{
+    display: flex;
+    text-align: left;
+}
+
+.articles > div{
+    margin: 20px;
+}
+
+.articles > div > *{
+    padding: 5px;
+}
+.articles > div > p{
+    color: gray;
+}
+.articles img{
+    width: 100%;
+}
+.latest-articles{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.latest-articles h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.latest-articles h3 + p{
+    margin-bottom: 20px;
+    color: darkgray;
+    font-size: 13px;
+}
+
+.articles h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.articles .autordate{
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+}
+
+.pre-footer{
+    border-top: 3px solid #ed564b;
+    background-color: #3b3b3b;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.pre-footer > div{
+    width: 20%;
+    margin: 10px;
+}
+
+.pre-footer  a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    padding: 3px;
+    border-style: dotted;
+}
+
+.sub-footer{
+    background-color: #292929;
+    height: 20px;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.sub-footer p{
+    width: 300px;
+    margin-left: 130px;
+}
+
+.pre-footer-title{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
