@@ -13,13 +13,55 @@ html {
 
 .nav {
   display: flex;
-  background-color: red;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+.nav p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav div {
+  text-align: center;
+  flex-grow: 0.5;
+  margin-right: 20%;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+}
+
+.nav ul li {
+  cursor: pointer;
 }
 
 .header {
-  background-image: url(/img/cat\ slider.jpg);
+  background-image: url(../img/cat\ slider.jpg);
   height: 50rem;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-title h1 {
+  font-size: 5.5rem;
+}
+
+.cta-title p {
+  font-size: 1.5rem;
 }
 
 .features-red {
