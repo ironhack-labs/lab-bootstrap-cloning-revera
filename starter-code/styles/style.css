@@ -74,9 +74,10 @@ html {
 .btn-read-more {
   color: white;
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 1.2% 2%;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .three-icons {
@@ -108,7 +109,7 @@ html {
 
 .projects-main-description {
   margin-top: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: gray;
 }
 
@@ -118,6 +119,11 @@ html {
 
 .latest-articles {
   height: 60rem;
+}
+
+.articles-images {
+  width: 85%;
+  height: 50%;
 }
 
 .latest-projects-showed {
@@ -130,11 +136,14 @@ html {
 
 .latest-projects-title {
   font-weight: bold;
-  margin: 1rem 1rem;
+  margin: 1rem 1.1rem 1rem 0rem;
+  font-size: 1.3rem;
 }
 
 .latest-articles-description {
-  margin: 0 3rem;
+  margin: 0 4rem 0 0;
+  font-size: 1.3rem;
+  color: #4b4b4b;
 }
 
 .projects-section {
@@ -152,7 +161,60 @@ html {
   font-weight: bold;
 }
 
+.published-by {
+  margin: 1.5rem 0 2rem;
+  color: #4b4b4b;
+}
+
+.published-by a {
+  color: red;
+  text-decoration: none;
+}
+
+.line-separator-footer {
+  height: 0.5rem;
+  background-color: #ff5e57;
+}
 
 .footer {
-  background-color: #576574;
+  background-color: #4b4b4b;
+  height: 25rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.footer-sections {
+  display: flex;
+}
+
+.footer-widget {
+  flex-basis: 25%;
+  margin: 4rem 0;
+}
+
+.second-footer-widget {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-footer-widget a {
+  text-decoration: none;
+  color: #808e9b;
+}
+
+.footer-widget-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subfooter {
+  background-color: #2d3436;
+  color: #d2dae2;
+  height: 7rem;
+  font-size: 1.3rem;
+}
+
+.subfooter-copyright {
+  padding-top: 2rem;
+  font-weight: bold;
 }
