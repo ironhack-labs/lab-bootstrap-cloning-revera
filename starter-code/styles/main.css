@@ -1,0 +1,202 @@
+ .nav {
+     overflow: hidden;
+     position: relative;
+     height: 70px;
+     padding-top: 25px;
+ }
+   
+.nav > ul  {
+    float: right;
+    display: flex;
+}
+
+ .nav li {
+     display: block;    
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ 
+ .nav > h2 {
+     position: absolute;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionHeader {
+    position: relative;
+}
+
+.sectionHeaderImage {
+    width: 100%;
+    height: 600px;
+}
+
+.overlay {
+    background-image: url("../img/overlay.png");
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.sectionHeaderText {
+   top: 40%;
+   position: absolute; 
+   color: white;
+   width: 70%;
+   text-align: center;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.sectionHeaderText > h4 {
+    font-size: 35px;
+    font-weight: bold;
+ }
+
+ .sectionHeaderText > p {
+    font-size: 20px;
+    padding-top: 20px;
+    height: auto;
+    line-height: 30px;
+ }
+
+ .DownTextosHeader > i  {
+    width: 30px;
+ }
+
+.sectionHeaderText > button {
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    border: white 2px solid;
+}
+
+.sectionDownHeaderbackground {
+    background-color: #ed564b;
+}
+
+.sectionDownHeadersize {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.DownTextosHeader {
+    margin: 2% 0% 2% 0%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.DownTextosHeader > h4 {
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.titleMain {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 0px 10px 0px;
+}
+
+.subtitleMain {
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+    padding: 0px 0px 10px 0px;
+}
+
+.line {
+    border-bottom: grey 2px solid;
+}
+
+.lineOrange {
+    padding-top: 50px;
+    border-bottom: #ed564b 4px solid;
+}
+
+.boxImgTexts{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.articleimgText {
+    margin: 0% 2% 2% 0%;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.articleimgText > img{
+    width: 100%;
+    height: 210px;
+}
+
+.articleimgText > h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+
+.articleimgText > h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.backgroundFooter {
+    background-color: #3b3b3b;
+}
+
+.footerFInal {
+    background-color: #292929;
+    color: white;
+} 
+
+.pFinalFooter {
+    padding: 20px 0px 5px 0px;
+} 
+
+.pFinalFooter  > p {
+    padding: 0px 0px 10px 0px;
+} 
+
+.styleFooter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.boxText {
+    margin: 2% 2% 2% 0%;
+    line-height: 25px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.boxText > h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.linePoints {
+    border-bottom: 1px dotted ;
+}
