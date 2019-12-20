@@ -1,0 +1,224 @@
+body{
+    font-family: "Source Sans Pro";
+}
+.container-header{
+    height: 50px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-page{
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu ul{
+    margin-right: 180px;
+}
+.menu ul li:first-child{
+    color: red;
+}
+.menu ul li{
+    font-size: 13px;
+    display: inline;
+    margin: 5px;
+}
+.main
+{
+    background-image:url(img/slider-1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    -webkit-filter: grayscale(100%);
+            filter: gray;
+}
+.cover-image{
+    width: 100%;
+    background-image: url(img/overlay.png);
+    position: absolute;
+    height: 350px;
+    z-index: 1;
+}
+.container-main{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px; 
+    text-align: center;
+    z-index: 2;
+}
+.container-main h2{
+    font-size: 25px;
+    color: white;
+}
+.container-main p{
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+    margin: 10px;
+}
+.container-main .button-read-more{
+    color: white;
+    background: none;
+    border: solid 1px white;
+    padding: 5px 15px;
+}
+.competences{
+    
+    background-color:#ed554b;
+    padding: 30px 50px;
+    
+}
+
+.container-competences{
+    width: 900px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.design, .development, .ui{
+    padding: 10px 20;
+    color: white;
+    
+
+}
+.container-competences h3{
+    font-weight: bold;
+    
+}
+.container-competences p{
+    text-align: center ;
+    padding-top: 10px ;
+    font-size: 13px;
+    line-height: 20px;
+
+
+}
+.container-competences img{
+    margin-bottom: 30px;
+    width: 60px;
+}
+.latest-projects, .latest-articles{
+    display: flex;
+    justify-content: center;
+
+}
+.latest-articles{ 
+    margin-bottom: 50px;
+}
+.container-latest-projects, .container-latest-articles{
+    width: 900px;
+
+}
+.container-images-projects, .container-images-articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid #aaaaaa;
+    padding-top: 20px;  
+}
+.container-images-projects img{ 
+    width: 200px;
+    margin-bottom: 20px;
+}
+.container-latest-projects h2, .container-latest-articles h2{
+    font-weight: bold;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.container-latest-projects h3, .title{
+    font-size: 10px;
+    font-weight: bold;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+.project-boy, .project-cat, .project-rose, .project-girl p{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;  
+}
+.container-images-articles img{
+    width: 200px;
+    margin-bottom: 20px;
+    }
+.description{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;  
+    margin-bottom: 15px;
+}
+.date{
+    font-size: 12px;
+    font-weight: bold;
+    color: #aaaaaa;
+    margin-bottom: 15px;
+}
+.date span{
+    color:#ed554b;
+}
+.container-images-articles p{
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.articles-pets, .articles-flowers, .articles-mountain, .articles-dog{
+    padding: 0px 15px;
+}
+.bottom-page{
+    background-color:#3b3b3b;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #ed554b;
+}
+.container-bottom-page{
+    width: 900px;
+    height: 300px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #aaaaaa;;
+    line-height: 15px;
+}
+.revera, .meta, .archives, .recent-posts{
+    width: 233px;
+    margin: 0px 20px;
+}
+.meta ul li, .archives ul li, .recent-posts ul li{
+    border-bottom: 1px dotted #aaaaaa;
+    padding: 7px 0px;
+}
+.title-bottom-page{
+    font-weight: bold;
+    margin: 30px 0px;
+    font-size: 15px;
+}
+.container-footer-bottom{
+    width: 900px;
+    color: #aaaaaa;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    line-height: 15px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #aaaaaa;
+   
+}
