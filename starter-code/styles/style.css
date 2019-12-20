@@ -106,10 +106,52 @@ html {
   margin: 0 3rem;
 }
 
-.three-features {
-  /* width: 50%;
-  height: 100%; */
+.projects-main-description {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: gray;
 }
+
+.separator-line {
+  margin: 2rem 0;
+}
+
+.latest-articles {
+  height: 60rem;
+}
+
+.latest-projects-showed {
+  display: flex;
+}
+
+.single-article {
+  text-align: center;
+}
+
+.latest-projects-title {
+  font-weight: bold;
+  margin: 1rem 1rem;
+}
+
+.latest-articles-description {
+  margin: 0 3rem;
+}
+
+.projects-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.project-images {
+  width: 80%;
+  height: 80%;
+}
+
+.projects-articles-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 
 .footer {
   background-color: #576574;
