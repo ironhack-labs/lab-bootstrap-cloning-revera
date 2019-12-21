@@ -50,9 +50,11 @@ body {
 
 .landing-description input {
   position: absolute;
-  top: 350px;
   background-color: transparent;
   color: white;
+  top: 600px;
+  border-color: white;
+  border-width: 2px;
 }
 
 .img {
