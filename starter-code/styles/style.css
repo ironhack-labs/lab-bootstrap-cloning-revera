@@ -1,3 +1,5 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@
 /* Header */
 nav .row {
     width: 1200px;
+    height: 80px;
     margin: 0 15px;
     display: flex;
     justify-content: space-around;
@@ -37,7 +40,7 @@ nav a {
 
 .navbar-brand {
     font-size: 32px;
-    margin-left: 80px;
+    margin-left: 10px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -51,8 +54,60 @@ nav a {
 }
 
 /* Hero with slider */
+#hero {
+    position: relative;
+}
+
 #hero img {
     filter: grayscale(100%);
+}
+
+.arrow-icon {
+    width: 50px;
+    height: 100px;
+    background-color: #f4473a;
+    cursor: pointer;
+    font-size: 4px;
+    z-index: 100;
+    position: absolute;
+    top: 40%;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    left: 0%;
+}
+
+.carousel-control-next {
+    position: absolute;
+    right: 0%;
+}
+
+.slide-caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #FFF;
+    width: 800px;
+    text-align: center;
+    margin-left: -400px;
+}
+
+.slide-caption h2 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+.slide-caption p {
+    font-size: 16px;
+}
+
+a.frmore {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2) !important;
+    padding: 10px 50px;
+    color: #FFF !important;
+    border: 1px solid #FFF;
 }
 
 /* 3 Red Box Section */
@@ -67,15 +122,35 @@ nav a {
 
 #red-section h3 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     margin: 20px 0 10px;
+}
+
+#red-section p {
+    font-size: 14px;
+    margin: 0px 0px 10px;
+    line-height: 1.6;
+}
+
+.widget span {
+    border: 5px solid #FFF;
+    border-radius: 35px;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
 }
 
 
 /* Latest Projects Section */
 .boxes img {
-    width: 270px;
-    height: 180px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
 }
 
 .boxes h3 {
@@ -133,6 +208,7 @@ nav a {
 
 .boxes p {
     font-size: 14px;
+    font-family: sans-serif;
 }
 
 #latest-articles hr {
@@ -148,7 +224,7 @@ nav a {
 #bottom {
     background: #3b3b3b;
     color: #AAAAAA;
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
     font-size: 14px;
 }
 
@@ -156,6 +232,7 @@ nav a {
     font-size: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 #bottom a {
@@ -170,6 +247,16 @@ nav a {
     border-bottom: 1px dotted #999999;
     padding: 7px 0;
 }
+
+#bottom p {
+    line-height: 1.5;
+}
+
+.dotted-border {
+    border: 1px dotted #999;
+    cursor: help;
+}
+
 /* Footer Section */
 footer {
     font-size: 12px;
@@ -180,4 +267,14 @@ footer {
 
 footer a {
     color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .slide-caption {
+        display: none;
+    }
+
+    #latest-projects, #latest-articles  {
+        padding: 15px;
+    }
 }
