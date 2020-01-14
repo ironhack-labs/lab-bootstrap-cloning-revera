@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    color: rgb(122, 121, 121);
+    margin: 15px;
+}
+
+.background-main {
+    background-image: url(./starter-code/img/project-2.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-main h2{
+    color: white;
+    width: 60%;
+    text-align: center;
+}
+
+.background-main p{
+    color: white;
+    font-weight: lighter;
+    width: 60%;
+    text-align: center;
+}
+
+.background-main button{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.background-red {
+    background-color: rgb(243, 82, 82);
+    height: 300px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+
+}
+
+.icons {
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 23px;
+    margin-bottom: 20px;
+
+}
+
+.box h3{
+    color: white;
+    text-align: center;
+}
+
+.box p{
+    color: white;
+    text-align: center;
+}
+
+.main {
+    margin: 30px;
+}
+
+.main h4 {
+    font-weight: bold;
+}
+
+.main h5 {
+    font-weight: lighter;
+    color: rgb(139, 138, 138)
+}
+
+.main p {
+    font-weight: bold;  
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.main h7{
+    font-weight: lighter;
+    color: rgb(139, 138, 138);
+    font-size: 0.8em;
+}
+
+.main img {
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.background-grey {
+    background-color: rgb(54, 54, 54);
+    border-top: 4px solid rgb(192, 36, 36);
+    color: white;
+    font-size: 0.8em;
+}
+
+.box-model {
+    margin: 10px auto;
+}
+
+.box-model h6{
+    color: rgb(207, 205, 205);
+    font-weight: bold;
+    margin: 20px;
+    text-align: left;
+}
+
+.box-model p{
+    color: rgb(165, 163, 163);
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.border-1 {
+    border-bottom: 1px dotted rgb(165, 163, 163);
+    margin-bottom: 5px;
+    padding: 0 auto;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 60px;
+    padding: 15px;
+}
+
+
+footer p {
+    color: rgb(180, 179, 179);
+    font-size: 0.8em;
+    line-height: 1px;
+}
