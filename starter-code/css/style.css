@@ -1,0 +1,125 @@
+p {
+    font-size: 75%;
+}
+
+
+/* nav */
+
+nav {
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+
+nav h1 {
+    font-size: bold;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul li:first-child {
+    color: red;
+}
+
+/* carousel */
+
+#carousel h5, p {
+    font-weight: bold;
+}
+#carousel img {
+    /* height: 400px; */
+    opacity: 0.9;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+/* promo  */
+
+#promo {
+    background-color: rgb(204, 70, 70);
+    padding: 40px;
+    color: white;
+}
+
+#promo h2 {
+    margin-top: 20px;
+}
+
+#promo p {
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* latest project/article */
+
+article h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+#latest {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(92, 85, 85) ;
+}
+
+article h3 {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+article p {
+    font-weight: lighter;
+}
+
+article span {
+    color: red;
+}
+
+article p:first-child {
+    text-transform: uppercase;
+}
+
+/* footer */
+
+#firstfoot {
+    background-color: rgb(110, 103, 103);
+    border-top: 3px solid red;
+    color: white;
+    padding: 30px;
+}
+
+#firstfoot p {
+    font-weight: lighter;
+}
+
+.dotted {
+    border-bottom: 1px solid;
+    border-bottom-style: dotted;
+}
+
+footer {
+    background-color: rgb(68, 66, 66);
+    margin: 0;
+    
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-weight: lighter;
+}
+
+footer p:first-child {
+    padding-top: 15px;
+}
+
+footer p:last-child {
+    padding-bottom: 15px;
+}
