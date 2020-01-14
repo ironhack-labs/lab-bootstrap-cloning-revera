@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.container.top {
+    margin-top: 65px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar {
+    height: 90px;
+}
+
+.navbar #menu-list {
+    margin: 0;
+}
+
+.navbar #menu-list li {
+    list-style-type: none;
+    display: inline;
+    padding: 8px;
+}
+
+.header {
+    background: url("../img/slider-1.jpg") no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.main-items {
+    background-color: #ed564b;
+    height: 315px;
+
+}
+
+.projects {
+    background-color: silver;
+    height: 450px;
+}
+
+.articles {
+    background-color: skyblue;
+    height: 650px;
+}
+
+.footer {
+    background-color: slategray;
+    height: 350px;
+}
+
+.copyright {
+    background-color: thistle;
+    height: 80px;
+}
