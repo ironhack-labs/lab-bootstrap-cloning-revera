@@ -1,0 +1,174 @@
+img {
+    width: 100%;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    margin: 2em 20em 2em 10em;
+    align-content: center;
+}
+
+header a {
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 35%;
+}
+
+nav {
+    width: 55%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color: grey;
+    font-size: 0.6em;
+    transition: all .2 ease-in;
+    font-weight: 300;
+}
+
+.home {
+    color: red;
+}
+
+.link-red:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.link-black:hover {
+    text-decoration: none;
+    color: black
+}
+
+.portada {
+    background-image: url("../img/project-3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+.overlay {
+    background-image: url("../img/overlay.png");
+}
+
+.texto {
+    padding: 150px;
+    text-align: center;
+    color: white;
+}
+
+.texto h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.texto p {
+    font-weight: 200;
+    font-size: .7em;
+
+}
+
+.texto a {
+    color: white;
+    border: white solid 1px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+
+}
+
+.texto a:hover {
+    text-decoration: none;
+    color: white
+}
+
+.section1 {
+    background-color: rgb(211, 68, 68);
+    color: white;
+    padding: 20px;
+}
+
+.section1 h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.section1 p {
+    font-size: .8em;
+    font-weight: 200;
+}
+
+
+.center {
+    text-align: center;
+}
+
+i {
+    border: white 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    padding: 15px;
+
+}
+
+.section2 a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.section2 h5 {
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+.section2 h4 {
+    color: black;
+    font-weight: 500;
+}
+
+.section2 header {
+    border-bottom: gray 1px solid;
+    margin-bottom: 30px;
+}
+
+.section3 {
+    border-top: rgb(133, 47, 13) 5px solid;
+    background-color: rgb(36, 34, 34);
+    padding-left: 150px;
+}
+
+.section3 h4 {
+    color: white;
+    font-weight: 300;
+}
+
+.section3 p,
+.section3 a {
+    color: gray;
+    font-size: 0.7em;
+}
+
+
+.section4 {
+    background-color: black;
+    color: rgb(204, 204, 204);
+    padding-left: 150px;
+    font-size: 0.7em;
+}
+
+.section4 a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
