@@ -1,0 +1,21 @@
+.row > div,
+main > div > div{
+    border: 1px solid grey;
+    background: lightgray;
+    min-height: 64px;
+}
+
+body .row,
+/* main > div {
+    margin-bottom: 24px;
+} */
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  border: 3px solid white;
+  padding: 15px;
+  border-radius: 50%;
+}
