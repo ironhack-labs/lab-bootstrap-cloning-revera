@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+a{
+    color: grey;
+}
+
+a.nav-link.active {
+    color: #ED564B;
+}
+
+/* .dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    Without this, clicking will make it sticky
+      pointer-events: none;
+  }
+   */
+
+   .carousel-item > img.d-block.w-100{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+   }
+
+   h5{
+        font-size: 36px;
+   }
+
+   .carousel-caption{
+        bottom: 300px;
+   }
+
+   .megacontainer-skills{
+       width: 100%;
+       background-color: #ED564B;
+   }
+
+   .megacontainer-skills .container{
+       padding-top: 50px;
+   }
+
+   .cardskills{
+       background-color: #ED564B;
+       border: none;
+       color: white;
+       text-align: center;
+   }
+
+   .card{
+      border: none;
+   }
+
+   h2{
+       font-size: 24px;
+       color: black;
+   }
+
+   h3{
+       font-size: 20px;
+       color: gray;
+   }
+
+   .copyright{
+       color: white;
+   }
+
+   .footer-container{
+       color: white;
+   }
+
+   .separator{
+       color: #ED564B;
+   }
