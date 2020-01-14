@@ -1,0 +1,168 @@
+header {
+    margin: 10px 100px;
+}
+
+nav {
+    margin-left: 150px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex-align-center {
+    align-items: baseline;
+}
+
+nav li {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-red {
+    color: red;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    color: inherit;
+}
+
+.bgtop {
+    background-image: url(./img/slider-1.jpg);
+    width: 100%;
+
+
+}
+
+.text-center {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.bgtop p {
+    color: white;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.button {
+    margin: 25px 0;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.section2 {
+    padding: 50px 0;
+    background-color: #ed564b;
+}
+
+.circle {
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.section2 h2,
+.section2 p {
+    color: white;
+    margin: 30px 0;
+
+}
+
+.black {
+    color: black;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+.greyup {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 300;
+}
+
+.section3 {
+    margin-top: 30px;
+}
+
+.section3 p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+.section4 {
+    margin: 30px 0;
+}
+
+.section4 h3 {
+    margin-top: 20px;
+}
+
+.section4 p {
+    font-size: .8em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section5 {
+    border-top: 3px solid red;
+    padding: 50px 0;
+    background-color: #3b3b3b;
+    color: white;
+
+}
+
+.section5 ul {
+    padding-left: 0;
+}
+
+.section5 li {
+    padding: 5px 0;
+    border-bottom: 1px dotted white;
+    list-style-type: none;
+}
+
+.section5 li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    border-top: 1px solid grey;
+    background-color: #292929;
+    color: white;
+    padding: 30px 0 10px 80px;
+}
+
+footer p {
+    line-height: 0.7em;
+    font-size: 0.7em;
+}
