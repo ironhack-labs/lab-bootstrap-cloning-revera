@@ -10,10 +10,10 @@ body {
 }
 
 nav {
-    height: 100px;
+    height: 70px;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -53,20 +53,31 @@ li:hover{
 }
 
 .carousel{
-    height: 550px;
-    background-color: orange;
+    height: 540px;
+    background-color: white;
     padding: 0;
     overflow: hidden;
 }
 
+.overlay {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 540px;
+    background: rgba(100, 100, 100, 0.1);
+    background-image: url('../img/overlay.png');
+    background-repeat: repeat;
+}
+
 .carousel img {
     width: 100%;
+    filter: grayscale(100%);
 }
 
 .fondo-control {
     background: rgb(255, 0, 0);
-    height: 100px;
     width: 50px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,17 +87,53 @@ li:hover{
     background: white;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     display: flex;
     justify-content: flex-start;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    z-index: 20;
 }
-
 
 .carousel-control-next {
     display: flex;
     justify-content: flex-end;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    z-index: 20;
 }
 
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-caption h3 {
+    width: 80%;
+    margin-top: -480px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    width: 80%;
+}
+
+.btn-carousel {
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    padding: 3px 35px;
+    font-weight: 500;
+}
 
 .info-carousel {
     background-color: #dc6153;
