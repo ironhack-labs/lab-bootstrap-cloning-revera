@@ -1,0 +1,40 @@
+nav a{
+    color:#000;
+}
+ li.nav-item{
+    list-style:none;
+    color: #000;
+    
+  }
+  
+  header {
+    height: 500px;
+    background-color: #FB363C;
+    
+  }  
+
+  header img {
+   color:white;
+  }
+
+
+
+  .values {
+    min-height: 200px;
+    background-color: #FB363C;
+    margin-left:90px ;
+    
+  }
+  
+  .values .icon {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px auto 10px;
+  }
