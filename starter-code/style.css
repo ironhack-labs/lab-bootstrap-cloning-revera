@@ -1,0 +1,77 @@
+#header {
+  background-color: black;
+  /* height: 50vh; */
+}
+
+#info {
+  background-color: rgb(237, 86, 75);
+  /* height: 30vh; */
+  color: white;
+}
+
+#latest-projects,
+#latest-articles {
+  background-color: white;
+}
+
+#footer {
+  background-color: rgb(59, 59, 59);
+}
+
+#footer h4 {
+  color: white;
+}
+
+#copyright {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+/* BOOTSTRAP OVERRIDES */
+
+/* To get the navbar background white */
+
+#bootstrap-overrides .navbar-brand {
+  background-color: white;
+}
+
+#bootstrap-overrides .nav-item {
+  background-color: white;
+}
+
+#bootstrap-overrides .collapse {
+  background-color: white;
+}
+
+#bootstrap-overrides .bg-light {
+  background-color: white !important;
+}
+
+/* To get the navbar link active and hover colors red */
+
+#bootstrap-overrides .navbar :hover {
+  color: rgb(237, 86, 75);
+}
+
+#bootstrap-overrides .active {
+  color: rgb(237, 86, 75);
+}
+
+/* Carousel controls */
+
+#bootstrap-overrides .carousel-control-prev-icon {
+  background-color: rgba(237, 86, 75, 100);
+  padding: 50px 20px;
+}
+
+#bootstrap-overrides .carousel-control-next-icon {
+  background-color: rgba(237, 86, 75, 100);
+  padding: 50px 20px;
+}
+
+/* Footer */
+
+#bootstrap-overrides #footer,
+a {
+  color: grey;
+}
