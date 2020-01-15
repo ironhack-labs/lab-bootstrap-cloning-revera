@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+body {
+    font-family: "poppins";
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+
+.container-fluid {
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.images {
+    width: 250px;
+}
+
+h1 {
+    font-size: 0.6em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .revera {
+    margin-bottom: 70px;
+}
+
+nav {
+    margin-top: 70px;
+    font-size: 12px;
+}
+
+nav ul {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.container nav>ul a {
+    color: grey;
+    text-decoration: none;
+}
+
+
+hr {
+    color: 2px solid grey;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container-fluid h1 {
+    font-size: 2em;
+    max-width: 700px;
+    color: grey;
+}
+
+.container-fluid p {
+    color: grey;
+    font-size: 12px;
+    max-width: 700px;
+    justify-content: center;
+}
+
+.container-fluid button {
+    text-transform: uppercase;
+
+
+}
+
+.container .martini {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.martini-star {
+    background-color: #ed564b;
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.martini-star p {
+    color: white;
+    font-size: 12px;
+
+
+}
+
+.martini-star h3 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.martini-star img {
+    ls color: white;
+}
+
+.container h2 {
+    font-size: 1em;
+}
+
+.footer {
+    border-top: 5px solid #ed564b;
+    background-color: rgb(59, 60, 61);
+    padding: 50px 100px;
+}
+
+.footer h3 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: rgb(87, 84, 84);
+    font-size: 12px;
+    line-height: 1.5em;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+body {
+    font-family: "poppins";
+
+}
+
+header {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+
+}
+
+.hero {
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+nav ul {
+
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container ul>li>a {
+    color: grey;
+
+}
+
+
+.hero .martini-star {
+    background-color: #ed564b;
+    ;
+
+}
+
+.footer {
+    border-top: 5px solid #ed564b;
+    background-color: rgb(59, 60, 61);
+    padding: 50px 100px;
+}
+
+.footer h3 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: rgb(87, 84, 84);
+    font-size: 12px;
+    line-height: 1.5em;
+}
