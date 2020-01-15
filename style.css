@@ -8,20 +8,21 @@ body {
   padding: 0;
 }
 
-#navbar div {
+#top-bar div {
   padding: 20px;
 }
-#navbar a {
+#top-bar a {
   font-size: 0.9em;
   margin: 0;
   padding: 12px;
   color: gray;
 }
-#navbar .logo {
+#top-bar .logo {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
 }
-#navbar a.active {
+#top-bar a.active {
   color: #ed564b;
 }
 .carousel-control-prev,
@@ -38,7 +39,7 @@ body {
   color: #ed564b;
 }
 .carousel-caption {
-  bottom: 100px;
+  bottom: 5%;
 }
 .carousel-caption h1,
 .carousel-caption p {
@@ -101,7 +102,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5em;
-  padding-top: 5%;
+  padding-top: 50px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -132,7 +133,7 @@ body {
 }
 
 #articles {
-  margin-top: 3%;
+  margin-top: 50px;
 }
 #articles a {
   text-decoration: none;
@@ -161,8 +162,8 @@ body {
 #footer {
   background-color: #333;
   border-top: 5px solid #e68079;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #footer h4 {
   color: white;
