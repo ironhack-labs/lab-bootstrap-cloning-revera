@@ -25,8 +25,14 @@ nav ul {
     flex-direction: row;
 }
 nav ul li {
+    background-color: white;
     color: rgb(122, 121, 121);
-    margin: 15px;
+    margin: 10px;
+}
+
+nav ul li select {
+    border: 0;
+    color: rgb(122, 121, 121);
 }
 
 .background-main {
@@ -117,6 +123,17 @@ nav ul li {
     font-size: 0.8em;
 }
 
+.main h8 {
+    color: rgb(139, 138, 138);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.main span {
+    color: rgb(201, 37, 37);
+    margin-bottom: 10px;
+}
+
 .main img {
     width: 240px;
     margin-top: 20px;
@@ -131,32 +148,34 @@ nav ul li {
 }
 
 .box-model {
-    margin: 10px auto;
+    margin: 0px auto;
+    width: 1080px;
 }
 
 .box-model h6{
     color: rgb(207, 205, 205);
     font-weight: bold;
-    margin: 20px;
+    margin-top: 30px;
     text-align: left;
 }
 
 .box-model p{
     color: rgb(165, 163, 163);
     font-size: 0.9em;
-    margin-left: 20px;
+    margin-bottom: 0;
 }
 
 .border-1 {
     border-bottom: 1px dotted rgb(165, 163, 163);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    margin-left: 0;
     padding: 0 auto;
 }
 
 footer{
     background-color: rgb(32, 32, 32);
-    height: 60px;
-    padding: 15px;
+    height: 50px;
+    padding-top: 15px;
 }
 
 
