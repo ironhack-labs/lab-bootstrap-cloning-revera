@@ -20,6 +20,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -30,10 +31,7 @@ nav ul li {
     margin: 10px;
 }
 
-nav ul li select {
-    border: 0;
-    color: rgb(122, 121, 121);
-}
+
 
 .background-main {
     background-image: url(./starter-code/img/project-2.jpg);
@@ -170,6 +168,10 @@ nav ul li select {
     margin-bottom: 20px;
     margin-left: 0;
     padding: 0 auto;
+}
+
+.box-model p:hover{
+    color: white;
 }
 
 footer{
