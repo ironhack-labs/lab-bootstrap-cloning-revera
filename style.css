@@ -1,0 +1,193 @@
+
+.one{
+    height: 90px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10;
+}
+
+.one h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.one div{
+  
+}
+
+button{
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 50px;
+    margin: 10px 325px 10px 325px;
+    border:3px;
+    border-color: white;
+
+}
+
+.one ul{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.one li{
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.one h2{
+    font-size: 24px;
+}
+
+#home{
+    color: red;
+}
+
+.one li:hover{
+    color: red;
+}
+
+
+
+.two{
+    background: url(./starter-code/img/slider-1.jpg) no-repeat;
+    height:550px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.two div{
+    width: 800px;
+    height: 262px;
+    text-align: center;
+}
+
+.two h2{
+    font-size: 36px;
+}
+
+.three{
+    height: 310px;
+    background-color: rgb(243, 19, 56);
+    color:white;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.three>.row{
+    width: 1170px;
+    margin:auto;
+}    
+
+.three h3{
+    font-size: 20px;
+}
+
+#icono {
+    border-width: 8px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.four{
+    margin-top: 45px;
+    border-bottom: 5px;
+    border-color: grey;
+}
+
+.four h3{
+    font-size: 24px;
+}
+
+.four p{
+    font-size: 10;
+    color: grey;
+}
+
+.five{
+
+    height: 500px;
+    margin-top: 30px;
+    border-block-start-width: 7px;
+    border-block-start-color: grey;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+
+.photo{
+    width: 100%;
+}
+
+
+.five>.row{
+    width: 1170px;
+    margin:auto
+}
+
+.six{
+    margin-top: 45px;
+    border-bottom: 5px;
+    border-color: grey;
+}
+
+.six h3{
+    font-size: 20px;
+}
+
+.six p{
+    font-size: 10;
+    color: grey;
+}
+
+.seven>.row{
+    width: 1170px;
+    margin:auto
+}
+
+.eight{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(58, 57, 57);
+    border-block-start-width: 10px;
+    border-top: rgb(243, 19, 56);
+    padding: 30px 60px 30px 60px;
+    align-items: center;
+}
+
+.eight h4{
+    font-size: 20px;
+}
+
+.eight>.row{
+    width: 1170px;
+    margin:auto;
+}
+
+.eight ul{
+    list-style-type: none;
+}
+
+.eight li{
+    border: white;
+    border-block-end-style: dotted;
+    padding: 10px 0 10px 0;
+}
+
+.nine{
+    color:white;
+    height: 100px;
+    padding-top: 15px;
+    background-color: rgb(31, 30, 30);
+    font-size: 8px;
+}
+
+
+.nine>.row{
+    width: 1170px;
+    margin:auto;
+}
