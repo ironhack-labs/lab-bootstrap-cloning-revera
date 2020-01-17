@@ -1,0 +1,18 @@
+.navbar{
+    background: white;
+    margin-top: 75px;
+    
+}
+.bg-light{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: xx-large;
+    
+}
+.btn-home{
+    color: tomato;
+}
+.btn-home:hover{
+    color: tomato;
+}
