@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: #F0F0F0;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, Sans-Serif;
+    border: 0;
+}
+
+.nav-bar{
+    background-color: white;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.nav-link{
+    color: black;
+}
+
+
+
+.redgroup{
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.card{
+    color: white;
+    background-color: tomato;
+    
+}
+
+.dibujito{
+    background-color: tomato;
+    width: 80px;
+    height: 80px;
+  
+}
+
+.projects{
+    justify-content: center;
+}
+
+.img-card{
+    width: 150px;
+    height: auto;
+}
