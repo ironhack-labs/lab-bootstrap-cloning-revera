@@ -1,0 +1,7 @@
+#navbar-id{
+    padding-left: 2%;
+}
+
+nav ul a:hover{
+    color: rgba(205, 10, 10, 0.564); /*No sirve de nada todavia*/
+}
