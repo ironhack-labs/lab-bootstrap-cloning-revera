@@ -35,11 +35,34 @@ body{
     
 }
 
+.card-deck{
+   
+    justify-content: center;
+}
+
+.card-img-top{
+    display: inline-block;
+    align-items: center;
+
+    height: 100px;
+    width: auto;
+}
+
+.imagenes-bonitas{
+    display: inline-block;
+    justify-content: space-between;
+   
+}
+
 .dibujito{
     background-color: tomato;
     width: 80px;
     height: 80px;
   
+}
+
+.cardst{
+    display: inline-block;
 }
 
 .projects{
