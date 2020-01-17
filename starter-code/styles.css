@@ -16,3 +16,8 @@
 .btn-home:hover{
     color: tomato;
 }
+
+.carousel-control-prev,.carousel-control-next{
+    background-color: tomato;
+    width: 45px;
+}
