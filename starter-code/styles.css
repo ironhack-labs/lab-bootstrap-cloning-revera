@@ -21,3 +21,16 @@
     background-color: tomato;
     width: 45px;
 }
+
+.col-sm-4, .homewidget{
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+
+.card-img-center{
+    margin-bottom: 15px;
+}
