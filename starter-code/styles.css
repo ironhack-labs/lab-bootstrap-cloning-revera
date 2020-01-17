@@ -32,5 +32,23 @@ text-align: center;
 }
 
 .card-img-center{
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section-info{
+    margin-top: 50px;  
+    
+}
+
+hr{
+    width: 82vw;
+    border-width: 2px;
+}
+.section-info>p, .section-info>h4{
+    padding-left: 120px;
+}
+.proyectos{
+    color:black;
+    text-decoration: none;
+    
 }
