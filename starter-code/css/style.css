@@ -1,0 +1,8 @@
+.carousel-inner{
+    background-image: url('./../img/overlay.png');
+}
+
+.carousel-item{
+    opacity: .0;
+
+}
