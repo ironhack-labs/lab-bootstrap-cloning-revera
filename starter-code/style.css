@@ -5,3 +5,13 @@
 nav ul a:hover{
     color: rgba(205, 10, 10, 0.564); /*No sirve de nada todavia*/
 }
+
+#test-div{
+    background-image: url("img/overlay.png") repeat;
+    background-repeat: repeat;
+    background-blend-mode: overlay; /*intento de poner las imagenes con el overlay FAIL*/
+}
+
+section:first-of-type div>div:first-of-type img{
+    opacity: 0.5; /*intento de poner las imagenes con el overlay FAIL*/
+}
