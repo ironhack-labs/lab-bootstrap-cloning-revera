@@ -52,3 +52,37 @@ hr{
     text-decoration: none;
     
 }
+
+.hr-footer{
+    width: 100%;
+    border-width: 6px;
+    border-color: tomato;
+    margin: 0;
+}
+.div-bottom{
+    background-color: #3b3b3b;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.hr-cards{
+    width: 99%;
+    border-width: 0.5px;
+    border-color: #aaa;
+    border-style: dashed;
+    margin: 0 0 10px 0; 
+}
+
+.footer{
+    background-color: #292929;
+    
+    margin: 0;
+    padding: 1% 0 1% 0;
+}
+
+.texto-footer{
+    color: #aaaaaa;
+    margin:0 0 0 8%;
+    font-size: 0.8rem;
+    
+}
