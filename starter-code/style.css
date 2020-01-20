@@ -1,0 +1,64 @@
+#header{
+    background-color: black;
+}
+  
+#info{
+    background-color: rgb(237, 86, 75);
+    color: white;
+}
+  
+#latest-projects,
+#latest-articles{
+    background-color: white;
+}
+  
+#footer{
+    background-color: rgb(59, 59, 59);
+}
+  
+#footer h4{
+    color: white;
+}
+  
+#copyright{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+  
+#bootstrap-overrides .navbar-brand{
+    background-color: white;
+}
+  
+#bootstrap-overrides .nav-item{
+    background-color: white;
+}
+  
+#bootstrap-overrides .collapse{
+    background-color: white;
+}
+  
+#bootstrap-overrides .bg-light{
+    background-color: white !important;
+}
+  
+#bootstrap-overrides .navbar :hover{
+    color: rgb(237, 86, 75);
+}
+  
+  #bootstrap-overrides .active {
+    color: rgb(237, 86, 75);
+  }
+  
+#bootstrap-overrides .carousel-control-prev-icon{
+    background-color: rgba(237, 86, 75, 100);
+    padding: 50px 20px;
+}
+  
+#bootstrap-overrides .carousel-control-next-icon{
+    background-color: rgba(237, 86, 75, 100);
+    padding: 50px 20px;
+}
+  
+#bootstrap-overrides #footer,a{
+    color: grey;
+}
