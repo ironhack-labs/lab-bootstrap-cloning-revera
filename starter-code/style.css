@@ -1,0 +1,75 @@
+*{
+    transition: all .5s;
+}
+
+.row div{
+    border: 1px solid bisque;
+
+}
+
+.row.banner{
+    background: red;
+}
+
+ul.navbar-nav.mr-auto {
+    position: initial;
+    right: initial;
+}
+
+@media (min-width:992px){
+    ul.navbar-nav.mr-auto {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+
+.banner .col-md-4{
+    color:white;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.banner h2, .banner i{
+    display: block;
+    text-align: center;
+}
+
+.banner i{
+    font-size: 64px;
+}
+
+.row.row.images .col-md-3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.row.images.first .col-md-3:hover{
+    filter: sepia(1);
+}
+
+.row.images .col-md-3:hover{
+    filter: invert(1);
+}
+
+.row.images .col-md-3:nth-child(1){
+    background-image: url('./img/project-1.jpg');
+
+}
+
+.row.images .col-md-3:nth-child(2){
+    background-image: url('./img/project-2.jpg');
+
+}
+.row.images .col-md-3:nth-child(3){
+    background-image: url('./img/project-3.jpg');
+
+}
+
+.row.images .col-md-3:nth-child(4){
+    background-image: url('./img/project-4.jpg');
+
+}
