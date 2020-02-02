@@ -1,0 +1,233 @@
+h3 {
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+h5 {
+
+    font-size: 32px;
+
+
+}
+
+button {
+
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+
+
+}
+
+
+a {
+    color: #aaa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.active {
+
+    color: rgb(214, 3, 3);
+
+}
+
+a:hover {
+
+    color: rgb(214, 3, 3);
+
+}
+
+header {
+
+display: flex;
+padding: 20px;
+
+
+}
+
+div.title-box {
+
+margin-left: 100px;
+font-weight: 600;
+margin-right: 200px;
+
+
+}
+
+#carouselExampleSlidesOnly img {
+
+    filter: grayscale(100%);
+
+}
+
+#carouselExampleSlidesOnly span {
+
+
+    border: red solid;
+    background-color: red;
+    height: 100px;
+    width: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+
+.carousel-caption {
+
+margin-bottom: 200px;
+padding: 0px 200px;
+
+}
+
+
+
+.usp {
+
+    background: #ed564b;
+    color: white;
+
+}
+
+.card {
+
+    border: none;
+
+
+}
+
+
+
+div.usp-container {
+
+    padding: 40px 100px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+
+}
+
+
+.usp-container span {
+
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+div.article-container {
+
+    padding: 40px 100px;
+    margin: 0px 40px 0px 40px;
+
+}
+
+div.section-header {
+
+    border-bottom: gray solid thin;
+
+}
+
+
+div.bottom {
+
+    padding: 20px 100px 40px 100px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+
+}
+
+div.bottom .bottom-box {
+
+    color: #aaa;
+
+
+}
+
+div.bottom .bottom-box p {
+
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+
+
+}
+
+div.bottom .bottom-box ul {
+
+    padding-left: 0px;
+
+
+}
+
+
+div.bottom .bottom-box ul li {
+
+    list-style: none;
+    padding-bottom: 4px;
+    border-bottom: gray dotted thin;
+
+
+}
+
+
+
+footer {
+
+    padding: 10px 100px;
+    background: #292929;
+    font-size: 12px;
+
+}
+
+
+div.disclaimer {
+
+    padding: 10px 0px;
+    color: #eee;
+
+}
+
+
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+    margin-bottom: 10px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #ffffff;
+}
+
+.svg-icon circle {
+    stroke: #ffffff;
+    stroke-width: 1;
+}
