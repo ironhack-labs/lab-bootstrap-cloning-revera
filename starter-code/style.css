@@ -1,0 +1,27 @@
+.footer-hr{
+    border: 2px solid red;
+    margin: 0;
+}
+.footer {
+    background-color: #404040;
+}
+.navbar {
+    height: 100px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.carousel-img {
+   filter:  grayscale(100%);
+}
+.web-items {
+    background-color: rgb(245, 84, 56);
+}
+.read {
+    background-color: transparent;
+}
