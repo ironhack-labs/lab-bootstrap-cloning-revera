@@ -1,0 +1,37 @@
+.carousel-item {
+  filter: grayscale(100%);
+}
+
+.large-font {
+    font-size: 2rem;
+}
+
+.img-width {
+    width: 100%;
+}
+
+.img-dotted {
+    height: 10px;
+    width: 100%;
+}
+
+.smaller-fonts {
+    font-size: 0.5em;
+}
+
+.small-fonts {
+    font-size: 0.8em;
+}
+
+.header-fonts {
+    font-size: 0.9em;
+}
+
+.footer-bg {
+    background-color: #292929;
+}
+
+hr.dotted {
+  border-top: 2px dotted #5a5a5a;
+}
+

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" class="css" />
+
+    <title>Revera Template</title>
+  </head>
+  <body>
+    <header>
+      <!-- the navbar-expand-sm & d-sm-flex & flex-sm-wrap is for responsiveness -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="mx-auto d-sm-flex flex-sm-wrap">
+          <span class="navbar-brand mb-0 pr-5 h1 font-weight-bold">REVERA</span>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav small-fonts">
+              <li class="nav-item active">
+                <a href="#" class="nav-link text-danger">Home</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sample page</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Parent page
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Full page</a>
+                  <a class="dropdown-item" href="#">Child Page 1</a>
+                  <a class="dropdown-item" href="#">Child Page 2</a>
+                </div>
+              </li>
+
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <!-- <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider-1.jpg" class="d-block w-100" alt="slider-1" />
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+              <p class="text-uppercase large-font">
+                Eveniet numquam dolore obcaecati pariatur distinctio ea minus corrupti
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempora vel, suscipit similique
+                magni ab accusantium quos doloribus veritatis atque, obcaecati facere. Harum ad magni totam fuga
+                voluptatum iusto et modi obcaecati expedita distinctio nemo at, tenetur, laboriosam mollitia dolorem
+                praesentium blanditiis tempora quo. Illo rem esse quos consequatur culpa.
+              </p>
+              <span class="btn btn-outline-light rounded-0 p-1 px-4">Read more</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-2.jpg" class="d-block w-100" alt="slider-2" />
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+              <p class="text-uppercase large-font">
+                Eveniet numquam dolore obcaecati pariatur distinctio ea minus corrupti
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempora vel, suscipit similique
+                magni ab accusantium quos doloribus veritatis atque, obcaecati facere. Harum ad magni totam fuga
+                voluptatum iusto et modi obcaecati expedita distinctio nemo at, tenetur, laboriosam mollitia dolorem
+                praesentium blanditiis tempora quo. Illo rem esse quos consequatur culpa.
+              </p>
+              <span class="btn btn-outline-light rounded-0 p-1 px-4">Read more</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-3.jpg" class="d-block w-100" alt="slider-3" />
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+              <p class="text-uppercase large-font">
+                Eveniet numquam dolore obcaecati pariatur distinctio ea minus corrupti
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempora vel, suscipit similique
+                magni ab accusantium quos doloribus veritatis atque, obcaecati facere. Harum ad magni totam fuga
+                voluptatum iusto et modi obcaecati expedita distinctio nemo at, tenetur, laboriosam mollitia dolorem
+                praesentium blanditiis tempora quo. Illo rem esse quos consequatur culpa.
+              </p>
+              <span class="btn btn-outline-light rounded-0 p-1 px-4">Read more</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-4.jpg" class="d-block w-100" alt="slider-4" />
+            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+              <p class="text-uppercase large-font">
+                Eveniet numquam dolore obcaecati pariatur distinctio ea minus corrupti
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempora vel, suscipit similique
+                magni ab accusantium quos doloribus veritatis atque, obcaecati facere. Harum ad magni totam fuga
+                voluptatum iusto et modi obcaecati expedita distinctio nemo at, tenetur, laboriosam mollitia dolorem
+                praesentium blanditiis tempora quo. Illo rem esse quos consequatur culpa.
+              </p>
+              <span class="btn btn-outline-light rounded-0 p-1 px-4">Read more</span>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev d-flex justify-content-start"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon bg-danger text-white py-5 px-3" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next d-flex justify-content-end"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon bg-danger text-white py-5 px-3" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row bg-danger text-light text-center pt-5">
+          <div class="col-1"><!-- filler --></div>
+          <div class="col mt-2">
+            <span class="border border-light rounded-circle p-3">
+              <i class="fas fa-glass-martini"></i>
+            </span>
+          </div>
+          <div class="col mt-2">
+            <span class="border border-light rounded-circle p-3">
+              <i class="fas fa-star"></i>
+            </span>
+          </div>
+          <div class="col mt-2">
+            <span class="border border-light rounded-circle p-3">
+              <i class="fas fa-heart"></i>
+            </span>
+          </div>
+          <div class="col-1"><!-- filler --></div>
+        </div>
+        <div class="row bg-danger text-light text-center pt-4">
+          <div class="col-1"><!-- filler --></div>
+          <div class="col mb-5">
+            <span class="font-weight-bold">Web design</span>
+            <p class="mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque fugit quos sequi doloremque
+              molestias vitae magnam doloribus aut molestiae.
+            </p>
+          </div>
+          <div class="col mb-5">
+            <span class="font-weight-bold">Web development</span>
+            <p class="mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perspiciatis totam necessitatibus
+              mollitia culpa sapiente iste sunt optio eligendi consequatur.
+            </p>
+          </div>
+          <div class="col mb-5">
+            <span class="font-weight-bold">User interface</span>
+            <p class="mt-2">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quis neque reprehenderit accusamus esse
+              vel? In nostrum animi debitis obcaecati!
+            </p>
+          </div>
+          <div class="col-1"><!-- filler --></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-8">
+            <span class="h4 text-uppercase font-weight-bold">latest projects</span>
+            <p class="text-uppercase my-1 text-black-50 header-fonts">few of the latest portfolio items</p>
+            <hr class="mb-4" />
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+        <div class="row">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-2">
+            <img src="img/project-1.jpg" class="img-width" alt="project-1" />
+            <p class="text-center mt-2 small-fonts">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="col-2">
+            <img src="img/project-2.jpg" class="img-width" alt="project-2" />
+            <p class="text-center mt-2 small-fonts">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="col-2">
+            <img src="img/project-3.jpg" class="img-width" alt="project-3" />
+            <p class="text-center mt-2 small-fonts">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="col-2">
+            <img src="img/project-4.jpg" class="img-width" alt="project-4" />
+            <p class="text-center mt-2 small-fonts">Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-8">
+            <span class="h4 text-uppercase font-weight-bold">latest articles</span>
+            <p class="text-uppercase my-1 text-black-50 header-fonts">latest posts from the blog</p>
+            <hr class="mb-4" />
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+        <div class="row">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-2">
+            <img src="img/slider-1.jpg" class="img-width" alt="slider-1" />
+            <p class="font-weight-bold mt-2 mb-2">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="text-black-50 text-uppercase font-weight-bold smaller-fonts">
+              posted on <span class="text-danger">august 19, 2013</span> by <span class="text-danger">admin</span>
+            </p>
+            <p class="text-black-50 small-fonts">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate reprehenderit fuga exercitationem.
+              Praesentium delectus ipsum id aspernatur laudantium quaerat qui dolores aliquam sequi! Quod facilis quia
+              optio earum, a aliquam, omnis neque quasi iste aliquid facere mollitia unde necessitatibus dolore! Earum
+              omnis nostrum voluptate atque magni praesentium magnam iure non!
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="img/slider-2.jpg" class="img-width" alt="slider-2" />
+            <p class="font-weight-bold mt-2 mb-2">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="text-black-50 text-uppercase font-weight-bold smaller-fonts">
+              posted on <span class="text-danger">august 19, 2013</span> by <span class="text-danger">admin</span>
+            </p>
+            <p class="text-black-50 small-fonts">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate reprehenderit fuga exercitationem.
+              Praesentium delectus ipsum id aspernatur laudantium quaerat qui dolores aliquam sequi! Quod facilis quia
+              optio earum, a aliquam, omnis neque quasi iste aliquid facere mollitia unde necessitatibus dolore! Earum
+              omnis nostrum voluptate atque magni praesentium magnam iure non!
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="img/slider-3.jpg" class="img-width" alt="slider-3" />
+            <p class="font-weight-bold mt-2 mb-2">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="text-black-50 text-uppercase font-weight-bold smaller-fonts">
+              posted on <span class="text-danger">august 19, 2013</span> by <span class="text-danger">admin</span>
+            </p>
+            <p class="text-black-50 small-fonts">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate reprehenderit fuga exercitationem.
+              Praesentium delectus ipsum id aspernatur laudantium quaerat qui dolores aliquam sequi! Quod facilis quia
+              optio earum, a aliquam, omnis neque quasi iste aliquid facere mollitia unde necessitatibus dolore! Earum
+              omnis nostrum voluptate atque magni praesentium magnam iure non!
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="img/slider-4.jpg" class="img-width" alt="slider-4" />
+            <p class="font-weight-bold mt-2 mb-2">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="text-black-50 text-uppercase font-weight-bold smaller-fonts">
+              posted on <span class="text-danger">august 19, 2013</span> by <span class="text-danger">admin</span>
+            </p>
+            <p class="text-black-50 small-fonts">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate reprehenderit fuga exercitationem.
+              Praesentium delectus ipsum id aspernatur laudantium quaerat qui dolores aliquam sequi! Quod facilis quia
+              optio earum, a aliquam, omnis neque quasi iste aliquid facere mollitia unde necessitatibus dolore! Earum
+              omnis nostrum voluptate atque magni praesentium magnam iure non!
+            </p>
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-12 bg-danger p-1"><!-- filler --></div>
+        </div>
+        <div class="row text-white-50 bg-dark">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-2">
+            <p class="mt-5 text-white text-uppercase font-weight-bold">revera</p>
+          </div>
+          <div class="col-2">
+            <p class="mt-5 text-white text-uppercase font-weight-bold">meta</p>
+          </div>
+          <div class="col-2">
+            <p class="mt-5 text-white text-uppercase font-weight-bold">archives</p>
+          </div>
+          <div class="col-2">
+            <p class="mt-5 text-white text-uppercase font-weight-bold">recent posts</p>
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+        <div class="row text-white-50 bg-dark">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-2">
+            <p class="mt-2 mb-5 small-fonts">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellat magnam necessitatibus consectetur
+              ipsa perspiciatis nesciunt est voluptatibus omnis, accusantium illum dignissimos, tempora quis asperiores
+            </p>
+          </div>
+          <div class="col-2 mt-2 mb-5">
+            <p class="small-fonts mb-2">Log in</p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts mb-2">Entries <abbr title="attribute">RSS</abbr></p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts mb-2">Comments <abbr title="attribute">RSS</abbr></p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts">WordPress.org</p>
+          </div>
+          <div class="col-2 mt-2 mb-5">
+            <p class="small-fonts mb-2">February 2020</p>
+            <hr class="dotted mt-1 mb-1" />
+          </div>
+          <div class="col-2 mt-2 mb-5">
+            <p class="small-fonts mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts mb-2">Lorem ipsum dolor sit amet.</p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <hr class="dotted mt-1 mb-1" />
+            <p class="small-fonts">Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+            <hr class="dotted mt-1 mb-1" />
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row text-white-50 footer-bg">
+          <div class="col-2"><!-- filler --></div>
+          <div class="col-8 mt-3">
+            <p class="small-fonts">Copyright &copy; 2020 Daniel Hoogerwerf - Just another exercise done :)</p>
+          </div>
+          <div class="col-2"><!-- filler --></div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/279db6ff02.js" crossorigin="anonymous"></script>
+  </body>
+</html>
