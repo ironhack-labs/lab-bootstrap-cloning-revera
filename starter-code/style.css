@@ -1,0 +1,4 @@
+.bw-color {
+    filter: grayscale(100%) brightness(80%);
+}
+
