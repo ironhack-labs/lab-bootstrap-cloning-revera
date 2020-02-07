@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a {
+    color: #aaa;
+}
+nav ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+header select {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 20px;
+}
+div.carousel-inner {
+    position: relative;
+}
+div.carousel-item img {
+    filter: grayscale(100%);
+}
+div.overlay {
+    background-image: url('../img/overlay.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#carouselExampleCaptions .carousel-control-prev div {
+    background-color: red;
+    width: 50px;
+    height: 100px;
+}
+#carouselExampleCaptions .carousel-control-prev span {
+    width: 40px;
+    height: 40px;
+}
+
+#carouselExampleCaptions .carousel-control-next div {
+    background-color: red;
+    width: 50px;
+    height: 100px;
+}
+#carouselExampleCaptions .carousel-control-next span {
+    width: 40px;
+    height: 40px;
+}
+#fwidgets {
+    width: 100%;
+    padding: 40px;
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    color: white;
+}
+#fwidgets h3,#fwidgets p {
+    text-align: center;
+}
+
+#fwidgets span {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    display: block;
+    border: 5px solid white;
+    border-radius: 35px;
+    margin: 0 auto;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+}
+#content .section-wide {
+    margin-top: 40px;
+}
+#content .section-title {
+    padding-bottom: 20px;
+}
+.section-title h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+.section-title p {
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #aaa;
+    border-bottom: 1px solid #aaa;
+}
+#content h3 {
+    text-align: center;
+    font-size: 16px;
+}
+#content .sec {
+    margin-bottom: 40px;
+}
+#content .sec h3 {
+    padding-bottom: 30px;
+}
+#bottom {
+    background-color: #3b3b3b;
+    padding: 20px 0px 40px 0px;
+    border-top:5px solid #ed564b;
+}
+#bottom h3 {
+    color: white;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+#bottom p {
+    color: #aaa;
+}
+#bottom ul {
+    list-style-type: none;
+    
+}
+#bottom ul li a {
+    display: block;
+    text-decoration: none;
+    color: #aaa;
+    padding: 7px 0px 7px 0px;
+    border-bottom: 1px dotted #aaa;
+}
+.site-footer {
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0px;
+}
