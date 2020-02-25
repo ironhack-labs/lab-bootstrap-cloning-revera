@@ -1,0 +1,104 @@
+body{
+    
+}
+
+/** Nav Section **/
+.nav{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+/** Red Section **/
+
+.red-section{
+    background-color: #ed564b;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.red-section h3{
+    color: white;
+    text-align: center;
+}
+
+.red-section p{
+    color: white;
+    text-align: center;
+}
+
+/** White Section **/
+
+.white-section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.white-section h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.white-section h3 {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.white-section h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.white-section h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.white-section h5>a{
+    color: #f4473a;
+}
+
+
+/** Footer Section **/
+.footer{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+}
+
+.footer h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer p{
+
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+
+}
+
+.footer a {
+
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+
+}
+
+.footer li{
+    list-style-type: none;
+}
