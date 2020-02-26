@@ -22,3 +22,15 @@ filter:grayscale(100%)brightness(50%);
     border-bottom: 1px dotted; 
 }
 
+.hover-black:hover{
+    color:black !important
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background:rgb(237,86,74);
+    height: 100px;
+    width: 50px;
+    opacity: 0.8;
+    top: 50%;
+  }
+
