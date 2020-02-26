@@ -1,0 +1,7 @@
+#hr1 {
+    height: 5px;
+}
+
+.crl-img {
+    filter: grayscale();
+}

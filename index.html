@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
     </head>
     <body>
         <div class="ml-5">
             <nav class="row m-0 d-flex justify-content-between">
                 <h1 class = "font-weight bold">REVERA</h1>
-                <ul class="d-flex flex-row list-unstyled">
+                <ul class="d-flex flex-row align-items-center list-unstyled">
                     <li class= "p-2">Home</li>
                     <li class= "p-2">About</li>
                     <li class= "p-2">Sample page</li>
@@ -39,32 +40,47 @@
     
     <div class="row">
         <div class="container-fluid">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="container">
-                            <img src="./starter-code/img/slider-1.jpg" class="d-block w-100" alt="puppies"> 
-                            <div class="position-absolute">check</div>
+                        <img class="d-block w-100 crl-img" src="./starter-code/img/slider-1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CatDog</h5>
+                            <p>some text some text some text </p>
                         </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-item active">
-                        <div class="container">
-                            <img src="./starter-code/img/slider-2.jpg" class="d-block w-100" alt="coffee plant"> 
-                            <div class="position-absolute">check</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 crl-img" src="./starter-code/img/slider-2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Some cat</h5>
+                            <p>some text some text some text</p>
                         </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-item active">
-                        <div class="container">
-                            <img src="./starter-code/img/slider-3.jpg" class="d-block w-100" alt="poppies"> 
-                            <div class="position-absolute">check</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 crl-img" src="./starter-code/img/slider-3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Poppy</h5>
+                            <p>some text some text some text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 crl-img" src="./starter-code/img/slider-4.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>We're lost!</h5>
+                            <p>Please heelp</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>  
-    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </div>
         <div class="container-fluid bg-danger text-white pl-5 pr-5">
             <div class="row d-flex justify-content-center p-4">
                 <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
@@ -174,37 +190,38 @@
             </div>
         </div>
     </div>
-    <div class="row bg-secondary p- text-white pl-5 pr-5 d-flex align-content-center">
+    <hr id = "hr1"class="m-0 bg-danger">
+    <div class="row bg-secondary p-5 text-white pl-5 pr-5 d-flex align-content-center">
         <div class="col-6 col-lg-3 w-25">
             <h5 class="text-uppercase">something</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae quisquam amet laboriosam nobis suscipit alias aut molestiae sunt natus, sit consequuntur laudantium. Illum pariatur dicta provident corrupti rem fugit?</p>
         </div>
         <div class="col-6 col-lg-3 w-25">
             <h5 class="text-uppercase">something</h3>
-            <ul>
+            <ul class = "list-unstyled">
                 <li>Log In</li>
-                <hr class="bg-light">
+                <hr class="bg-light m-1">
                 <li>smsms</li>
-                <hr class="bg-light">
+                <hr class="bg-light m-1">
                 <li>sads</li>
-                <hr class="bg-light">
+                <hr class="bg-light m-1">
                 <li>asdsda</li>
-                <hr class="bg-light">
+                <hr class="bg-light m-1">
             </ul>
         </div>
         <div class="col-6 col-lg-3 w-25">
             <h5 class="text-uppercase">something</h3>
             <p>Lorem ipsum dolor sit amet</p>
-            <hr class="bg-light">
+            <hr class="bg-light m-1">
         </div>
         <div class="col-6 col-lg-3 w-25">
             <h5 class="text-uppercase">something</h5>
             <p>Lorem ipsum dolor sit amet</p>
-            <hr class="bg-light">
+            <hr class="bg-light m-1">
             <p>Lorem ipsum dolor sit amet</p>
-            <hr class="bg-light">
+            <hr class="bg-light m-1">
             <p>Lorem ipsum dolor sit amet</p>
-            <hr class="bg-light">
+            <hr class="bg-light m-1">
         </div>
     </div>
     <div class="row bg-dark p-0 text-white">
