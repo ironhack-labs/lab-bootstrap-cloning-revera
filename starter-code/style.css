@@ -2,7 +2,7 @@
 
 .carousel-img{
 
-filter:grayscale(100%);
+filter:grayscale(100%)brightness(50%);
 
 }
 
@@ -18,3 +18,7 @@ filter:grayscale(100%);
 .footer-font{
     font-size: 0.8em;
 }
+.bottom-border{
+    border-bottom: 1px dotted; 
+}
+
