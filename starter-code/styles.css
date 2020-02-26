@@ -1,0 +1,115 @@
+/* HEADER OF WEBSITE */
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+li a {
+    color: grey;
+}
+
+#dropdownMenu {
+    color: grey;
+}
+
+#dropdownMenu:hover {
+    color: red;
+}
+
+li a:hover {
+    color: red
+}
+
+#main {
+    display: flex;
+}
+
+.branding h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainmenu {
+    display: flex;
+}
+
+
+/* SLIDEBOX CAROUSEL */
+
+.carousel-item,
+.carousel-item img {
+    align-items: center;
+}
+
+.slidebox img {
+    filter: grayscale(100%);
+}
+
+
+/* RED BAR WIDGETS */
+
+.widgets {
+    background-color: rgb(250, 73, 73);
+    color: white;
+    text-align: center;
+    padding: 0px 165px;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* BLOG-LIKE CONTENT */
+
+.row img {
+    width: 100%;
+}
+
+hr.new4 {
+    border: 3px solid red;
+    margin: 0;
+}
+
+
+/* DARK GREY BOTTOM PART WITH LINKS*/
+
+.bottom {
+    background-color: rgb(54, 53, 58);
+    box-sizing: border-box;
+    font-size: small;
+    padding: 25px 150px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: dimgray;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: small;
+    color: white;
+    margin: 0;
+    padding: 5px 0px 0px 100px;
+}
