@@ -1,0 +1,58 @@
+
+nav{
+    height: 10vh;
+}
+.navbar-brand{
+    font-size: 2rem;
+    padding: 0 25rem;
+}
+nav ul{
+    font-size: 1rem;
+}
+.carousel button{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.carousel img{
+    filter: grayscale(100%);
+}
+#carouselExampleCaptions a{
+ background-color: red;
+ height: 15vh;
+ width:5vh;
+ margin: 25em 0em; 
+}
+
+#skills div{
+    background-color: #EC564B;
+    color: white;
+}
+.small-photos{
+    margin-left: 23rem;
+}
+.container-fluid h1{
+    font-size: 2rem;
+}
+.grey-box{
+    background-color: #4B4444;
+    color: white;
+    border-top: 6px solid red;
+    padding-left: 34vh;
+    padding-right: 34vh;
+}
+.grey-small{
+    background-color: #3B3B3B;
+    padding-left: 35vh;
+    padding-right: 35vh;
+    color: white;
+}
+.subs p{
+    border-bottom: 1px solid white;
+}
+.text-photo h1{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.text-photo{
+    font-size: 1rem;
+}
