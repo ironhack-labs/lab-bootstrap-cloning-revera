@@ -1,0 +1,112 @@
+.blackWhite {
+    filter: grayscale(100%);
+}
+
+.ho {
+    display: flex;
+    justify-content: center;
+}
+
+.ho_ {
+    display: flex;
+    justify-content: center;
+}
+
+.ho- {
+    display:flex;
+    justify-content: space-around;
+}
+
+.space {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.space_ {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.spa {
+    padding-bottom: 30px;
+}
+
+.borde {
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.tamaño {
+    width: 320px;
+    height: 190px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.pad_sentence {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pad_sentence_1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fontsize- {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fontsize {
+    font-size: 11.2px;
+    font-weight: 600;
+}
+
+.fontsize_ {
+    font-size: 12px;
+}
+
+.fontsize-1 {
+    font-size: 14px;
+}
+
+
+.fontsize- {
+    font-size: 14px;
+    text-decoration-style: dotted;
+}
+
+.orange_words {
+    color: darkorange;
+}
+
+.redline {
+    border-top: 5.5px solid red;
+    background-color: grey;
+}
+
+.title {
+    font-size: 18px;
+    color: white;
+}
+
+
+.final {
+    background-color: black;
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
