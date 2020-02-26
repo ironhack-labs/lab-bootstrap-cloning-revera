@@ -1,0 +1,36 @@
+.flex-navigator{
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.zIndex{
+    z-index:1;  
+}
+.textCarousel{
+    position: absolute;
+    top:50%;
+    left:30%;
+    z-index:3;
+}
+.imgOscura{
+    background-color: rgba(0,0,0,0.8)
+}
+.grey{
+    filter: grayscale(90%);
+}
+.doverlay {
+    background: url(http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    
+}
