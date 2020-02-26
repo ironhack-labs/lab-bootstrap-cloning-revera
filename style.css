@@ -1,0 +1,57 @@
+*/{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-brand{
+    font-size: 32px;
+}
+.d-block{
+    filter: grayscale(100%)
+
+}
+.red{
+    background-color: #ed564b;
+    
+    text-align: center;
+}
+.gris{
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+.circle{
+    border-radius: 70px;
+    border: 5px solid white;
+    padding: 20px;
+
+}
+p{
+    padding: 5px;
+    
+}
+.col{
+    padding-top: 60px;
+}
+h2{
+    padding-top: 40px;
+}
+.date{
+    color: tomato;
+}
+.gray{
+    background-color: #292929;
+    height: 80px;
+    
+}
+.fcred{
+    
+    font-size: 12px;
+
+}
+.doverlay {
+    background: url(starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
