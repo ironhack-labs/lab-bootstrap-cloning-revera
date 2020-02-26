@@ -1,0 +1,22 @@
+nav.navbar {
+  padding-bottom: 2rem;
+  padding-top: 5.5rem;
+  padding-left: 5rem;
+}
+
+nav.navbar a.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+#navbarNavDropdown .nav-item .nav-link.home:nth-child(1) {
+  color: #ed564b;
+}
+
+#navbarNavDropdown .nav-item .nav-link:hover {
+  color: #ed564b;
+}
+
+.nav-item .nav-link {
+  font-size: 0.9rem;
+}

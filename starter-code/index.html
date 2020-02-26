@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="./styles/import-styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="nav-header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">REVERA</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,18 +35,28 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div
+          class="collapse justify-content-center navbar-collapse"
+          id="navbarNavDropdown"
+        >
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
+            <li class="nav-item">
+              <a class="nav-link home" href="#"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sample page</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -58,7 +68,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown link
+                Parent page
               </a>
               <div
                 class="dropdown-menu"
@@ -70,9 +80,9 @@
               </div>
             </li>
           </ul>
-          <ul>
+          <ul class="navbar-nav">
             <div>
-              <li><a href="">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
             </div>
           </ul>
         </div>
