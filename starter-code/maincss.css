@@ -1,0 +1,27 @@
+.carousel-caption{
+    position: absolute;
+    left: 0;
+    width: 68%;
+    top: 36%;
+    margin-left: 15%;
+}
+#myimage {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+         filter: grayscale(100%);
+}
+#size{
+    font-size: smaller;
+
+}
+
+#graycolor{
+    background-color: rgb(83, 81, 81);
+}
+
+
+.col-lg-4 {
+    text-align: center;
+}
