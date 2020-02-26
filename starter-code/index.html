@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light h-100 navbar-collapse justify-conten">
+        <a class="navbar-brand font-weight-bold h2 col-4" href="#">REVERA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-conten col-8" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-danger" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sample page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle text-muted" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Parent page
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Full page</a>
+                  <a class="dropdown-item" href="#">Child page 1</a>
+                  <a class="dropdown-item" href="#">Child page 2</a>
+                </div>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+           </ul>
+        </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="innerEffect"></div>
+            <img src="./img/slider-1.jpg" class="d-block w-100 img-fluid " alt="Slide one">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h3>
+              <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+              <button type="button" class="btn btn-outline-secondary font-weight-bold btn-outline-light">READ MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="innerEffect"></div>
+            <img src="./img/slider-2.jpg" class="d-block w-100 img-fluid" alt="Slide two">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM</h3>
+              <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+              <button type="button" class="btn btn-outline-secondary font-weight-bold btn-outline-light">READ MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="innerEffect"></div>
+            <img src="./img/slider-3.jpg" class="d-block w-100 img-fluid" alt="Slide three">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h3>
+              <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+              <button type="button" class="btn btn-outline-secondary font-weight-bold btn-outline-light">READ MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="innerEffect"></div>
+            <img src="./img/slider-4.jpg" class="d-block w-100 img-fluid" alt="Slide four">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h3>
+              <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+              <button type="button" class="btn btn-outline-secondary font-weight-bold btn-outline-light">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <section id="skills" class="bg-danger p-5">
+        <div class="container-fluid">
+            <div class="row text-center px-5">
+                <div class="col-lg-4 col-sm-10 mx-auto mb-5 px-5">
+                <i class="border p-3 border-white border-width rounded-circle fas text-white fa-glass-martini fa-3x "></i>
+                <h4 class="text-white pt-5 font-weight-bold">Web design</h4>
+                <p class="text-white text-center">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius.</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-10 mx-auto mb-5 px-5">
+                <i class="border p-3 border-white border-width rounded-circle fas text-white fa-star fa-3x "></i>
+                <h4 class="text-white pt-5 font-weight-bold">Web development</h4>
+                <p class="text-white text-center">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-10 mx-auto mb-5 px-5">
+                <i class="border p-3 border-white border-width rounded-circle fas text-white fa-heart fa-3x "></i>
+                <h4 class="text-white  pt-5 font-weight-bold">User interface</h4>
+                <p class="text-white text-center">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            </div>
+        </div>
+      </section>
+      
+      <section id="projects" class="p-5 mx-5">
+        <div class="container-fluid">
+            <div class="row  pt-2 justify-content-center">
+                <div class="col-lg-2 col-sm-6 mb-3">
+                    <h3 class="font-weight-bold">Latest Projects</h1>
+                        <p class="text-muted lead">Few of the latest portfolio items</p>
+                </div>
+                <div class="col-lg-2 col-sm-6 mb-3"></div>
+                <div class="col-lg-2 col-sm-6 mb-3"></div>
+                <div class="col-lg-2 col-sm-6 mb-3"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-sm-6">
+                    <img src="./img/project-1.jpg" class="img-thumbnail" alt="The man">
+                    <p class="text-muted"> Nunc libero elit, iaculis nec augue non</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <img src="./img/project-2.jpg" class="img-thumbnail" alt="Kitten">
+                    <p class="text-muted">Nunc libero elit, iaculis nec augue non</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <img src="./img/project-3.jpg" class="img-thumbnail"  alt="Rose">
+                    <p class="text-muted">Nunc libero elit, iaculis nec augue non</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <img src="./img/project-4.jpg" class="img-thumbnail"  alt="Girl">
+                    <p class="text-muted"> Nunc libero elit, iaculis nec augue non</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="articles" class="p-5">
+      <div class="container-fluid">
+          <div class="row  pt-2 justify-content-center">
+              <div class="col-lg-2 col-sm-6 mb-3">
+                  <h3 class="font-weight-bold">Latest articles</h1>
+                      <p class="text-muted lead">Latests posts from the blog</p>
+              </div>
+              <div class="col-lg-2 col-sm-6 mb-3"></div>
+              <div class="col-lg-2 col-sm-6 mb-3"></div>
+              <div class="col-lg-2 col-sm-6 mb-3"></div>
+          </div>
+          
+          <div class="row pt-2 justify-content-center">
+              <div class="col-lg-2 col-sm-6">
+                  <img src="./img/slider-1.jpg" class="img-thumbnail" alt="cat&dog">
+                  <h5 class="my-3 font-weight-bold">Etiam mauris tortor, pharetra quis lobortis in</h5>
+                  <p class="d-inline text-muted font-weight-bold">POSTED ON </p>
+                  <p class="d-inline text-danger font-weight-bold hover-black">AUGUST 19, 2013</p>
+                  <p class="d-inline text-muted font-weight-bold"> BY </p>
+                  <p class="d-inline font-weight-bold text-danger hover-black">ADMIN</p>
+                  <p class="text-muted">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img src="./img/slider-2.jpg" class="img-thumbnail" alt="Nature">
+                  <h5 class="my-3 font-weight-bold">Falauris sollicitudin quis dolor venenatis facilisis</h5>
+                  <p class="d-inline text-muted font-weight-bold">POSTED ON </p>
+                  <p class="d-inline text-danger font-weight-bold hover-black">AUGUST 19, 2013</p>
+                  <p class="d-inline text-muted font-weight-bold"> BY </p>
+                  <p class="d-inline font-weight-bold text-danger hover-black">ADMIN</p>
+                  <p class="text-muted">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […</p>
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img src="./img/slider-3.jpg" class="img-thumbnail"  alt="Flowers">
+                  <h5 class="my-3 font-weight-bold">Suspendisse ornare, felis feugiat suscipit pharetra</h5>
+                  <p class="d-inline text-muted font-weight-bold">POSTED ON </p>
+                  <p class="d-inline text-danger font-weight-bold  hover-black">AUGUST 19, 2013</p>
+                  <p class="d-inline text-muted font-weight-bold"> BY </p>
+                  <p class="d-inline font-weight-bold text-danger hover-black">ADMIN</p>
+                  <p class="text-muted">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+              </div>
+              <div class="col-lg-2 col-sm-6"> 
+                  <img src="./img/slider-4.jpg" class="img-thumbnail"  alt="People">
+                  <h5 class="my-3 font-weight-bold">Festibulum purus odio, ornare non posuere</h5>
+                  <p class="d-inline text-muted font-weight-bold">POSTED ON </p>
+                  <p class="d-inline text-danger font-weight-bold hover-black">AUGUST 19, 2013</p>
+                  <p class="d-inline text-muted font-weight-bold"> BY </p>
+                  <p class="d-inline font-weight-bold text-danger hover-black">ADMIN</p>
+                  <p class="text-muted">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+              </div>
+          </div>
+    </section>
+      
+    <div class="py-1 bg-danger"></div>
+
+    <section class="bg-secondary px-5 pt-5">
+      <div class="container-fluid">
+          <div class="row justify-content-center footer-font">
+              <div class="col-lg-2 col-sm-6 mb-3">
+                  <h5 class="text-white">REVERA</h5>
+                  <p class="text-grey">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+              </div>
+              <div class="col-lg-2 col-sm-6 mb-3">
+                 <h5 class="text-white">META</h5>
+                 <p>Log in</p>
+                 <hr>
+                 <p class="d-inline">Entries</p><p class="d-inline bottom-border border-dark">RSS</p>
+                 <hr>
+                 <p class="d-inline">Comments</p><p class="d-inline bottom-border border-dark"></p>RSS</p>
+                 <hr>
+                  <p>WordPress.org</p>
+                  <hr>
+              </div>
+              <div class="col-lg-2 col-sm-6 mb-3">
+                  <h5 class="text-white">ARCHIVES</h5>
+                 <p>August 2013</p>
+                 <hr>
+              </div>
+              <div class="col-lg-2 col-sm-6 mb-3">
+                  <h5 class="text-white">RECENT POSTS</h5>
+                  <p>Etiam mauris tortor, pharetra quis lobortis in    <hr>
+                  <p>Nunc libero elit, iaculis nec augue non</p>
+                  <hr>
+                  <p>Falauris sollicitudin quis dolor venenatis facilisis</p>
+                  <hr>
+                  <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+                  <hr>
+                  <p>Vivamus blandit ipsum sed arcu euismod</p>
+                  <hr>
+              </div>
+          </div>
+    </section>
+    
+    <footer class="bg-dark px-5 py-3">
+        <div class= "row justify-content-center">
+          <div class="col-lg-2 col-sm-6 mb-3 text-light footer-font">Copyright © 2018 revera - Just another demo Sites site. | Revera Theme</div>
+          <div class="col-lg-2 col-sm-6 mb-3"></div>
+          <div class="col-lg-2 col-sm-6 mb-3"></div>
+          <div class="col-lg-2 col-sm-6 mb-3"></div>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
