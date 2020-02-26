@@ -1,0 +1,168 @@
+.bWIm {
+    filter: gray;
+    filter: grayscale(100%);
+    height: 550px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    max-width: 800px;
+}
+
+.homeBtn {
+    color: #ed564b;
+}
+
+.navSection {
+    margin-top: 65px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#slidContainer {
+    max-height: 550px;
+    position: relative;
+}
+
+.overlay {
+    background-image: url(img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.readBtn {
+    border-radius: 0;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.slidP {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    /* display: inline-block; */
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.captionContent {
+    margin: 0;
+}
+
+
+
+.next,
+.prev {
+    width: 50px;
+    height: 100px;
+    background-color: #ed564b;
+    ;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: .8;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.i {
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 20px;
+
+}
+
+.iconsSection {
+    color: white;
+}
+
+#iconsSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ed564b;
+    border-top: 5px solid #ed564b;
+    border-bottom: 5px solid #ed564b;
+
+}
+
+.iconsP {
+    max-width: 550px;
+    font-size: 16px;
+    text-align: center;
+}
+
+li a {
+    color: gray;
+    font-size: 17px;
+}
+
+.nav-link {
+    padding: 10px 10px;
+}
+
+.projectsSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projectsSection img {
+    width: 270px;
+    height: 180px;
+
+}
+
+.projectsSection2 img {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+
+}
+
+.text-center {
+    font-size: 15px;
+}
+
+.projectsSection2 p {
+    font-size: 17px;
+
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-top: 5px solid #ed564b;
+    background-color: #3b3b3b;
+    color: white
+}
+
+.footer p,
+ul {
+    color: #aaa;
+}
+
+.list-group-item {
+    background-color: #3b3b3b;
+    padding-bottom: 5px;
+    border-radius: 0;
+    border: none;
+}
+
+.footerListItem {
+    border-bottom: 1px dotted #aaa;
+}
