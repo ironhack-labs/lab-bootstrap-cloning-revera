@@ -3,30 +3,29 @@
     color:#aaa;
     font-size: 0.9em;
     border-top: 5px solid #ed564b;
+    padding-bottom: 25px;
+    padding: 25px 15px 35px 15px;
 }
 
 li {
     border-bottom: 1px dotted #aaa;
     list-style-type: none;
-    padding: 5px 0px 5px 0px;
+    padding: 8px 0px 8px 0px;
 }
 
 .bottom-header-text {
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 1.1em;
+    font-weight: 500;
     color: white;
-    padding: 35px 0px 25px 0px;
+    padding: 15px 0px 15px 0px;
 }
 
-.bottom-section-pad {
-    padding-bottom: 40px;
-}
 
 footer {
     background-color: #292929;
     font-size: 12px;
     color: white;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 30px 20px 30px;
 }
 
 h6 {
@@ -71,5 +70,25 @@ hr {
     border-bottom: 5px solid #f96b61;
     color: white;
     text-align: center;
-    padding: 35px 0px 35px 0px;
+    padding: 35px 15px 35px 15px;
+    font-size: 0.9em;
 }
+
+i {
+    font-size: 2.5em;
+    padding: 10px 0px 25px 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.brand {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+
