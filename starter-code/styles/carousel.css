@@ -7,13 +7,26 @@
   filter: grayscale(100%);
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev {
   color: #ed564b;
-  background: #ed564b;
+  background-color: #ed564b;
+  background-position: 100%;
   height: 6rem;
   position: absolute;
   top: 50%;
+  left: 0%;
+  width: 3rem;
+  z-index: 200;
+}
+
+.carousel-control-next {
+  color: #ed564b;
+  background-color: #ed564b;
+  background-position: 100%;
+  height: 6rem;
+  position: absolute;
+  top: 50%;
+  right: 0%;
   width: 3rem;
   z-index: 200;
 }
@@ -25,7 +38,7 @@
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-  background-color: #ed564b;
+  background-color: #f4473a;
 }
 .carousel-overlay {
   background: url('/starter-code/img/overlay.png');
