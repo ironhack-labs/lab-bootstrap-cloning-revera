@@ -1,0 +1,81 @@
+
+img{
+  max-width: 100%;
+}
+a, a:hover {
+  text-decoration: none;
+}
+
+.fa{
+  vertical-align: middle;
+}
+
+/*nav*/
+header nav h1{
+  margin: 0;
+}
+/* agrega el ícono » al elemento "Parent page" de la navbar */
+.navbar .dropdown-toggle::after{
+  content: "»";
+  border: none;
+  vertical-align: baseline;
+}
+.navbar .dropdown-menu{
+  border: none;
+  border-radius: 0;
+}
+.navbar .navbar-nav .active > .nav-link {
+  color: #ed564b;
+}
+
+/*slider*/
+.homeSlider .carousel-item{
+  max-height: 550px;
+}
+.homeSlider .btn{
+  border-radius: 0;
+  background: rgba(255,255,255,0.2);
+  padding: 4px 20px;
+}
+.homeSlider .btn:hover { 
+  color: white; 
+}
+.innerEffect{
+  background-image: url(../img/overlay.png);
+  background-repeat: repeat;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+/* filter:grayscale(100%) para que las imágenes del carousel sean grises */
+.homeSlider .carousel-inner img {
+  filter:grayscale(100%);
+}
+.homeSlider .carousel-caption {
+  z-index: 120;
+  max-width: 800px;
+  margin: auto;
+}
+.homeSlider .carousel-control-next, .homeSlider .carousel-control-prev {
+  width: 50px;
+  height: 100px;
+  background: #f4473a;
+  opacity: 1;
+  top: 40%;
+  cursor: pointer;
+}
+.homeSlider .carousel-control-next:hover, .homeSlider .carousel-control-prev:hover {
+  background: white;
+}
+
+/*Media Queries*/
+
+@media (max-width: 576px) {
+  .homeSlider .carousel-control-next, .homeSlider .carousel-control-prev {
+    width: 40px;
+    height: 50px;
+  }
+}
