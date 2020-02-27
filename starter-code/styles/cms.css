@@ -1,0 +1,26 @@
+.cms-container {
+  background-color: #3b3b3b;
+  height: 50vh;
+  padding: 0 5%;
+}
+
+.cms-items h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.cms-items .cms-item {
+  color: #aaaaaa;
+  width: 100%;
+}
+
+a.cms-link-item {
+  color: #aaaaaa;
+  border-bottom: 1px dotted #ffffff;
+  text-decoration: none;
+  width: 100%;
+}
+
+a.cms-link-item:hover {
+  color: #ffffff;
+}
