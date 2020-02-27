@@ -1,3 +1,44 @@
-.hero-content i.glyphicon {
-  color: white;
+.hero-jumbotron {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #ed564b;
+  height: 50vh;
+}
+
+div.hero-content {
+  border-top: 3px solid #f96b61;
+  border-bottom: 3px solid #f96b61;
+  text-align: center;
+}
+
+.hero .hero-icon-border {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: inline-block;
+  line-height: 65px;
+  margin: 2rem 0;
+}
+
+.hero .fa {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+.hero h2.hero-subheading {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero p {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
 }

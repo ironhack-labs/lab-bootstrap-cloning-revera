@@ -1,0 +1,39 @@
+.carousel-container {
+  position: relative;
+}
+
+.carousel-item img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #ed564b;
+  background: #ed564b;
+  height: 6rem;
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  z-index: 200;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #ffffff;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #ed564b;
+}
+.carousel-overlay {
+  background: url('/starter-code/img/overlay.png');
+  filter: brightness(40%);
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}

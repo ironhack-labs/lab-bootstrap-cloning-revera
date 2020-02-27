@@ -1,6 +1,7 @@
 @import url('./reset.css');
 @import url('./nav.css');
 @import url('./container.css');
+@import url('carousel.css');
 @import url('./hero.css');
 @import url('./projects.css');
 @import url('./article.css');
