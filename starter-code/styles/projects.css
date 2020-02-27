@@ -1,0 +1,34 @@
+.projects {
+  padding: 5% 8%;
+}
+
+.projects .project-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #292929;
+}
+
+.project-subheading {
+  color: #aaaaaa;
+  font-weight: 900;
+  font-size: 0.75rem;
+}
+
+.projects hr {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.project-container {
+  text-align: center;
+}
+
+.project-thumbnail {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.project-description {
+  font-size: 0.85rem;
+}

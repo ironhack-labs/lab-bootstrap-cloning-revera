@@ -29,7 +29,7 @@
 }
 .carousel-overlay {
   background: url('/starter-code/img/overlay.png');
-  filter: brightness(40%);
+  filter: brightness(50%);
   top: 0;
   left: 0;
   height: 100%;

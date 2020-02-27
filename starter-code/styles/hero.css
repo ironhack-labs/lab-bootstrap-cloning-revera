@@ -12,6 +12,7 @@
 div.hero-content {
   border-top: 3px solid #f96b61;
   border-bottom: 3px solid #f96b61;
+  padding: 0 4.5%;
   text-align: center;
 }
 
@@ -33,6 +34,8 @@ div.hero-content {
 }
 .hero h2.hero-subheading {
   color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
 }
