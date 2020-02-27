@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+h5{
+    font-size: 3em;
+}
+.car {
+    font-size: 2em;
+}
+
+.contenedor{
+   width: 100%;
+   display: flex;
+    flex-wrap: nowrap;
+}
+
+.contenedor img {
+    width: 30%;
+    margin: 10px;
+    padding-bottom: 10%;
+    padding-top:
+}
+
