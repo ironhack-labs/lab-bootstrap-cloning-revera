@@ -11,7 +11,7 @@ filter:grayscale(100%)brightness(50%);
     border:
 }
 
-.border-width {
+.rounded-circle{
     border-width: 3px !important;
 }
 
