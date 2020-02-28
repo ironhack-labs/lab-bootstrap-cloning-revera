@@ -1,0 +1,45 @@
+.bg-danger {
+  background-color: #ed564b !important;
+}
+
+.bg-secondary {
+  background-color: #3b3b3b !important;
+}
+
+.bg-dark {
+  background-color: #292929 !important;
+}
+
+.carousel-item img {
+  filter: grayscale(100%);
+}
+
+.active>.nav-link {
+  color: #ed564b !important;
+}
+
+.nav-link:hover {
+  color: #ed564b !important;
+}
+
+.spacer {
+  height: 5px;
+}
+
+#small-text {
+  font-size: 10px;
+}
+
+#overlayed {
+  position: relative;
+}
+
+.overlay {
+  background: url("./starter-code/img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
