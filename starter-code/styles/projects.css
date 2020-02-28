@@ -23,12 +23,13 @@
 
 .project-container {
   text-align: center;
+
 }
 
 .project-thumbnail {
   margin-bottom: 1rem;
+
   width: 100%;
 }
 .project-description {
   font-size: 0.85rem;
-}

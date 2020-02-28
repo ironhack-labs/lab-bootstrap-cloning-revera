@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: #292929;
+  height: 13vh;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.footer-content {
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  width: 23%;
+}
+
+.footer-content a {
+  color: #ffffff;
+  text-decoration: none;
+}
