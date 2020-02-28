@@ -1,6 +1,7 @@
 .articles {
   padding: 5% 8%;
   border-bottom: 3px solid #f96b61;
+  width: 100%;
 }
 
 .article-heading {

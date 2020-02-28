@@ -1,22 +1,35 @@
 .cms-container {
   background-color: #3b3b3b;
-  height: 50vh;
-  padding: 0 5%;
+  height: 60vh;
+  padding: 5%;
 }
 
 .cms-items h3 {
   color: #ffffff;
   font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cms-item-content {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
 }
 
 .cms-items .cms-item {
   color: #aaaaaa;
+  font-size: 0.75rem;
   width: 100%;
+}
+
+.cms-link {
+  border-bottom: 1px dotted #aaaaaa;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 a.cms-link-item {
   color: #aaaaaa;
-  border-bottom: 1px dotted #ffffff;
+
   text-decoration: none;
   width: 100%;
 }

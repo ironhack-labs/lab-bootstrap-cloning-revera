@@ -6,7 +6,9 @@
   display: flex;
   justify-content: center;
   background-color: #ed564b;
+  padding: 0;
   height: 50vh;
+  width: 100vw;
 }
 
 div.hero-content {
