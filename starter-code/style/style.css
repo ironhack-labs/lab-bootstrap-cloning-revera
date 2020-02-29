@@ -1,0 +1,183 @@
+body {
+    font-family:  'Blinker', sans-serif;
+}
+
+.container-fluid {
+    width: 70%;
+}
+
+nav {
+    background-color: #fff;
+}
+
+#home-link {
+    color: red;
+}
+
+nav .navbar-brand {
+    font-size: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #ed564b;
+    top:45%;
+    bottom: 45%;
+    width: 2%;
+    opacity: 100%;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: url("/img/overlay.png");
+}
+
+.carousel-caption {
+    width: 40%;
+    opacity: 0.7;
+    bottom: 15%;
+    left: 30%;
+}
+
+.carousel-caption h5 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+.carousel-caption button {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.salmon {
+    background-color: #ed564b;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+.salmon article {
+    margin: 30px 30px 30px 0px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.salmon article h3 {
+    margin-top: 30px;
+}
+
+.salmon article p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.salmon article .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin-left: -30px;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+.jumbotron p {    
+    font-weight: 900;
+    opacity: 75%;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    width: 368px;
+    height: 180px;
+}
+ .card-body {
+     margin-left: -20px;
+ }
+
+ .projects .card-body h5 {
+     font-weight: 700;
+ }
+
+ .articles h5 {
+     font-weight: 900;
+ }
+
+ .articles strong {
+     color: red;
+ }
+
+ .main3 {
+     border-top: 4px solid #ed564b;
+     background-color: #3b3b3b;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+ }
+
+ .main3 .card, .list-group li {
+     background-color: transparent;
+ }
+
+.list-group li {
+    border-bottom: 1px doted #fff;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #fff;
+    padding-left: 0px;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    opacity: 75%;
+}
+
+ footer {
+     background-color: #000;
+     color: #fff;
+     font-size: 12px;
+     padding: 12px;
+ }
+/* #ed564b */
