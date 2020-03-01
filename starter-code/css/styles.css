@@ -1,0 +1,21 @@
+#logo{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: red;
+  }
+
+#slide-button{
+    background-color: #ed564b;
+    padding: 2em;
+    border-left: 0px solid #f96b61;
+    border-bottom: 0px solid #f96b61;
+    border-right: 0px solid  #f96b61;
+    margin: 0em 0em 0em 0em ;
+}
+
+#carouselExampleIndicators{
+    margin: 0em -7em 0em -7em;
+}
