@@ -18,7 +18,7 @@
     <div class="uk-navbar-center">
         <ul class="uk-navbar-nav">
             <li>
-              <li><a class="uk-active" href="#">Home</a></li>
+              <li><a uk-active href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Sample page</a></li>
               <li><a href="#">Portfolio</a></li>
@@ -43,12 +43,13 @@
 
       <ul class="uk-slideshow-items">
           <li>
-              <div class="uk-position-cover  uk-slideshow-parallax="scale: 1.2,1.2,1">
+              <div class="uk-position-cover  uk-slideshow-parallax=" scale: 1.2,1.2,1>
                   <img src="img/slider-1.jpg" alt="slider-one" uk-cover>
+                  <div id="overlay"></div>
               </div>
               <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
               <div class="uk-position-center uk-position-medium uk-text-center">
-                  <div uk-slideshow-parallax="scale: 1,1,0.8" class="uk-padding-medium">
+                  <div uk-slideshow-parallax="scale: 1,1,0.8" class="uk-padding-large slideshow-content">
                       <h2 uk-slideshow-parallax="x: 200,0,0">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
                       <p uk-slideshow-parallax="x: 400,0,0;">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
                       <button class="uk-button uk-button-default">READ MORE</button>
@@ -58,10 +59,11 @@
           <li>
               <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
                   <img src="img/slider-3.jpg" alt="slider-two" uk-cover>
+                  <div id="overlay"></div>
               </div>
               <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
               <div class="uk-position-center uk-position-medium uk-text-center">
-                  <div uk-slideshow-parallax="scale: 1,1,0.8">
+                  <div uk-slideshow-parallax="scale: 1,1,0.8" class="uk-padding-large slideshow-content">
                       <h2 uk-slideshow-parallax="x: 200,0,0">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
                       <p uk-slideshow-parallax="x: 400,0,0;">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
                       <button class="uk-button uk-button-default">READ MORE</button>
@@ -71,10 +73,11 @@
           <li>
               <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
                   <img src="img/slider-4.jpg" alt="" uk-cover>
+                  <div id="overlay"></div>
               </div>
               <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
               <div class="uk-position-center uk-position-medium uk-text-center">
-                  <div uk-slideshow-parallax="scale: 1,1,0.8">
+                  <div uk-slideshow-parallax="scale: 1,1,0.8" class="uk-padding-large slideshow-content">
                       <h2 uk-slideshow-parallax="x: 200,0,0">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
                       <p uk-slideshow-parallax="x: 400,0,0;">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
                       <button class="uk-button uk-button-default">READ MORE</button>
@@ -84,10 +87,11 @@
           <li>
             <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
                 <img src="img/slider-2.jpg" alt="" uk-cover>
+                <div id="overlay"></div>
             </div>
             <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
             <div class="uk-position-center uk-position-medium uk-text-center">
-                <div uk-slideshow-parallax="scale: 1,1,0.8">
+                <div uk-slideshow-parallax="scale: 1,1,0.8" class="uk-padding-large slideshow-content">
                     <h2 uk-slideshow-parallax="x: 200,0,0">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
                     <p uk-slideshow-parallax="x: 400,0,0;">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
                     <button class="uk-button uk-button-default">READ MORE</button>
@@ -101,21 +105,28 @@
   </div>
   
   
-  <div class="uk-section uk-section-large uk-section-muted">
-    <div class="uk-container">
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+  <div class="uk-section uk-section-large uk-section-muted no-padding">
+    <div class="uk-container add-padding">
+        <div class="uk-grid-match uk-child-width-1-3@m content-container" uk-grid>
             <div>
-               <a href="" uk-icon="paint-bucket"></a>
+              <div>
+                <a href="" class="uk-icon-button uk-margin-small-right icon-size" uk-icon="paint-bucket"></a>
+              </div>
+              
                 <h3>Web design</h3>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
             </div>
             <div>
-              <a href="" uk-icon="star"></a>
+              <div>
+                <a href="" class="uk-icon-button uk-margin-small-right icon-size" uk-icon="star"></a>
+              </div>
                 <h3>Web development</h3>
                 <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
             </div>
             <div>
-                <a href="" uk-icon="heart"></a>
+              <div>
+                <a href="" class="uk-icon-button uk-margin-small-right icon-size" uk-icon="heart"></a>
+              </div>
                 <h3>User interface</h3>
                 <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
             </div>
@@ -125,9 +136,9 @@
 
 <div class="uk-width-expand"></div>
   <h3 class="uk-card-title uk-margin-remove-bottom">LATEST PROJECTS</h3>
-  <p class="uk-text-meta uk-margin-remove-top">FEW OF THE LATEST PORTFOLIO ITEMS</p><hr>
+  <p class="uk-text-meta uk-margin-remove-top text-test">FEW OF THE LATEST PORTFOLIO ITEMS</p><hr>
 </div>
-<div class="uk-child-width-expand uk-grid-small uk-text-center uk-padding" uk-grid>
+<div class="uk-child-width-expand uk-grid-small uk-text-center uk-padding text-container" uk-grid>
   <div>
       <img src="img/project-1.jpg" alt="">
       <p>Nunc libero elit, iaculis nec augue non</p>
@@ -151,33 +162,30 @@
 
 <div class="uk-width-expand"></div>
   <h3 class="uk-card-title uk-margin-remove-bottom">LATEST ARTICLES</h3>
-  <p class="uk-text-meta uk-margin-remove-top">LATEST POSTS FROM THE BLOG</p><hr>
-  
+  <p class="uk-text-meta uk-margin-remove-top text-test">LATEST POSTS FROM THE BLOG</p><hr>
 </div>
-<div class="uk-child-width-expand uk-grid-small uk-text-center uk-padding" uk-grid>
+<div class="uk-child-width-expand uk-grid-small uk-text-center uk-padding articles-text" uk-grid>
   <div>
       <img src="img/slider-1.jpg" alt="">
       <div class="uk-width-expand">
         <h3 class="new-text uk-margin-remove-bottom">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
-        <h5 class="uk-text-meta">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+              <h5 class="uk-text-meta posted-on">POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></h5>
     </div>
       <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
   </div>
   <div>
-     
       <img src="img/slider-3.jpg" alt="">
       <div class="uk-width-expand">
         <h3 class="new-text uk-margin-remove-bottom">Falauris sollicitudin quis dolor venenatis facilisis</h3>
-        <h5 class="uk-text-meta">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+        <h5 class="uk-text-meta posted-on">POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></h5>
     </div>
       <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
   </div>
   <div>
-      
       <img src="img/slider-4.jpg" alt="">
       <div class="uk-width-expand">
         <h3 class="new-text uk-margin-remove-bottom">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
-        <h5 class="uk-text-meta">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+        <h5 class="uk-text-meta posted-on">POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></h5>
     </div>
       <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
   </div>
@@ -185,46 +193,47 @@
       <img src="img/slider-1.jpg" alt="">
       <div class="uk-width-expand">
         <h3 class="new-text uk-margin-remove-bottom">Festibulum purus odio, ornare non posuere</h3>
-        <h5 class="uk-text-meta">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+        <h5 class="uk-text-meta posted-on">POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></h5>
     </div>
       <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
   </div>
 </div>
 
-<div class="bottom uk-child-width-expand uk-grid-small uk-text-center uk-padding" uk-grid>
+<div class="red-line"></div>
+<div class="uk-child-width-expand uk-grid-small uk-text-center uk-padding bottom" uk-grid>
   <div>
       <h2>REVERA</h2>
       <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
   </div>
   <div>
     <h2>META</h2>
-      <p>Log in<br>
-        Entries RSS<br>
-        Comments RSS<br>
-        WordPress.org</p>
+      <p class="dot-border">Log in<br></p>
+       <p class="dot-border">Entries RSS<br></p>
+        <p class="dot-border">Comments RSS<br></p>
+        <p class="dot-border">WordPress.org<br></p>
   </div>
   <div>
     <h2>ARCHIVES</h2>
-      <p>August 2013</p>
+      <p class="dot-border">August 2013</p>
   </div>
   <div>
     <h2>RECENT POSTS</h2>
-      <p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam<br>
-        Nunc libero elit, iaculis nec augue non<br>
-        Falauris sollicitudin quis dolor venenatis facilisis<br>
-        Phasellus aliquet iaculis neque accumsan aliquam<br>
-        Vivamus blandit ipsum sed arcu euismod</p>
+      <p class="dot-border">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam<br></p>
+      <p class="dot-border">Nunc libero elit, iaculis nec augue non<br></p>
+      <p class="dot-border">Falauris sollicitudin quis dolor venenatis facilisis<br></p>
+      <p class="dot-border">Phasellus aliquet iaculis neque accumsan aliquam<br></p>
+      <p class="dot-border">Vivamus blandit ipsum sed arcu euismod</p>
   </div>
 </div>
 
-
-<div class="uk-width-1-2@s uk-width-1-1@m">
-  <ul class="footer uk-nav uk-nav-default">
-      <li><a href="#">Copyright © 2018 revera - Just another demo Sites site.</a></li>
-      <li><a href="#">| Revera Theme</a></li>
-  </ul>
+<div class="footer">
+  <div class="uk-width-1-2@s uk-width-1-1@m">
+    <ul class="uk-nav uk-nav-default">
+        <li><a href="#">Copyright © 2018 revera - Just another demo Sites site.</a></li>
+        <li><a href="#">| Revera Theme</a></li>
+    </ul>
+  </div>
 </div>
-
 
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
