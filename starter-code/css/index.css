@@ -1,0 +1,143 @@
+.rivera-header {
+    height: 100px;
+}
+
+#banner-carousel img {
+    filter: grayscale(100%);
+}
+
+.value-proposition {
+    justify-content: center;
+    text-align: center;
+    background-color: #ed564b;
+    color: white;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    margin-bottom: 40px;
+}
+.value-proposition-card-body h3 {
+    font-size: 24px;
+}
+
+.value-proposition-card-body p {
+    font-size: 14px;
+}
+
+#border {
+    border: 1px solid #dfdfdf;
+    margin-bottom: 3%;
+}
+
+.project-content, .articles-content {
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.project-card, .articles-card {
+    margin: 0px 0px;
+}
+
+.project, .articles, .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 120px;
+}
+
+.projects-title h1, .articles-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.projects-title p, .articles-title p {
+    font-weight: bold;
+    color: #aaa;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.posted-on {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.card-body p, .card-body h2 {
+    text-align: left;
+}
+
+.articles-card img {
+    margin-bottom: 10%;
+}
+
+.carousel-item-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    color: white;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #ed564b;
+    height: 100px;
+    padding: 50px;
+    right: 0;
+    position: absolute;
+}
+
+.carousel-control-prev-icon {
+    left: 0;
+}
+
+.blockquote {
+    font-size: 14px;
+    color: white;
+    background: #292929;
+}
+
+.blockquote p {
+    margin-left: 8%;
+}
+
+.blockquote-footer {
+    color: white;
+    margin-left: 8%;
+
+}
+
+.footer {
+    background-color: #3b3b3b;
+    color: white;
+    border-top: 5px solid #ed564b;
+    padding-top: 50px;
+}
+
+.footer li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-card p {
+    color: #aaa;
+    margin: 10px 0px;
+    border-bottom: 0.1px solid grey;
+    font-size: 14px;
+}
+
+.footer .card-text {
+    color: white;
+}
+
+.posted-on a {
+    color: #ed564b;
+}
