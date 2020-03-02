@@ -10,12 +10,9 @@
 #slide-button{
     background-color: #ed564b;
     padding: 2em;
-    border-left: 0px solid #f96b61;
-    border-bottom: 0px solid #f96b61;
-    border-right: 0px solid  #f96b61;
     margin: 0em 0em 0em 0em ;
 }
 
 #carouselExampleIndicators{
-    margin: 0em -7em 0em -7em;
+    margin: 0% -6.5% 0%-6.5%;
 }
