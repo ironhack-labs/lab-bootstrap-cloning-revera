@@ -14,31 +14,151 @@
     background-color: black;
 }
 
-/* body {
-    margin: 0;
-}
-
-header {
-    height: 155px;
+.grayscale {
+    -webkit-mask-image: url(img/overlay.png);
+    mask-image: url(img/overlay.png);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-position: center;
+    mask-position: center;
+    filter: grayscale(100%);
+    height: auto;
+    width: 100%;
+    max-height: 550px;
 }
 
 #slidebox {
-    height: 550px;
+    max-height: 550px;
 }
 
-#fwidgets {
-    height: 314px;
+#slidebox .card-text {
+    width: 800px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
 }
 
-#content {
-    height: 1121px;
+#slidebox h5 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-height: 155px;
+}
+
+header h1 {
+    font-family: "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+header .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item {
+    font-size: 0.9rem;
+}
+
+header .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #dc3545;
+}
+
+.red-line {
+    background: #f96b61;
+    padding: 0;
+    margin: 0;
+    height: 5px;
+}
+
+#red-icons .red-boxes {
+    width: 400px;
+    padding: 2.5rem;
+    color: white;
+    font-size: 0.8em;
+}
+
+#red-icons i {
+    font-size: 1.5em;
+    padding: 1.2em;
+    margin: 1.2em;
+    border: 4px solid white;
+    border-radius: 100%;
+}
+
+#red-icons h5 {
+    font-size: 1.5rem;
+}
+
+#content .card-title {
+    line-height: 16px;
+}
+
+#content .card-text {
+    line-height: 18px;
+    font-size: 10px;
+    color: grey;
+}
+
+#content .primary-title {
+    font-size: 24px;
+}
+
+#content .secondary-title {
+    font-size: 14px;
+    color: gray;
+}
+
+#content .posted-by {
+    font-size: 12px;
+
+
 }
 
 #bottom {
-    height: 351px;
+    background: #3B3B3B;
+    color: #AAAAAA;
+    font-size: 0.8rem;
+}
+
+#bottom h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#bottom li {
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+#bottom a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+#bottom a:hover {
+    color: white;
+}
+
+#copyright {
+    background: #292929;
 }
 
 footer {
-    height: 78px;
+    max-height: 78px;
+    color: #EEEE;
+    font-size: 12px;
 
-} */
+}

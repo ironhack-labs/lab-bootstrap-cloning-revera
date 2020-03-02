@@ -1,123 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/c9ea073e80.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
 
     <title>Home - revera</title>
-</head>
-<body>
+  </head>
 
-    <div id="page" class="container-fluid">
-        <header class="container row align-items-center">
-            <nav class="row align-items-center navbar navbar-expand-lg navbar-light">
-                <a class="col-lg-5 navbar-brand" href="#"><h1 display-4>REVERA</h1></a>
-                <button class="navbar-toggler col-lg-12" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+  <body>
+    <div id="page">
+      <header class="container">
+        <nav
+          class="row flex-column flex-md-row justify-content-center align-items-center navbar navbar-expand-lg navbar-light"
+        >
+          <a class="col-12 col-sm-5 navbar-brand" href="#">
+            <h1 class="font-weight-bold" style="font-size: 32px">REVERA</h1>
+          </a>
+          <button
+            class="navbar-toggler col-12"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active ">
+                <a class="nav-link text-danger" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sample page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Parent page
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Full page</a>
+                  <a class="dropdown-item" href="#">Child page 1</a>
+                  <a class="dropdown-item" href="#">Child page 2</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div id="slidebox">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item view active card bg-dark text-white">
+              <img
+                class="d-flex w-100 h-80 card-img img-fluid grayscale"
+                src="img/slider-1.jpg"
+                alt="First slide"
+              />
+              <div
+                class="card-img-overlay flex-center d-none d-lg-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facilis eum et officia? Quibusdam, et doloribus architecto
+                  molestias iusto eum sequi odio, asperiores ab dolore a facilis
+                  cupiditate officia sapiente voluptate labore iste. Nisi animi
+                  accusantium debitis saepe dicta officia temporibus suscipit
+                  voluptatum expedita asperiores, fugiat ut aut obcaecati
+                  aperiam possimus! Quo tenetur enim aut exercitationem fugit at
+                  autem illo temporibus.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg border border-white active"
+                  role="button"
+                  aria-pressed="true"
+                >
+                  READ MORE
                 </button>
-                <div class="col-lg-10 collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sample page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Parent page
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Full page</a>
-                                <a class="dropdown-item" href="#">Child page 1</a>
-                                <a class="dropdown-item" href="#">Child page 2</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-
-        <div id="slidebox" class="" >
-
-            <div id="carouselExampleFade slidebox" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/slider-1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slider-2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slider-4.jpg" alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+              </div>
             </div>
+            <div class="carousel-item card bg-dark text-white">
+              <img
+                class="d-flex align-items-center w-100 card-img img-fluid grayscale "
+                src="img/slider-2.jpg"
+                alt="Second slide"
+              />
+              <div
+                class="card-img-overlay d-none d-lg-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facilis eum et officia? Quibusdam, et doloribus architecto
+                  molestias iusto eum sequi odio, asperiores ab dolore a facilis
+                  cupiditate officia sapiente voluptate labore iste. Nisi animi
+                  accusantium debitis saepe dicta officia temporibus suscipit
+                  voluptatum expedita asperiores, fugiat ut aut obcaecati
+                  aperiam possimus! Quo tenetur enim aut exercitationem fugit at
+                  autem illo temporibus.
+                </p>
 
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg border border-white active"
+                  role="button"
+                  aria-pressed="true"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item card bg-dark text-white">
+              <img
+                class="d-block w-100 card-img img-fluid grayscale"
+                src="img/slider-3.jpg"
+                alt="Third slide"
+              />
+              <div
+                class="card-img-overlay d-none d-lg-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facilis eum et officia? Quibusdam, et doloribus architecto
+                  molestias iusto eum sequi odio, asperiores ab dolore a facilis
+                  cupiditate officia sapiente voluptate labore iste. Nisi animi
+                  accusantium debitis saepe dicta officia temporibus suscipit
+                  voluptatum expedita asperiores, fugiat ut aut obcaecati
+                  aperiam possimus! Quo tenetur enim aut exercitationem fugit at
+                  autem illo temporibus.
+                </p>
+
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg border border-white active"
+                  role="button"
+                  aria-pressed="true"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item card bg-dark text-white">
+              <img
+                class="d-block w-100 card-img img-fluid grayscale"
+                src="img/slider-4.jpg"
+                alt="Fourth slide"
+              />
+              <div
+                class="card-img-overlay d-none d-lg-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Facilis eum et officia? Quibusdam, et doloribus architecto
+                  molestias iusto eum sequi odio, asperiores ab dolore a facilis
+                  cupiditate officia sapiente voluptate labore iste. Nisi animi
+                  accusantium debitis saepe dicta officia temporibus suscipit
+                  voluptatum expedita asperiores, fugiat ut aut obcaecati
+                  aperiam possimus! Quo tenetur enim aut exercitationem fugit at
+                  autem illo temporibus.
+                </p>
+
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary btn-lg border border-white active"
+                  role="button"
+                  aria-pressed="true"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev d-flex justify-content-start"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="prev" 
+            
+          >
+            <span class="carousel-control-prev-icon bg-danger" aria-hidden="true" style="height: 100px; width: 50px;"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next d-flex justify-content-end"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next" 
+            
+          >
+            <span class="carousel-control-next-icon bg-danger" aria-hidden="true" style="height: 100px; width: 50px;"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <hr class="red-line" />
+
+      <div
+        id="red-icons"
+        class="d-flex flex-column flex-md-row text-center justify-content-center align-items-center py-5"
+        style="background: #ed564b"
+      >
+        <div class="red-boxes px-3 py-0">
+          <i class="fas fa-glass-martini"></i>
+          <h5 class="font-weight-bold">Web Design</h5>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+            repellat. Omnis dolores aut commodi dolorem totam nam fuga dicta
+            quisquam! Facilis velit debitis dolorum molestias!
+          </div>
+        </div>
+        <div class="red-boxes px-3 py-0">
+          <i class="fas fa-star"></i>
+          <h5 class="font-weight-bold">Web Development</h5>
+          <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+            labore amet harum rem? Doloribus architecto cupiditate dignissimos
+            ducimus officiis amet mollitia. Quidem alias fuga totam.
+          </div>
+        </div>
+        <div class="red-boxes px-3 py-0">
+          <i class="fas fa-heart"></i>
+          <h5 class="font-weight-bold">User Interface</h5>
+          <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
+            sed placeat, quibusdam quidem sint dolore mollitia saepe
+            exercitationem sunt assumenda odit necessitatibus dolorem animi
+            accusantium?
+          </div>
+        </div>
+      </div>
+
+      <hr class="red-line" />
+
+      <div id="content" class="container my-3 py-5">
+        <div class="row ">
+          <div class="col-12">
+            <h3 class="primary-title font-weight-bold">LATEST PROJECTS</h3>
+            <h4 class="secondary-title font-weight-bold">
+              FEW OF THE LATEST PORTFOLIO ITEMS
+            </h4>
+            <hr />
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-1.jpg" alt=""
+            /></a>
+            <div class="card-body">
+              <div class="card-title" style="font-size: 0.8rem">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-2.jpg" alt=""
+            /></a>
+            <div class="card-body">
+              <div class="card-title" style="font-size: 0.8rem">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-3.jpg" alt=""
+            /></a>
+            <div class="card-body">
+              <div class="card-title" style="font-size: 0.8rem">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-4.jpg" alt=""
+            /></a>
+            <div class="card-body">
+              <div class="card-title" style="font-size: 0.8rem">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div id="fwidgets" class="red">
-
+        <div class="row pt-5 mt-3">
+          <div class="col-12">
+            <h3 class="primary-title font-weight-bold">LATEST ARTICLES</h3>
+            <h4 class="secondary-title font-weight-bold">
+              LATEST POSTS FROM THE BLOG
+            </h4>
+            <hr />
+          </div>
         </div>
+        <div class="row text-left">
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-1.jpg" alt=""
+            /></a>
+            <div class="card-body px-0">
+              <div class="card-title font-weight-bold">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
 
-        <div id="content">
+              <div class="posted-by text-black-50 mb-3 font-weight-bold">
+                POSTED ON
+                <a href=""><span class="text-danger">AUGUST, 19 2013</span></a>
+                BY
+                <a href=""><span class="text-danger">ADMIN</span></a>
+              </div>
 
+              <div class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati dolorum eligendi esse at laborum, iusto cumque modi.
+                Officia nam voluptatum ullam quidem consectetur reiciendis
+                architecto! Aspernatur ab modi tenetur animi! Lorem ipsum dolor
+                sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-2.jpg" alt=""
+            /></a>
+            <div class="card-body px-0">
+              <div class="card-title font-weight-bold">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+
+              <div class="posted-by text-black-50 mb-3 font-weight-bold">
+                POSTED ON
+                <a href=""><span class="text-danger">AUGUST, 19 2013</span></a>
+                BY
+                <a href=""><span class="text-danger">ADMIN</span></a>
+              </div>
+
+              <div class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati dolorum eligendi esse at laborum, iusto cumque modi.
+                Officia nam voluptatum ullam quidem consectetur reiciendis
+                architecto! Aspernatur ab modi tenetur animi! Lorem ipsum dolor
+                sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-3.jpg" alt=""
+            /></a>
+            <div class="card-body px-0">
+              <div class="card-title font-weight-bold">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+
+              <div class="posted-by text-black-50 mb-3 font-weight-bold">
+                POSTED ON
+                <a href=""><span class="text-danger">AUGUST, 19 2013</span></a>
+                BY
+                <a href=""><span class="text-danger">ADMIN</span></a>
+              </div>
+
+              <div class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati dolorum eligendi esse at laborum, iusto cumque modi.
+                Officia nam voluptatum ullam quidem consectetur reiciendis
+                architecto! Aspernatur ab modi tenetur animi! Lorem ipsum dolor
+                sit amet consectetur.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 card border border-0">
+            <a href=""
+              ><img class="card-img-top" src="img/project-4.jpg" alt=""
+            /></a>
+            <div class="card-body px-0">
+              <div class="card-title font-weight-bold">
+                Lorem ipsum dolor sit amet consectetur.
+              </div>
+
+              <div class="posted-by text-black-50 mb-3 font-weight-bold">
+                POSTED ON
+                <a href=""><span class="text-danger">AUGUST, 19 2013</span></a>
+                BY
+                <a href=""><span class="text-danger">ADMIN</span></a>
+              </div>
+
+              <div class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati dolorum eligendi esse at laborum, iusto cumque modi.
+                Officia nam voluptatum ullam quidem consectetur reiciendis
+                architecto! Aspernatur ab modi tenetur animi! Lorem ipsum dolor
+                sit amet consectetur.
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <hr class="red-line" />
 
-        <div id="bottom" class="black">
+      <div id="bottom" class="pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <h3>REVERA</h3>
+              <div class="py-3">
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue
+                cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel
+                volutpat tristique. In mattis ipsum quis magna feugiat, id
+                tempus metus accumsan.
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <h3>META</h3>
+              <div class="py-3">
+                <ul>
+                  <li><a href="">Log in</a></li>
 
+                  <li><a href="">Entries RSS</a></li>
+
+                  <li><a href="">Comments RSS</a></li>
+
+                  <li><a href="">WordPress.org</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <h3>ARCHIVES</h3>
+              <ul class="py-3">
+                <li><a href="">August 2018</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <h3>RECENT POSTS</h3>
+              <div class="py-3">
+                <ul>
+                  <li>
+                    <a href=""
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto, velit!</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href=""
+                      >Beatae voluptate magnam nam illo doloribus. Nobis
+                      delectus excepturi dolorem?</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href=""
+                      >Dolores atque cum cupiditate ad dolorum veritatis,
+                      excepturi quam dicta.</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href=""
+                      >Doloribus delectus accusamus ad id amet unde quisquam.
+                      Praesentium, aliquam.</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href=""
+                      >Excepturi commodi mollitia optio deleniti nam fugit
+                      explicabo voluptates ratione?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <footer>
-
+      <div id="copyright" class="py-3">
+        <footer class="container">
+          <div class="row">
+            <p class="col-12 mb-0 pb-0">
+              Copyright © 2018 revera - Just another demo Sites site.
+            </p>
+            <p class="col-12">| Revera Theme</p>
+          </div>
         </footer>
-
-
+      </div>
     </div>
-   
-    
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
