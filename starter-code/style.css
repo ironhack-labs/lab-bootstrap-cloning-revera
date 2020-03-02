@@ -1,0 +1,127 @@
+.white {
+    background-color: white;
+    height: auto;
+}
+
+.black {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.darkgrey {
+    background-color: #2b2b2b;
+    color: white;
+    padding-top: 30px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.button {
+    border-radius: 0px
+}
+
+.fwidgets {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    /* padding: 40px 0px; */
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+.pinkCard {
+    margin: 50px;
+}
+
+.fwidgets h4 {
+    font-weight: 700;
+}
+
+.fwidgets p {
+    font-size: 80%;
+}
+
+.circle {
+    content: ' \25CF';
+    font-size: 50px;
+    color: white;
+}
+
+.card {
+    border: 0;
+    font-size: 14px;
+}
+
+.projectCards {
+    text-align: center;
+}
+
+.div-title {
+    padding-top: 30px;
+}
+
+.div-title hr {
+    height: 1px;
+    padding: 5px;
+}
+
+.card-group {
+    text-align: left;
+    font-size: 12px;
+}
+
+.card-title {
+    font-size: 16px;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.darkgrey h3 {
+    font-size: 16px;
+}
+
+.list-group {
+    font-size: 12px;
+    background-color: #2b2b2b;
+}
+
+/* .list-group hr {
+    
+} */
+
+.list-group-item {
+    background-color: #2b2b2b;
+}
+
+.text {
+    font-size: 12px;
+}
+
