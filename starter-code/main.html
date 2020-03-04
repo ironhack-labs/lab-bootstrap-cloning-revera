@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="main.css"/>
+
+    <title> Ulkit</title>
+</head>
+<body>
+<!--			-->
+<!--			-->
+
+
+<!--	nav		-->
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center "> 
+            
+            <div class="uk-navbar-center-left">
+                <a class="uk-navbar-item uk-logo  " href="#"> <strong>REVERA</strong>    </a> 
+            </div>
+
+            
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">Home                   </a></li>
+                    <li class="uk-active"><a href="#">About                  </a></li>
+                    <li class="uk-active"><a href="#">Sample Page            </a></li>
+                    <li class="uk-active"><a href="#">Portfolio              </a></li>
+                    <li class="uk-active"><a href="#">Blog                   </a></li>
+                    <li class="uk-active"><a href="#">Contact                </a></li>
+                    
+                    <li><a href="#" >Parent Page</a>
+
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active">                 <a href="#">      Full Page 1         </li>
+                                <li class="uk-nav-divider uk-active">  <a href="#">      Child Page 1        </li>
+                                <li class="uk-nav-divider uk-active">  <a href="#">      Child Page 2        </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+           
+        </div>
+    </nav>
+
+<!--	nav		-->
+<!--	HEADER	 carrousel	-->
+
+<header class="uk-position-relative uk-visible-toggle" uk-slideshow="animation: push">
+
+    <ul class="uk-slideshow-items">
+
+        <li>
+            <img src="../starter-code/img/slider-1.jpg" alt="" uk-cover>
+            <div class="uk-position-center uk-position-large uk-text-center  ">
+                <h2 class="uk-margin-remove txt-color">  <strong>    ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM      </strong>                </h2>
+                <p class="uk-margin-remove txt-color">
+                    Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+                    Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, 
+                    ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, 
+                    consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla 
+                    dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, 
+                    pharetra […]
+                </p>
+
+                <button class="uk-button uk-button-default txt-color">READ MORE</button>
+            </div>
+        </li>
+
+        <li>
+            <img src="../starter-code/img/slider-2.jpg"  alt="" uk-cover>
+            <div class="uk-position-center uk-position-large uk-text-center ">
+                <h2 class="uk-margin-remove txt-color">   <strong>    FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS      </strong>            </h2>
+                <p class="uk-margin-remove txt-color">
+                    Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, 
+                    luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, 
+                    eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit 
+                    non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla 
+                    feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+                </p>
+                <button class="uk-button uk-button-default txt-color">READ MORE</button>
+            </div>
+        </li>
+
+        <li>
+            <img src="../starter-code/img/slider-3.jpg" alt="" uk-cover>
+            <div class="uk-position-center uk-position-large uk-text-center">
+                <h2 class="uk-margin-remove txt-color">    <strong>    SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA     </strong>                  </h2>
+                <p class="uk-margin-remove txt-color">
+                    Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, 
+                    lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur 
+                    aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. 
+                    Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, 
+                    eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]
+                </p>
+                <button class="uk-button uk-button-default txt-color">READ MORE</button>
+            </div>
+        </li>
+
+        <li>
+            <img src="../starter-code/img/slider-4.jpg" alt="" uk-cover>
+            <div class="uk-position-center uk-position-large uk-text-center">
+                <h2 class="uk-margin-remove txt-color">   <strong>    FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.      </strong>           </h2>
+                <p class="uk-margin-remove txt-color">
+                    Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. 
+                    Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat 
+                    augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, 
+                    et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum 
+                    suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]
+                </p>
+                <button class="uk-button uk-button-default txt-color">READ MORE</button>
+            </div>
+        </li>
+    </ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+
+</header>
+<!--	HEADER	 carrousel	-->
+
+
+
+
+<!-- SECTION INFO WITH RED BACKGROUND -->
+
+<section>
+    <article class="redPart"> 
+        <span> <img src="./img/glass-icon.svg" alt="glass-icon" class="glass-icon"	/>			</span>
+        <h3> <strong>       Web design                </strong>  </h3>
+      
+        <p>
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, 
+            sed sagittis odio varius Link
+        </p>
+    </article>
+
+    <article class="redPart">
+        <span> <img src="./img/star-regular.svg" alt="star-icon" class="star-icon"	/>			</span>
+        <h3>    <strong>  Web development              </strong>   </h3>
+    
+        <p>
+            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+            Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, 
+            ut pulvinar purus elementum nspendisse at erat luctus.
+        </p>
+    </article>
+
+    <article class="redPart">
+        <span> <img src="./img/heart-icon.svg" alt="heart-icon" class="heart-icon"	/>			</span>
+        <h3> <strong> User interface   </strong>  </h3>
+        
+        <p> 
+            Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. 
+            Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.
+        </p>
+    </article>
+
+</section>
+
+
+
+<!-- SECTION INFO WITH RED BACKGROUND END-->
+
+<!--	MAIN 1		-->
+    <h2 class="margin">      LATEST PROJECTS                    </h2>
+    <p class="margin">      FEW OF THE LATEST PORTFOLIO ITEMS  </p>
+    <hr>
+<main class="flex">
+
+   
+    <article> 
+        <span> <img src="../starter-code/img/project-1.jpg" alt="project-1" class="img-art"	/>	</span>
+        <p>Nunc libero elit, iaculis nec augue non</p>
+    </article>
+
+    <article> 
+        <span> <img src="../starter-code/img/project-2.jpg" alt="project-1" class="img-art"	/>	</span>
+        <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+    </article>
+
+    <article> 
+        <span> <img src="../starter-code/img/project-3.jpg" alt="project-1" class="img-art"	/>	</span>
+        <p>Vivamus blandit ipsum sed arcu euismod</p>
+    </article>
+
+    <article> 
+        <span> <img src="../starter-code/img/project-4.jpg" alt="project-1" class="img-art"	/>	</span>
+        <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+    </article>
+
+</main>
+
+<!--	ACABA MAIN 1		-->
+
+
+
+<!--	MAIN 2		-->
+
+<h2 class="margin">      LATEST ARTICLES                   </h2>
+<p class="margin">      LATEST POSTS FROM THE BLOG  </p>
+<hr>
+
+<main class="flex">
+
+
+<article> 
+    <span> <img src="../starter-code/img/project-1.jpg" alt="project-1" class="img-art"	/>	</span>
+    <h5> <strong>   Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam  </strong>  
+    <hr> POSTED  <span class="txt-color"> AUGUST 19, 2013 </span> BY <span class="txt-color">ADMIN </span>
+    </h5>
+   
+    <p class="justify"> 
+        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor 
+        sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. 
+        Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit 
+        orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. 
+        Etiam mauris tortor, pharetra […]
+    </p>
+</article>
+
+<article> 
+    <span> <img src="../starter-code/img/project-2.jpg" alt="project-1" class="img-art"	/>	</span>
+    <h5> <strong>  Falauris sollicitudin quis dolor venenatis facilisis </strong> 
+        <hr> POSTED  <span class="txt-color"> AUGUST 19, 2013 </span> BY <span class="txt-color">ADMIN </span>
+    </h5>
+    </h5>
+
+    <p class="justify">
+        Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, 
+        luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, 
+        eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit 
+        non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla 
+        feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+    </p>
+</article>
+
+<article> 
+    <span> <img src="../starter-code/img/project-3.jpg" alt="project-1" class="img-art"	/>	</span>
+    <h5>  <strong> Suspendisse ornare, felis feugiat suscipit pharetra  </strong>  
+        <hr> POSTED  <span class="txt-color"> AUGUST 19, 2013 </span> BY <span class="txt-color">ADMIN </span>
+    </h5>
+   
+    <p class="justify">
+        Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, 
+        lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur 
+        aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, 
+        mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. 
+        Proin blandit id tellus non pellentesque. Mauris […]
+    </p>
+</article>
+
+<article> 
+    <span> <img src="../starter-code/img/project-4.jpg" alt="project-1" class="img-art"	/>	</span>
+    <h5> <strong>   Festibulum purus odio, ornare non posuere   </strong>    
+        <hr> POSTED  <span class="txt-color"> AUGUST 19, 2013 </span> BY <span class="txt-color">ADMIN </span>
+    </h5>
+    <p class="justify">
+        Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. 
+        Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu 
+        ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. 
+        Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, 
+        leo vel pellentesque dictum, ligula […]
+    </p>
+</article>
+
+</main>
+
+<!--  FOOTER PART -->
+<footer class="flex">
+
+    <article> 
+        <h5> <strong>   REVERA </strong>        <hr>  </h5>
+        <p> 
+            Cum sociis natoque penatibus et magnis      <br>
+            dis parturient montes, nascetur ridiculus   <br>
+            mus. Vestibulum vehicula erat non congue    <br>
+            cursus. Aenean auctor nulla quis augue      <br>
+            dictum, sed sagittis odio varius? Aliquam   <br>
+            nec venenatis turpis. Aenean euismod arcu   <br>
+            vel volutpat tristique. In mattis ipsum quis <br>
+            magna feugiat, id tempus metus accumsan.
+        </p>
+    </article>
+
+    
+    <article> 
+        <h5> <strong>   META  </strong>     <hr>    </h5>
+        <ul>    
+            <li class="border-bottom-dotted">     Log in               </li>
+            <li class="border-bottom-dotted">     Entries RSS          </li>
+            <li class="border-bottom-dotted">     Comments RSS         </li>
+            <li class="border-bottom-dotted">     WordPress.org        </li>
+        </ul>
+    </article>
+
+    
+    <article> 
+        <h5> <strong>   ARCHIVES  </strong>  <hr> </h5>
+        <ul>
+            <li class="border-bottom-dotted">   August 2013             </li>
+        </ul>
+    </article>
+    
+
+    <article> 
+        <h5> <strong>   RECENT POSTS  </strong>  <hr> </h5>
+        <ul>
+            <li class="border-bottom-dotted"> Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam   </li>
+            <li class="border-bottom-dotted"> Nunc libero elit, iaculis nec augue non                            </li>
+            <li class="border-bottom-dotted"> Falauris sollicitudin quis dolor venenatis facilisis               </li>
+            <li class="border-bottom-dotted"> Phasellus aliquet iaculis neque accumsan aliquam                   </li>
+            <li class="border-bottom-dotted"> Vivamus blandit ipsum sed arcu euismod                             </li>
+        </ul>
+    </article>
+    
+</footer>
+
+<div class="bk-black">
+    <p>Copyright © 2018 revera - Just another demo Sites site.</a></p>
+    <p>| Revera Theme</a></p>
+
+</div> 
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

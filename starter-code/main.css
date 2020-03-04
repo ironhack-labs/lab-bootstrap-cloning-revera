@@ -1,0 +1,101 @@
+nav {
+    position: fixed;
+    height: 80px;
+}
+
+
+
+li img {
+    filter: grayscale(100%);
+}
+
+.txt-color {
+    color: red;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: firebrick;
+
+    width: 100%;}
+
+.img {
+    height: 80px;
+    width: auto;}
+
+.redPart {
+    margin:  10px 50px;
+   
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    }
+    
+/* section de 3  css */ 
+ .heart-icon{
+    width: 120px;
+    height: 120px;}
+.star-icon{
+    width: 120px;
+    height: 120px;}
+.glass-icon{
+    width: 120px;
+    height: 120px;}
+/* section de 3  css */ 
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    margin:  20px;
+}
+
+main article {
+    margin: 20px;
+    text-align: center;
+}
+
+.margin {
+    margin: 10px 40px;
+}
+
+.img-art {
+    height: 180px;
+    width: auto;}
+
+   .justify {
+        text-align: justify;
+    }
+
+    footer {
+        background-color: #3b3b3b;
+    }
+
+    footer article h5 {
+        color: white;
+        text-align: center;
+        margin: 15px;
+    }
+
+    footer article p {
+        color: white;
+        margin: 15px;
+    }
+
+    .border-bottom-dotted {
+        border-bottom-style: dotted;
+        list-style: none;
+        margin-bottom: 15px;
+        color: white;
+        margin: 15px;
+    }
+
+    .bk-black {
+        background-color: #606060;
+        margin: 17px;
+        color: white; 
+    }
