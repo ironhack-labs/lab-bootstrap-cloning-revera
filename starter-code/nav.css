@@ -1,0 +1,17 @@
+#navtabs {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+
+  /* nav.navbar a.navbar {
+    font-weight: bold;
+    border: black 1px solid;
+} */
+
+#logo {
+   text-transform: uppercase;
+   font-weight: 800;
+   margin-top: 25px;
+   font-size: 32px;
+}
