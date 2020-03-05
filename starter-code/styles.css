@@ -1,0 +1,17 @@
+.carousel-item {
+    background: url("./img/overlay.png");
+}
+
+.carousel-item img {
+    /* opacity: 0.3; */
+    z-index: -1;
+    filter: grayscale(100%);
+}
+
+img {
+    width: 100%;
+}
+
+.circle {
+    border: 5px solid white;
+}
