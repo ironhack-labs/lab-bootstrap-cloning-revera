@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+.card{
+    border: none;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+.carousel-item{
+    filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon{
+    background-color: #f4473a;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+   
+}
+
+/* .carousel-control-prev-icon::after{
+
+    background: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2093.3%2080.6%22%3E%3Cpath%20d%3D%22M86.2%207c-9.4-9.4-24.6-9.4-33.9%200l-5.7%205.7L41%207C31.6-2.3%2016.4-2.3%207%207c-9.3%209.4-9.3%2024.6%200%2034l5.7%205.7%2033.9%2033.9%2033.9-33.9%205.7-5.7c9.4-9.4%209.4-24.6%200-34z%22%2F%3E%3C%2Fsvg%3E");
+    color: #f4473a;
+} */
+
+.carousel-control-next-icon{
+    background-color: #f4473a;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+
+.container-bg{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.fas{
+    color: #FFF;
+    align-self: center;
+    font-size: 0.5em; 
+}
+
+.fa-stack  {
+    font-size: 2em; 
+}
+
+i{
+    vertical-align: middle;
+}
+
+.features{
+
+    color: #fff;
+    text-align: center;
+}
+.img-mod
+{
+    width: 270px;
+    height: 180px;
+}
+
+.footer{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    font-weight: 300;
+    font-size: small;
+}
+
+.footer a{
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+  
