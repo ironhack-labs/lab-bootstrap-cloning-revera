@@ -7,8 +7,3 @@ body {
 #main-secondary {
     background-color: #ed564b;
 }
-
-#footer>p>a {
-    color: white !important;
-    text-decoration: none;
-}
