@@ -1,0 +1,167 @@
+.navbar{
+    background-color: white;
+}
+
+.navbar-nav {
+    padding-left: 250px;
+}
+
+.nav-link {
+    color:#777;
+    padding: 19px 10px 19px 10px;
+    position: relative;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #f4473a !important;
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.home {
+    color: #f4473a !important;
+}
+
+.d-block {
+    filter: grayscale(100%);
+}
+
+.carousel-caption h2 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.main{
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.btn {
+    border-radius: 0%;
+}
+
+.carousel-control-prev-icon {
+    background-color: #f4473a;
+    background-position: 100%;
+    height: 100px;
+    width: 55px; 
+}
+
+.carousel-control-next-icon {
+    background-color: #f4473a;
+    height: 55px;
+    width: 55px; 
+}
+
+
+.container-fluid {
+    color: white;
+}
+
+.link{
+    color: #f4473a;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.photo {
+    width: 250px;
+    height: 170px;
+}
+
+.first h5{
+    font-size: 14px;
+}
+
+.second h3 {
+    font-size: 16px;
+}
+
+.second h5 {
+    font-size: 12px;
+    color: #606060;
+}
+
+.second a {
+    color: red;
+    text-decoration: none;
+}
+
+.second a:hover {
+    color: black;
+}
+
+.second p {
+    font-size: 14px;
+    color: #606060;
+}
+
+.container h2 {
+    font-size: 24px;
+}
+
+.up p {
+    color: #aaa;;
+}
+
+.last {
+    border-top: 5px solid #ed564b;
+    background: #3b3b3b;
+    padding-left: 150px;
+    padding-right: 200px;
+    height: 500px;
+}
+
+.last h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.last p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.last ul {
+    list-style-type: none;
+    color: #aaa;
+    font-size: 14px;
+    padding: 0;
+}
+
+.last li {
+    border-bottom: dotted 1px #aaa;
+    padding: 5px 0;
+}
+
+footer .col {
+    padding: 0 30px;
+}
+
+.copy {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+.bottom-link {
+    color:#777;
+}
+
+.bottom-link:hover {
+    color: white;
+    text-decoration: none;
+}
