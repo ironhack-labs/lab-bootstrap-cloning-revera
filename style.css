@@ -1,11 +1,14 @@
 .div-red {
     background-color: #ed564b;
     border-color: #f16a60;
-    /* border: 5px solid #f16a60; */
     border-top-width: 5px;
     border-top-style: solid;
     border-bottom-width: 5px;
     border-bottom-style: solid;
+}
+
+.active {
+    color: red;
 }
 
 .doverlay {
@@ -15,7 +18,32 @@
     height: 100%;
     left: 0px;
     top: 0px;
-    z-index: 100;
+    z-index: 1;
+}
+
+.carousel-inner button {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
+
+.carousel-control-next-icon {
+    background-color: red;
+    width: 50px;
+    height: 100px;
+}
+
+.carousel-control-prev-icon {
+    background-color: red;
+    width: 50px;
+    height: 100px;
 }
 
 .border-none {
@@ -55,7 +83,8 @@
 }
 
 .p-gray{
-    color: gray;
+    color: #aab3bf;
+    font-size: 0.9rem;
 }
 
 .hr-gray {
