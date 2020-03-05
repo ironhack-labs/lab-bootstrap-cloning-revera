@@ -1,0 +1,23 @@
+
+
+.text-secondary{
+
+ color: royalblue; !important;
+
+}
+
+
+
+body{
+
+   
+}
+
+hr{
+    position: relative; 
+    top: 20px; 
+    border: none; 
+    height: 2px; 
+    background:lightgray; 
+    margin-bottom: 50px;
+}
