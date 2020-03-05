@@ -1,0 +1,13 @@
+.last {
+    height: 30rem;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.footer {
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+}
