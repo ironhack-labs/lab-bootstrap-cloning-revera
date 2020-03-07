@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloning Revera</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="/starter-code/styles.css"/>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="uk-navbar-container" uk-navbar>
+        <div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active uk-text-bold"><a href="#" id="logo">REVERA</a></li>
+            </ul>
+        </div>
+    
+        <div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#" class="uk-text-capitalize uk-text-danger">Home</a></li>
+                <li class="uk-active"><a href="#" class="uk-text-capitalize">About</a></li>
+                <li class="uk-active"><a href="#" class="uk-text-capitalize">Sample page</a></li>
+                <li class="uk-active"><a href="#" class="uk-text-capitalize">Portfolio</a></li>
+                <li class="uk-active"><a href="#" class="uk-text-capitalize">Blog</a></li>
+                <li> 
+                    <a href="#" class="uk-text-capitalize">Parent page</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" class="uk-text-capitalize">Contact</a></li>
+            </ul>
+        </div>  
+    </nav>
+
+    <!-- Sectio 1 Images Slideshow -->
+    <div class="uk-position-relative uk-visible-toggle uk-light slider" tabindex="-1" uk-slideshow="animation: push; min-height: 300; max-height: 600"> 
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="/starter-code/img/slider-1.jpg" alt="Slider1" uk-cover>
+                <div class="uk-position-bottom-center uk-position-small uk-text-center" id="img-text">
+                    <h2 uk-slideshow-parallax="x: 100,-100" class="uk-text-uppercase">Nullam ante tellus, mattis nec dignissim volutpat, gravida eget arcu.</h2>
+                    <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae massa nibh. Morbi aliquam lobortis orci eu gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc egestas erat risus. Pellentesque sapien arcu, porttitor mollis commodo ac, ullamcorper sit amet velit. Sed commodo mattis quam ut elementum.Cras sit amet blandit turpis. Donec ut porttitor urna, at fringilla magna.</p>
+                    <button class="uk-button uk-button-default uk-text-bold">READ MORE</button>
+                </div>
+            </li>
+            <li>
+                <img src="/starter-code/img/slider-2.jpg" alt="Slider2" uk-cover>
+            </li>
+            <li>
+                <img src="/starter-code/img/slider-3.jpg" alt="Slider3" uk-cover>
+            </li>
+            <li>
+                <img src="/starter-code/img/slider-4.jpg" alt="Slider4" uk-cover>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-slidenav-large slidenav" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-slidenav-large slidenav" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+
+    <!-- Section 2 Red grid -->
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" id="section2" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                <span uk-icon="nut"></span>
+                <h3 class="uk-card-title">Web design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit, justo ac rutrum faucibus, mi nisi vehicula nisi, in ultricies orci nisi at lorem. Vestibulum in mi quis tortor maximus hendrerit id in mi.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                <span uk-icon="star"></span>
+                <h3 class="uk-card-title">Web development</h3>
+                <p>Donec in venenatis erat, sit amet pharetra diam. Vestibulum ut nibh eu leo pharetra laoreet. Nullam non mauris ut lacus pharetra pharetra sit amet non quam.  Donec in venenatis erat, sit amet.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                <span uk-icon="heart"></span>
+                <h3 class="uk-card-title">User interface</h3>
+                <p>Vestibulum ut nibh eu leo pharetra laoreet. Nullam non mauris ut lacus pharetra pharetra sit amet non quam. Integer placerat ligula ante, tincidunt semper arcu rutrum non. In eget iaculis sapien.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3 -->
+    <main>
+        <h2>LATEST PROJECTS</h2>
+        <h4>FEW OF THE LATEST PORTFOLIO ITEMS</h4>
+        <hr>
+        <div class="uk-child-width-expand@s uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body uk-text-center">
+                    <img src="/starter-code/img/project-1.jpg">
+                    <p>Etiam enim bibendum dignissim quis nulla.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body uk-text-center">
+                    <img src="/starter-code/img/project-2.jpg">
+                    <p>Suspendisse vivamus metus praesent sit amet.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body uk-text-center">
+                    <img src="/starter-code/img/project-3.jpg">
+                    <p>Aliquam id justo nec ante cursus venenatis.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body uk-text-center">
+                    <img src="/starter-code/img/project-4.jpg">
+                    <p>Morbi pellentesque lacinia lorem praesent venenatis sit amet.</p>
+                </div>
+            </div>
+        </div>
+    
+        <h2>LATEST PROJECTS</h2>
+        <h4>LATEST POSTS FROM THE BLOG</h4>
+        <hr>
+        <div class="uk-child-width-expand@s uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <img src="/starter-code/img/slider-1.jpg">
+                    <p class="par1">Etiam enim bibendum dignissim quis nulla.</p>
+                    <p class="par2">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMN</span></p>
+                    <p>Nulla tincidunt pellentesque eros sit amet aliquam. Mauris nec leo non ligula scelerisque varius. Vestibulum lectus mauris, pellentesque sit amet lacinia eu, semper sit amet lorem. Suspendisse felis justo, semper a nisi nec, consequat pretium justo. Nam lobortis felis in turpis varius rutrum. Donec at turpis mollis urna pulvinar interdum.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <img src="/starter-code/img/slider-3.jpg">
+                    <p class="par1">Suspendisse vivamus metus praesent sit amet.</p>
+                    <p class="par2">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMN</span></p>
+                    <p>Phasellus tempor, neque dictum elementum maximus, nulla arcu blandit nunc, eget elementum eros mi sed nunc. Maecenas at condimentum elit. Cras mi sem, commodo vitae sem nec, elementum sollicitudin justo. Curabitur mattis dolor massa. Sed sed ultrices felis, vitae egestas lorem. </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <img src="/starter-code/img/slider-4.jpg">
+                    <p class="par1">Aliquam id justo nec ante cursus venenatis.</p>
+                    <p class="par2">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMN</span></p>
+                    <p>Pellentesque eleifend orci quis ullamcorper efficitur. Sed eget risus lacinia, porttitor mi ut, fringilla quam. Praesent eu lacinia lectus, nec pulvinar felis. Vestibulum varius aliquet eleifend. Maecenas nibh nibh, lacinia et fermentum sed, eleifend ut leo. Donec nisi sapien, imperdiet quis tellus id, viverra gravida vestibulum.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <img src="/starter-code/img/slider-2.jpg">
+                    <p class="par1">Morbi pellentesque praesent venenatis.</p>
+                    <p class="par2">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMN</span></p>
+                    <p>Aenean pellentesque libero sed tellus tristique finibus. Nam at odio lectus. Pellentesque congue nisi mattis enim efficitur, at ullamcorper tellus gravida. Phasellus in ex vel arcu posuere cursus quis ut dolor. Suspendisse potenti. Cras fringilla eget dui quis imperdiet. Ut vel dui ligula. Duis ac rutrum velit, non volutpat nulla.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Section 4 Grey grid -->
+    <hr class="hr-section4">
+    <section id="section4">
+        <div class="uk-child-width-expand@s uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <h3 class="uk-card-title">REVERA</h3>
+                    <p>Donec in venenatis erat lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit, justo ac rutrum faucibus, mi nisi vehicula nisi, in ultricies orci nisi at lorem. Vestibulum in mi quis tortor maximus hendrerit id in mi. Vestibulum ut nibh eu leo pharetra laoreet. mauris ut Vestibulum.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <h3 class="uk-card-title">META</h3>
+                    <ul class="uk-list">
+                        <li><a class="uk-active" href="#">Log in</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Entries RSS</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Comments RSS</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">WordPress.org</a></li>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <h3 class="uk-card-title">ARCHIVES</h3>
+                    <ul class="uk-list">
+                        <li><a class="uk-active" href="#">August 2013</a></li>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <h3 class="uk-card-title">RECENT POSTS</h3>
+                    <ul class="uk-list">
+                        <li><a class="uk-active" href="#">Pellentesque orci quis ullamcorper efficitur. Sed eget risus lacinia.</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Donec nisi sapien, quis tellus id.</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Pellentesque, at gravida.</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Sus eget dui quis imperdiet ligula.</a></li>
+                        <hr>
+                        <li><a class="uk-active" href="#">Aliquam varius urna, sit massa ut.</a></li>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            <p>Copyright &copy; 2018 revera - Just another demo less</p>
+            <p>| Mavera Theme</p>
+    </footer>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
