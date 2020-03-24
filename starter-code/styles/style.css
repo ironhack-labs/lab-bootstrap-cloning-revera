@@ -1,0 +1,257 @@
+/* Bootstrap comes along with a ul margin-bottom of 1em, so we get rid of it  */
+ul {
+    margin-bottom: 0;
+}
+
+.navbar { 
+    display: flex;
+    padding: 1% 10%;
+    justify-content: flex-start;
+
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+section { 
+    padding-bottom: 50px;
+}
+
+#revera-navbar-logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.navbar-item {
+    padding: 0 5%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: grey;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.carousel-item {
+    filter: saturate(0) brightness(0.6);
+}
+
+.carousel-captions {
+    padding-top: 10%; 
+    position: absolute; 
+    top: 75px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-captions > h1, p, a {
+    text-align: center;
+}
+
+
+.carousel-captions h1 { 
+    font-size: 3em;
+    font-weight: 100;
+    width: 50%;
+    text-transform: uppercase;
+} 
+
+.carousel-captions p {
+    width: 50%;
+    text-transform: none;
+    font-weight: 100;
+    font-size: .9em;
+}
+
+.carousel-btn {
+    color: white;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.carousel-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 50px 10px;
+    /* As the carousel direction arrows are set as background image,
+    if we put more padding, the image would resize to be bigger, 
+    as the background is growing. To achieve the desired look based 
+    on the original Revera theme, we set up a border to simulate padding: */
+    border-right: 10px solid tomato;
+    border-left: 10px solid tomato;
+    background-color: tomato;
+    font-size: 1em;
+}
+
+
+#carousel-ctrl-prev-a{
+    justify-content: flex-start;
+}
+
+#carousel-ctrl-next-a {
+    justify-content: flex-end;
+}
+
+.description-section {
+    background-color: tomato;
+    color: white;
+    padding: 50px 0px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fas {
+    font-size: 1.5em;
+    padding: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    
+}
+
+.description-h2 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.description-p {
+    font-size: .9em;
+}
+
+
+
+
+/* We try to use DRY Principle for the following 3 sections */
+
+
+.titles-section h3, p {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.titles-section p {
+    font-size: .75em;
+    color: grey;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: 2px solid lightgrey;   
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-title {
+    font-size: .8em;
+    text-align: center;
+}
+
+.article-title {
+    font-size: .8em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.active {
+    color:tomato !important;
+    /* I know the "!important" declaration shouldn't be used,
+    but otherwise I won't be able to re-use (DRY) this class,
+    maybe to CSS specifity level? As this rule has been overwritten
+    by .navbar ul li a declaration (according to the console) */
+}
+
+.article-preview {
+    margin-top: 20px;
+    text-transform: none;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(63, 63, 63);
+    border-top: 5px solid tomato;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-title {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.footer-text {
+    text-transform: none;
+    font-weight: 100;
+    font-size: .9em;
+    text-align: start;
+}
+
+
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li {
+    border-bottom: 2px dotted white;
+    padding: 5px 0px
+}
+
+.rss-link {
+    border-bottom: 2px dotted white;
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-legal {
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+}
+
+.footer-legal .row  p{
+    margin: 0;
+    text-transform: none;
+}
