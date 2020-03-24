@@ -85,6 +85,10 @@ header a:hover {
     border-radius: 3px;
 }
 
+.btn:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .under-slider {
     display: flex;
     flex-direction: row;
