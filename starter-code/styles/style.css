@@ -126,7 +126,7 @@
 }
 
 .articles__blogpost__title {
-    line-height: 0.75;
+  line-height: 0.75;
 }
 
 .articles__blogpost__title__link {
@@ -153,4 +153,43 @@
 
 .articles__picture img {
   width: 100%;
+}
+
+.footer {
+  border-top: 5px solid #ed564b;
+  margin-top: 32px;
+  background-color: #3b3b3b;
+  color: #aaa;
+}
+
+.footer__title {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer__list__link {
+  color: #aaa;
+  text-decoration: none;
+  padding-bottom: 4px 0px 4px 0px;
+  display: block;
+  border-bottom: 1px dotted #aaa;
+}
+
+.footer__metalinks {
+  margin-bottom: 32px;
+}
+
+.footer__copyright {
+  background-color: #292929;
+  padding: 10px 0px;
+  color: #eee;
+}
+
+.footer__copyright__flex {
+  display: flex;
+  flex-direction: column;
 }
