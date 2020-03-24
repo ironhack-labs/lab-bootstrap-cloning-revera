@@ -27,6 +27,11 @@ figure img {
     font-size: 2em;
 }
 
+#menu .logo:hover {
+    text-decoration: none;
+    color: #ed564b;
+}
+
 .flex-box {
     display: flex;
     justify-content: space-between;
@@ -105,11 +110,15 @@ figure img {
     position: absolute;
 }
 
+.arr1,
+.arr2:hover {
+    color: white;
+}
+
 #arrows i {
     margin-top: 0px;
     margin-left: 0px;
     padding: 20px 15px;
-
 }
 
 .arr2 {
