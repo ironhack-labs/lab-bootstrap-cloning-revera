@@ -1,0 +1,25 @@
+#home-carousel {
+    max-height: 550px;
+    position: relative;
+    background: #000;
+}
+.flexslider {
+    margin: 0 0 0px;
+    zoom: 1;
+}
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
