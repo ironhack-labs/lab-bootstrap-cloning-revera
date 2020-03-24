@@ -1,0 +1,127 @@
+
+#ravera-head {
+    background-color: #fff;
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+} .ravera-logo {
+    display: block;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 0 50px 0 150px;
+}
+
+#ravera-head .ravera-menu {
+    font-size: 1em;
+    font-weight: 200;
+    color: #999;
+} ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} li {
+    color: gray;
+}
+
+
+
+
+.slider {
+    background-image: url("../img/slider-1.jpg"); 
+    height: 500px;
+    background-size: 100%;
+    filter: grayscale(100%);
+    display: flex;
+} h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8em;
+} 
+
+
+.link {
+    color: #fff;
+    border: .5px solid #fff;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+.info-slider {
+    color: #fff;
+    text-align: center;
+}
+
+.ravera-services {
+    color: #fff;
+}
+
+ 
+#projects, #articles {
+    margin-top: 5%;
+}
+
+.ravera-information {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.description {
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+}
+
+.ravera-projects {
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.first-try {
+    background-color: #ed554b;
+    color: #fff;
+    border-top: 4px solid #f96b61;
+    border-bottom: 4px solid #f96b61;
+    padding: 6%;
+    text-align: center;
+}
+
+#articles h4 {
+    color: #000;
+    font-size: 1em;
+} p {
+    font-size: .8em;
+}
+
+#articles {
+    margin-bottom: 2%;
+}
+
+#ravera-footer {
+    background: #3B3B3B;
+    color: #fff;
+    padding: 5%;
+    border-top: 6px solid #f96b61;
+} 
+
+.footer-info {
+    color: #767676;
+} .footer-list {
+    display: block;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+}
+
+.date {
+    font-weight: 800;
+    color: grey;
+    text-transform: uppercase;
+}
