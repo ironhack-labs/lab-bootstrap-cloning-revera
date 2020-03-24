@@ -18,22 +18,32 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Revera</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Sample page</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
-          <li>Parent page »</li>
-          <li>Contact</li>
+    <header class="header">
+      <h1 class="header__logo">Revera</h1>
+      <nav class="header__navbar">
+        <ul class="header__navbar__list">
+          <li>
+            <a
+              href="#"
+              class="header__navbar__list__link header__navbar__list__link--cta"
+              >Home</a
+            >
+          </li>
+          <li><a href="#" class="header__navbar__list__link">About</a></li>
+          <li>
+            <a href="#" class="header__navbar__list__link">Sample page</a>
+          </li>
+          <li><a href="#" class="header__navbar__list__link">Portfolio</a></li>
+          <li><a href="#" class="header__navbar__list__link">Blog</a></li>
+          <li>
+            <a href="#" class="header__navbar__list__link">Parent page »</a>
+          </li>
+          <li><a href="#" class="header__navbar__list__link">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
@@ -46,7 +56,7 @@
         </p>
         <p><a href="#">Learn more</a></p>
       </section>
-      <section>
+      <section class="features">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -95,28 +105,53 @@
           <hr />
           <div class="row">
             <div class="col">
-              <figure><img src="#" alt="sfkjsa" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/project-1.jpg"
+                  alt="Young white man doing push-ups outdoors"
+                />
+              </figure>
               <h3>Deserunt ab mollitia ullam voluptas unde?</h3>
             </div>
             <div class="col">
-              <figure><img src="#" alt="sfkjsa" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/project-2.jpg"
+                  alt="Black and white picture of a playful kitty in blankets"
+                />
+              </figure>
               <h3>Illum distinctio, atque libero ex neque.</h3>
             </div>
             <div class="col">
-              <figure><img src="#" alt="sfkjsa" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/project-3.jpg"
+                  alt="A rose and black marble pebbles on water"
+                />
+              </figure>
               <h3>Reiciendis temporibus vero, maiores veniam?</h3>
             </div>
             <div class="col">
-              <figure><img src="#" alt="sfkjsa" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/project-4.jpg"
+                  alt="Redheaded girl in flannel enjoying the sun"
+                />
+              </figure>
               <h3>Nobis harum nesciunt delectus.</h3>
             </div>
           </div>
-                      <h2>Latest articles</h2>
-            <p>Latest posts from the blog</p>
-            <hr />
+          <h2>Latest articles</h2>
+          <p>Latest posts from the blog</p>
+          <hr />
           <div class="row">
             <div class="col">
-              <figure><img src="#" alt="ksf" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/slider-1.jpg"
+                  alt="Brown dog and gray tabby cat napping together"
+                />
+              </figure>
               <h3>Natus pariatur sapiente, repudiandae odio!</h3>
               <p>
                 Posted on <span>August 13, 2013</span> by <span>Admin</span>
@@ -129,7 +164,12 @@
               </p>
             </div>
             <div class="col">
-              <figure><img src="#" alt="ksf" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/slider-2.jpg"
+                  alt="Closeup of a cluster of seeds"
+                />
+              </figure>
               <h3>Quibusdam in accusantium dolorem quam doloribus?</h3>
               <p>
                 Posted on <span>August 13, 2013</span> by <span>Admin</span>
@@ -142,7 +182,9 @@
               </p>
             </div>
             <div class="col">
-              <figure><img src="#" alt="ksf" /></figure>
+              <figure class="articles__picture">
+                <img src="./img/slider-3.jpg" alt="Poppies" />
+              </figure>
               <h3>Numquam accusantium officia tenetur repellendus.</h3>
               <p>
                 Posted on <span>August 13, 2013</span> by <span>Admin</span>
@@ -155,7 +197,12 @@
               </p>
             </div>
             <div class="col">
-              <figure><img src="#" alt="ksf" /></figure>
+              <figure class="articles__picture">
+                <img
+                  src="./img/slider-4.jpg"
+                  alt="Four hikers heading down a mountain trail"
+                />
+              </figure>
               <h3>Maiores iste, vitae cumque quis incidunt?</h3>
               <p>
                 Posted on <span>August 13, 2013</span> by <span>Admin</span>

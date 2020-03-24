@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.header__logo {
+  margin: 0px 64px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header__navbar {
+  margin: 16px 480px 0px 0px;
+}
+
+.header__navbar__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.header__navbar__list li {
+  margin: 0px 5px;
+}
+
+.header__navbar__list__link {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.header__navbar__list__link--cta {
+  color: #ed564b;
+}
+
+.hero {
+  background-image: url('./../img/slider-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.articles__picture img {
+  width: 100%;
+}
