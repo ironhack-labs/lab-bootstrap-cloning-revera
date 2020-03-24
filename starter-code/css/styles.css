@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: pink;
+}
+
+#menu .logo {
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-right: 200px;
+}
+
+#menu nav ul li {
+    list-style-type: none;
+}
+
+#menu nav a {
+    text-decoration: none;
+    color: #777;
+    margin: 0 10px;
+    font-size: 0.7em;
+}
+
+#menu nav a:hover {
+    color: #ed564b;
+}
