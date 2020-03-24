@@ -89,6 +89,11 @@ figure img {
     border: white solid 1px;
 }
 
+.hero-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
 /* section info */
 #info {
     background-color: #ed564b;
@@ -181,8 +186,9 @@ i {
     font-weight: 800;
 }
 
-#articles small span {
+#articles small a {
     color: #ed564b;
+    text-decoration: none;
 }
 
 #articles article {
@@ -228,6 +234,11 @@ footer ul li a {
     border-bottom: 1px dotted rgba(255, 255, 255, .2);
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+footer ul li a:hover {
+    color: #aaa;
+    text-decoration: none;
 }
 
 #subfooter {
