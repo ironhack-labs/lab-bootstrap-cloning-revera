@@ -94,6 +94,63 @@
   margin-bottom: 10px;
 }
 
+.articles__header {
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.articles__header h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.articles__header p {
+  font-weight: bold;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.articles__header hr {
+  border-color: #dfdfdf;
+}
+
+.articles__portfolio {
+  text-align: center;
+}
+
+.articles__portfolio a {
+  color: #000;
+}
+
+.articles__blogpost__title {
+    line-height: 0.75;
+}
+
+.articles__blogpost__title__link {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.articles__blogpost__info {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #606060;
+  line-height: 1;
+  margin-top: 8px;
+}
+
+.articles__blogpost__info__link {
+  color: #f4473a;
+}
+
+.articles__blogpost__preview {
+  color: #606060;
+}
+
 .articles__picture img {
   width: 100%;
 }
