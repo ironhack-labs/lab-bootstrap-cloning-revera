@@ -1,0 +1,212 @@
+
+
+header {
+    margin: 30px 0 30px 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+
+header .container .row nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: nowrap;
+
+}
+
+.home-red a {
+    color: tomato;
+}
+
+header nav ul a {
+    color: #606060;
+    margin: 10px;
+}
+
+.doggy {
+    height: 535px;
+    position: relative;
+    background-image: url("./starter-code/img/overlay.png"), url("./starter-code/img/slider-1.jpg");
+    background-size: auto, cover;
+    width: 100%;
+    color:white;
+}
+
+.doggy .container {
+    padding: 180px 100px 100px 100px;
+    text-align: center;
+}
+
+.doggy a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.185);
+    margin: 50px;
+    padding: 10px 30px;
+}
+
+.tomato {
+    height: 315px;
+    text-align: center;
+    color: white;
+    background-color: #ed564b;
+    border-top: 5px solid #eb655c;
+    border-bottom: 5px solid #eb655c;
+}
+
+.tomato h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.tomato p {
+    font-size: .9em
+}
+
+.fas {
+    border: 5px solid white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.tomato .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;;
+}
+
+.tomato .container .row {
+    margin: 20px 0;
+    width: 110%;
+}
+
+.sport-articles .container {
+    width: 1200px;
+    max-width: 1200px;
+}
+
+.sport-articles .container .row .col-12 div div img{
+    width: 100%;
+}
+
+
+.sport-articles h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.sport-articles h3 {
+    margin: 15px 0 0 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.sport-articles h4 {
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: .8em;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+}
+
+.superior-margin {
+    margin: 40px 0 0 0;
+}
+
+.p-grey {
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: 800;
+    color: rgb(182, 181, 181)
+}
+
+.latest-articles div img {
+    width: 100%;
+}
+
+.latest-articles h4 a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.latest-articles p {
+    color: grey;
+}
+
+.almost-footer {
+    height: 320px;
+    background-color: rgb(68, 68, 68);
+    border-top: 5px solid tomato;
+    margin-top: 30px;
+}
+
+.almost-footer .row {
+    width: 100%;
+    padding: 0 40px;
+
+}
+
+.almost-footer h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+.almost-footer p {
+    color: grey;
+    text-align: left;
+}
+
+.almost-footer ul {
+    list-style-type: none;
+}
+
+.almost-footer a {
+    color:grey;
+    text-decoration: none;
+}
+
+.almost-footer .container {
+    margin-top: 30px;
+}
+
+.footer {
+    font-size: .7em;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    height: 85px;
+}
+
+.almost-footer .row {
+      padding: 0;
+      margin: 0;
+}
+
+.almost-footer .row ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.almost-footer li {
+    border-bottom: 1px dotted grey;
+    padding: 5px 0;
+    font-size: .9em;
+}
+
+.almost-footer p {
+    font-size: .9em;
+}
