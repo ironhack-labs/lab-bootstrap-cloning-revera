@@ -106,7 +106,9 @@
     font-size: 1.2em;
     text-align: center;
 }
-
+#latest-articles{
+    padding-bottom: 50px;
+}
 
 #latest-projects img, #latest-articles img{
     width: 100%;
