@@ -110,11 +110,6 @@ figure img {
     position: absolute;
 }
 
-.arr1,
-.arr2:hover {
-    color: white;
-}
-
 #arrows i {
     margin-top: 0px;
     margin-left: 0px;
