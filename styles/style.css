@@ -1,0 +1,120 @@
+/*  */
+
+body{
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 630px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: gray;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.hero-sect {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    text-align: center;
+    padding: 155px;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#button-hero{
+    margin-top: 25px;
+}
+
+#button-hero a {
+    text-decoration: none;
+    border: 1px solid white;
+    text-align: center;
+    padding: 7px 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.icons-sect {
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.col-md-4{
+    text-align: center;
+}
+
+.projects-sect .col-md-3{
+    text-align: center;
+}
+
+.icons-sect {
+    background: #ed564b;
+}
+
+.icons-sect h2 {
+    margin: 15px;
+}
+
+.icons{
+    width: 58px;
+    height: 58px;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 14px;
+    margin: auto;
+}
+
+.icons i {
+    color: white;
+    font-size: 1em;
+}
+
+.in-white h1, .in-white h2, .in-white p {
+    color: white;
+}
+
+.in-white p {
+    font-size: small;
+}
+
+.size-img img{
+    width: 255px;
+}
