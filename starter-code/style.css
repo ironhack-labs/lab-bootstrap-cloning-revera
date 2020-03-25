@@ -27,6 +27,10 @@
     background-color: #292929;
 }
 
+#copyright {
+    padding: 0px 50px;
+}
+
 #textFooter {
     color: #AAAAAA;
 }
