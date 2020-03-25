@@ -1,7 +1,7 @@
 /* NavBar*/
-
-a:active {
-  color: #ed564b;
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /* Carrousel*/
@@ -29,13 +29,7 @@ a:active {
   z-index: 2;
 }
 
-.btn {
-  color: #ffffff;
-  background: transparent;
-  border: 1px solid white;
-}​
- 
-a:hover{
+a:hover {
   color: red;
   background: white;
   border: 1px solid white;

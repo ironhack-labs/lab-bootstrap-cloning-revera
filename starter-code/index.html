@@ -11,8 +11,6 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
     integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
@@ -27,7 +25,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="menudesp">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link text-red" href="#">Home</a>
+            <a class="nav-link text-danger" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -38,8 +36,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Portdolio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Parent page</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Parent page
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navDropdown">
+              <a href="#" class="dropdown-item">Full page</a>
+              <a href="#" class="dropdown-item">Child page 1</a>
+              <a href="#" class="dropdown-item">Child page 2</a>
+            </div> 
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -60,45 +65,45 @@
       </ol>
       <div class="carousel-inner center" role="listbox">
         <!-- Slide One -->
-        <div class="carousel-item active" style="background-image: url('img/project-1.jpg')">
+        <div class="carousel-item active" style="background-image: url('img/project-1.jpg')" alt="boy">
           <div class="container">
             <div class="carousel-caption center">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Read More</a></p>
             </div>
           </div>
         </div>
         <!-- Slide Two -->
-        <div class="carousel-item" style="background-image: url('img/project-3.jpg')">
+        <div class="carousel-item" style="background-image: url('img/project-3.jpg')" alt="flower">
           <div class="container">
             <div class="carousel-caption center">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Read More</a></p>
             </div>
           </div>
         </div>
         <!-- Slide Three -->
-        <div class="carousel-item" style="background-image: url('img/project-4.jpg')">
+        <div class="carousel-item" style="background-image: url('img/project-4.jpg')" alt="dog">
           <div class="container">
             <div class="carousel-caption center">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Read More</a></p>
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+      <a class="carousel-control-prev" href="#carouselRevera" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bg-danger py-5 px-4"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next flex" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <a class="carousel-control-next flex" href="#carouselRevera" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bg-danger py-5 px-4"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -197,13 +202,13 @@
               <div>
                 <span class="posted-on">Posted on
                   <a href="#" title="5:33 am" rel="bookmark">
-                    <time class="entry-date published" datetime="2020-03-25T05:33:33+00:00">
+                    <time class="entry-date published text-danger" datetime="2020-03-25T05:33:33+00:00">
                       March 25, 2020
                     </time>
                   </a>
                 </span>
                 <span class="byline"> by
-                  <span class="author vcard"><a class="url fn n" href="#" title="View all posts by admin">admin</a>
+                  <span class="author vcard"><a class="url fn n text-danger" href="#" title="View all posts by admin">admin</a>
                   </span>
                 </span>
               </div>
@@ -221,13 +226,13 @@
               <div>
                 <span class="posted-on">Posted on
                   <a href="#" title="5:33 am" rel="bookmark">
-                    <time class="entry-date published" datetime="2020-03-25T05:33:33+00:00">
+                    <time class="entry-date published text-danger" datetime="2020-03-25T05:33:33+00:00">
                       March 25, 2020
                     </time>
                   </a>
                 </span>
                 <span class="byline"> by
-                  <span class="author vcard"><a class="url fn n" href="#" title="View all posts by admin">admin</a>
+                  <span class="author vcard"><a class="url fn n text-danger" href="#" title="View all posts by admin">admin</a>
                   </span>
                 </span>
               </div>
@@ -245,13 +250,13 @@
               <div>
                 <span class="posted-on">Posted on
                   <a href="#" title="5:33 am" rel="bookmark">
-                    <time class="entry-date published" datetime="2020-03-25T05:33:33+00:00">
+                    <time class="entry-date published text-danger" datetime="2020-03-25T05:33:33+00:00">
                       March 25, 2020
                     </time>
                   </a>
                 </span>
                 <span class="byline"> by
-                  <span class="author vcard"><a class="url fn n" href="#" title="View all posts by admin">admin</a>
+                  <span class="author vcard"><a class="url fn n text-danger" href="#" title="View all posts by admin">admin</a>
                   </span>
                 </span>
               </div>
@@ -269,13 +274,13 @@
               <div>
                 <span class=" posted-on">Posted on
                   <a href="#" title="5:33 am" rel="bookmark">
-                    <time class="entry-date published" datetime="2020-03-25T05:33:33+00:00">
+                    <time class="entry-date published text-danger" datetime="2020-03-25T05:33:33+00:00">
                       March 25, 2020
                     </time>
                   </a>
                 </span>
                 <span class="byline"> by
-                  <span class="author vcard"><a class="url fn n" href="#" title="View all posts by admin">admin</a>
+                  <span class="author vcard"><a class="url fn n text-danger" href="#" title="View all posts by admin">admin</a>
                   </span>
                 </span>
               </div>
