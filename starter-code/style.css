@@ -1,0 +1,88 @@
+
+
+.btn-carousel{
+    border-color: white;
+    color: white;
+
+}
+.btn-carousel:hover{
+    text-transform: uppercase;
+    color: white;
+}
+#caroussel img{
+    
+        max-width: 100%;
+        max-height: auto;
+        display: block; 
+}
+.bg{
+    background-color: rgba(46, 49, 49, 0,5);
+}
+
+.container{ 
+    margin: 0;
+}
+
+.carousel img{
+    
+}
+
+.margin-focus{
+    margin-top: 20px;
+}
+
+.margin-focus img{
+
+    width: 132px;
+    height: 132px;
+    padding: 10px;
+}
+
+.bor-t{
+    border-top: 1px solid #606060;
+    padding: 10px 40px 10px 40px;
+}
+
+.img-article img{
+    width: 200px;
+    height: auto;
+}
+
+
+h4{
+    color: #606060;
+}
+.red{
+    color:red;
+}
+
+footer{
+    color: #aaa;
+}
+
+footer li:hover{
+    color: white;
+}
+footer li{
+    list-style: none;
+    border-bottom: dashed;
+    border-color: #aaa;
+}
+footer ul{
+    padding: 0;
+}
+
+
+footer h4{
+    color:white;
+
+}
+
+.copy{
+    background-color: #606060;
+    color: whithe;
+
+}
+.copy p{
+    border-left: 1px solid white;
+}
