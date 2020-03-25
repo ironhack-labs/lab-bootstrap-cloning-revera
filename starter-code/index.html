@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
+        body {
+            font-family: Oxygen, sans-serif;
+        }
+
         #carousel img {
             opacity: 0.3;
         }
@@ -24,18 +28,57 @@
             font-weight: 700;
             color: rgb(128, 128, 128);
         }
+
         .card span {
             font-size: 12px;
         }
+
         .card h5 {
             font-size: 16px;
+        }
+
+        #footer {
+            padding: 20px 0px 40px 0px;
+            background: #3b3b3b;
+            border-top: 5px solid #ed564b;
+            color: #aaa;
+        }
+
+        .footer-h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding: 10px 0px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        #footer a {
+            color: #aaa;
+            padding: 7px 0px 7px 0px;
+            display: block;
+        }
+
+        ul li {
+            height: 100%;
+            line-height: 18px;
+            clear: left;
+            list-style-type: none;
+            color: #aaa;
+        }
+
+        li {
+            margin: 0;
+            padding: 0px 0px;
+            border-bottom: 1px dotted rgba(255, 255, 255, .2);
+        }
+        #site-footer {
+            background-color: #292929;;
         }
     </style>
 </head>
 
 <body>
-
-    <!--NAV-->
+    <!-------------------------------NAVIGATOR---------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="col-sm-4">
             <a href="#" class="navbar-brand">
@@ -70,8 +113,7 @@
         </div>
     </nav>
 
-
-    <!--Carousel-->
+    <!-------------------------------CAROUSEL---------------------------------->
     <div class="container-fluid" id="carousel">
         <div id="carouselId" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -129,7 +171,7 @@
     </div>
 
 
-    <!--SECTION RED-->
+    <!-------------------------------RED SECTION---------------------------------->
     <div class="container-fluid bg-danger text-white">
         <div class="row">
             <div class="col-md-4 text-center">
@@ -160,6 +202,8 @@
             </div>
         </div>
     </div>
+
+    <!-------------------------------CARDS START HERE---------------------------------->
     <div class="container">
         <div class="row">
             <div class="container section-title" style="margin-top: 1em;">
@@ -195,7 +239,7 @@
             </div>
             <div class="row p-3">
                 <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <img class="card-img-top img-responsive" src="img/slider-4.jpg" alt="project-1">
                     <div class="card-header">
                         <h5>
                             Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
@@ -215,7 +259,7 @@
                     </div>
                 </div>
                 <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <img class="card-img-top img-responsive" src="img/slider-1.jpg" alt="slide-1">
                     <div class="card-header">
                         <h5>
                             Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
@@ -235,7 +279,7 @@
                     </div>
                 </div>
                 <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <img class="card-img-top img-responsive" src="img/slider-2.jpg" alt="project-1">
                     <div class="card-header">
                         <h5>
                             Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
@@ -255,7 +299,7 @@
                     </div>
                 </div>
                 <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <img class="card-img-top img-responsive" src="img/slider-3.jpg" alt="project-1">
                     <div class="card-header">
                         <h5>
                             Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
@@ -276,11 +320,63 @@
                 </div>
             </div>
         </div>
-
     </div>
 
+    <!-------------------------------BOTTOM PART---------------------------------->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-3" id="footer-text">
+                    <h3 class="footer-h3">Revera</h3>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                        vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                        varius? Aliquam nec venenatis turpis.
+                        Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus
+                        accumsan.
+                    </p>
+                </div>
+                <div class="col-6 col-lg-3" id="footer-meta">
+                    <h3 class="footer-h3">META</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="">Log in</a></li>
+                        <li><a href="">Entries RSS</a></li>
+                        <li><a href="">Comments RSS</a></li>
+                        <li><a href="">WordPress.org</a></li>
+                    </ul>
 
-    <!---->
+                </div>
+                <div class="col-6 col-lg-3" id="footer-archives">
+                    <h3 class="footer-h3">ARCHIVE</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="">August 2013</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3" id="footer-posts">
+                    <h3 class="footer-h3">RECEN POSTS</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                        <li><a href="">Nunc libero elit, iaculis nec augue non</a></li>
+                        <li><a href="">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+                        <li><a href="">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+                        <li><a href="">Vivamus blandit ipsum sed arcu euismod</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-------------------------------FOOTER---------------------------------->
+      <footer class="container-fluid site-footer text-white p-3" id="site-footer">
+        <div class="fcred col-12" id="copyright">
+          Copyright &copy; 2018 revera - Just another demo Sites site.<br>
+          I Revera Theme
+        </div>
+      </footer>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
