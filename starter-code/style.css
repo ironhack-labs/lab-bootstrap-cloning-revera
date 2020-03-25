@@ -1,0 +1,32 @@
+#content {
+    padding: 30px 0px;
+}
+#bold {
+    font-weight: 800;
+}
+
+#grey {
+    color: lightgrey;
+    font-weight: 700;
+}
+
+#red-strip {
+    padding: 30px 50px;
+    background-color: #ED564B;
+    border-top: 5px solid lightsalmon;
+}
+
+#footer {
+    padding: 30px 80px;
+    border-top: 5px solid orangered;
+    background-color: #3b3b3b;
+}
+
+#realFooter {
+    padding: 30px;
+    background-color: #292929;
+}
+
+#textFooter {
+    color: #AAAAAA;
+}
