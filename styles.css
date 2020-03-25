@@ -6,6 +6,7 @@ body {
 #red {
     background-color: #ed564b;
     display: flex;
+    text-align: center;
     justify-content: space-around;
 }
 
@@ -13,8 +14,22 @@ header ul{
     text-decoration: none;
     list-style-type:none;
 }
-.table {
+nav {
         display: flex;
         align-items: flex-end;
+        text-align: left;
 
 }
+
+
+footer {
+    background-color: black∫;
+    color: wheat∫;
+
+}
+.dotted {
+    color: #aaa;
+    text-decoration: none;
+    list-style-type:none;
+}
+
