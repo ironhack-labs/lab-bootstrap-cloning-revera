@@ -1,0 +1,28 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.left-6 {
+    padding-left: 20%;
+}
+.carousel-item {
+    margin-right: 0;
+}
+.carousel-item > img {
+    filter: grayscale();
+    height: 100%;
+}
+.carousel-caption {
+    height: 50%;
+    /* box-sizing: border-box; */
+    padding-bottom: 10%;
+}
+.border-5 {
+    border-top: 5px solid red;
+}
+.bg-black {
+    background-color: rgb(44, 43, 43);
+}
+.b-bt-dashed {
+    border-bottom: 1px dotted #6c757d !important;
+}
