@@ -18,6 +18,9 @@ h6{
     color: gray;
     font-size: 5px;
 }
+.carousel-item>img{
+    width: fit-content;
+}
 .color-gray{
     color: gray;
 }
@@ -62,14 +65,22 @@ h6{
     background-position: 100% 0;
     right: 0px;
 }
+
 #home-carousel {
     max-height: 550px;
-    background: #000;
 }
 .flexslider {
     margin: 0;
     padding: 0;
     zoom: 1;
+}
+.flexslider .slides{
+    width: 100%;
+    display: block;
+}
+.flexslider .slides > img{
+    width: 100%;
+    display: block;
 }
 .fwidgets {
     padding: 40px 0px;
