@@ -1,0 +1,178 @@
+body {
+    background-color: yellow;
+}
+
+
+
+header {
+    min-height: 150px;
+    width: 100%;
+
+    background-color: red;
+}
+
+.head_menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.text_uppercase, .text_gray {
+    text-transform: uppercase;
+}
+
+
+
+.head_menu h1 a {
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.head_menu nav {
+    background-color: white;
+    min-height: 100px;
+
+    /*width: 100%;*/
+
+}
+
+.head_menu nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 30px;
+    
+}
+
+.head_menu nav ul li {
+    margin: 20px 10px;
+    padding-top: 20px;
+}
+
+.head_menu nav ul li a {
+    font-size: 1.4em;
+    color: gray;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+#home {
+    color: red;
+    font-weight: 900;
+}
+
+.hero {
+    background-image: url("../img/project-2.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+.container-fluid{
+    width: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+#button{
+    border: 5px solid white
+}
+.skills {
+    background-color: red;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+
+.skills .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.latest_projects {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+   
+}
+
+.latest_projects .col{
+    text-align: center;
+}
+
+.text_gray{
+    color: gray;
+}
+
+
+.latest_articles {
+    background-color: white;
+    min-height: 400px;
+    width: 100%;
+}
+
+.latest_projects img, .latest_articles img {
+    width: 213px;
+}
+
+.posted{
+    color: red;
+    font-weight: 700;
+
+}
+
+footer {
+    background-color: #3b3b3b;;
+    min-height: 400px;
+    width: 100%;
+    color: white;
+    border-top: 10px solid red;
+}
+
+
+
+small {
+    background-color: black;
+}
+
+.legal_advise {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.link_format_footer {
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.hr_footer{
+    background-color: white;
+}
+
+.container {
+    padding: 30px 0;
+}
+
+.icon_circle{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 50px;
+    border-radius: 50%;
+}
