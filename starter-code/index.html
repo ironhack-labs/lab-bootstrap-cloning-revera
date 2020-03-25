@@ -10,15 +10,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <style>
-            #carousel img {
-                opacity: 0.3;
-            }
-            #overlay {
-                background-image: url(./img/overlay.png);
-                background-color: black;
-            }
-        </style>
+    <style>
+        #carousel img {
+            opacity: 0.3;
+        }
+
+        #overlay {
+            background-image: url(./img/overlay.png);
+            background-color: black;
+        }
+
+        #gray-heavy {
+            font-weight: 700;
+            color: rgb(128, 128, 128);
+        }
+        .card span {
+            font-size: 12px;
+        }
+        .card h5 {
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
@@ -76,7 +88,7 @@
                     <div class="container">
                         <div class="carousel-caption text-center">
                             <h1>Cat and dog</h1>
-                            <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor 
+                            <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor
                                 laboriosam molestiae aperiam illum iusto neque architecto officiis! Natus, unde!</p>
                         </div>
                     </div>
@@ -85,7 +97,7 @@
                     <img class="img-fluid mx-auto d-block" src="img/slider-2.jpg" alt="Plant">
                     <div class="carousel-caption text-center">
                         <h1>Cat and dog</h1>
-                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor 
+                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor
                             laboriosam molestiae aperiam illum iusto neque architecto officiis! Natus, unde!</p>
                     </div>
                 </div>
@@ -93,7 +105,7 @@
                     <img class="img-fluid mx-auto d-block" src="img/slider-3.jpg" alt="Flower">
                     <div class="carousel-caption text-center">
                         <h1>Cat and dog</h1>
-                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor 
+                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor
                             laboriosam molestiae aperiam illum iusto neque architecto officiis! Natus, unde!</p>
                     </div>
                 </div>
@@ -101,7 +113,7 @@
                     <img class="img-fluid mx-auto d-block" src="img/slider-4.jpg" alt="Mountain">
                     <div class="carousel-caption text-center">
                         <h1>Cat and dog</h1>
-                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor 
+                        <p>Aspernatur fuga, distinctio nesciunt itaque ex quam explicabo assumenda omnis nulla dolor
                             laboriosam molestiae aperiam illum iusto neque architecto officiis! Natus, unde!</p>
                     </div>
                 </div>
@@ -121,33 +133,150 @@
     <div class="container-fluid bg-danger text-white">
         <div class="row">
             <div class="col-md-4 text-center">
-                <img>
+                <img src="">
                 <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci</p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus
+                    eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.
+                </p>
 
             </div>
             <div class="col-md-4 text-center">
                 <img>
                 <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci</p>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus
+                    eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.
+                </p>
 
             </div>
             <div class="col-md-4 text-center">
                 <img>
                 <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione eius, incidunt officia minus
-                    exercitationem adipisci</p>
-
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus
+                    eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.
+                </p>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container section-title" style="margin-top: 1em;">
+                <h2>LATEST PROJECTS</h2>
+                <p id="gray-heavy">FEW OF OUR LATEST PROJECTS</p>
+                <hr>
+            </div>
+            <div class="row p-3">
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-2.jpg" alt="project-2">
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-3.jpg" alt="project-3">
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-4.jpg" alt="project-4">
+                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container section-title" style="margin-top: 1em;">
+                <h2>LATEST ARTICLES</h2>
+                <p id="gray-heavy">LATEST POSTS FROM THE BLOG</p>
+                <hr>
+            </div>
+            <div class="row p-3">
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <div class="card-header">
+                        <h5>
+                            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+                        </h5>
+                        <span id="gray-heavy">POSTED ON </span><span class="text-danger">AUGUST 19, 2013 </span>
+                        <span id="gray-heavy">BY </span><span class="text-danger">ADMIN</span>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                            Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+                            suscipit orci at molestie.
+                            Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam
+                            mauris tortor, pharetra […]
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <div class="card-header">
+                        <h5>
+                            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+                        </h5>
+                        <span id="gray-heavy">POSTED ON </span><span class="text-danger">AUGUST 19, 2013 </span>
+                        <span id="gray-heavy">BY </span><span class="text-danger">ADMIN</span>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                            Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+                            suscipit orci at molestie.
+                            Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam
+                            mauris tortor, pharetra […]
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <div class="card-header">
+                        <h5>
+                            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+                        </h5>
+                        <span id="gray-heavy">POSTED ON </span><span class="text-danger">AUGUST 19, 2013 </span>
+                        <span id="gray-heavy">BY </span><span class="text-danger">ADMIN</span>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                            Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+                            suscipit orci at molestie.
+                            Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam
+                            mauris tortor, pharetra […]
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <img class="card-img-top img-responsive" src="img/project-1.jpg" alt="project-1">
+                    <div class="card-header">
+                        <h5>
+                            Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+                        </h5>
+                        <span id="gray-heavy">POSTED ON </span><span class="text-danger">AUGUST 19, 2013 </span>
+                        <span id="gray-heavy">BY </span><span class="text-danger">ADMIN</span>
+                    </div>
+
+                    <div class="card-body">
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                            Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim
+                            suscipit orci at molestie.
+                            Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam
+                            mauris tortor, pharetra […]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
