@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.gray {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+i.fas {
+  color: white;
+  border: 4px solid white;
+  border-radius: 60px;
+  padding: 1.2em 1.3em;
+
+}
+
+.ban {
+  border-top: 4px solid coral;
+  border-bottom: 4px solid coral;
+}
+
+.banu {
+  border-top: 4px solid coral;
+}
+
+.ndt {
+  list-style: none;
+}
+
+.dot {
+  border-bottom: 1px dotted gainsboro;
+}
+
+.bgb {
+  background-color: black;
+}
