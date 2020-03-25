@@ -1,0 +1,53 @@
+#under-carousel {
+  background-color: #ff614e;
+}
+
+#links {
+  background-color: #444444;
+  border-top: solid #ff614e;
+}
+
+.links-item {
+  color: #c7c7c7;
+}
+
+hr.dotted {
+  border-top: 1px dotted #9b9b9b;
+}
+
+#copyright {
+  background-color: #262626;
+}
+
+#carouselId .btn-light {
+  color: white;
+  background-color: transparent;
+}
+
+.active a {
+  color: #ff614e !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width:30px;
+  height: 70px;;
+  background-color:#ff614e;
+  filter: none;
+  opacity: 1;
+}
+
+.grey-filter {
+  filter: grayscale(100%);
+}
+
+.border-2 {
+  border-width:2px !important;
+}
+
+.border-3 {
+  border-width:3px !important;
+}
+
+.orange-border {
+  border-top: solid #ff614e;
+}
