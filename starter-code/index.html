@@ -7,97 +7,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Own CSS-->
     <link rel="stylesheet" href="./style/styles.css">
+    <!-- link the font awesome CDN -->
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a href="#" class="navbar-brand">Ironhack</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#menudesp">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menudesp">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a href="#" class="nav-link">Productos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
-            </ul>
+    <header class="bg-white fixed-top">
+        <!-- NAVBAR -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg row justify-content-md-center">
+                <div class="col-sm-4">
+                    <h1 class="navbar-brand font-weight-bold">REVERA</h1>
+                </div>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menudesp">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-sm-8 text-secondary" id="menudesp">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link text-danger">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Sample page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Parent page <i class="fas fa-angle-double-right text-secondary"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-secondary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
     <!-- CAROUSEL -->
-    <div id="home-carousel" class="carousel slide mt-1 flexslider" data-ride="carousel">
-          <!-- Indicators -->
+    <section id="home-carousel" class="carousel slide flexslider mt-5" data-ride="carousel">
+        <!-- Indicators -->
         <ul class="carousel-indicators">
             <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#home-carousel" data-slide-to="1"></li>
             <li data-target="#home-carousel" data-slide-to="2"></li>
+            <li data-target="#home-carousel" data-slide-to="3"></li>
         </ul>
         <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+        <ul class="carousel-inner">
+            <li class="carousel-item active">
                 <img src="./img/slider-1.jpg" alt="Slide 1"/>
                 <div class="carousel-caption">
                     <h1>SLIDE 1 DE EJEMPLO</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis dolor maxime eveniet perspiciatis debitis, minus in a, dolores quo velit et iste. Fuga earum nobis repudiandae libero at vel!</p>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </li>
+            <li class="carousel-item">
                 <img src="./img/slider-2.jpg" alt="Slide 2"/>
                 <div class="carousel-caption">
                     <h1>SLIDE 2 DE EJEMPLO</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis dolor maxime eveniet perspiciatis debitis, minus in a, dolores quo velit et iste. Fuga earum nobis repudiandae libero at vel!</p>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </li>
+            <li class="carousel-item">
                 <img src="./img/slider-3.jpg" alt="Slide 3"/>
                 <div class="carousel-caption">
                     <h1>SLIDE 3 DE EJEMPLO</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis dolor maxime eveniet perspiciatis debitis, minus in a, dolores quo velit et iste. Fuga earum nobis repudiandae libero at vel!</p>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </li>
+            <li class="carousel-item">
                 <img src="./img/slider-4.jpg" alt="Slide 4"/>
                 <div class="carousel-caption">
                     <h1>SLIDE 4 DE EJEMPLO</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis dolor maxime eveniet perspiciatis debitis, minus in a, dolores quo velit et iste. Fuga earum nobis repudiandae libero at vel!</p>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
         <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#home-carousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#home-carousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+        <ul class="flex-direction-nav">
+            <li><a class="carousel-control-prev flex-prev" href="#home-carousel" data-slide="prev"></a></li>
+            <li><a class="carousel-control-next flex-next" href="#home-carousel" data-slide="next"></a></li>
+        </ul>
+    </section>
     <!-- SERVICES -->
-    <div class="container bg-danger text-white">
-        <div class="row">
-            <div class="col-md-4 text-center homewidget">
-                <span>
-                    <i class="glyphicon glyphicon-glass"></i> 
-                </span>  
-                <h3>Titulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem accusantium, hic aperiam magni pariatur temporibus quia consequatur animi, quod unde fuga nisi omnis suscipit vel odio, dolorem enim sapiente!</p>
-            </div>
-            <div class="col-md-4 text-center homewidget">
-                <span>
-                    <i class="glyphicon glyphicon-star"></i> 
-                </span>  
-                <h3>Titulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem accusantium, hic aperiam magni pariatur temporibus quia consequatur animi, quod unde fuga nisi omnis suscipit vel odio, dolorem enim sapiente!</p>
-            </div>
-            <div class="col-md-4 text-center homewidget">
-                <span>
-                    <i class="glyphicon glyphicon-heart"></i> 
-                </span>  
-                <h3>Titulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem accusantium, hic aperiam magni pariatur temporibus quia consequatur animi, quod unde fuga nisi omnis suscipit vel odio, dolorem enim sapiente!</p>
+    <section class="text-white fwidgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center homewidget">
+                    <span>
+                        <i class="fas fa-glass-martini"></i> 
+                    </span>  
+                    <h3 class="font-weight-bold my-3">Web design</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+                </div>
+                <div class="col-md-4 text-center homewidget">
+                    <span>
+                        <i class="fas fa-star"></i>
+                    </span>  
+                    <h3 class="font-weight-bold my-3">Web development</h3>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                </div>
+                <div class="col-md-4 text-center homewidget">
+                    <span>
+                        <i class="fas fa-heart"></i>
+                    </span>  
+                    <h3 class="font-weight-bold my-3">User interface</h3>
+                    <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="lastest-projects" class="container mt-5">
+        <h5 class="font-weight-bold">LASTEST PROJECTS</h5>
+        <h6 class="font-weight-bold">FEW OF THE LASTEST PORTFOLI ITEMS</h6>
+        <hr/>
+        <div class="row">
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-1.jpg" class="card-img-top" alt="Project 1">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-2.jpg" class="card-img-top" alt="Project 2">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-3.jpg" class="card-img-top" alt="Project 3">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-4.jpg" class="card-img-top" alt="Project 4">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </section>
+    <section id="latest-articles" class="container mt-5">
+        <h5 class="font-weight-bold">LASTEST ARICLES</h5>
+        <h6 class="font-weight-bold">LASTESTS POST FROM THE BLOG</h6>
+        <hr/>
+        <div class="row">
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-3.jpg" class="card-img-top" alt="Project 1">
+                <span>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</span>
+                <span class="text-seconadry">POSTED ON <span class="text-danger">AUGUST 19</span>, 2013 BY <span class="text-danger">ADMIN</span></span>
+                <p class="card-text text-left text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ducimus dignissimos ea fuga atque eum eaque, totam hic quia praesentium ipsum, similique a possimus est iusto, ratione rerum facilis consectetur!</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-1.jpg" class="card-img-top" alt="Project 2">
+                <span>Falauris sollicitudin quis dolor venenatis facilisis</span>
+                <span class="text-seconadry">POSTED ON <span class="text-danger">AUGUST 19</span>, 2013 BY <span class="text-danger">ADMIN</span></span>
+                <p class="card-text text-left text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde dolore animi veniam ipsa omnis dolores sequi rem ab, eos repudiandae deleniti at vero, et voluptates corporis similique optio ipsam.</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-4.jpg" class="card-img-top" alt="Project 3">
+                <span>Suspendisse ornare, felis feugiat suscipit pharetra</span>
+                <span class="text-seconadry">POSTED ON <span class="text-danger">AUGUST 19</span>, 2013 BY <span class="text-danger">ADMIN</span></span>
+                <p class="card-text text-left text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nemo. Temporibus dolorem pariatur magni nesciunt consectetur, quia sunt harum ratione eum, dolor alias! Reprehenderit ducimus doloribus hic nihil minima ut?</p>
+            </div>
+            <div class="col-6 col-md-3 border-0">
+                <img src="./img/project-2.jpg" class="card-img-top" alt="Project 4">
+                <span>Festibulum purus odio, ornare non posuere</span>
+                <span class="text-seconadry">POSTED ON <span class="text-danger">AUGUST 19</span>, 2013 BY <span class="text-danger">ADMIN</span></span>
+                <p class="card-text text-left text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus natus vel ullam consectetur! Est necessitatibus, in soluta laborum ab fugit ducimus veniam expedita, rerum quidem deleniti alias sit ea perspiciatis?</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white fwidgets-footer">
+        <section class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 border-0 bg-dark">
+                    <span>REVERA</span>
+                    <p class="card-text text-left text-secondary">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                </div>
+                <div class="col-6 col-md-3 border-0 bg-dark">
+                    <span>META</span>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-secondary m-0 p-0">Log In</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 p-0">Entries RSS</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 p-0">Comments RSS</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 p-0">Wordpress.org</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 border-0 bg-dark">
+                    <span>ARCHIVES</span>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-secondary m-0 p-0">August 2013</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 border-0 bg-dark">
+                    <span>RECENT POSTS</span>
+                    <ul>
+                        <li class="menuFooter text-secondary m-0 py-1">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 py-1">Nunc libero elit, iaculis nec augue non</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 py-1">Falauris sollicitudin quis dolor venenatis facilisis</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 py-1">Phasellus aliquet iaculis neque accumsan aliquam</li>
+                        <li class="list-group-item bg-dark text-secondary m-0 py-1">Vivamus blandit ipsum sed arcu euismod</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black">
+
+        </section>
+    </footer>
 
 
 

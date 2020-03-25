@@ -1,11 +1,67 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+a:visited {
+    color: #f4473a;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+h6{
+    color: gray;
+    font-size: 5px;
+}
+.color-gray{
+    color: gray;
+}
+.bottom-border-dotted{
+    border-bottom: 1px solid dotted;
+}
+.flex-direction-nav a {
+    width: 50px;
+    height: 100px;
+    margin: -50px 0 0;
+    display: block;
+    background: url(http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+    background-position-y: -100px;
+}
+.flex-direction-nav .flex-next {
+    background-position: 100% 0;
+    right: 0px;
+}
 #home-carousel {
     max-height: 550px;
-    position: relative;
     background: #000;
 }
 .flexslider {
-    margin: 0 0 0px;
+    margin: 0;
+    padding: 0;
     zoom: 1;
+}
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+.fwidgets-footer {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
 }
 .homewidget {
     color: #fff;
