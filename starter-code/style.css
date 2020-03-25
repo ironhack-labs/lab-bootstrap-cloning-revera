@@ -1,0 +1,63 @@
+body {
+    font-family: Oxygen, sans-serif;
+}
+
+#carousel img {
+    opacity: 0.3;
+}
+
+#overlay {
+    background-image: url(./img/overlay.png);
+    background-color: black;
+}
+
+#gray-heavy {
+    font-weight: 700;
+    color: rgb(128, 128, 128);
+}
+
+.card span {
+    font-size: 12px;
+}
+
+.card h5 {
+    font-size: 16px;
+}
+
+#footer {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+}
+
+.footer-h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#footer a {
+    color: #aaa;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+ul li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;
+}
+
+li {
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+}
+#site-footer {
+    background-color: #292929;;
+}
