@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+}
+
+
+#red {
+    background-color: #ed564b;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+.table {
+        display: flex;
+        align-items: flex-end;
+
+}
