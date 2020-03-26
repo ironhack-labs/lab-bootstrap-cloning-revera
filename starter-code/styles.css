@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel-inner img {
+    filter: grayscale(100%);
+}
+
+.card-body span{
+    color: rgb(217, 83, 70);
+    text-transform: uppercase;
+}
+
+
+.footer {
+    border-top: rgb(217, 83, 70) 10px solid;
+}
+
+.list-border p{
+    border: red, solid, 1px;
+}
+
+.footer-bottom {
+    background-color: grey;
+}
+
+#footer{
+    padding: 50px;
+}
+
+#footer p.meta-border {
+    border-bottom: 1px white dotted;
+}
+
+.footer-bottom{
+    background-color: rgb(16,16,16);
+    ;
+}
