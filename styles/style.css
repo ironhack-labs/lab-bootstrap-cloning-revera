@@ -152,3 +152,7 @@ footer hr {
   height:2px;
   background-image:url('../starter-code/img/overlay.png');
 }
+
+.orange {
+  color: #ff614e;
+}
