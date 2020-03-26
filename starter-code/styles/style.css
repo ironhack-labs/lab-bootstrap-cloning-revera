@@ -22,19 +22,18 @@ a:link, a:visited, a:active {
   filter: grayscale();
 }
 
-/*
 .carousel-item:before {
   content: "";
   background-color: #000000;
   background-image: url("../img/overlay.png' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23868489' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-  opacity: .6;
+  opacity: .2;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
   z-index: 2;
-  }*/
+  }
 
 /*a:hover {
   color: red;
