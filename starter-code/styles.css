@@ -1,0 +1,47 @@
+.bw{
+    filter: grayscale(100%);
+}
+
+.border-top2{
+    border-top-width: 2px !important;
+}
+
+.bg-footer{
+    background-color: #535353;
+}
+
+.lista{
+    list-style: none;
+    
+    
+}
+
+.lista-li{
+    padding-bottom: 4px;
+    border-bottom: 1px dotted ;
+}
+
+.lista-rss{
+    border-bottom: 1px dotted ; 
+}
+
+footer p{
+    font-size:14px ;
+}
+
+footer li{
+    font-size:14px ;
+}
+
+.bg-footer2{
+    background-color: #363636;
+    
+}
+
+.bg-footer2 p{
+    font-size: 10px;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+
