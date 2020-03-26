@@ -26,8 +26,7 @@ nav {
 
 .dotted {
     color: #aaa;
-    text-decoration: none;
-    list-style-type:none;
+    border-bottom: 3px dotted gray;    list-style-type:none;
 }
 
 #grey {
