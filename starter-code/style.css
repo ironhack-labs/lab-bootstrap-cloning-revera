@@ -1,0 +1,23 @@
+.border-top-3px {
+    border-top: 3px solid;
+}
+.separate-border p {
+    padding-bottom: 0.5em;
+    border-bottom: 2px dotted;
+}
+.bg-custom-dark {
+    background-color: #595959;
+}
+.bg-custom-dark2 {
+    background-color: #292929;
+}
+.border-px {
+    border: 2px solid #dee2e6;
+}
+.custom-carousel {
+    right: auto;
+    left: auto;
+}
+#left-control {
+
+}
