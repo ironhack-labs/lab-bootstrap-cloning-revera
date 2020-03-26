@@ -1,4 +1,5 @@
 /* NavBar*/
+
 .navbar-brand {
   font-weight: bold;
   font-size: 2rem;
@@ -14,8 +15,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: grayscale();
 }
 
+/*
 .carousel-item:before {
   content: "";
   background-color: #000000;
@@ -27,13 +30,13 @@
   right: 0;
   position: absolute;
   z-index: 2;
-}
+  }*/
 
-a:hover {
+/*a:hover {
   color: red;
   background: white;
   border: 1px solid white;
-}
+}*/
 
 /* Section Services */
 

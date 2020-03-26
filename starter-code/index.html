@@ -56,18 +56,19 @@
 
   <!-- Carrousel-->
 
-  <section>
+  <section class="">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-target="#mycarousel" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-target="#mycarousel" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-target="#mycarousel" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-target="#mycarousel" data-slide-to="3"></li>
       </ol>
-      <div class="carousel-inner center" role="listbox">
+      <div class="carousel-inner">
         <!-- Slide One -->
-        <div class="carousel-item active" style="background-image: url('img/project-1.jpg')" alt="boy">
-          <div class="container">
-            <div class="carousel-caption center">
+        <div class="carousel-item active" style="background-image: url('img/slider-4.jpg')" alt="dog and cat">
+          <div class="container-fluid">
+            <div class="carousel-caption">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -76,9 +77,9 @@
           </div>
         </div>
         <!-- Slide Two -->
-        <div class="carousel-item" style="background-image: url('img/project-3.jpg')" alt="flower">
-          <div class="container">
-            <div class="carousel-caption center">
+        <div class="carousel-item" style="background-image: url('img/slider-2.jpg')" alt="flower">
+          <div class="container-fluid">
+            <div class="carousel-caption">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -87,9 +88,20 @@
           </div>
         </div>
         <!-- Slide Three -->
-        <div class="carousel-item" style="background-image: url('img/project-4.jpg')" alt="dog">
-          <div class="container">
-            <div class="carousel-caption center">
+        <div class="carousel-item" style="background-image: url('img/slider-3.jpg')" alt="flower">
+          <div class="container-fluid">
+            <div class="carousel-caption">
+              <h1>lorem ipsum</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-outline-light" href="#" role="button">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Four -->
+        <div class="carousel-item" style="background-image: url('img/slider-1.jpg')" alt="mountain">
+          <div class="container-fluid">
+            <div class="carousel-caption">
               <h1>lorem ipsum</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                 gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -98,25 +110,23 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselRevera" role="button" data-slide="prev">
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#carouselRevera" data-slide="prev">
         <span class="carousel-control-prev-icon bg-danger py-5 px-4"></span>
-        <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next flex" href="#carouselRevera" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carouselRevera" data-slide="next">
         <span class="carousel-control-next-icon bg-danger py-5 px-4"></span>
-        <span class="sr-only">Next</span>
       </a>
     </div>
   </section>
 
   <!-- Section Services-->
 
-  <section id="services" class="bg-danger text-white">
+  <section id="services" class="bg-danger text-white container-fluid">
     <div class="">
       <div class="row">
         <div class="col-md-4 text-center">
           <span><i class="fas fa-glass-martini fa-2x"></i></span>
-
           <h3>Web design</h3>
           <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula
             erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius.</p>
@@ -344,7 +354,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <p>Copyright © 2018 revera - Just another demo Sites site.</p>
+            <p>Copyright &copy; 2018 revera - Just another demo Sites site.</p>
             <a href="#">| Revera Theme</a>
           </div>
         </div>
