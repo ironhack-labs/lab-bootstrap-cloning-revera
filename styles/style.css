@@ -1,8 +1,99 @@
+/* RESPONSIVE TEXT and ICONS */
 
-
-.carousel-caption h1 {
-  font-size: 2em;
+@media screen and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+  h2, .navbar-brand {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  a, #links p {
+    font-size: 0.9rem;
+  }
+  p, .btn {
+    font-size: 0.7rem;
+  }
+  .medium, .bigger {
+    display: none;
+  }
 }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption h1 {
+      font-size: 2rem;
+    }
+    h2, .navbar-brand {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+    h4 {
+      font-size: 1.1rem;
+    }
+    a, #links p {
+      font-size: 0.9rem;
+    }
+    p, .btn {
+      font-size: 0.8rem;
+    }
+    .smaller, .bigger {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width:1199px) {
+    .carousel-caption h1 {
+      font-size: 3rem;
+    }
+    h2, .navbar-brand {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    a, #links p {
+      font-size: 1.1rem;
+    }
+    p, .btn {
+      font-size: 1rem;
+    }
+    .smaller, .bigger {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .carousel-caption h1 {
+      font-size: 4rem;
+    }
+    h2, .navbar-brand {
+      font-size: 2.1rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    h4, a, #links p {
+      font-size: 1.3rem;
+    }
+    p, .btn {
+      font-size: 1.2rem;
+    }
+    .smaller, .medium {
+      display: none;
+    }
+  }
+
+/* SECTIONS */
 
 #under-carousel {
   background-color: #ff614e;
@@ -13,16 +104,14 @@
   border-top: solid #ff614e;
 }
 
-.links-item {
-  color: #c7c7c7;
-}
-
-hr.dotted {
-  border-top: 1px dotted #9b9b9b;
-}
-
 #copyright {
   background-color: #262626;
+}
+
+/* ELSE */
+
+.links-item {
+  color: #c7c7c7;
 }
 
 #carouselId .btn-light {
@@ -56,4 +145,10 @@ hr.dotted {
 
 .orange-border {
   border-top: solid #ff614e;
+}
+
+footer hr {
+  border:0;
+  height:2px;
+  background-image:url('../starter-code/img/overlay.png');
 }
