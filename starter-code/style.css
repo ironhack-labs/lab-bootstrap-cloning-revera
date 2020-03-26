@@ -1,0 +1,83 @@
+/* HEADER */
+
+.navbar-brand {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.overlay {
+    background-image: url('img/overlay.png');
+}
+
+/* RED SECTION */
+
+.red-container {
+    background-color: #ee554b;
+    padding: 40px 0;
+}
+
+.red-container h3{
+    font-size: 22px;
+}
+
+.circle-border{
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 100%;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+/* LATEST PROJECTS AND LAST ARTICLES */
+
+.latest-projects img, .last-articles img {
+    width: 100%;
+}
+
+.latest-projects h3, .last-articles h3 {
+    font-size: 20px;
+}
+
+.latest-projects h4, .last-articles h4 {
+    font-size: 16px;
+}
+
+.latest-projects, .last-articles {
+    padding: 40px 10px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.last-articles a {
+    color: #ee554b;
+}
+
+.last-articles h5 {
+    font-size: 16px;
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #3b3b3b;
+    padding: 40px 0;
+    border-top: 5px solid #ee554b;
+}
+
+.subfooter {
+    padding: 30px 0;
+    background-color: #292929;
+}
+
+.dots p {
+    border-bottom: 1px dotted white;
+    padding-bottom: 16px;
+}
+
+.footer h4{
+    font-size: 16px;
+}
