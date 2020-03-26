@@ -1,0 +1,48 @@
+.navegador{
+position: sticky;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.menu{
+display: flex;
+float: right;    
+}
+
+.arriba{
+  position:absolute;
+  z-index: 1;
+}
+
+.abjo{
+  position: absolute;  
+  z-index: -1; 
+}
+
+.copy-carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margen-proyectos{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    border-top: orangered 2px;
+}
+
+.articulos{
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.lista-Footer li{    
+    list-style: none;
+}
