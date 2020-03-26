@@ -1,7 +1,9 @@
 /* NavBar*/
 
-a:link, a:visited, a:active {
-  text-decoration:none;
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
 }
 
 .navbar-brand {
@@ -33,7 +35,7 @@ a:link, a:visited, a:active {
   right: 0;
   position: absolute;
   z-index: 2;
-  }
+}
 
 /*a:hover {
   color: red;
@@ -98,6 +100,7 @@ a:link, a:visited, a:active {
 .bottom-list a {
   color: #808080;
 }
+
 .bottom-list a:hover {
   color: white;
 }
