@@ -1,5 +1,9 @@
 /* NavBar*/
 
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
 .navbar-brand {
   font-weight: bold;
   font-size: 2rem;
@@ -49,14 +53,10 @@
   padding: 20px 0
 }
 
-i {
+#services i {
   border: 5px solid #ffff;
   border-radius: 50px;
   padding: 10px;
-}
-
-h2 {
-  text-align: center;
 }
 
 /* Section Cards */
@@ -98,6 +98,9 @@ h2 {
 
 .bottom-list a {
   color: #808080;
+}
+.bottom-list a:hover {
+  color: white;
 }
 
 /* Section Footer */
