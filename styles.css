@@ -1,5 +1,7 @@
 body {
     background-color: #fff;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
 }
 
 
@@ -22,14 +24,12 @@ nav {
 }
 
 
-footer {
-    background-color: black∫;
-    color: wheat∫;
-
-}
 .dotted {
     color: #aaa;
     text-decoration: none;
     list-style-type:none;
 }
 
+#grey {
+
+}
