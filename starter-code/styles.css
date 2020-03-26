@@ -1,0 +1,115 @@
+
+/* Colores:
+Rojo: #ED564B
+Gris: #3B3B3B
+*/
+
+.overlayGris {
+    background-image: url(./img/overlay.png);
+    background-repeat: repeat;
+}
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+a[href="#carouselExampleCaptions"].controls {
+    background-color: #ED564B;
+    width: 3%;
+    height: 15%;
+    opacity: 1;
+}
+
+a[href="#carouselExampleCaptions"].controls:hover {
+    background-color: white;
+    
+}
+
+div#seccionRoja.container-fluid.bg-danger {
+    border-top: 4px solid #FA6B61;
+    border-bottom: 4px solid #FA6B61;
+}
+
+i.fas {
+    color: white;
+    border: 4px solid white;
+    border-radius: 60px;
+    padding: 1.2em 1.3em;
+}
+
+h5.card-title {
+   font-size: 16px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+h6.card-subtitle {
+    font-size: 12px;
+}
+
+p.card-text {
+    font-size: 12px;
+}
+
+.bottomLists {
+    list-style: none;
+}
+
+.bordeDot {
+    border-bottom: 1px dotted lightgray;
+}
+
+div#seccionGris.container-fluid {
+    border-top: 4px solid #FA6B61;
+    background-color: #3B3B3B;
+}
+
+.fondoNegro {
+    background-color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
