@@ -110,3 +110,7 @@ footer {
 footer a {
   color: #ffffff;
 }
+
+footer a:hover {
+  color: red;
+}
