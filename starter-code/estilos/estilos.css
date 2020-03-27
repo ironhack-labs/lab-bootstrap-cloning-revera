@@ -46,3 +46,54 @@ footer{
 .lista-Footer li{    
     list-style: none;
 }
+
+a.carousel-control-next span.carousel-control-next-icon {
+    background-color: red;
+    height: 70px;
+    width: 30px;
+    padding: 20px;
+}
+
+a.carousel-control-prev span.carousel-control-prev-icon {
+    background-color: red;
+    height: 70px;
+    width: 30px;
+    padding: 20px;
+}
+
+#border-danger{
+    border-top: solid 10px;
+    border-color: #dc3545;
+}
+
+#centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-dos{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.hometa {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hometa a{
+    color: #f4473a;
+}
+
+ul{
+    list-style: none;
+}
+ .puntos p{
+     border-bottom: dotted 2px white;
+ }

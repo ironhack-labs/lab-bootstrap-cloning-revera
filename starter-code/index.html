@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="./estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/11663c703f.js" crossorigin="anonymous"></script>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -21,7 +22,7 @@
            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse main-menu-item menu" id="navbarNav">
+        <div class="collapse navbar-collapse main-menu-item menu justify-content-center" id="navbarNav">
            <ul class="navbar-nav">
               <li class="nav-item active">
                  <a class="nav-link" href="#">Home</a>
@@ -58,7 +59,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">    
             <img class="d-block w-100 abajo" src="../starter-code/img/slider-1.jpg" alt="overlay">
-            <div class="carousel-caption d-none d-lg-block">
+            <div class="carousel-caption d-none d-lg-block" id="centrado">
                 <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis temporibus accusamus dolor
                     repellat doloremque eaque dolores eos ex magnam libero animi nulla praesentium laudantium
@@ -138,114 +139,176 @@
     </section>
 
     <br>
-
-    <!--Sección de proyectos-->
-
-    <section class="container-fluid p-3">
+<!--PROYECTOS-->
+ 
+    <section class="container">  
         <div >
             <h3>LATEST PROJECTS</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>   
             <hr>         
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-1.jpg" alt="Icon-Dog">
-                    <p>Lorem ipsum dolor.</p>
-                </div>
-                <div class="col-lg-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-2.jpg" alt="Icon-cat">                    
-                    <p>Lorem ipsum dolor.</p>
-                </div>
-                <div class="col-md-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-3.jpg" alt="Icon-love">                    
-                    <p>Lorem ipsum dolor.</p>
-                </div>
-                <div class="col-md-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-4.jpg" alt="Icon-love">                    
-                    <p>Lorem ipsum dolor.</p>
-                </div>
+        <div class="row text-left">
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="../starter-code/img/project-1.jpg" alt="proyecto 1">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>            
+              </div>
             </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="../starter-code/img/project-2.jpg" alt="proyecto 2">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>            
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="../starter-code/img/project-3.jpg" alt="proyecto 3">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>            
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="../starter-code/img/project-4.jpg" alt="proyecto 4">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>            
+              </div>
+            </div>
+          </div>
+    
         </div>
-    </section>
+        <!-- Final de tarjetas -->
+    
+      </section>
 
     <!--Sección de artículos-->
 
-    <article class="p-3">
+    <section class="container">  
         <div >
             <h3>LATEST ARTICLES</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>   
             <hr>         
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-1.jpg" alt="Icon-Dog">
-                    <h4>Lorem ipsum dolor.</h4>
-                    <div class="articulos">
-                        <p>POSTED ON AUGUST 23, 2019 BY JOE DOE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem nam fugiat modi quam odit dolor veniam amet ipsum? Quo quod dolorum mollitia porro maxime aperiam deleniti aliquid repudiandae soluta.</p>
-                    </div>
+        <div class="row text-left">
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="https://bit.ly/39lYWyj" alt="article 1">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>
+                <div class="hometa">
+                  <span class="posted-on">Posted on
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/" title="5:32 am" rel="bookmark"><time class="entry-date published" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time><time class="updated" datetime="2013-08-19T05:51:27+00:00">
+                      August 19, 2013</time></a></span>
+                      <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/author/admin/" title="View all posts by admin">admin</a></span></span>
                 </div>
-                <div class="col-lg-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-2.jpg" alt="Icon-cat">                    
-                    <h4>Lorem ipsum dolor.</h4>
-                    <div class="articulos">
-                        <p>POSTED ON AUGUST 23, 2019 BY JOE DOE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem nam fugiat modi quam odit dolor veniam amet ipsum? Quo quod dolorum mollitia porro maxime aperiam deleniti aliquid repudiandae soluta.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-3.jpg" alt="Icon-love">                    
-                    <h4>Lorem ipsum dolor.</h4>
-                    <div class="articulos">
-                        <p>POSTED ON AUGUST 23, 2019 BY JOE DOE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem nam fugiat modi quam odit dolor veniam amet ipsum? Quo quod dolorum mollitia porro maxime aperiam deleniti aliquid repudiandae soluta.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <img style="width: 400px;" src="../starter-code/img/project-4.jpg" alt="Icon-love">                    
-                    <h4>Lorem ipsum dolor.</h4>
-                    <div class="articulos">
-                        <p>POSTED ON AUGUST 23, 2019 BY JOE DOE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem nam fugiat modi quam odit dolor veniam amet ipsum? Quo quod dolorum mollitia porro maxime aperiam deleniti aliquid repudiandae soluta.</p>
-                    </div>
-                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>                           
+              </div>
             </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="https://bit.ly/3alu3eH" alt="article 2">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>
+                <div class="hometa">
+                  <span class="posted-on">Posted on
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/" title="5:32 am" rel="bookmark"><time class="entry-date published" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time><time class="updated" datetime="2013-08-19T05:51:27+00:00">
+                      August 19, 2013</time></a></span>
+                      <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/author/admin/" title="View all posts by admin">admin</a></span></span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>                     
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="https://bit.ly/33LWXSJ" alt="proyecto 3">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>
+                <div class="hometa">
+                  <span class="posted-on">Posted on
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/" title="5:32 am" rel="bookmark"><time class="entry-date published" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time><time class="updated" datetime="2013-08-19T05:51:27+00:00">
+                      August 19, 2013</time></a></span>
+                      <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/author/admin/" title="View all posts by admin">admin</a></span></span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>                      
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-light">
+              <img class="card-img-top" src="https://bit.ly/3anELB5" alt="proyecto 4">
+              <div class="card-body pl-0">
+                <h4>Lorem Ipsum</h4>
+                <div class="hometa">
+                  <span class="posted-on">Posted on
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/" title="5:32 am" rel="bookmark"><time class="entry-date published" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time><time class="updated" datetime="2013-08-19T05:51:27+00:00">
+                      August 19, 2013</time></a></span>
+                      <span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/author/admin/" title="View all posts by admin">admin</a></span></span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>                       
+              </div>
+            </div>
+          </div>
+    
         </div>
-    </article>
+        <!-- Final de tarjetas -->
+    
+      </section>
 
 
     <!--Footer-->
-        <section class="container-fluid bg-dark text-white p-3 footer">
-            <div class="row container-fluid">
-                <div class="col-md-3 text-left">                  
-                    <h3>REVERA</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, assumenda quae nihil ducimus magnam sequi, ipsa voluptas voluptates eaque deleniti eveniet accusamus hic? Aliquam itaque perferendis velit esse. Minus, dolore.</p>
+        <section class="container-fluid bg-dark text-white p-3" id="border-danger">
+          <div class="container">
+            <div class="row">
+        
+                <div class="botwid col-6 col-lg-3 widget_text">
+                    <h3 class="bothead">Revera</h3>
+                    <div class="textwidget">
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                    </div>
                 </div>
-                <div class="col-md-3 text-left">
-                    <h3>META</h3>
-                    <ul class="lista-Footer">
-                        <li>Loremp</li>
-                        <li>Loremp</li>
-                        <li>Loremp</li>
-                    </ul>
+                <div class="botwid col-6 col-lg-3 widget_meta puntos">
+                    <h3 class="bothead">Meta</h3>
+                        <p>Log in</p>
+                        <p>Entries RSS</p>
+                        <p>Comments RSS</p>
+                        <p>WordPress.org</p>
                 </div>
-                <div class="col-md-3 text-left">                 
-                    <h3>ARCHIVE</h3>
-                    <p>August, 13</p>
+                <div class="botwid col-6 col-lg-3 widget_archive puntos">
+                    <h3 class="bothead">Archives</h3>
+                    <p>August 2013</p>
                 </div>
-                <div class="col-md-3 text-left">                 
-                    <h3>RECENT POST</h3>
-                    <ul class="lista-Footer">
-                        <li>Loremp</li>
-                        <li>Loremp</li>
-                        <li>Loremp</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <div class="botwid col-6 col-lg-3 widget_recent_entries puntos">
+                    <h3 class="bothead">Recent Posts</h3>
 
+                    <p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
+
+                    <p>Nunc libero elit, iaculis nec augue non</p>
+
+                    <p>Falauris sollicitudin quis dolor venenatis facilisis</p>
+                </div>
+        </section>
+        <div class="footer-dos">
+          <div class="container text-white">
+              <p><i class="far fa-copyright"></i> Copyright</p>
+          </div>
+      </div>
+
+        
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
