@@ -51,10 +51,20 @@
 
 .grid img {
   width: 100%;
+  height: 140px;
 }
 
 .grid strong {
   color: #ed564b;
+}
+
+.grid h6 {
+  font-weight: bold;
+  padding: 1em 0.5em 0.5em 0.5em;
+}
+
+.grid p {
+  font-size: small;
 }
 
 .article-summary {
