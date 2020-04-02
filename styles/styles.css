@@ -1,0 +1,93 @@
+body{
+    font-family: 'Oxygen', sans-serif !important;
+}
+.navbar{
+    padding: 1rem 2rem!important;
+}
+.navbar-brand{
+    font-size: 2.25rem!important;
+    font-weight: bold!important;
+}
+a.nav-item.nav-link.active{
+color: #ed564b!important;
+}
+.carousel-inner img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.info {
+    height: 54vh;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    font-weight: bold;
+    font-size: 13px;
+   
+}
+.info h3{
+    font-weight: bold;
+    font-size: 28px;
+} 
+.info i {
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 51%;
+    padding: 0.5em;
+}
+.projects h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.projects{
+    padding: 30px;
+}
+.card-img-top img{
+    height: 15em!important;
+    padding-bottom: 2em;
+}
+.projects .subt {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+.box{
+    color: white;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-body h6{
+    color: #aaa;
+    font-size: 12px;
+    font-weight: bold;
+}
+.card-body h6 span{
+    color: #ed564b;
+}
+.card-body p{
+    font-size: 14px;
+}
+.contact{
+    padding: 20px 5px 40px 5px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+}
+.contact .row {
+   width: 80%;
+   margin:0 auto;
+}
+
+footer{
+    background-color: #292929;
+    color:white;
+    font-size: 10px;
+   padding : 2em 3em;
+}
+footer h6{
+    font-size: 12px;
+}
