@@ -1,0 +1,81 @@
+div {
+    border: 1px solid purple;
+    text-align: center;
+}
+
+section{
+    border: 1px solid purple;
+    text-align: center;
+}
+
+.nav-bar{
+    margin: 0  -15 0 -15;
+    width: 1200px ;
+    height: 90px;
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul li{
+    float: left;
+    padding: 8px;
+}
+
+.head{
+    width: 1325px;
+    height: 550px;
+    background-color: ;
+}
+
+.red-stripe{
+    background-color: red;
+    width: 1325px;
+    height: 221.250px;
+    align-items: center;
+}
+
+
+.body{
+    width: 1060px;
+    height: 1151.31px;
+}
+
+.footer{
+    width: 1060px;
+    height: 322px;
+    background-color: black;
+    color: white;
+}
+
+.copyrigth{
+    width: 1060px;
+    height:  58px;
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.carousel{
+    width: 1060px;
+    height: 455.469px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.carousel-title{
+margin: 0 auto 20px;
+}
+
+.carousel-text{
+    margin: 0 auto 20px;
+}
+
+.btn{
+    background-color: red;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
