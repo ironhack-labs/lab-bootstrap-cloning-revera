@@ -62,6 +62,10 @@
     border: 5px solid white;
 }
 
+.separation-section-article{
+    border-bottom: 1px solid #dfdfdf;
+}
+
 .link1{
     color: black;
 }
