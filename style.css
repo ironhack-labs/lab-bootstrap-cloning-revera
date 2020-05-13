@@ -58,6 +58,9 @@
     border-bottom: 5px solid #f96b61;
 }
 
+.weight-border{
+    border: 5px solid white;
+}
 
 .link1{
     color: black;
@@ -111,10 +114,26 @@
     font-size: 20px;
 }
 
+.font-32{
+    font-size: 32px;
+}
+
 .gray{
     color: #606060;
 }
 
 .light-gray{
     color: #aaa;
+}
+
+.nav-red{
+    color: #ed564b;
+}
+
+.nav-gray{
+    color: #777;
+}
+
+.nav-gray:hover{
+    color: #ed564b;
 }
