@@ -1,0 +1,152 @@
+.red-font{
+    color: #ed564b;
+}
+
+.grey-font{
+    color: #aaa;
+}
+
+.red-borders{
+    color: #f96b61;
+}
+
+.home a{
+    color: #ed564b;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+p {
+    margin-bottom: 0.6rem;
+}
+
+span{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+h3.top-title {
+    font-size: 1.5rem;
+}
+
+.sub-title{
+    font-weight: bold;
+    color: #aaa;
+}
+
+.carousel-control-prev-icon{
+    left: 0px;
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: white;
+    color: #ed564b;
+}
+
+.carousel-control-next-icon{
+    right: 0px;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: white;
+    color: #ed564b;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ed564b;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #white;
+    color: #ed564b;
+}
+
+.carousel-caption{
+    bottom: 18%;
+}
+
+.banner-button{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 0px;
+    margin-top: 10px;
+    color: white;
+    width: 150px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.overlay {
+    background: url("../starter-code/img/slider-1.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.introduction{
+    background-color: #ed564b;
+    color: white;
+}
+
+.custom-top-border-styling {
+    border-top: 4px solid;
+    border-color: #f96b61;
+}
+
+.custom-bottom-border-styling {
+    border-bottom: 4px solid;
+    border-color: #f96b61;
+}
+
+.top-footer{
+    background-color: #3b3b3b;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer{
+    background-color: #292929;
+    color: white;
+}
+
+ ul .list-group-item{
+    background-color: #3b3b3b;
+    border-bottom: 1px dotted grey;
+    border-left: 0px;
+    border-right:0px;
+    border-top:0px;
+    padding-left: 0px;
+    margin-top: 2px;
+}
