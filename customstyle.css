@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+
+
+footer a {
+    font-weight: normal;
+    padding: 5px;
+    border-bottom: dotted 1px;
+}
