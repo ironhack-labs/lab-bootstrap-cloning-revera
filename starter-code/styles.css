@@ -1,0 +1,42 @@
+
+.bg-primary {
+    background-color: #ED564B!important;
+}
+.bg-dark {
+    background-color: #3B3B3B!important;
+}
+.bg-gradient-light {
+    background-color: #292929!important;
+}
+.text-size {
+    font-size: 10px;
+}
+.border {
+    border: solid 5px!important;
+}
+
+.hrcolor {
+    border: solid 3px  #ED564B;
+    margin: 0;
+    padding: 0;
+}
+.textcolor {
+    color: #AAAAAA;
+}
+.positionArrow {
+    top: 40%; 
+    width: 60px;
+    height: 100px;
+    
+}
+.positiontext {
+    bottom: 30%;
+}
+.aborder {
+    border: 2px solid;
+    font-weight: bold;
+    color: #fff!important;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none!important;
+}
