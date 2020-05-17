@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="/starter-code/index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header class="row  m-0">
+            <div class="col-4 justify-content-center">
+                <h1 class="text-uppercase f32 ml-5 m-4">Revera</h1>
+            </div>
+            <nav class="col-8 align-items-center">
+                <ul class="nav nav-tabs m-4">
+                    <li class="nav-items">
+                        <a class="nav-link nav-red f14" href="">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav-gray f14" href="">About</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav-gray f14" href="">Sample page</a>
+                    </li>
+                    <li class="nav-items"
+                    ><a class="nav-link nav-gray f14" href="">Portfolio</a>
+                </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav-gray f14" href="">Blog</a>
+                    </li>
+                    <li class="nav-items dropright">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-split nav-gray f14" data-toggle="dropdown" href="" aria-haspopup="true" aria-expanded="false">Parent page</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Full page</a>
+                            <a class="dropdown-item" href="#">Child page 1</a>
+                            <a class="dropdown-item" href="#">Child page 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav-gray f14" href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="projectSlides" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="6000">
+                <img src="/starter-code/img/slider-1.jpg" class="d-block w-100 gray-image" alt="cat and dog">
+                <div class="carousel-caption text-carousel d-none d-md-block">
+                    <h2 class="text-uppercase font-weight-normal">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h2>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                    <a class="link0" href="">READ MORE</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="6000">
+                <img src="/starter-code/img/slider-3.jpg" class="d-block w-100 gray-image" alt="flowers">
+                <div class="carousel-caption text-carousel d-none d-md-block">
+                    <h2 class="text-uppercase font-weight-normal">Falauris sollicitudin quis dolor venenatis facilisis</h2>
+                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                    <a class="link0" href="">READ ME</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="6000">
+                <img src="/starter-code/img/slider-4.jpg" class="d-block w-100 gray-image" alt="hike">
+                <div class="carousel-caption text-carousel d-none d-md-block">
+                    <h2 class="text-uppercase font-weight-normal">Suspendisse ornare, felis feugiat suscipit pharetra</h2>
+                    <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                    <a class="link0" href="">READ ME</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="6000">
+                <img src="/starter-code/img/slider-2.jpg" class="d-block w-100 gray-image" alt="berries">
+                <div class="carousel-caption text-carousel d-none d-md-block">
+                    <h2 class="text-uppercase font-weight-normal">Fusce scelerisque nibh ac nisl luctus interdum.</h2>
+                    <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                    <a class="link0" href="">READ ME</a>
+                </div>
+              </div>
+            </div>
+            <div class="overlay"></div>
+
+            <a class="carousel-control-prev" href="#projectSlides" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectSlides" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="row text-white orange-bg px-5 py-5">
+            <div class="col-12 col-md-4 text-center">
+                <i class="fa fa-glass f20 rounded-circle white-border font-weight-bold p-4"></i>
+                <h3 class="my-3">Web design</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <i class="fa fa-star f20 rounded-circle white-border p-4"></i>
+                <h3 class="my-3">Web development</h3>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <i class="fa fa-heart f20 rounded-circle white-border p-4"></i>
+                <h3 class="my-3">User interface</h3>
+                <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            </div>
+        </div>
+
+        <div class="row p-5">
+            <div class="col-12 pb-3">
+                <h2 class="f20 text-uppercase">Latest Projects</h2>
+                <p class="f14 light-gray font-weight-bold text-uppercase  pb-3">Few of the latest portfolio items</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/project-1.jpg" alt="sport">
+                <p class="text-center pt-3">Nunc libero elit, iaculis nec augue non</p></a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/project-2.jpg" alt="cat">
+                <p class="text-center pt-3">Phasellus aliquet iaculis neque accumsan aliquam</p></a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/project-3.jpg" alt="flower">
+                <p class="text-center pt-3">Vivamus blandit ipsum sed arcu euismod</p></a>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/project-4.jpg" alt="kid and house">
+                <p class="text-center pt-3">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p></a>
+            </div>
+
+            <div class="col-12 mt-4 pb-3">
+                <h2 class="f20 text-uppercase">Latest Articles</h2>
+                <p class="f14 light-gray font-weight-bold text-uppercase pb-3">Latest posts from the blog</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/slider-1.jpg" alt="cat and dog">
+                <h3 class="f16 pt-3">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3></a>
+                <p class="f12 gray text-uppercase font-weight-bold">Posted on <a class="link2" href="#">August 19, 2013</a> by <a class="link2" href="">Admin</a></p>
+                <p class="f14 gray">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/slider-3.jpg" alt="flowers">
+                <h3 class="f16 pt-3">Falauris sollicitudin quis dolor venenatis facilisis</h3></a>
+                <p class="f12 gray text-uppercase font-weight-bold">Posted on <a class="link2" href="#">August 19, 2013</a> by <a class="link2" href="">Admin</a></p>
+                <p class="f14 gray">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/slider-4.jpg" alt="hike">
+                <h3 class="f16 pt-3">Suspendisse ornare, felis feugiat suscipit pharetra</h3></a>
+                <p class="f12 gray text-uppercase font-weight-bold">Posted on <a class="link2" href="#">August 19, 2013</a> by <a class="link2" href="">Admin</a></p>
+                <p class="f14 gray">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <a class="link1" href="#"><img class="img-fluid" src="/starter-code/img/slider-2.jpg" alt="flowers and dog">
+                <h3 class="f16 pt-3">Festibulum purus odio, ornare non posuere</h3></a>
+                <p class="f12 gray text-uppercase font-weight-bold">Posted on <a class="link2" href="#">August 19, 2013</a> by <a class="link2" href="">Admin</a></p>
+                <p class="f14 gray">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+            </div>
+        </div>
+
+        <div class="row text-white gray-bg p-5">
+            <div class="col-6 col-lg-3">
+                <h3 class="f20 text-uppercase">Revera</h3>
+                <p class="f14" style="color: #aaaaaa">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+            </div>
+            <div class="row col-6">
+                <div class="col-12 col-lg-6">
+                    <h3 class="f20 text-uppercase">Meta</h3>
+                    <ul class="list-unstyled  f14"  style="color: #aaaaaa">
+                        <li><a class="link3 dotted-bottom" href="">Log in</a></li>
+                        <li><a class="link3 dotted-bottom" href="">Entries <abbr title="attribute">RSS</abbr></a></li>
+                        <li><a class="link3 dotted-bottom" href="">Comments <abbr title="attribute">RSS</abbr></a></li>
+                        <li><a class="link3 dotted-bottom" href="">WordPress.org</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h3 class="f20 text-uppercase">Archives</h3>
+                    <ul class="list-unstyled  f14"  style="color: #aaaaaa">
+                        <li><a class="link3 dotted-bottom" href="">August 2013</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h3 class="f20 text-uppercase">Recent posts</h3>
+                <ul class="list-unstyled f14"  style="color: #aaaaaa">
+                    <li><a class="link3 dotted-bottom" href="">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                    <li><a class="link3 dotted-bottom" href="">Nunc libero elit, iaculis nec augue non</a></li>
+                    <li><a class="link3" href="">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+                    <li><a class="link3 dotted-bottom" href="">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+                    <li><a class="link3 dotted-bottom"  href="">Vivamus blandit ipsum sed arcu euismod</a></li>
+                </ul>
+            </div>
+        </div>
+            
+        <footer class="row text-white footer-bg px-5 pt-3 m-0">
+            <p class="small">Copyright © 2018 revera - Just another demo Sites site.
+            <br>| Revera Theme</p>
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+/*GENERAL RULES*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*TYPOGRAPHY*/
+
+.f12{
+    font-size: 12px;
+}
+
+.f14{
+    font-size: 14px;
+}
+
+.f16{
+    font-size: 16px;
+}
+
+.f20{
+    font-size: 20px;
+}
+
+.f32{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*COLORS*/
+
+.gray{
+    color: #606060;
+}
+
+.light-gray{
+    color: #aaa;
+}
+
+.nav-red{
+    color: #ed564b;
+}
+
+.nav-gray{
+    color: #777;
+}
+
+.nav-gray:hover{
+    color: #ed564b;
+}
+
+.gray-image{
+    filter: grayscale(100%);
+}
+
+.orange-bg{
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.white-border{
+    border: 5px solid white;
+}
+
+.footer-bg{
+    background-color: #292929;
+}
+
+.dotted-bottom{
+    border-bottom: 1px dotted #aaa ;
+}
+
+/*LINK STYLES*/
+
+.link0{
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.link0:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link1{
+    color: black;
+}
+
+.link1:hover{
+    text-decoration: none;
+    color: black;
+} 
+
+.link2{
+    color: #f4473a;
+}
+
+.link2:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.gray-bg{
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.link3{
+    color:inherit;
+}
+
+.link3:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*NAVBAR STYLE*/
+
+.nav-tabs{
+    border: none;
+}
+/*CAROUSEL RULES*/
+.overlay{
+    background: url('/starter-code/img/overlay.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.text-carousel{
+    width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 50px;
+    height: 100px;
+    background-color: #f4473a;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
