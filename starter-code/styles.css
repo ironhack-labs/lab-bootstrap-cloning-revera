@@ -1,0 +1,14 @@
+.red{
+    color: #ed564b
+}
+.no-list-style{
+    list-style: none;
+    border-bottom: 1px dotted wheat;
+    width: inherit;
+    font-size: 0.9rem;
+}
+.image{
+    width: 13%;
+    background-color: white;
+}
+content:"\f000";
