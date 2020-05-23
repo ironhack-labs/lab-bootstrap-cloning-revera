@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 2.4rem 0 1.6rem 0;
+}
+
+.navigation {
+  padding: 3rem 0;
+  font-size: 1.4rem;
+}
+
+.active > .nav-link {
+  font-weight: 700;
+  color: #f96b60 !important;
+}
+
+.navigation ul li {
+  padding: 0 0.8rem;
+}
+
+.navigation a:hover {
+  color: #f96b60 !important;
+}
+
+.dropdown-menu {
+  width: 18rem;
+  border: 0;
+  padding: 0.8rem;
+}
+.dropdown-item {
+  font-size: 1.4rem;
+  border-bottom: 0.1rem dotted rgba(0, 0, 0, 0.5);
+  padding: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:last-child {
+  border: 0;
+}
+
+.dropdown-toggle::after {
+  content: "\f101";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: 0;
+  border: 0;
+}
+
+.text-coral {
+  color: #ed564b;
+}
+
+#slider {
+  position: relative;
+}
+
+#slider h1 {
+  color: #fff;
+  font-size: 3.6rem;
+}
+
+#slider p {
+  margin: 20px 0;
+}
+
+.w-100 {
+  height: 550px;
+}
+
+[class*="control-"] {
+  opacity: 1;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../img/overlay.png);
+  position: absolute;
+  z-index: 1;
+}
+
+.carousel-caption {
+  padding: 0 16rem 6rem 16rem;
+}
+
+.bw {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  object-fit: cover;
+}
+
+.btn-prev,
+.btn-next {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f96b60;
+  width: 5rem;
+  height: 10rem;
+  font-size: 3.2rem;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  opacity: 1;
+  background: #fff;
+  color: #f96b60;
+}
+
+.btn-prev {
+  left: 0;
+}
+
+.btn-next {
+  right: 0;
+}
+
+.btn-ghost {
+  border: 0.1rem solid #fff;
+  color: white;
+  padding: 0.4rem 2.4rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.btn-ghost:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.coral-bg {
+  background: #ed564b;
+  padding: 4.5rem 0;
+  border-top: 0.4rem solid #f96b60;
+  border-bottom: 0.4rem solid #f96b60;
+}
+
+.icon {
+  width: 7rem;
+  height: 7rem;
+  border: solid 0.5rem #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 2rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#our-offer {
+  color: #fff;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+}
+
+small {
+  display: block;
+}
+
+.title {
+  border-bottom: 0.1rem solid #ccc;
+  padding: 6rem 0 2.5rem 0;
+  margin-bottom: 3.5rem;
+}
+
+[id*="lastest-"] a,
+[id*="lastest-"] a:visited,
+[id*="lastest-"] a:hover,
+[id*="lastest-"] a:active {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+}
+
+#lastest-articles {
+  color: #606060;
+  font-size: 1.4rem;
+}
+
+#lastest-projects a {
+  padding: 2rem;
+}
+
+#lastest-articles a {
+  padding: 2rem 0 1rem 0;
+}
+
+.post-info {
+  display: block;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.light-grey {
+  background: #3b3b3b;
+}
+
+.dark-grey {
+  background: #292929;
+}
+
+footer {
+  margin-top: 6rem;
+  border-top: 0.4rem solid #f96b60;
+}
+
+.nav-footer {
+  padding: 5rem 0 4rem 0;
+  color: #aaa;
+  font-size: 1.4rem;
+}
+
+.nav-footer h4 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-footer a {
+  border-bottom: 0.1rem dotted #aaa;
+  display: block;
+  color: #aaa;
+  padding: 0.8rem 0;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  color: #aaa;
+}
+
+.nav-footer p {
+  padding: 0.8rem 1.6rem 0 0;
+  padding-left: 0;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 2.4rem 0;
+}
+
+@media (min-width: 576px) {
+  .carousel-caption {
+    padding: 0 16rem 6rem 16rem;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .carousel-caption {
+    padding: 0 16rem 6rem 16rem;
+  }
+}
