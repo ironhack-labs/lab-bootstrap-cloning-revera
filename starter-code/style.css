@@ -1,0 +1,86 @@
+
+body {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* .nav-style {
+    color: black;
+}
+
+.nav-style:hover {
+    color: red;
+} */
+
+.carousel-control-next-icon {
+    background-color: rgb(237,86,75);
+    width: 30px;
+    height: 100px;
+    margin-right:-142px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(237,86,75);
+    width: 30px;
+    height: 100px;
+    margin-left:-142px;
+}
+
+.gray-filter {
+    filter: grayscale(100%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("./img/overlay.png");
+    z-index: 1000;
+}
+
+.customed-left {
+    background-color: red;
+}
+
+.bootcamps-cards {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.bootcamps-cards i {
+    font-size: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.footer {
+    background: #3b3b3b;
+}
+
+.footer a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.border-footer {
+    border-top: 5px solid #ed564b;
+}
+
+.footer-hr {
+    border-bottom: 1px dotted #6c757d;
+}
+
+.footer-copyright {
+    background-color: #292929;
+}
+
