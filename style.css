@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    height: 90px;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(237,86,75)
+}
+
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    padding: 10px;
+}
+
+#home a {
+    color: rgb(237,86,75)
+}
+
+#carouselExampleControls {
+    width: 100%
+}
+
+.row.carouselrow {
+    margin: 0;
+}
+
+#carouselExampleControls img {
+    
+    filter: grayscale(100%) brightness(50%);
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(237,86,75);
+    float: right;
+    width: 30px;
+    height: 100px;
+    margin-right:-170px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(237,86,75);
+    float: right;
+    width: 30px;
+    height: 100px;
+    margin-left:-170px;
+}
+
+.carousel-caption {
+    width: 800px;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.red {
+    background-color:  rgb(237,86,75);
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border-bottom: 4px solid rgb(249,107,97);
+    border-top: 4px solid rgb(249,107,97);
+}
+.lack-of-icon {
+    font-size: 70px;
+}
+.white {
+    padding: 40px 0;
+    margin: 0;
+}
+
+h5 {
+    color: lightgrey;
+}
+
+.latest {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.latest img{
+    margin-bottom: 10px;
+}
+
+.titleSect {
+    margin: 0 0 30px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.articlesDivs a {
+    color: black;
+    font-weight: bolder;
+}
+
+.articlesDivs p {
+    color: grey;
+    font-size: 14px;
+}
+
+.red-link {
+    color: rgb(237,86,75);
+}
+
+.date-author {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding: 5px 0 15px;
+}
+
+.black-footer {
+    border-top: 4px solid rgb(237,86,75);
+    color: grey;
+    background-color: rgb(59,59,59);
+    padding: 20px 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.black-footer h5 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.black-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.black-footer li {
+    list-style: none;
+    border-bottom: 1px dotted grey;
+    padding: 5px 0;
+}
+
+.black-footer a {
+    color: grey;
+}
+
+.black-footer a:hover {
+    color: white;
+}
+
+.copyrigth {
+    color: white;
+    background-color: rgb(41,41,41);
+    font-size: 12px;
+    padding: 20px 0;
+}
+
