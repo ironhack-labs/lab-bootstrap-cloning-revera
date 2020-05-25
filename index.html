@@ -9,106 +9,136 @@
 
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <title>Revera clone with bootstrap</title>
 
   </head>
 
   <body>
 
+    <section id="navigation-bar" class="row">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <a class="navbar-brand" href="#">REVERA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Portfolio</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Blog</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Parent page
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Full page</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Child page 1</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Child page 2</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-
-          </ul>
-        
+        <div class="col-4 revera-nav">
+            <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/"><h1>REVERA</h1></a>
         </div>
-    </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light col-8">
+
+            <a class="navbar-text nav-home" href="#">Home</a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button> -->
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+            <ul class="navbar-nav mr-auto ">
+
+                <li class="nav-item active">
+                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Sample page<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Parent page
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Full page</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Child page 1</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Child page 2</a>
+                </div>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+
+            </ul>
+            
+            </div>
+        </nav>
+
+    </section>
 
     <section id="carousel">
 
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 
-        <div class="carousel-inner">
+        <div class="carousel-inner black-white">
 
             <div class="carousel-item active">
-                <img class="d-block w-100" src="./starter-code/img/slider-1.jpg" alt="First slide">
+                <img class="d-block w-100 slides" src="./starter-code/img/slider-1.jpg" alt="First slide">
+                <div class="overlay"></div>
                 <div class="carousel-caption">
-                    <h3>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h3>
-                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
-                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra/">READ MORE</a>
+
+                    <div class="slides-container">
+                        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                        <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra/">READ MORE</a>
+                    </div>
+
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="./starter-code/img/slider-2.jpg" alt="Second slide">
+                <div class="overlay"></div>
                 <div class="carousel-caption">
-                    <h3>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h3>
-                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
-                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra/">READ MORE</a>
+
+                    <div class="slides-container">
+                        <h2>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                        <a href="https://web.archive.org/web/20180115152304/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/">READ MORE</a>
+                    </div>
+
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="./starter-code/img/slider-3.jpg" alt="Third slide">
+                <div class="overlay"></div>
                 <div class="carousel-caption">
-                    <h3>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h3>
-                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
-                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra/">READ MORE</a>
+
+                    <div class="slides-container">
+                        <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+                        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                        <a href="https://web.archive.org/web/20180109053020/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra">READ MORE</a>
+                    </div>
+
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="./starter-code/img/slider-4.jpg" alt="Fourth slide">
+                <div class="overlay"></div>
                 <div class="carousel-caption">
-                    <h3>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h3>
-                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
-                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra/">READ MORE</a>
+
+                    <div class="slides-container">
+                        <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+                        <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                        <a href="https://web.archive.org/web/20180112085458/http://demo.fabthemes.com/revera/2013/08/19/fusce-scelerisque-nibh-ac-nisl-luctus-interdum">READ MORE</a>
+                    </div>
+                
                 </div>
             </div>
         
         </div>
 
+
+        
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -129,22 +159,30 @@
 
             <div class="col-3">
 
+                <div class="circle">
+                    <span><i class="fas fa-glass-martini"></i></span>
+                </div>                
                 <h3>Web design</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius. <a>Link</a></p>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius. <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/#">Link</a></p>
 
             </div>
 
             <div class="col-3">
-
+                <div class="circle">
+                    <span><i class="fas fa-star"></i></span>
+                </div>
                 <h3>Web development</h3>
-                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus. <a>Link</a></p>
-
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                
             </div>
             
             <div class="col-3">
-
+                
+                <div class="circle">
+                    <span><i class="fas fa-heart"></i></span>
+                </div>
                 <h3>User interface</h3>
-                <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida. <a>Link</a></p> 
+                <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p> 
 
             </div>
 
@@ -156,31 +194,31 @@
 
         <section id="latest-projects">
 
-            <div>
-                <h3>LATEST PROJECTS</h3>
+            <div class="projects-articles">
+                <h2>LATEST PROJECTS</h2>
                 <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
             </div>
 
             <div class="row">
             
                 <div class="col-3">
-                    <img src="./starter-code/img/project-1.jpg" class="col" alt="Project 1 image">
-                    <p class="col">Nunc libero elit, iaculis nec augue non</p>
+                    <img src="./starter-code/img/project-1.jpg" class="img-fluid" alt="Project 1 image">
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/"><p>Nunc libero elit, iaculis nec augue non</p></a>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/project-2.jpg" class="col" alt="Project 2 image">
-                    <p class="col">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                    <img src="./starter-code/img/project-2.jpg" class="img-fluid" alt="Project 2 image">
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam/"><p>Phasellus aliquet iaculis neque accumsan aliquam</p></a>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/project-3.jpg" class="col" alt="Project 3 image">
-                    <p class="col">Vivamus blandit ipsum sed arcu euismod</p>
+                    <img src="./starter-code/img/project-3.jpg" class="img-fluid" alt="Project 3 image">
+                    <a href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod/"><p>Vivamus blandit ipsum sed arcu euismod</p></a>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/project-4.jpg" class="col" alt="Project 4 image">
-                    <p class="col">Curabitur auctor dolor risus, vitae pellenteque arcu consequat</p>
+                    <img src="./starter-code/img/project-4.jpg" class="img-fluid" alt="Project 4 image">
+                    <a href="https://web.archive.org/web/20171230183512/http://demo.fabthemes.com/revera/2013/08/19/curabitur-auctor-dolor-risus-vitae-pellentesque-arcu-consequat/"><p>Curabitur auctor dolor risus, vitae pellenteque arcu consequat</p></a>
                 </div>
 
             </div>
@@ -189,7 +227,7 @@
 
         <section id="latest-articles">
 
-            <div>
+            <div class="projects-articles">
                 <h3>LATEST ARTICLES</h3>
                 <p>FEW POSTS FROM THE BLOG</p>
             </div>
@@ -197,48 +235,40 @@
             <div class="row">
             
                 <div class="col-3">
-                    <img src="./starter-code/img/slider-1.jpg" class="col" alt="Slider 1 image">
-                    <div>
-                        <a class="col" href="https://web.archive.org/web/20180109062156/http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
-                        <p class="col">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMIN</span></p>
-                        <p class="col">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
-                    </div>
+                    <img src="./starter-code/img/slider-1.jpg" class="img-fluid" alt="Slider 1 image">
+                    <a href="https://web.archive.org/web/20180109062156/http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam"><p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p></a>
+                    <p class="p-decor">POSTED ON <span class="red-info">AUGUST 19, 2013</span> BY <span class="red-info">ADMIN</span></p>
+                    <p class="p-color">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/slider-2.jpg" class="col" alt="Slider 2 image">
-                    <div>
-                        <a class="col" href="https://web.archive.org/web/20180115152304/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/">Falauris sollicitudin quis dolor venenatis facilisis</a>
-                        <p class="col">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMIN</span></p>
-                        <p class="col">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
-                    </div>
+                    <img src="./starter-code/img/slider-2.jpg" class="img-fluid" alt="Slider 2 image">
+                    <a href="https://web.archive.org/web/20180115152304/http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/"><p>Falauris sollicitudin quis dolor venenatis facilisis</p></a>
+                    <p class="p-decor">POSTED ON <span class="red-info">AUGUST 19, 2013</span> BY <span class="red-info">ADMIN</span></p>
+                    <p class="p-color">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/slider-3.jpg" class="col" alt="Slider 3 image">
-                    <div>
-                        <a class="col" href="https://web.archive.org/web/20180109053020/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra">Suspendisse ornare, felis feugiat suscipit pharetra</a>
-                        <p class="col">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMIN</span></p>
-                        <p class="col">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
-                    </div>
+                    <img src="./starter-code/img/slider-3.jpg" class="img-fluid" alt="Slider 3 image">
+                    <a href="https://web.archive.org/web/20180109053020/http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra"><p>Suspendisse ornare, felis feugiat suscipit pharetra</p></a>
+                    <p class="p-decor">POSTED ON <span class="red-info">AUGUST 19, 2013</span> BY <span class="red-info">ADMIN</span></p>
+                    <p class="p-color">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
                 </div>
 
                 <div class="col-3">
-                    <img src="./starter-code/img/slider-4.jpg" class="col" alt="Slider 4 image">
-                    <div>
-                        <a class="col" href="https://web.archive.org/web/20180318102846/http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere">Festibulum purus odio, ornare non posuere</a>
-                        <p class="col">POSTED ON <span>AUGUST 19, 2013</span> BY <span>ADMIN</span></p>
-                        <p class="col">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
-                    </div>                
+                    <img src="./starter-code/img/slider-4.jpg" class="img-fluid" alt="Slider 4 image">
+                    <a href="https://web.archive.org/web/20180318102846/http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere"><p>Festibulum purus odio, ornare non posuere</p></a>
+                    <p class="p-decor">POSTED ON <span class="red-info">AUGUST 19, 2013</span> BY <span class="red-info">ADMIN</span></p>
+                    <p class="p-color">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
                 </div>
 
             </div>
         </section>
     </div>
 
-    <footer>
+    <section id="final">
 
-        <div id="final" class="row">
+        <div class="row">
 
             <div class="col-3">
                 <h3 class="col">REVERA</h3>
@@ -249,8 +279,8 @@
                 <h3 class="col">META</h3>
                 <ul class="col">
                     <li>Log in</li>
-                    <li>Entries RSS</li>
-                    <li>Comments</li>
+                    <li>Entries <span>RSS</span></li>
+                    <li>Comments <span>RSS</span></li>
                     <li>WordPress.org</li>
                 </ul>
             </div>
@@ -264,7 +294,7 @@
 
             <div class="col-3">
                 <h3 class="col">RECENT POSTS</h3>
-                <ul class="col">
+                <ul class="col recent-posts-line-height">
                     <li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
                     <li>Nunc libero elit, iaculis nec augue non</li>
                     <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
@@ -275,14 +305,14 @@
             
         </div>
 
-        <div id="copyright">
-            <p>Copyright © 2018 revera - Just another demo Sites site.</p>
-            <p>| Revera Theme</p>
+        
+    </section>
+    
+    <footer>
+        <div id="copyright" class="col">
+            <p>Copyright © 2018 revera - Just another demo Sites site.<br>| Revera Theme</p>
         </div>
-
     </footer>
-
-
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

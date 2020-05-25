@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fontawesome-webfont.woff");
+  }
+
+body{
+    font-family: 'Oxygen',sans-serif;
+}
+
+#navigation-bar {
+    padding: 50px 100px 20px 100px;
+}
+
+.revera-nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-home > a {
+    color: #ED564B;
+}
+
+#carousel h2 {
+    font-size: 36px;
+}
+
+#carousel p {
+    font-size: 16px;
+}
+
+#carousel a {
+    font-size: 14px;
+}
+
+.black-white img{
+    filter: grayscale(100%);
+}
+
+.overlay {
+    background: url(./starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+  }
+
+.slides-container {
+    margin-top: -300px;
+}
+
+
+.circle {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+#features {
+    padding: 60px 0 60px 0;
+    color: #FFFF;
+    background-color: #ED564B;
+    text-align: center;
+    border-top: 6px solid #EE827A;
+    border-bottom: 6px solid #EE827A;
+}
+
+#features h3 {
+    padding-top: 20px;
+}
+
+#features a {
+    color: #F4473A;
+}
+
+#latest-projects {
+    padding: 60px 80px 0 80px;
+}
+
+.projects-articles {
+    font-weight: bold;
+}
+
+.projects-articles p {
+    color: #AAAAAA;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+#latest-projects a {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#latest-articles {
+    padding: 30px 80px 40px 80px;    
+}
+
+
+#latest-articles a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.p-decor {
+    color: #606060;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.p-color {
+    color: #606060;
+}
+
+.red-info {
+    color: #F4473A;
+}
+
+#final {
+    padding: 50px 70px 50px 70px;
+    border-top: 6px solid #ED564B;
+    background-color: #3B3B3B;
+    line-height: 25px;
+}
+
+#final h3 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#final p, ul {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+#final ul {
+    list-style-type: none;
+}
+
+#final ul > li {
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    line-height: 35px;
+}
+
+#final li > span {
+    border-bottom: 1px dotted #999;
+}
+
+footer {
+    background-color: #292929;
+    color: #EEEEEE;
+    padding-left: 70px;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -1rem;
+    font-size: small;
+}
