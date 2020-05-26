@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "FontAwesome";
-    src: url("fontawesome-webfont.woff");
-  }
-
 body{
     font-family: 'Oxygen',sans-serif;
 }
@@ -12,26 +7,38 @@ body{
 }
 
 .revera-nav a {
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
+    list-style-type: none !important;
+    text-decoration: none !important; 
+    color: black !important;
     font-weight: bold;
 }
 
-.nav-home > a {
-    color: #ED564B;
+.nav-home {
+    color: #ED564B !important;
+}
+
+#navigation-bar nav {
+    background-color: #FFFFFF !important;
+}
+
+.nav-decoration li > a {
+    color: #777777 !important;
 }
 
 #carousel h2 {
-    font-size: 36px;
+    font-size: 36px !important;
+    color: #FFFFFF;
 }
 
 #carousel p {
-    font-size: 16px;
+    font-size: 16px !important;
+    color: #FFFFFF;
 }
 
 #carousel a {
-    font-size: 14px;
+    font-size: 14px !important;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .black-white img{
@@ -52,6 +59,26 @@ body{
     margin-top: -300px;
 }
 
+.slides-container a {
+    background: rgba(255,255,255,0.2);
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.decoration-previous {
+    padding: 50px 25px;
+    border: 1px solid #F4473A;
+    background-color: #F4473A !important;
+    margin-right: 170px;
+}
+
+.decoration-next {
+    padding: 50px 25px;
+    border: 1px solid #F4473A;
+    background-color: #F4473A !important;
+    margin-left: 170px;
+}
 
 .circle {
     border: 5px solid #fff;
@@ -113,6 +140,11 @@ body{
 #latest-articles a {
     color: #000000;
     font-weight: bold;
+}
+
+.sizing-dog-img {
+    width: 85%;
+    height: 50px;
 }
 
 .p-decor {
