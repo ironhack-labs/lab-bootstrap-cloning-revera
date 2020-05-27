@@ -1,0 +1,402 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: sans-serif;
+  overflow-y: scroll;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+
+/* header */
+#masthead {
+  position: relative;
+}
+
+#masthead .container {
+  max-width: 1170px;
+  margin-right: auto;
+    margin-left: auto;
+}
+#masthead .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.site-branding {
+  margin-bottom: 20px;
+}
+
+.col-sm-4 {
+  width: 33.33333333333333%;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1.site-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 25px;
+}
+h1.site-title a:link, h1.site-title a:visited {
+  color: #000;
+}
+
+#submenu {
+  padding: 0px 0px;
+  margin: 15px 0px;
+  height: 60px;
+  border-bottom: none;
+  float: left;
+}
+#submenu ul {
+  width: auto;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0 0px;
+}
+
+#submenu li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+#submenu a {
+  color: #ed564b;
+}
+#submenu li a {
+  color: #777;
+  display: block;
+  margin: 0;
+  padding: 19px 10px 19px 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+/*  */
+
+.col-sm-8 {
+  width: 66.66666666666666%;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  float: left;
+}
+
+
+section#slider-container {
+  /* max-height: 550px; */
+  position: relative;
+  background: url('./starter-code/img/overlay.png') no-repeat 0 0;
+
+  
+
+}
+.flexslider {
+  margin: 0 0 0px;
+  zoom: 1;
+  padding: 0;
+
+}
+
+#slider-container img{
+    filter: grayscale(100%);
+}
+
+
+/* flechitas */
+.flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: 0px;
+}
+.flex-direction-nav .flex-prev {
+  left: 0px;
+}
+
+.flex-direction-nav a {
+  width: 50px;
+  height: 100px;
+  margin: -50px 0 0;
+  background: url('http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png') no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 110;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+
+/*  parte roja debajo slider */
+div.fwidgets {
+  padding: 25px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  /* margin-top: 0px; */
+}
+
+
+.fwidgets .container div.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+.fwidgets .container div.row .col-sm-4 {
+  width: 33.33333333333333%;
+}
+
+.homewidget span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.homewidget h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.homewidget p {
+  margin: 0 0 10px;
+}
+
+.homewidget  a {
+  text-decoration: none;
+}
+
+
+/* latest projects */
+
+.portbox h3 {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+a {
+  color: #000
+}
+
+.portbox h3 a {
+  color: #000;
+  text-decoration: none;
+}
+.container .section-wide {
+  padding:20px;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-wide {
+  margin-top: 40px;
+}
+
+.section-wide .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.section-title .col-12 {
+  width: 100%;
+}
+
+.section-title h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.section-title p {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+
+.portbox, .postbox, .hthumb {
+  position: relative;
+}
+
+.col-sm-3 {
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.postbox h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.postbox h3 a:link, .postbox h3 a:visited, .portbox h3 a:link, .portbox h3 a:visited {
+  color: #000;
+}
+
+.hometa {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.single .byline, .group-blog .byline {
+  display: inline;
+}
+
+.boxitems p {
+  margin: 0 0 10px;
+}
+
+/* bottom */
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+#bottom p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.textwidget p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.botwid p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+}
+
+#bottom .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#bottom .botwid {
+  color: #aaa;
+}
+
+#bottom .col-lg-3 {
+  width: 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+#bottom ul {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+
+.botwid ul {
+  list-style-type: none;
+  list-style: disc;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: disc;
+}
+
+.botwid p {
+  padding: 5px 0px;
+  margin: 0;
+  line-height: 150%;
+}
+.botwid ul li {
+  height: 100%;
+  line-height: 18px;
+  clear: left;
+  list-style-type: none;
+  color: #aaa;
+}
+
+.botwid li {
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.botwid ul li a:link, .botwid ul li a:visited {
+  color: #aaa;
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+  display: block;
+}
+
+
+h3.bothead {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.botwid p {
+  
+  margin: 0;
+      padding: 0px 0px;
+}
+
+/* footer */
+
+.site-footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+
+.fcred {
+  padding: 10px 0px;
+  color: #eee;
+}
+.col-12 {
+  width: 100%;
+}
+
+.fcred a:link, .fcred a:visited {
+  color: #eee;
+}
