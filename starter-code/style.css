@@ -1,0 +1,167 @@
+#widgets-box {
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    background-color: #ed564b;
+    padding: 40px 0px;
+    color: white;
+    text-align: center;
+    height: 300px;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 3;
+}
+
+.widget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.widget h3 {
+    font-weight: bold;
+}
+
+a {
+    color: #f4473a;
+    text-decoration: none;
+}
+
+.carousel-nav {
+    height: 100px;
+    width: 50px;
+    background-color: #ed564b;
+    opacity: 1;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+
+.grid-overlay {
+    background-image: url(img/overlay.png);
+    z-index: 2;
+    width: 100%;
+    height: 100%;   
+
+    position: absolute;    
+    top: 0px;
+}
+
+.carousel-item {
+    z-index: 1;
+}
+
+.glyphicon {
+    content: "\e001";
+}
+
+#carouselExampleControls {
+    max-height: 550px;
+}
+
+.project-box {
+    width: 25%;
+    padding-top: 10px;
+}
+
+.article-box {
+    width: 25%;
+    padding-top: 10px;
+}
+
+.article-box img {
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.project-box img{
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.project-box h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.project-box h3{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.projects,.articles {
+    margin-top: 40px;
+}
+
+.projects h3,.projects p {
+    font-weight: bold;
+}
+
+.articles h3,.articles p {
+    font-weight: bold;
+}
+
+.article-box h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.article-box h3 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ed564b;
+    margin-bottom: 30px;
+}
+
+.article-box p {
+    font-size: 0.8rem;
+}
+
+.bottom-section {
+    border-top: 5px solid #ed564b;
+    background-color: #3b3b3b;
+    padding: 20px 0px 40px 0px;
+    margin: 0px;    
+}
+
+.bottom-box {
+    color: #aaa;    
+    font-size: 0.9rem;
+}
+
+.bottom-box a{
+    color: #aaa;    
+}
+
+.bottom-box ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.bottom-box li {
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    padding-bottom: 10px;
+
+}
+
+.bottom-box h2 {
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+footer {
+    background: #212529;
+    color: #eee;
+    padding: 10px 0px;
+    font-size: 12px;
+}
