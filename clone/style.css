@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    height: 100px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(237,86,75)
+}
+
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    padding: 10px;
+}
+
+#red-home a {
+    color: rgb(237,86,75)
+}
+
+#carouselExampleControls {
+    width: 100%
+}
+
+.row.carouselrow {
+    margin: 0;
+}
+
+#carouselExampleControls img {
+
+    filter: grayscale(100%) brightness(50%);
+}
+
+.carousel-text {
+    /* position: absolute; */
+    width: 800px;
+    top: 40%;
+    left: 50%;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(237,86,75);
+    float: right;
+    width: 30px;
+    height: 100px;
+    margin-right:-170px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(237,86,75);
+    float: right;
+    width: 30px;
+    height: 100px;
+    margin-left:-170px;
+}
+
+.red {
+    background-color:  rgb(237,86,75);
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border-bottom: 4px solid rgb(249,107,97);
+    border-top: 4px solid rgb(249,107,97);
+}
+
+.red-section {
+    font-size: 70px;
+}
+
+.white {
+    padding: 40px;
+    margin: 0;
+}
+
+h5 {
+    color: lightgrey;
+}
+
+.white-section {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.white-section img{
+    margin-bottom: 10px;
+}
+
+.latest-title {
+    margin: 0 0 30px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid dark;
+}
+
+.textBox a {
+    color: dark;
+    font-weight: bolder;
+}
+
+.textBox p {
+    color: grey;
+    font-size: 14px;
+}
+
+.red-link {
+    color: rgb(237,86,75);
+}
+
+.posted-by {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding: 5px 0 15px;
+}
+
+.dark-footer {
+    border-top: 4px solid rgb(237,86,75);
+    color: grey;
+    background-color: rgb(59,59,59);
+    padding: 20px 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.dark-footer h5 {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.dark-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-footer li {
+    list-style: none;
+    border-bottom: 1px dotted grey;
+    padding: 6px;
+}
+
+.dark-footer a {
+    color: grey;
+}
+
+
+.copyright-footer {
+    color: white;
+    background-color: rgb(41,41,41);
+    font-size: 12px;
+    padding: 25px;
+}
