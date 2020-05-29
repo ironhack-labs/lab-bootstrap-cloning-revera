@@ -216,11 +216,20 @@ h3.bothead {
 
 
 
-/*.carousel-control-next {
-    background-image: url("./starter-code/img/bg_direction_nav.png");
-    background-image: no-repeat;
+.carousel-control-next-icon {
+    background-color: #ED564B ;
+    height: 8rem;
+    width: 3rem;
+    margin-right: -1rem;
+    border-radius: 0%;
+    border: 0px;
 }
 
-.carousel-control-prev {
-    background-image: url("./starter-code/img/bg_direction_nav.png");
-}*/
+.carousel-control-prev-icon {
+    background-color: #ED564B ;
+    height: 8rem;
+    width: 3rem;
+    margin-left: -1rem;
+    border-radius: 0%;
+    border: 0px;
+}
