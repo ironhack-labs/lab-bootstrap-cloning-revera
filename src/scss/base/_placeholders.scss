@@ -1,0 +1,28 @@
+%sections-latest {
+    padding: ($defaul-space * 2)+'rem';
+
+    h3 {
+        font-size: 1.714rem;
+        color: $link-fourtiary;
+        font-weight: 700;
+        margin-bottom: 0.357rem;
+    }
+
+    p {
+        font-weight: bold;
+        border-bottom: 1px solid $ligth-grey;
+        color: $middle-grey;
+        padding-bottom: $defaul-space+'rem';
+    }
+
+    article {
+        h5 {
+            a {
+                color: $link-fourtiary;
+                font-size: 1rem;
+                margin-top: $defaul-space+'rem';
+                margin-bottom: ($defaul-space / 2)+'rem';
+            }
+        }
+    }
+}

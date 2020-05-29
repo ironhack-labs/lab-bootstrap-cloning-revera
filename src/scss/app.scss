@@ -1,1 +1,28 @@
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+
 @import "~bootstrap/scss/bootstrap";
+
+$fa-font-path : "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_placeholders.scss';
+
+
+/* FRAMEWORK - Structure and layout files.
+========================================================================== */
+@import 'framework/_header.scss';
+@import 'framework/_carousel.scss';
+@import 'framework/_cards.scss';
+@import 'framework/_latest.scss';
+
+/* GLOBAL - General styles.
+========================================================================== */
+@import 'global/_styles.scss';

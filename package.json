@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)",
     "private": true,
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-        "build": "webpack",
+        "dev": "webpack --mode development",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -13,7 +13,7 @@
         "url": "git+https://github.com/OneLifeDesigning/lab-bootstrap-cloning-revera.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "AJDC",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/OneLifeDesigning/lab-bootstrap-cloning-revera/issues"
@@ -22,7 +22,6 @@
     "devDependencies": {
         "autoprefixer": "^9.8.0",
         "css-loader": "^3.5.3",
-        "file-loader": "^6.0.0",
         "node-sass": "^4.14.1",
         "postcss-loader": "^3.0.0",
         "sass-loader": "^8.0.2",
@@ -31,9 +30,14 @@
         "webpack-cli": "^3.3.11"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.7.1",
+        "@fortawesome/free-solid-svg-icons": "^5.7.1",
         "bootstrap": "^4.5.0",
+        "file-loader": "^6.0.0",
+        "font-awesome": "^4.7.0",
         "jquery": "^3.5.1",
         "lodash": "^4.17.15",
-        "popper.js": "^1.16.1"
+        "popper.js": "^1.16.1",
+        "url-loader": "^4.1.0"
     }
 }

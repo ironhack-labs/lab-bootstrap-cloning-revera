@@ -21,7 +21,7 @@ module.exports = {
                         // Loader for webpack to process CSS with PostCSS
                         loader: 'postcss-loader',
                         options: {
-                            plugins: function() {
+                            plugins: function () {
                                 return [
                                     require('autoprefixer')
                                 ];
@@ -35,11 +35,13 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader',
-                ],
+                test: /\.(jpe?g|png|gif)$/i,
+                loader: "file-loader"
             },
+            {
+                test: /\.(woff|ttf|otf|eot|woff2|svg)$/i,
+                loader: "file-loader"
+            }
         ]
     },
 };

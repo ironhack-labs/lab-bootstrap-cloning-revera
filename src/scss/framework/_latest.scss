@@ -1,0 +1,19 @@
+.section-latest-projects {
+    @extend %sections-latest;
+}
+
+.section-latest-articles {
+    @extend %sections-latest;
+
+    p {
+        color: $link-fourtiary;
+    }
+
+    .posted {
+        color: $link-tertiary;
+
+        a {
+            color: $link-primary;
+        }
+    }
+}

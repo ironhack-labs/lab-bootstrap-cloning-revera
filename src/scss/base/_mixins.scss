@@ -1,0 +1,14 @@
+@mixin grayscale_element($value) {
+    -webkit-filter: #{"grayscale(#{$value})"};
+-moz-filter: #{"grayscale(#{$value})"};
+filter:#{"grayscale(#{$value})"};
+
+}
+
+@mixin background($imgpath, $position:0 0, $repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+    }
+}

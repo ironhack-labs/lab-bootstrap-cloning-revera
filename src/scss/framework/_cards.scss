@@ -1,0 +1,34 @@
+.section-cards {
+    background-color: $red;
+    border-top: 0.357rem solid $light-red;
+    border-bottom: 0.357rem solid $light-red;
+    padding: (($defaul-space * 2)+'rem') 0;
+    color: $text-secondary;
+
+    .card-item {
+        .icon-circle {
+            border: 0.357rem solid $white;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 100%;
+            display: block;
+            margin: 0 auto;
+
+            .fas {
+                font-size: 1.429rem;
+                line-height: 4.643rem;
+            }
+
+            .fa-star {
+                line-height: 4.286rem;
+            }
+        }
+
+        h3 {
+            font-size: 1.714rem;
+            font-weight: bold;
+            margin-top: $defaul-space +'rem';
+            margin-bottom: ($defaul-space / 2) +'rem';
+        }
+    }
+}

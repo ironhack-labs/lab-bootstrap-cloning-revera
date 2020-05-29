@@ -1,0 +1,56 @@
+header {
+    h1 {
+        margin-top: ($defaul-space + 0.357)+'rem';
+        margin-bottom: ($defaul-space / 2)+'rem';
+
+        a {
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $link-fourtiary;
+
+            &:hover {
+                color: $link-fourtiary;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .nav-link {
+        color: $link-tertiary;
+        padding: 1.357rem 0.714rem;
+
+        &:hover {
+            color: $link-primary;
+        }
+    }
+
+    .dropdown-menu {
+        top: 4rem;
+        border-top: 0 none;
+        border-radius: 0;
+    }
+
+    .dropdown-item {
+        position: relative;
+        margin-bottom: 0.357rem;
+
+        &:hover {
+            background-color: $white;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 5%;
+            bottom: -0.357rem;
+            width: 85%;
+            border-bottom: 1px solid $ligth-grey;
+        }
+
+        &:last-of-type:after {
+            margin-bottom: 0;
+            display: none;
+        }
+    }
+}
