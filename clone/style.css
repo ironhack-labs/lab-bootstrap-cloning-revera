@@ -31,12 +31,12 @@ a:hover {
     color: rgb(237,86,75)
 }
 
-#carouselExampleControls {
-    width: 100%
-}
-
 .row.carouselrow {
     margin: 0;
+}
+
+#carouselExampleControls {
+    width: 100%
 }
 
 #carouselExampleControls img {
@@ -45,10 +45,13 @@ a:hover {
 }
 
 .carousel-text {
-    /* position: absolute; */
+    position: absolute;
+    color:rgb(194, 192, 192);
+    text-align: center;
     width: 800px;
     top: 40%;
     left: 50%;
+    margin-left: -20%
 }
 
 .carousel-control-next-icon {
@@ -57,14 +60,17 @@ a:hover {
     width: 30px;
     height: 100px;
     margin-right:-170px;
+    margin-bottom: 40%;
 }
 
 .carousel-control-prev-icon {
     background-color: rgb(237,86,75);
     float: right;
+    justify-content: center;
     width: 30px;
     height: 100px;
     margin-left:-170px;
+    margin-bottom: 40%;
 }
 
 .red {
