@@ -1,16 +1,16 @@
 header {
     h1 {
-        margin-top: ($defaul-space + 0.357)+'rem';
-        margin-bottom: ($defaul-space / 2)+'rem';
+        margin-top: $defaul-space + 0.357;
+        margin-bottom: $defaul-space / 2;
 
         a {
             font-size: 2rem;
             text-transform: uppercase;
             font-weight: 700;
-            color: $link-fourtiary;
+            color: $link-fourth;
 
             &:hover {
-                color: $link-fourtiary;
+                color: $link-fourth;
                 text-decoration: none;
             }
         }

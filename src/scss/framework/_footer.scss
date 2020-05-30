@@ -1,0 +1,30 @@
+footer {
+    background-color: $zink;
+    border-top: 0.357rem solid $light-red;
+    color: $text-tertiary;
+
+    section {
+        h3 {
+            font-size: 1.143rem;
+            color: $text-secondary;
+            margin-bottom: $defaul-space;
+        }
+
+        li {
+            border-bottom: 1px dotted rgba(255, 255, 255, .2);
+            padding-bottom: 0.357rem;
+        }
+
+        padding: $defaul-space 0 $defaul-space * 2 0;
+
+    }
+
+    a {
+        color: $link-tertiary;
+    }
+
+    .copy {
+        padding: $defaul-space / 1.5 0;
+        background-color: $dark-grey;
+    }
+}

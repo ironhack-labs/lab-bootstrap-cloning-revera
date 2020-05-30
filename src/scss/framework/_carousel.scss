@@ -26,7 +26,7 @@
 .carousel-caption {
     max-width: 57.143rem;
     color: $text-secondary;
-    bottom: ($defaul-space * 4) +'rem';
+    bottom: $defaul-space * 4;
 
     h2 {
         text-transform: uppercase;
@@ -36,7 +36,7 @@
 
     p {
         font-size: 1rem;
-        margin-bottom: $defaul-space+'rem';
+        margin-bottom: $defaul-space;
     }
 
     .btn {

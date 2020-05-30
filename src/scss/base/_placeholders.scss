@@ -1,9 +1,13 @@
 %sections-latest {
-    padding: ($defaul-space * 2)+'rem';
+    padding-top: $defaul-space * 2;
+
+    &:last-of-type {
+        padding-bottom: $defaul-space * 2;
+    }
 
     h3 {
         font-size: 1.714rem;
-        color: $link-fourtiary;
+        color: $link-fourth;
         font-weight: 700;
         margin-bottom: 0.357rem;
     }
@@ -12,17 +16,27 @@
         font-weight: bold;
         border-bottom: 1px solid $ligth-grey;
         color: $middle-grey;
-        padding-bottom: $defaul-space+'rem';
+        padding-bottom: $defaul-space;
     }
 
     article {
         h5 {
+            font-size: 1rem;
+
             a {
-                color: $link-fourtiary;
+                display: block;
+                font-weight: 700;
+                color: $link-fourth;
                 font-size: 1rem;
-                margin-top: $defaul-space+'rem';
-                margin-bottom: ($defaul-space / 2)+'rem';
+                margin-top: $defaul-space;
+                margin-bottom: $defaul-space / 2;
             }
+        }
+
+        p {
+            color: $text-fifty;
+            border-bottom: 0px;
+            padding-bottom: 0;
         }
     }
 }

@@ -6,14 +6,17 @@
     @extend %sections-latest;
 
     p {
-        color: $link-fourtiary;
+        font-weight: 400;
     }
 
     .posted {
         color: $link-tertiary;
+        font-size: 0.75rem;
 
         a {
             color: $link-primary;
+            text-decoration: none;
+            font-weight: 700;
         }
     }
 }

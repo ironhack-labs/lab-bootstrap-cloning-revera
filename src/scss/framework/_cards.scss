@@ -2,7 +2,7 @@
     background-color: $red;
     border-top: 0.357rem solid $light-red;
     border-bottom: 0.357rem solid $light-red;
-    padding: (($defaul-space * 2)+'rem') 0;
+    padding: $defaul-space * 2 0;
     color: $text-secondary;
 
     .card-item {
@@ -27,8 +27,8 @@
         h3 {
             font-size: 1.714rem;
             font-weight: bold;
-            margin-top: $defaul-space +'rem';
-            margin-bottom: ($defaul-space / 2) +'rem';
+            margin-top: $defaul-space;
+            margin-bottom: $defaul-space / 2;
         }
     }
 }
