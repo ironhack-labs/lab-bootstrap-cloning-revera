@@ -1,3 +1,23 @@
+html {
+    font-size: 60%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAV BAR */
+
+nav h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+nav ul {
+    font-size: 1.4rem;
+}
+
 .nav-link {
     color: grey;
 }
@@ -6,11 +26,56 @@
     color: red
 }
 
+nav a:hover{
+    color: red;
+}
+
+/* MAIN-CAROUSEL */
+.carousel-caption p {
+    font-size: 1.6rem;
+}
+
+.carousel-caption h2 {
+    font-size: 3.75rem;
+}
+
+.carousel-item {
+/*     padding-bottom: 3rem;
+ */}
 .carousel-item img {
     filter: grayscale(100%);
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/overlay.png);
+    z-index: 100;
+}
+
+/* CARDS SECTION */
+.cards-section {
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+}
+
+.cards-section p{
+    font-size: 1.5rem;
+}
+
+.cards-section h3{
+    font-size: 2.5rem;
+}
+
+.bottom-section {
+    background-color: #3b3b3b;    
+}
+
+footer {
+background-color: #292929;
+}
+
+footer, footer a, .bottom-section, .bottom-section a {
+    color: white;
 }
