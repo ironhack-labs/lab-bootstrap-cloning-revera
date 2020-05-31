@@ -13,6 +13,8 @@
   --black: #000000;
   --coral: #ed564b;
   --light-grey: #aaaaaa;
+  --grey: #3b3b3b;
+  --dark-grey: #292929;
 }
 
 .clear-mb {
@@ -46,7 +48,7 @@ h3.title {
 }
 .brand {
   color: var(--black);
-  padding-right: 100px;
+  padding: .5rem 6.25rem .5rem 0;
 }
 
 .nav-link {
@@ -107,4 +109,42 @@ h3.title {
 .card-info {
   text-transform: uppercase;
   color: var(--light-grey);
+}
+
+.red {
+  color: var(--coral);
+}
+
+.footer {
+  background-color: var(--grey);
+  color: var(--light-grey);
+  border-top: 0.3125rem solid var(--coral);
+  padding-top: 4rem;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-size: bold;
+  text-transform: uppercase;
+}
+
+.footer-data {
+  border-bottom: 1px dotted var(--light-grey);
+  padding-bottom: 12px;
+}
+
+.underline {
+  border-bottom: 1px dotted var(--light-grey);
+  padding-bottom: 5px;
+}
+
+.footer-copy {
+  background-color: var(--dark-grey);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.custom-col {
+  padding-right: 15px;
+  padding-left: 15px;
 }
