@@ -12,10 +12,32 @@
   --white: #ffffff;
   --black: #000000;
   --coral: #ed564b;
+  --light-grey: #aaaaaa;
 }
 
 .clear-mb {
   margin-bottom: 0;
+}
+
+.clear-pb {
+  padding-bottom: 0;
+}
+
+.clear-side-p {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.title {
+  text-transform: uppercase;
+}
+.subtitle {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--light-grey);
+}
+h3.title {
+  font-size: 1.2rem;
 }
 .header {
   background-color: var(--white);
@@ -24,7 +46,6 @@
 }
 .brand {
   color: var(--black);
-  text-transform: uppercase;
   padding-right: 100px;
 }
 
@@ -49,3 +70,41 @@
   margin: 0 auto;
 }
 
+.articles {
+  max-width: 65%;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.heading {
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--light-grey);
+}
+
+.cards {
+  padding-top: 2rem;
+}
+
+.custom-card:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-two-title {
+  margin-bottom: .75rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: bold;
+}
+.card-info {
+  text-transform: uppercase;
+  color: var(--light-grey);
+}
