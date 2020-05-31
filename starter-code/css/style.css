@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ html {
+  font-size: 16px;
+}
+
+:root {
+  --main-bg-color: coral;
+  --white: #ffffff;
+  --black: #000000;
+  --coral: #ed564b;
+}
+
+.clear-mb {
+  margin-bottom: 0;
+}
+.header {
+  background-color: var(--white);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.brand {
+  color: var(--black);
+  text-transform: uppercase;
+  padding-right: 100px;
+}
+
+.nav-link {
+  color: var(--black);
+}
+
+.nav-link.active {
+  color: var(--coral);
+}
+
+.marketing {
+  text-align: center;
+  padding-top: 5rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--coral);
+  color: var(--white);
+}
+
+.custom-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
