@@ -1,0 +1,39 @@
+
+
+
+
+
+p {
+    margin: 0 0 10px;
+}
+
+
+#latest-projects
+
+
+.hometa {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bottom {
+    background-color: #3b3b3b;
+}
+
+.botwid ul {
+    list-style-type: none;
+}
+.botwid li {
+    border-bottom: 1px dotted white;
+}
+
+
+footer {
+    background-color: #292929;
+    }
+
+footer a {
+    color: white;
+}
