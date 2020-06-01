@@ -7,6 +7,10 @@ html {
     margin-right: auto;
 }
 
+p {
+    font-size: 1.45rem !important;
+}
+
 /* NAV BAR */
 
 nav h1 {
@@ -26,11 +30,19 @@ nav ul {
     color: red
 }
 
-nav a:hover{
+nav a:hover {
     color: red;
 }
 
 /* MAIN-CAROUSEL */
+.carousel-caption {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 .carousel-caption p {
     font-size: 1.6rem;
 }
@@ -40,42 +52,202 @@ nav a:hover{
 }
 
 .carousel-item {
-/*     padding-bottom: 3rem;
- */}
+    /*     padding-bottom: 3rem;
+ */
+}
+
 .carousel-item img {
     filter: grayscale(100%);
 }
 
 .overlay {
+    position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
     background-image: url(./img/overlay.png);
-    z-index: 100;
+}
+
+.carousel-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start !important;
+    opacity: 0.9 !important
+}
+
+.btn-outline-secondary {
+    color: white !important;
+    border-color: white !important;
+    padding: 1rem 4rem !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+
+.carousel-control-next {
+    justify-content: flex-end !important;
+    opacity: 0.9 !important;
+}
+
+.carousel-button {
+    padding: 2.5rem 0.5rem;
+    background-color: #ed564b !important;
+}
+
+.btn-outline-secondary:hover {
+    background: none !important;
 }
 
 /* CARDS SECTION */
+.light-red {
+    height: 0.35rem;
+    margin: 0;
+    background-color: #f1685e;
+}
+
 .cards-section {
     background-color: #ed564b;
     color: white;
     text-align: center;
+    padding: 5rem 0;
 }
 
-.cards-section p{
+.card {
+    border: none !important;
+}
+
+i {
+    padding: 2rem;
+    border: 0.5rem solid;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.cards-section article {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.2rem;
+}
+
+.cards-section p {
     font-size: 1.5rem;
 }
 
-.cards-section h3{
+.cards-section h3 {
     font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cards-section a {
+    color: #f4473a;
+}
+
+/* LATEST PROJECTS SECTION */
+
+.grey-line {
+    height: 0.05rem;
+    margin: 0;
+    background-color: #efefef;
+    margin: 2.5rem auto;
+}
+
+.main-content {
+    margin: 6rem 0;
+}
+
+.content-title h2 {
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.content-title p {
+    font-weight: bold;
+    color: #AAAAAA;
+}
+
+.cards-content {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+/* LATEST ARTICLES SECTION */
+
+.latest-articles h3 {
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.post-info {
+    color: #606060;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.post-info a {
+    color: #f4473a !important;
+}
+
+.article-body {
+    padding: 0 !important;
+    margin-top: 2rem;
+    color: #606060;
+}
+
+/* BOTTOM SECTION */
+
+.red-line {
+    height: 0.35rem;
+    margin: 0 !important;
+    background-color: #ed564b;
+    margin: 2.5rem auto;
 }
 
 .bottom-section {
-    background-color: #3b3b3b;    
+    padding: 2rem 0 5rem 0;
+    background-color: #3b3b3b;
+}
+
+.bottom-section p,
+a {
+    color: #AAAAAA !important;
+}
+
+.bottom-section h3 {
+    padding: 2rem 0 2rem 0;
 }
 
 footer {
-background-color: #292929;
+    background-color: #292929;
 }
 
-footer, footer a, .bottom-section, .bottom-section a {
-    color: white;
+.bottom-section li {
+    list-style: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    font-size: 1.45rem;
+    padding: 0.8rem 0 0.8rem 0;
+}
+
+.bottom-section ul {
+    padding: 0;
+}
+
+/* FOOTER */
+
+footer div {
+    padding: 0 !important;
+}
+
+footer,
+footer a,
+.bottom-section {
+    color: white !important;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 2rem 0 2rem 0;
 }
