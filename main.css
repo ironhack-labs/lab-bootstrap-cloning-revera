@@ -1,0 +1,169 @@
+.logoNavBar {
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 20px 20px 8px 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.optionsNavBar {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.singleOption {
+    padding-right: 25px;
+    align-items: center;
+    color: black;
+}
+ 
+.red {
+    color: #ED564B
+}
+
+header{
+    color: white;
+    background-image: url('starter-code/img/project-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 5% 0%;
+    text-align: center;
+    background-position: center;
+    height: 900px;
+}
+
+h1{
+    text-align: center;
+    margin: 7% 25% 2% 25%;
+    align-self: center;
+}
+
+.button {
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none; 
+    color: white;
+    background-image: url('starter-code/img/overlay.png')
+}
+
+.pHeader{
+    text-align: center;
+    margin: 0% 25% 3% 25%;
+}
+
+.advantages {
+    color: white;
+    background-color: #ED564B;
+    display: flex;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.h2Advantages {
+    font-weight: bolder;
+}
+
+.bold {
+font-weight: bolder;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.imgesBoos {
+    width: 100%;
+}
+
+span {
+    color: red;
+}
+
+.subtitle{
+    color: rgb(170,172,196);
+}
+
+.h3articles{
+    font-size: 1.5em;
+}
+
+.latestProject {
+    margin-top: 2%;
+}
+
+.latestArticles {
+    margin-top: 1%;
+}
+
+.separation {
+    margin-bottom: 3%;
+}
+
+.lighter{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 4%;
+    line-height: 15px;
+}
+
+.smallTitle {
+    font-size: 1em;
+    margin-top: 6%;
+}
+
+.post {
+font-size: 0.8em;
+}
+
+.preFooter {
+    background-color: #3B3B3B;
+    border-top: 10px solid #ED564B;
+    color: white;
+    padding-top: 3%;
+}
+
+.footerList {
+    text-decoration: none;
+    color: rgb(170,172,196);
+    list-style: none;
+    text-align: left;
+    
+}
+
+.footerLast {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.grey {
+    color: white;
+    border: 0.5px dotted;
+
+}
+
+footer {
+    background-color: rgb(41,41,41);
+    margin-right: 20%;
+    color: white;
+    padding: 3% 15%;
+    margin: 0
+}
