@@ -1,0 +1,124 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.granHeader {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.granHeader header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.granHeader ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    list-style: none;
+    margin-right: 600px
+}
+
+.granHeader a{
+    padding: 0 20px;
+}
+
+#Revera {
+    margin-left: 100px;
+    font-size: 3em;
+    text-decoration: none black;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+.calesita {
+    background-image: url("../starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.calesita h1{
+    padding: 0px 500px;
+   
+}
+
+.calesita p{
+    padding: 20px 400px;
+}
+
+.calesita a{
+    color: blanchedalmond;
+    border: 2px solid;
+    padding: 5px;
+
+}
+
+.section1 .row {
+
+    padding: 50px 150px;
+    background: #ed564b;
+    
+}
+
+.section1 .row div[class*='col'] {
+    padding: 10px 50px;
+    color: blanchedalmond;
+    text-align: center;
+    
+    
+}
+
+img{
+    width: 100%;
+}
+
+ .listado {
+     display: flex;
+     flex-direction: column;
+     text-decoration: none;
+     color: blanchedalmond;
+     
+     
+     
+
+ }  
+ .listado a {
+     color: blanchedalmond;
+     border-bottom: blanchedalmond dotted 1px;
+
+ } 
+ footer {
+     background-color: grey;
+     color: blanchedalmond;
+     border-top: firebrick 10px solid;
+     padding-top: 30px;
+
+ }
+ .abajo {
+     background-color: black;
+     color: blanchedalmond;
+     padding-left: 20px;
+     padding-top: 20px;
+    font-size: .8em;
+ }
+
+ .paFooter{
+     margin-left: 340px;
+     padding: 0;
+     
+ }
+
+ 
