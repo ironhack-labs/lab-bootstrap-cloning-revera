@@ -1,0 +1,170 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+
+#h1 {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#nav a {
+    color: black;
+    padding: 19px 10px; 
+}
+
+#nav a:hover {
+    color: #ed564b;
+    text-decoration: none;
+}
+
+/*Section1*/
+
+#section1 {
+    background-image: url(../lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    min-height: 100%; 
+    min-height: 100vh;        
+    display: flex;
+    align-items: center;
+}
+
+#section1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+#section1 p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#section1 a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 10px 16px;
+    border: 1px solid white;
+}
+
+/*section2*/
+
+#section2 {
+    border-top: 5px solid #ed564d;
+    border-bottom: 5px solid #ed564d;
+    background-color: #ed564d;
+    color: white;
+    height: 224px;
+}
+
+.art1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.art1 p {
+    line-height: 1.5;
+    text-align: center;
+}
+i {
+    font-size: 1.5em;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*section3*/
+
+
+#section3 img {
+    width: 270px;
+    height: 180px;
+}
+#section3 h3 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    line-height: 1;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    font-weight: bold;
+}
+#p {
+    text-transform: uppercase;
+}
+#section3 p {
+    color: #aaa;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6b6b6b;
+}
+.art2 p {
+    text-align: center;
+    text-transform: initial;
+}
+
+/*section4*/
+
+
+#section4 img {
+    width: 270px;
+    height: 180px;
+}
+.title {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.date {
+    text-transform: uppercase;
+    color: #aaa;
+    
+}
+.art3 a {
+    color: red;
+}
+/*footer*/
+footer {
+    background-color: #606060;
+    height: 351px;
+    color: #AAAAAA;
+}
+
+footer h4 {
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+footer ul {
+    margin-left: 0;
+}
+footer li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #AAAAAA;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+#underfoot {
+    height: 78px;
+    background-color: #292929;
+    color: white;
+    padding: 25px 0px;
+}
