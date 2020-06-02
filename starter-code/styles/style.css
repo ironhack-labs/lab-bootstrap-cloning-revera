@@ -18,8 +18,13 @@ p {
     font-weight: bold;
 }
 
-.bottom {
+#bottom {
     background-color: #3b3b3b;
+}
+
+#bottom ul {
+    margin: 0px 0px;
+    padding: 0px;
 }
 
 .botwid ul {
@@ -32,6 +37,7 @@ p {
 
 footer {
     background-color: #292929;
+    color: white;
     }
 
 footer a {
