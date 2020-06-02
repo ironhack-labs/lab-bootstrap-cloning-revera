@@ -1,0 +1,113 @@
+.upper {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.red-div {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  text-align: center;
+  color: white;
+}
+
+.grey-div {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.dotted-text p {
+  border-bottom: 1px grey dotted;
+  color: grey;
+}
+
+.grey-div p {
+  color: #aaa;
+  padding: 7px 0px 7px 0px;
+}
+
+footer {
+  background-color: black;
+}
+.menu {
+  display: flex;
+}
+
+ul {
+  justify-content: center;
+  padding: 15px 100px;
+}
+
+nav {
+  padding: 50px 20px 10px 20px;
+  margin-left: 50px;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+li a {
+  color: grey;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+.logo {
+  font-size: 2em;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+.circle-img {
+  border: 3px white solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.botonread {
+  padding: 5px 15px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+.section-1 {
+  background-color: rgb(207, 215, 223);
+  text-align: center;
+  color: white;
+  height: 550px;
+}
+
+.section-title h3,
+h4 {
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 1.7em;
+  margin-top: 20px;
+}
+
+spam {
+  color: red;
+}
+
+.centered-text {
+  margin-top: 15%;
+}
