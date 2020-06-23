@@ -1,0 +1,95 @@
+.nav-item {
+  padding: 0 10px;
+}
+
+.navbar-nav > .active > a,
+.nav-link:hover {
+  color: #ed564b !important;
+  background-color: transparent;
+}
+
+.jumbotron {
+  position: relative;
+  background: url('../starter-code/img/slider-1.jpg');
+  background-size: cover;
+  height: 60vh;
+  filter: grayscale(100%);
+  margin-bottom: 0;
+}
+
+.jumbotron > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('../starter-code/img/overlay.png');
+  z-index: 1;
+}
+
+
+
+#widgets {
+  background-color: #ed564b;
+  height: 40vh;
+}
+
+.widget-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.section__heading,
+.section__subheading {
+  text-transform: uppercase;
+}
+
+.section__heading {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 20px 0 5px;
+}
+
+.section__subheading {
+  font-size: 14px;
+  color: #aaa;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none; 
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-date {
+  font-size: 12px;
+  font-weight: 700;
+  color: #aaa;
+}
+
+.card-date span {
+  color: #ed564b;
+}
