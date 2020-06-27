@@ -1,0 +1,142 @@
+@media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+  }
+
+  #navbarNav {
+      justify-content: center;
+  }
+
+  .nav-item {
+      font-size: 0.9rem;
+      padding: 8px;
+  }
+
+  .navbar-brand {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 2rem !important;
+  }
+
+  #homepage-carousel .carousel-item {
+      height: 600px;
+  }
+
+  #homepage-carousel .carousel-item img {
+    filter: grayscale(100%);
+}
+
+#homepage-carousel .carousel-caption {
+bottom: 150px;
+}
+.red-bg {
+padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.red-bg svg {
+    width: 4em;
+    height: 4em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.red-bg p, .red-bg h4 {
+    color: white;
+}
+
+.red-bg {
+    text-align: center;
+}
+
+.projects, .articles {
+    margin-top: 80px;
+}
+
+.projects .col-3 {
+    text-align: center;
+}
+
+.projects a {
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.projects img, .articles img {
+    padding-bottom: 10px;
+}
+
+.projects h3, .articles h3 {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.projects>p, .articles>p {
+    font-size: 0.9rem;
+    color: #aaa;
+    font-weight: 700;
+}
+
+.articles a {
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.post-author {
+    font-size: 0.8rem;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.post-text {
+    font-size: 0.8rem;    
+}
+
+.footer {
+    margin-top: 120px;
+    padding-top: 40px;
+    height: 400px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer ul li {
+    padding: 10px 0;    
+    border-bottom: 1px dotted #aaa;
+}
+.footer a {
+    color: #aaa;
+}
+
+.footer a:hover {
+    color: #aaa;
+}
+
+.footer-copy {
+    padding: 20px 0px;
+    background: #292929;
+
+    color: white;
+    font-size: 0.8rem;
+}
