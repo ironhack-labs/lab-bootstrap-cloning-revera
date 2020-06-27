@@ -1,0 +1,59 @@
+html {
+    margin-bottom: 50px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a b {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+a.frmore {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
+
+img.grayscale {
+    -webkit-filter: grayscale(100%);
+}
+
+
+img {
+    width: 100%;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.main-content {
+    padding: 40px 0px;
+}
