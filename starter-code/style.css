@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    width: 225px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ed564b;
+}
+
+.carousel-item img {
+    filter: grayscale(100%);
+}
+
+.carousel-item h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+}
+
+#red-container {
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+#latest-projects {
+    padding: 3rem 0;
+}
+
+#latest-projects img {
+    width: 100%;
+}
+
+h6 {
+    color: #aaa;
+}
