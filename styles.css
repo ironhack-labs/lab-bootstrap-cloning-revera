@@ -15,23 +15,25 @@ h6 {
 header h1 {
     font-size: 32px;
     font-weight: 800;
-    margin: 25px 0 10px;
+    margin: 25px 0;
 }
 
-.nav {
+/* .nav {
     padding: 0 16vw;
-}
+} */
 
 .navLinks {
     display: flex;
     align-items: flex-end;
     margin-bottom: 2px;
+    padding: 0 0 9px 120px;
 
 }
 
 .navLinks a {
-    padding: 10px;
+    padding: 15px;
     color: #777777;
+    font-size: 16px;
 }
 
 .navLinks a:hover {
@@ -43,11 +45,42 @@ header h1 {
     color: #ed564b;
 }
 
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 50vw;
+}
+
+.carousel-item div h5 {
+    font-size: 36px;
+}
+
+.carousel-item div p {
+    font-size: 16px;
+}
+
+.carousel-item img {
+    filter: grayscale(100%);
+}
+
 .infoSection {
     background-color: #ed564b;
     color: white;
     text-align: center;
     padding: 40px 0;
+}
+
+.glyph-icon {
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 45px;
+    border: 5px solid white;
 }
 
 .infoSection h3 {
@@ -89,4 +122,16 @@ footer {
     height: 300px;
     color: white;
     padding: 20px 0 40px;
+}
+
+.footerInfo p {
+    border-bottom: 1px solid #777777;
+    color: #777777;
+}
+
+.footer-bottom {
+    background-color: #292929;
+    color: white;
+    font-size: 14px;
+    padding: 20px 188px;
 }
