@@ -150,7 +150,7 @@ footer h3 {
     font-size: 1em;
     margin-bottom: 20px;
 }
-footer a, footer black-container p{
+footer a, footer .black-container p{
     text-decoration: none;
     color: #aaa;
 }
