@@ -1,0 +1,33 @@
+.carusel-contect-section {
+    text-align: center;
+}
+
+.content-middle-carusel {
+    position: absolute; 
+    top: 30%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+} 
+
+.content-bottom-carusel {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+nav {
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    border-bottom: 1px dotted white;
+}
+
