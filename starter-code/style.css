@@ -1,0 +1,43 @@
+#red-container {
+
+    background-color: red;
+    padding:50px;
+    text-align: center;
+    
+}
+
+#last-part {
+    background-image: url(./img/overlay.png);
+    height: 80%;
+    padding:50px;
+}
+
+#copyright {
+    background-color: black;
+    color:white;
+}
+#item {
+
+ text-align: center;
+ font-weight: 100;
+
+}
+
+#header {
+    text-align: center;
+    align-items: center;
+    padding-bottom:200px;
+
+}
+
+#latest-projects {
+    padding:30px;
+}
+
+#latest-articles {
+    padding: 20px;
+}
+
+.navbar-brand {
+    margin-left:210px;
+}
