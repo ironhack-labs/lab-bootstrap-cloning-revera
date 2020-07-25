@@ -1,0 +1,32 @@
+
+.header-text {
+    text-align: center;
+    padding: 200px 300px;
+}
+
+.btn-read {
+    border: white solid 1px;
+    padding: 5px;
+}
+
+.icon {
+padding: 10px 100px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.dotted-border p {
+    border-bottom: dotted grey 2px;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-size: 0.7em;
+}
+
+footer p {
+    padding: 10px 0px;
+}
