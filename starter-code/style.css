@@ -1,0 +1,100 @@
+
+
+
+/* background colors */
+.bg-color-red {
+    background-color: #ed564b;
+}
+
+.bg-color-grey {
+    background-color: #606060;
+}
+
+.footer-dark {
+    background-color: #292929;
+}
+
+/* text color */
+.text-color-red {
+    color: #ed564b;
+}
+
+/* text styles */
+.bold {
+    font-weight: 700;
+}
+
+/* nav bar */
+.brand-font-size {
+    font-size: 2em;
+}
+
+.articles-container a {
+    color: #ed564b;
+}
+
+/* header */
+.read-more {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    background-color: none;
+    padding: 10px 20px;
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-image: url('./img/overlay.png');
+    background: rgba(0,0,0,0.5); 
+  }
+
+.carousel-arrow {
+    width: 50px;
+    height: 100px;
+    background-color: #ed564b;
+}
+
+/* section under carousel */
+.icons-border {
+    border: 4px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 55px;
+    margin: 0 auto 20px auto; 
+}
+
+
+
+
+/* footer */
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer div p,
+ul {
+    font-weight: 200;
+}
+
+
+
+.footer-dark {
+    background-color: #292929;
+}
+
+.footer-dark p {
+    font-size: 0.7em;
+    line-height: 0.5em;
+}
