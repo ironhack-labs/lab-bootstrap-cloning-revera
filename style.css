@@ -1,0 +1,40 @@
+body {
+    
+}
+
+.my-nav-bar a {
+    color: grey;
+}
+
+.my-active-link {
+    color: red !important;
+}
+.services-section {
+   background-color: #ed564b;
+}
+.section-title h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section-title p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.botwid ul li {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+.botwid p {
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+}
+
+}
