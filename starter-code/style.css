@@ -1,16 +1,23 @@
 body{
-    
  margin:0px;
  padding:0px;
+ font-size:14px !important;
 }
+
 
 .navbar{
     position:relative;
     margin-left: 400px;
 }
 
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 .brand-font-size {
     font-weight: bolder;
+    font-size:30px !important;
+    padding-right:50px;
 }
 
 
@@ -18,16 +25,37 @@ body{
     width:100%;
     filter:grayscale(100%);
 }
-
-.carousel-item{
-    position:relative;
+.cap-btn{
+    background:rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
 }
+
+
+ .carousel-item{
+    position:relative;
+} 
 
 .carousel-caption{
     margin-bottom:150px;
-    margin-left:100px;
-    width:60%;
+    margin-left:150px;
+    width:50%;
 }
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: red !important;
+    position: absolute;
+    height: 80px !important;
+    width: 50px !important;
+}
+
 
 .overlay{
 position:absolute;
@@ -38,21 +66,20 @@ width:100%;
 background-image: url(./img/overlay.png);
 }
 
-/* .carousel-control-prev-icon, .carousel-control-next-icon {
-    padding: 40px 15px 40px 20px;
-    background-color: #ed564b;
-    margin: 0;
-}
- */
+
 .section1{
     background-color:#ed564b;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
 }
 
+.container{
+    margin-right:auto;
+    margin-left:auto;
+}
+
 
 .round{
-    display:block;
     text-align:center;
 }
 
@@ -88,33 +115,39 @@ background-image: url(./img/overlay.png);
     padding-bottom: 20px;
 }
 
-
-
 .img p{
     color:black;
 }
 
-.card-deck{
-    justify-content: center;
-    margin:10px 50px;
+.card{
+    padding:0 !important;
 }
 
-.card{
-    position:relative;
+.card-title {
+    color:black;
+    font-size:14px !important;
+    font-weight:bolder;
+}
+
+.card-body{
+    padding:0 !important;
+    width:100% !important;
+    margin-right:15px !important;
+    margin-left:15px !important;
+    justify-content:center;
 }
 
 .card-text{
     color:#aaa;
+    margin-bottom:20px !important;
 }
 
 .card img{
-    width:200px;
+    width:250px;
     height:150px;
+    margin-bottom:15px;
 }
 
-.section-3{
-    width:100%;
-}
 
 .bottom{
     padding: 20px 0px 40px 0px;
@@ -132,11 +165,12 @@ background-image: url(./img/overlay.png);
     clear: left;
     list-style-type: none;
     color: #aaa;
+    padding: 0 !important;
 }
 
 .info li{
     list-style-type: none;
-    padding: 10px;
+    padding: 10px 0;
     border-bottom: 1px dotted rgba(255,255,255,.2);
 }
 
