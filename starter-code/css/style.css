@@ -1,0 +1,40 @@
+.col-sm-2{
+    border: 2px solid blue;
+}
+
+.col-sm-4{
+    border: 2px solid blue;
+}
+
+.imgProject{
+    width: 189.5px; 
+}
+
+.container a{
+    display: block;
+    border-bottom: 1px dotted grey;
+    padding: 10px 0;
+}
+
+footer {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.carousel-item::after {
+    content: "";
+    background: url('../img/overlay.png');
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;   
+  }
+  
+  .d-block{
+      filter: grayscale(100%);
+  }
+  
