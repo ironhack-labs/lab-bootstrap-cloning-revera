@@ -1,0 +1,95 @@
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 300px;
+    margin-left: 10vw;
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    font-size: 1rem !important;
+}
+
+.carousel-item active {
+    max-height: 550px;
+    max-width: 1871px;
+    z-index: 0;
+}
+
+.inside-text {
+    z-index: 1;
+}
+
+.navbar {max-height: 90px;}
+
+.dropdown-menu div {
+
+}
+
+#carouselExampleFade, .carousel-inner {
+    max-width: 1871px;
+    max-height: 550px;
+}
+
+.container {
+    padding: 40px 0;
+    background-color: rgb(237,86,75);
+    background-size: cover;
+    max-width: 100vw;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around !important;
+    padding: 0 250px;
+}
+
+.col-md-auto {
+    width: 400px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.col-md-auto h2 {
+    font-weight: 600;
+}
+
+.first-article {
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.first-article h2 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.first-article p {
+    color: gray;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+    max-width: 80%;
+}
+
+.row .col img {
+    max-width: 270px;
+}
+
+.second-grid {
+    margin-left: 285px;
+    padding: 0;
+    justify-content: center;
+    max-width: 70.5%;
+}
+
+.second-grid p {
+    max-width: 270px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 15px;
+}
