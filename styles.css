@@ -18,6 +18,19 @@
     z-index: 0;
 }
 
+.carousel-background {
+        opacity: 50%;
+        z-index: 1;
+}
+
+.carousel-inner .d-block {
+    background: url("./starter-code/img/overlay.png");
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+    background-position: center center;
+    opacity: 80%;
+}
+
 .inside-text {
     z-index: 1;
 }
