@@ -1,0 +1,11 @@
+.ul-class {
+    display: flex;
+    justify-content: center;
+}
+
+.card-config {
+    background-color:#dc3545 !important;
+    color: white !important;
+    text-align: center;
+}
+
