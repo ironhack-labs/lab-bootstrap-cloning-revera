@@ -1,15 +1,19 @@
 .navbar-brand {
     font-weight: 600;
     font-size: 2rem;
-    margin-right: 300px;
-    margin-left: 10vw;
+    margin-right: 250px;
+    margin-left: 17.5vw;
     height: 90px;
     text-align: center;
     padding-top: 20px;
 }
 
 .navbar-nav {
-    font-size: 1rem !important;
+    font-size: 0.9rem;
+}
+
+#home-nav-btn {
+    color: rgb(237,86,75);
 }
 
 .carousel-item active {
@@ -18,10 +22,10 @@
     z-index: 0;
 }
 
-.carousel-background {
+/* .carousel-background {
         opacity: 50%;
         z-index: 1;
-}
+} */
 
 .carousel-inner .d-block {
     background: url("./starter-code/img/overlay.png");
@@ -37,9 +41,9 @@
 
 .navbar {max-height: 90px;}
 
-.dropdown-menu div {
+/* .dropdown-menu div {
 
-}
+} */
 
 #carouselExampleFade, .carousel-inner {
     max-width: 1871px;
@@ -82,7 +86,7 @@
 }
 
 .first-article p {
-    color: gray;
+    color: #96989a;
     font-weight: 600;
     padding-bottom: 20px;
     border-bottom: 1px solid #dfdfdf;
