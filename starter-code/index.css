@@ -1,49 +1,65 @@
 html {
-    padding: 10px 100px;
+  padding: 10px 100px;
 }
 
 .ul-class {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card-config {
-    background-color:#dc3545 !important;
-    color: white !important;
-    text-align: center;
+  background-color: #dc3545 !important;
+  color: white !important;
+  text-align: center;
 }
 
 .copyrigth-class {
-    background-color: black;
-    color: white;
-    padding-bottom: 0;
-    font-weight: bold;
-    padding: 10px 70px;
-    border: 0;
-    margin: 0;
+  background-color: black;
+  color: white;
+  padding-bottom: 0;
+  font-weight: bold;
+  padding: 10px 70px;
+  border: 0;
+  margin: 0;
 }
 
 footer {
-    background-color: darkslategrey;
-    color: white;
+  background-color: darkslategrey;
+  color: white;
 }
 
 footer div {
-    background-color: darkslategrey;
-    color: white;
+  background-color: darkslategrey;
+  color: white;
 }
-
 
 footer {
-    padding: 10px 70px;
-    border: 0;
-    margin: 0;
+  padding: 10px 70px;
+  border: 0;
+  margin: 0;
 }
 
-.card-body, .card {
-    border: none !important;
+.card-body,
+.card {
+  border: none !important;
 }
 
 section {
-    padding: 10px 70px;
+  padding: 10px 70px;
+}
+
+.gray-plus-overlay {
+  filter: grayscale(100%);
+}
+
+.gray-plus-overlay::after {
+  content: "";
+  background: url(./img/overlay.png);
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
 }
