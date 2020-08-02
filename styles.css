@@ -18,7 +18,7 @@
 
 .carousel-item active {
     max-height: 550px;
-    max-width: 1871px;
+    /* max-width: 1871px; */
     z-index: 0;
 }
 
@@ -46,7 +46,7 @@
 } */
 
 #carouselExampleFade, .carousel-inner {
-    max-width: 1871px;
+    /* max-width: 1871px; */
     max-height: 550px;
 }
 
