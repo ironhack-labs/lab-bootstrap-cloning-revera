@@ -1,26 +1,110 @@
-.col-sm-2{
-    border: 2px solid blue;
+html {
+    width: 100%;
 }
 
-.col-sm-4{
-    border: 2px solid blue;
+.navbar {
+    align-items: center !important;
+    border: 5px solid green;
+    justify-content: space-between !important;
+} 
+
+.navbar a,li {
+    border: 2px solid red;
+}
+
+.navbar-brand {
+    font-size: 32px;
 }
 
 .imgProject{
     width: 189.5px; 
 }
 
-.container a{
+#section-courses {
+    background-color: #ed564b;
+    border-top:5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    height: 315px;
+} 
+
+.col-sm-4 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+ 
+.col-sm-4 > span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     display: block;
-    border-bottom: 1px dotted grey;
-    padding: 10px 0;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
 }
 
-footer {
-    padding: 20px 0px 40px 0px;
-    background: #3b3b3b;
-    border-top: 5px solid #ed564b;
+.col-sm-4 > h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 20px;
 }
+
+.col-sm-4 > p {
+    font-size: 14px;
+    color: #FBFBFB;
+    text-align: center;
+}
+
+h5 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    clear: both;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 10px;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #ed564b;
+    height: 100px;
+    width: 50px;
+    
+}
+
+#carouselExampleControls {
+    /* align-items: center !important; */
+    /* justify-content: center;
+    align-content: center; */
+    justify-content: center !important;
+    /* flex-direction: column !important; */
+    vertical-align: middle !important;
+}
+/* .carousel-caption p {
+    font-size: 16px;
+    padding-bottom: 30px;
+    clear: both;
+    margin: 0 0 10px;
+    font-style: inherit;
+    font-weight: inherit;
+    vertical-align: baseline;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.6;
+} */
 
 .carousel-item::after {
     content: "";
@@ -33,8 +117,119 @@ footer {
     position: absolute;
     z-index: 2;   
   }
+
+  .carousel-caption a{
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+  }
   
   .d-block{
       filter: grayscale(100%);
   }
   
+  .col-sm-12 > h2 {
+    padding-top: 65px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* margin-left: 35px; */
+  }
+
+  .col-sm-12 > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    /* margin-left: 35px; */
+  }
+
+#projects {
+    position: relative;
+}
+
+.card {
+    border-style: none;
+    /* padding: 20px; */
+    /*border: 20px solid red;*/
+    
+
+}
+
+.card-text {
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+}
+
+/* .card {
+    padding-left: 0px;
+    border: 1px solid red !important;
+} */
+
+.card-img-top {
+    /* margin-right: 20px; */
+    width: 260px;
+    margin-top: 20px;
+} 
+
+.card-body > h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    /* padding-left: 0px; */
+    /* border-left: 0; */
+    /* margin-left: 0px; */
+}
+
+.card-body > h5 {
+    color: #606060;
+    font-size: 16px;
+    text-align: left;
+
+
+}
+
+.card-body  a {
+    color: red;
+}
+
+.card-text {
+    color:#606060;
+}
+
+footer a{
+    display: block;
+    border-bottom: 1px dotted grey;
+    padding: 10px 0;
+    color: #aaa;
+    font-size: 16px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 16px;
+    padding: 10px 0;
+
+}
+
+footer h3 {
+    color: white;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+footer {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
