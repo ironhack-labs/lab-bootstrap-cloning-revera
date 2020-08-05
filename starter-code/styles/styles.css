@@ -15,15 +15,6 @@
 }
 
 
-
-
-#header {
-    text-align: center;
-    align-items: center;
-    padding-bottom:200px;
-
-}
-
 #latest-projects {
     padding:30px;
 }
@@ -73,4 +64,47 @@
 
 .footer-paragraph {
     color:white;
+}
+
+.btn{
+    color:#D3D3D3;
+    background-color: transparent;
+    border: 2px solid #D3D3D3;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.fa-star {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.fa-heart {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
 }
