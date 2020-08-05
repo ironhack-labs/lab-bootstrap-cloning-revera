@@ -1,0 +1,95 @@
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav {
+ margin-left: 250px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.d-block {
+    filter: grayscale(100%)
+}
+
+#header {
+    color: #D3D3D3;
+}
+
+.btn {
+    color:#D3D3D3;
+    background-color: transparent;
+    border: 2px solid #D3D3D3;
+}
+
+.carousel-caption {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#red-container {
+    background-color: #ed564b;
+    color: white;
+}
+
+#red-container .col-sm {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#latest-projects {
+    margin-top: 40px;
+}
+
+#latest-projects h6 {
+    color: gray;
+}
+
+#latest-articles h6 {
+    color: gray;
+}
+
+#latest-projects .container .row .col-sm p {
+    text-align: left;
+}
+
+.articles-headings {
+    /* text-align: left; */
+    font-weight: 600;
+}
+
+#footer {
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#footer .container .row .col-sm span {
+    font-weight: 500;
+}
+
+#footer .container .row .col-sm p {
+    margin-top: 30px;
+}
+
+#footer .container .row .col-sm a {
+    color: white;
+}
+
+.hor-line {
+    background-color: lightgray;
+}
+
+#copyright {
+    background-color: #292929;
+}
