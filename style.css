@@ -1,0 +1,34 @@
+header {
+  background: #fff url(/starter-code/img/project-2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.arrow {
+  background: #ed564b;
+  color: white;
+  font-size: xx-large;
+  transform: translateY(-50%);
+}
+
+.arrowLeft {
+  top: 50%;
+  left: 0;
+}
+
+.arrowRight {
+  top: 50%;
+  right: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer a {
+  border-bottom: 1px solid lightgray;
+}
+
+.gap {
+  gap: 0.5rem;
+}
