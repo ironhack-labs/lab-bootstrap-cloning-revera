@@ -1,11 +1,15 @@
 li.nav-item.my-auto
 {
-    padding-right: 400px;
     color: black !important;
     font-weight: bold;
-    font-size: 20px
+    font-size: 20px;
+    padding-right:240px;
 }
-
+li.nav-item
+{
+   margin-top: 40px;
+   margin-left:10px;
+}
 .carousel-caption {
     top: 40%;
     left:24%;
