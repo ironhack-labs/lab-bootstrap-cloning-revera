@@ -59,3 +59,42 @@ span i {
 .card-post-date span {
   color: red;
 }
+
+.bottom-red-hr {
+  background-color: red;
+  height: 5px;
+  width: 100vw;
+}
+
+.bottom-section {
+  background-color: #3b3b3b;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bottom-section .row {
+  margin: 2rem auto;
+  color: white;
+}
+
+.bottom-section h3 {
+  font-size: 1.5rem;
+}
+.bottom-section p {
+  font-size: 0.8rem;
+}
+
+.bottom-section h5 {
+  font-size: 0.9rem;
+  padding-bottom: 3px;
+  border-bottom: 1px dotted rgb(117, 117, 117);
+}
+
+.copyright-section {
+  background-color: #292929;
+}
+
+.copyright-section p {
+  color: white;
+  font-size: 0.8rem;
+}
