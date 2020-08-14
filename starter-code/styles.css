@@ -1,8 +1,35 @@
+li.nav-item.my-auto
+{
+    padding-right: 400px;
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.carousel-caption {
+    top: 40%;
+    left:24%;
+    width: 50%
+}
+
 .carousel-item > img
 {
     filter: grayscale(1);
 }
 
+.btn.btn-light
+{
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
 
 .fwidgets {
     padding: 40px 0px;
@@ -34,6 +61,62 @@
     font-weight: bold;
 }
 
+.section-title p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+h5.card-title
+{
+    font-size: 14px;
+    text-align: center;
+}
+
+span.posted
+{
+    font-size:12px;
+    color: #606060;
+    font-weight: bold;
+}
+
+span.posted > a
+{
+    font-size:12px;
+    color: #f4473a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#bottom h3 {
+    color: white;
+    font-size:18px;
+}
+
+#bottom div p {
+    color: #aaa;
+    font-size:18px;
+}
+
+#bottom div a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+}
+
+#bottom div li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
 .site-footer {
     padding: 10px 0px;
     background: #292929;
@@ -46,4 +129,9 @@
 
 .fcred a:link, .fcred a:visited {
     color: #eee;
+}
+
+.card
+{
+    border: 0px solid #000000;
 }
