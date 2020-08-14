@@ -1,0 +1,61 @@
+span i {
+  font-size: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+  padding-top: 1.5rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+#red-section {
+  background-color: #ed564b;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#red-section .col-sm-4 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#top-menu {
+  position: relative;
+  top: 15px;
+}
+
+#top-menu a {
+  color: black;
+}
+
+.card p {
+  font-size: 0.8rem;
+}
+.project-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-subtitle {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.card {
+  border: none;
+}
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-post-date {
+  font-size: 0.8rem;
+}
+
+.card-post-date span {
+  color: red;
+}
