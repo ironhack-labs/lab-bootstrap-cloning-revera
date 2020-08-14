@@ -1,0 +1,49 @@
+.carousel-item > img
+{
+    filter: grayscale(1);
+}
+
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.homewidget h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+.fcred {
+    padding: 10px 0px;
+    color: #eee;
+}
+
+.fcred a:link, .fcred a:visited {
+    color: #eee;
+}
