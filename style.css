@@ -1,0 +1,108 @@
+nav {
+    margin-top: 60px;
+    background-color: white;
+    
+}
+
+nav  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+nav > a {
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 20em;
+    margin-bottom: 14px;
+    color:black;
+    font-family: sans-serif;
+}
+
+.carousel-caption {
+    width: 50%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+div > h5 {
+    font-weight: bold;
+}
+
+div > p {
+    font-weight: 6em;
+    text-align: center;
+}
+
+section {
+    background-color: #ED564B;
+}
+
+section > div {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+section > div > svg {
+    margin-bottom: 20px;
+}
+
+.contenido {
+    background-color: white;
+    margin: 70px 200px 50px;
+}
+
+.contenido > h4 {
+    font-weight: bold;
+}
+
+.contenido > p {
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-body > h5 {
+    color: black;
+    font-size: 16px;
+}
+
+.card-body > h6 {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-body > h6 > span {
+    color: #ED564B;
+}
+
+.card-body .card-text {
+    color: #AAAAAA;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    padding: 20px 200px;
+}
+
+.footer div > h5 {
+    color: white;
+}
+
+.footer div > p {
+    color: #AAAAAA;
+}
+
+.pie {
+    background-color: #292929;
+    color: white;
+    padding:20px 0 15px 200px;
+    font-size: 15px;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+nav {
+    margin-top: 60px;
+    background-color: white;
+    
+}
+
+nav  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+nav > a {
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 20em;
+    margin-bottom: 14px;
+    color:black;
+    font-family: sans-serif;
+}
+
+.piePag {
+    width: 100%;
+    background-color: #ED564B;
+    padding: 30px 170px;
+    color: white;
+    font-weight: bold;
+}
+
+.conguntocard{
+  padding: 70px 130px;
+}
+
+.targeta{
+    padding: 10px;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    padding: 20px 200px;
+}
+
+.footer div > h5 {
+    color: white;
+}
+
+.footer div > p {
+    color: #AAAAAA;
+}
+
+.pie {
+    background-color: #292929;
+    color: white;
+    padding:20px 0 15px 200px;
+    font-size: 15px;
+}

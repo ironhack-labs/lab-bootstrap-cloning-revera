@@ -1,0 +1,75 @@
+nav {
+    margin-top: 60px;
+    background-color: white;
+    
+}
+
+nav  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+nav > a {
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 20em;
+    margin-bottom: 14px;
+    color:black;
+    font-family: sans-serif;
+}
+
+.piePag {
+    width: 100%;
+    background-color: #ED564B;
+    padding: 30px 170px;
+    color: white;
+    font-weight: bold;
+}
+
+section > div {
+    padding-left: 120px;
+    padding-top: 15px;
+}
+
+.post {
+    font-size: 15px;
+    font-weight: bold;
+    color: #AAAAAA;
+}
+
+section > div h1{
+    font-weight: bold;
+}
+
+.info {
+    padding-top: 60px;
+}
+
+.columna{
+    padding: 50px 200px 0px 0px ;
+}
+
+.columna h5{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    padding: 20px 200px;
+}
+
+.footer div > h5 {
+    color: white;
+}
+
+.footer div > p {
+    color: #AAAAAA;
+}
+
+.pie {
+    background-color: #292929;
+    color: white;
+    padding:20px 0 15px 200px;
+    font-size: 15px;
+}
