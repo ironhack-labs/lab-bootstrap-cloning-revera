@@ -1,0 +1,167 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px 0px 0px;
+    background-color: white;
+    width: 100%;
+}
+
+nav img {
+    width: 190px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 15px 30px 15px 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+header h2 {
+    text-align-last: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+    color: rgb(209, 208, 208);
+}
+
+header p {
+    color: rgb(209, 208, 208);
+}
+
+h1  {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+
+.bloque1 {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+}
+
+div h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+div h3 {
+    text-align: center;
+    color: #fafafa;
+    font-weight: 600;
+    height: 50px;
+}
+
+
+p {
+    text-align: center;
+}
+
+div img{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 40px 0px 10px 100px;
+    font-size: 25px;
+}
+.title h4 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 20px 900px 10px 100px;
+    font-size: 15px;
+    color: grey;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+}
+
+.projects img {
+    width: 150px;
+    height: 75px;
+}
+
+.projects h4 {
+    margin: 20px 500px 10px 40px;
+}
+
+.projects p {
+    text-align: justify;
+    font-size: 10px;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: left;
+    color: rgb(155, 151, 151);
+}
+
+.footerh4 {
+    text-transform: uppercase;
+    color: rgb(155, 151, 151);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.dark {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+}
+
+.dark p {
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+.bgblack {
+    background-color: rgb(85, 84, 84);
+}
+.footer-border {
+    border-bottom: 2px dotted rgb(155, 151, 151);
+    color: rgb(155, 151, 151);
+    font-size: 10px;
+    text-align: left;
+}
