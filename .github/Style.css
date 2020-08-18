@@ -1,0 +1,44 @@
+section {
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    text-decoration: none;
+}
+
+ nav ul{
+     display: flex;
+     text-transform: uppercase;
+ }
+
+ nav ul li {
+     list-style: none;
+     padding: 10px;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+.logo{
+    padding-left:100px ;
+    
+
+}
+
+.col-sm-8 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+.main {
+    background: url(../starter-code/img/slider-1.jpg)
+}
