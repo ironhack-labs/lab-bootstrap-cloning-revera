@@ -1,0 +1,203 @@
+
+
+
+
+/* header y menu */
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:2%;
+}
+
+.menu ul{
+    display:flex;
+    list-style: none;
+    margin-right:15%;
+    
+}
+
+.menu ul a{
+    margin:10px;
+    text-decoration:none;
+    color:gray;
+}
+
+.menu h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu ul a:first-child{
+    color:#ed564b;
+}
+.menu ul a:hover{
+    color:#ed564b
+}
+
+/* main */
+
+
+
+
+.slider{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url(/home/diego/OneDrive/Ironhack/week1/day2/lab-bootstrap-cloning-revera/img/slider-4.jpg);
+    background-size: cover;
+    height:60vh;
+    filter: grayscale(100%);
+    color:white;
+}
+
+.button{
+    border: 1px solid white;
+    width: 17%;
+    margin: auto;
+    padding: 3px;
+    background: rgba(255,255,255,0.2)
+    
+}
+
+.button a{
+    color:white;
+    text-decoration:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:0.70em
+}
+
+.content   {
+    margin-top:7%;
+    width:60%;
+    text-align:center;
+    
+}
+
+.button:hover{
+    background-color:rgb(255,255,255,0.7);
+    transition: all .5s; 
+}
+
+.widgets{
+    background-color:#ed564b;
+    text-align:center;
+    color:white;
+    padding: 5%;
+}
+
+.widgets h3{
+    margin-top:15px;
+    font-size:1.5em;
+}
+.widgets p{
+    font-size:0.8em;
+}
+
+.circle{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 20%;
+    height: 35%;
+    border-radius: 50%;    
+    margin: 0px auto;
+    line-height: 35%;
+    color:white;
+    
+}
+
+.circle img{
+    width:50%;
+    margin-top: 12px;
+    filter:invert(100%);
+}
+.heart img{
+    margin-top:16px;
+}
+
+/* projects */
+
+.title-projects{
+    padding:3%;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.title-projects p{
+    color:gray;
+    border-bottom:1px solid gray;
+
+}
+
+
+.images{
+    width: 100%;
+   
+    margin-bottom: 4%;
+}
+
+.text{
+    width: 100%;
+    text-align:center;
+    font-weight: 700;
+}
+.gray-text{
+    color:gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:0.8em;
+}
+
+.date{
+    color:#ed564b;
+    text-transform: uppercase;
+    
+}
+
+.gray-text2{
+    color:gray;
+}
+
+.grid{
+    padding: 2%;
+}
+
+
+/* footer */
+
+footer{
+background-color: #606060;
+padding-top:3%;
+border-top:3px solid #ed564b;
+}
+
+.upfooter, .downfooter{
+    color:white;
+}
+
+footer h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:1.2em;
+
+}
+footer p{
+    font-size:0.8em;
+}
+
+.list{
+    list-style: none;
+    padding:0px;
+
+}
+.list li{
+    border-bottom:1px dashed white;
+    padding-bottom:1%;
+    
+}
+
+.downfooter{
+    background-color:#292929;
+    padding:2%;
+}
