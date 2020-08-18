@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revera Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        header {
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        header h1 {
+            text-transform: uppercase;
+            font-weight: 800;
+            padding-bottom: 40px;
+        }
+        header a {
+            color: black;
+            padding-left: 20px;
+        }
+        header :hover {
+            color: black;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: rgb(240, 68, 25); 
+            text-decoration: none;
+        }
+        nav {
+            padding-top: 15px;
+        }
+
+
+        .slide {
+            background-image: url("img/slider-1.jpg");
+            background-size: cover;
+            padding-bottom: 200px;
+            padding-top: 200px;
+            filter: grayscale(100%);
+            color: white;
+            text-align: center;
+        }
+        .slide h1 {
+            text-transform: uppercase;
+        }
+
+        .slide a {
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            border: 1px solid white;
+            background-color: rgba(0,0 , 0, 0.2);
+            font-weight: 200;
+            display: block;
+            width: 200px;
+            padding: 10px 0;
+            text-align: center;
+            margin: 50px 450px;
+        }
+        .bck-it {
+            background-color: rgb(240, 68, 25);
+            height: 350px;
+            border-top: 5px solid rgb(245, 131, 102);
+            border-bottom: 5px solid rgb(245, 131, 102);
+        }
+        .icons {
+            border-radius: 50%;
+            border: 4px solid white;
+            width: 70px;
+            height: 70px;
+            padding: 15px;
+            margin: 20px 150px;   
+        }
+        .icons img {
+            width: 100%;
+        }
+        .items {
+            text-align: center;
+            color: white;
+
+        }
+        .items a{
+            color:  rgb(240, 68, 25);
+        }
+
+        .items a:hover{
+            color:  black;
+            text-decoration: none;
+        }
+        .img-post{
+            width: 270px;
+            height: 154px;
+        }
+
+        .last-posts h2 {
+            text-transform: uppercase;
+            padding-top: 50px;
+            font-weight: 600;
+        }
+        .last-posts p {
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #9a9a9a;
+
+        }
+        .last-posts hr {
+            height: 10px;
+            border-width: 2px;
+        }
+
+        .last-posts a {
+            color:  black;
+            text-decoration: none;
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+
+        .last-art h2 {
+            text-transform: uppercase;
+            padding-top: 50px;
+            font-weight: 600;
+        }
+        .last-art-head-p {
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #9a9a9a;
+
+        }
+        .last-art hr {
+            height: 10px;
+            border-width: 2px;
+        }
+
+        .last-art a {
+            color:  black;
+            text-decoration: none;
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .last-art h3 {
+            text-decoration: none;
+            padding-top: 10px;
+            font-size: 1.1em;
+            font-weight: 700;
+        }
+        .subt {
+            text-transform: uppercase;
+            color: color: #9a9a9a;
+        }
+        .subt a {
+            text-transform: uppercase;
+            font-weight: 600;
+            color:  rgb(240, 68, 25);
+        }
+        .last-art  {
+            margin-bottom: 100px;
+        }
+
+
+        .bottom {
+            background-color: #2d2d2d;
+            height:500px;
+            border-top: 5px solid rgb(245, 131, 102);
+            color: #9a9a9a;
+            
+        }
+
+        .bottom h3 {
+            text-transform: uppercase;
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            
+        }
+
+        .bottom a {
+            text-decoration: none;
+            color: #9a9a9a;
+            text-align: left;
+        }
+        .p-line {
+            border-bottom: 1px dashed #9a9a9a;
+            
+        }
+
+
+        footer {
+            background-color:  #1f1f1f;
+            color: white;
+            padding: 20px 10px;
+        }
+        footer a {
+            text-decoration: none;
+            color: white
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-sm-4">
+                 <h1><a href="#">Revera</a></h1>
+             </div>  
+        <div class="col-sm-8">
+            <nav>
+                <ul>
+                    <il><a href="#">Home</a></il>
+                    <il><a href="#">About</a></il>
+                    <il><a href="#">Sample page</a></il>
+                    <il><a href="#">Portfolio</a></il>
+                    <il><a href="#">Blog</a></il>
+                    <il><a href="#">Parent Page</a></il>
+                    <il><a href="#">Contact</a></il>
+                </ul>
+            </nav>
+         </div>
+        </div>
+    </header>
+    <div class="slide">
+        <div class="container">
+            <h1>
+                Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+            </h1>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <section class="bck-it">
+    <div class="container items">
+        <div class="row">
+        <article class="col-sm-4">
+            <div class="icons">
+                <img src="img/candado.png" alt="candado">
+            </div>
+            <h2>
+                Web design
+            </h2>
+            <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius <a href="#">Link</a>
+            </p>
+        </article>
+        <article class="col-sm-4">
+            <div class="icons">
+                <img src="img/candado.png" alt="candado">
+            </div>
+            <h2>
+                Web development
+            </h2>
+            <p
+            >Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus. 
+            </p>
+        </article>
+        <article class="col-sm-4">
+            <div class="icons">
+                <img src="img/candado.png" alt="candado">
+            </div>
+            <h2>
+                User interface
+            </h2>
+            <p>
+                Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida. 
+            </p>
+        </article>
+    </div>
+    </div>
+</section>
+        <section class="container last-posts">
+            <div>
+                <h2>
+                    Latest Projects
+                </h2>
+                <p>
+                    Few of the latest portfolio items 
+                </p>
+                <hr>
+            </div>
+            <div class="row">
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/project-1.jpg" alt="Hombre haciendo plancha sobre cesped">
+                    <a href="#">Nunc libero elit, iaculis nec augue non</a>
+                </article>
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/project-2.jpg" alt="Gatito sobre piano">
+                    <a href="#">Nunc libero elit, iaculis nec augue non</a>
+                </article>
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/project-3.jpg" alt="Rosa en estanque">
+                    <a href="#">Nunc libero elit, iaculis nec augue non</a>
+                </article>
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/project-4.jpg" alt="Mujer estirando al atardecer">
+                    <a href="#">Nunc libero elit, iaculis nec augue non</a>
+                </article>
+            </div>
+        </section>
+        <section class="container last-art">
+            <div>
+                <h2>
+                    Latest Articles
+                </h2>
+                <p class="last-art-head-p">
+                    Latest posts from the blog  
+                </p>
+                <hr>
+             </div>
+            <div class="row">
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/slider-1.jpg" alt="Perrito y gatito durmiendo">
+                    <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                    <p class="subt">Posted on <a href="#"> August 19, 2013 </a> by <a href="#"> ADMIN</a></p>
+                    <p>
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                    </p>
+                </article>
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/slider-2.jpg" alt="Frutas verdes">
+                    <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                    <p class="subt">Posted on <a href="#"> August 19, 2013 </a> by <a href="#"> ADMIN</a></p>
+                    <p>
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                    </p>
+                </article>
+                <article class="col-sm-3">           
+                    <img class="img-post" src="img/slider-3.jpg" alt="Amapolas en campo">
+                    <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                    <p class="subt">Posted on <a href="#"> August 19, 2013 </a> by <a href="#"> ADMIN</a></p>
+                    <p>
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                    </p>
+                </article>
+                <article class="col-sm-3">
+                    <img class="img-post" src="img/slider-4.jpg" alt="Gente haciendo senderismo">
+                    <h3><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></h3>
+                    <p class="subt">Posted on <a href="#"> August 19, 2013 </a> by <a href="#"> ADMIN</a></p>
+                    <p>
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                    </p>
+                </article>
+             </div>
+        </section>
+
+        <section class="bottom">
+         <div class="container">
+             <div class="row">
+              <article class="col-lg-3">
+                    <h3>
+                        Revera
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa nostrum rem voluptatibus fugit possimus, pariatur illum sint veniam illo aliquam aut iure, doloribus a velit autem consectetur vel saepe?
+                    </p>
+                </article>
+                <article class="col-lg-3">
+                    <h3>
+                        Meta
+                    </h3>
+                    
+                        <p class="p-line"><a href="#">Log in</a></p>
+                        <p class="p-line"><a href="#">Entries RSS</a></p>
+                        <p class="p-line"><a href="#">Comments RSS</a></p>
+                        <p class="p-line"><a href="#">WordPress.org</a></p>
+                    
+                </article>
+                <article class="col-lg-3">
+                    <h3>
+                        Archive
+                    </h3>
+                    
+                        <p class="p-line"><a href="#">August 2013</p>
+                    
+                </article>
+                <article class="col-lg-3">
+                    <h3>
+                        Revera
+                    </h3>
+                   
+                        <p class="p-line"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a></p>
+                        <p class="p-line"><a href="#">Assumenda nulla iste placeat exercitationem, consectetur</a></p>
+                        <p class="p-line"><a href="">Temporibus sunt optio repudiandae obcaecati esse iure corrupti </a></p>
+                        <p class="p-line"><a href="">Molestias voluptas ab sapiente architecto quidem facere atque?</a></p>
+                    
+                </article>
+            </div>
+        
+    </section>
+
+    <footer>
+        <p>
+            Copyright © 2018 revera - Just another demo Sites site.
+        </p>
+        <p> 
+            <a href="#">| Revera Theme </a>
+        </p>
+    </footer>
+</body>
+</html>
