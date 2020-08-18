@@ -1,0 +1,94 @@
+
+
+.gato-icon{
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 25%;
+}
+
+.top-center {
+    position: absolute;
+    top: 250px;
+    left: 0%;
+}
+
+.button{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+
+.button:hover{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.img {
+    width: 100%;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 150px;
+}
+.flex{
+    display: flex;
+}
+
+.nav{
+    margin: 0px 20px;
+    justify-content: flex-end;
+
+}
+
+.div-nav{
+    width: 1136px;
+}
+
+.gris{
+    background-color: #505050;
+}
+
+footer h2 {
+    color: snow;
+    padding-bottom: 20px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: snow;
+}
+footer li{
+    color: snow;
+    list-style: none;
+}
+footer a{
+    color: snow;
+}
+
+.margin{
+    padding: 20px 0;
+}
