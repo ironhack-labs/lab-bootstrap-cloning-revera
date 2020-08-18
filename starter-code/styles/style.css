@@ -1,0 +1,167 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em 0;
+  }
+  span {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  ul {
+    display: flex;
+    margin-left: 5em;
+  }
+  
+  nav ul li {
+    margin-top: 5px;
+    margin-left: 2em;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    font-size: 0.8em;
+  }
+  .home {
+    color: rgb(241, 65, 65);
+  }
+  .main-photo {
+    background-image: url("../img/project-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 40em;
+  }
+  .main-photo h1 {
+    text-transform: uppercase;
+    color: rgb(190, 185, 185);
+    padding-top: 6em;
+    width: 16em;
+    margin: 0 auto;
+  }
+  .main-photo p {
+    width: 50em;
+    color: rgb(190, 185, 185);
+    margin: 1em auto;
+  }
+  
+  .main-photo a {
+    text-transform: uppercase;
+    color: rgb(190, 185, 185);
+    display: block;
+    padding: 1em;
+    border: 1px solid grey;
+    width: 10em;
+    margin: 1em auto;
+  }
+  
+  .icons {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 2em 0;
+  }
+  .icons article {
+    width: 95%;
+  }
+  .icons .circle {
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .icons h3 {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .icons p {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .photos h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3em;
+  }
+  .photos h5 {
+    text-transform: uppercase;
+    color: rgb(155, 154, 154);
+    font-weight: bold;
+  }
+  .photos img {
+    width: 16em;
+    margin-top: 1em;
+  }
+  .grey {
+    background-color: rgb(46, 45, 45);
+  }
+  .grey span,
+  .grey p {
+    color: white;
+  }
+  .grey p {
+    border-bottom: 1px dotted white;
+  }
+  footer {
+    background-color: rgb(27, 27, 27);
+  }
+  footer p {
+    color: white;
+  }
+  
+  @media (max-width: 1050px) {
+    nav ul li a {
+      font-size: 0.5em;
+    }
+    .main-photo p {
+      width: 30em;
+    }
+    ul {
+      margin-left: 3em;
+    }
+  }
+  @media (max-width: 780px) {
+    .main-photo {
+      height: 50em;
+    }
+    .main-photo h1 {
+      width: 12em;
+    }
+    nav ul li {
+      margin-left: 0.5em;
+    }
+    .main-photo p {
+      width: 25em;
+    }
+    nav ul {
+      margin-left: 1em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .main-photo {
+      height: 60em;
+    }
+    .main-photo h1 {
+      width: 5em;
+    }
+    nav ul {
+      margin-left: 0;
+    }
+    .main-photo p {
+      width: 18em;
+    }
+    nav ul li {
+      margin-left: 0.2em;
+    }
+  }
+  @media (max-width: 350px) {
+      
+      nav ul {
+        margin-left: -2em;
+      }
+      
+    }
+  
