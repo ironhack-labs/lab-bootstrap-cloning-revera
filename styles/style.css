@@ -1,0 +1,82 @@
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+header nav ul li a{
+    color: black;
+    margin-left: 15px;
+    font-weight: 200;
+    font-size: .9em;
+}
+.slider-background{
+    background-image: url(../starter-code/img/project-3.jpg);
+    height: 400px;
+    background-size: 100%;
+    
+    
+}
+
+.icon{
+            border-radius: 50%;
+			border: 3px solid;
+			font-size: 2.5em;
+			line-height: 80px;
+			height: 80px;
+			width: 80px;
+			text-align: center;
+		
+}
+.web-char{
+    background-color:brown;
+    color: white;
+}
+
+.web-char h3{
+    margin: 20px 0;
+}
+
+.pictures img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.pictures{
+    margin-bottom: 50px;
+
+}
+
+.pictures p{
+    color: black;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+
+footer h6{
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+
+footer a, p, h6 {
+    color: white;
+
+}
+footer  hr{
+    margin: 4px;
+} 
+
+.footer-options{
+    margin-bottom: 40px;
+}
+
+.copyright {
+
+    background-color: grey;  
+    height: 40px;
+}
+
