@@ -1,0 +1,138 @@
+.menu{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.menu h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.2em
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;    
+}
+
+.menu li{
+    margin: 0 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: #ED564B
+}
+
+.image{
+    height: 600px;
+    padding-top: 200px;
+
+    background-image: url(../starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white
+}
+
+.image div{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image h2{
+    text-transform: uppercase;
+    font-size: 2.5em
+}
+
+.image p{
+    font-size: 1.2em
+}
+
+.button{
+    padding: 6px 20px;
+    border: solid 2px white;
+
+    text-decoration: none;
+    color: white
+}
+
+.button:hover{
+    text-decoration: none;
+    color: white
+}
+
+.services{
+    padding: 10px;
+    background-color:#ED564B;
+    text-align: center;
+
+    border: solid 6px #F96B61;
+    border-right: none;
+    border-left: none;
+
+    color:white
+}
+
+.circle{
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
+
+    border: solid 5px white;
+    border-radius: 35px;
+}
+
+.services h2{
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+.article{
+    margin: 30px auto;
+}
+
+.projects img{
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+}
+
+.projects p{
+    text-align: center;
+}
+
+.projects h2{
+    margin-top: 50px;
+    margin-bottom: -8px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8em;
+    color:black;
+}
+
+.projects h3{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 900;
+    color: lightslategray
+}
+
+.articles{
+    border-top: solid 1px lightslategray;
+    margin-top: 20px;
+}
+
+.articles article{
+    margin: 30px 0;
+}
+
+.articles p{
+    margin-top: 14px;
+}
