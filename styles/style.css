@@ -1,16 +1,23 @@
 .menu{
-    padding-left: 100px;
+    padding: 20px 100px;
     display: flex;
     align-items: center;
 }
 
 .menu h1{
+    margin: 0;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2.2em
 }
 
+.homeBut{
+    margin-right: 100px;
+}
+
 .menu ul{
+    padding: 0;
+    margin-bottom: 0;
     list-style: none;
     display: flex;    
 }
@@ -33,11 +40,12 @@
     height: 600px;
     padding-top: 200px;
 
-    background-image: url(../starter-code/img/project-2.jpg);
+    background-image: url(../starter-code/img/slider-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
-    color: white
+    color: white;
+    backdrop-filter: brightness(40%);
 }
 
 .image div{
@@ -69,7 +77,8 @@
 }
 
 .services{
-    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color:#ED564B;
     text-align: center;
 
@@ -87,6 +96,8 @@
 
     border: solid 5px white;
     border-radius: 35px;
+
+    font-size: 40px;
 }
 
 .services h2{
@@ -94,14 +105,10 @@
     font-size: 1.8em;
 }
 
-.article{
-    margin: 30px auto;
-}
-
 .projects img{
     display: block;
     margin: 0 auto;
-    width: 160px;
+    width: 100%;
 }
 
 .projects p{
@@ -124,15 +131,81 @@
     color: lightslategray
 }
 
-.articles{
-    border-top: solid 1px lightslategray;
-    margin-top: 20px;
+.projects article{
+    margin-bottom: 40px;
 }
 
-.articles article{
-    margin: 30px 0;
+.projects img{
+    margin-bottom: 20px
 }
 
-.articles p{
-    margin-top: 14px;
+.projects h4{
+    font-weight: 900;
+    font-size: 1.2em;
+    color:black
+}
+
+.projects h5{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: .9em;
+}
+
+.projects span{
+    color:red;
+}
+
+.projHeader{
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px lightslategray;
+}
+
+.proj2 p{
+    text-align: start;
+}
+
+.info{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3B3B3B;
+
+    border-top: solid 5px #ED564B;
+}
+
+.info h2{
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.info p{
+    color:lightslategrey
+}
+
+.info a{
+    text-decoration: none;
+    color:lightslategrey;
+
+    display:block;
+    border-bottom: dotted 1px lightslategray;
+    padding-bottom: 8px;    
+    margin-bottom: 8px; 
+}
+
+.info a:hover{
+    text-decoration: none;
+    color:white;    
+}
+
+.info span{
+    border-bottom: dotted 1px lightslategray;
+}
+
+footer{
+    padding: 20px 10%;
+    background-color: #292929;
+    color:white;
+    font-size: .9em;
 }
