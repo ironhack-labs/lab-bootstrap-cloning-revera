@@ -5,22 +5,31 @@ body {
 nav {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 20px 50px 20px 20px;
 }
 
-nav a {
+.home-logo {
   color: black;
   text-transform: uppercase;
-  font-weight: 900;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 ul {
  list-style: none;
  display: flex;
+ padding-top: 15px;
 }
 
-li {
+.nav-bar a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #777;
   padding-right: 10px;
+}
+
+#home {
+    color: #ED564B;
 }
 
 .main {
@@ -38,11 +47,11 @@ li {
 }
 
 .main p {
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding: 10px 250px;
 }
 
-.button {
+#btn {
     text-decoration: none;
     border: 1px solid white;
     color: white;
@@ -58,6 +67,7 @@ li {
 }
 
 .pink h2 {
+    margin-top: 20px;
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -102,7 +112,8 @@ img {
 }
 
 .white article {
-    color: rgb(65, 62, 62);
+    font-size: 0.8em;
+    color: #606060;
 }
 
 .grey {
@@ -110,6 +121,7 @@ img {
   background-color: #3b3b3b;
   color: #aaa;
   padding: 40px 50px 30px;
+  padding-bottom: 10px;
   border-top: 5px solid #ED564B;
 }
 
