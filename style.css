@@ -1,0 +1,21 @@
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url("./starter-code/img/project-3.jpg");
+}
+.slider {
+    width: 100vh;
+}
+
+.three {
+    background-color: #ED564B;
+    color: white;
+}
+.img-columns {
+    
+}
