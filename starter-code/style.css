@@ -1,0 +1,106 @@
+body {
+  background-color: #fff;
+}
+
+h6 {
+  color: black;
+}
+
+h6 a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.nav-item,
+.nav-link {
+  color: gray;
+  float: center;
+}
+
+.a.carousel-control-prev-icon {
+  color: salmon;
+}
+
+.a.carousel-control-next-icon {
+  color: salmon;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+.navbar-brand {
+  color: black;
+}
+
+.product {
+  background-color: #ed564b;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: none;
+}
+
+.fa-glass-martini {
+  stroke: black;
+  stroke-width: 10;
+}
+
+.project {
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.projectsub {
+  color: gray;
+}
+
+.projecth6 {
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.latest-articles {
+  padding: 20px;
+}
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+}
+
+.col-sm-6 {
+  display: inline-block;
+}
+
+footer {
+  background-color: darkslategrey;
+  color: white;
+  padding: 2%;
+  border-top: 10px dotted #ed564b;
+  padding-top: 10px;
+  color: gray;
+  justify-content: center;
+  text-align: center;
+}
+
+footer a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: gray;
+}
