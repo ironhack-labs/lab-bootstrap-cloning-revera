@@ -1,0 +1,43 @@
+#widgets {
+  background-color: #f55;
+  color: white;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.navbar > a {
+  margin-left: 8rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.carousel-item > img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgba(237, 86, 75, 1);
+  height: 100px;
+  width: 50px;
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(237, 86, 75, 1);
+  height: 100px;
+  width: 50px;
+}
+#bottom {
+  background-color: #444;
+  border-top: 8px solid #f55;
+}
+
+.bottom-item {
+  border-bottom: 1px dotted;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+}
