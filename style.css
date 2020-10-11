@@ -1,0 +1,42 @@
+.background-nav {
+    background-color: white;
+    color: black;
+} 
+
+.key-features {
+    color: white;
+    background-color: rgb(255, 65, 65);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.key-features>img {
+    border: 5px solid white;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.latest-projects {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.card-padding {
+    padding-left: 25px;
+}
+
+.footer {
+    background-color: gray;
+}
+
+.section-wide {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
