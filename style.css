@@ -1,0 +1,72 @@
+.nav {
+    background-color: white;
+    color: black;
+}
+
+.key-features img {
+    width: 50px;
+    align-self: center;
+}
+
+.key-features {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #ed564c;
+}
+
+.key-features .card {
+    border: none;
+    background-color: #ed564c;
+    color: white;
+}
+
+h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.latest-projects > p {
+    text-transform: uppercase;
+}
+
+.latest-articles > p {
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: white;
+}
+
+#footer {
+    margin-top: 20px;
+    border-top: 5px solid #ed564b;
+    background-color: #3b3b3b;
+    font-size: 0.7em;
+}
+
+#footer .dotted {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .dotted li {
+    border-bottom: 1px dotted #dee2e6;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+#footer .secondary-footer {
+    background-color: #292929;
+}
+
+.below-title {
+    font-size: 0.6em;
+}
+
+.card {
+    border: none;
+}
+
+.latest-articles .card .card-body {
+    padding-left: 0;
+}
