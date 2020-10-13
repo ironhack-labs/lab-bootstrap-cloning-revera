@@ -1,0 +1,154 @@
+nav .navbar .navbar-brand{
+    background-color: white;
+}
+
+.container .navbar-brand{
+    display:inline-block;
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size: 1.7rem;
+    line-height:inherit;
+    white-space:nowrap;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.container .navbar-brand:focus, a .navbar-brand:hover {
+    color: #606060;
+    text-decoration:none;
+}
+
+.navbar-brand .nav-item {
+    color: #606060;
+    font-family: 'Oxygen',sans-serif;
+    font-size: .5rem;
+    line-height: 1.6;
+    display: -ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.carousel-item .carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-caption button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.carousel-control-prev{
+    opacity: 1;
+    z-index: 2;
+}
+
+.carousel-control-next{
+    opacity: 1;
+    z-index: 2;
+}
+.jumbotron {
+    background-color: #f4473a;
+}
+.jumbotron .container{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.jumbotron .services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    font-size: .8rem;
+}
+.jumbotron .services h4{
+    font-size: 1.5rem;
+}
+.jumbotron .services small{
+    font-size: .8rem;
+}
+#section3, #section4{
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section3 .services, #section4 .services, #section5 .services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    font-size: .8rem;
+    margin: 2%;
+}
+
+#section3 .services img, #section4 .services img{
+    width: 100%;
+}
+
+#sectiontitle{
+    text-align: left;
+    margin: 2%;
+}
+#sectiontitle h1{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#sectiontitle h3{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+#section4 .services h5{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#section4 .services h6{
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: gray;
+}
+
+#section4 .services span{
+    color:  #f4473a;
+}
+#section4 .services span:hover{
+color: gray;
+}
+#section5{
+    background-color:#575961;
+    color:#BBBDC3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section5 h6{
+color: white;
+}
+
+#section5 li {
+list-style-type: none;
+border-bottom: 1px dotted, #BBBDC3;
+}
+
+#section5 .link a{
+color:#BBBDC3;
+text-decoration: none;
+}
+
+#section5 .link a:hover{
+color: whitesmoke;
+}
+
+footer{
+padding: 2%;
+background-color:  #2D2E30;
+color: whitesmoke;
+}
