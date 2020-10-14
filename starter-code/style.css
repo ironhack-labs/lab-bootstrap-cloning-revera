@@ -1,0 +1,18 @@
+
+.navbar-brand {
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+img {
+    background-image: url("./img/overlay.png");
+}
+.alineacion {
+    text-align:center;
+}
+.cajaroja {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
