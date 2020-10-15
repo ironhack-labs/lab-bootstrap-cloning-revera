@@ -1,13 +1,110 @@
+.navbar-brand { 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: #aaa;
+}
+
+.header h5 {
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+.header button {
+    padding: 5px 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
 .red-columns{
     background-color: #ed564b;
+    padding: 60px 40px;
+    margin: auto;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.red-columns h2 {
+    font-size: 30px;
+
+}
+
+.red-columns p {
+    font-size: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.col-md h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.projects {
+    padding: 0px 40px;
+}
+
+.articles {
+    padding: 0px 40px;
+    font-size: 15px;
+}
+
+.projects .col-md {
+    padding-top: 40px;
 }
 
 .footer-one {
     background-color: #3b3b3b;
     border-top: 5px solid #ed564b;
+    color: #aaa;
+    text-align: start;
+    padding: 40px 40px 10px;
+}
+
+.footer-one h5 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 15px;
+
+}
+
+.footer-one li {
+    border-bottom: 1px dotted;
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.footer-one li, .footer-one p {
+    font-size: 15px;
+}
+
+.footer-one ul {
+    padding: 0px;
 }
 
 .footer-two {
     background-color: #292929;
-    color: #eee;
+    color: #ffffff;
+    padding: 5px 40px;
+    font-size: 15px;
+}
+
+.footer-two p {
+    margin: 10px;
 }
