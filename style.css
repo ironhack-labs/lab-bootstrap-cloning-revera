@@ -1,0 +1,104 @@
+.text-primary {
+    color: #ED554B !important;
+}
+
+.bg-primary {
+    background-color: #ED554B !important;
+}
+
+
+#nav.navbar .nav-link.active {
+    color: #ED554B;
+}
+h1{
+    text-transform: uppercase;
+}
+
+
+#mainCarousel .carousel-control {
+    width: 45px;
+}
+
+#mainCarousel .carousel-control .carousel-control-icon {
+    width: 100%;
+    height: 100px; 
+    background-color: #ED554B;
+    background-size: 65% 100%;
+}
+
+#mainCarousel .carousel-item {
+    max-height: 600px;
+}
+
+#mainCarousel .carousel-item::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/overlay.png");
+    background-size: 10%;
+    z-index: 1;
+}
+
+#mainCarousel .carousel-item img.d-block {
+    filter: grayscale(100%) brightness(70%);
+}
+
+#mainCarousel .carousel-item .container .carousel-caption {
+    top: 10%;
+    bottom: 10%;
+    right: 25%;
+    left: 25%;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.pb-2{
+    text-transform: uppercase;
+}
+
+#cards .icon-cont{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+
+#latestBlog p {
+    font-size: .7em;
+}
+
+#latestPortfolio p {
+    font-size: .7em;
+}
+
+#footer {
+    border-top: 5px solid #ED554B;
+    background-color: #3b3b3b;
+    font-size: .7em;
+}
+
+#footer .dotted {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .dotted li {
+    border-bottom: 1px dotted #dee2e6;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+#footer .secondary-footer {
+    background-color: #292929;
+} 
