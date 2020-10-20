@@ -73,10 +73,3 @@ h5{
     font-size: 1.2em;
     color:grey;
 }
-
-.overlay{
-    background-size: auto;
-    background-image:url(/starter-code/img/overlay.png);
-    background-repeat:no-repeat;
-  }
-  
