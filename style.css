@@ -89,7 +89,6 @@ h7{
 }
 
 .icon{
-    position: absolute;
-    margin: 50% 50%;
-    transform: (-50%,50%);
+    position: relative;
+    align-items: center;
 }
