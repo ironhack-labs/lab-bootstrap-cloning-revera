@@ -73,3 +73,10 @@ h5{
     font-size: 1.2em;
     color:grey;
 }
+
+.Text-carrusel{
+    position: absolute;
+    margin-bottom: 0px;
+    height: auto;
+    width: 100%;
+}
