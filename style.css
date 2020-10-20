@@ -12,8 +12,11 @@ h1{
     margin-top: 25px;
 }
 
--rowHeader{
+.column-cabecera{
     float: left;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
 }
 
 .container-webs{
