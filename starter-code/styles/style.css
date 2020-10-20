@@ -1,0 +1,125 @@
+
+header {
+display: flex;
+justify-content: start;
+align-items: center;
+}
+.logo{
+    padding:15px 50px;
+    margin-right: 150px;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 10px;
+    
+}
+nav ul li{
+    padding:0px 16px;
+    justify-content: end;
+}
+.hero{
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+    text-align: center; 
+    height: 550px;
+    align-items: center;
+}
+h1{
+    margin-top: 140px;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+}
+
+.hero p{
+    color: #ffffff;
+    text-align: center;
+}
+.hero a{
+    display: flex;
+    border:1px solid #ffffff;
+    padding:5px 15px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+.cards{
+    background-color: #ED564B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cards article{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.cards h3{
+    font-size: 24px;
+}
+.cards p{
+    font-size: 14px;
+}
+
+.content h2{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.content h3{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.content img{
+    width: 270px;
+}
+.content h4{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-top:10px;
+}
+.content a{
+    text-decoration: none;
+    color: #000000;
+}
+.content p{
+    text-align: start;
+}
+
+.contact{
+    background-color: #3b3b3b;
+    color: #aaaaaa;
+    border-top: 5px solid #ed564b;
+}
+.contact h3{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style:none;
+}
+ul li {
+    list-style:none;
+}
+ul li a {
+    text-decoration: none;
+    color: #aaaaaa;
+    
+}
+
+.contact hr{
+border: 1px dashed;
+}
+
+footer{
+    background-color: #292929;
+    color: #aaaaaa;
+}
