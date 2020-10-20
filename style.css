@@ -1,0 +1,128 @@
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+}
+navbar ul{
+    display: flex;
+     padding-right: 20%;
+}
+ul li{
+     list-style: none; 
+     text-decoration: none; 
+     padding:10px;
+}
+li a{
+   
+   
+    color: grey;
+   
+   font-size: 0.8em;
+}
+.cabecera{
+    background-image: url("./starter-code/img/slider-1-ConvertImage.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;   
+ text-align: center;
+ padding-bottom:30px;
+}
+.titulo{
+    padding-top: 105px;
+   padding-bottom: 0px;
+   
+  
+}
+.array{
+    padding-top:115px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.boton{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    margin-top:20px;
+    background-image: url("./starter-code/img/overlay.png");
+    margin-top: 20px;
+
+}
+.pink{
+    
+    background-color: #ED564B;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    padding:20px 50px;
+    
+}
+.icons{
+border: 2px solid white;
+border-radius: 50%;
+padding:8px;
+}
+.section3{
+    text-align: center;
+    align-items: center;
+    padding: 0 50px;
+}
+.image2{
+    width:85%;
+}
+.section3 div p{
+    font-size: 0.7em;
+}
+.subtitle3{
+    padding: 0px 50px;
+   font-size: 0.7em;
+   color:grey
+}
+.title3{
+    padding-top: 50px;
+    padding-left: 50px;
+   text-transform: uppercase;
+}
+.section4{
+    text-align: center;
+    padding: 0 50px;
+}
+.title4{
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.subtitle4{
+    font-size: 0.6em;
+    text-align: left;
+    padding-left: 25px;
+}
+.text4{
+    font-size: 0.7em;
+    text-align: left;
+    padding-left: 25px;
+}
+.foot{
+    background-color: #3B3B3B;
+    color:white;
+    font-size: 0.8em;
+    padding-top: 30px;
+    text-align: left;
+}
+.title5{
+    font-size:2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.copy{
+    background-color: #292929 ;
+    color:white;
+    font-size:0.8em;
+    padding: 20px 30px
+}
