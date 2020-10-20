@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Grid BS</title>
+
+    <style>
+
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .menu a{
+            color: black;
+        }
+        .menu .homeButton{
+            color: red;
+        }
+        .menu img {
+            width: 200px;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .menu li {
+            margin: 10px
+        }
+
+        .blackBox1 {
+            background-image: url("starter-code/img/slider-1.jpg");
+            background-repeat: no-repeat;
+            background-size: 1000px;
+            padding: 120px;
+            text-align: center;
+        }
+        .blackBox1 h1, p{
+            color:white;
+        }
+        .button{
+            border: 2px solid white;
+            padding: 4px 10px;
+            color: white;
+        }
+        .redBox{
+            background-color: red;
+            text-align: center;
+        }
+        .redBox img{
+            width: 80px;
+            margin-top: 40px;
+        }
+        .redBox h2{
+            color:white;
+            font-size: 24px;
+            margin-top:20px;
+        }
+        .whiteBox p{
+            color: black;
+            font-size: 16px;
+        }
+        .whiteBox img{
+            width: 150px;
+            margin: 20px;
+        }
+        .blackBox2 h5,p{
+            color:white;
+        }
+        .blackBox2 h5{
+            margin: 15px 0;
+        }
+        .blackBox2{
+            border-top: 2px solid red;
+            background-color: grey;
+        }
+        .blackBox2 article{
+            color: white;
+        }
+        .blackBox2 p{
+            border-bottom: 1px solid white;
+        }
+        .footer{
+            background-color: black;
+        }
+        .footer p{
+            margin: 0 100px;
+            padding: 15px
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="menu">
+
+        <a href="#"><h1>REVERA</h1></a>
+
+        <nav>
+            <ul>
+                <li><a href="#" class="homeButton">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sample page</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Parent page ></a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+                <div class=" blackBox1">
+                    <h1>LOREM IPSUM</h1>
+                    <p>asjkdlfjsdlfjksdlkñfjsdklfjsdlkfjsdklfjsdlñkfjslkdfjsdklfjasdlkfjsdlkfjsdlkfjsdlkfjsdlkfjsdlkñfjslkdfjsdlkfj</p>
+                    <a href="#" class="button">LEARN MORE</a>
+                </div>
+    </section>
+    <div class="redBox">
+    <section class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="starter-code/img/copa.png" alt="">
+                <h2>Web design</h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Lin</p>
+
+            </div>
+            <div class="col-4">
+                <img src="starter-code/img/star.png" alt="">
+                <h2>Web development</h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Lin</p>
+
+            </div>
+             <div class="col-4">
+                 <img src="starter-code/img/heart.png" alt="">
+                <h2>User interface</h2>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Lin</p>
+             </div>
+            </div>
+        
+    </section>
+</div>
+    <section class="container whiteBox">
+            <h3>LATEST PROJECTS</h3> 
+             <h4>FEW OF THE LATEST PORTFOLIO ITEMS</h4>
+        <div class="row">
+            <div class="col-3">
+                <img src="starter-code/img/project-1.jpg" alt="Flexiones">
+                <p>Nunc libero elit, iaculis nec augue non</p>
+            </div>
+            <div class="col-3">
+                <img src="starter-code/img/project-2.jpg" alt="Cat">
+                <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+            </div>
+            <div class="col-3">
+                <img src="starter-code/img/project-3.jpg" alt="Flower">
+                <p>Vivamus blandit ipsum sed arcu euismod</p>
+            </div>
+            <div class="col-3">
+                <img src="starter-code/img/project-4.jpg" alt="Outdoors">
+                <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+            </div>
+        </div>
+        <h3>LATEST ARTICLES</h3>
+        <h4>LATEST POSTS FROM THE BLOG<h4>
+            <div class="row">
+                <div class="col-3">
+                    <img src="starter-code/img/slider-1.jpg" alt="Cat and dog">
+                    <p>Nunc libero elit, iaculis nec augue non</p>
+                </div>
+                <div class="col-3">
+                    <img src="starter-code/img/slider-2.jpg" alt="Green">
+                    <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+                </div>
+                <div class="col-3">
+                    <img src="starter-code/img/slider-3.jpg" alt="Flower">
+                    <p>Vivamus blandit ipsum sed arcu euismod</p>
+                </div>
+                <div class="col-3">
+                    <img src="starter-code/img/slider-4.jpg" alt="Outdoors">
+                    <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+                </div>
+            </div>
+    </section>
+    <div class="blackBox2">
+    <section class="container">
+        <div class="row">
+            <div class="col-3">
+                <h5>REVERA</h5>
+                <article>asdasdasdas dasdasdasdas sdasdasdasdasd asdasdasda sdasdasda sdasdasda sdasdasdasd</article>
+            </div>
+            <div class="col-3">
+                <h5>META</h5>
+                <p>Log in</p>
+                <p>Enlaces</p>
+                <p>Comments</p>
+                <p>WordPRess</p>
+            </div>
+            <div class="col-3">
+                <h5>ARCHIVES</h5>
+                <p>August 2013</p>
+            </div>
+            <div class="col-3">
+                <h5>RECENT POSTS</h5>
+                <p>Log inLog inLog in</p>
+                <p>EnlaceEnlaceEnlaces</p>
+                <p>CommentsComments</p>
+                <p>WordPRessWordPRessWordPRess</p>
+                <p>WordPRessWordPRessWordPRess</p>
+            </div>
+        </div>
+    </section>
+</div >
+<div class="footer">
+    <p>Copyright sdkljfsdkl fjsldk fjslkdf js <br>dlkñfjsdklfñj</p>
+
+</div>
+
+</body>
+
+</html>
