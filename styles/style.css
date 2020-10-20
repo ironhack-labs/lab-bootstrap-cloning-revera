@@ -1,0 +1,135 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 32px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.carousel {
+    background-image: url(../starter-code/img/overlay.png), url(../starter-code/img/slider-1.jpg);
+    color: white;
+    text-align: center;
+    padding: 150px 60px;
+}
+
+.carousel h2 {
+    text-transform: uppercase;
+}
+
+.carousel a {
+    text-decoration: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 40px;
+    color: white;
+    padding: 10px 40px;
+
+}
+
+.caract {
+    background-color: #ed564b;
+    padding: 40px 0;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.caract i {
+    align-content: center;
+    padding: 10px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.texts {
+    margin: 0 96px;
+    padding: 40px 0;
+}
+
+.texts img {
+    width: 150px;
+}
+
+.texts p {
+    font-size: 15px;
+    
+    }
+
+.texts span {
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.texts hr {
+    border: solid .5px #aaa;
+}
+
+.texts a {
+    font-weight: 700;
+}
+.gray {
+    background-color: rgb(96, 96, 96);
+    color: lightgray;
+    font-size: 15px;
+    padding: 40px 0 40px;
+}
+
+.gray h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.gray a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.gray hr {
+    border: dotted .5px #aaa;
+}
+footer {
+    background-color: #292929;
+    color: white;
+    padding: 30px;
+}
