@@ -16,8 +16,9 @@ background-color: white;
 .navbar{
     margin-left: 50px;
     margin-bottom: 50px;
-    display:flex;
 }
+
+
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
@@ -73,11 +74,9 @@ h5{
     color:grey;
 }
 
-.doverlay {
-    background: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/overlay.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    z-index: 100;
+.overlay{
+    background-size: auto;
+    background-image:url(/starter-code/img/overlay.png);
+    background-repeat:no-repeat;
+  }
+  
