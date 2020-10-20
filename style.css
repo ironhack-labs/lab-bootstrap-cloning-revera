@@ -43,9 +43,14 @@ background-color: white;
 }
 
 .garro1{
-    position: relative;
+     display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
-.icon{
-    margin: 0 auto;
+.h3{
+    color: black;
+}
+.h4{
+    color: gray;
 }
