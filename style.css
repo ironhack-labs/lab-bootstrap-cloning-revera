@@ -21,6 +21,7 @@ background-color: white;
     background: #ed564b;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
+    align-items: center;
 }
 
 .container-infoweb{
@@ -41,7 +42,3 @@ background-color: white;
     display: block;
 }
 
-.icon{
-    align-items: center;
-    width: 370px;
-}
