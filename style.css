@@ -3,7 +3,13 @@ background-color: white;
 }
 
 .containerbar{
-    float: left;
+   position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin-top: 25px;
 }
 
 .container-webs{
