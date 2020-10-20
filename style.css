@@ -1,0 +1,76 @@
+.menu {
+    background-color: red;
+}
+
+.nav {
+    margin: 20px 60px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 300px;
+    }
+
+.nav li{
+    margin: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #1A1A1A;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.foto {
+    background-image: url(starter-code/img/slider-1.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    height: 650px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6em;
+    padding-right: 20%;
+    padding-left: 20%;
+  
+}
+
+.red {
+    background-color:red;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.col-4 svg{
+    display: block;
+    margin: auto;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.button {
+    border: 3px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    padding: 9px;
+    font-size: 0.7em;
+}
+
