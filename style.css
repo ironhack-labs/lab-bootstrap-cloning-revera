@@ -48,10 +48,7 @@ background-color: white;
     max-width: 100%;
 }
 
-.h3{
-    font-: black;
-}
-.h4{
-    text-decoration: none;
-    color: grey;
+h4{
+    font-size: 2em;
+    color: #06365f;
 }
