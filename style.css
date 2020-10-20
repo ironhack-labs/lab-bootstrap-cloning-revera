@@ -16,6 +16,7 @@ background-color: white;
 .navbar{
     margin-left: 50px;
     margin-bottom: 50px;
+    display:flex;
 }
 .container-webs{
     padding: 40px 0px;
