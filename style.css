@@ -89,6 +89,7 @@ h7{
 }
 
 .icon{
-    position: relative;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
 }
