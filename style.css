@@ -4,6 +4,7 @@ background-color: white;
 
 .containerbar{
    position: relative;
+   float: left;
 }
 
 .h1{
@@ -12,10 +13,9 @@ background-color: white;
     margin-top: 25px;
 }
 
-.headerReserva{
-    float: left;
+.navbar{
+    margin-left: 50px;
 }
-
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
