@@ -91,7 +91,7 @@ h7{
 .icon{
     display: flex;
     flex-direction: row;
-    text-align: center;
+    padding: 0px auto;
 }
 
 .text{
