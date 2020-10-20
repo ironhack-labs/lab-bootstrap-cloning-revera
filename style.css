@@ -4,13 +4,14 @@ background-color: white;
 
 .containerbar{
    position: relative;
-   margin-top: 20px;
+   margin-top: 100px;
 }
 
 .h1{
     text-transform: uppercase;
     font-weight: 1000;
-    margin-top: 25px;
+    margin-top: 100px;
+    width: 500px;
 }
 
 .navbar{
@@ -91,7 +92,6 @@ h7{
 .icon{
     display: flex;
     flex-direction: row;
-   
     justify-content: center;
 }
 
