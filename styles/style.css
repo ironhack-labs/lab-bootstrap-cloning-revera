@@ -1,0 +1,263 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 65px;
+}
+
+nav .logo {
+  color: #000;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10%;
+}
+
+nav .logo:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20%;
+}
+
+nav a {
+  font-size: .9em;
+  color: #777;
+  margin-right: 1.5em;
+  transition: all .5s;
+}
+
+nav a:hover {
+  color: #f4473a;
+  text-decoration: none;
+}
+
+nav .active {
+  color: #f4473a;
+}
+
+header {
+  width: 100%;
+  height: 550px;
+  margin: 20px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(1, 1, 1, .8)), url(/starter-code/img/slider-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+header a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-weight: 400;
+  border: 1px solid #fff;
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 0;
+  background: rgba(255, 255, 255, .125);
+  transition: all .5s;
+}
+
+header a:hover {
+  background: rgba(0, 0, 0, .5);
+  text-decoration: none;
+  color: #fff;
+}
+
+header span {
+  font-size: 3em;
+  text-align: center;
+  width: 60px;
+  background-color: #f4473a;
+  padding: .5em 0;
+}
+
+.section2 {
+  margin: 0;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  background-color: #ed564b;
+  text-align: center;
+  color: #fff;
+  padding: 4em 0;
+}
+
+.section2 span {
+  font-size: 2em;
+  border: 4px solid #fff;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.section2 h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.section2 p {
+  font-size: .9em;
+}
+
+.projects {
+  margin: 50px 0;
+}
+
+.projects h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.projects small {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.projects hr {
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.projects img {
+  width: 260px;
+}
+
+.projects a {
+  color: #000;
+}
+
+.projects a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.projects p {
+  font-size: .9em;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.latest-articles h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.latest-articles small {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+.latest-articles hr {
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.latest-articles img {
+  width: 260px;
+}
+
+.latest-articles h3 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.latest-articles a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.latest-articles .date {
+  color: #777;
+  font-size: .7em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.latest-articles .date a {
+  color: #f4473a;
+}
+
+.latest-articles .date a:hover {
+  color: #000;
+}
+
+.latest-articles .body {
+  font-size: .8em;
+}
+
+.legal {
+  margin: 40px 0 0 0;
+  border-top: 5px solid #ed564b;
+  padding: 20px 0 40px 0;
+  background-color: #3b3b3b;
+}
+
+.legal h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.legal p, a, hr {
+  color: #999;
+  font-size: .9em;
+}
+
+.legal a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.legal span {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+footer {
+  color: #fff;
+  background-color: #292929;
+  padding: 10px 0;
+  width: 100%;
+  font-size: .8em;
+  line-height: 1.6;
+}
