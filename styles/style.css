@@ -1,0 +1,217 @@
+/*
+rojo raya #ED564B
+text grey #606060
+foot back #404040
+foot text #aaa
+*/
+
+
+.body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: white;
+    color: #606060;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin-right: 10px;    
+}
+
+header li :hover {
+    text-decoration: none;
+    color: #ED564B;
+}
+
+header a {
+    color: #606060;
+}
+
+h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.section1 {
+    background-image: url(/starter-code/img/overlay.png), url(/starter-code/img/slider-1.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    height: 400px;
+    display: flex;
+}
+
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 p {
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.headtitle {
+    text-align: center;
+    width: 50%;
+}
+
+.section1 a {
+    color: #606060;
+    padding: 5px 15px;
+    border: 2px solid #606060;
+    background-color: rgba(96, 96, 96, .1);
+}
+
+/* SECTION 2 DETAILS*/
+
+.section2 {
+    background-color: #ED564B;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.section2 img {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+
+/*SECTION 3 DETAILS*/
+
+.section3 {
+    margin: 0 0 30px 0;
+}
+
+.title {margin-top: 50px;
+}
+
+.subtitle {
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+hr {
+    border: .5px solid #aaa;
+}
+
+.section3 article {
+    padding: 0 5px;
+}
+
+.section3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section3 h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.arttitle {
+    text-align: center;
+}
+
+h3 a {
+    color: black;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4 a {
+    color: #ED564B;
+}
+
+
+
+/*SECTION 4 DETAILS*/
+
+.section4 {
+    padding: 40px 0;
+    background-color: #404040;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+}
+
+.section4 h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.content a {
+    color: #aaa;
+}
+
+.section4 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section4 li {
+    border-bottom: 1px dotted #aaa;
+    padding: 5px 0;
+}
+
+
+
+footer {
+    background-color: #292929;
+    color: #eeeeee;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 10px 100px;
+}
