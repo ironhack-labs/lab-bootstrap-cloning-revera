@@ -1,0 +1,175 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 70px;
+}
+
+nav {
+    width: 40%;
+    margin: 0px 250px;
+
+    
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+   
+ 
+    
+}
+
+nav > ul > a {
+    color: black;
+}
+
+#redButton {
+    color: red;
+}
+
+.section1 {
+    background-image: url(img/slider-1.jpg);
+    filter: grayscale(1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+       
+}
+
+#leftArrow {
+    width: 40px;
+}
+
+#rightArrow {
+    width: 40%;
+}
+
+.article1 {
+    width: 30%;
+    text-align: center;
+    color: grey;
+    margin-right: 500px;
+}
+
+.readButton {
+    text-decoration: none;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    display: block;
+    width: 150px;
+    color: grey;
+    text-align: center;
+    margin-left: 120px;;
+      
+    
+}
+
+
+
+#article2 {
+    background-color: red;
+    color: white;
+}
+
+
+.section2 {
+    background-color: red;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.div1 {
+    margin-left: 120px;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+}
+
+.section3 {
+    background-color: white;
+    margin-top: 20px;;
+}
+
+#imgSection3 {
+    width: 200px;
+
+}
+
+
+.div2 {
+    margin-left: 120px;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+
+
+
+}
+
+.section4 {
+    background-color: white;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#imgSection4 {
+    width: 200px;
+    
+}
+
+.section5 {
+    background-color: #444;
+    height: 300px;
+    padding-top: 30px;;
+}
+
+.title5 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.text5 {
+    color: grey;
+}
+
+.list5 {
+    list-style: none;
+    margin-left: -40px;
+    
+
+}
+
+.list5 > a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.footer {
+    background-color: black;
+    margin-bottom: 0px;
+    color: white;
+    padding: 10px 120px;
+    font-size: 10px;
+    height: 100%;
+    
+
+}
+
+
+
