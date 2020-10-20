@@ -130,6 +130,8 @@ header a {
 .section3 p {
     color: rgb(128, 118, 118);
     font-size: 0.8em;
+    border-bottom: dotted grey;
+    margin-bottom: 10px;
 }
 
 .section3 hr {
