@@ -1,0 +1,149 @@
+body {
+    font-family: Helvetica;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+nav li {
+    margin:10px;
+}
+
+nav a {
+    color:grey;
+}
+
+logo {
+    width: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.portada {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    filter:grayscale(100);
+    height: 500px;
+    max-width: 100%;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1 {
+   color: white;
+   font-size: 50px;
+   text-transform: capitalize; 
+   font-weight: bold;
+   text-align: center;
+}
+
+.portada p {
+color: white;
+font-size: 20px;
+text-align: center;
+}
+
+.opciones {
+    background-color:#ed564b;
+    text-align: center;
+    color:white;
+    font-family:Helvetica, sans-serif;
+}
+
+.icono {
+    margin-bottom: 10px;;
+}
+
+.projects {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.projects h3 {
+    text-transform: capitalize; 
+    font-weight: bold;
+
+}
+
+.projects p {
+    text-transform: capitalize; 
+    font-weight: bold;
+    color: grey
+
+}
+
+.projects article {
+    font-size: 14px;
+}
+
+.projects img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.latest-articles {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.latest-articles h3 {
+    text-transform: capitalize; 
+    font-weight: bold;
+
+}
+
+.latest-articles p {
+    text-transform: capitalize; 
+    font-weight: bold;
+    color: grey
+
+}
+
+.latest-articles img {
+    width: 100%;
+    margin-bottom: 20px; 
+
+}
+
+
+.about {
+    background-color: #404040;
+    border-top: 5px solid #ed564b;
+
+}
+
+.about h3 {
+    text-transform: capitalize; 
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.about p {
+    color: grey;
+}
+
+.about a {
+    color:grey;
+    font-size: 14px;
+    border-bottom: 1px dotted grey;
+}
