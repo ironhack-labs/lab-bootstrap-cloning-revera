@@ -1,0 +1,165 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+header {
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+a {
+    color: #404040;
+}
+
+nav img {
+    margin-left: 250px;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-right: 400px;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+#red-link {
+    color: #ED564B;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+.hero {
+    background-image: url(/starter-code/img/WhatsApp\ Image\ 2020-10-20\ at\ 18.54.08.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 10em 0;
+    color: white;
+}
+
+.hero p {
+    text-align: center;
+    width: 90%;
+}
+
+.hero2 {
+    background-color: #ED564B;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero2 img {
+    width: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.last-projects {
+    margin: 30px 0;
+}
+
+.last-projects h2{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.last-projects h3 {
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+.last-projects img {
+    width: 200px;
+
+}
+
+.lastest-articles {
+    border-bottom: 2px solid #ED564B;
+    padding-bottom: 30px;
+}
+
+.lastest-articles img {
+    width: 200px;
+}
+
+.lastest-articles img {
+    width: 200px;
+}
+
+.lastest-articles h2{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.p2 {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.lastest-articles h3 {
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+span {
+    color: red;
+}
+
+.last-section {
+    background-color: #404040 ;
+    color: white;
+    padding: 30px 0;
+}
+
+.last-section h2 {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.last-section p {
+    font-size: smaller;
+}
+
+.separate {
+    border-bottom: 1px dotted white ;
+}
+
+footer {
+    background-color: #292929 ;
+    padding: 10px 0px 5px;
+    color: white;
+    font-size: x-small;
+
+}
+
+/*
+#292929
+#404040
+*/
