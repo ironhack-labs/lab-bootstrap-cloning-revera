@@ -41,6 +41,7 @@ background-color: white;
     display: block;
 }
 
-.garro1{
- 
+.icon{
+    align-items: center;
+    width: 370px;
 }
