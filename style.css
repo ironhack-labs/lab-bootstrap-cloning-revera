@@ -49,6 +49,11 @@ background-color: white;
 }
 
 h4{
-    font-size: 2em;
-    color: #06365f;
+    font-size: 1.5em;
+    color:black;
+}
+
+h4{
+    font-size: 1em;
+    color:grey;
 }
