@@ -35,3 +35,8 @@ background-color: white;
     background: #292929;
     font-size: 12px;
 }
+
+.flexslider .List-slides img {
+    width: 100%;
+    display: block;
+}
