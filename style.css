@@ -74,10 +74,16 @@ h5{
     color:grey;
 }
 
+h7{
+    font-size: 1.2em;
+    color:grey;
+}
+
 .Text-carrusel{
     position: absolute;
-    margin: -200px 150px 50px 50px;
+    margin: -300px 150px 50px 50px;
     font-size: 1.5em;
     color: white;
     text-align: center;
 }
+
