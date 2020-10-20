@@ -12,7 +12,7 @@ h1{
     margin-top: 25px;
 }
 
-.column-cabecera{
+.headerReserva{
     float: left;
     display: flex;
     flex-direction: column;
