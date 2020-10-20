@@ -1,0 +1,226 @@
+header img{
+    width: 100%;
+}
+.menu {margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20%;;
+}
+
+.menu .logo {
+   
+    margin-left: 15%;
+    width: 150px;
+}
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    
+}
+.home{
+    font: 14px Oxigen sans-serif;
+    color:#ED564B ;
+}
+.prueba{
+    font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.spage{font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.pfolio{font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.blog{font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.ppage{font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.contact{font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.menu li {
+    margin: 10px;
+    font: 14px Oxigen sans-serif;
+    color: #777;
+}
+.section1{
+    padding-top: 15%;
+    background-image: url("img/F100010488-gatito_en_blanco_y_negro_para_fondo_de_pantalla.jpg");
+     background-size: cover;
+    height: 550px;
+    padding-bottom: 200px;  
+    color:rgb(194, 194, 194); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1 h1{
+    text-align: center;
+    width: 50%;;
+}
+.section1 p{
+    text-align: center;
+    width: 40%;;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.section2{background-color: #ED564B ;
+    padding: 1%;
+    
+}
+.webDesign {
+    text-align: center;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+}
+
+.webDesign img{
+    width: 50px;
+}
+
+.webDevelopment {
+    text-align: center;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+     align-items: center;
+ 
+}
+.webDevelopment img{
+    width: 50px;
+}
+.userInterface {
+    text-align: center;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+     align-items: center;
+ 
+}
+.userInterface img{
+    width: 50px;
+}
+
+.proyect2{
+    width: 100%;
+}
+.proyect3{
+    width: 100%;
+}
+
+.proyect4{
+    width: 100%;
+}
+
+.proyect1{
+    width: 100%;
+}
+.slider1{
+    width: 100%;
+}
+.slider2{
+    width: 100%;
+}
+
+.slider3{
+    width: 100%;
+}
+
+.slider4{
+    width: 100%;
+}
+
+.lprojects{
+    margin: 5% 0;
+    border-bottom: 1px solid #AAA;
+    
+}
+.lprojects h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.imageText{
+    text-align: center;
+}
+.lArticles{
+    margin: 5% 0;
+    border-bottom: 1px solid #AAA;
+
+}
+
+.lArticles h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.lastpart{
+    padding-bottom: 3%;
+}
+
+.font{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.font2{
+    font: 12px Oxigen sans-serif;
+    color: #606060;
+}
+.font3{
+    font: 14px Oxigen sans-serif;
+    color: #AAA;
+}
+.font4{
+    font:16px;
+    color: #fff;
+}
+.section3 {
+    padding-top: 2%;
+    background-color: #3b3b3b;
+}
+footer{
+    background-color: #292929;
+    font: 12px Oxigen sans-serif;
+    color: #EEE;
+    padding: 1%;
+}
+
+footer p{
+    padding-left: 10%;
+}
+
+
+
+
+
+
+
+
