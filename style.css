@@ -2,6 +2,10 @@ body {
 background-color: white;
 }
 
+.containerbar{
+    float: left;
+}
+
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
