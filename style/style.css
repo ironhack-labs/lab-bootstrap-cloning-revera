@@ -1,0 +1,194 @@
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+
+header{
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav img{
+    width: 200px;
+}
+
+
+nav ul{
+    display:flex;
+    margin: 0 5px;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.main-page{
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    padding: 150px;
+    text-align: center;
+}
+
+.main-page p{
+    color:white;
+    padding-bottom: 40px;
+}
+
+.main-page a{
+    color:white;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.option{
+    padding:20px;
+    background-color: #ed564b;
+
+}
+
+
+.option img{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    align-items: center;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-left:260px;
+    margin-bottom:10px;
+
+}
+
+.option h2{
+    color:white;
+    text-align: center;
+}
+
+.option p{
+    color:white;
+    margin:0 100px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.projects h2{
+    text-transform: uppercase;
+    color: black;
+    margin:20px 0;
+    font-weight: bold;
+}
+
+.projects h3{
+    text-transform: uppercase;
+    color: grey;
+    margin:10px 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.projects hr{
+    border: 1px solid grey;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.projects p{
+    font-size: .9em;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+}
+.articulos{
+    margin-bottom: 100px;
+}
+.articulos img{
+    width: 100%;
+}
+
+.articulos h2{
+    text-transform: uppercase;
+    color: black;
+    margin:20px 0;
+    font-weight: bold;
+}
+
+.articulos h3{
+    text-transform: uppercase;
+    color: grey;
+    margin:10px 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.articulos hr{
+    border: 1px solid grey;
+}
+
+.articulos h4{
+    color: black;
+    margin:10px 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.articulos h5{
+    text-transform: uppercase;
+    color: red;
+    margin:10px 0;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.articulos p{
+    color: black;
+    margin:10px 0;
+    font-size: 0.8em;
+}
+
+footer{
+    background-color: #404040;
+    padding:20px;
+    border-top: 4px solid pink;
+}
+
+footer h4{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+    font-size: .9em;
+    font-weight: bolder;
+}
+
+footer p{
+    color: #aaa;
+    font-size: .8em;
+    margin-bottom:10px;
+    border-bottom: 1px dotted grey;
+}
+
+.final{
+    background-color:#292929;
+}
+
+.final p{
+    color:white;
+    font-size: .8em;
+}
