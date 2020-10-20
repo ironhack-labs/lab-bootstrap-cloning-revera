@@ -48,8 +48,13 @@ background-color: white;
     height: auto;
     max-width: 100%;
 }
+.garro2{
+    height: auto;
+    max-width: 100%;
+}
+
 h1 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 h4{
