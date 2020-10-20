@@ -17,7 +17,7 @@ background-color: white;
     margin-left: 250px;
     margin-bottom: 50px;
     display:flex;
-    justify-content: space-around;
+    word-wrap:normal;
     color: grey;
 }
 
