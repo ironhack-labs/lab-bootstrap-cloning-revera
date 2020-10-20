@@ -6,7 +6,7 @@ background-color: white;
    position: relative;
 }
 
-h1{
+.h1{
     text-transform: uppercase;
     font-weight: 1000;
     margin-top: 25px;
@@ -14,9 +14,6 @@ h1{
 
 .headerReserva{
     float: left;
-    display: flex;
-    flex-direction: column;
-    width: 370px;
 }
 
 .container-webs{
