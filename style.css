@@ -76,7 +76,7 @@ h5{
 
 .Text-carrusel{
     position: absolute;
-    margin-bottom: 0px;
-    height: auto;
-    width: 100%;
+
+    font-size: 2em;
+    color: white;
 }
