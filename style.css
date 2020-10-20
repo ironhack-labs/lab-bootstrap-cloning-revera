@@ -88,3 +88,8 @@ h7{
     text-align: center;
 }
 
+.icon{
+    position: relative;
+    margin-left: 50% 50%;
+    transform: (-50%,50%);
+}
