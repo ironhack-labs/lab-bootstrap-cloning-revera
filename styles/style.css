@@ -48,3 +48,34 @@ nav .home-in-red {
     color: red;
 }
 
+header {
+    background-image: url(https://web.archive.org/web/20171026195346im_/http://demo.fabthemes.com/revera/files/2013/08/wallpaper-939317-780x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 1200px;
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+  }
+
+header h2 {
+    text-align: center;
+    color: rgba(34, 33, 33, 0.815);
+}
+
+header p {
+    text-align: center;
+    color: rgba(34, 33, 33, 0.815);
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid rgba(34, 33, 33, 0.815);
+    color: rgba(34, 33, 33, 0.815);
+    border-radius: 0.2em;
+    padding: 5px 10px;
+}
+
