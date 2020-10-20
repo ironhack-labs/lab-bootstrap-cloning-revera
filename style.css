@@ -25,6 +25,7 @@ background-color: white;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
     align-items: center;
+    color: white;
 }
 
 .container-infoweb{
@@ -76,12 +77,12 @@ h5{
 
 h7{
     font-size: 2em;
-    color:grey;
+    color:whitesmoke;
 }
 
 .Text-carrusel{
     position: absolute;
-    margin: -300px 150px 50px 50px;
+    margin: -300px 150px 70px 70px;
     font-size: 1.5em;
     color: white;
     text-align: center;
