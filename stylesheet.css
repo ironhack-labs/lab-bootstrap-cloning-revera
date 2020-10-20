@@ -1,0 +1,165 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 250px;
+}
+
+ul li {
+    padding: 0 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.red {
+    color: #ed564b;
+}
+
+.background-picture {
+    background: url(../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpeg);
+    color:white;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top:50px;
+    text-align: center;
+}
+
+.title {
+    margin: 20px 0 10px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.text {
+    margin: 20px 0;
+    padding: 0 300px;
+}
+
+.button {
+    border: 1px solid white;
+    color: white;
+    display: block;
+    width: 150px;
+    padding: 5px 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.background-color {
+    display: flex;    
+    background-color: #ed564b;
+    color:white;
+    height: 280px;
+    background-size: 90px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+}
+
+.pic {
+    width: 18%;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.header {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.info {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding: 0 75px 20px 75px;
+    align-items: center;  
+}
+
+.title2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.text2 {
+    font-size: 14px;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+footer {
+    background-color: #292929;
+    color:white;
+    height: 100px;  
+}
+
+.text3 {
+    font-size: 12px;
+    color: #eeeeee;
+    padding-bottom: 10px 0;
+}
+
+.background-color2 {
+    display: flex;    
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;;
+    color:white;
+    height: 280px;
+    background-size: 90px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: left;
+}
+
+.header2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 75px 0 75px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    justify-content: flex-start;
+}
+
+.info2 {
+    font-size: 14px;
+    color: #aaaaaa;
+    display: block;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    padding: 0 75px 20px 75px;
+    align-items: center; 
+}
