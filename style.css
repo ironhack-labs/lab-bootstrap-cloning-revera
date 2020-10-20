@@ -1,0 +1,172 @@
+body {
+    font-family: "Helvetica"; 
+    font-size: 14px;
+}
+   
+/* HEADER LOGO + NAV*/
+
+header {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-size: 2em; 
+    text-transform: uppercase;
+    padding: 20px; 
+    margin-left: 70px; 
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    padding: 15px; 
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 10px; 
+    text-decoration: none;
+    position: relative; 
+}
+
+.nav-bar ul li a:hover {
+    color:  #ed564b;
+    text-decoration: none; 
+}
+
+/* SECTION 1 */
+
+
+.section1 {
+    background-image: url('../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg');
+    filter: grayscale(100%);
+    background-position: 0 0;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+ }
+
+
+ h2 {
+     margin: 20px;
+     font-size: 3em;
+ }
+
+ .section1 p {
+     font-size: 1.5em; 
+ }
+
+ .link-btn {
+     border: 1px solid #fff; 
+     padding: 10px; 
+     background-color: rgba(199, 195, 195, 0.5);
+     color: #fff; 
+ }
+
+ .link-btn:hover {
+    background-color: #968F8F;
+    color: white;
+    text-decoration: none; 
+ }
+
+
+ /* SECTION 2 */
+
+
+.section2 {
+     background-color: #ed564b;
+     color: white; 
+     text-align: center;
+     padding: 30px; 
+     font-size: 12px;
+
+}
+
+
+.diamond {
+    width: 50px; 
+    border: 1px solid black; 
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    border-radius: 50%;
+    padding: 10px; 
+}
+
+
+/* SECTION 3*/
+
+.section3 {
+    margin-top: 30px; 
+}
+
+.section3 img {
+     width: 250px;
+     margin-bottom: 10px;
+ }
+
+
+/* SECTION 4*/
+
+.section4 {
+    margin-top: 30px; 
+}
+
+.section4 img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.section4 h4 {
+   font-weight: bold;
+   font-size: 15px; 
+   text-transform: uppercase;
+}
+
+
+/* SECTION 5*/
+
+.section5 .division {
+    border: 1px solid #D00000; 
+}
+
+.section5 {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+.section5 article {
+    padding: 20px; 
+}
+
+.section5 p {
+    color: #c9c5c5;
+    padding-top: 15px; 
+}
+
+.section5 hr {
+    border: 1px dotted #c9c5c5;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #333; 
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 20px;  
+}
