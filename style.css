@@ -16,8 +16,8 @@ background-color: white;
 .navbar{
     margin-left: 250px;
     margin-bottom: 50px;
-    width: 70%;
     display:flex;
+    justify-content: space-around;
     color: grey;
 }
 
