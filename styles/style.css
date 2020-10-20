@@ -96,8 +96,24 @@ header a {
     margin-bottom: 10px;
 }
 
+.section2 p {
+    color: grey;
+}
+
+.section2 h3 {
+    font-size: .85em;
+    font-weight: 800;
+}
+
+.section2 h4 {
+    color: grey;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
 .section2 .first-box p {
     text-align: center;
+    color: black;
 }
 
 .section3 {
