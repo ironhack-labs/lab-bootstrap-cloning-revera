@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .revera-h1 {
+    width: 40%;
+    margin-left: 400px;
+    
+}
+
+nav h1 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+nav .nav-ul {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    }
+
+nav li {
+    margin: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav .home-in-red {
+    color: red;
+}
+
