@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>REVERA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <style type="text/css">
+    body {
+        margin-top:0;
+        padding-top:0;
+        /*min-width:800px !important;*/
+    }
+    </style> 
+
+     <div class="containerNav">
+
+     
+
+     <div class="row">
+         <i class="fa fa-header" aria-hidden="true">REVERA</i>
+
+         <ul class="nav justify-content-center">
+             <li class="home">
+                 <a class="nav-link" href="#">Home</a>
+             </li>
+             <li class="about">
+                 <a class="nav-link" href="#">About us</a>
+             </li>
+             <li class="sample">
+                 <a class="nav-link" href="#">Sample page</a>
+             </li>
+             <li class="portfolio">
+                 <a class="nav-link" href="#">Portfolio</a>
+             </li>
+             <li class="blog">
+                 <a class="nav-link" href="#">Blog</a>
+             </li>
+             <li class="parent">
+                 <a class="nav-link" href="#">Parent page</a>
+             </li>
+             <li class="contact">
+                 <a class="nav-link" href="#">Contact</a>
+             </li>
+         </ul>
+         </div>
+     </div> 
+
+    <div class="containerEtiam">
+
+    <div class="row">
+        <div class="col-xl-12">
+            <i class="fas fa-h1">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</i>
+        </div>
+        <div class="col-xl-12">    
+            <i class="fas fa-h2">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</i>
+        </div>
+        <div class="col-xl-12">    
+            <a name="readMore" id="" class="btn btn-primary" href="#" role="button">Read more</a>
+        </div>
+   
+    </div>
+
+        
+     </div>
+
+    <div class="container">
+         
+     <div class="row">
+
+      <div class="col-sm-4">
+      <i class="glyphicon glyphicon-glass"></i>
+        <i class="fas fa-h3    ">Web design</i>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+      </div>
+      <div class="col-sm-4">
+      <i class="glyphicon glyphicon-star"></i>
+        <i class="fas fa-h3    ">Web development</i>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+      </div>
+      <div class="col-sm-4">
+      <i class="glyphicon glyphicon-heart"></i>
+        <i class="fas fa-h3    ">Use interface</i>
+        <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+      </div>
+         
+     </div>
+
+    <div class="container">
+
+    <i class="fa fa-header" aria-hidden="true">LATEST PROJECTS
+    </i>
+    <i class="fas fa-h2">FEW OF THE LATEST PORTFOLIO ITEMS</i>
+
+     <div class="row">
+        <div class="col-md-3">
+            <img src="starter-code\img\project-1.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="project1">
+            <p>Nunc libero elit, iaculis nec augue non</p>  
+        </div>
+
+        <div class="col-md-3">
+            <img src="starter-code\img\project-2.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="project2">
+            <p>Phasellus aliquet iaculis neque accumsan aliquam</p>  
+        </div>
+            
+        <div class="col-md-3">
+            <img src="starter-code\img\project-3.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="project3">
+            <p>Vivamus blandit ipsum sed arcu euismod</p>  
+        </div>
+
+       <div class="col-md-3">
+            <img src="starter-code\img\project-4.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="project4">
+            <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>  
+        </div>
+     </div>
+        
+    </div>
+
+    <div class="container">
+    <i class="fa fa-header" aria-hidden="true">LAST ARTICLES
+    </i>
+    <i class="fas fa-h2">LASTEST POST FROM THE BLOG</i>
+
+     <div class="row">
+        <div class="col-md-3">
+            <img src="starter-code\img\slider-1.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="slider1">
+            <i class="fas fa-h3    ">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</i>
+            <p>POSTED ON <time datetime>AUGUST 19, 2013</time> BY <a href="#">ADMIN</a></p>
+            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>  
+        </div>
+
+        <div class="col-md-3">
+            <img src="starter-code\img\slider-2.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="slider2">
+            <i class="fas fa-h3    ">Falauris sollicitudin quis dolor venenatis facilisis</i>
+            <p>POSTED ON <time datetime>AUGUST 19, 2013</time> BY <a href="#">ADMIN</a></p>
+            <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>  
+        </div>
+            
+        <div class="col-md-3">
+            <img src="starter-code\img\slider-3.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="slider3">
+            <i class="fas fa-h3    ">Suspendisse ornare, felis feugiat suscipit pharetra</i>
+            <p>POSTED ON <time datetime>AUGUST 19, 2013</time> BY <a href="#">ADMIN</a></p>
+            <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>  
+        </div>
+
+       <div class="col-md-3">
+            <img src="starter-code\img\slider-4.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="slider4">
+            <i class="fas fa-h3    ">Festibulum purus odio, ornare non posuere</i>
+            <p>POSTED ON <time datetime>AUGUST 19, 2013</time> BY <a href="#">ADMIN</a></p>
+            <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>  
+        </div>
+     </div>
+        
+    </div>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6">
+        <i class="fas fa-h2    ">REVERA</i>
+        <i class="fas fa-h3    ">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</i>
+        </div>
+
+        <div class="col-md-6">
+        <i class="fas fa-h2    ">META</i>
+        <i class="fa fa-list-ul" aria-hidden="true">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Entries RSS</a></li>
+            <li><a href="#">Comments RSS</a></li>
+            <li><a href="#">WordPress.org</a></li>
+            </i>
+        </div>
+
+        <div class="col-md-6">
+        <i class="fas fa-h2    ">RECENT POST</i>
+        <i class="fa fa-list-ul" aria-hidden="true">
+            <li><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+            <li><a href="#">Nunc libero elit, iaculis nec augue non</a></li>
+            <li><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+            <li><a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+            <li><a href="#">Vivamus blandit ipsum sed arcu euismod</a></li>
+            </i>
+        </div>
+
+         <div class="col-md-6">
+        <i class="fas fa-h2    ">ARCHIVES</i>
+        <i class="fa fa-list-ul" aria-hidden="true">
+            <li><a href="#">August 2013</a></li>
+            </i>
+        </div>
+    
+    </div>
+
+</div>
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="site-info wrap row">
+			<div class="col-xl-12">
+				Copyright © 2018 <a href="#" title="revera">revera</a> - Just another demo Sites site.<br>
+				| <a href="#">Revera Theme</a> 	
+			</div>		
+
+		</div>
+	</div>	
+</footer>
+
+
+</div>
+     
+  
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
