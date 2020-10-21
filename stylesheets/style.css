@@ -1,23 +1,164 @@
+.container {
+    max-width: 83%;
+}
 
+/* NAVBAR */
+nav {
+    height: 90px;
+}
+
+nav>.navbar-brand {
+    font-size: 2.1em;
+    font-weight: 700;
+    padding: 0 250px 0 120px;
+}
+
+nav>div>ul>li>.nav-link {
+    font-size: 0.9em;
+}
+
+/* ABOUT SECTION */
 #about {
     background-color: #ED564B;
     border-top: solid 5px #F96B61;
     border-bottom: solid 5px #F96B61;
 }
 
+#about>div>div>div {
+    margin: 20px 0;
+    text-align: center;
+    color: #FFF
+}
+
+#about>div>div>div>i {
+    font-size: 1.2em;
+    border: solid 5px;
+    border-radius: 50%;
+    padding: 6%;
+    margin: 20px;
+}
+
+#about>div>div>div>h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#about>div>div>div>p {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* PROJECT SECTION */
+#project-section {
+    margin: 60px 0;
+}
+
+#project-section>div>h4 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #000;
+}
+
+#project-section>div>p {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+#project-section>div>div>div {
+    text-align: center;
+}
+
+#project-section>div>div>div>p {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #000
+}
+
 #project-section>div>div>div>img {
     width: 100%;
+    margin: 15px 0;
+}
+
+/* ARTICLE SECTION */
+#article-section>div>h4 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #000;
+}
+
+#article-section>div>p {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+#article-section>div>div>div>.article-header {
+    font-size: 0.9em;
+    font-weight: 800;
+    color: #000;
+}
+
+#article-section>div>div>div>.article-subheader {
+    font-size: 0.7em;
+    font-weight: 800;
+    margin: -8px 0 25px 0;
+    color: #636363;
+}
+
+#article-section>div>div>div>.article-text {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #606060;
+    margin-bottom: 50px;
 }
 
 #article-section>div>div>div>img {
     width: 100%;
+    margin: 15px 0;
 }
 
+/* FOOTER SECTION */
 #footer {
     background-color: #3B3B3B;
     border-top: solid 5px #ED564B;
+    padding: 50px 0 30px 0;
 }
 
+#footer>div>div>div>h3 {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#footer>div>div>div>p {
+    font-size: 0.9em;
+    color: #A6A6A6;
+}
+
+#footer>div>div>div>ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer>div>div>div>ul>li {
+    list-style-type: none;
+    padding: 6px 0;
+    border-bottom: dotted 1px #A6A6A6;
+}
+
+#footer>div>div>div>ul>li>a {
+    font-size: 0.9em;
+    color: #A6A6A6;
+
+}
+
+/* COPYRIGHT SECTION */
 #copyright-section {
     background-color: #292929;
+    color: #FFF;
+    font-size: 0.8em;
+    padding: 20px 0;
 }
