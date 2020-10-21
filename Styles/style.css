@@ -41,12 +41,13 @@ nav a{
     filter: grayscale(100%);
     background-repeat: no-repeat;
     padding-top: 150px;
+    text-align: center;
 }
 
 .space{
     color: #fff;
     width: 600px;
-    margin-left: 220px;
+    margin: 0 auto;
     text-align: center;
 }
 
