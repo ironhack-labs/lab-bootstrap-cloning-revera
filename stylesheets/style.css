@@ -1,0 +1,23 @@
+
+#about {
+    background-color: #ED564B;
+    border-top: solid 5px #F96B61;
+    border-bottom: solid 5px #F96B61;
+}
+
+#project-section>div>div>div>img {
+    width: 100%;
+}
+
+#article-section>div>div>div>img {
+    width: 100%;
+}
+
+#footer {
+    background-color: #3B3B3B;
+    border-top: solid 5px #ED564B;
+}
+
+#copyright-section {
+    background-color: #292929;
+}
