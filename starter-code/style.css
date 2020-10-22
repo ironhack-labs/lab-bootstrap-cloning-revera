@@ -27,6 +27,33 @@
     background-color: #ed564b;;
     height: 400px;
 }
+.container3-div{
+    color: white;
+    text-align: center;
+    
+}
+.boxitems{
+    padding: 5px 30px;
+    display: flex;
+}
+.section-title{
+    padding:  50px 50px 10px ;
+}
+.section-title h2{
+    font-weight: bold;
+}
+.section-title p{
+    font-weight: bold;
+    color: gray;
+}
+.boxitems img{
+    width: 300px;
+}
+.boxitems h3{
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
 .container4{
     background-color: white;
     height: 1200px;
