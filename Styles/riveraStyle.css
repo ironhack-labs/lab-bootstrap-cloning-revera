@@ -20,6 +20,68 @@
   margin: 0px !important;
 }
 
+.firstDiv {
+    background-color: black;
+    height: 35px;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-link {
+    padding-left: 2px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* this position relative then text is position absolute to pic */
+.carousel-item {
+    position: relative;
+    text-align: center;
+    color: white;   
+}
+
+.carousel-control-prev-icon {
+    background-color: #ED564C;
+}
+
+.carousel-control-next-icon {
+    background-color: #ED564C;
+}
+
+.centered {
+    color: white;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered > h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #dadcdd;
+    opacity: 0.7;
+}
+
+.centered > p {
+    font-size: 12px;
+    color: #dadcdd;
+    opacity: 0.5;
+}
+
+/* turn imagees black and white */
+.d-block  {
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 /* .doverlay {
 background: url(starter-code/img/overlay.png);
     background-image: url(starter-code/img/overlay.png);
@@ -41,12 +103,12 @@ background: url(starter-code/img/overlay.png);
 } */
 
 .red {
-    color:  #f76852;
+    color:  #ED564C;
 }
   
 .widgets {
     color: #f8f9fa;
-    background-color: #f76852;
+    background-color: #ED564C;
     width: 100%;
     text-align: center;
     padding-top: 20px;
@@ -68,6 +130,14 @@ background: url(starter-code/img/overlay.png);
 .icon > p {
     font-size: 10px;
     font-weight: 100;
+}
+
+/* circle around the glyphs */
+.fas {
+    border-radius: 50%;
+    border: 3px solid #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
 .bannerLastDiv{
@@ -92,12 +162,12 @@ background: url(starter-code/img/overlay.png);
 }
 
 .projectsText > h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .projectsText > p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .articlesContainer {
@@ -106,10 +176,13 @@ background: url(starter-code/img/overlay.png);
 
 .imgContainer {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .projectImgs > h3 {
-    font-size: 15px;
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: center;
 }
 
 /* Trying to add padding to bottom doesn't do anythign */
@@ -119,17 +192,19 @@ background: url(starter-code/img/overlay.png);
 } */ 
 
 .titleArticlesText > h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .articlesImagesText  {
-    font-size: 10px;
-    font-weight: lighter;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: black;
 }
 
 .titleArticlesText > p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .artImgH2 {
@@ -153,7 +228,8 @@ background: url(starter-code/img/overlay.png);
 .secondImages {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 120px;
+    object-fit: cover;
 }
 
 .secondImgContainer {
@@ -163,7 +239,7 @@ background: url(starter-code/img/overlay.png);
 
 .footer {
     background-color: #47484a;
-    border-top: 3px solid #f76852;
+    border-top: 3px solid #ED564C;
     color: #929394;
     padding-top: 45px;
     padding-bottom: 20px;;
@@ -185,8 +261,7 @@ background: url(starter-code/img/overlay.png);
     color: #d6d8da;
     font-size: 10px;
     padding-top: 25px;
-    /* padding-bottom: 25px;
-    margin-bottom: 10px; */
+    padding-bottom: 25px;
 }
 
 .lastDiv > p {
