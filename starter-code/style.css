@@ -1,0 +1,43 @@
+.container1{
+    background-color: white;
+    height: 150px;
+    align-content: center;
+    
+}
+.nav-bar{
+   
+}
+.sub-menu{
+    display: flex;
+}
+.sub-menu li a {
+    flex-direction: row;
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+}
+.container2{
+    background-color: black;
+    height: 600px;
+}
+.container3{
+    background-color: #ed564b;;
+    height: 400px;
+}
+.container4{
+    background-color: white;
+    height: 1200px;
+}
+.container5{
+    background-color: #333;
+    height: 400px;
+
+}
+.container6{
+    background-color: #606060;
+    height: 100px;
+
+}
