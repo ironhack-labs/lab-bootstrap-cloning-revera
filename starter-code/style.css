@@ -42,6 +42,27 @@ nav {
     width: 90%;
 }
 
-#artcle-overviw article {
+#artcle-overview article {
     text-align: left;
+}
+
+#bottom-menu {
+    padding-top: 3%;
+    border-top: #ed564b solid 6px;
+    height: 400px;
+    background-color: #3B3B3B;
+    color: white;
+}
+
+#bottom-menu li {
+    list-style-type: none;
+    border-bottom: dotted 1px darkgray;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+    color: lightgrey;
 }
