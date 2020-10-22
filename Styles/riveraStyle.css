@@ -1,0 +1,207 @@
+
+  * {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+  .companyName {
+      font-size: 32px;
+      font-weight: 900;
+      /* margin-top: 15px; */
+      width: 240px;
+      /* height: 81px; */
+  }
+
+  /* .navbar {
+      height: 60px;
+  } */
+
+  .no-margin {
+  margin: 0px !important;
+}
+
+/* .doverlay {
+background: url(starter-code/img/overlay.png);
+    background-image: url(starter-code/img/overlay.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+} */
+
+.red {
+    color:  #f76852;
+}
+  
+.widgets {
+    color: #f8f9fa;
+    background-color: #f76852;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homewidget {
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: baseline;
+    /* box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em; */
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px;  */
+}
+
+.icon > p {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.bannerLastDiv{
+    padding-right: 0;
+}
+
+.projectsContainer {
+    background-color: #f8f9fa;
+}
+
+.titlePtags {
+    color: #929394;
+}
+
+.section-title {
+    padding-left: 0;
+    padding-right: 0;
+}
+.projectsSection {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.projectsText > h2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.projectsText > p {
+    font-size: 15px;
+}
+
+.articlesContainer {
+    background-color: #f8f9fa;
+}
+
+.imgContainer {
+    display: flex;
+}
+
+.projectImgs > h3 {
+    font-size: 15px;
+}
+
+/* Trying to add padding to bottom doesn't do anythign */
+/* .articlesImagestext > h3 {
+    font-size: 15px;
+    padding-bottom: 90px;
+} */ 
+
+.titleArticlesText > h2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.articlesImagesText  {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.titleArticlesText > p {
+    font-size: 15px;
+}
+
+.artImgH2 {
+    font-size: 10px;
+    font-weight: 800;
+    color: #7c7c7c;
+    padding-top: 5px;
+}
+
+.articlesPtags {
+    color: #929394;
+    font-weight: lighter;
+}
+
+.firstImages {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.secondImages {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.secondImgContainer {
+    display: flex;
+    width: 100%;
+}
+
+.footer {
+    background-color: #47484a;
+    border-top: 3px solid #f76852;
+    color: #929394;
+    padding-top: 45px;
+    padding-bottom: 20px;;
+}
+
+.footer > .col-2 > h3 {
+    font-size: 15px;
+    color: #d6d8da;
+    padding-bottom: 20px;
+}
+
+.footer > .col-2 > p {
+    font-size: 12px;
+    
+}
+
+.pageEnd {
+    background-color: #222324;
+    color: #d6d8da;
+    font-size: 10px;
+    padding-top: 25px;
+    /* padding-bottom: 25px;
+    margin-bottom: 10px; */
+}
+
+.lastDiv > p {
+    padding: 0;
+    margin: 0;
+}
+
+.footerText {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footerText hr {
+    margin-bottom: 4px;
+    border-top: 1px dotted #929394;
+}
+
