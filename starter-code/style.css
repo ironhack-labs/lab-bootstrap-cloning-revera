@@ -1,68 +1,232 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     margin-top: 10%;
     margin-bottom: 2%;
 }
 
-nav {
-    background-color: white;
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
-#subjects {
+.bg-light {
+    background-color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ed564b;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ed564b;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white;
+    background-color: #ed564b !important;
+    height: 100px;
+    width: 50px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    color: #f11000 !important;
+    background-color: white !important;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#carousel p {
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+.btn-outline-secondary {
+    width: 18%;
+    border-radius: 0;
+}
+
+#web-subjects {
+    width: 98%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #ed564b;
     color: white;
-    height: 300px;
+    height: 400px;
+    padding: 0 10%
 }
 
 .subject {
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.subject h3 {
+    font-weight: 700;
 }
 
 .icon-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    border: solid rgb(255, 255, 255) 3px;
-    width: 50px;
-    height: 50px;
+    border: solid rgb(255, 255, 255) 6px;
+    width: 75px;
+    height: 75px;
+    margin: 10% 0 5%;
+}
+
+#project-overview,
+#article-overview {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#project-overview h3,
+#article-overview h3 {
+    font-weight: 700;
+    margin-left: 20%;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: rgb(141, 141, 141);
+    letter-spacing: 0.2px;
+}
+
+.article-wrapper {
+    margin: 3% 0 0;
+    padding: 3% 0 0;
+    border-top: grey solid 0.5px;
 }
 
 #project-overview img {
     width: 90%;
+    margin-bottom: 5%;
 }
 
 #project-overview article {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project-overview article p {
+    width: 70%;
+    color: black;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+#article-overview article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#article-overview article h3 {
+    font-size: 1.1em;
+    margin-left: 0;
+    width: 85%;
 }
 
 #article-overview img {
     width: 90%;
+    margin-bottom: 5%;
 }
 
-#artcle-overview article {
-    text-align: left;
+.post-info {
+    font-weight: 600;
+    font-size: 0.9em;
+    color: rgb(100, 100, 100);
+}
+
+.red-text {
+    color: red;
+}
+
+#article-overview article p {
+    margin-top: 10%;
+    font-size: 0.95em;
+    width: 90%;
+    line-height: 1.5;
+    color: rgb(100, 100, 100);
 }
 
 #bottom-menu {
-    padding-top: 3%;
+    padding: 3%;
     border-top: #ed564b solid 6px;
     height: 400px;
     background-color: #3B3B3B;
+    color: rgb(145, 145, 145);
+}
+
+#bottom-menu .col-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#bottom-menu h3 {
+    font-size: 1.2em;
+    margin-bottom: 10%;
     color: white;
+}
+
+#bottom-menu ul {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #bottom-menu li {
     list-style-type: none;
     border-bottom: dotted 1px darkgray;
+    padding: 3% 0;
+    margin-left: 0;
+}
+
+#bottom-menu a {
+    color: rgb(145, 145, 145);
 }
 
 footer {
-    height: 150px;
+    width: 100%;
+    height: 70px;
     display: flex;
     align-items: center;
     background-color: #292929;
-    color: lightgrey;
+    color: white;
+}
+
+footer span {
+    font-size: 0.9em;
+    width: 35%;
+    margin-left: 5%;
 }
