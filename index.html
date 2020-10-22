@@ -17,6 +17,10 @@
       html {
         font-size: 13px;
       }
+      li {
+        list-style: none;
+        border-bottom: 1px dotted #606060;
+      }
       a {
         color: #ef5350;
         text-decoration: none;
@@ -303,7 +307,7 @@
         </div>
       </div>
     </section>
-    <section class="latest-articles w-75 mx-auto">
+    <section class="latest-articles w-75 mx-auto pb-5">
       <h2 class="text-uppercase pl-2">Latest Articles</h2>
       <h5 class="text-muted text-uppercase pl-2">Latest posts from the blog</h5>
       <hr />
@@ -416,11 +420,18 @@
         </div>
       </div>
     </section>
-    <section class="bottom-footer">
+    <section
+      class="bottom-footer pt-4"
+      style="
+        border-top: 5px solid #ef5350;
+        background-color: #333;
+        color: white;
+      "
+    >
       <div class="d-flex w-75 mx-auto">
         <div class="w-25 px-2">
-          <h3>Revera</h3>
-          <p>
+          <h3 class="text-uppercase small">Revera</h3>
+          <p class="text-muted">
             Cum sociis natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
             Aenean auctor nulla quis augue dictum, sed sagittis odio varius?
@@ -431,53 +442,73 @@
         </div>
 
         <div class="w-25 px-2">
-          <h3>Meta</h3>
-          <ul>
-            <li><a href="#">Log in</a></li>
-            <li>
-              <a href="#"
+          <h3 class="text-uppercase small">Meta</h3>
+          <ul class="pl-0">
+            <li class="footer-link text-muted">
+              <a href="#" style="color: white" class="text-muted">Log in</a>
+            </li>
+            <li class="text-muted">
+              <a href="#" style="color: white" class="text-muted"
                 >Entries <abbr title="Really Simple Syndication">RSS</abbr></a
               >
             </li>
-            <li>
-              <a href="#"
+            <li class="footer-link text-muted">
+              <a href="#" style="color: white" class="text-muted"
                 >Comments <abbr title="Really Simple Syndication">RSS</abbr></a
               >
             </li>
-            <li><a href="#">WordPress.org</a></li>
-          </ul>
-        </div>
-        <div class="w-25 px-2">
-          <h3>Archives</h3>
-          <ul>
-            <li><a href="#">August 2013</a></li>
-          </ul>
-        </div>
-        <div class="w-25 px-2">
-          <h3>Recent Posts</h3>
-          <ul>
             <li>
-              <a href="#"
+              <a href="#" class="footer-link text-muted">WordPress.org</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-25 px-2">
+          <h3 class="text-uppercase small">Archives</h3>
+          <ul class="pl-0">
+            <li class="footer-link">
+              <a href="#" style="color: white" class="text-muted"
+                >August 2013</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-25 px-2">
+          <h3 class="text-uppercase small">Recent Posts</h3>
+          <ul class="pl-0">
+            <li>
+              <a href="#" style="color: white" class="text-muted"
                 >Etiam mauris tortor, pharetra quis lobortis in, pharetra in
                 diam</a
               >
             </li>
-            <li>
-              <a href="#">Nunc libero elit, iaculis nec augue non</a>
+            <li class="footer-link">
+              <a href="#" style="color: white" class="text-muted"
+                >Nunc libero elit, iaculis nec augue non</a
+              >
             </li>
-            <li>
-              <a href="#"
+            <li class="footer-link">
+              <a href="#" style="color: white" class="text-muted"
                 >Falauris sollicitudin quis dolor venenatis facilisis</a
               >
             </li>
-            <li>
-              <a href="#">Phasellus aliquet iaculis neque accumsan aliquam</a>
+            <li class="footer-link">
+              <a href="#" style="color: white" class="text-muted"
+                >Phasellus aliquet iaculis neque accumsan aliquam</a
+              >
             </li>
-            <li>
-              <a href="#">Vivamus blandit ipsum sed arcu euismod</a>
+            <li class="footer-link">
+              <a href="#" style="color: white" class="text-muted"
+                >Vivamus blandit ipsum sed arcu euismod</a
+              >
             </li>
           </ul>
         </div>
+      </div>
+      <div style="background-color: #292929" class="small mt-5 p-4">
+        <p class="pl-5">
+          Copyright &copy; 2020 revera - Just another demo Sites site
+        </p>
+        <p class="pl-5">| Revera Theme</p>
       </div>
     </section>
     <script
