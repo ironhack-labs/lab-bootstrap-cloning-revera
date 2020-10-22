@@ -1,0 +1,47 @@
+header {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+nav {
+    background-color: white;
+}
+
+#subjects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed564b;
+    color: white;
+    height: 300px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-border {
+    border-radius: 50%;
+    border: solid rgb(255, 255, 255) 3px;
+    width: 50px;
+    height: 50px;
+}
+
+#project-overview img {
+    width: 90%;
+}
+
+#project-overview article {
+    text-align: center;
+}
+
+#article-overview img {
+    width: 90%;
+}
+
+#artcle-overviw article {
+    text-align: left;
+}
