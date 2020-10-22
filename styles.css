@@ -1,0 +1,94 @@
+
+/* .carousel-inner,
+.item > div:first-child img,
+.item > div:last-child img {
+    -webkit-filter: grayscale(100%); filter: grayscale(100%);
+} */
+
+
+body {
+    background-color: pink;
+}
+
+.container-red {
+    background-color: #eb5750; 
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.project-image {
+    width: 260px;
+
+}
+
+.undertext {
+    line-height: 1em;
+}
+
+.section-projects {
+    padding: 50px;
+}
+
+.section-articles {
+    padding: 50px;
+}
+
+h5 {
+    font-size: medium;
+    line-height: 1em;
+    padding-top: 10px;
+}
+
+h6 {
+    font-size: small;
+}
+
+#footer-section {
+    padding: 50px 100px;
+    border-top: #eb5750 solid 5px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+    
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.container-fluid.full-width {
+    padding:0px;
+}
+
+.black-overlay {
+    background-image: url(./starter-code/img/overlay.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.carousel-control-next-icon {
+   background-color: #eb5750;
+   padding: 30px 20px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #eb5750;
+    padding: 30px 20px;
+ }
