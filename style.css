@@ -1,0 +1,145 @@
+            a:hover {
+                color: red !important;
+            }
+            
+            a {
+                font-size: 15px !important;
+            }
+            
+            .carousel-control-next {
+                background-color: #ED564C;
+                height: 100px;
+                margin-top: 300px;
+                margin-right: 20px;
+                width: 50px;
+            }
+            
+            .carousel-control-next:visited {
+                background-image: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png) no-repeat 0 0;
+            }
+            
+            .carousel-control-prev {
+                background-color: #ED564C;
+                height: 100px;
+                margin-top: 300px;
+                margin-left: 20px;
+                width: 50px;
+            }
+            
+            .carousel-control-prev:visited {
+                background-image: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png) no-repeat 0 0;
+            }
+            
+            .secondArea {
+                background-color: #ed564b;
+                color: white
+            }
+            
+            .nav-link dropdown-toggle {
+                background-color: tomato;
+            }
+            
+            p,
+            h3 {
+                text-align: center;
+                margin: 20px 0px 10px;
+            }
+            
+            .d-block {
+                filter: grayscale(100%)
+            }
+            
+            .homewidget span {
+                border: 5px solid #fff;
+                background: transparent;
+                width: 70px;
+                height: 70px;
+                border-radius: 35px;
+                display: block;
+                line-height: 65px;
+                text-align: center;
+                margin: 5px auto;
+                font-size: 20px;
+            }
+            
+            .firstImages {
+                width: 100%;
+            }
+            
+            .titlePtags {
+                text-align: left;
+                color: gray;
+                font-size: 15px;
+            }
+            
+            h2 {
+                margin-top: 10px;
+            }
+            
+            .projectImgs>h3 {
+                font-size: 14px;
+            }
+            
+            .projectsText {
+                border-bottom: 1px solid #dfdfdf;
+            }
+            
+            .secondImages {
+                width: 100%;
+                height: auto;
+            }
+            
+            .articleImgs>h3 {
+                font-size: 14px;
+                text-align: left;
+                font-weight: bold;
+            }
+            
+            h2.postedH2 {
+                text-align: left;
+                font-size: 12px;
+            }
+            
+            p.articlesPtags {
+                text-align: left;
+                color: #606060;
+            }
+            
+            div.row.row-cols-1.row-cols-md-4 {
+                background-color: #3b3b3b;
+                height: 320px;
+                align-content: space-between;
+                border-top: tomato;
+                width: 70%;
+                justify-content: center;
+                margin-left: 15%;
+            }
+            
+            .card-body {
+                background-color: #3b3b3b;
+                color: white;
+                text-align: left;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 500;
+                line-height: 1.1;
+            }
+            
+            p.card-text {
+                text-align: left;
+                color: #aaa;
+            }
+            
+            .card {
+                border: none;
+            }
+            
+            .insiderow {
+                width: auto;
+                background-color: #3b3b3b;
+                height: 400px;
+            }
+            
+            hr.bhr {
+                border-top: 5px solid orangered;
+                margin-bottom: 0 !important;
+            }
