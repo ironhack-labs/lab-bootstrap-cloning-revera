@@ -1,0 +1,114 @@
+.navbar {
+    height: 100px;
+    padding: 0px 150px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    color: rgb(238,86,74) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(238,86,74) !important;
+}
+
+.carousel-control-next {
+    opacity: 1 !important;
+    justify-content: flex-end;
+    margin: 210px 0px 210px 0px;
+    width: 40px;
+}
+
+.carousel-control-prev {
+    opacity: 1 !important;
+    justify-content: flex-end;
+    margin: 210px 0px 210px 0px;
+    width: 40px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: rgb(238,86,74);
+    height: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+    background-color: red;
+}
+
+.carousel-caption h5 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.carousel-caption .btn {
+    border: 1px solid white;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 25px;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.overlay {
+    background-image: url("./img/overlay.png");
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    filter: grayscale(100%);
+}
+
+#features-container {
+    background-color: rgb(238,86,74);
+    color: white;
+    margin: 0;
+    padding: 0px 100px;
+    height: 300px;
+}
+
+#features-row {
+    height: 100%;
+}
+
+
+#features-row p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+i {
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+
+#portfolio-container {
+    padding-top: 60px;
+}
+
+#portfolio-container h3{
+    font-weight: bold;
+}
+
+#portfolio-container > p {
+    color: #aaa;
+    font-weight: bold;
+}
