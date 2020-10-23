@@ -20,6 +20,10 @@
     color: rgb(238,86,74) !important;
 }
 
+.dropdown-item {
+    color: rgba(0,0,0,0.5);
+}
+
 .carousel-control-next {
     opacity: 1 !important;
     justify-content: flex-end;
