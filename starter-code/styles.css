@@ -1,52 +1,82 @@
-.navbar-brand {
-  margin-left: 10rem;
+body {
+  font-size: 0.8rem;
+  margin: 0 auto;
+  max-width: 1400px;
+  
 }
 
-.ml-auto, .mx-auto {
-  margin-left: 10rem!important;
-}
 .carousel-caption {
   padding: 20px 70px 80px 70px;
 }
 
-body {
-  font-size: 0.9rem;
-}
-
 .colored {
   background-color: #ED564B;
-  height: 300px;
-}
-
-.slides {
-  height: 477px;
-
-}
-
-.description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  width: 300px;
+  padding: 40px 0;
   color: white;
-  margin: 0px 30px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.box h3 {
+.colored h3 {
   margin-top: 15px;
   margin-bottom: 20px;
 }
 
+.title {
+  padding: 60px 0px 10px 0px;
+}
+
+.title p {
+  color: #AAAAAA;
+}
+
+.blackbold {
+  color: black;
+  font-weight: bold;
+}
+
 .icons {
   width: min-content;
-  padding: 15px 18px;
+  padding: 15px 18px 15px 17px;
   border: 4px solid white;
   border-radius: 100px;
+  margin: 0 auto;
+}
+
+.latest-articles a{
+  color: black;
+  font-weight: 900;
+}
+
+.latest-projects img, .latest-articles img{
+  width: 250px;
+}
+
+.latest-articles, .latest-projects {
+  border-top: 1px solid #DFDFDF;
+}
+
+.latest-articles, .latest-projects a {
+  
+}
+
+.footer {
+  background-color: #3B3B3B;
+  border-top: 5px solid #ED564B;
+}
+
+footer a {
+  border-bottom: 1px dotted #606060;
+  
+}
+
+.subfooter {
+  background-color: #292929;
+}
+
+.greytext {
+  color: #888888;
+}
+
+footer a:hover {
+  color: #FFFFFF;
 }
