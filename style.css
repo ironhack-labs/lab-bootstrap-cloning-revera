@@ -1,0 +1,15 @@
+
+  #team .member-name {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  #team img {
+    width: 270px;
+    height: 180px;
+  }
+  #team > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
