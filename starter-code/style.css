@@ -58,6 +58,24 @@
     background-color: white;
     height: 1200px;
 }
+.h3-bold {
+    text-align: left;
+    font-weight :bold;
+    padding: 10px 0px 5px 0px;
+}
+.posted-on{
+    font-size: 0.8em;
+    font-weight :bold;
+    margin-bottom: 10px;
+    color: grey;
+}
+.red-span{
+    color: red;
+}
+.grey-p{
+    color: grey;
+    margin-top: 20px;
+}
 .container5{
     background-color: #333;
     height: 400px;
