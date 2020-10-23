@@ -5,8 +5,29 @@ body {
   
 }
 
+.pink {
+  color: #ED564B!important;
+}
+
+ main a:hover {
+  color:black!important;
+  text-decoration: none;
+}
+
+.topink {
+  color: #ED564B;
+}
+
+ .navbar-nav a:hover {
+  color: #ED564B!important;
+}
+
 .carousel-caption {
   padding: 20px 70px 80px 70px;
+}
+
+.articletitle, .latest-projects a {
+  font-size: 0.9rem;
 }
 
 .colored {
@@ -31,7 +52,7 @@ body {
 
 .blackbold {
   color: black;
-  font-weight: bold;
+  font-weight: 900!important;
 }
 
 .icons {
@@ -42,7 +63,7 @@ body {
   margin: 0 auto;
 }
 
-.latest-articles a{
+.latest-articles p{
   color: black;
   font-weight: 900;
 }
@@ -55,8 +76,12 @@ body {
   border-top: 1px solid #DFDFDF;
 }
 
-.latest-articles, .latest-projects a {
-  
+.latest-articles div {
+  color: #606060;
+}
+
+.latest-articles p {
+  margin-top: 10px;
 }
 
 .footer {
@@ -64,9 +89,10 @@ body {
   border-top: 5px solid #ED564B;
 }
 
-footer a {
+.dottedline {
   border-bottom: 1px dotted #606060;
-  
+  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .subfooter {
@@ -75,6 +101,7 @@ footer a {
 
 .greytext {
   color: #888888;
+  
 }
 
 footer a:hover {
