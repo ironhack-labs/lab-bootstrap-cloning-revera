@@ -1,0 +1,134 @@
+.navbar-custom {
+  background-color: white;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+.nav-link{
+  color: #aaaaaa
+}
+.nav-link:hover{
+  color: #ed564b;
+}
+.navbar-custom .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-custom .dropdown-item {
+  color: #aaaaaa;
+}
+.navbar-custom .dropdown-item:hover {
+  color: #ed564b;
+}
+.bandw {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} 
+.hero {
+  position: absolute;
+  top: 40%;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75)
+}
+.hero h3{
+font-size: 2.5em;
+text-transform: uppercase;
+}
+.homewidget {
+  color: #fff;
+  text-align: center;
+}
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+.glyphicon:before {
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.glyphicon-glass:before {
+  content: "\e004";
+}
+.section-title {
+  padding-top: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.section-title p {
+  color: #aaaaaa;
+}
+.img-responsive {
+  max-height: 100%;
+  max-width: 100%;
+}
+.boxitems{
+  display: inline-block;
+}
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  margin-top: 30px;
+}
+.text-projects{
+  font-size: 0.9em;
+  margin-top: 15px;
+}
+.rojo {
+  color: #ed564b;
+}
+.articles h3{
+font-size: 1em;
+font-weight: bold;
+margin-top: 15px;
+}
+.articles p{
+  margin-top: 15px;
+  }
+.posted{
+font-size: 0.7em;
+text-transform: uppercase;
+color: gray;
+font-weight: bold;
+}
+.articles p{
+font-size: 0.8em;
+color: gray;
+}
+.foot {
+  color: #aaaaaa;
+}
+.foot h3 {
+  color: #fff;
+  font-size: 1em;
+  padding-bottom: 15px;
+}
+.foot p {
+  font-size: 0.8em;
+}
+.site-footer {
+  padding: 10px 0px;
+  background: #292929;
+  font-size: 12px;
+}
+#footer{
+  color: #fff;
+}
