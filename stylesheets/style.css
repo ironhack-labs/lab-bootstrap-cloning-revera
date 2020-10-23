@@ -80,7 +80,7 @@ nav>div>ul>li>a:hover {
     font-weight: 800;
     height: 100px;
     width: 50px;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .carousel-control-prev:hover,
