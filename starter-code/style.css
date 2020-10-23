@@ -100,15 +100,94 @@ i {
     margin-bottom: 15px;
 }
 
-#portfolio-container {
+.section-container {
     padding-top: 60px;
 }
 
-#portfolio-container h3{
+.section-container h3{
     font-weight: bold;
 }
 
-#portfolio-container > p {
+.section-container > p {
     color: #aaa;
     font-weight: bold;
+}
+
+.section-container .feature-title {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.section-container .feature-title {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.author-info {
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+}
+
+.orange-text {
+    color:rgb(238,86,74);
+}
+
+.article-text-preview {
+    font-size: 14px;
+    color: #555;
+}
+
+.orange-hr {
+    border: 2px solid rgb(238,86,74);
+}
+
+.no-spacing {
+    margin: 0;
+    padding: 0;
+}
+
+footer.container-fluid{
+    background-color: #444;
+    color: white;
+    padding: 50px 115px 50px 115px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+footer ul {
+    background-color: transparent !important;
+}
+
+footer li {
+    background-color: transparent !important;
+    font-size: 14px;
+    color: #bbb;
+    padding: 5px 0 !important;
+    border-bottom: 1px dotted #777 !important;
+}
+
+footer li a {
+    color: #bbb;
+}
+
+footer li a:hover {
+    color: #eee;
+    text-decoration: none;
+}
+
+#footer-info {
+    background-color: #222;
+}
+
+#footer-info p {
+    color: white;
+    font-size: 13px;
+    padding: 20px 0px 0px 115px;
+    color: #aaa;
 }
