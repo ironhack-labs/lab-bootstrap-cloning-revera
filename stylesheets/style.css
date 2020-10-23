@@ -58,17 +58,59 @@ nav>div>ul>li>a:hover {
     border: none;
     background-color: #F8F9FA;
     border-radius: unset;
-  }
+}
 
 /* CAROUSEL */
-#carouselExampleControls>div>div {
-
+#carouselExampleControls>div {
+    background-image:
+    linear-gradient(45deg, #808080 25%, transparent 25%), 
+    linear-gradient(-45deg, #808080 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 75%);
+    background-size:4px 4px;    
+    background-position:0 0, 10px 0, 10px -10px, 0px 10px;
+    max-height: 585px;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 250px;
+    background-color: #ED564B;
+    font-size: 2.2em;
+    font-weight: 800;
+    height: 100px;
+    width: 50px;
+    opacity: 1;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #FFF;
+    color: #ED564B;
+    opacity: 1;
+}
+
+#carouselExampleControls>div>div>div>button {
+    border-radius: 0;
+    width: 15%;
+    font-size: 0.9em;
+    font-weight: 800;
+}
+
+#carouselExampleControls>div>div>div>button:hover {
+    text-decoration: none !important;
+    color: #FFF !important;
+    background-color: transparent !important;
+}
+
+#carouselExampleControls>div>div>.carousel-caption {
+    padding-bottom: 100px;
+}
+
 #carouselExampleControls>div>div>img {
     filter: grayscale(100%);
     opacity: 90%;
 }
-
 
 /* ABOUT SECTION */
 #about {
