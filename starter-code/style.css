@@ -1,0 +1,27 @@
+
+.row {
+    margin: 0 px 15 px;
+    padding: 0px 15px;
+}
+
+
+.carousel-item {
+        filter: grayscale(100%);
+    }
+
+
+section {padding:6rem;}
+.red {background-color:#ED564B;color:#fff;}
+.bg-gray {background-color:#cccccc;}
+
+
+.bg-white {
+    padding:15rem;
+    background-color: white;
+}
+
+#colophon {
+    background-color: #292929;
+    padding: 10px 10px;
+    color: white;
+}
