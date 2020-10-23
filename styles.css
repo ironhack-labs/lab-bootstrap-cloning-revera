@@ -5,6 +5,10 @@ body {
   
 }
 
+.bwhite {
+  filter: grayscale(100%);
+}
+
 .pink {
   color: #ED564B!important;
 }
