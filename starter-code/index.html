@@ -8,18 +8,27 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <style class="media">
+    @media screen and (max-width:790px) {
+      #header ul {
+        background-color: red;
+        display: none;
+      }
+    }
+  </style>
+  <style class="media">
+    @media screen and (min-width:790px) {
+      .form-group {
+        background-color: red;
+        display: none;
+      }
+    }
+  </style>
   <title>REVERA</title>
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
 </head>
-<style media="screen">
-  @include media-breakpoint-up(sm) {
-    .some-class {
-      display: block;
-    }
-  }
-</style>
+
 
 <body>
 
@@ -28,44 +37,31 @@
 
 
   <header id="header" style="padding: 2em">
-    <div class="container">
-      <h1 class="display-4" style="font-weight: bold;">Revera</h1>
-      <div class="menus">
-        <div class="form-group">
-          <label for="exampleFormControlSelect1"></label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>Home</option>
-            <option>About</option>
-            <option> Sample page </option>
-            <option> Portfolio </option>
-            <option>Blog</option>
-          </select>
-          <!-- <div class="row ">
-          <div class="col align-self-end" style="padding:1em">
-            <h1 class="" style="font-weight: bold;">Revera</h1>
-          </div>
-
-          <div class="col-sm align-self-start">
-            Home
-          </div>
-          <div class="col-sm">
-            About
-          </div>
-          <div class="col-sm">
-            Sample page
-          </div>
-          <div class="col-sm">
-            Portfolio
-          </div>
-          <div class="col-sm ">
-            Blog
-          </div>
-        </div> -->
+    <div class="container-fluid">
+      <div class="row " style="align-items: center; justify-content:space-between;">
+        <div class=".col-xl" style="padding:1em">
+          <h1 class="display-4" style="font-weight: bold;">Revera</h1>
+        </div>
+        <div class="row " style="align-items: center; margin-right: 10%;">
+          <ul class="list-inline">
+            <li class="list-inline-item">Home</li>
+            <li class="list-inline-item">About</li>
+            <li class="list-inline-item">Sample page</li>
+            <li class="list-inline-item">Portfolio</li>
+            <li class="list-inline-item">Blog</li>
+          </ul>
         </div>
       </div>
-
-
-
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1"></label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Home</option>
+        <option>About</option>
+        <option> Sample page </option>
+        <option> Portfolio </option>
+        <option>Blog</option>
+      </select>
   </header>
 
   <div id="karrusel-e-iconos-circulares">
