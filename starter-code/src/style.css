@@ -1,0 +1,22 @@
+html{
+    height:100%
+}
+#fleeex_background{
+background-color: coral;
+}
+
+#articles{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.latest-articles > img{
+    max-width:100%;
+    height:auto;
+}
+
+.colored{
+    background-color: coral;
+}
