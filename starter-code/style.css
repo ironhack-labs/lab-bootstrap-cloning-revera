@@ -1,0 +1,91 @@
+header p {
+    height: 10px;
+    padding: 0px 150px;
+    justify-content: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.redbar {
+    background-color: rgb(238,86,74);
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+section #portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.column1 {
+    font-size: 14px;
+    color: #bbb;
+    padding: 5px 0;
+    border-bottom: 1px dotted #777;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+.column2 {
+    font-size: 14px;
+    color: #bbb;
+    padding: 5px 0;
+    border-bottom: 1px dotted #777;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+.column3 {
+    font-size: 14px;
+    color: #bbb;
+    padding: 5px 0;
+    border-bottom: 1px dotted #777;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+.column4 {
+    font-size: 14px;
+    color: #bbb;
+    padding: 5px 0;
+    border-bottom: 1px dotted #777;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
