@@ -57,7 +57,7 @@ text-transform: uppercase;
   border-top: 5px solid #f96b61;
   border-bottom: 5px solid #f96b61;
 }
-.glyphicon:before {
+/* .glyphicon:before {
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@ text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
 }
 .glyphicon-glass:before {
-  content: "\e004";
+  content: "\e004"; */
 }
 .section-title {
   padding-top: 40px;
