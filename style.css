@@ -5,6 +5,10 @@
 .navbar-custom .navbar-text {
     color: black;
 }
+
+.custom-toggler.navbar-toggler-icon {
+  border-color: rgb(180, 28, 130);
+} 
 .nav-link{
   color: #aaaaaa
 }
@@ -66,7 +70,7 @@ text-transform: uppercase;
 }
 .glyphicon-glass:before {
   content: "\e004"; */
-}
+
 .section-title {
   padding-top: 40px;
   text-transform: uppercase;
