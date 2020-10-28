@@ -1,0 +1,107 @@
+.my-bar {
+    min-height: 65px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    /* background: none transparent; */
+}
+
+.my-nav {
+    background-color: white;
+    height: 75px;
+}
+
+.my-brand {
+    font-size: 35px;
+    font-weight: bold;
+    width: 30vw;
+}
+
+.my-carousel {
+    //
+}
+
+.my-container {
+    height: 30vh;
+    display: flex;   
+    background-color: red;
+    justify-content: center;
+}
+
+.my-card {
+    width: 25vw !important;
+    background-color: red;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin: 0 30px;
+}
+
+.my-card h5{
+    font-size: 30px;
+}
+
+
+
+.my-article{
+    width: 80vw;
+    height: 40vh;
+    margin: 80px auto;
+    background-color: white;
+}
+
+.my-article h2{
+    font-weight: bold;
+}
+
+.flexy {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.my-article h6{
+    color: grey;
+}
+
+.my-card-article {
+    background-color: white;
+    width: 300px;
+    height: 70%;
+    border: none;
+    border-radius: 0;
+}
+
+.my-card-article h5{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.my-ART{
+    height: 650px;
+    background-color: white;
+    width: 300px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.my-ART h5{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.my-footer{
+    height: 50vh;
+    background-color: grey;
+    color: white;
+}
+
+
+
+
