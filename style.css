@@ -1,0 +1,55 @@
+.site-container {
+  height: 1200px;
+}
+
+.bottom {
+  height: 600px;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.bottom li {
+  list-style: none;
+  color: #aaaa;
+}
+.bottom h4 {
+  color: white;
+  margin: 50px auto;
+}
+
+.bottom p {
+  color: #aaaa;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.card.col-4 {
+  background-color: #ed564b;
+  color: white;
+}
+
+.carousel-item img {
+  filter: grayscale(100%);
+}
+
+.carousel-item h5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+footer div {
+  background-color: black;
+  color: white;
+}
+
+.carousel-control-prev {
+  background-color: #ed564b;
+  width: 50px;
+}
+
+.carousel-control-next {
+  background-color: #ed564b;
+  width: 50px;
+}
