@@ -1,0 +1,43 @@
+.b-w {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.my-card {
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+}
+
+.circle {
+  border: 2px white solid;
+  padding: 5px;
+  border-radius: 50%;
+}
+.background-red {
+  color: white;
+}
+.my-color {
+  color: red;
+}
+.card {
+  border: none !important;
+}
+.my-row {
+  height: 10px;
+  background-color: red;
+}
+#bottom {
+  background-color: #606060;
+  color: white;
+}
+footer {
+  background-color: #292929;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: lightgrey !important;
+}
