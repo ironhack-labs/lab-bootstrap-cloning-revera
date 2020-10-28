@@ -13,16 +13,16 @@
 </head>
 <body>
     <!-- Row with logo + nav-bar -->
-    <div class="container-fluid"; style="height: 90px; width: 100%">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand col-4" href="#">REVERA</a>
+    <div class="container-fluid"; style="height: 90px; width: 100%;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+          <a class="navbar-brand col-4" href="#"><h1>REVERA</h1></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse col-8" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" style="color: red;">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -54,8 +54,8 @@
         </nav>   
       </div>
     </div>
-    <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="container-fluid" style="width: 100%;">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
@@ -80,38 +80,186 @@
             </a>
           </div>
     </div>
-    <div class="container-fluid" style="height: 314px; background-color: #ED564B;">
-        <div class="card-deck" style="color: white; background-color: #ED564B;">
-            <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
-              <div class="card-body">
-                <h5 class="card-title">Web design</h5>
-                <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
-              </div>
+    <div class="container-fluid" style="background-color: #ED564B;">
+      <div class="row" style="text-align: center;">
+        <div class="col-sm-4">
+          <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
+            <div class="card-body">
+              <h5 class="card-title">Web design</h5>
+              <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
             </div>
-            <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
-                <div style="border: 4px solid white; border-radius: 50%; width: 100%; display: flex; justify-content:center;"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                  </svg></div>
-              <div class="card-body">
-                <h5 class="card-title">Web development</h5>
-                <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
-              </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
+            <div class="card-body" >
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <h5 class="card-title">Web development</h5>
+              <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
             </div>
-            <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
-              <div class="card-body">
-                <h5 class="card-title">User interface</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="color: white; background-color: #ED564B; border-style: none;">
+            <div class="card-body">
+              <h5 class="card-title">User interface</h5>
+              <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 20px;">
+      <div class="section-wide">
+        <div style="margin-bottom: 30px;">
+          <h3>LATEST PROJECTS</h3>
+          <h4 style="color: grey;">FEW OF THE LATEST PORTFOLIO ITEMS</h4>
+        </div>
+        <div class="row" style="padding: 30px 0; border-top: 1px solid gray; width: 100%;">
+          <div class="col-sm-3 col-6">
+            <a href="#" style="color: black;">
+              <img src="/starter-code/img/project-1.jpg" alt="man doing pushups" style="width: 100%;">
+            <p>Nunc libero elit, iaculis nec augue non</p>
+            </a>
+            
+          </div>
+          <div class="col-sm-3 col-6">
+            <a href="#" style="color: black;">
+              <img src="/starter-code/img/project-2.jpg" alt="kitty cat" style="width: 100%;">
+            <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+            </a>
+            
+          </div>
+          <div class="col-sm-3 col-6">
+            <a href="#" style="color: black;">
+              <img src="/starter-code/img/project-3.jpg" alt="pink flower floating on water" style="width: 100%;">
+            <p>Vivamus blandit ipsum sed arcu euismod</p>
+            </a>
+            
+          </div>
+          <div class="col-sm-3 col-6">
+            <a href="#" style="color: black;">
+              <img src="/starter-code/img/project-4.jpg" alt="gil basking in the sun" style="width: 100%;">
+            <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="section-wide sec">
+        <div style="margin-bottom: 20px;">
+          <h3>LATEST ARTICLES</h3>
+        <h4 style="color: grey;">LATEST POSTS FROM THE BLOG</h4>
+        </div>
+        <div class="row" style="padding-top: 30px; border-top: 1px solid gray;">
+          <div class="card col-sm-3 col-6" style="width: 18rem;border-style: none;">
+            
+            <div class="card-body">
+              <a href="#" style="color: black">
+                <img src="/starter-code/img/slider-1.jpg" class="card-img-top" alt="pets">
+              <h5 class="card-title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h5>
+              </a>
+              <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
+              <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            </div>
+          </div>
+          <div class="card col-sm-3 col-6" style="width: 18rem;border-style: none;">
+            
+            <div class="card-body">
+              <a href="#" style="color: black">
+                <img src="/starter-code/img/slider-3.jpg" class="card-img-top" alt="flowers">
+              <h5 class="card-title">Falauris sollicitudin quis dolor venenatis facilisis</h5>
+              </a>
+              <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
+              <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+            </div>
+          </div>
+          <div class="card col-sm-3 col-6" style="width: 18rem;border-style: none;">
+            
+            <div class="card-body">
+              <a href="#" style="color: black">
+                <img src="/starter-code/img/slider-4.jpg" class="card-img-top" alt="hike">
+              <h5 class="card-title">Suspendisse ornare, felis feugiat suscipit pharetra</h5>
+              </a>
+              <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
+              <p class="card-text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+            </div>
+          </div>
+          <div class="card col-sm-3 col-6" style="width: 18rem;border-style: none;">
+            
+            <div class="card-body">
+              <a href="#" style="color: black">
+                <img src="/starter-code/img/slider-2.jpg" class="card-img-top" alt="plants">
+              <h5 class="card-title">Festibulum purus odio, ornare non posuere</h5>
+              </a>
+              <h6>POSTED ON AUGUST 19, 2013 BY ADMIN</h6>
+              <p class="card-text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="border-top: 4px solid #ED564B; width: 100%;">
+      <div class="row" style="background-color:#404040;">
+        <div class="col-sm-3 col-6" style="padding: 30px 30px">
+          <div class="card" style="background-color: #404040; border-style: none;">
+            <div class="card-title" style="color: white;">REVERA</div>
+            <div class="card-body" style="color: #aaa;">
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6" style="padding: 30px 30px">
+          <div class="card" style="background-color: #404040; border-style: none;">
+            <div class="card-title" style="color: white;">META</div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Log in</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Entries RSS</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Comments RSS</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Wordpress.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6" style="padding: 30px 30px">
+          <div class="card" style="background-color: #404040; border-style: none;">
+            <div class="card-title" style="color: white;">ARCHIVE</div>
+            <div class="card-body">
+              <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+                <a href="" style="color: #aaa;">August 2013</a>
               </div>
             </div>
           </div>
-    </div>
-        <div class="row"></div>
-        <div class="overlay"></div>
-        <div class="fwidgets"></div>
-        <div class="container"></div>
-        <div class="row"></div>
-        <footer class="container-fluid"></div>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        </div>
+        <div class="col-sm-3 col-6" style="padding: 30px 30px">
+          <div class="card" style="background-color: #404040; border-style: none;">
+            <div class="card-title" style="color: white;">RECENT POSTS</div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Nunc libero elit, iaculis nec augue non
+              </a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Falauris sollicitudin quis dolor venenatis facilisis</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Phasellus aliquet iaculis neque accumsan aliquam</a>
+            </div>
+            <div class="card-body" style="border-bottom: 1px dotted #aaa;">
+              <a href="" style="color: #aaa;">Vivamus blandit ipsum sed arcu euismod</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
