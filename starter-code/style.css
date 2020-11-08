@@ -1,0 +1,110 @@
+
+html{
+  font-size: 10px;
+}
+
+
+body{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1{font-size: 3.6rem} 
+h2{font-size: 3.2rem} 
+h3{font-size: 2.4rem} 
+h4{font-size: 1.6rem} 
+h5,p,li,a{font-size: 1.4rem} 
+
+
+
+h1,h2,h3,h4,h5{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  
+  
+}
+
+a h2{
+  color: black;
+  font-weight: 800;
+}
+
+nav{
+  background-color: white;
+}
+
+.arrow{
+  font-size: 1em; 
+}
+
+
+#nav{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* .navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #f4473a;
+} */
+
+
+#nav a:hover, #nav a.active {
+  color: #f4473a 
+}  
+
+
+nav li{
+  padding-left: 1em;
+  justify-content: space-between;
+}
+
+/* CAROUSEL*/
+.carousel{
+  width: 100%;
+  
+}
+
+#carouselExampleIndicators > ol{
+  visibility: hidden;
+}
+
+.overlayImg{
+  position: absolute;
+  width: 100%
+}
+
+.carousel-caption{
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 3em;
+}
+
+.carousel-caption h1{
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+.carousel-caption p{
+  margin: 1em;
+  
+  align-self: center;
+  font-size: 1.6rem;
+  width: ;
+}
+
+.slideButt{
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 15%;
+  height: auto;
+  padding: 5px 10px;
+  margin-bottom: 2em;
+}
+
+
+
