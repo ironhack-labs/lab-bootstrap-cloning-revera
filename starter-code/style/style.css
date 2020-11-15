@@ -1,0 +1,195 @@
+.navbar-brand{
+    margin-left: 7%;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.navbar > a{
+    font-size: 2rem;
+}
+.navbar{
+    height: 125px;
+}
+
+#navbarNavDropdown{
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    background-color: #ed564b;
+    margin: 0px 0px 0px 0px;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left:3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.item > h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+.carousel-inner > div> img{
+    filter: grayscale(01.0)
+}
+
+.overlay{
+    background: url(/starter-code/img/overlay.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 100;
+}
+
+
+.carousel-caption > h2{
+    color: white;
+    font-size: 1.5rem ;
+
+}
+
+.nav-item .active{
+    color: #ed564b;
+}
+
+
+.gray-back{
+    background-color: #3b3b3b;
+    height: 40vh;
+}
+
+.faixa{
+    margin-top: 5%;
+    height: 0.7vh;
+    width: 100vw;
+    background-color: #ed564b;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer > div{
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width:20%;
+    color: lightgray;
+}
+
+footer> div>ul{
+    list-style: none;
+    margin-left: -10%;
+}
+
+footer > div > hr {
+    margin-top: -1em;
+    background-color: lightgray;
+    
+}
+
+#meta {
+    margin-left: 12%;
+}
+
+footer> div > p > a {
+    color: lightgray;
+    text-decoration: none;
+
+}
+
+#august > a{
+    color: lightgray;
+    text-decoration: none;
+}
+#august>a:hover{
+    color:white;
+}
+
+footer > div > h4{
+    margin-bottom: 15%;
+}
+
+footer > div > ul> hr{
+    margin-top: -1.5%;
+    background-color: lightgray;
+    width: 80%;
+    margin-left: 0;
+}
+
+.gray-back > div > ul > li > a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.0rem;
+}
+
+.gray-back > div > ul > li > a:hover{
+    color: white;
+}
+
+.subtext1, .subtext2{
+    margin-top: 5%;
+}
+
+.subtext1 > h3, .subtext2 > h3{
+    font-weight: 550;
+    letter-spacing: -1.5px;
+
+}
+
+.subtext1 > p, .subtext2>p{
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 550;
+}
+
+.card1 >div, .card2> div{
+    border-style: hidden;
+}
+
+.second-card>div{
+    width: 100%;
+}
+
+.second-card>div>h4{
+    width: 100%;
+}
+
+.second-card>div>h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.second-card>div>h5{
+    color:#3b3b3b;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.second-card>div>h5>span>a{
+    color:#ed564b;
+}
+
+.second-card>div>h5>span>a:hover{
+    text-decoration: none;
+    color:black
+}
