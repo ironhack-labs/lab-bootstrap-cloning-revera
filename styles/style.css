@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 4% 20% 1% 10%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: red;
+}
+
+#navbarSupportedContent {
+    margin-right: 100px;
+}
+
+.carousel-inner h2 {
+    font-weight: bold;
+}
+
+.w-100 {
+    height: 560px;
+    filter: grayscale(100%) blur(3px);
+}
+
+.carrousel-item {
+    align-items: center;
+
+}
+
+.carousel-caption {
+    margin-left: 170px;
+    margin-bottom: 70px;
+    width: 700px;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+
+.carousel-control-prev {
+    justify-content: left;
+}
+
+.carousel-control-prev:hover {}
+
+.carousel-control-next {
+    justify-content: right;
+}
+
+.carousel-control-next:hover {}
+
+body .carousel-control-prev-icon {
+    background-color: red;
+    width: 19%;
+    height: 17%;
+    margin-left: 3px;
+}
+
+body .carousel-control-next-icon {
+    background-color: red;
+    width: 19%;
+    height: 17%;
+    margin-left: 172px;
+}
+
+
+
+.description {
+    background-color: #ff6666;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.description a {
+    color: red;
+}
+
+.description a:hover {
+    color: black;
+}
+
+.description .row {
+    margin: 0 45px 0 45px;
+}
+
+.description h3 {
+    font-weight: bold;
+}
+
+.fas,
+.far {
+    color: white;
+    margin-bottom: 20px;
+}
+
+i {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 20px;
+}
+
+
+.sub-main {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.sub-main p {
+    color: gray;
+}
+
+.img-projects {
+    width: 100%;
+    margin: 12px 0 12px 0;
+}
+
+.red-line {
+    background-color: red;
+    border-width: 6px;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.archive {
+    text-align: left;
+    background-color: #766E6D;
+    color: white;
+    font-size: 12px;
+}
+
+.archive h4 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.archive hr {
+    background-color: white;
+}
+
+.archive a,
+.archive p {
+    color: #E8E3E3;
+}
+
+.archive ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #353434;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding: 15px 0 15px 120px;
+}
