@@ -1,0 +1,265 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.revera-title{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.revera-title:link{
+    text-decoration: none;
+}
+
+.revera-title:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+.li-el{
+    list-style: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 12px;
+    width: fit-content;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+.li-el a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 14px;
+}
+
+.navbar{
+    margin-top: 80px;
+}
+
+h1{font-size: 25px;text-transform: uppercase;font-weight: 600;}
+
+h2{font-size: 15px; text-transform: uppercase;font-weight: 600; color: grey;}
+
+h4{font-weight:bolder;}
+
+
+.carousel{
+    height: auto;
+}
+
+
+.bloque-car{
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+
+
+.w-100{
+height: 600px;
+filter:  contrast(50%) grayscale(100%);
+
+}
+
+.p-car{
+    font-size: 16px;
+}
+
+.control-car{  
+    height: 100px;
+    width: 50px;
+    margin: auto 0;
+}
+
+.control-car:link{
+    opacity: 100%;
+}
+
+.control-car:hover{
+    background-color:rgb(249, 107, 97);
+}
+
+
+.img-icon{
+    border: 5px solid white;
+    height:80px;
+    width: 80px;
+    margin: 10px auto;
+    border-radius: 50px;   
+}
+
+.img-icon div{
+    height: 35px;
+    width: 35px;
+    background-color: whitesmoke;
+    margin: 18px auto;
+;}
+
+.glyphicon{
+    width: 50px;
+    height: 50px;
+}
+
+.red-cont{
+    margin:30px 0;
+}
+
+.bg-red-main{
+    background-color: rgb(237, 86, 75);
+}
+
+.bg-red-second{
+    background-color: rgb(249, 107, 97);
+}
+
+.container-pastillas{
+    margin-top: 50px;
+}
+
+
+.margin-updown{
+    margin:20px 0;
+}
+
+.margin-updown2{
+    margin:5px 0;
+}
+
+hr{
+    border: 1px solid darkgrey ;
+    width: 97%;
+
+}
+
+.card-img-top{
+    margin: 15px 0;
+    
+}
+
+a{
+    color:black
+}
+
+.title-art:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.title-art:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.subtitle{
+    font-size: 12px;
+    color: rgb(54, 54, 54);
+}
+
+footer{
+  
+    background-color: rgb(54, 54, 54);
+    padding-top: 35px;
+    width:auto;
+}
+
+.hr-footer{
+    border: 1px dashed grey;
+    margin:5px 0 15px 0;
+    
+}
+
+footer ul{
+    margin:0;
+    padding:0;
+}
+
+.footer-cont{
+    padding-top: 10px;
+}
+
+footer span,li{
+    color: grey;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+.a-art{
+    color: rgb(237, 86, 75);
+}
+
+
+.a-art:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.art-body{
+    color: grey;
+    font-size: 14px;
+}
+
+.last-footer{
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    padding: 25px 0;
+    
+}
+
+.last-footer p{
+    font-size: 12px;
+}
+
+@media (max-width:768px){
+
+    .w-100{
+        height: auto;
+    }
+}
+
+@media(max-width: 530px){
+
+    .revera-title{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .li-el{
+        display: none;
+    }
+
+    .container-pastillas{
+        margin: 50px 20px;
+    }
+
+    .footer-cont{
+        margin: 0 20px;
+    }
+
+    .last-footer{
+        padding:25px 20px;
+    }
+
+    .red-cont{
+        margin: 30px 25px;
+    }
+}
