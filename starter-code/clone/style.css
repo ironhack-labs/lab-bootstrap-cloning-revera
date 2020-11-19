@@ -1,0 +1,30 @@
+.navbar-brand {
+   margin: 0 120px 0 20px; 
+   color: black;
+   font-size: 190%;
+}
+
+.navbar-nav {
+    margin-left: 120px;
+}
+
+.nav-item {
+    color: whitesmoke;
+}
+.carousel-indicators{
+   width: 100%;
+}
+.title {
+color: black;
+font-size: 140%;
+font-weight: 600;
+margin-bottom: 0px;
+}
+
+.post{
+    text-align: center;
+}
+
+
+
+
