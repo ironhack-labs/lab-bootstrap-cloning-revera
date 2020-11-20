@@ -1,19 +1,17 @@
 .navbar-brand {
-   margin: 0 120px 0 20px; 
+   margin: 0 120px 0 120px; 
    color: black;
    font-size: 190%;
-}
-
-.navbar-nav {
-    margin-left: 120px;
 }
 
 .nav-item {
     color: whitesmoke;
 }
-.carousel-indicators{
-   width: 100%;
+.alert {
+    margin-left: 32px;
 }
+
+
 .title {
 color: black;
 font-size: 140%;
