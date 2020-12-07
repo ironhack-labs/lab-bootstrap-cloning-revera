@@ -30,26 +30,24 @@ nav a{
 /* Section1 */
 
 .section1{
-    height: 500px;
-    background-size: cover;
-    background-image: url("../starter-code/img/slider-1.jpg");
     filter: grayscale(100%);
-    background-repeat: no-repeat;
-    text-align: center;
     color: #fff;
-    position: relative;
 }
 
+.carousel-caption {
+    z-index: 100;
+    display: table;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+}
 
-/* #fondo {
-    background-image: url("../starter-code/img/left.png");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-y: 50px;
-} */
+.d-block {
+    height: 650px;
+}
 
 .space{
-    padding: 150px 200px 0px 200px;
+    margin: 400px 150px 0px 150px
 }
 
 .space p {
