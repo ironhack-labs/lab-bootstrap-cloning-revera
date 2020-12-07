@@ -1,0 +1,44 @@
+.bg-orange{
+    background-color: #e75342;
+    color: #fff;
+}
+
+.bordery-orange{
+   border-top: 6px solid #e6776b;
+   border-bottom: 6px solid #e6776b;
+}
+
+.img-gray{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #DC6052;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+    font-size: 0.9rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 40%;
+    width: 4%;
+    height: 20%;
+    background-color: #DC6052;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.homewidget span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    line-height: 65px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+    }
