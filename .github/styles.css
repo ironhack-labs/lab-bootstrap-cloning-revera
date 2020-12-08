@@ -1,0 +1,142 @@
+body{
+    box-sizing: border-box
+}
+
+   
+
+.links{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+
+.links h1{
+    font-weight: bold;
+    margin-left: 40px;
+   
+    
+}
+
+.col a{
+    font-size:14px;
+    color: grey;
+    text-decoration: none;
+
+  
+}
+.links a:hover {
+    color: red;
+    
+    
+}
+.info{
+    background-color: red;
+    color: white;
+   
+}
+.info-2{
+    border-bottom: 1px solid #aaa;
+}
+.info-2 h2{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-top: 40px;
+}
+.info-2 p{
+    color: #aaa;
+}
+.img-info-2{
+    text-align: center;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.info-3{
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+    color: #aaa;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.info-3 h4{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.img-info-3{
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 30px;
+    font-size: 14px;
+    padding-top: 20px;
+    
+}
+.card-body{
+    text-align: left;
+}
+.bi-star{
+    width: 30px;
+}
+.bi-heart{
+    width: 30px;
+}
+.paragraph{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ed564b;
+    justify-content: space-between;
+    text-align: center;
+}
+.card{
+    border: 0;
+}
+.footer{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    
+}
+.footer p{
+    color: #aaa;
+    font-size: 14px;
+}
+.footer h3{
+    font-size: 16px;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.footer ul{
+    list-style: none;
+    color: #aaa;
+}
+.colum-1{
+    padding-left: 40px;
+}
+.meta ul{
+    text-align: left;
+    
+}.footer li{
+    padding-top: 10px;
+    border-bottom: 1px solid#aaa;
+    font-size: 14px;
+}
+.page-footer{
+    background: #292929;
+    color: white;
+   
+    }
+.text-center{
+    text-align: left;
+  
+}
