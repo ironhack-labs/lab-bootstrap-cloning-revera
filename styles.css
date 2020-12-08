@@ -3,6 +3,10 @@ body{
     padding-top: 0 !important;
 }
 
+p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+}
 .nav-bar{
     padding: 80px 0 25px 0;
 
@@ -27,6 +31,9 @@ body{
 .dropdown-toggle::after{
     content:none;
 }
+
+.dropdown:hover .dropdown-menu {display: block;}
+
 .carousel-inner{
     max-height: 550px;
     background-position: cover;
@@ -70,7 +77,34 @@ font-weight: bold;
 }
 
 .carousel-caption{
+    width: 800px;
+    position:absolute;
+    top: 27%;
+    left:50%;
+    margin-left: -400px;
     text-align: center;
+    z-index: 120;
+    color:#fff;
+}
+
+.carousel-caption h2{
+    font-size:36px;
+}
+
+.carousel-caption button{
+    background: rgba(255,255,255,0.2);
+    width:150px;
+    border: 1px solid #fff;
+    border-radius: 0%;
+    color: #fff!important;
+    padding:5px 0px;
+    margin:10px auto;
+    text-transform: uppercase;
+    display: block;
+}
+.carousel-caption p{
+    color: #fff;   
+    font-size: 16px;
 }
 .black-overlay{
     position: absolute;
@@ -93,6 +127,9 @@ font-weight: bold;
     border-bottom: 5px solid #f96b61;
     padding: 40px 0px;
 }
+.s2-icon{
+    color: #fff;   
+}
 
 .s2-icon span {
     border: 5px solid #fff;
@@ -106,20 +143,63 @@ font-weight: bold;
     font-size: 20px;
 }
 
-.s2-icon{
-    color: #fff
+.s2-icon h3{
+    text-align: center;
+    padding: 20px 0px 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.s2-icon p{
+    text-align: center;
+}
+
+
 .glyphicon{
     width: 100px;
+    margin:0 auto;
+    
+}
+.glyphicon svg{
+    vertical-align: center;
+    
 }
 
 .wide-sec{
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
+
+.section-title h2{
+    font-size: 24px;
+    margin: 20px 0px 5px;
+    font-weight: bold;
+}
+
+.section-title p{
+  
+    padding: 0px 0px 10px;
+    color:#AAAAAA;
+    font-weight: bold;
+}
+
 .card{
-    padding:0 15px;
+    padding:0 20px;
     border-style: none;
 } 
+
+.card-body{
+    padding: 0px;
+    text-align: centergit ;
+}
+
+.card-text-1{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    
+    
+}
 
 .home-meta{
     font-size: 12px;
