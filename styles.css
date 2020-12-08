@@ -188,31 +188,55 @@ font-weight: bold;
 } 
 
 .card-body{
-    padding: 0px;
-    text-align: centergit ;
+    padding: 10px 0px 0px 0px;
+    text-align: center ;
+}
+
+.card-body h5 {
+    text-align: left;
+}
+.card-body h5 a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .card-text-1{
+
     color: #000000;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     font-size: 14px;
     
     
 }
-
 .home-meta{
     font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.home-meta span{
+    color: #606060
 }
 .orangelink{
     color: #f4473a;
-    font-weight: 600;
+    font-weight: bold;
 }
+
+.card-text{
+    text-align: left;
+
+}
+
+
 
 .bottom{
     background-color: #3b3b3b;
     border-top: 5px solid #ed564b;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 40px;
 }
 
 .bottom h3{
@@ -221,7 +245,9 @@ font-weight: bold;
 }
 
 .bottom-title{
-    font-size: 1.4em;
+    font-size: 16px;
+    padding:10px 0px;
+    margin: 20px 0px 10px;
 }
 
 .bottom a{
@@ -241,7 +267,8 @@ font-weight: bold;
     border-bottom: 1px dotted #aaa;
     padding: 5px 0;
     margin: 0px;
-    padding: 0px;
+    padding: 7px 0px;
+    font-size: 14px;
 }
 
 A:hover { color: #aaa; text-decoration: none }
@@ -250,10 +277,15 @@ footer{
     background-color:#292929;
     color:#eee;
     padding: 10px ;
-    font-size: 0.9em;
+    height: 78px;
+    text-align: left;
+    
 }
 footer p{
  margin: 0px 10px; 
+ font-size: 12px;
+ padding:5px 0px 0px 150px;
+ 
 }
 
 footer a{
