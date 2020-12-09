@@ -2,21 +2,20 @@ body{
     box-sizing: border-box
 }
 
-   
 
-.links{
-    padding-top: 20px;
-    align-items: center;
+.enlace {
     justify-content: center;
-    text-align:center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    padding: 0px 0px;
+    text-align: center;
+    align-items: center;
 }
 
-.links h1{
+
+.revera h1{
     font-weight: bold;
-    margin-left: 40px;
+    margin:2px 0px 10px;
+    justify-content: flex-start;
+    
+   
    
     
 }
@@ -25,6 +24,7 @@ body{
     font-size:14px;
     color: grey;
     text-decoration: none;
+    padding-left: 10px;
 
   
 }
