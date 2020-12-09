@@ -3,9 +3,17 @@
     color: #fff;
 }
 
-.bordery-orange{
+.bordery-orange {
    border-top: 6px solid #e6776b;
    border-bottom: 6px solid #e6776b;
+}
+
+.border-top-orange {
+    border-top: 6px solid #e75342;
+}
+
+.text-orange {
+    color: #e75342;
 }
 
 .img-gray{
@@ -21,6 +29,10 @@
     font-size: 0.9rem;
 }
 
+.navbar-nav > .nav-item > .nav-link:hover {
+    color: #DC6052;
+}
+
 .carousel-control-next, .carousel-control-prev {
     top: 40%;
     width: 4%;
@@ -29,6 +41,20 @@
     color: #fff;
     text-align: center;
     opacity: 1;
+}
+
+.slider-btn {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 7px 25px;
+}
+
+.slider-btn:hover {
+    color: white;
 }
 
 .homewidget span {
@@ -41,4 +67,47 @@
     text-align: center;
     margin: 0 auto 15px auto;
     font-size: 20px;
-    }
+}
+
+.projects-text {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.articles-text {
+    font-size: 0.95rem;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: rgb(163, 163, 163);
+}
+
+.post-info {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+footer {
+    background-color: rgb(59, 59, 59); 
+    color: white;
+}
+
+footer p, li {
+    font-size: 0.8rem;
+    color: rgb(168, 168, 168);
+}
+
+footer li {
+    list-style-type: none;
+    border-bottom: 1px dotted rgb(168, 168, 168);
+}
+
+.footer-info {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 0.75rem;
+}
