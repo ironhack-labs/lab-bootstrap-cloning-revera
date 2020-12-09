@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
+    <!-- FontAwesome --- icon Pack -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
     <title>Home - Revera</title>
 </head>
 
 <body>
 
+    <!-- ======= NAVBAR ======= -->
     <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container align-items-center">
             <h3 class="h2 font-weight-bold m-0 p-0">REVERA</h3>
@@ -58,12 +61,13 @@
             </div>
         </div>
     </nav>
+    <!-- ======= NAVBAR ======= -->
 
-    <!-- CAROUSEL -->
+    <!-- ======= CAROUSEL ======= -->
     <div id="carouselControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" style="max-height: 35rem;">
             <div class="carousel-item active">
-                <div class="position-absolute h-100 w-100" style="z-index:1; background-image: url(src/img/overlay.png); background-repeat: repeat;"></div>
+                <div class="position-absolute h-100 w-100 custom-slide" style="background-image: url(src/img/overlay.png);"></div>
                 <img src="src/img/slider-1.jpg" class="d-block w-100 img-gray" alt="Slider Image">
                 <div class="carousel-caption d-none d-md-block" style="bottom: 20%;">
                     <h1 class="w-75 mx-auto">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h1>
@@ -72,7 +76,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="position-absolute h-100 w-100" style="z-index:1; background-image: url(src/img/overlay.png); background-repeat: repeat;"></div>
+                <div class="position-absolute h-100 w-100 custom-slide" style="background-image: url(src/img/overlay.png);"></div>
                 <img src="src/img/slider-2.jpg" class="d-block w-100 img-gray" alt="Slider Image">
                 <div class="carousel-caption d-none d-md-block" style="bottom: 20%;">
                     <h1 class="w-75 mx-auto">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h1>
@@ -81,7 +85,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="position-absolute h-100 w-100" style="z-index:1; background-image: url(src/img/overlay.png); background-repeat: repeat;"></div>
+                <div class="position-absolute h-100 w-100 custom-slide" style="background-image: url(src/img/overlay.png);"></div>
                 <img src="src/img/slider-3.jpg" class="d-block w-100 img-gray" alt="Slider Image">
                 <div class="carousel-caption d-none d-md-block" style="bottom: 20%;">
                     <h1 class="w-75 mx-auto">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h1>
@@ -90,7 +94,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="position-absolute h-100 w-100" style="z-index:1; background-image: url(src/img/overlay.png); background-repeat: repeat;"></div>
+                <div class="position-absolute h-100 w-100 custom-slide" style="background-image: url(src/img/overlay.png);"></div>
                 <img src="src/img/slider-4.jpg" class="d-block w-100 img-gray" alt="Slider Image">
                 <div class="carousel-caption d-none d-md-block" style="bottom: 20%;">
                     <h1 class="w-75 mx-auto">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h1>
@@ -110,97 +114,113 @@
         </a>
 
     </div>
-    <!-- CAROUSEL -->
+    <!-- ======= CAROUSEL ======= -->
 
-    <!-- ICONS SECTION -->
-    <section class="bg-orange py-5 bordery-orange">
-        <div class="container justify-content-center">
+    <!-- ======= ICONS SECTION ======= -->
+    <section class="bg-orange bordery-orange">
+        <div class="container py-5 justify-content-center">
             <div class="row">
                 <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <div class="homewidget"><span>H</span></div>
+                    <div class="homewidget"><span><i class="fas fa-glass-martini"></i></span></div>
                     <h3>Web design</h3>
                     <small>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</small>
                 </div>
                 <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <div class="homewidget"><span>H</span></div>
+                    <div class="homewidget"><span><i class="fas fa-star"></i></span></div>
                     <h3>Web development</h3>
                     <small>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</small>
                 </div>
                 <div class="col-md-4 text-center mb-4 mb-md-0">
-                    <div class="homewidget"><span>H</span></div>
+                    <div class="homewidget"><span><i class="fas fa-heart"></i></span></div>
                     <h3>User interface</h3>
                     <small>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</small>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ICONS SECTION -->
+    <!-- ======= ICONS SECTION ======= -->
 
-    <!-- LATEST PROJECTS -->
-    <section class="py-5">
-        <div class="container">
+    <!-- ======= LATEST PROJECTS ======= -->
+    <section id="latest-projects">
+        <div class="container py-5">
             <h3 class="font-weight-bold">LATEST PROJECTS</h3>
             <p class="font-weight-bold subtitle">FEW OF THE LATEST PORTFOLIO ITEMS</p>
             <hr>
             <div class="row py-4">
                 <div class="col-sm-6 col-md-3 mb-3 text-center">
-                    <img src="src/img/project-1.jpg" class="img-fluid mb-3" alt="">
-                    <p class="projects-text">Nunc libero elit, iaculis nec augue non</p>
+                    <a href="#">
+                        <img src="src/img/project-1.jpg" class="img-fluid mb-3" alt="">
+                        <p class="projects-text">Nunc libero elit, iaculis nec augue non</p>
+                    </a>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3 text-center">
-                    <img src="src/img/project-2.jpg" class="img-fluid mb-3" alt="">
-                    <p class="projects-text">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                    <a href="#">
+                        <img src="src/img/project-2.jpg" class="img-fluid mb-3" alt="">
+                        <p class="projects-text">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                    </a>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3 text-center">
-                    <img src="src/img/project-3.jpg" class="img-fluid mb-3" alt="">
-                    <p class="projects-text">Vivamus blandit ipsum sed arcu euismod</p>
+                    <a href="#">
+                        <img src="src/img/project-3.jpg" class="img-fluid mb-3" alt="">
+                        <p class="projects-text">Vivamus blandit ipsum sed arcu euismod</p>
+                    </a>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3 text-center">
-                    <img src="src/img/project-4.jpg" class="img-fluid mb-3" alt="">
-                    <p class="projects-text">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+                    <a href="#">
+                        <img src="src/img/project-4.jpg" class="img-fluid mb-3" alt="">
+                        <p class="projects-text">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- LATEST PROJECTS -->
+    <!-- ======= LATEST PROJECTS ======= -->
 
-    <!-- LATEST ARTICLES -->
-    <section>
+    <!-- ======= LATEST ARTICLES ======= -->
+    <section id="latest-articles">
         <div class="container">
             <h3 class="font-weight-bold">LATEST ARTICLES</h3>
             <p class="font-weight-bold subtitle">LATEST POSTS FROM THE BLOG</p>
             <hr>
             <div class="row py-4">
                 <div class="col-sm-6 col-md-3 mb-3">
-                    <img src="src/img/slider-1.jpg" class="img-fluid mb-3" alt="">
-                    <p class="articles-text mb-2">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
-                    <p class="post-info">POSTED ON <span class="text-orange">AUGUST 19, 2013</span> BY <span class="text-orange">ADMIN</span></p>
+                    <a href="#" class="article">
+                        <img src="src/img/slider-1.jpg" class="img-fluid mb-3" alt="">
+                        <p class="articles-text mb-2">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
+                    </a>
+                    <p class="post-info">POSTED ON <a href="#" class="text-orange">AUGUST 19, 2013</a> BY <a href="#" class="text-orange">ADMIN</a></p>
                     <small>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</small>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3">
-                    <img src="src/img/slider-2.jpg" class="img-fluid mb-3" alt="">
-                    <p class="articles-text mb-2">Falauris sollicitudin quis dolor venenatis facilisis</p>
-                    <p class="post-info">POSTED ON <span class="text-orange">AUGUST 19, 2013</span> BY <span class="text-orange">ADMIN</span></p>
+                    <a href="#" class="article">
+                        <img src="src/img/slider-2.jpg" class="img-fluid mb-3" alt="">
+                        <p class="articles-text mb-2">Falauris sollicitudin quis dolor venenatis facilisis</p>
+                    </a>
+                    <p class="post-info">POSTED ON <a href="#" class="text-orange">AUGUST 19, 2013</a> BY <a href="#" class="text-orange">ADMIN</a></p>
                     <small>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</small>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3">
-                    <img src="src/img/slider-3.jpg" class="img-fluid mb-3" alt="">
-                    <p class="articles-text mb-2">Suspendisse ornare, felis feugiat suscipit pharetra</p>
-                    <p class="post-info">POSTED ON <span class="text-orange">AUGUST 19, 2013</span> BY <span class="text-orange">ADMIN</span></p>
+                    <a href="#" class="article">
+                        <img src="src/img/slider-3.jpg" class="img-fluid mb-3" alt="">
+                        <p class="articles-text mb-2">Suspendisse ornare, felis feugiat suscipit pharetra</p>
+                    </a>
+                    <p class="post-info">POSTED ON <a href="#" class="text-orange">AUGUST 19, 2013</a> BY <a href="#" class="text-orange">ADMIN</a></p>
                     <small>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</small>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3">
-                    <img src="src/img/slider-4.jpg" class="img-fluid mb-3" alt="">
-                    <p class="articles-text mb-2">Festibulum purus odio, ornare non posuere</p>
-                    <p class="post-info">POSTED ON <span class="text-orange">AUGUST 19, 2013</span> BY <span class="text-orange">ADMIN</span></p>
+                    <a href="#" class="article">
+                        <img src="src/img/slider-4.jpg" class="img-fluid mb-3" alt="">
+                        <p class="articles-text mb-2">Festibulum purus odio, ornare non posuere</p>
+                    </a>
+                    <p class="post-info">POSTED ON <a href="#" class="text-orange">AUGUST 19, 2013</a> BY <a href="#" class="text-orange">ADMIN</a></p>
                     <small>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</small>
                 </div>
             </div>
         </div>
     </section>
-    <!-- LATEST ARTICLES -->
+    <!-- ======= LATEST ARTICLES ======= -->
 
-    <!-- FOOTER -->
+    <!-- ======= FOOTER ======= -->
     <footer class="border-top-orange">
         <div class="container py-5">
             <div class="row">
@@ -212,8 +232,8 @@
                     <h6>META</h6>
                     <ul class="m-0 p-0">
                         <li class="py-2">Login</li>
-                        <li class="py-2">Entries RSS</li>
-                        <li class="py-2">Comments RSS</li>
+                        <li class="py-2">Entries <abbr title="Really Simple Syndication">RSS</abbr></li>
+                        <li class="py-2">Comments <abbr title="Really Simple Syndication">RSS</abbr></li>
                         <li class="py-2">WordPress.org</li>
                     </ul>
                 </div>
@@ -242,7 +262,7 @@
             </div>
         </div>
     </footer>
-    <!-- FOOTER -->
+    <!-- ======= FOOTER ======= -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
