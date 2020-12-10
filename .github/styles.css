@@ -1,6 +1,9 @@
 body{
     box-sizing: border-box
 }
+.links{
+    align-items: center;
+}
 
 
 .enlace {
@@ -38,6 +41,15 @@ body{
     color: white;
    
 }
+.carousel-item img{
+    filter: grayscale(100%);
+    
+}
+.carousel,.carousel-inner > .active>img{
+    height: 600px;
+}
+
+
 .info-2{
     border-bottom: 1px solid #aaa;
 }
