@@ -34,11 +34,15 @@ nav {
 .h2-section1 {
   margin-left: 200px;
   margin-right: 200px;
+  margin-top: 250px;
+  margin-bottom: 10px;
   text-transform: uppercase;
+  
 }
 .p-section1 {
   margin-left: 170px;
   margin-right: 170px;
+  margin-bottom: 10px;
 }
 
 .read {
@@ -143,7 +147,7 @@ font-family: "Oxygen",sans-serif;
 }
 
 #section-5 {
-  background-color: black;
+  background-color: #3b3b3b;
   border-top:5px solid #f96b61;
   padding: 20px 0px 40px;
 }
@@ -161,16 +165,26 @@ font-family: "Oxygen",sans-serif;
   color: #AAAAAA;
 }
 
+.p-section5-2{
+  font-size: 14px;
+  padding: 5px 0px;
+  color: #AAAAAA;
+  border-bottom: 1px dotted;
+}
+
 .li-section5{
   list-style-type: none;
   color:#aaa;
   font-size: 14px;
   padding: 7px 0px 7px 0px;
   line-height: 18px;
+  border-bottom: 1px dotted;
 }
 
 footer {
-  background-color: grey;
-  color: white;
+  font-size: 12px;
   align-items: center;
+  background-color: #292929;
+  color: white;
+
 }
