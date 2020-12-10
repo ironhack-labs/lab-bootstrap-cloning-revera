@@ -1,0 +1,32 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+header {
+    height: 90px;
+}
+
+#slider {
+    height: 550px;
+    background-color: black;
+
+}
+
+#widgets {
+    height: 314px;
+    background-color: #f96b61;
+}
+
+#content {
+    height: 1118px;
+}
+
+#bottom {
+    height: 350px;
+ background-color: #3b3b3b;
+}
+
+#footer{
+    height: 78px;
+ background-color: #292929;
+}
