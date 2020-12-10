@@ -30,20 +30,21 @@ nav a{
 /* Section1 */
 
 .section1{
-    filter: grayscale(100%);
     color: #fff;
+    box-sizing: content-box;
 }
 
 .carousel-caption {
     z-index: 100;
     display: table;
-    width: 50%;
     height: 800px;
     text-align: center;
 }
 
 .d-block {
+    filter: grayscale(100%);
     height: 650px;
+    width: 100%;
 }
 
 .space{
@@ -62,6 +63,24 @@ nav a{
     color: #fff;
 }
 
+.carousel-control-next, 
+.carousel-control-prev {
+    width: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border: 2px solid #ed564b;
+    background-color: #ed564b;
+    padding: 50px 20px;
+    margin-left: 0;
+}
+
+.photos {
+    padding: 0px;
+}
+
+
 /* Section2 */
 
 .section2{
@@ -71,10 +90,16 @@ nav a{
     color: #fff;
 }
 
-.icon{
+.icon {
     border-radius: 50%;
-    background-color: #ed564b;
     width: 70px;
+    margin: 10px;
+}
+
+svg {
+    border: 3px solid #fff;
+    padding: 13px;
+    border-radius: 50%;
     margin: 10px;
 }
 
@@ -193,26 +218,28 @@ footer{
 /* Responsive */
 
 @media all and (max-width: 992px){
-    .space {
-        padding: 150px 100px 0px 100px;
-    }
 
+    .space {
+        margin-right: 250px;
+        margin-left: 0;
+    }
     .space h2{
         font-size: 1.5em;
+    }
+    .carousel-caption {
+        width: 100%;
+        text-align: center;
     }
 }
 
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 768px) {
+
     .space {
-        padding: 150px 50px 0px 50px;
+        margin-left: 10%;
     }
-
-    .space h2 {
-        font-size: 1.5em;
-    }
-
     .space p{
         font-size: 0.8em;
     }
+    
 }
