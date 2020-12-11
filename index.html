@@ -14,11 +14,11 @@
   <body>
     <div class='nav-bar'>
       <div class='container'>
-        <header class='row'>
+        <header class='row header-nav'>
             <div class= 'col-3' id='left-title'>
                <h2>REVERA </h2>
             </div>
-            <nav class= 'col-8 navbar'>
+            <nav class= 'big-nav col-8 navbar'>
               <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Home</a>
@@ -50,6 +50,21 @@
                 </li>
               </ul>
             </nav>
+            <select class='small-nav'>
+               <option value='undefined'>Select a page</option>
+               <option value='#'>Home</option>
+               <option value='#'>About</option>
+               <option value='#'>Sample page</option>
+               <option value='#'>Portfolio</option>
+               <option value='#'>Blog</option>
+               <optgroup label='Parent page »'>
+                <option value='#'>Main</option>
+                <option value='#'>Full Page</option>
+                <option value='#'>Child Page 1</option>
+                <option value='#'>Child Page 2</option>
+               </optgroup>
+               <option value='#'>Contact</option>
+            </select>
         </header>
       </div>  
     </div>
@@ -333,12 +348,14 @@
     </div>  
     <footer class='container-fluid'>
       <div class="row">
+        <div class= 'col-12'>
         <p>Copyright © 2018
         <a href=#> revera </a>
         - Just another demo Sites site. <br>
         | Revera Theme
       </p>
       </div>
+    </div>
     </footer> 
 
     <!-- Optional JavaScript; choose one of the two! -->

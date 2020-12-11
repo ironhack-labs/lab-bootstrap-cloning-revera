@@ -282,12 +282,32 @@ footer{
     
 }
 footer p{
- margin: 0px 10px; 
+  margin: 0px 10px;  
  font-size: 12px;
- padding:5px 0px 0px 150px;
+  padding:5px 0px 0px 150px; 
  
 }
 
 footer a{
     color:#eee
+}
+
+.small-nav{
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    .big-nav{ display:none;}
+    .small-nav{
+        display:inline-block;
+        width: 90%;
+        
+    }
+    .header-nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
