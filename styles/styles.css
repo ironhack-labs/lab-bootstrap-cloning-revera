@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+/* hr {
+    height: 0px;
+    width: 1000%;
+} */
+
+/* #bottom hr {
+    border: 1px;
+    border-style: dashed;
+} */
+
+
+#features {
+    background-color: #ed554a;
+}
+
+#carouselExampleCaptions img {
+    filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon {
+    background-color: #ed554a;
+    height: 6rem;
+    width: 3rem;
+}
+
+/* .carousel-control-prev-icon:hover,
+.carousel-control-prev-icon:focus {
+    background-color: white;
+    color: #ed554a;
+    height: 6rem;
+    width: 3rem;
+} */
+
+.carousel-control-next-icon {
+    background-color: #ed554a;
+    height: 6rem;
+    width: 3rem;
+}
+
+#carouselExampleCaptions {
+
+}
