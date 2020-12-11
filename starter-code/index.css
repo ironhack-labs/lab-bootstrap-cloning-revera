@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+
+}
+.main-container-vvc{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.header-container-cgv {
+    width: 100%;
+    background-size: cover;
+}
+.col{
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.section1{
+    width: 100%;
+    padding: 0px;
+}
+.padding-cgv {
+    padding: 0px;
+}
+
+.revera-title{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.revera-title:link{
+    color: black;
+    text-decoration: none;
+}
+.li-el{
+    list-style: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 12px;
+    width: fit-content;
+   
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+.li-el a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.slider1{
+    position: absolute;
+   
+}
+.over-img{
+    position: absolute;
+   
+    
+}
+.p-car{
+    font-size: 14px;
+}
+
+.navbar{
+    margin-top: 80px;
+}
+
+.p-car{
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+.btn{
+    border-radius: 0px;
+    margin-bottom: 200px;
+}
+
+.section2{
+    padding: 40px 0px;
+    border-top: 50px solid #f96b61;
+
+
+}
