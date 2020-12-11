@@ -2,17 +2,6 @@ body {
     margin: 0;
 }
 
-/* hr {
-    height: 0px;
-    width: 1000%;
-} */
-
-/* #bottom hr {
-    border: 1px;
-    border-style: dashed;
-} */
-
-
 #features {
     background-color: #ed554a;
 }
@@ -39,8 +28,4 @@ body {
     background-color: #ed554a;
     height: 6rem;
     width: 3rem;
-}
-
-#carouselExampleCaptions {
-
 }
