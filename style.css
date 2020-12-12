@@ -1,0 +1,233 @@
+.reev-menu {
+    padding: 60px 15px 40px;
+    margin: 0;
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+
+.reev-active {
+    color: #ed564b;;
+}
+
+.reev-logo {
+    padding: 60px 15px 40px;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.reev-img1 {
+    height: 700px; 
+    background: url(./starter-code/img/slider-1.jpg) 0px -50px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+.reev-img2 {
+    height: 700px; 
+    background: url(./starter-code/img/slider-2.jpg) 0px -50px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    
+}
+
+.reev-img3 {
+    height: 700px; 
+    background: url(./starter-code/img/slider-3.jpg) 0px -50px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+.reev-img4 {
+    height: 700px; 
+    background: url(./starter-code/img/slider-4.jpg) 0px -50px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+.reev-block {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.reev-reding {
+    font-size: 20px;
+}
+
+.reev-btn {
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+
+.reev-btn:hover {
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+.reev-flech {
+    background-color: #f4473a;
+    opacity: 1;
+    height: 100px;
+    width: 60px;
+    padding: 0;
+    margin: 300px auto;
+}
+
+.reev-flech-rigth {
+    background-color: #f4473a;
+    opacity: 1;
+    height: 100px;
+    width: 60px;
+    padding: 0;
+    margin: 300px auto;
+}
+
+.reev-flech-rigth:hover {
+    opacity: 0.5;
+}
+
+.reev-flech:hover {
+    opacity: 0.5;
+}
+
+.reev-gen-info {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+/* YUWJBCOSAHDGLCHBAWKJS */
+
+.glyphicon {
+    width: 50px;
+    height: 50px;
+}
+
+.red-cont {
+    margin:30px 0;
+}
+
+.bg-red-main{
+    background-color: rgb(237, 86, 75);
+}
+
+.bg-red-second{
+    background-color: rgb(249, 107, 97);
+}
+
+.container-pastillas{
+    margin-top: 50px;
+}
+
+
+.margin-updown{
+    margin:20px 0;
+}
+
+.margin-updown2{
+    margin:5px 0;
+}
+
+hr{
+    border: 1px solid darkgrey ;
+    width: 97%;
+
+}
+
+.card-img-top{
+    margin: 15px 0;
+
+}
+
+a{
+    color:black
+}
+
+.title-art:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.title-art:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.subtitle{
+    font-size: 12px;
+    color: rgb(54, 54, 54);
+}
+
+footer{
+
+    background-color: rgb(54, 54, 54);
+    padding-top: 35px;
+    width:auto;
+}
+
+.hr-footer{
+    border: 1px dashed grey;
+    margin:5px 0 15px 0;
+
+}
+
+footer ul{
+    margin:0;
+    padding:0;
+}
+
+.footer-cont{
+    padding-top: 10px;
+}
+
+footer span,li{
+    color: grey;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+.a-art{
+    color: rgb(237, 86, 75);
+}
+
+
+.a-art:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.art-body{
+    color: grey;
+    font-size: 14px;
+}
+
+.last-footer{
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    padding: 25px 0;
+
+}
+
+.last-footer p{
+    font-size: 12px;
+}
