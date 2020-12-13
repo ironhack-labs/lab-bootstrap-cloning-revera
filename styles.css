@@ -1,0 +1,25 @@
+
+.nav{
+    background-color: white;
+    height: 90px;
+}
+.carousel{
+    background-color: black;
+    height: 550px;
+}
+.info{
+    background-color: red;
+    height: 224px;
+}
+.main{
+    background-color: white;
+    height: 1121px;
+}
+.bootom{
+    background-color: black;
+    height: 350px;
+}
+.footer{
+    background-color: grey;
+    height: 78px;
+}
