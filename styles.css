@@ -1,25 +1,59 @@
 
-.nav{
+#nav{
     background-color: white;
     height: 90px;
 }
-.carousel{
+#carousel{
     background-color: black;
     height: 550px;
 }
-.info{
+#info{
     background-color: red;
     height: 224px;
 }
-.main{
+#main{
     background-color: white;
     height: 1121px;
 }
-.bootom{
+#bootom{
     background-color: black;
     height: 350px;
 }
-.footer{
+#footer{
     background-color: grey;
     height: 78px;
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #f4473a;
+    width: 50px;
+    height: 100px;
+    font-size: 14px;
+}
+
+.b-w{
+    filter: grayscale(100%);
+    
+}
+
+.carousel-item{
+    background-image: url(./starter-code/img/overlay.png);
+}
+
+.carousel-text{
+    width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: WHITE;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 40px;
 }
