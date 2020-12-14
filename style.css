@@ -1,3 +1,29 @@
-.content{
-    background-color: #ff6666;
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 100%;
+}
+p{
+    font-size: 14px;
+}
+
+.navbar{
+        padding: 80px 0 25px 0;
+}
+
+.carousel{
+    height: auto;
+}
+
+.red-cont{
+    margin:30px 0;
+}
+
+footer {
+    padding: 80px;
+    height: 78px;
+    text-align: center;
 }
