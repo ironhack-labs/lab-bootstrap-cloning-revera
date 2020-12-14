@@ -3,6 +3,7 @@
     height: 90px;
     background-color: white;
     margin-top: 65px;
+    font-size: 30px;
 }
 #carousel{
     height: 550px;
@@ -25,7 +26,24 @@
     padding: 10px 0px;
     background: #292929;
     font-size: 12px;
-    
+}
+
+.navbar-brand > h1{
+    color: green;
+    vertical-align: baseline;
+}
+
+.hover-color{
+    color: #777;
+}
+.hover-color:hover {
+    color: #ed564b !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: none;
+    border-radius: 0;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -39,8 +57,14 @@
     filter: grayscale(100%);
 }
 
-.carousel-item{
-    background-image: url(./starter-code/img/overlay.png);
+.carousel-texture{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background:url(./starter-code/img/overlay.png);
+    z-index: 100;
 }
 
 .carousel-text{
@@ -50,8 +74,12 @@
     left: 50%;
     margin-left: -400px;
     text-align: center;
-    color: WHITE;
+    color: white;
     font-size: 1.2rem;
+}
+
+.card-body{
+    padding: 20px 0;
 }
 
 h1{
@@ -66,5 +94,13 @@ h1{
 
 .cabeceras > p{
     color: #aaa;
-
 }
+
+.published{
+    color: #f4473a;
+}
+
+.card-body a:hover {
+    color: black;
+    text-decoration: none;
+  }
