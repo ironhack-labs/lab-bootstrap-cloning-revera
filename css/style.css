@@ -2,15 +2,67 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-header {
+.header {
+    display: flex;
+    align-items: center;
     height: 90px;
 }
 
-#slider {
-    height: 550px;
-    background-color: black;
+.header #logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header #navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    padding: 19px 10px;
+    color: #777777;
+}
+
+.header #navbar a:hover {
+    color: #ed564b;
+}
+
+.header li.nav-item.current-page a {
+    color: #ed564b;
+}
+
+header h1 {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
 
 }
+
+header a {
+    color: inherit;
+
+}
+
+header a:visited {
+    color: inherit;
+
+}
+
+header a:hover {
+    text-decoration: none;
+
+}
+
+#slider-section {
+    background: url(../starter-code/img/overlay.png);
+    position: relative;
+    height: 550px;
+
+}
+
+
 
 #widgets {
     height: 314px;
@@ -23,10 +75,84 @@ header {
 
 #bottom {
     height: 350px;
- background-color: #3b3b3b;
+    background-color: #3b3b3b;
 }
 
-#footer{
+#footer {
     height: 78px;
- background-color: #292929;
+    background-color: #292929;
+}
+
+.carousel-control-prev {
+    opacity: 1;
+    background: url("https://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png");
+    background-position: 0 0;
+    position: absolute;
+    top: 225px;
+    height: 100px;
+    width: 50px;
+    margin: 0px;
+}
+
+.carousel-control-prev:hover {
+    background-position: 0 100%;
+}
+
+.carousel-control-next {
+    opacity: 1;
+    background: url("https://demo.fabthemes.com/revera/wp-content/themes/Revera/images/bg_direction_nav.png");
+    background-position: 100% 0;
+    position: absolute;
+    top: 225px;
+    height: 100px;
+    width: 50px;
+    margin: 0px;
+
+}
+
+.carousel-control-next:hover {
+    background-position: 100% 100%;
+}
+
+#slider img {
+    filter: grayscale(100%);
+}
+
+#slider {
+    z-index: -1;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+
+}
+
+.caption p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.caption h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.cta {
+    border-radius: 0px;
+    width: 150px;
+    padding: 5px 0;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 700;
 }
