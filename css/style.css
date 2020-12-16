@@ -37,36 +37,29 @@ header h1 {
     font-weight: 800;
     color: #000;
     margin: 0;
-
 }
 
 header a {
     color: inherit;
-
 }
 
 header a:visited {
     color: inherit;
-
 }
 
 header a:hover {
     text-decoration: none;
-
 }
 
 #slider-section {
     background: url(../starter-code/img/overlay.png);
     position: relative;
     height: 550px;
-
 }
-
-
 
 #widgets {
     height: 314px;
-    background-color: #f96b61;
+    background-color:#ed564b;
 }
 
 #content {
@@ -107,7 +100,6 @@ header a:hover {
     height: 100px;
     width: 50px;
     margin: 0px;
-
 }
 
 .carousel-control-next:hover {
@@ -135,7 +127,12 @@ header a:hover {
     width: 50%;
     color: #fff;
     text-align: center;
+}
 
+.caption h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
 }
 
 .caption p {
@@ -143,10 +140,6 @@ header a:hover {
     font-size: 16px;
 }
 
-.caption h2 {
-    font-size: 36px;
-    font-weight: 500;
-}
 
 .cta {
     border-radius: 0px;
@@ -156,3 +149,48 @@ header a:hover {
     font-size: 14px;
     font-weight: 700;
 }
+
+#widgets {
+    color:#fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#widgets span{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+   
+
+}
+
+#widgets h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 20px 0 10px;
+}
+
+#widgets p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#widgets p a{
+    color: #ed564b;
+}
+
+#widgets p a:hover{
+    color:#000;
+    text-decoration: none;
+}
+
