@@ -28,22 +28,37 @@
     font-size: 12px;
 }
 
-.navbar-brand > h1{
-    color: green;
-    vertical-align: baseline;
+.navbar, #home{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    margin-top: 40px;
+    margin-bottom: -12px;
+}
+
+.navbar-brand{
+    color: black !important;
 }
 
 .hover-color{
     color: #777;
+    white-space: nowrap;
 }
 .hover-color:hover {
     color: #ed564b !important;
+    text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
     border: none;
     border-radius: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
