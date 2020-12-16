@@ -298,3 +298,25 @@ text-decoration: none;
     color: #000;
 }
 
+#bottom {
+    border-top: 5px solid #ed564b;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    color:#eee;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+#footer a {
+    color:#eee;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
