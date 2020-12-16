@@ -52,15 +52,24 @@ header a:hover {
     text-decoration: none;
 }
 
-#slider-section {
-    background: url(../starter-code/img/overlay.png);
+#slider-section {  
     position: relative;
     height: 550px;
 }
 
+.overlay {
+    background: url(../starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
 #widgets {
     height: 314px;
-    background-color: #ed564b;
+    background-color:#ed564b;
 }
 
 #content {
@@ -124,7 +133,7 @@ header a:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 2;
     width: 50%;
     color: #fff;
     text-align: center;
@@ -152,14 +161,14 @@ header a:hover {
 }
 
 #widgets {
-    color: #fff;
+    color:#fff;
     text-align: center;
     padding: 40px 0;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
 }
 
-#widgets span {
+#widgets span{
     border: 5px solid #fff;
     background: transparent;
     width: 70px;
@@ -172,33 +181,33 @@ header a:hover {
     font-size: 20px;
 }
 
-#widgets h3 {
+#widgets h3{
     font-size: 24px;
     font-weight: 700;
     line-height: 1.1;
     margin: 20px 0 10px;
 }
 
-#widgets p {
+#widgets p{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
-#widgets p a {
+#widgets p a{
     color: #ed564b;
 }
 
-#widgets p a:hover {
-    color: #000;
+#widgets p a:hover{
+    color:#000;
     text-decoration: none;
 }
 
-#content>.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#content > .container {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
     height: 100%;
     padding: 0;
 }
@@ -208,23 +217,23 @@ header a:hover {
 }
 
 .section-title h2 {
-    text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 20px 0 5px;
+text-transform: uppercase;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.1;
+margin: 20px 0 5px;
 }
 
 .section-title p {
-    text-transform: uppercase;
-    color: #aaa;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.6;
-    border-bottom: 1px solid #dfdfdf;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
+text-transform: uppercase;
+color: #aaa;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.6;
+border-bottom: 1px solid #dfdfdf;
+padding-bottom: 20px;
+margin-bottom: 10px;
 }
 
 .portbox {
@@ -232,13 +241,13 @@ header a:hover {
 }
 
 .portbox h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.1;
-    text-decoration: none;
-    text-align: center;
-    margin: 20px 0 10px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;  
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0 10px;
 }
 
 .portbox h3 a {
@@ -254,25 +263,25 @@ header a:hover {
     padding: 0 15px;
 }
 
-.postbox h3 {
-    margin: 20px 0 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.postbox h3{
+    margin:20px 0 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.1;
     color: #000;
 }
 
-.postbox h3 a {
+.postbox h3 a{
     color: #000;
 }
 
-.postbox h3 a:hover {
-    text-decoration: none;
+.postbox h3 a:hover{
+    text-decoration:none;
 }
 
 .postbox p {
-    font-size: 14px;
+    font-size:14px ;
     font-weight: 400;
     line-height: 1.5;
     color: #606060;
@@ -289,18 +298,18 @@ header a:hover {
 
 
 
-.hometa a {
+.hometa  a {
     color: #f4473a;
 }
 
 
-.hometa a:hover {
-    text-decoration: none;
+.hometa  a:hover {
+text-decoration: none;
     color: #000;
 }
 
 #bottom {
-    color: #aaa;
+    color:#aaa ;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -308,27 +317,27 @@ header a:hover {
     padding: 20px 0 40px;
 }
 
-#bottom h3 {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.1;
-    padding: 10px 0;
-    margin: 20px 0 10px;
+#bottom  h3{
+   text-transform: uppercase;
+   color:#fff;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.1;
+   padding: 10px 0;
+   margin:20px 0 10px;
 }
 
 #bottom p {
-    padding: 5px 0;
-    margin: 0;
+    padding: 5px 0 ;
+    margin:0;
 }
 
-#bottom li {
-    list-style: none;
-    border-bottom: 1px dotted rgba(255, 255, 255, .2);
-    line-height: 18px;
-    height: 100%;
-    padding: 7px 0;
+#bottom  li {
+   list-style: none;
+   border-bottom: 1px dotted rgba(255,255,255,.2);  
+   line-height: 18px;
+   height: 100%;
+   padding: 7px 0;
 }
 
 #bottom ul {
@@ -336,14 +345,14 @@ header a:hover {
 }
 
 #bottom a {
-    color: #aaa;
-    text-decoration: none;
-    line-height: 18px;
+  color: #aaa;
+  text-decoration: none;
+  line-height: 18px;  
 }
 
 #bottom a:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .botwid {
@@ -353,7 +362,7 @@ header a:hover {
 #footer {
     display: flex;
     align-items: center;
-    color: #eee;
+    color:#eee;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.6;
@@ -361,9 +370,10 @@ header a:hover {
 }
 
 #footer a {
-    color: #eee;
+    color:#eee;
 }
 
 #footer a:hover {
     text-decoration: none;
 }
+
