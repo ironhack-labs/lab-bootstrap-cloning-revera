@@ -154,6 +154,8 @@ header a:hover {
     color:#fff;
     text-align: center;
     padding: 40px 0;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
 }
 
 #widgets span{
@@ -167,8 +169,6 @@ header a:hover {
     text-align: center;
     margin: 0px auto;
     font-size: 20px;
-   
-
 }
 
 #widgets h3{
@@ -192,5 +192,109 @@ header a:hover {
 #widgets p a:hover{
     color:#000;
     text-decoration: none;
+}
+
+#content > .container {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+.section-title {
+    padding: 0 15px 20px;
+}
+
+.section-title h2 {
+text-transform: uppercase;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.1;
+margin: 20px 0 5px;
+}
+
+.section-title p {
+text-transform: uppercase;
+color: #aaa;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.6;
+border-bottom: 1px solid #dfdfdf;
+padding-bottom: 20px;
+margin-bottom: 10px;
+}
+
+.portbox {
+    padding: 0 15px;
+}
+
+.portbox h3 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;  
+  text-decoration: none;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.portbox h3 a {
+    color: #000;
+}
+
+.portbox h3 a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.postbox {
+    padding: 0 15px;
+}
+
+.postbox h3{
+    margin:20px 0 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #000;
+}
+
+.postbox h3 a{
+    color: #000;
+}
+
+.postbox h3 a:hover{
+    text-decoration:none;
+}
+
+.postbox p {
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #606060;
+}
+
+.hometa {
+    color: #606060;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+.hometa  a {
+    color: #f4473a;
+}
+
+
+.hometa  a:hover {
+text-decoration: none;
+    color: #000;
 }
 
