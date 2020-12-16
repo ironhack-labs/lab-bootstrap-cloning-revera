@@ -1,5 +1,6 @@
 body {
     font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -59,7 +60,7 @@ header a:hover {
 
 #widgets {
     height: 314px;
-    background-color:#ed564b;
+    background-color: #ed564b;
 }
 
 #content {
@@ -151,14 +152,14 @@ header a:hover {
 }
 
 #widgets {
-    color:#fff;
+    color: #fff;
     text-align: center;
     padding: 40px 0;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
 }
 
-#widgets span{
+#widgets span {
     border: 5px solid #fff;
     background: transparent;
     width: 70px;
@@ -171,33 +172,33 @@ header a:hover {
     font-size: 20px;
 }
 
-#widgets h3{
+#widgets h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 1.1;
     margin: 20px 0 10px;
 }
 
-#widgets p{
+#widgets p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
-#widgets p a{
+#widgets p a {
     color: #ed564b;
 }
 
-#widgets p a:hover{
-    color:#000;
+#widgets p a:hover {
+    color: #000;
     text-decoration: none;
 }
 
-#content > .container {
-  display: flex;
- flex-direction: column;
-  justify-content: center;
+#content>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     padding: 0;
 }
@@ -207,23 +208,23 @@ header a:hover {
 }
 
 .section-title h2 {
-text-transform: uppercase;
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 1.1;
-margin: 20px 0 5px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 20px 0 5px;
 }
 
 .section-title p {
-text-transform: uppercase;
-color: #aaa;
-font-size: 14px;
-font-weight: 700;
-line-height: 1.6;
-border-bottom: 1px solid #dfdfdf;
-padding-bottom: 20px;
-margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .portbox {
@@ -231,13 +232,13 @@ margin-bottom: 10px;
 }
 
 .portbox h3 {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.1;  
-  text-decoration: none;
-  text-align: center;
-  margin: 20px 0 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0 10px;
 }
 
 .portbox h3 a {
@@ -253,25 +254,25 @@ margin-bottom: 10px;
     padding: 0 15px;
 }
 
-.postbox h3{
-    margin:20px 0 10px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+.postbox h3 {
+    margin: 20px 0 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.1;
     color: #000;
 }
 
-.postbox h3 a{
+.postbox h3 a {
     color: #000;
 }
 
-.postbox h3 a:hover{
-    text-decoration:none;
+.postbox h3 a:hover {
+    text-decoration: none;
 }
 
 .postbox p {
-    font-size:14px ;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: #606060;
@@ -288,24 +289,71 @@ margin-bottom: 10px;
 
 
 
-.hometa  a {
+.hometa a {
     color: #f4473a;
 }
 
 
-.hometa  a:hover {
-text-decoration: none;
+.hometa a:hover {
+    text-decoration: none;
     color: #000;
 }
 
 #bottom {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
     border-top: 5px solid #ed564b;
+    padding: 20px 0 40px;
+}
+
+#bottom h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 10px 0;
+    margin: 20px 0 10px;
+}
+
+#bottom p {
+    padding: 5px 0;
+    margin: 0;
+}
+
+#bottom li {
+    list-style: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    line-height: 18px;
+    height: 100%;
+    padding: 7px 0;
+}
+
+#bottom ul {
+    padding: 0;
+}
+
+#bottom a {
+    color: #aaa;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+#bottom a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.botwid {
+    padding: 0 15px;
 }
 
 #footer {
     display: flex;
     align-items: center;
-    color:#eee;
+    color: #eee;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.6;
@@ -313,10 +361,9 @@ text-decoration: none;
 }
 
 #footer a {
-    color:#eee;
+    color: #eee;
 }
 
 #footer a:hover {
     text-decoration: none;
 }
-
