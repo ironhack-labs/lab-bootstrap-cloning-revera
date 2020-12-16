@@ -9,7 +9,7 @@
     height: 550px;
 }
 #info{
-    height: 224px;
+    height: 304px;
     padding: 40px 0px;
     background-color: #ed564b;
     border-top: 5px solid #f96b61;
@@ -91,6 +91,40 @@
     text-align: center;
     color: white;
     font-size: 1.2rem;
+}
+
+.infos{
+    color: white;
+    display: block;
+    text-align: center;
+}
+.infos > .circle{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.red-abnd-p{
+    font-size: 14;
+}
+
+#black-link{
+    color: #f96b61;
+}
+#black-link:hover {
+    color:black;
+    text-decoration: none;
 }
 
 .card-body{
