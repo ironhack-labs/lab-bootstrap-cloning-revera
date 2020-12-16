@@ -54,6 +54,7 @@ header a:hover {
 
 #slider-section {  
     position: relative;
+    overflow: hidden;
     height: 550px;
 }
 
@@ -68,22 +69,22 @@ header a:hover {
 }
 
 #widgets {
-    height: 314px;
+    min-height: 314px;
     background-color:#ed564b;
 }
 
 #content {
-    height: 1118px;
+    min-height: 1118px;
 }
 
 #bottom {
-    height: 350px;
+    min-height: 350px;
     background-color: #3b3b3b;
 }
 
 #footer {
-    height: 78px;
-    background-color: #292929;
+   min-height: 78px;
+   background-color: #292929;
 }
 
 .carousel-control-prev {
@@ -118,10 +119,6 @@ header a:hover {
 
 #slider img {
     filter: grayscale(100%);
-}
-
-#slider {
-    z-index: -1;
 }
 
 .carousel-item {
@@ -204,11 +201,11 @@ header a:hover {
     text-decoration: none;
 }
 
-#content > .container {
-  display: flex;
- flex-direction: column;
-  justify-content: center;
-    height: 100%;
+#content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 1118px;
     padding: 0;
 }
 
