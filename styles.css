@@ -1,3 +1,10 @@
+html, body{
+    font-size: 100%;
+}
+
+li, a{
+    list-style: none;
+}
 
 #nav{
     height: 90px;
@@ -20,22 +27,25 @@
     padding: 20px 0px 40px 0px;
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
+    color: white;
+    display: block;
 }
 #footer{
     height: 78px;
     padding: 10px 0px;
     background: #292929;
     font-size: 12px;
+    color: white;
 }
 
 .navbar, #home{
     text-decoration: none;
-    list-style: none;
+    align-items: flex-end;
 }
 
 .navbar{
     margin-top: 40px;
-    margin-bottom: -12px;
+    margin-bottom: -6px;
 }
 
 .navbar-brand{
@@ -69,7 +79,7 @@
 }
 
 .b-w{
-    filter: grayscale(100%);
+    filter: grayscale(99%);
 }
 
 .carousel-texture{
@@ -93,6 +103,10 @@
     font-size: 1.2rem;
 }
 
+.btn{
+    border-radius: 0px;
+}
+
 .infos{
     color: white;
     display: block;
@@ -113,6 +127,7 @@
 
 h3{
     font-size: 24px;
+    margin-top: 10px;
 }
 
 .red-abnd-p{
@@ -149,7 +164,36 @@ h1{
     color: #f4473a;
 }
 
-.card-body a:hover {
+.card-body a:hover{
     color: black;
     text-decoration: none;
   }
+
+#bootom ul{
+    padding: 0px;
+}
+
+.bootcol ul{
+    list-style-type: none;
+}
+
+.underline-dot{
+    border-bottom: 1px dotted white;
+}
+
+.underline-dot > a{
+    color: white ;
+}
+
+.underline-dot > a:hover{
+    text-decoration: none;
+}
+
+.revera-footer{
+    color: white;
+}
+
+.revera-footer:hover{
+    text-decoration: none;
+    color: white;
+}
