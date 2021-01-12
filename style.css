@@ -17,8 +17,26 @@ width:100%;
     padding: 20px 0px 40px 0px;
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
-    color: white;
+    color: #aaa;
 }
+
+.container-infoweb ul li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;
+}
+
+
+.container-infoweb li {
+    list-style-type: none;
+    color: #aaa;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
 
 .container-copyright{
     padding: 10px 0px;
@@ -89,20 +107,3 @@ h2{
     text-align: center;
 }
 
-.container-infoweb ul li {
-    height: 100%;
-    line-height: 18px;
-    clear: left;
-    list-style-type: none;
-    color: #aaa;
-}
-
-
-
-.container-infoweb li {
-    list-style-type: none;
-    color: #aaa;
-    margin: 0;
-    padding: 0px 0px;
-    border-bottom: 1px dotted rgba(255,255,255,.2);
-}
