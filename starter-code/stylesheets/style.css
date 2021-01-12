@@ -1,0 +1,49 @@
+/*Colors
+Menu Red: #ED564B
+Menu Grey: #777
+*/
+
+
+img {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin: 25px 100px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 25px 100px
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #777;
+}
+
+.menu a:hover {
+    color: #ED564B
+}
+
+
