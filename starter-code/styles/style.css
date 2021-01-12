@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.revera-title a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav-bar li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
