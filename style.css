@@ -3,8 +3,12 @@ background-color: white;
 }
 
 .containerbar{
-   position: relative;
-   margin-top: 100px;
+  /* position: relative;
+   margin-top: 100px; */
+
+    text-align:center;
+    color: white;
+    display:flex;
 }
 
 
