@@ -25,16 +25,27 @@
     margin-right: 10px;
 }
 
+.nav-bar a {
+    text-decoration: none;
+    color: #777;
+}
+
+.selected {
+    color: #ed564b !important;
+}
+
 img {
     width: 100%;
 }
 
-.greyscale {
+.overlay {
+    background: url(../img/overlay.png);
     position: absolute;
-}
-
-.greyscale img {
-    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
 }
 
 .hero-description {
@@ -43,6 +54,8 @@ img {
     background-size: cover;
     background-position: center center;
     padding: 80px 0;
+    filter: grayscale(1);
+    color: white;
 }
 
 .hero-description h1,
@@ -50,10 +63,12 @@ img {
     text-align: center;
     max-width: 800px;
     margin: auto;
+    z-index: 120;
 }
 
 .hero-description a {
-    border: 2px solid black;
+    border: 2px solid white;
+    color: white;
     text-align: center;
     display: block;
     width: 150px;
@@ -101,6 +116,7 @@ img {
 .latest-articles {
     padding-top: 50px;
     border-bottom: 5px solid #f96b61;
+    padding-bottom: 20px;
 }
 
 .latest-projects h4,
