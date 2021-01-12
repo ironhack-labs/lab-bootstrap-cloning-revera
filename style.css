@@ -70,7 +70,7 @@ h5{
     text-align: center;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -60%);
 }
 
 
@@ -81,7 +81,7 @@ h5{
     text-align: center;
     top: 100%;
     left: 50%;
-    transform: translate(-70%, -70%);
+    transform: translate(-30%, -30%);
 }
 
 .icon{
