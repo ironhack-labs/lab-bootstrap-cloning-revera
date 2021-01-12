@@ -19,6 +19,16 @@ background-color: white;
     color: grey;
 }
 
+.navbar a:hover {
+    background: #ddd;
+    color:red;
+  }
+   
+
+
+
+
+
 
 .container-webs{
     padding: 40px 0px;
