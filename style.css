@@ -3,7 +3,6 @@ background-color: white;
 width:100%;
 }
 
-
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
@@ -88,14 +87,4 @@ h7{
 
 h2{
     text-align: center;
-}
-
-h3,h4{
-    text-align: center;
-    line-height: 2em;
-    font-size: 2em;
-    letter-spacing: 0.4px;
-    margin-bottom: 15px;
-    line-height: 1em;
-    margin-left:4%;
 }
