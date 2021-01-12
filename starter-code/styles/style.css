@@ -111,6 +111,7 @@ img {
 
 .useful-links {
     background-color: #3b3b3b;
+    padding-top: 20px;
 }
 
 .useful-links h5 {
@@ -143,14 +144,21 @@ img {
 .copyright {
     background-color: #292929;
     color: white;
+    padding-top: 10px;
+    font-size: 0.8em;
 }
 
 .uppercase {
     text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
 }
 
 .graytext {
     color: #aaa;
+}
+
+.smaller {
+    font-size: 0.8em;
 }
 
 @media (max-width:900px) {
