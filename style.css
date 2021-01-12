@@ -3,36 +3,6 @@ background-color: white;
 width:100%;
 }
 
-.transparencia{
-    position:absolute;
-    height:200px;
-    width:200px;
-    top: 40px;
-    left : 40px;
-    z-index: 1;
-  }
-  
-  .dogcat
-  {
-    position:absolute;
-    height:300px;
-    width:300px;
-    z-index: -1;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container-webs{
     padding: 40px 0px;
