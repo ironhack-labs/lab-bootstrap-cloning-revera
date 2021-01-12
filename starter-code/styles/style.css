@@ -59,6 +59,19 @@ p {
     background-color: #ed564b;
     padding: 80px 0;
     text-align: center;
+    color: white;
+}
+
+.hero-features h2 {
+    margin-top: 15px;
+}
+
+.hero-features p {
+    margin-bottom: 20px;
+}
+
+.hero-features article {
+    box-sizing: border-box;
 }
 
 .icon-glass2,
