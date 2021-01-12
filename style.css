@@ -89,3 +89,10 @@ h7{
 h2{
     text-align: center;
 }
+
+h3,h4{
+    text-align: center;
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 4em;
+}
