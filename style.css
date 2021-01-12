@@ -2,55 +2,6 @@ body {
 background-color: white;
 }
 
-
-
-a.frmore {
-    background: rgba(255,255,255,0.2);
-    display: block;
-    text-transform: uppercase;
-    color: #fff;
-    width: 150px;
-    border: 1px solid #fff;
-    padding: 5px 0px;
-    margin: 10px auto;
-    font-weight: bold;
-    color: #fff;
-}
-
-#slidebox {
-    max-height: 550px;
-    position: relative;
-    background: #000;
-}
-
-.carousel-slide {
-    margin: 0 0 0px;
-    zoom: 1;
-}
-.carousel-slide {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
