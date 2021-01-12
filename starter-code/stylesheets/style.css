@@ -1,6 +1,7 @@
 /*Colors
 Menu Red: #ED564B
 Menu Grey: #777
+Section Grey: #AAA
 */
 
 
@@ -92,8 +93,8 @@ img {
     background-color: #ED564B;
     color: white;
     padding: 75px 0;
-    border-top: solid 5px #f96b61;
-    border-bottom: solid 5px #f96b61; 
+    border-top: solid 5px #F96B61;
+    border-bottom: solid 5px #F96B61; 
 }
 
 .section1 img{
@@ -124,12 +125,81 @@ img {
 
 /***********************************SECTION 2*************************************/
 
+.section2 {
+    padding: 75px 0;
+    border-bottom: solid 5px #F96B61;;
+}
+
+.section2 h4 {
+    color: #AAA;
+}
+
+.section2-center  {
+    text-align: center;
+}
+
+.section2 a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #F4473A;
+}
+
+.section2 a:hover {
+    color: black;
+}
+
+
+/************************************FOOTER***************************************/
+
+footer {
+    padding: 75px 0;
+    background-color: #3B3B3B;
+}
+
+footer p, footer a {
+    color: #AAA;
+}
+
+footer h6 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li {
+    padding-bottom: 5px; 
+    margin-bottom: 6px;
+    border-bottom: dotted 1px #AAA;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/*********************************FINAL SECTION**********************************/
+
+.final-section {
+    background-color: #292929;
+    color: #EEE;
+    font-weight: 400;    
+}
+.final-section p {
+    margin: 0;
+    padding: 10px 0;
+}
 
 
 
 
 
-
+.hr-dotted-style{
+    border-top: solid 1px #aaa;
+}
 
 .uppercase {
     text-transform: uppercase;
