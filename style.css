@@ -65,13 +65,10 @@ h5{
 
 .Text-carrusel{
     position: absolute;
-    /*margin: -300px 150px 70px 70px;*/
     font-size: 1.5em;
     color: white;
     text-align: center;
-
-    display: inline-block;
-    top: 90%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
