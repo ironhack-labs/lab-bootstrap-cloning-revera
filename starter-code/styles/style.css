@@ -24,3 +24,17 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+img {
+    width: 100%;
+}
+
+.hero {
+    max-height: 550px;
+}
+
+.hero-description {
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
