@@ -29,6 +29,14 @@ img {
     width: 100%;
 }
 
+.greyscale {
+    position: absolute;
+}
+
+.greyscale img {
+    border-width: 2px;
+}
+
 .hero-description {
     background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
@@ -85,9 +93,14 @@ img {
     margin-bottom: 10px;
 }
 
-.latest-projects,
+.latest-projects {
+    padding-top: 50px;
+    border-top: 5px solid #f96b61;
+}
+
 .latest-articles {
     padding-top: 50px;
+    border-bottom: 5px solid #f96b61;
 }
 
 .latest-projects h4,
@@ -96,8 +109,48 @@ img {
     font-size: 0.9em;
 }
 
+.useful-links {
+    background-color: #3b3b3b;
+}
+
+.useful-links h5 {
+    color: white;
+}
+
+.meta-list ul {
+    padding-left: 0;
+}
+
+.meta-list li {
+    list-style: none;
+}
+
+.meta-list a {
+    color: #aaa;
+}
+
+.meta-list hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #aaa;
+    border-top: 0.05em solid #aaa;
+}
+
+.archives {
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: #292929;
+    color: white;
+}
+
 .uppercase {
     text-transform: uppercase;
+}
+
+.graytext {
+    color: #aaa;
 }
 
 @media (max-width:900px) {
