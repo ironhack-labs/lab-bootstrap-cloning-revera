@@ -88,3 +88,20 @@ h5{
 h2{
     text-align: center;
 }
+
+.container-infoweb ul li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;
+}
+
+
+
+.container-infowebli {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
