@@ -37,4 +37,12 @@ img {
     background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 100px 0;
+}
+
+.hero-description h1,
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
 }
