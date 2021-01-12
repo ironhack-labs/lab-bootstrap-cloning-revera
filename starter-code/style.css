@@ -1,0 +1,132 @@
+img {
+    width: 100%;
+}
+
+h3, h6{
+    text-transform: uppercase;
+}
+
+h6{
+    color: grey;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 58px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 0.75em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.header{
+    height: 90px;
+}
+
+.header a{
+    text-decoration: none;
+
+}
+
+.revera-button{
+    color: black;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    height: 72px;
+}
+
+.home{
+    color: red;
+}
+.nav-but{
+    color: grey;
+}
+
+.first-section{
+    height: 362px;
+    background-image: url(img/overlay.png);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.read-more{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    transform: 5s;
+}
+
+.read-more:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.second-section{
+    height: 290px;
+    background-color: rgb(248, 68, 68);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    border-top: 5px solid rgb(255, 102, 102);
+    border-bottom: 5px solid rgb(255, 102, 102);
+}
+
+.second-section img{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.latest-proj{
+    margin-top: 40px;
+    height: 340px;
+}
+
+.latest-articles{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 705px;
+
+}
+
+.fourth-section{
+    height: 322px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 5px solid rgb(255, 102, 102);
+    color: white;
+    background-color: grey;
+}
+
+.fourth-section ul{
+    list-style: none;
+}
+
+.fourth-section a{
+    text-decoration: none;
+    text-align: match-parent;
+    color: white;
+}
