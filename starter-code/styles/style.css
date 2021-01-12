@@ -64,6 +64,7 @@ img {
     max-width: 800px;
     margin: auto;
     z-index: 120;
+    position: relative;
 }
 
 .hero-description a {
@@ -77,6 +78,8 @@ img {
     text-transform: uppercase;
     padding: 10px;
     font-weight: 700;
+    z-index: 120;
+    position: relative;
 }
 
 .hero-features {
