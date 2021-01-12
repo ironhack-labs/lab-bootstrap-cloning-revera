@@ -101,6 +101,7 @@ h2{
 
 .container-infoweb li {
     list-style-type: none;
+    color: #aaa;
     margin: 0;
     padding: 0px 0px;
     border-bottom: 1px dotted rgba(255,255,255,.2);
