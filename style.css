@@ -21,6 +21,25 @@ background-color: white;
     height: 100px;
 }
 
+.navbar ul {
+    display: flex; 
+    flex-direction: row; 
+    text-align: center;
+    padding: 25px 25px 25px 25px; 
+    justify-content: flex-start; 
+    list-style: none;
+  }
+  
+  .navbar li{
+    margin:10px;
+    font-weight: 800;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+  }
+
+  
 .navbar a:hover {
     background: #ddd;
     color:red;
