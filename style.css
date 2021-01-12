@@ -3,6 +3,36 @@ background-color: white;
 width:100%;
 }
 
+
+
+
+
+#chistes{
+ position: relative;
+}
+.sobre {
+ position:absolute;
+ top:0px;
+ left:0px;
+ border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-webs{
     padding: 40px 0px;
     background: #ed564b;
@@ -25,20 +55,28 @@ width:100%;
     font-size: 12px;
 }
 
+
 .flexslider .List-slides img {
     width: 100%;
     display: block;
 }
+
+
 
 .garro1{
     display: inline-block;
     height: auto;
     max-width: 100%;
 }
+
+/*
 .garro2{
     height: auto;
     width: 100%;
 }
+*/
+
+
 
 h1 {
     margin-left: 20px;
@@ -58,13 +96,6 @@ h5{
     font-size: 1.2em;
     color:grey;
 }
-
-/*
-h7{
-    font-size: 2em;
-    color:whitesmoke;
-}
-*/
 
 
 .Text-carrusel{
