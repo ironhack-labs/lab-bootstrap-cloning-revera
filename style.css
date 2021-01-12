@@ -49,7 +49,15 @@ background-color: white;
     color:red;
   }
  
- 
+   
+.logo {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
   
 
 /*
