@@ -19,6 +19,8 @@ background-color: white;
     width: 25%;
     margin-left: 70%;
     height: 100px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .navbar ul {
@@ -39,7 +41,7 @@ background-color: white;
     text-decoration: none;
   }
 
-  
+
 .navbar a:hover {
     background: #ddd;
     color:red;
