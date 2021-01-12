@@ -13,9 +13,6 @@ background-color: white;
 
 
 .navbar{
-    margin-left: 250px;
-    margin-bottom: 50px;
-    color: grey;
     overflow: hidden; 
     background-color: white; 
     position: fixed;
@@ -23,13 +20,13 @@ background-color: white;
     width: 25%;
     margin-left: 70%;
     height: 100px;
-    text-decoration: none;
-    list-style: none;
 }
+
 
 .navbar ul {
     display: flex; 
     flex-direction: row; 
+    color: black; 
     text-align: center;
     padding: 25px 25px 25px 25px; 
     justify-content: flex-start; 
@@ -43,8 +40,9 @@ background-color: white;
   
   .navbar ul li a{
     text-decoration: none;
+    color: black;
   }
-
+  
 
 .navbar a:hover {
     background: #ddd;
