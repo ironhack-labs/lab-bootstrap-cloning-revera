@@ -74,13 +74,6 @@ h5{
 }
 
 
-.Text-carrusel2{
-    position: absolute;
-    font-size: 1m;
-    color: white;
-    text-align: center;
-}
-
 .icon{
     display: flex;
     flex-direction: row;
