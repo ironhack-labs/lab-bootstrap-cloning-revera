@@ -81,7 +81,7 @@ h5{
     text-align: center;
     top: 130%;
     left: 50%;
-    transform: translate(-30%, -30%);
+    /*transform: translate(-30%, -30%);*/
 }
 
 .icon{
