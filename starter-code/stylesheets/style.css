@@ -15,7 +15,6 @@ img {
 }
 
 .nav-bar h1 {
-    text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px;
     font-size: 35px;
@@ -46,4 +45,41 @@ img {
     color: #ED564B
 }
 
+.hero {
+    background-image: url(../img/slider-1.jpg), url(../img/overlay.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    color: white;
+}
+
+.hero a {
+    display: block;
+}
+
+.hero h2, p {
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.button {
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.uppercase {
+    text-transform: uppercase;
+    padding: 5px 30px;
+}
 
