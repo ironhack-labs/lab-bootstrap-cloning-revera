@@ -92,6 +92,10 @@ h2{
 
 h3,h4{
     text-align: center;
-    text-align: center;
     line-height: 2em;
+    font-size: 2em;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+    line-height: 1em;
+    margin-left:4%;
 }
