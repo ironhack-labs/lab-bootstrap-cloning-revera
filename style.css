@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: white;
+}
+/*como mudar a cor toda branca?*/
+
+.navbar-brand {
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+#navbarDropdownMenuLink {
+  /*como tiro aquele triângulo?*/
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item {
+  font-size: 15px;
+  margin: 0 -190px;
+  margin-left: 200px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.carousel-item {
+  background-image: url("./starter-code/img/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item::after {
+  content: "";
+  background: url("./starter-code/img/overlay.png");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+#carouselExampleIndicators {
+  filter: grayscale(100%);
+  size: 80%;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 15%;
+}
+
+.carousel-caption {
+  margin: 100px 20px;
+}
+
+.carousel-caption > h5 {
+  font-size: 35px;
+}
+
+.col-md {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  background: #f74b48;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+/*COMO ESTENDER ISSO AQUIIIIIII*/
+
+.row > p {
+  align-items: center;
+}
+
+.col-md-3 > h4,
+h2 {
+  white-space: nowrap;
+}
+
+.col-md-4 {
+  white-space: nowrap;
+}
