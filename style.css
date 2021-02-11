@@ -80,3 +80,83 @@ h1 {
     opacity: 1;
 }
 
+section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.main-description {
+    border: 5px solid #f96b61;
+    background-color: #ed564b;
+    color: #fff;
+    text-align: center;
+}
+
+.container .row,
+.container > h3,
+.container > p {
+    margin: 0 -40px;   
+}
+
+.main-description .col-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 .7rem;
+}
+
+.main-description p {
+    font-size: .9rem;
+}
+
+.container > h3,
+.container > p {
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.container > hr {
+    margin: 2rem 0 2rem -25px;
+}
+
+.container .card {
+    width: 16rem;
+    border: 0;
+}
+
+.container .card-body {
+    padding: 1.25rem 0;
+}
+.container a {
+    font-size: .9rem;
+    text-decoration: none;  
+    color: #000;  
+}
+
+.projects .card-body {    
+    text-align: center;
+}
+
+.articles .card-img-top {
+    width: 250px;
+    height: 140px;
+}
+
+.articles span,
+.articles time {
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.articles span {    
+    color: #606060;
+}
+
+.articles time {
+    color: #f4473a;    
+}
+
+.articles p {
+    font-size: .93rem;
+    /* text-align: justify; */
+}
