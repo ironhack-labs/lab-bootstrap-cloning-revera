@@ -14,6 +14,20 @@ nav {
     color: #777;
 }
 
+
+#navbarDropdownMenuLink+div,
+#navbarDropdownMenuLink+div hr {
+    margin: 0;
+    padding: 0;
+}
+
+#navbarDropdownMenuLink+div a {
+    margin: 0;
+    padding: 10px 15px;
+    font-size: .8rem;
+    color: #777;
+}
+
 #navbarNavDropdown .nav-link:hover,
 .nav-link#nav-home {
     color: #ed564b;
@@ -120,7 +134,7 @@ section {
 }
 
 .container .card {
-    width: 16rem;
+    max-width: 16rem;
     border: 0;
 }
 
@@ -158,5 +172,46 @@ section {
 
 .articles p {
     font-size: .93rem;
-    /* text-align: justify; */
+     text-align: justify;
+}
+
+footer,
+footer .card,
+footer .list-group-item,
+.list-group-item a {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+footer {
+    padding: 2.5rem 0;
+    border-top: 5px solid #ed564b;
+}
+
+footer .card,
+footer .card a {
+    color: #fff;
+    font-size: .93rem;
+}
+
+footer .card p,
+footer .card ul {
+    opacity: .6;
+}
+
+
+.my-card-header {
+    padding-bottom: 1rem;
+}
+
+footer .card ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+footer .card li {
+    border-bottom: 1px dotted #fff;
+    padding: 5px 0;
 }
