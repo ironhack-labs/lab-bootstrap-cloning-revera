@@ -1,0 +1,169 @@
+.revera-button {
+    padding-left: 100px;
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background:white;
+}
+
+.nav-link,
+.navbar-brand {
+    color: grey;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #E75042;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.carousel {
+    filter: grayscale(100%);
+    z-index: 1;
+}
+
+/* .overlay { */
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    /* min-width: 100%;
+    min-height: 100%;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-image: url('/lab-bootstrap-cloning-revera/starter-code/img/overlay.png');
+    background-repeat: repeat;
+    z-index: 1;
+} */
+
+h5 {
+    font-size: 40px;
+}
+
+.btn-read-more {
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+}
+
+.widgets {
+    background-color: #E75042;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.widget h3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.widget p {
+    font-size: 13px;
+}
+
+.widget {
+    padding: 20px;
+    line-height: 22px;
+}
+
+span {
+    height: 80px;
+    width: 80px;
+    border: 6px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 20;
+}
+
+.glyphicon {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title {
+    padding-top: 80px;
+}
+
+.title p {
+    color: #bdbbbb;
+    font-weight: 500;
+}
+
+
+.box img {
+    max-width: 160px;
+    height: auto;
+}
+
+.main-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.box {
+    max-width: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box h3 {
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.main-content {
+    /* width: 730px; */
+}
+
+.items {
+    width: 800px;
+}
+
+.main-section-two img {
+    height: 
+}
+
+.bottom {
+    background-color: #3e4042;
+    color: hsl(210, 4%, 79%);
+    font-weight: 100;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.bottom h3 {
+    color: white;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.foot {
+    color: white;
+    background-color: #343536;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
