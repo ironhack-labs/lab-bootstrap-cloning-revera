@@ -1,14 +1,15 @@
 .header {
-    width: 100%;
-    height: 100px;
+    /*width: 100%;
+    height: 100px;*/
     background-color: white;
-
 }
 
 .header__nav {
-    padding-top: 3rem;
+    padding: 2.5rem 3rem;
+    margin-right: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .header__nav__webname {
@@ -16,19 +17,111 @@
     font-weight: bold;
     color: black;
 
+
 }
 
 .header__nav__menu {
     display: inline-flex;
-    margin-top: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 .header__nav__menu a {
     color: grey;
     list-style: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-decoration: none;
     padding: 0 5px;
+}
+
+.section1 {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url(../starter-code/img/slider-4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.section1__background {
+    width: 700px;
+    height: 262px;
 
 
+}
+
+.section1__background__title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.section1__background__text {
+    color: white;
+    font-size: 0.9rem;
+    align-content: center;
+    padding: 0.6rem 0;
+    line-height: 1.5rem;
+
+
+}
+
+.section1__background__button {
+    background-color: transparent;
+    padding: 0.3rem;
+    align-items: center;
+    border: 0.1rem solid white;
+    padding: 0.6rem 0.6rem;
+}
+
+.section1__background__button__text {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.section2 {
+    height: 314px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secton2__card {
+    width: 250px;
+    height: 800px;
+}
+
+.section2__card__title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section2__card__text {
+    color: white;
+    font-size: 0.8rem;
+    align-content: center;
+    padding: 0.6rem 0;
+    line-height: 1.3rem;
+}
+
+.fa-glass-martini {
+    color: white;
+    padding-bottom: 0.6rem;
+}
+
+.fa-star {
+    color: white;
+    padding-bottom: 0.6rem;
+}
+
+.fa-heart {
+    color: white;
+    padding-bottom: 0.6rem;
 }
