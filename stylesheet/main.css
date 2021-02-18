@@ -2,3 +2,7 @@ html {
     font-size: 16px;
     font-family: sans-serif;
 }
+
+.hr {
+    border: dotted;
+}

@@ -125,3 +125,138 @@
     color: white;
     padding-bottom: 0.6rem;
 }
+
+.section3 .section4 {
+    background-color: white;
+}
+
+.section3 {
+    height: auto;
+    width: auto;
+
+}
+
+.section4 {
+    width: 100%;
+    height: 550px;
+}
+
+.section3__title,
+.section4__title {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    margin-left: 4.2rem;
+}
+
+.section3__subtitle,
+.section4__subtitle {
+    font-size: 1rem;
+    color: #AAAA;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    margin-left: 4.2rem;
+}
+
+.section3__cards__container,
+.section4__cards__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center;*/
+
+}
+
+.section3__card,
+.section4__card {
+    width: 270px;
+    height: 225px;
+}
+
+.section3__card__img,
+.section4__card__img {
+    width: 270px;
+    height: 180px;
+}
+
+.section3__card__text {
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.section4__card {}
+
+.section4__card__title,
+.section4__card__text {
+    color: black;
+    font-size: 0.8rem;
+    text-align: left;
+    justify-content: center;
+}
+
+.section4__card__subtitle {
+    font-size: 0.8rem;
+    color: #AAAA;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+
+}
+
+.footer {
+    background-color: #292929;
+}
+
+.footer__cards__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+
+
+}
+
+.footer__card {
+    width: 270px;
+    height: auto;
+}
+
+.footer__card__title {
+    color: white;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.footer__card__content {
+    color: #AAAA;
+    font-size: 0.8rem;
+    text-align: left;
+    justify-content: center;
+    line-height: 1rem;
+}
+
+.footer__card__list {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.footer__card__list__name {
+    color: #AAAA;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.footer__card__link {
+    color: #AAAA;
+    text-align: left;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
