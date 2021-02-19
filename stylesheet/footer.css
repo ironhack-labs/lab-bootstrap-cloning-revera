@@ -1,0 +1,42 @@
+.footer {
+    background-color: #292929;
+}
+
+.footer__cards__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+
+}
+
+.footer__card {
+    width: 270px;
+    height: auto;
+}
+
+.footer__card__title {
+    color: white;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.footer__card__content {
+    color: #AAAA;
+    font-size: 0.8rem;
+    text-align: left;
+    justify-content: center;
+    line-height: 1rem;
+}
+
+.footer__card__list {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.footer__card__list__name {
+    color: #AAAA;
+    font-size: 0.8rem;
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+.section1 {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url(../starter-code/img/slider-4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.section1__background {
+    width: 700px;
+    height: 262px;
+
+}
+
+.section1__background__title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.section1__background__text {
+    color: white;
+    font-size: 0.9rem;
+    align-content: center;
+    padding: 0.6rem 0;
+    line-height: 1.5rem;
+
+
+}
+
+.section1__background__button {
+    background-color: transparent;
+    padding: 0.3rem;
+    align-items: center;
+    border: 0.1rem solid white;
+    padding: 0.6rem 0.6rem;
+}
+
+.section1__background__button__text {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
