@@ -1,0 +1,37 @@
+.footer--alignment {
+    background-color: rgb(58, 56, 56);
+    border-top: rgba(230, 96, 96, 1) solid 8px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.footer--alignment h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.footer--alignment p {
+    color: gainsboro;
+}
+
+.section1 {
+    margin: 50px;
+}
+
+.section2 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 {
+    margin: 50px;
+    text-decoration: none;
+}
+
+.section4 {
+    margin: 50px;
+}

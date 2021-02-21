@@ -1,4 +1,6 @@
 
+/*I couldn't figure out how to remove the inflation of the overlay and maintain the cuadros smaller (spanglish)*/
+
 .landing__image {
     background-image: url("/Users/lindavilla/Documents/GitHub/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
     height: 75vh;
@@ -18,3 +20,20 @@
 .Articles img {
     width: 200px;
 }
+
+
+/*Latest Projects Images */
+
+.projects__images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.content img{
+    width:270px;
+    height:180;
+}
+
