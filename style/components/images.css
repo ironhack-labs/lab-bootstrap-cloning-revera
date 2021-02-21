@@ -1,0 +1,19 @@
+.section--size {
+    height: 600px;
+    
+}
+
+
+.landing__image {
+    background-image: url("/Users/lindavilla/Documents/GitHub/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+.img {
+    width: 100%;
+}
+
+.Articles img {
+    width: 200px;
+}
