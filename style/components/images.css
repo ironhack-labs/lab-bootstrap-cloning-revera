@@ -1,18 +1,19 @@
-.section--size {
-    height: 600px;
-    
-}
-
 
 .landing__image {
     background-image: url("/Users/lindavilla/Documents/GitHub/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
-    height: 500px;
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
     filter: grayscale(100%);
 }
 
-.img {
+.overlay {
+    height: 75vh;
     width: 100%;
 }
+
 
 .Articles img {
     width: 200px;
