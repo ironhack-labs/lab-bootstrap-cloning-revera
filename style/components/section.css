@@ -20,20 +20,53 @@
 .projects__content{
     padding-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.projects__content div {
+    width: 22.5%;
+    text-align: center;
+}
+
+.projects__content img {
+    margin-bottom: 18px;
 }
 
 .projects__content span {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
-    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.articles__content{
+    padding-top: 10px;
     display: flex;
+    justify-content: space-around;
+}
+
+
+.articles__content div {
+    width: 22.5%;
+}
+
+.articles__content span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
     width: 75%;
 }
 
-.projects__content p {
+.articles__content p {
     width: 75%;
     color: gray;
     padding-top: 15px;
+}
+
+.red {
+    color:red;
 }
 
