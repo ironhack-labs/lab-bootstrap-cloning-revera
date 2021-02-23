@@ -1,0 +1,39 @@
+
+.content {
+    padding: 40px 60px;
+    
+}
+
+.content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.subtitles {
+    color: gray;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.projects__content{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects__content span {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    width: 75%;
+}
+
+.projects__content p {
+    width: 75%;
+    color: gray;
+    padding-top: 15px;
+}
+

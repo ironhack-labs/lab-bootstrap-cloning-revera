@@ -4,28 +4,30 @@
 
 .nav-bar {
    width: 100%;
-   height: 200px;
+   height: 150px;
    align-items: center;
    display: flex;
    justify-content: space-around;
-   
+   justify-content: left;
 
 } 
-
-
 
 
 
 /*------------------Elements --------------*/
 
 .nav__img {
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
 
 
 /*------------------Modifiers -------------*/
+
+.nav-bar ul {
+    padding-left: 250px;
+}
 
 ul li{
     list-style: none;
@@ -40,4 +42,7 @@ ul a {
     align-items: baseline;
 }
 
+.home a {
+    color: red;
+}
 

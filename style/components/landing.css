@@ -17,13 +17,21 @@
     font-size: 32px;
     font-weight: normal;
     padding-bottom: 40px;
-    align-items: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 
 }
 
+
 .landingtext--style p {
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 50px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 80%;
 
 }
 
@@ -62,47 +70,4 @@
     margin: 0 40px;
     font-size: 15px;
     line-height: 30px;
-}
-
-.content {
-    padding: 40px 60px;
-    
-}
-
-.content h3 {
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 10px;
-
-}
-
-.subtitles {
-    color: gray;
-    padding-top: 20px;
-    font-size: 15px;
-}
-
-.projects__content {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.projects__content span {
-    font-size: 12px;
-    font-weight: bold;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 75%;
-}
-
-.projects__content p {
-    width: 75%;
-    color: gray;
-    padding-top: 15px;
 }

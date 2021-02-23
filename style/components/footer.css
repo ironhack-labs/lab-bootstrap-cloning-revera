@@ -1,9 +1,11 @@
 .footer--alignment {
     background-color: rgb(58, 56, 56);
     border-top: rgba(230, 96, 96, 1) solid 8px;
-    height: 200px;
+    height: 350px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
    
 }
 
@@ -17,21 +19,75 @@
     color: gainsboro;
 }
 
-.section1 {
-    margin: 50px;
+.section {
+  width: 22.5%;
 }
+
+.special {
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
 
 .section2 {
-    margin: 50px;
+   /* padding-top: 55px;*/
+}
+.section ul {
+    /*padding-top: 10px;*/
     display: flex;
     flex-direction: column;
+   /* width: 200px;*/
 }
 
+.section li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: gray dotted 1px;
+}
+
+
 .section3 {
-    margin: 50px;
+    /*margin: 50px;*/
     text-decoration: none;
 }
 
-.section4 {
-    margin: 50px;
+.section span a {
+    color: gray;
+    text-decoration: none;
+    border-bottom: gray dotted 1px;
+
+
+}
+
+
+.section4 ul {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  /*  width: 275px;*/
+}
+
+.section4 li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: gray dotted 1px;
+    display: flex;
+    justify-content: left;
+}
+
+.section1 p {
+    padding-top: 10px;
+}
+
+.subfooter {
+    background-color:rgb(22,21,21);
+    height: 100px;
+    color: white;
+    font-size: 12px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
 }

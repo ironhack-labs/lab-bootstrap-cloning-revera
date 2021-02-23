@@ -1,6 +1,7 @@
 html {
     font-family:sans-serif;
     display: flex;
+    max-width: 100%;
 }
 
 hr{

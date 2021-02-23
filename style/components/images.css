@@ -4,11 +4,12 @@
 .landing__image {
     background-image: url("/Users/lindavilla/Documents/GitHub/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
     height: 75vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
     filter: grayscale(100%);
+    max-width: 100%;
 }
 
 .overlay {
@@ -19,6 +20,7 @@
 
 .Articles img {
     width: 200px;
+    display: flex;
 }
 
 
@@ -30,10 +32,11 @@
     align-items: center;
     justify-content: center;
     padding-left: 30px;
+    width: 75%;
 }
 
 .content img{
     width:270px;
-    height:180;
+    height:150px;
 }
 
