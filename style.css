@@ -1,0 +1,82 @@
+
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+}
+.cabecera nav{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.cabecera nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    font-weight: bold;
+}
+
+.container{
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.s0{
+    background-image: url("../lab-bootstrap-cloning-revera/img/project-2.jpg");
+    height: 600px;
+    background-repeat:no-repeat;
+   background-size: cover;
+
+}
+
+.container h1{
+    color: rgb(19, 219, 29);
+    text-decoration: none;
+  
+}
+.container p{
+    color: rgb(103, 26, 165);
+    text-decoration: none;
+   
+}
+
+.imgs1{
+    width: 100px;
+}
+.text {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+
+}
+.s2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.s2div{
+    align-content: center;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+}
+
+.s2img{
+    width: 100%;   
+}
+
+.s3{
+
+    margin-top: 30px;
+    background-color: grey;
+    color: white;
+}
+
+.s4{
+    color: white;
+}
