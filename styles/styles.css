@@ -1,0 +1,57 @@
+
+
+.margintop {
+    margin-top: 50px;
+}
+
+.titleblack {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fwidgets {
+    padding-top: 50px;
+    background-color: rgb(237, 86, 75)
+}
+
+.homewidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.smallHeigth {
+    height: 600px;
+}
+
+.carousel-caption p {
+    font-size: 1.05rem;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption h5 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption {
+    margin-bottom: 50px;
+}
+
+.carousel-caption button {
+    background-color: rgba(128, 128, 128, 0.158);
+    color: white;
+    border-color: white;
+}
