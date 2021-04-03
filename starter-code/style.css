@@ -1,0 +1,58 @@
+:root {
+    --redColor: #ED564B;
+    --darkGrey: #3b3b3b;
+    --lightGrey: #606060;
+    --footer: #292929;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.red-text{
+    color: var(--redColor);
+}
+
+.red-bg{
+    background-color:  var(--redColor);
+}
+
+.darkg-bg{
+    background-color: var(--darkGrey)
+}
+
+.lgrey-font{
+    color: var(--lightGrey)
+}
+
+.darkest{
+    background-color: var(--footer);
+    color: white;
+}
+
+.pad {
+    padding: 35px 20px;
+}
+
+.circle {
+    border: 4px solid white; 
+    border-radius: 50%; 
+    width:60px; 
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.bg-overl{
+    background: repeat url("img/overlay.png");
+}
+
+.opa{
+    opacity: 0.6;
+    filter: grayscale(100);
+}
