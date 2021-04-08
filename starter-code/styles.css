@@ -1,0 +1,25 @@
+#navigation{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+   /*  margin-right: 35rem; */
+}
+h1{
+   /*  margin-left: 20rem; */
+}
+
+#carouselExampleFade img{
+   filter: grayscale(100%);
+}
+
+.articles-item h3{
+   margin-top: 30px;
+}
+.articles-item img{
+   max-width: 100%;
+   height: 204px;
+}
