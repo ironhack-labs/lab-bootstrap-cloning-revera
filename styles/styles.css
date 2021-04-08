@@ -1,4 +1,6 @@
-
+header {
+    margin-top: 0;
+}
 
 .margintop {
     margin-top: 50px;
@@ -11,7 +13,9 @@
 
 .fwidgets {
     padding-top: 50px;
-    background-color: rgb(237, 86, 75)
+    background-color: rgb(237, 86, 75);
+    text-align: center;
+    height: 320px;
 }
 
 .homewidget {
@@ -25,6 +29,7 @@
 .logo {
     height: 60px;
     width: 60px;
+    margin-bottom: 20px;
 }
 
 .smallHeigth {
@@ -54,4 +59,74 @@
     background-color: rgba(128, 128, 128, 0.158);
     color: white;
     border-color: white;
+}
+
+.carousel-nextprev-buttons {
+    max-width: 40px;
+    max-height: 80px;
+    margin-top: 250px;
+    background-color: rgb(235, 62, 50);
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.grayfilter {
+    filter: grayscale(100%);
+}
+
+.section3 {
+    height: 1000px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.section3 h3 {
+    color: grey;
+}
+
+.card {
+    margin: 20px;
+    border: none;
+}
+
+.card-body {
+    padding: 10px 0;
+}
+
+.section4 {
+    height: 400px;
+    background-color: rgb(59, 59, 59);
+    border-top: red solid 3px;
+    font-size: 14px;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+}
+
+.section4-card {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.card-text {
+    list-style-type: none;
+}
+
+.card-text p{
+    padding: 2px;
+    text-align: left;
+    border-bottom: 1px dashed grey;
+}
+
+.footer-div {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
 }
