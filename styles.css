@@ -50,7 +50,7 @@ font-size: 18px;
     padding-left: 15px;
 }
 
- h2 {
+.carousel-caption > h2 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
     line-height: 1.1;
@@ -79,14 +79,69 @@ font-size: 18px;
     height: 100%;
     left: 0px;
     top: 0px;
-    z-index: 100;
 }
 
 .carousel-caption > a {
-    margin-bottom: 90px
+    margin-bottom: 20px
 }
 
 .icon {
     width: 100px;
     margin-bottom: 20px;
+}
+.cards > .container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-wide{
+    margin-top: 40px;
+}
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.section-title > h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-title > p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+.section-wide {
+    display: block
+
+}
+.card{
+    border: none;
+    border-radius: 0px
+}
+
+.cards > .container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-text{
+    margin-top: 20px;
+}
+.h3-card {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 30px;
 }
