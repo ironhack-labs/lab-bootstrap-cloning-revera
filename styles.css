@@ -134,9 +134,16 @@ font-size: 18px;
     margin-right: auto;
     margin-left: auto;
 }
-.card-text{
-    margin-top: 20px;
+.first-cards-text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 30px;
+    text-align: center;
 }
+
 .h3-card {
     font-size: 16px;
     font-weight: bold;
@@ -144,4 +151,59 @@ font-size: 18px;
     font-weight: 500;
     line-height: 1.1;
     margin-top: 30px;
+}
+
+.card-block > h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #606060;
+    margin-top: 15px;
+
+}
+
+.second-cards-text {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0 0 10px;
+    display: block;
+    text-align: left;
+}
+
+.bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.bottom-container {
+    max-width: 940px;
+}
+
+.bottom-container  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.bottom-container p{
+    color: #aaa;
+}
+.bottom-container ul{
+    margin: 0px 0px;
+    padding: 0px;
+}
+.bottom-container ul li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style-type: none;
+    color: #aaa;
+}
+.bottom-container li {
+    margin: 0;
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
 }
