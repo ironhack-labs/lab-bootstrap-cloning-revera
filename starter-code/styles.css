@@ -1,3 +1,7 @@
+
+body{
+   max-width: 1903px;
+}
 #navigation{
     margin-top: 5rem;
     display: flex;
@@ -12,14 +16,88 @@ h1{
    /*  margin-left: 20rem; */
 }
 
+.no-margin{
+   margin: 0;
+}
+.no-padding{
+   padding: 0;
+}
 #carouselExampleFade img{
    filter: grayscale(100%);
+}
+.features{
+   margin: 0;
+   padding: 0;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   background-color: rgb(237, 86, 75);
+   border-top: solid 5px rgb(246, 102, 92);
+   border-bottom: solid 5px rgb(246, 102, 92);
+   justify-content: center;
+   text-align: center;
+   color: white;
+}   
+.features div{
+   margin: 0 25px;
+}
+.features img{
+   width: 5rem;
+   margin-bottom: 1rem;
+}
+
+.projects{
+   margin: 0 auto;
+   margin-top: 3rem;
+   width: 90vw;
+   text-align: center;
+}
+.projects-title{
+   text-align:start;
+}
+.projects img{
+   max-width: 100%;
+   max-height: fit-content;
+}
+.articles{
+   margin: 0 auto;
+   margin-top: 3rem;
+   width: 90vw;
 }
 
 .articles-item h3{
    margin-top: 30px;
+   font-size: 1rem;
+   font-weight: bold;
+}
+.articles-item h4{
+   color: rgb(139, 136, 149);
+   font-size: 0.8rem;
+   font-weight:500
 }
 .articles-item img{
    max-width: 100%;
-   height: 204px;
+   max-height: fit-content;
+}
+.bottom{
+   margin: 0;
+   padding: 0;
+   margin-top: 3rem;
+   background-color: rgb(59, 59, 59) ;
+   border-top: solid 5px #ed564b;
+}
+.bottom-bar{
+   color: white;
+   margin: 0 auto;
+   width: 90vw;
+   justify-content: space-between;
+}
+.bottom-bar div{
+   margin-left: 3rem;
+   margin-top: 3rem;
+}
+hr{
+   width: auto;
+}
+.bottom-bar hr{
+   width: auto;
 }
