@@ -7,15 +7,20 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    align-items: center;
 }
-
-.navbar{
-   /*  margin-right: 35rem; */
+.red-button{
+   background-color: rgb(237,86,75);
+   padding: 3.5rem 1.5rem;
 }
-h1{
-   /*  margin-left: 20rem; */
+.content-end{
+   justify-content: end;
 }
-
+.content-flexend{
+   justify-content: flex-end;
+}
 .no-margin{
    margin: 0;
 }
@@ -92,7 +97,6 @@ h1{
    justify-content: space-between;
 }
 .bottom-bar div{
-   margin-left: 3rem;
    margin-top: 3rem;
 }
 hr{
