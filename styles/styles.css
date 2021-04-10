@@ -1,0 +1,26 @@
+.home-li{
+    color: var(--bs-red);
+}
+
+
+.section1{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.site-title{
+    font-size: 32px;
+    margin-top: 25px;
+    font-weight: 800;
+}
+
+.home{
+    color: #ed564b;
+}
+
+.pics{
+    height: 180;
+    width: 270;
+}
