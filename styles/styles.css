@@ -1,0 +1,86 @@
+/* h1 {} */
+
+/* h2 {} */
+
+/* h3 {} */
+
+/* h4 {} */
+
+h5 {font-size: 1rem;}
+
+h6 {font-size: 0.8rem;}
+
+p{font-size: 0.9rem;}
+
+footer {font-size: 0.9rem;}
+
+#features {
+    background-color: #ED564B;
+}
+
+.text-grey {
+    color: #a6aaaa;
+}
+
+.text-mid-grey {
+    color: #606060;
+}
+
+#footer-top {
+    background-color: #3B3B3B;
+}
+
+#footer-bottom {
+    background-color: #292929;
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.5);
+	background-image: radial-gradient(white 33%, transparent 33%);
+	background-size: 2px 2px;
+  }
+
+.carousel-item > img {
+    filter: grayscale(100%);
+    margin-bottom: -10%;
+}
+
+#features .icon {
+    width: 75px;
+    height: 75px;
+    margin: 40px auto 0 auto;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#features .icon > i {
+    font-size: 1.2rem;
+}
+
+.color-red {
+    color: #ff0000;    
+}
+.carousel-control-icon {
+    background-color: #ED564B;
+    height: 100px;
+    width: 50px;
+    margin-bottom: 300px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
