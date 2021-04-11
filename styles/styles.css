@@ -1,13 +1,15 @@
-.home-li{
-    color: var(--bs-red);
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    display: block;
 }
 
-
-.section1{
-    padding: 40px 0px;
-    background: #ed564b;
-    border-top: 5px solid #f96b61;
-    border-bottom: 5px solid #f96b61;
+.home-li{
+    color: var(--bs-red);
 }
 
 .site-title{
@@ -16,6 +18,32 @@
     font-weight: 800;
 }
 
+.widget-section{
+    padding: 40px 0px;
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.span-widget{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.widgets{
+    color: #fff;
+    text-align: center;
+}
+
+
 .home{
     color: #ed564b;
 }
@@ -23,4 +51,39 @@
 .pics{
     height: 180;
     width: 270;
+}
+
+.bottom-section{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.bottom-div{
+    color: #aaa;
+}
+
+.bottom-div h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bottom-ul{
+    list-style: none;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.bottom-ul li{
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.bottom-ul li a{
+    color: #aaa;
+    padding: 7px 0px 7px 0px;
+    display: block;
 }
