@@ -8,11 +8,28 @@ body {
     display: block;
 }
 
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    background-color: white;
+}
+
+.my-navbar li{
+    padding: 19px 10px 19px 10px;
+}
+
+.my-navbar a{
+    color: black;
+}
+
 .home-li{
     color: var(--bs-red);
 }
 
-.home{
+.home a{
     color: #ed564b;
 }
 
@@ -27,7 +44,14 @@ body {
     position: relative;
     display: none;
 }
+.main-container{
+    background-image: url();
+}
 
+.main-section h2,
+.main-section p{
+ text-align: center;
+}
 
 .widget-section{
     padding: 40px 0px;
@@ -118,4 +142,17 @@ body {
     color: #aaa;
     padding: 7px 0px 7px 0px;
     display: block;
+}
+
+.my-footer{
+    color: #eee;
+    padding: 20px 0px;
+    background: #292929;
+    font-size: 100%;
+}
+
+.my-footer .theme-span{
+    padding: 0px 5px;
+    line-height: 1.6;
+    border-left: 1px solid #eee;
 }
