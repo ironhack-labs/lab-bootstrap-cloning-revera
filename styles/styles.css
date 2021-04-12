@@ -12,11 +12,22 @@ body {
     color: var(--bs-red);
 }
 
-.site-title{
-    font-size: 32px;
-    margin-top: 25px;
-    font-weight: 800;
+.home{
+    color: #ed564b;
 }
+
+.grayscale{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+.sidebox-li{
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    display: none;
+}
+
 
 .widget-section{
     padding: 40px 0px;
@@ -43,14 +54,35 @@ body {
     text-align: center;
 }
 
+.site-title{
+    font-size: 32px;
+    margin-top: 25px;
+    font-weight: 800;
+}
 
-.home{
-    color: #ed564b;
+.div-sitecontent{
+    padding: 50px 0 30px 0;
+}
+
+.div-sitecontent h3{
+    padding: 0;
+    text-transform: uppercase;
+}
+.div-sitecontent p{
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid gray;
+    color: gray;
+    text-transform: uppercase;
 }
 
 .pics{
     height: 180;
     width: 270;
+}
+
+.my-cards{
+    border: none;
+    padding-right: 10px;
 }
 
 .bottom-section{
