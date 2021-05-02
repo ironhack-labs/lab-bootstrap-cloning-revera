@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer1{
+    background-color: #3b3b3b;
+}
+
+.footer{
+    background-color: #292929;
+    color: white;
+    height: 80px;
+    font-weight: 0;
+}
+.footer > h6 {
+    font-size: 12px;
+}
