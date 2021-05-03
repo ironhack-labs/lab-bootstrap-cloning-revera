@@ -3,6 +3,68 @@
     padding: 0;
 }
 
+#navbarNavDropdown{
+    display: flex;
+    justify-content: center;
+    margin: 30px
+}
+
+.navbar-brand{
+    margin-left: 10%;
+}
+
+.cards-1 {
+    background-color: #ee554a;
+}
+
+.cards-1 > div {
+    background-color: #ee554a;
+    color: white;
+    font-size: 20px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body > h3{
+    font-weight: 700;
+}
+
+.main-body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.line {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.body-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.body-subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: #aaaa;
+}
+
+.card-img{
+    height: 200px;
+    width:  340px;
+}
+
+
+
+
+
+
+
 .footer1{
     background-color: #3b3b3b;
 }
