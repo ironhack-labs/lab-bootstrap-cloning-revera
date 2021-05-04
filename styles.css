@@ -1,0 +1,16 @@
+
+#row-pt-3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.site-footer{
+    background-color: rgb(49, 49, 49);
+}
+#bottom{
+    background-color: grey;
+    color: white;
+}
