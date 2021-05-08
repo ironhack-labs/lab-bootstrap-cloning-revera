@@ -1,0 +1,19 @@
+#revera-title {
+    font-weight: 600;
+}
+
+nav {
+    font-size: 0.9rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    left: 16vw;
+}
+
+.dropdown-item {
+    font-size: 0.8rem;
+    color: grey
+}
