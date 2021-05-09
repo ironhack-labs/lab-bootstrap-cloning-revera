@@ -10,7 +10,7 @@ nav {
     font-size: 2rem;
     font-weight: 600;
     position: relative;
-    left: 16vw;
+    left: 12vw;
 }
 
 .dropdown-item {
@@ -204,14 +204,12 @@ footer section {
     width: 100vw;
 }
 
-footer .container {
-    margin: 0 5vw;
-}
-
 #upper-footer {
     background-color: rgb(58, 56, 56);
     padding: 5vh 0;
     border-top: 5px solid #FF6A6A;
+    display: flex;
+    justify-content: center;
 }
 
 #upper-footer h5 {
@@ -266,12 +264,11 @@ footer .container {
 #lower-footer {
     background-color: rgb(36, 35, 35);
     color: white;
-    padding: 20px 0;
+    padding: 2vh 0;
+    width: auto;
 }
 
 #lower-footer p {
     margin-bottom: 0;
     font-size: 0.7rem;
-    position: relative;
-    left: 20px;
 }
