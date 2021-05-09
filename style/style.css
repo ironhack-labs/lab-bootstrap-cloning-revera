@@ -1,7 +1,18 @@
 
 body {
-    font-size : 14px;
+    font-size : 11px;
     font-family :Arial, Helvetica, sans-serif;
+    
+}
+
+h5{
+    color :grey;
+    font-size :16px
+}
+
+h3{
+    font-weight: bold;
+    font-size : 20px
 }
 
 header {
@@ -41,20 +52,32 @@ header {
     background-color: red;
     color : white;
     padding-top: 30px;
+    height : 300px
 }
 
-.icon {
-    height: 20px;
-    margin-bottom: 10px;
-}
-    
-
-
-
-.carousel-item: after{
-    content:"";
-    display:block;
-    position:absolute;
-    top:0
+.card-text-black {
+    font-weight: bold;
 
 }
+
+footer {
+    background-color: black;
+    color: white;
+      
+}
+
+#bottom {
+    background-color: grey;
+}
+
+.links {
+    list-style: none;
+}
+
+.card-bottom {
+    margin-top: 20px;
+}
+
+
+
+
