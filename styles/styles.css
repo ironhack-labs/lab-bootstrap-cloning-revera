@@ -97,7 +97,10 @@ nav {
     font-size: 0.9rem;
 }
 
-
+#background {
+    background-image: url(../img/overlay.png);
+    z-index: 100;
+}
 
 .circle {
     margin-bottom: 1.5rem;
@@ -210,6 +213,7 @@ footer section {
     border-top: 5px solid #FF6A6A;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #upper-footer h5 {
