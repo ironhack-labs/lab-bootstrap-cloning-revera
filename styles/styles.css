@@ -17,3 +17,208 @@ nav {
     font-size: 0.8rem;
     color: grey
 }
+
+.carousel-item {
+    height: 50vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: red;
+    width: 3vw;
+    height: 10vh;
+    top: 20vh;
+}
+
+.carousel-caption {
+    top: 15vh;
+    width: 50%;
+    margin: auto;
+}
+
+.carousel-caption.dog {
+    top: 14vh;
+}
+
+.carousel-caption h5{
+    font-size: 2rem;
+}
+
+#features {
+    background-color: #E85050;
+    height: 33vh;
+    border-top: 5px solid #FF6A6A;
+    border-bottom: 5px solid #FF6A6A;
+}
+
+.doverlay {
+    background: url(/web/20171026195135im_/http://demo.fabthemes.com/revera/wp-content/themes/Revera/images/overlay.png);
+    z-index: 100;
+}
+
+.homewidget {
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.white-png {
+    width: 4.5rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg)
+}
+
+.icon {
+    width: 1.5rem;
+}
+
+.icon-bigger {
+    width: 2rem;
+}
+
+.icon, 
+.icon-bigger {
+    position: absolute;
+    bottom: 11rem;
+
+}
+
+#carouselExampleControls button {
+    font-size: 0.9rem;
+    padding: 5px 30px;
+}
+
+.homewidget h3,
+.homewidget p {
+    color: white;
+    text-align: center;
+}
+
+.homewidget p {
+    font-size: 0.9rem;
+}
+
+
+
+.circle {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.homewidget h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#latest-projects, 
+#latest-articles {
+    margin: 6vh 6vw;
+}
+
+#latest-projects h4,
+#latest-articles h4 {
+    font-weight: 600;
+}
+
+#upper p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: grey;
+}
+
+#latest-projects img, 
+#latest-articles img {
+    width: 20vw;
+}
+
+#lower {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#latest-projects hr,
+#latest-articles hr {
+    margin: 30px 0;
+}
+
+#latest-projects #lower p {
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+
+#latest-projects > div > div > p {
+    text-align: center;
+}
+
+#latest-articles p {
+    text-align: left;
+}
+
+#latest-projects .col-3,
+#latest-articles .col-3 {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#latest-projects .row,
+#latest-articles .row {
+    flex-wrap: nowrap;
+    width: 78vw;
+}
+
+#latest-articles .col-3 {
+    text-align: left;
+    padding: 0;
+}
+
+#latest-articles h4 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+#latest-articles h4 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+#latest-articles h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: grey;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#latest-articles p {
+    font-size: 0.9rem;
+    color: rgb(117, 114, 114);
+}
+
+#few {
+    text-align: left;
+}
+
+footer section {
+    width: 100vw;
+}
+
+footer .container {
+    margin: 0 5vw;
+}
+
+#upper-footer {
+    background-color: rgb(58, 56, 56);
+    padding: 5vh 0;
+}
+
+#upper-footer h5 {
+    color: white;
+    font-size: 1rem;
+}
+
+#upper-footer p {
+    color: rgb(187, 179, 179);
+    font-size: 0.9rem;
+}
