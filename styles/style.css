@@ -1,0 +1,49 @@
+body{
+
+}
+
+.brand-margin{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav-margin{
+    margin:0 250px;
+}
+
+.li-hover li :hover{
+    color:#dc3545!important
+}
+
+.margin-0{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bg-color{
+    background-color:#ed564b
+}
+.icons{
+    font-size: 30px;
+    width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    border: 4px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+    padding:3%;    
+}
+.dates {
+    font-size: medium;
+    font-weight: bolder;
+}
+.dates a{
+    color:red;
+    text-decoration: none;
+}
+.anchor-noStyle a{
+    text-decoration: none;
+    color: black;
+}
