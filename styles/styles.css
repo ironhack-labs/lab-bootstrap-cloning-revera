@@ -87,6 +87,10 @@ nav {
     padding: 5px 30px;
 }
 
+.carousel-inner img {
+    filter: grayscale(1);
+    }
+
 .homewidget h3,
 .homewidget p {
     color: white;
