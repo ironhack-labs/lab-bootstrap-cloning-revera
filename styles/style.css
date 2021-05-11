@@ -22,18 +22,17 @@ body{
 .bg-color{
     background-color:#ed564b
 }
-.icons{
-    font-size: 30px;
-    width: 70px;
-	height: 70px;
+.icons-span{
+    font-size: 24px;
+    width: 60px;
+	height: 60px;
 	border-radius: 50%;
     border: 4px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    margin:0px auto;
-    padding:3%;    
+    margin:0px auto;   
 }
 .dates {
     font-size: medium;
@@ -46,4 +45,60 @@ body{
 .anchor-noStyle a{
     text-decoration: none;
     color: black;
+}
+.icons p{
+    font-size: 15px;
+}
+.footer {
+    background-color: #3b3b3b;
+    border-top:5px solid #ed564b;
+}
+.footer ul{
+    padding-left:0px;
+}
+.footer li{
+    list-style: none;
+    text-decoration: none;    
+}
+.footer p{
+    font-size: 15px;
+}
+.footer li a{
+    font-size: 14px;
+    color:#A9A9A9;
+    text-decoration: none;
+    list-style: none;
+}
+.footer a:hover{
+    color:white;
+}
+.dotted-underline{
+    border-bottom: 2px dotted #A9A9A9;
+}
+.footer-cr{
+    background-color: #292929;
+    font-size: small;
+}
+.footer-cr a{
+    color:white;
+    text-decoration: none;
+}
+.dropdown:hover>.dropdown-menu {
+    display:block;    
+}
+.carrusel-style{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: absolute;
+    width: 60vw;
+    margin: 0 auto;
+    top:300px;
+}
+.read-more{
+    text-decoration: none;
+    border:1px solid white;
+    padding: 1%;
+    color: white;
+    font-weight: bolder;
 }
