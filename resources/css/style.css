@@ -59,9 +59,16 @@
     width:  340px;
 }
 
+.footer-cards{
+    background-color: #3b3b3b;
+    color: white;
+}
 
-
-
+.hr{
+    border: 4px solid #ed564b;
+    margin-bottom: 0px;
+    background-color: #ed564b;
+}
 
 
 
