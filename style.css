@@ -1,0 +1,84 @@
+
+.carousel-inner img {
+    filter: grayscale(1);
+}
+
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+#features {
+    background-color: #E85050;
+    height: 33vh;
+    border-top: 5px solid #FF6A6A;
+    border-bottom: 5px solid #FF6A6A;
+    color: white;
+    text-align: center;
+}
+
+#latest-projects {
+    padding: 0px 40px;
+    margin: 10px 150px;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin: 30px 100px;
+
+}
+
+#latest-articles{
+    padding: 0px 40px;
+    margin: 10px 150px;
+}
+
+#articles{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin: 30px 100px;
+
+}
+
+
+#div4-big{
+    display: flex;
+    background-color: #3b3b3b;
+    color: white;
+    border-top: 5px solid #ed564b;
+    padding: 20px 20px 40px 20px;
+    justify-content: left;
+}
+
+.div-4{
+    margin: 0 110px;
+    padding: 10px auto;
+    justify-content:center;
+}
+
+.div-4 p{
+    font-size: 13px;
+ 
+}
+
+.div-4 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#footer-link {
+    color: white;
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    display: block;
+    padding-left: 30px;
+}
+
+#footer-link a {
+    color: white;
+}
