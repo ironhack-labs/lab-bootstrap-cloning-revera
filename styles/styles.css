@@ -1,0 +1,47 @@
+.imgGrey {
+    filter: grayscale(100%);
+}
+
+.features{
+    padding: 40px 0px;
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+}
+
+.readMore{
+    color:white;
+    border-color: white;
+}
+
+.logo{
+    margin-left: 21rem;
+    font-weight:900;
+    font-size: 2em;
+}
+.subtittles{
+    margin-left: 21rem;
+    margin-top: 1rem;
+    width: 1150px;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+h3{
+    font-size: 1em;
+}
+h4{
+    text-transform: uppercase;
+}
+
+.copyright{
+    margin-left: 21rem;
+    margin-top: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
