@@ -4,3 +4,26 @@
     justify-content: center;
     align-items: center;*/
 }
+.down-slider{
+    color:white;
+   text-align: center;
+}
+/*.carousel-control-prev{
+    background-color: red; 
+}*/
+/*Cambiar los indicadores (anterior, siguiente) de color < > */
+.carousel-control-prev .carousel-control-prev-icon{
+    background-color: red; 
+}
+.carousel-control-next .carousel-control-next-icon{
+    background-color: red; 
+}
+.blog{
+    margin-top: 20px;
+}
+.blog .card .col-md-3{
+
+text-align: center;
+/*line-height: 1px;*/
+
+}
