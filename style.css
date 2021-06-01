@@ -1,24 +1,38 @@
 
-.cabecera{
+header{
     display: flex;
-    justify-content: space-around;
+    
 }
-.cabecera nav{
-    display: flex;  
-    justify-content: space-between;
+.nav-bar{
+    display: flex;
+}
+.nav-bar p{
+    font-size: 3em;
+    margin-left: 100px;
+}
+.nav-bar nav{
+    display: flex; 
+    justify-content: flex-end; 
 }
 
-.cabecera nav ul{
+.nav-bar nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 700px;
     font-weight: bold;
+    margin-left: 200px;
+}
+.nav-bar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.red-link{
+    color: rgb(165, 20, 20);
 }
 
-.container{
-   
+.container{ 
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -27,56 +41,103 @@
 .s0{
     background-image: url("../lab-bootstrap-cloning-revera/img/project-2.jpg");
     height: 600px;
-    background-repeat:no-repeat;
-   background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-
-.container h1{
-    color: rgb(19, 219, 29);
+.button{
     text-decoration: none;
-  
+    color: white;
+    border: 2px solid white ;
 }
-.container p{
-    color: rgb(103, 26, 165);
-    text-decoration: none;
-   
+/*section1*/
+
+h1{
+    color: white;
+    text-transform: uppercase;
 }
 
-.imgs1{
+.{
+  color: white;
+}
+
+.animals{
     width: 100px;
 }
-.text {
-    text-align: center;
+.foot{
+margin-top: 150px;
+background: chocolate;  
+}
+
+/*section2*/
+
+.castilla {
+    
     text-decoration: none;
     margin-top: 30px;
+    margin-bottom: 30px;
 
 }
-.s2{
+.castilla-h1{
+    color: black;
+}
+.castilla-places{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     margin: 40px;
 }
 
-.s2div{
-    align-content: center;
-    justify-content: center;
-    width: 20%;
-    text-align: center;
+
+.img-castilla{
+    width: 100%;   
+}
+/*section3*/
+.granada {
+    
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.granada-h1{
+    color: black;
+}
+.granada-places{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px;
 }
 
-.s2img{
+.img-granada{
     width: 100%;   
 }
 
-.s3{
+h5 h6{
+    margin-bottom: 70px;
+}
 
-    margin-top: 30px;
+/*section3*/
+.data{
+    margin: 10px 0px;   
+    display: flex; 
+    justify-content: center;
     background-color: grey;
     color: white;
 }
-
-.s4{
+.data div{
+    padding: 0px 20px;
+}
+.copy{
+    margin: 10px 0px; 
+    padding-left: 30px;  
+    background-color: rgb(70, 66, 66);
     color: white;
 }
+h3{
+    color: rgb(109, 105, 102);
+}
+
+
+
