@@ -1,0 +1,141 @@
+.icon-heart, .icon-glass2, .icon-star-full {
+    width: 20px;
+    font-size: 32px; 
+}
+
+.banner{
+
+width: 100%;
+background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../img/slider-1.jpg); /*Gracias a https://comolademo.es/css-oscurecer-colorear-imagen/*/
+background-repeat: no-repeat;
+background-size:cover ;
+filter: grayscale(1);
+
+height: 600px;
+
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 1em;
+  }
+
+  .font-white{
+ color: white;
+ text-align: center;
+  padding-top: 20%;
+  }
+
+  .cards{
+      padding: 30px ;
+background-color: #ed564b ;
+color:white ;
+text-align: center;
+
+  }
+
+  .nav{
+
+    padding-top: 70px ;  
+    padding-bottom: 20px;
+  }
+
+  .navbar{
+    padding-top: 50px ; 
+      
+
+  }
+
+  .navbar:hover{
+color: #ed564b 
+
+  }
+
+  h3{
+padding-top: 20px;
+
+
+  }
+
+  span{
+
+    margin-bottom: 30px;
+
+  }
+
+  .container{
+
+   margin-bottom: 40px; 
+  }
+  
+  
+H4{
+    font-size: 5px;
+    color: gray;
+
+
+  }
+  .body2{
+    padding: 30px ;
+background-color: hsl(0, 0%, 17%) ;
+color:rgb(145, 145, 145) ;
+text-align:justify ;
+
+  }
+
+.line{
+    height: 10px;
+    background-color: #ed564b ;
+
+}
+
+  .footer{
+    
+background-color: hsl(0, 0%, 0%) ;
+color:white ;
+
+
+  }
+
+  ul li a, div a {
+    color:rgb(146, 146, 146);
+    
+
+  }
+  ul li{
+
+    list-style-type:none;
+  }
+
+  hr {
+    background-color: rgb(121, 121, 121);
+  }
+
+  .box{
+    a:link, a:visited {
+        
+        color: white;
+        border: 2px solid green;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+  }
+
+  h6{
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+
+
+  }
+
+  ul li a:hover , div a:hover{
+    color:rgb(255, 255, 255);
+    
+
+  }
