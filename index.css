@@ -81,6 +81,8 @@ html{
     background-color: #f44731;
     height: 400px;
     color: white;
+    border-top: 4px solid #f96b61;
+    border-bottom: 4px solid #f96b61;
 }
 
 .center-red-items{
