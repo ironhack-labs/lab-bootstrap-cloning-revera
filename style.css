@@ -1,0 +1,131 @@
+.carousel-control-prev-icon {
+    background-color: red;
+    height: 80px;
+}
+
+.carousel-control-next-icon{
+    background-color: red;
+    height: 80px;
+}
+
+
+
+.arrow-button-left {
+    display: flex;
+    justify-content: end;
+}
+.arrow-button-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow-carousel {
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-carousel img {
+    width: 50%;
+    height: 50%;
+    color:white
+}
+
+.general-info-row {
+  display: flex;
+  justify-content: center;
+}
+
+.general-info-content{
+    display: flex;
+    width: 1200px;
+}
+
+#general-info {
+    background-color: #ed564b;
+    color: white;
+    padding: 50px 0;
+}
+
+.general-info-image {
+    border: 5px solid white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.general-info-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.general-info-col h3{
+    margin: 20px 10px;
+}
+
+.articles {
+    padding: 20px 30px;
+}
+
+.articles p{
+    font-size: 15px;
+}
+
+.articles-row{
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.projects-p{
+    text-align: center;
+}
+
+.articles-anchor a{
+    color:red;
+    text-decoration: none;
+}
+
+
+
+.footer-top{
+    background-color: #3b3b3b;
+    color:white;
+    padding: 50px 120px;
+}
+
+.footer-top p{
+    color:grey;
+    border-bottom: 1px dotted grey;
+    
+}
+
+.footer-top h6{
+    margin-bottom: 20px;
+    
+}
+
+.footer-top > p{
+    color: red; 
+
+}
+
+.footer-bottom{
+    background-color: #292929;
+    color:white;
+    padding: 10px 120px;
+}
+
+.footer-bottom p{
+    margin: 0;
+}
