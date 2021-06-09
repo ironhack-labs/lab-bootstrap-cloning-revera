@@ -141,7 +141,7 @@ html{
 }
 
 .orange{
-    border-top: 3px solid #ed564b;
+    border-top: 4px solid #ed564b;
 }
 
 .flexbox-fora{
@@ -149,7 +149,7 @@ html{
     background-color: #3b3b3b;
     color:#9b9999;
     display:flex;
-    justify-content: center;
+    width: 300;
     
 }
 
@@ -160,12 +160,16 @@ html{
     margin: 10px;
     flex-wrap: wrap;
     width: 280px;
-    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 50px;
+
 }
 
 
 .grey-anchor{
     color:#9b9999;
+    text-decoration: none;
+    border-bottom: 1px dotted grey;
 }
 
 .grey-anchor:hover{
@@ -189,6 +193,7 @@ html{
 
 .margin-left-rev{
     margin-left: 120px;
+    margin-bottom:10px;
 }
 .margin-left-rev2{
     margin-right: 120px;
