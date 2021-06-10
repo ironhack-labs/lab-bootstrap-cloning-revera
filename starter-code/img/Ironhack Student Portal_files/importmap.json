@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@ironhack/sp-manager": "https://cdn.ironhack.com/student-portal/sp-manager/c3ab0e71/ironhack-sp-manager.js",
+    "@ironhack/sp-auth": "https://cdn.ironhack.com/student-portal/sp-auth/5cb0b95c/ironhack-sp-auth.js",
+    "@ironhack/sp-api-frontend": "https://cdn.ironhack.com/student-portal/sp-api-frontend/508f3f45/ironhack-sp-api-frontend.js",
+    "@ironhack/sp-lms": "https://cdn.ironhack.com/student-portal/sp-lms/0d1efc38/ironhack-sp-lms.js",
+    "@ironhack/sp-dashboard": "https://cdn.ironhack.com/student-portal/sp-dashboard/1f666f54/ironhack-sp-dashboard.js",
+    "@ironhack/sp-api": "https://cdn.ironhack.com/student-portal/sp-api/c649965c/ironhack-sp-api.js"
+  }
+}
