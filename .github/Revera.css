@@ -1,0 +1,161 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+nav {
+    width: 1024px;
+}
+
+nav .navbar-brand {
+    font-size: 35px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size: 0.8em;
+
+}
+
+.home {
+    color: red;
+}
+
+.enlaces {
+    display:flex;
+}
+
+h1 {
+    padding-top:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+header {
+    background: url(../img/slider-1.jpg) no-repeat center /cover; 
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+header i {
+    background-color: coral;
+    padding: 5px;
+}
+h2 {
+    text-transform: uppercase;
+}
+.button {
+    border-color: white;
+    border: 0.7px;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.bootstrap {
+    background-color:coral;
+    text-align: center;
+    color: white;
+    font-size: 0.5em;
+    padding: 20px;
+}
+
+.bootstrap i {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 1.5em;
+}
+.lates {
+    padding-top: 10px;
+} 
+
+.carousel-inner img {
+    filter: grayscale(1);
+}
+
+
+
+#features {
+    background-color: #E85050;
+    height: 33vh;
+    border-top: 5px solid #FF6A6A;
+    border-bottom: 5px solid #FF6A6A;
+    color: white;
+    text-align: center;
+}
+
+#latest-projects {
+    padding: 0px 40px;
+    margin: 10px 150px;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin: 30px 100px;
+
+}
+
+#latest-articles{
+    padding: 0px 40px;
+    margin: 10px 150px;
+}
+
+#articles{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin: 30px 100px;
+
+}
+
+
+#div4-big{
+    display: flex;
+    background-color: #3b3b3b;
+    color: white;
+    border-top: 5px solid #ed564b;
+    padding: 20px 20px 40px 20px;
+    justify-content: left;
+}
+
+.div-4{
+    margin: 0 110px;
+    padding: 10px auto;
+    justify-content:center;
+}
+
+.div-4 p{
+    font-size: 13px;
+
+}
+
+.div-4 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#footer-link {
+    color: white;
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    display: block;
+    padding-left: 30px;
+}
+
+#footer-link a {
+    color: white;
+}
