@@ -1,0 +1,57 @@
+/* Body */
+
+* { 
+padding:0 !important;
+}
+
+
+
+
+
+
+/* Navigation bar */
+.row {
+    padding: 32px;
+    margin: 32px 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    background-color: white;
+}
+
+.navbar-brand {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 160px;
+}
+
+.nav-item {
+    margin: 0 16px;
+}
+
+.navbar{
+    background-color: white !important;
+}
+
+.collapse {
+    color: red !important;
+}
+
+
+
+
+
+
+
+/* //carousel */
+
+.carrossel {
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.2) !important;
+} 
+
+.carousel-caption{
+ margin: 200px;
+ color: rgb(255, 255, 255)
+}

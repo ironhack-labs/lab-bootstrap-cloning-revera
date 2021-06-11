@@ -1,0 +1,141 @@
+
+header{
+    display: flex;
+    
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar p{
+    font-size: 3em;
+    margin-left: 100px;
+}
+.nav-bar nav{
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.nav-bar nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.nav-bar nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.red-link{
+    color: rgb(165, 20, 20);
+}
+
+.container{ 
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.s0{
+    background-image: url("../lab-bootstrap-cloning-revera/img/project-2.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white ;
+}
+/*section1*/
+
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+.{
+  color: white;
+}
+
+.animals{
+    width: 100px;
+}
+.foot{
+margin-top: 150px;
+background: chocolate;  
+}
+
+/*section2*/
+
+.castilla {
+    
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.castilla-h1{
+    color: black;
+}
+.castilla-places{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px;
+}
+
+
+.img-castilla{
+    width: 100%;   
+}
+/*section3*/
+.granada {
+    
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.granada-h1{
+    color: black;
+}
+.granada-places{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.img-granada{
+    width: 100%;   
+}
+
+h5 h6{
+    margin-bottom: 70px;
+}
+
+/*section3*/
+.data{
+    margin: 10px 0px;   
+    display: flex; 
+    justify-content: center;
+    background-color: grey;
+    color: white;
+}
+.data div{
+    padding: 0px 20px;
+}
+.copy{
+    margin: 10px 0px; 
+    padding-left: 30px;  
+    background-color: rgb(70, 66, 66);
+    color: white;
+}
+h3{
+    color: rgb(109, 105, 102);
+}
+
