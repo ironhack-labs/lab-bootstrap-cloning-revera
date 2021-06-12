@@ -1,0 +1,252 @@
+body {
+    font-size: 16px;
+    color: #606060;
+}
+
+a:visited,
+a:active,
+a:hover {
+    color: #f4473a;
+}
+
+.site-branding {
+    margin-bottom: 20px;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.site-title a {
+    color: #000;
+}
+
+.top-menu {
+    width: auto;
+    float: left;
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0 0px;
+}
+
+.top-menu li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.top-menu li a {
+    color: #777;
+    display: block;
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.top-menu li.active a {
+    color: #ed564b;
+}
+
+#slidebox {
+    max-height: 550px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+
+.overlay {
+    background: url("img/overlay.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 800;
+}
+
+.slides {
+    margin: 0;
+    padding: 0;
+}
+
+.slides li {
+    list-style: none;
+    position: relative;
+}
+
+.slides li figure img {
+    -webkit-filter: relative(%);
+    filter: grayscale(80%);
+}
+
+.slides-caption {
+    width: 800px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+
+.slides-caption h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-btn {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+#widgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.widget {
+    color: #ffffff;
+    text-align: center;
+}
+
+.widget h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon-border {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.blog-item h3,
+.project-item h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.blog-item h3 {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.blog-item footer {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog-item p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.projects-title {
+    margin: 40px 0;
+}
+
+.projects-title h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.projects-title h2 {
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#site-info {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    font-size: 14px;
+}
+
+#site-info h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+.footer-menu li a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+#legal {
+    padding: 20px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+
+#main-pic {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+}
