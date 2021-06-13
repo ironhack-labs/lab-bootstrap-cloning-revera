@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Revera</title>
+</head>
+
+<body>
+    <!--------Nav bar------------->
+    <nav class="navbar navbar-expand-lg navbar-light" id="margin-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Revera</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse margin-navbar-div" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="red" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sample page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Parent page
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      <!------Caroussel------->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./starter-code/img/slider-1.jpg" class="d-block w-100" alt="Cat and Dog">
+          </div>
+          <div class="carousel-item">
+            <img src="./starter-code/img/slider-2.jpg" class="d-block w-100" alt="fruit">
+          </div>
+          <div class="carousel-item">
+            <img src="./starter-code/img/slider-3.jpg" class="d-block w-100" alt="flowers">
+          </div>
+          <div class="carousel-item">
+            <img src="./starter-code/img/slider-4.jpg" class="d-block w-100" alt="mountain">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-------Icons---------->
+      <div id="icons">
+      <div class="card text-center" id="card" style="width: 18rem;">
+        <div class="circle">
+            <i class="fas fa-cocktail"></i>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Web design</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-center" id="card" style="width: 18rem;">
+        <div class="circle">
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Web development</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-center" id="card" style="width: 18rem;">
+        <div class="circle">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">User interface</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      </div>
+      <!-----------Latest Projects--------->
+      <section class="latest-projects">
+          <div class="latest">
+            <h5>LATEST PROJECTS</h5>
+            <p>FEW OF THE LATEST PORTFOLIO ITEMS<p>
+            <hr>
+          </div>
+          <div class="latest-container">
+            <div class="card" style="width: 18rem;">
+                <img src="./starter-code/img/project-1.jpg" class="card-img-top" alt="man">
+                <div class="card-body">
+                  <p class="card-text">Some quick example content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./starter-code/img/project-2.jpg" class="card-img-top" alt="cat">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./starter-code/img/project-3.jpg" class="card-img-top" alt="rose">
+                <div class="card-body">
+                  <p class="card-text">Some quick example bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./starter-code/img/project-4.jpg" class="card-img-top" alt="woman">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!---------Latest Articles----------->
+      <section class="latest-projects">
+        <div class="latest">
+          <h5>LATEST ARTICLES</h5>
+          <p>LATEST POSTS FROM THE BLOG<p>
+          <hr>
+        </div>
+        <div class="latest-container" id="articles-container">
+          <div class="card" style="width: 18rem;">
+              <img src="./starter-code/img/slider-1.jpg" class="card-img-top" alt="dog&cat">
+              <div class="card-body">
+                <p class="card-text one">Nemo enim ipsam voluptatem quia voluptas</p>
+                <p class="card-text two">POSTED ON <span>AUGUST 19, 2013 </span>BY <span>ADMIN</span></p>
+                <p class="card-text three">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./starter-code/img/slider-3.jpg" class="card-img-top" alt="red-flower">
+              <div class="card-body">
+                <p class="card-text one">Nemo enim ipsam voluptatem quia voluptas</p>
+                <p class="card-text two">POSTED ON <span>AUGUST 19, 2013 </span>BY <span>ADMIN</span></p>
+                <p class="card-text three">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis 
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./starter-code/img/slider-4.jpg" class="card-img-top" alt="People&Mountain">
+              <div class="card-body">
+                <p class="card-text one">Nemo enim ipsam voluptatem quia voluptas</p>
+                <p class="card-text two">POSTED ON <span>AUGUST 19, 2013 </span>BY<span> ADMIN</span></p>
+                <p class="card-text three">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis 
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                </p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./starter-code/img/slider-2.jpg" class="card-img-top" alt="fruit">
+              <div class="card-body">
+                <p class="card-text one">Nemo enim ipsam voluptatem quia voluptas</p>
+                <p class="card-text two">POSTED ON <span>AUGUST 19, 2013 </span>BY <span>ADMIN</span></p>
+                <p class="card-text three">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis 
+                    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                </p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!---------Footer---------->
+    <footer id="footer">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h6>REVERA</h6>
+              <p class="card-text">Etiam pellentesque tortor id orci mollis suscipit. Donec vel volutpat risus. 
+                  Mauris quam diam, interdum eget luctus ac, finibus at nulla. Etiam eu nibh nec tortor interdum
+                   dignissim. In cursus, quam in malesuada vulputate, diam ante vehicula neque, a pharetra orci 
+                   tortor at nulla. Maecenas ut facilisis nisi. Quisque id justo mauris.
+              </p>
+            </div>
+          </div>
+        <div class="list-group">
+            <h6>META</h6>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        </div>
+        <div class="list-group">
+            <h6>ARCHIVES</h6>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+        </div>
+        <div class="list-group">
+            <h6>RECENTS POSTS</h6>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        </div>
+    </footer>
+    <!-------Copyright------->
+        <div id="copyright">
+            <span>Copyright&copy;2016 revera-just another demo site.<br>
+            <span>| Movers theme</span>
+            </span>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

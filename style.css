@@ -1,0 +1,180 @@
+#red {
+    color: rgb(245, 81, 81)
+}
+
+.navbar {
+    height: 70px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#margin-nav {
+    margin-left: 200px;
+}
+
+.container-fluid > a {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.margin-navbar-div {
+    margin-left: 250px;  
+}
+
+.carousel-item img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+ {
+    background-color: rgb(245, 81, 81);
+    padding: 30px 15px;
+}
+
+
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    height: 230px;
+    background-color: rgb(248, 96, 76);
+    margin-top: -30px;
+    height: 300px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(248, 96, 76);
+    border: 2px solid white;
+}
+
+#icons >.card {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    color: white;
+    margin-top: 50px;
+}
+
+#card {
+    background-color: rgb(248, 96, 76);
+    border-style: none;
+    margin-top: 30px;
+}
+
+#icons h5 {
+    font-weight: 600;
+}
+
+#icons p {
+    font-size: 0.8rem;
+}
+
+i {
+    margin-top: 12px;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+.latest-projects {
+    padding: 50px 150px;
+}
+
+.latest-projects h5 {
+    font-weight: 600;
+}
+
+.latest-container {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latest p {
+    color: rgb(180, 177, 177);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.one {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.two {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(124, 122, 122);
+}
+
+
+.two span {
+    color: red;
+    font-weight: 600;
+}
+
+.three {
+    font-size: 0.7rem;
+    color: rgb(124, 122, 122);
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: rgb(43, 42, 42);
+    padding: 30px 110px;
+    border-top: 3px solid red;
+}
+
+#footer .card {
+    background-color:rgb(43, 42, 42);
+    color: rgb(177, 177, 177);
+    border-style: none;
+    font-size: 0.8rem;
+}
+
+#footer .list-group a {
+    background-color: rgb(43, 42, 42);
+    color: rgb(177, 177, 177);
+    border-bottom-style: dotted;
+    border-color: lightgrey;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    font-size: 0.7rem;
+    font-weight: 700;
+    width: 200px;
+    padding: 15px;
+}
+
+#footer h6 {
+    color: rgb(177, 177, 177);
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+#copyright {
+    background-color: black;
+    height: 50px;
+    font-size: 0.7rem;
+    padding: 10px 30px;
+}
+
+#copyright span {
+    margin-left: 130px;
+    color: rgb(177, 177, 177);
+}
+
+
+
+
+
