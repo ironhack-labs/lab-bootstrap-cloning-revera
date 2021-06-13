@@ -1,0 +1,153 @@
+/*darker red: rgb(237,86,75)
+lighter red: rgb(249,107,97)*/
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.carousel-item img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#carousel h5 {
+    font-size: 2.5em;
+}
+.carousel-item button {
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.doverlay {
+    background-image: url(/starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.carousel-control-prev, 
+.carousel-control-next{
+    background-color: rgb(237,86,75);
+    height: 100px;
+    width: 50px;
+    color: white;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+#top {
+    background-color: rgb(249,107,97);
+}
+.top {
+    background-color: rgb(237,86,75);
+    color: white;
+}
+.top h2 {
+    font-size: 1.8em;
+}
+.icon {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.section-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+.section-title-2 {
+    font-weight: bold;
+    color: rgb(180,180,180);
+}
+#projects h5 {
+    font-size: smaller;
+    text-align: center;
+    color: black;
+}
+.thumb img{
+    position: relative;
+    width: 100%;
+}
+#articles h5 {
+    text-align: start;
+    color: black;
+    font-weight: bold;
+}
+h6 {
+    font-size: smaller;
+    font-weight: bold;
+    color: grey;
+}
+h6 span {
+    color: red;
+}
+#articles article {
+    font-size: smaller;
+    color: grey;
+}
+
+
+
+
+
+
+footer {
+    background-color: rgb(237,86,75);
+}
+footer .row {
+    background-color: rgb(59,59,59);
+}
+h3 {
+    color: white;
+    font-size: 1em;
+}
+.footer-text {
+    color: rgb(170,170,170);
+}
+footer li {
+    list-style: none;
+    border-bottom: 1px dotted rgb(170,170,170);
+}
+.items {
+    text-decoration: none;
+    color: rgb(170,170,170);
+}
+footer a:hover {
+    color: white;
+}
+.copyright {
+    background-color: rgb(41,41,41);
+    color: white;
+    font-size: small;
+}
+.copyright a {
+    color: white;
+    text-decoration: none;
+}
+
