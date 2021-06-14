@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.latest-projetct-margin{
+    margin: 200px 20px 200px 20px;
+}
+/* .carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+} */
+.courses{
+    background-color: red;
+    color: white;
+}
+.photoSize {
+    width: 90%;
+    height: 90%;
+}
+
+.photosizearticles {
+    width: 0%;
+}
+
+.latest-articles-margin{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid 2px red;
+    height: 500px;
+}
+.latest-articles-margin div{
+    margin: 0;
+}
+.latest-articles-margin div div{
+    height: 300px;
+    width: 500px;
+    font-size: 10px;
+}
+.latest-articles-margin div div img{
+    width: 100px;
+    height: 100px
+}
+.d-flex{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;    
+}
+.footer{
+    background-color: gray;
+    color: white;
+}
+.footer section div{
+    width: 400px;
+    height: 200px;
+    font-size: 13px;
+    /* border-bottom-style:dotted; */
+    list-style: none;
+}
+.copyrights{
+    color: white;
+    background-color: black;
+}
+.copyrights div{
+    width: 400px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.textred{
+    color: red;
+}
+.carouselimage1{
+    background-image: url('./starter-code/img/slider-1.jpg');
+    filter: grayscale(100%);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+.carouselimage2{
+    background-image: url('./starter-code/img/slider-2.jpg');
+    filter: grayscale(100%);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+.carouselimage3{
+    background-image: url('./starter-code/img/slider-3.jpg');
+    filter: grayscale(100%);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+.carouselimage4{
+    background-image: url('./starter-code/img/slider-4.jpg');
+    filter: grayscale(100%);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+
+.carouseltext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
