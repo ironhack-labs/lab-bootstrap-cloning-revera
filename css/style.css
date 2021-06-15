@@ -1,0 +1,12 @@
+/*Gerais*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 800 !important;
+  margin-top: 25px;
+}
