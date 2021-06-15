@@ -23,8 +23,12 @@
 }
 
 .carousel-item img {
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+.carousel-inner {
+    font-weight: lighter;
+    height: 450px;
 }
 
 .carousel-control-next-icon,
@@ -32,6 +36,17 @@
  {
     background-color: rgb(245, 81, 81);
     padding: 30px 15px;
+}
+
+.carousel-caption {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#carousel-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
 }
 
 #icons {
@@ -82,7 +97,8 @@ hr {
 }
 
 .latest-projects {
-    padding: 50px 150px;
+    padding: 30px 150px;
+    font-size:0.8rem
 }
 
 .latest-projects h5 {
