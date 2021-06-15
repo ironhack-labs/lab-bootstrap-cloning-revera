@@ -1,0 +1,142 @@
+.navbar-brand{
+    margin: 0 200px 0 100px;
+    font-size: 35px;
+}
+.navbar{
+    height: 70px;
+}
+.collapse{
+    margin-top:30px;
+}
+.navbar-nav > li {
+    margin: 0 5px;
+}
+.carousel-caption > p {
+    font-size: 14px;
+    width: 800px;
+    margin-left: 70px;
+}
+.read {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.carousel-control-prev{
+    background-color: rgb(255, 67, 34);
+    opacity: 100;
+    height: 80px;
+    width: 40px;
+    margin-top: 250px;
+}
+.carousel-control-next{
+    background-color: rgb(255, 67, 34);
+    opacity: 100;
+    height: 80px;
+    width: 40px;
+    margin-top: 250px;
+}
+.card-group{
+    padding-top: 40px;
+    background-color: red;
+}
+.card-group > div{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+/*
+não conseguimos manipular a cor dos icones e a cor da borda.
+*/
+.card-group > div > div > img {
+    width: 30px;
+    background-color: red;
+    margin-top: 30px;
+}
+.border {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.border-dark{
+    border-width: 5px;
+}
+.card{
+    color:  white;
+    text-align: center;
+}
+.space{
+    margin-top: 40px;
+    margin-left: 50px;
+    border-bottom:3px solid grey;
+    margin-bottom: 20px;
+}
+.space > h4{
+    font-weight: bold;
+}
+.space > p{
+    font-size: 14px;
+    color: grey;
+}
+
+.card-deck{
+    margin-left: 30px;
+}
+
+.card-b{
+    color: grey;
+    font-size: 12px;
+}
+.card-b h6{
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+.card-b > p > span{
+    color: red;
+}
+#latest-projects{
+    margin-right: 40px;
+}
+#bgcinza{
+    margin-top: 20px ;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: flex;
+    height: 450px;
+    padding-top: 40px;
+}
+#bgcinza > div{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.first-div{
+    margin-left: 50px;
+}
+#bgcinza > div > h6 {
+    margin-bottom: 40px;
+}
+#bgcinza > div > a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-bottom:2px dotted white ;
+    color: white;
+}
+#bgcinza > div > a > span{
+    border-bottom: 2px dotted white;
+}
+#bg-darkgrey{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    height: 100px;
+    margin-bottom: 50px;
+}
+#bg-darkgrey > p {
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.card-te{
+    color: black;
+}
