@@ -18,60 +18,139 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+        </script>
 
+    <script src="script.js"></script>
     <div class="container-fluid">
-        <div class="row">
-            <h1>REVERA</h1>
-            <div class="col-md-1">Home</div>
-            <div class="col-md-1">About</div>
-            <div class="col-md-1">Sample</div>
-            <div class="col-md-1">Page</div>
-            <div class="col-md-1">Portfolio</div>
-            <div class="col-md-1">Blog</div>
-            <div class="col-md-1">Parent page</div>
+        <div class="header-navigation">
+            <div>
+                <h1 class="headline">REVERA</h1>
+            </div>
+            <div class="header-navigation2">
+                <div class="nav-item red">Home</div>
+                <div class="nav-item">About</div>
+                <div class="nav-item">Sample</div>
+                <div class="nav-item">Page</div>
+                <div class="nav-item">Portfolio</div>
+                <div class="nav-item">Blog</div>
+                <div class="nav-item">Parent page >></div>
+            </div>
         </div>
 
-        <div style="height: 300px">
-            <img src="/starter-code/img/slider-1.jpg">
+        <div class="images-flex">
+            <div class="nav-arrow">
+                <div class="arrow-left" onclick="rotateImageLeft()" ></div>
+            </div>
+            <div class="image">
+                <img src="/starter-code/img/slider-1.jpg" class="slider-image">
+            </div>
+            <div class="nav-arrow">
+                <div class="arrow-right"></div>
+            </div>
         </div>
-        <div style="background-color: #ed564b">
-            <div class="row">
-                <div class="col-md-1">
-                    <h1>Web Design</h1>
+        <div class="benefits">
+            <div class="row flex-row">
+                <div class="column">
+                    <h1 class="benefit">Web Design</h1>
                     <div class="row" style="width: 20vw; color:white">
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                        vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius
                     </div>
                 </div>
-                <div class="col-md-1">
-                    <h1>Web development</h1>
+                <div class="column">
+                    <h1 class="benefit">Web development</h1>
+                    <div class="row" style="width: 20vw; color:white">
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse
+                        at erat luctus.
+                    </div>
                 </div>
-                <div class="col-md-1">
-                    <h1>User interface</h1>
+                <div class="column">
+                    <h1 class="benefit">User interface</h1>
+                    <div class="row" style="width: 20vw; color:white">
+                        Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi
+                        molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue
+                        gravida.
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="latesProjects">
+            <h2>LATEST PROJECTS</h2>
+            <div>FEW OF THE LATEST PORTFOLIO ITEMS</div>
+        </div>
+
+
         <div class="row">
-            <div class="col-md-1">
-                Nunc libero elit, iaculis nec augue non
+            <hr class="grey-hr"></hr>
+            <div class="porfolio">
+                <img src="/starter-code/img/project-1.jpg" class="project">
+                <div>
+                    Nunc libero elit, iaculis nec augue non
+                </div>
             </div>
-            <div class="col-md-1">
-                Phasellus aliquet iaculis neque accumsan aliquam
+
+            <div class="porfolio">
+                <img src="/starter-code/img/project-2.jpg" class="project">
+                <div>
+                    Phasellus aliquet iaculis neque accumsan aliquam
+                </div>
             </div>
-            <div class="col-md-1">
+            <div class="porfolio">
+                <img src="/starter-code/img/project-3.jpg" class="project">
                 Vivamus blandit ipsum sed arcu euismod
             </div>
 
-            <div class="col-md-1">
-                Curabitur auctor dolor risus, vitae pellentesque arcu consequat               
+            <div class="porfolio">
+                <img src="/starter-code/img/project-4.jpg" class="project">
+                Curabitur auctor dolor risus, vitae pellentesque arcu consequat
             </div>
+        </div>
+
+        <hr class="red-hr"></hr>     
+        
+        <div class="row navigation">
+            <div class="col-md-1">
+                <h2>REVERA</h2>
+                <div class="navigation-text">
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.
+                </div>
+            </div>
+            <div class="col-md-1">
+                <h2>META</h2>
+                <div class="navigation-text">
+                    Log In
+                </div>
+                <div class="navigation-text">
+                    Entries RSS
+                </div>
+                <div class="navigation-text">
+                    Comments RSS
+                </div>
+                <div class="navigation-text">
+                    WordPress.org
+                </div>
+            </div>
+            <div class="col-md-1">
+                <h2>ARCHIVES</h2>
+                <div class="navigation-text">
+                    August 2013
+                </div>
+            </div>
+            <div class="col-md-1">
+                <h2>RECENT POSTS</h2>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright © 2018 revera - Just another demo Sites site.   | Revera Theme</div>
         </div>
     </div>
 </body>
