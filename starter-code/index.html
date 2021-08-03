@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>revera</title>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand ml-5" href="#">REVERA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destaques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Preços</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Link dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <container class="carrosel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/slider-1.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ratione consectetur in obcaecati sequi iusto nisi, eligendi neque deserunt omnis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slider-2.jpg" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ratione consectetur in obcaecati sequi iusto nisi, eligendi neque deserunt omnis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slider-4.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut ratione consectetur in obcaecati sequi iusto nisi, eligendi neque deserunt omnis.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+    </container><br>
+    <container class="cards">
+      <div class="card" style="width: 18rem;">
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-star m-auto" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>  
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-heart m-auto" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg>
+        
+        <div class="card-body m-center">
+          <h5 class="card-title ">Título do card</h5>
+          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill m-auto" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+          
+        </div>
+      </div>
+
+    </container><br>
+
+   
+      
+      <section class="posts2">
+        <h3>LATESTS PROJECTS</h3>
+        <p>FEW OF THE LATEST PORTIFOLIO ITEMS</p><hr>
+      <section class="posts">
+          <div class="card1" style="width: 18rem;">
+            <img src="./img/project-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card1" style="width: 18rem;">
+            <img src="./img/project-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card1" style="width: 18rem;">
+            <img src="./img/project-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card1" style="width: 18rem;">
+            <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, est.</p>
+            </div>
+          </div>
+          </section>
+          
+      </section><br><br>
+      <section class="posts2">
+        <h3>LATESTS ARTICLES</h3>
+        <p>LATEST POSTS FROM THE BLOG</p><hr>
+        <section class="posts">
+            <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="./img/slider-1.jpg" height="180px" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></h5>
+                  <p class="sub"><strong>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a> </strong></p>
+                  <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+              </div>
+              </div>
+              <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="./img/slider-2.jpg" height="180px" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></h5>
+                  <p class="sub"><strong>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a> </strong></p>
+                  <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+              </div>
+              <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="./img/slider-3.jpg" height="180px" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></h5>
+                  <p class="sub"><strong>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a> </strong></p>
+                  <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+              </div>
+              <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="./img/slider-4.jpg" height="180px" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Falauris sollicitudin quis dolor venenatis facilisis</a></h5>
+                  <p class="sub"><strong>POSTED ON <a href="#">AUGUST 19, 2013</a> BY <a href="#">ADMIN</a> </strong></p>
+                  <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+              </div>
+           
+            
+            </div>
+            
+        </section><br><br>
+
+      </section>
+
+      <footer class="footer">
+          <div class="foo">
+
+              <div class="card3" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-title">REVERA</h5>
+                      <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                    
+                  </div>
+              </div>
+              <div class="card3" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-title">META</h5>
+                      <a href="#" class="card-link">Login</a><br>
+                      <a href="#" class="card-link">EntriesRS</a><br>
+                      <a href="#" class="card-link">ComentsRs</a>
+                      <a href="#" class="card-link">Wordpress.org</a>
+                      
+              </div>
+           </div>
+            <div class="card3" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">ARCHIVES</h5>
+                <a href="#" class="card-link">Outro link</a>
+              </div>
+            </div>
+              <div class="card3" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">RECENTE POSTS</h5>
+                    <a href="#" class="card-link">Link do card</a><BR>
+                    <a href="#" class="card-link">Outro link</a>
+                  </div>
+            </div>
+          </div>
+      </footer>
+      <div class="footer2">
+        <p>Copyright © 2021 revera - Just another demo Sites site.<br>
+          | Revera Theme</p>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
