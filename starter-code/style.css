@@ -1,0 +1,12 @@
+.row {
+    border: solid blue 2px;
+    height: 200px;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.carousel-inner {
+    width: 500px;
+}
