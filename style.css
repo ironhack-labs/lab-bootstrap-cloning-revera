@@ -1,0 +1,77 @@
+.container-fluid,
+#carousel {
+  padding: 0 !important;
+}
+
+.col {
+  padding-right: 0 !important;
+}
+
+.row.nav {
+  margin-top: 65px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bold {
+  font-weight: bolder;
+}
+
+.form-select {
+  width: 90vw;
+  margin: 5vw;
+}
+
+.tab-content {
+  color: rgb(150, 150, 150);
+}
+
+.carousel {
+  margin: 0;
+}
+
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+}
+
+.carousel-control-prev-icon:active {
+  background-color: white;
+}
+
+.carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-control-next-icon {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+}
+
+.carousel-control-next-icon:active {
+  background-color: white;
+}
+
+.row.feature {
+  background-color: red;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-container > div {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.projects img {
+  height: 150px;
+}

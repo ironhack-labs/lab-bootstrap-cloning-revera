@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revera</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row nav">
+        <div class="col">
+          <h2 class="text-center">REVERA</h2>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select a page</option>
+            <option value="1">Home</option>
+            <option value="2">About</option>
+            <option value="3">Sample Page</option>
+            <option value="4">Portfólio</option>
+            <option value="5">Blog</option>
+            <option value="6" class="bold">Parent Page >></option>
+            <option value="7" class="tab-content"><span> </span>Main</option>
+            <option value="8" class="tab-content">Full Page</option>
+            <option value="9" class="tab-content">Child Page 1</option>
+            <option value="10" class="tab-content">Child Page 2</option>
+            <option value="11">Contact</option>
+          </select>
+        </div>
+      </div>
+      <div class="row carousel">
+        <div class="col" id="carousel">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./starter-code/img/slider-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./starter-code/img/slider-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./starter-code/img/slider-3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./starter-code/img/slider-4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row feature">
+        <div class="col">
+          <div class="feature-container">
+            <div class="web-design">
+              <span>HERE GO ICONS I DONT KNOW HOW TO MAKE IT WORK</span>
+              <h3>Web Design</h3>
+              <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue
+                cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                varius Link
+              </p>
+            </div>
+            <div class="web-development">
+              <span>HERE GO ICONS I DONT KNOW HOW TO MAKE IT WORK</span>
+              <h3>Web development</h3>
+              <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue
+                cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                varius Link
+              </p>
+            </div>
+            <div class="user-interface">
+              <span>HERE GO ICONS I DONT KNOW HOW TO MAKE IT WORK</span>
+              <h3>User inteface</h3>
+              <p>
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue
+                cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                varius Link
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row projects">
+        <div class="row">
+          <div class="col">
+            <h3>LATEST PROJECTS</h3>
+            <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="./starter-code/img/project-1.jpg"
+              alt="men-make-pushing"
+            />
+            <p>blablablablabla</p>
+          </div>
+          <div class="col-6">
+            <img src="./starter-code/img/project-2.jpg" alt="cat" />
+            <p>miau miau miau miau</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="./starter-code/img/project-3.jpg" alt="flower" />
+            <p>flowers doesn't talk</p>
+          </div>
+          <div class="col-6">
+            <img src="./starter-code/img/project-4.jpg" alt="woman" />
+            <p>blablablabla</p>
+          </div>
+        </div>
+      </div>
+      <div class="row articles"></div>
+      <div class="row footer"></div>
+      <div class="row copyright"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
