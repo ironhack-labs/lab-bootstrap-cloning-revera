@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    background-image: url('../img/overlay.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.carousel-item::after{
+    content: "";
+    background: url('../img/overlay.png');
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.d-block{
+    filter: grayscale(100%);
+}
