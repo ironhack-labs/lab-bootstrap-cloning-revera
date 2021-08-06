@@ -1,12 +1,36 @@
-.row {
-    border: solid blue 2px;
-    height: 200px;
+* {
+    box-sizing: border-box;
 }
 
-.navbar {
-    height: 100%;
+.header {
+    background-color: white;
+    height: 100px;
 }
 
-.carousel-inner {
-    width: 500px;
+.carousel {
+    background-color: black;
+    height: 550px;
+}
+
+.info {
+    background-color:#ED564B;
+    height: 300px;
+    border-top: solid 5px #F86B61;
+    border-bottom: solid 5px #F86B61;
+}
+
+.latest {
+    background-color: white;
+    height: 1300px;
+}
+
+.links {
+    background-color: #3B3B3A;
+    height: 350px;
+    border-top: solid 5px #F86B61;
+}
+
+.footer {
+    background-color: #282928;
+    height: 80px;
 }
