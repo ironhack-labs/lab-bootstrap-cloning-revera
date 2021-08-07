@@ -1,0 +1,182 @@
+#nav-link a {
+    color: #777777;
+}
+
+#nav-link a:hover{
+    color: #ed564b;
+}
+
+#nav-link .home{
+    color: #ed564b;
+}
+
+.active{
+    color: #ed564b;;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 30px;
+    opacity: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev:
+#preview-btn{
+    background-color: #ed564b;
+}
+
+#next-btn{
+    background-color: #ed564b;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+#next-btn:hover{
+    background-color: #000;
+    transition: background-color 0.15s ease;
+}
+
+#preview-btn{
+    background-color: #ed564b;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+#preview-btn:hover{
+    background-color: #000;
+    transition: background-color 0.15s ease;
+}
+
+#stacks {
+    background-color: #ED564B;
+    color: #FFF;
+}
+
+.circle-base {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #ffffff;
+}
+
+.circle img{
+    width: 20px;
+    margin: 17px;
+}
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+
+#carousel a{
+    color: #FFF;
+    text-decoration: none;
+    border: thin solid #FFF;
+    padding: 10px 30px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.shaddow-elm {
+    text-shadow: 2px 2px 10px #000;
+}
+
+.dark-bg {
+    border-top: thick solid #ED564B;
+    background-color: #3B3B3B;
+    color: #AAAAAA;
+}
+
+.darker-bg{
+    background-color: #292929;
+    color: #eeeeee;
+}
+
+.darker-bg p{
+    font-size: 0.8em;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#projects a {
+    color: #212529;
+    text-align: center!important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.featured {
+    color: #AAAAAA;
+    font-weight: 700;
+}
+
+#articles p{
+    color: #606060;
+}
+
+.posted-on a{
+    color: #ED564B;
+    text-decoration: none;
+}
+
+.blog-post-title{
+    font-size: 1.0em!important;
+    font-weight: 800;
+}
+
+.blog-post-title a{
+    color: #212529;
+    text-decoration: none;
+}
+
+.posted-on a:hover{
+    color: #000!important;
+}
+
+.posted-on {
+    color: #606060;
+    font-size: 0.8em;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -30px;
+    
+}
+
+footer li {
+    border-bottom: thin dotted;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #AAAAAA;  
+}
+
+footer a:hover {
+    text-decoration: none;
+    color:#FFF;  
+}
+
+footer h3 {
+    font-size: 16px;
+}
