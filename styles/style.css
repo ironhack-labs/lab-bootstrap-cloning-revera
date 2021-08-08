@@ -1,0 +1,148 @@
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ed564b;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: bold;
+}
+
+.carousel-item:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('img/overlay.png');
+}
+
+#hero h2 {
+  font-size: 2rem;
+}
+
+#hero button {
+  padding: 7px 17px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 40px;
+  height: 80px;
+  top: 50%;
+  opacity: 0.8;
+  background-color: #ed564b;
+}
+
+#services {
+  padding: 50px 0;
+  background-color: #ed564b;
+  text-align: center;
+  color: #fff;
+}
+
+#services h3 {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+#services p {
+  font-size: 0.9rem;
+}
+
+.rounded-circle {
+  border: 3px solid #fff;
+  padding: 15px;
+}
+
+.portfolio {
+  margin: 50px 0;
+}
+
+.portfolio h4,
+.portfilio p {
+  text-transform: uppercase;
+}
+
+.portfolio p {
+  line-height: 1rem;
+}
+
+.portfolio img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolio .row {
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.portfolio h5 {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  font-weight: bold;
+}
+
+.portfolio .postinfo {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: gray;
+}
+
+.portfolio .postinfo span {
+  color: #ed564b;
+}
+
+#projects .row p {
+  text-align: center;
+}
+
+#articles .row p {
+  color: #606060;
+  line-height: 1.2rem;
+}
+
+#footer {
+  border-top: 4px solid #ed564b;
+  background-color: #3b3b3b;
+  color: #aaa;
+}
+
+#footer {
+  padding: 50px 0;
+}
+
+#footer h5 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#footer ul li a {
+  display: block;
+  width: 100%;
+  color: #aaa;
+  padding: 7px 0;
+  border-bottom: 1px dotted gray;
+}
+
+footer {
+  padding: 15px 0;
+  background-color: #292929;
+  color: #aaa;
+}
