@@ -25,7 +25,7 @@ p {
 }
 
 .info {
-    background-color:#ED564B;
+    background-color: #ED564B;
     height: 300px;
     border-top: solid 5px #F86B61;
     border-bottom: solid 5px #F86B61;
@@ -34,7 +34,7 @@ p {
 
 .latest {
     background-color: white;
-    height: 1300px;
+    height: auto;
 }
 
 .links {
@@ -48,3 +48,29 @@ p {
     height: 80px;
 }
 
+.col-2 {
+    width: 270px;
+}
+
+.px-2 .col-4>img {
+    height: 120px;
+}
+
+.px-2 .col-4 {
+    max-width: 280px;
+}
+
+.links {
+    background-color: #3b3b3b;
+    color: white;
+    height: auto;
+}
+
+.links .col-3 {
+    min-width: 200px;
+    max-width: auto;
+}
+
+.col-3>p {
+    text-align: left;
+}
