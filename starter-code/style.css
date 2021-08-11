@@ -10,6 +10,7 @@
 }
 
 .carousel-item img{
+    width: 100%;
     filter: grayscale(100%);
 }
 
@@ -23,12 +24,15 @@
     z-index: 100;  
 }
 
-#doggo {
+.carousel-caption {
     color:#fff;
+    font-size: 36px;
+    padding-bottom: 50px;
+
 }
 
-#doggo h2{
-    font-size: 32px;
+.carousel-caption p{
+    font-size: 15px;
 }
 
 #doggo button{
@@ -38,6 +42,124 @@
     padding: 6px 22px;    
 }
 
-#doggo p{
+.carousel-control-prev, 
+.carousel-control-next {
+  position: absolute;
+  width: 50px;
+  height: 100px;  
+  opacity: 0.8;
+  background-color: #f04539;
+  align-items: center;
+}
+
+#services {
+    background-color: #f04539;
+    color:#fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#services h3 {
+    margin: 20px 0;
+    font-size: 22px;    
+}
+
+#services p {
+    font-size: 14px;
+}
+
+.latest {
+    margin: 50px 0;
+}
+
+.latest h3, .latest h4 {
+    text-transform: uppercase;
+}
+
+.latest h4 {
+    color: rgb(175, 164, 164);
+    line-height: 14px;
     font-size: medium;
+}
+
+.latest h5 {
+    color: black;
+    line-height: 14px;
+    font-size: 15px;    
+}
+
+.latest p {
+    line-height: 16px;
+    font-size: 15px;
+}
+
+.latest img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.latest .row {
+    border-top: 1px solid rgb(175, 164, 164);
+    padding-top: 1em;
+}
+
+.latest .post {
+    text-transform: uppercase;
+    color: rgb(92, 85, 85);
+    margin: 16px 0;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;    
+}
+
+.latest .post span {
+    color:#f04539
+}
+
+#portfolio .row p {
+  text-align: center;
+}
+
+#articles .row p {
+  color: #606060;
+  line-height: 18px;
+}
+
+#footer {
+    color:#fff;
+    background-color: rgb(92, 85, 85);
+    border-top: 3px solid #f04539;
+    padding: 40px 0;
+}
+
+#footer h6 {
+    color: rgb(209, 203, 203);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;    
+}
+
+#footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#footer ul li a {   
+    color: #fff; 
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px dotted gray;
+    display: block;
+}
+
+#footer h6 > p {    
+    font-size: 14px;
+    line-height: 14px;
+}
+
+footer {
+    color:#fff;
+    background-color: #2e2d2d;
+    width: 100%;
+    padding: 16px 0 16px 24px;
 }
