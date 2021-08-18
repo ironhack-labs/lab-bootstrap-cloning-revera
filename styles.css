@@ -1,0 +1,119 @@
+.carousel-slide {
+    height: 400px;
+
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 0px;
+}
+
+#masthead {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #606060;
+    line-height: 1.6;
+}
+
+.site-branding {
+    margin-bottom: 20px;
+}
+
+h1.site-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 32px;
+}
+.col-sm-8 {
+    width: 66.66666666666666%;
+}
+
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.col-sm-4 {
+    width: 33.33333333333333%;
+}
+
+.latest-projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    }
+}
+
+#latest-images {
+    background-color: red;
+}
+
+section5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.col-md-3{
+    display: flex;
+    align-content: ;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section7 {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+section8 {
+    background-color: black;
+    color: white;
+}
+
+#last-col {
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    column-gap: 5px;
+}
+
+#block {
+    margin-top: 50px;
+    height: 400px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-around;
+}
