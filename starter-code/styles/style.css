@@ -1,0 +1,75 @@
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 36px;
+}
+
+.carousel-inner img {
+  filter: grayscale(100%);
+}
+
+/* .carousel-control-prev, .carousel-control-next {
+    padding: 1%;
+    background: #ed564b;   
+} */
+
+.courses {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.courses .icon-wrapper {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+.article-thumbnail {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 40px;
+  background: #3b3b3b;
+}
+
+.footer {
+  padding: 40px;
+  background: #3b3b3b;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
+.footer hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-color: #6c757d;
+}
+
+.copyright {
+  padding: 40px 0px 40px;
+  background: #292929;
+}
