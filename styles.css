@@ -1,0 +1,37 @@
+.container{
+    background-color:red;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.col {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+}
+
+.row img {
+    height: 125px;
+    width: 210px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sm img{
+    height: 100px;
+    width: 100px;
+}
