@@ -35,3 +35,8 @@ body {
     border-top: 5px solid salmon;
     height: 314px;
 }
+
+.footer {
+    background-color: rgb(40, 41, 43);
+    border-top: 5px solid salmon;
+}
