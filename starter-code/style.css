@@ -1,6 +1,58 @@
+.navbar{
+    height: 90px;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+
+}
+
+
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Helvetica;
+    margin-left: 30px;
+
+}
+
+.navbar-nav{
+    font-size: 14px;
+    margin-left: 190px;
+}
+
+.nav-item:hover{
+    color: red;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
 .info-section{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     text-align: center;
+}
+
+.d-block{
+    filter: brightness(50%);
+    filter: grayscale(100%);
+}
+
+
+.carousel-control-prev-icon{
+    background-color: red;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row;
 }
