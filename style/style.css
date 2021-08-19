@@ -1,0 +1,44 @@
+* {
+    font-family: 'Oxygen',sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 20%;
+    margin-left:11%;
+    margin-bottom: 0.8%;  
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding-top: 1%;
+}
+
+.nav-item {
+    font-size: 0.9em;
+}
+
+.nav-bar {
+    margin-top: 3%;
+}
+
+.carousel-item img {
+    max-height: 75vh;
+}
+
+.ligtherTile {
+    height: 4px;
+    background-color: #f17067;
+}
+
+.description {
+    display: flex;
+    background-color: #ED564B;
+}
+
+.icon {
+    border-style: solid;
+    border-radius: 300px;
+    width: fit-content;
+}
