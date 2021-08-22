@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: "Helvetica Neue", Arial;
+    font-size:32px;
+    font-weight: bolder;
+}
+
+.navbar-nav{
+    font-size: 14px;
+}
+
+.overlay{
+    filter: blur(5px) grayscale(1);    
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next{
+    justify-content: flex-end;
+}
+
+.paddingButton{
+    background-color: #ed564b;
+    padding: 30px 10px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.colorRed{
+    background-color: #ed564b;
+    padding: 50px
+}
+
+.borderRadius{
+    border: 5px solid #fff;
+    border-radius: 35px;
+    line-height: 65px;
+    margin: 0px auto;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.borderRadius >i{
+    color:white;
+    font-size:30px;
+}
+
+.firstCards{
+    color:white;
+}
+.firstCards span{
+    margin-bottom: 20px;
+}
+
+.firstCards h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.firstCards p{
+    font-size:14px;
+    text-align: center;
+}
