@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    height: 80px;
+}
+
+#navbarText ul{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: stretch;
+   align-content: stretch;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    font-size: 14px;
+    margin-right: 200px;
+}
+
+.nav-item a{
+    color: #f96b61;
+}
+
+.nav-item a:hover{
+    color: #f96b61 !important;
+}
+
+.arrow1{
+    width: 60px;   
+    background-color: #f96b61;
+    padding: 10px;
+}
+.arrow2{
+    width: 60px;   
+    background-color: #f96b61;
+    padding: 10px;
+    
+}
+
+.zindex{
+    z-index: 100;
+
+}
+
+.overlay{
+    z-index: 1;
+    position: relative;
+    height: 550px;
+    display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-around;
+    margin-left: -5px;
+}
+
+.carousel-item, .col-md-4{
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.zimg{
+    z-index: 0;
+}
+
+.carousel h5{
+    font-size: 35px;
+    margin-top: -50px;
+}
+
+.carousel-item button{
+    border: 3px solid white;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+  .carousel-control-prev img{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 150px;
+    margin-left: -100px;
+  }
+
+  .carousel-control-next img{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 150px;
+    margin-left: 1910px;
+  }
+
+  .carousel-control-prev img:hover,  .carousel-control-next img:hover{
+      background-color: #fff;
+  }
+  
+.service{
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+    height: 350px;
+}
+
+.service > .container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    padding-top: 50px;
+}
+
+.card{
+    background-color: transparent;
+    width: 22rem;
+    border-style: none;
+}
+
+.card img{
+    max-width: 60px!important;
+    border: 4px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.card-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-text{
+    color: white;
+    text-align: center;
+}
+
+.prev-latest{
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    display: block;
+
+}
+
+.prev-latest2{
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    display: block;
+
+}
+
+.latest{
+    display: flex!important;
+	flex-direction: row !important;
+	flex-wrap: nowrap !important;
+	justify-content: space-between !important;
+	align-items: flex-start !important;
+	align-content: center !important; 
+    padding: 50px; 
+    color: black;
+}
+
+.latest2{
+    display: flex!important;
+	flex-direction: row !important;
+	flex-wrap: nowrap !important;
+	justify-content: space-between !important;
+	align-items: flex-start !important;
+	align-content: center !important; 
+    padding: 50px; 
+    color: black;
+    border-bottom: 5px solid #f96b61;
+}
+
+.latest2 h4 p{
+    padding: 0;
+}
+
+.text-muted{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+.card-title-latest{
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+
+.text-latest{
+    color: black;
+}
+
+.card-latest{
+    padding: 20px;
+    color: black;
+}
+
+
+.bottom{
+    background-color: #292929;
+    height: 450px;
+    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+}
+
+.bottom p{
+    color: gray;
+}
+
+.bottom li{
+    color: gray;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    margin-left: -30px;
+}
+
+.footer{
+    font-size: 14px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
