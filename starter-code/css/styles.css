@@ -33,6 +33,10 @@ h1{
     padding: 30px 10px;
 }
 
+/* .paddingButton:hover{
+    background-color: white;
+} */
+
 .carousel-control-next, .carousel-control-prev {
     opacity: 1;
 }
@@ -72,4 +76,144 @@ h1{
 .firstCards p{
     font-size:14px;
     text-align: center;
+}
+
+.section-title{
+    margin-top: 60px;
+}
+.section-title h1{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section-title p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.card{
+    cursor:pointer;
+    padding: 20px;
+    padding-bottom: 0;
+    border:none;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.card2{
+    cursor:pointer;
+    padding-left: 20px;
+    border:none;
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 0;
+
+}
+
+.addMargin{
+    margin-left:20px;
+}
+
+.section-article{
+    margin-top: 40px;
+}
+.section-article h1{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section-article p{
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+
+}
+
+.card-title{
+    font-size: 16px;
+}
+.card-body{
+    padding-left: 0;
+    padding-right:0;
+}
+
+.card2-text{
+    color: black !important;
+    font-size: 12px !important;
+    color: #606060 !important;
+    font-family: 'Oxygen',sans-serif !important;
+}
+
+.card2-text-span{
+    color: #f4473a;
+    cursor:pointer;
+}
+
+.card2-text-span:hover{
+    color:black;
+}
+
+.card2-text-second{
+    font-family: 'Oxygen',sans-serif !important;
+    font-weight: 100 !important;
+    font-size: 14px !important;
+    color: #606060 !important;
+}
+.borderBottom5px{
+    border-bottom:5px solid #f96b61;
+}
+
+.footer{
+    background-color: #3b3b3b;
+}
+
+.footer *{
+    background-color: #3b3b3b;
+}
+
+.card-title-footer{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Arial;
+    text-align: left;
+}
+
+.card-text-footer{
+    font-size: 14px;
+    color: #aaa !important;
+    font-family: 'Oxygen',sans-serif !important;
+    text-align: left;
+    padding: 10px;
+}
+
+.card-text-footer:hover{
+    color:white !important;
+}
+
+.footerLast{
+    background-color: rgb(41, 41, 41);
+    color:white;
+    font-size:12px;
+    padding: 10px 0px;
+    color: #eee;
+}
+
+.footerP{
+    margin:0 !important;
+    font-family: 'Oxygen',sans-serif !important;
+}
+
+.footerPtoPick{
+    cursor:pointer;
+    font-family: 'Oxygen',sans-serif !important;
 }
