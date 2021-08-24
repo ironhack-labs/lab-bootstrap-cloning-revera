@@ -1,0 +1,24 @@
+.box-white {
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.box-white2 {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+.box-black {
+  color: aliceblue;
+  background-color: black;
+  height: 100px;
+}
+
+.box-red {
+  height: 30px;
+  background-color: red;
+}
+
+.box-grey {
+  height: 30px;
+  background-color: grey;
+}
