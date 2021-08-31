@@ -1,0 +1,56 @@
+#pic2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+  }
+
+  .carousel  img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .carousel h2{
+      font-size: 3em;
+      margin: 0 150px;
+      margin-bottom: 10px;
+  }
+  .carousel p{
+      margin: 0px 200px;
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    
+    .carousel button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 65px;
+        margin-bottom: 100px;
+  }
+
+  .info>div{
+      margin: 0px 20px;
+    }
+    
+    .info a{
+        border-bottom: 1px dotted ;
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .text-secondary{
+      text-align: justify ;
+      font-size: 1.2em;
+  }
+
+  .footer{
+      background-color: #242424 !important;
+      font-weight: normal;
+  }
+
+  .carousel-caption:after{
+      ;
+  }
