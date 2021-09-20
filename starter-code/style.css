@@ -1,0 +1,26 @@
+.bg-red {
+  background-color: #ed564b;
+}
+.bg-footer {
+  background-color: #3b3b3b;
+}
+.bg-footer-darker {
+  background-color: #292929;
+}
+footer li {
+  height: 100%;
+  line-height: 18px;
+  clear: left;
+  list-style-type: none;
+  color: #aaa;
+  margin: 0;
+  padding: 0px 0px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+footer li a {
+  color: #aaa;
+  text-decoration: none;
+  padding: 7px 0px 7px 0px;
+  display: block;
+}
