@@ -10,3 +10,15 @@
 .icon-cards {
     background-color: #ED564B;
 }
+
+#ownFooter hr{
+    border-color: gray;
+}
+
+#ownFooter a{
+    color: gray;
+}
+
+#disclaimer {
+    background-color: rgb(44, 44, 44);
+}
