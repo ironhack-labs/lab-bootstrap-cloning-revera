@@ -3,6 +3,13 @@
 body {
   font-family: 'Oxygen', sans-serif;
 }
+h1 {
+  font-size: 2.5rem;
+}
+
+h2.display-1 {
+  font-size: 3em;
+}
 
 h1,
 h2 {
@@ -19,13 +26,25 @@ h2 {
 .carousel-inner {
   position: relative;
 }
+
 .carousel-item img {
   width: 100%;
+}
+
+.carousel-caption {
+  top: 150px;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
   z-index: 101;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+.carousel-control-next {
+  justify-content: flex-end;
 }
 
 .carousel.carousel-fade .carousel-item {
@@ -39,14 +58,9 @@ h2 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  height: 100px;
   background-color: #ed564b;
-  height: 70px;
-  padding: 20px;
-}
-
-h2.display-1 {
-  line-height: 1em;
-  font-size: 5em;
+  padding: 0 20px;
 }
 
 img.greyscale {
@@ -64,8 +78,113 @@ img.greyscale {
   z-index: 100;
 }
 
+/* THREE COLUMN SECTION */
+.three-column-section {
+  background-color: #ed564b;
+  color: white;
+  border: 5px solid #f1928b;
+}
+
+.fas {
+  color: white;
+}
+
+.icon-container {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  vertical-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.three-column-section h3 {
+  padding: 10px 0;
+}
+
+h4.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+}
+
+.card h5 {
+  color: rgb(187, 183, 183);
+  font-size: 1em;
+  font-weight: 700;
+}
+.colored-text {
+  color: #ed564b;
+}
+
+.latest-projects-text {
+  color: rgb(187, 183, 183);
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+hr {
+  margin-top: 0;
+}
+
+.latest-articles {
+  border-bottom: 5px solid #ed564b;
+}
+
+/* FOOTER */
+footer {
+  background-color: #3b3b3b;
+  color: #858282;
+}
+
+footer h3 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #858282;
+}
+
+footer p {
+  border-bottom: 1px dotted #858282;
+  padding-bottom: 10px;
+}
+
+.footer-about-text {
+  border-bottom: none;
+}
+
+.copyright-text {
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+
+.copyright {
+  background-color: black;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
+  .carousel-caption {
+    display: none;
+  }
+  li.nav-item {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 768px) {
 }
