@@ -1,0 +1,25 @@
+#widgets.card {
+  color: white;
+}
+
+.card-container {
+  background-color: #ed564b;
+}
+
+footer {
+  background-color: #3b3b3b;
+  padding: 20px 0;
+}
+footer div h3 {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.list-group-item {
+  color: #aaaa;
+  padding-left: 0;
+}
+
+.first-div {
+  width: 25%;
+}
