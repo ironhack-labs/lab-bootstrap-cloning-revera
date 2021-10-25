@@ -1,0 +1,63 @@
+.nav {
+    color: black;
+    text-decoration: none;
+    height: 150px;
+}
+
+.nav-link {
+    color: rgb(53, 53, 53);
+}
+.nav-link:visited {
+    color: rgb(53, 53, 53)
+}
+.nav-link:hover {
+    color: #ed564b;
+}
+
+.main {
+    text-align: center;
+    background-image: url("/starter-code/img/overlay.png");
+    color: white;
+    height: 400px;
+}
+
+.main h2, .main p {
+    margin: 0 150px;
+}
+
+.info {
+    background-color: #ed564b;
+    color: white;
+}
+
+.info div {
+    text-align: center;
+}
+
+.col-3 span {
+    color: #ed564b;
+}
+
+footer {
+    background-color: rgb(77, 77, 77);
+    color: rgb(179, 179, 179);
+}
+
+.projects p{
+    text-align: center;
+}
+.snap {
+    width: 70px;
+}
+.main button {
+    margin: 10px auto;
+    width: 200px;
+}
+
+.latest {
+    height: 200px;
+}
+
+.copyR {
+    background-color: black;
+}
