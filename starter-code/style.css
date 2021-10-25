@@ -1,0 +1,45 @@
+
+#carouselExampleControls img {
+    filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: red;
+    height: 100px;
+}
+
+.carousel-control-prev  {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.servicios {
+    background-color: #ed564b;
+    color: white;
+    padding: 2% 5%;
+}
+
+footer div p {
+    font-size: 12px;
+}
+
+.footer-menu p {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+div ul li {
+    border-bottom: 1px dotted
+}
+
+.posted {
+    font-size: 12px;
+}
