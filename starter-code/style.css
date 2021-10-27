@@ -1,0 +1,17 @@
+h1{
+    font-size: 40px;
+}
+
+#redArea{
+    background-color: #ea554b;
+    color: white;
+    padding: 10px;
+}
+
+#redArea .col-sm-4{
+    padding: 0px 100px 0px 100px;
+}
+
+h3{
+    margin-top: 50px;
+}
