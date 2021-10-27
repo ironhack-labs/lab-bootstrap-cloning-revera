@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+imageheader{
+    width: 100%;
+}
+
+info{
+    background-color: rgb(250, 75, 62);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+
+}
+
+info .card{
+    color: white;
+    width: 100%;
+    border-style: none;
+}
+
+bodyarticles{
+    color: rgb(43, 43, 43);
+    background-color: sandybrown;
+}
