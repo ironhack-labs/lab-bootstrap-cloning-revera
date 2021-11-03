@@ -1,0 +1,100 @@
+.navbar-brand {
+    font-size: 32px;
+}
+
+.card-top-img {
+    max-width: 250px;
+}
+
+.project-description {
+    max-width: 250px;
+    text-align: center;
+}
+
+.slider-paragraph {
+    max-width: 250px;
+    max-height: 170px;
+}
+
+.slider-title {
+    max-width: 250px;
+}
+
+h5 {
+    max-width: 250px;
+    font-size: 14px;
+    color: #606060;
+
+}
+
+.col-projects {
+    padding: 15px;
+   
+   
+}
+
+#services {
+    background-color: #ed564b;
+}
+
+h3 {
+    color: white;
+}
+
+.services-text {
+    color: white;
+    font-size: 14px;
+}
+
+.portfolio {
+    padding-bottom: 150px;
+}
+
+#footer {
+    background-color:#3b3b3b;
+    border-top: 5px solid #ed564b;
+    padding: 20px 0px 40px 0px;
+   
+}
+
+circle {
+    color: white;
+}
+
+
+#footer {
+    color: white;
+    font-size: 16px;
+    padding-top: 50px;
+
+}
+
+#footer-row {
+    justify-content: space-between;
+}
+
+.footer-paragraph {
+    max-width: 300px;
+    font-size: 14px;
+    color:grey;
+}
+
+.footer-text {
+    max-width: 300px;
+    font-size: 14px;
+    border-bottom:grey dotted 1px;
+}
+
+.footer-link-item {
+    color:grey;
+}
+#site-footer {
+    background: #292929;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.credit {
+    padding: 10px 0px;
+    color: #eee;
+}

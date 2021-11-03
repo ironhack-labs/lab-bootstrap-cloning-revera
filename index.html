@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="images" href="starter-code/img/"/>
+
+    <title>Home - Revera</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a href="#" class="navbar-brand"><b>REVERA</b></a>
+        <!-- Add a link to homepage here -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Add a justified center navbar-collapse with id navbarNav, and then a ul list of all nav-items -->
+        <!-- https://getbootstrap.com/docs/4.0/components/navs/ -->
+        <div
+          class="collapse justify-content-center navbar-collapse"
+          id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style=color:red>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class ="nav-item active">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class ="nav-item active">
+                <a class="nav-link" href="#">Sample Page <span class="sr-only">(current)</span></a>
+            </li>
+            <li class ="nav-item active">
+                <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class ="nav-item active">
+                <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- https://getbootstrap.com/docs/4.0/components/dropdowns/ -->
+          
+            <li class="nav-item dropright">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Parent Page</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Full Page</a>
+                <a class="dropdown-item" href="#">Child Page 1</a>
+                <a class="dropdown-item" href="#">Child Page 2</a>
+              </div>
+            </li>
+            <li class ="nav-item active">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+    <section id="hero">
+      <div class="bd-example">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style= "filter:grayscale(100%); opacity: 0.8;" class="d-block w-100" src="starter-code/img/slider-1.jpg" alt="first slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>
+                  2ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN
+                  DIAM
+                </h2>
+                <p>
+                  Duis tempus leo vitae ipsum viverra, blandit condimentum
+                  sapien porttitor. Duis porttitor sed metus eget mollis.
+                  Curabitur bibendum imperdiet tortor, ut pulvinar purus
+                  elementum nec. Suspendisse at erat luctus; hendrerit sapien
+                  sed, consectetur erat. Maecenas dignissim suscipit orci at
+                  molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+                  Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+                </p>
+                <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img style= "filter:grayscale(100%); opacity: 0.6;" class="d-block w-100" src="starter-code/img/slider-2.jpg" alt="first slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>SECOND SLIDE TEXT</h2>
+                  <p>Duis tempus leo vitae ipsum viverra, blandit condimentum
+                    sapien porttitor. Duis porttitor sed metus eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus
+                    elementum nec. Suspendisse at erat luctus; hendrerit sapien
+                    sed, consectetur erat. Maecenas dignissim suscipit orci at
+                    molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+                    Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                  <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <img style= "filter:grayscale(100%); opacity: 0.6;" class="d-block w-100" src="starter-code/img/slider-3.jpg" alt="first slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>THIRD SLIDE TEXT</h2>
+                  <p>Duis tempus leo vitae ipsum viverra, blandit condimentum
+                    sapien porttitor. Duis porttitor sed metus eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus
+                    elementum nec. Suspendisse at erat luctus; hendrerit sapien
+                    sed, consectetur erat. Maecenas dignissim suscipit orci at
+                    molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+                    Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                  <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <img style= "filter:grayscale(100%); opacity: 0.6;" class="d-block w-100" src="starter-code/img/slider-4.jpg" alt="first slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>FOURTH SLIDE TEXT</h2>
+                  <p>Duis tempus leo vitae ipsum viverra, blandit condimentum
+                    sapien porttitor. Duis porttitor sed metus eget mollis.
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus
+                    elementum nec. Suspendisse at erat luctus; hendrerit sapien
+                    sed, consectetur erat. Maecenas dignissim suscipit orci at
+                    molestie. Aenean fringilla dolor vitae lacus lacinia eleifend.
+                    Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                  <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+            </div>
+            </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev" aria-hidden="true"></span>
+            <span class="arrow" style=color:#ed564b;>Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="arrow" style=color:#ed564b;>Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- You got this -->
+    <section id="services">
+        <!-- Parent to Row -->
+        <div class="container">
+            
+            <!-- Parent to columns -->
+        <div class="row text-center">
+          <div class="col-xs-12 col-md-4">
+            <i class="fas fa-glass-martini rounded-circle"></i>
+            <h3>Web Design</h3>
+            <p class="services-text">"Cum sociis natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. 
+                Aenean auctor nulla quis augue dictum, sed sagittis odio varius"
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <i class="fas fa-star rounded-circle"></i>
+            <h3>Web Development</h3>
+            <p class="services-text">"Cum sociis natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. 
+                Aenean auctor nulla quis augue dictum, sed sagittis odio varius"
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <i class="fas fa-heart rounded-circle"></i>
+            <h3>User Interface</h3>
+            <p class="services-text">"Cum sociis natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. 
+                Aenean auctor nulla quis augue dictum, sed sagittis odio varius"
+            </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Same as above -->
+    <section id="projects" class="portfolio-A">
+        <div class="container">
+      
+        <div class="title">
+            <h4><strong>LATEST PROJECTS</strong></h4>
+            <p class="latest-projects-subheading" style=color:silver><strong>FEW OF THE PORTFOLIO ITEMS</strong></p>
+        </div>
+        <hr/>
+            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 row-cols-xl-4">
+                <div class="col">
+                    <img src="starter-code/img/project-1.jpg" alt="project1" class="card-top-img">
+                    <p class="project-description"> <strong>Cum sociis natoque penatibus et magnis dis</strong></p>
+                </div>
+                <div class="col">
+                    <img src="starter-code/img/project-2.jpg" alt="project2" class="card-top-img">
+                    <p class="project-description"> <strong>Cum sociis natoque penatibus et magnis dis</strong></p>
+                </div>
+                <div class="col">
+                    <img src="starter-code/img/project-3.jpg" alt="project3" class="card-top-img">
+                    <p class="project-description"> <strong>Cum sociis natoque penatibus et magnis dis</strong></p>
+                </div>
+                <div class="col">
+                    <img src="starter-code/img/project-4.jpg" alt="project4" class="card-top-img">
+                    <p class="project-description"> <strong>Cum sociis natoque penatibus et magnis dis</strong></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Same as above -->
+    <section id="articles" class="portfolio">
+      <div class="container">
+          <div class="title col-12">
+        <h4><strong>LATEST ARTICLES</strong></h4>
+        <p class="latest-projects-subheading" style=color:silver><strong>LATEST POSTS FROM THE BLOG</strong></p>
+        </div>
+        <hr />
+        
+        <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 row-cols-xl-4">
+          <div class="col-projects">
+            <img src="starter-code/img/slider-1.jpg" alt="slider1" class="card-top-img" />
+            <p class="slider-title"><strong>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</strong></p>
+            <h5>POSTED ON<span style="color: red;"> AUGUST 19, 2013</span> BY<span style="color: red;"> ADMIN</span> </h5>
+            <p class="slider-paragraph">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+                Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. 
+                Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. 
+                Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            </div>
+                <div class="col-projects">
+                    <img src="starter-code/img/slider-2.jpg" alt="slider1" class="card-top-img" />
+                    <p class="slider-title"><strong>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</strong></p>
+                    <h5>POSTED ON<span style="color: red;"> AUGUST 19, 2013</span> BY <span style="color: red;"> ADMIN</span> </h5>
+                    <p class="slider-paragraph">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+                        Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. 
+                        Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. 
+                        Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+                <div class="col-projects">
+                    <img src="starter-code/img/slider-3.jpg" alt="slider1" class="card-top-img" />
+                    <p class="slider-title"><strong>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</strong></p>
+                    <h5>POSTED ON<span style="color: red;"> AUGUST 19, 2013</span> BY <span style="color: red;"> ADMIN</span> </h5>
+                    <p class="slider-paragraph">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+                        Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. 
+                        Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. 
+                        Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+                <div class="col-projects">
+                    <img src="starter-code/img/slider-4.jpg" alt="slider1" class="card-top-img" />
+                    <p class="slider-title"><strong>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</strong></p>
+                    <h5>POSTED ON<span style="color: red;"> AUGUST 19, 2013</span> BY <span style="color: red;"> ADMIN</span> </h5>
+                    <p class="slider-paragraph">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. 
+                    Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. 
+                    Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. 
+                    Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>        
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+        <div class="row" id="footer-row">
+            <div class="col-footer">
+                <p class="footer-title">REVERA<p>
+                <p class="footer-paragraph">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                    Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? 
+                    Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, 
+                    tempus metus accumsan.
+                </p>
+            </div>
+          <div class="col-footer">
+            <p class="footer-title">META</p>
+            <p class="footer-text"><a href="#" class="footer-link-item">Log In</a></p>
+            <p class="footer-text"><a href="#" class="footer-link-item">Entries RSS</a></p>
+            <p class="footer-text"><a href="#" class="footer-link-item">Comments RSS</a></p>
+            <p class="footer-text"><a href="#" class="footer-link-item">Wordpress.org</a></p>
+          </div>
+
+            <div class="col-footer">
+                <p class="footer-title">ARCHIVES</p>
+                <p class="footer-text"><a href="#" class="footer-link-item">August 13</a></p>
+            </div>
+
+            <div class="col-footer">
+                <p class="footer-title">RECENT POSTS</p>
+                <p class="footer-text"><a href="#" class="footer-link-item">Etiam mauris tortor, pharetra quis lobortis in, pharetra indiam</a></p>
+                <p class="footer-text"><a href="#" class="footer-link-item">Nunc libero elit, iaculis nec augue non</a></p>
+                <p class="footer-text"><a href="#" class="footer-link-item">Nunc libero elit, iaculis nec augue non</a></p>
+                <p class="footer-text"><a href="#" class="footer-link-item">Etiam mauris tortor, pharetra quis lobortis in, pharetra indiam</a></p>
+            <!-- Add the remaining columns like above with a ul list instead of paragraph -->
+            </div>
+        </div>
+      </div>
+   
+    </section>
+
+    <footer id="site-footer">
+      <div class="container">
+        <div id="footerbar" class="row">
+        <div class="credit col-12">
+          Copyright © 2018 revera - Just another demo Sites site.
+          <br />| Revera Theme
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
