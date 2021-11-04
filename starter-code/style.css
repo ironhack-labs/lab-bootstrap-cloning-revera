@@ -1,0 +1,12 @@
+.navbar-brand {
+  margin-right: 250px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.nav-link.active {
+  color: red;
+}
+.carouselExampleControls {
+  height: 600px;
+}
