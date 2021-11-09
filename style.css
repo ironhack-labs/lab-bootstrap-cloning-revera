@@ -1,0 +1,13 @@
+img {
+    filter: grayscale(100%);
+}
+
+#cards, .card {
+    background-color: #ee705b;
+}
+
+.card {
+    border: none;
+    color: white;
+}
+
