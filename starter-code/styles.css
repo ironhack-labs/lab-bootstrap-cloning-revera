@@ -1,0 +1,156 @@
+header{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+nav{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+hr{
+    color: #AAAAAA;
+}
+#home{
+    color: red;
+}
+#header > h1 > a{
+    text-decoration: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: 30px;
+}
+#navbar{
+    background-color: white;
+}
+#carouselExampleDark > div > div > img{
+    filter:grayscale(100%);
+}
+#carouselExampleDark > button{
+    background-color: red;
+    margin-top: 260px;
+    margin-bottom: 260px;
+    width: 50px;
+}
+#carouselExampleDark > div p{
+    margin-bottom: 100px;
+    color: white;
+    font-size:15px;
+}
+#carouselExampleDark > div h1{
+    color: white;
+}
+.button_carousel{
+    color:white;
+    margin-bottom: 150px;
+}
+.container_info{
+    background-color: red;
+    border: 4px solid rgba(247, 168, 168, 0.616);
+    height:300px;
+}
+.container_info div{
+    background-color: red;
+    border: none;
+    color: white;
+}
+.container_info div h2{
+    text-align: center;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.container_info div p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.margin_left{
+    margin-left: 170px;
+}
+.margin_rigth{
+    margin-right: 170px;
+}
+.container_cards h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 80px;
+}
+.container_cards h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #AAAAAA
+}
+.container_cards h3{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container_cards h4{
+    color: #606060;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.container_cards span{
+    color: red;
+}
+.card{
+    border: none;
+}
+.card p{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+.background{
+    background-color: #3b3b3b;
+    border-top: 4px solid red;
+    margin-top: 20px;
+}
+.background h6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.background p{
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.background a{
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.background a:hover{
+    color: white;
+}
+.background span{
+    text-decoration: underline;
+}
+.background hr{
+    margin-top: 5px;
+}
+.margin{
+    margin-left: 100px;
+}
+.footer{
+    background-color: #292929;
+}
+.footer p{
+    color:white;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left:100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
