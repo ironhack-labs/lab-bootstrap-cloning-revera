@@ -1,0 +1,21 @@
+#red{
+    background-color: #ed564b;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+    text-align: center;
+}
+#carouselExampleCaptions img{
+    filter:grayscale(100%);
+}
+#grey{
+    background-color: #3b3b3b;
+    color: white;
+}
+#final{
+    background-color: black;
+    color: white;
+}
+
+
+
