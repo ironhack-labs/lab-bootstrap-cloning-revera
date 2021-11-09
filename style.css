@@ -1,0 +1,34 @@
+#cards, .card{
+    background-color: red;
+    color: white;
+}
+
+.card{
+    border:none
+    
+}
+h6{
+    color:grey
+
+}
+#cards2{
+    background-color: white;
+    border:none
+}
+#bold1{
+    font-weight: bold;
+    color:black
+}
+#bold2{
+    font-weight: bold;
+    color:black
+}#bold3{
+    font-weight: bold;
+    color:black
+}#bold4{
+    font-weight: bold;
+    color:black
+}
+.lorem{
+color: grey;
+}
