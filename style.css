@@ -1,4 +1,4 @@
-img {
+.carousel-img {
     filter: grayscale(100%);
 }
 
@@ -10,11 +10,14 @@ img {
     opacity: 1;
 }
 
-#cards, .card {
+#cards, #cards > .card {
     background-color: #ee705b;
+}
+
+#cards > .card {
+    color: white;
 }
 
 .card {
     border: none;
-    color: white;
 }
