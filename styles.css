@@ -2,6 +2,7 @@ h3{
     margin-top: 20px;
 }
 
+
 .doverlay {
     background: url(./starter-code/img/overlay.png);
     position: absolute;
@@ -38,9 +39,35 @@ h3{
 }
 
 .background-coral {
-   background: #ed564b;
-   border-top: 5px solid #f96b61;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
+}
+
+.section-wide{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section-title{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+.section-title p{
+    color: grey;
+    font-size: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.section-images{
+    width: 270px;
+}
+
+.section-cards p{
+    margin: 10px;
 }
 
 #coral-container{
