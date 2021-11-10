@@ -1,10 +1,26 @@
-#cards, .card{
+#cards .card, #cards{
     background-color: red;
     color: white;
 }
+.carousel-control-prev{
+      background-color: red;
+      height: 80px;
+      width: 40px;
+      margin-top: 300px;
+  }
+
+  .carousel-control-next{
+    background-color: red;
+    height: 80px;
+    width: 40px;
+    margin-top: 300px;
+  }
+
+
 
 .card{
     border:none
+
     
 }
 h6{
@@ -31,4 +47,7 @@ h6{
 }
 .lorem{
 color: grey;
+}
+.container{
+    background-color: white;
 }
