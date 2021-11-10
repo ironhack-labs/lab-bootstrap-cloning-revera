@@ -44,6 +44,16 @@ h3{
     border-bottom: 5px solid #f96b61;
 }
 
+.background-gray{
+    border-top: 5px solid #f96b61;
+    background: #3b3b3b;
+}
+
+.background-dark{
+    background: #292929;
+    padding: 10px;
+}
+
 .section-wide{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -68,6 +78,18 @@ h3{
 
 .section-cards p{
     margin: 10px;
+}
+
+.links-ul {
+    list-style-type: none;
+}
+
+.links{
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted grey;
+    padding: 7px 0px 7px 0px;
 }
 
 #coral-container{
