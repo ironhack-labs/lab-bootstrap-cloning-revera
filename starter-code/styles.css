@@ -9,6 +9,14 @@ nav{
 hr{
     color: #AAAAAA;
 }
+i{
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 50% ;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
 #home{
     color: red;
 }
@@ -26,12 +34,6 @@ hr{
 #carouselExampleDark > div > div > img{
     filter:grayscale(100%);
 }
-#carouselExampleDark > button{
-    background-color: red;
-    margin-top: 260px;
-    margin-bottom: 260px;
-    width: 50px;
-}
 #carouselExampleDark > div p{
     margin-bottom: 100px;
     color: white;
@@ -40,37 +42,57 @@ hr{
 #carouselExampleDark > div h1{
     color: white;
 }
+.carousel-control-prev{
+    background-color: red;
+    height: 80px;
+    width: 40px;
+    margin-top: 300px;
+}
+
+.carousel-control-next{
+  background-color: red;
+  height: 80px;
+  width: 40px;
+  margin-top: 300px;
+}
 .button_carousel{
     color:white;
     margin-bottom: 150px;
 }
 .container_info{
-    background-color: red;
+    background-color: #ED654B;
     border: 4px solid rgba(247, 168, 168, 0.616);
     height:300px;
 }
 .container_info div{
-    background-color: red;
+    background-color: #ED654B;
     border: none;
     color: white;
 }
-.container_info div h2{
+.container_info div h5{
+    color: white;
     text-align: center;
-    font-size:30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .container_info div p{
     text-align: center;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    color: white;
 }
 .margin_left{
     margin-left: 170px;
+    text-align: center;
+}
+.center{
+    text-align: center;
 }
 .margin_rigth{
     margin-right: 170px;
+    text-align: center;
 }
 .container_cards h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -153,4 +175,5 @@ hr{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 
