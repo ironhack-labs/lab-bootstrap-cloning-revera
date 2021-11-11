@@ -1,0 +1,60 @@
+
+body{
+    margin:0;
+}
+
+.navbar-brand {
+    margin-right: 250px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .nav-link active li{
+   color: #ed564b;
+  }
+
+
+
+.doverlay {
+    background-image: url("/starter-code/img/overlay.png");
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;    
+    top: 0px;
+    z-index: 0;  
+}
+
+
+.carousel-item{
+  filter: grayscale();
+}
+
+  .carouselExampleControls {
+    height: 600px;
+  }
+
+  .carousel-control-prev{
+      background-color: red;
+      height: 80px;
+      width: 40px;
+      margin-top: 300px;
+  }
+
+  .carousel-control-next{
+    background-color: red;
+    height: 80px;
+    width: 40px;
+    margin-top: 300px;
+  }
+  
+  .carousel-caption {
+      margin-bottom: 200px;
+      
+}
+
+.btn-outline-secondary{
+  color: white;
+  border: white;
+}
+
