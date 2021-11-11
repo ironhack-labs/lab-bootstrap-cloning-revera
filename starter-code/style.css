@@ -1,0 +1,24 @@
+
+#red-container {
+    background-color: #ed564b; 
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    width: 100vw; 
+
+    padding: 5vw; 
+    max-width: fit-content;
+}
+
+.container {
+    margin-top: 3%;
+}
+
+#footer {
+    background-color: #3b3b3b;
+    border-top: 5px solid #f96b61;
+    padding: 20px 0px 40px 0px;
+}
+
+.nav-item {
+    border-bottom: 1px dotted white;
+}
