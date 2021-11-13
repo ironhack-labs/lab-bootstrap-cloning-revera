@@ -5,4 +5,5 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #ed564b;
+  height: 60px;
 }
