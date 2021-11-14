@@ -1,23 +1,27 @@
+.color {
+    color: #ee705b;
+}
+
+.bg-color {
+    background-color: #ee705b;
+}
+
 .carousel-img {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-.carousel-control-prev, .carousel-control-next{
-    background-color: #ee705b;
-    height: 80px;
-    width: 40px;
-    margin-top: -40px;
-    opacity: 1;
-}
-
-#cards, #cards > .card {
-    background-color: #ee705b;
+.carousel-control-prev,
+.carousel-control-next {
+  height: 80px;
+  width: 40px;
+  margin-top: -40px;
+  opacity: 1;
 }
 
 #cards > .card {
-    color: white;
+  color: white;
 }
 
 .card {
-    border: none;
+  border: none;
 }
