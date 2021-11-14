@@ -1,9 +1,22 @@
+/* had to add this line to fix the body expanding further than the height of the contents inside it */
+html, body {
+    height: 100%;
+}
+
 .color {
     color: #ee705b;
 }
 
 .bg-color {
     background-color: #ee705b;
+}
+
+.bg-color2 {
+    background-color: #3b3b3b;
+}
+
+.lightgray {
+    color: lightgray;
 }
 
 .carousel-img {
@@ -25,4 +38,5 @@
 .card {
   border: none;
 }
+
 
