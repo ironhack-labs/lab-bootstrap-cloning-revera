@@ -3,6 +3,10 @@ body{
     margin:0;
 }
 
+
+/* navbar */
+
+
 .navbar-brand {
     margin-right: 250px;
     margin-left: 200px;
@@ -13,7 +17,7 @@ body{
    color: #ed564b;
   }
 
-
+/* carousel */
 
 .doverlay {
     background-image: url("/starter-code/img/overlay.png");
@@ -55,6 +59,55 @@ body{
 
 .btn-outline-secondary{
   color: white;
-  border: white;
+  border: white 1px solid;
+}
+
+/* services */
+
+.fas{
+  color: white;
+  font-size: 40px;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 14px;
+}
+
+/* latest projects & latest articles */
+
+h4{
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+h5{
+  color:rgb(195, 195,195) ;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.card-title{
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid red;
+}
+
+footer h5{
+  color:white;
+  font-size: 18px;
+}
+
+footer p{
+  color:rgb(170, 170, 170);
+}
+
+footer li  a{
+  text-decoration: none;
+  color:rgb(170, 170, 170);
 }
 
