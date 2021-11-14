@@ -1,5 +1,4 @@
-/* had to add this line to fix the body expanding further than the height of the contents inside it */
-html, body {
+html {
     height: 100%;
 }
 
@@ -37,6 +36,14 @@ html, body {
 
 .card {
   border: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#cssux {
+    margin-bottom: -16px;
 }
 
 
