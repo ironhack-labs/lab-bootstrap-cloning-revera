@@ -13,8 +13,9 @@
     <title>Revera Clone</title>
 </head>
 
-<body class="container">
-    <header id="masthead" class="row">
+<body>
+    <header id="masthead" class="container">
+        <div class="row">
         <div class="col-md-4">
             site icon
         </div>
@@ -36,12 +37,12 @@
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">Parent page</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        >Parent page</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Full page</a>
-                        <a class="dropdown-item" href="#">Child page 1</a>
-                        <a class="dropdown-item" href="#">Child page 2</a>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -49,9 +50,10 @@
                 </li>
             </ul>
         </div>
-
+    </div>
     </header>
-    <div id="slider" class="row">
+    <div id="slider" class="container-fluid">
+        <div class="row">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -83,6 +85,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -95,105 +98,94 @@
             </button>
         </div>
     </div>
-    <div id="widgets" class="row">
-        <div class="col-sm-4">
-            <div class="card">
-                <i class="bi bi-cup-straw"></i>
-                <h3 class="card-title">Web design</h3>
-                <div class="card-body">
-                    <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius </p>
-                </div>
+    <div id="widgets" class="container-fluid bg-danger">
+        <div class="row">
+        <div class="col-sm-4 p-5 text-center text-white">
+               <i class="bi bi-cup-straw"></i>
+                <h3 class="">Web design</h3>
+                <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius </p>
             </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
+        
+        <div class="col-sm-4 p-5 text-center text-white">
                 <i class="bi bi-star"></i>
-                <h3 class="card-title">Web development</h3>
-                <div class="card-body">
-                    <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
+                <h3 class="">Web development</h3>
+                <p class="">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+       </div>
+        <div class="col-sm-4 p-5 text-center text-white">
                 <i class="bi bi-heart"></i>
-                <h3 class="card-title">User interface</h3>
-                <div class="card-body">
-                    <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
-                </div>
-            </div>
+                <h3 class="">User interface</h3>
+                <p class="">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            
         </div>
     </div>
-    <div id="content" class="row">
-        <div class="col-12">
-            <h2>Title</h2>
-            <p>text</p>
+</div>
+</div>
+</div>
+    <div id="content" class="container">
+        <div class="row">
+        <div class="col-12 border-bottom border-secondary m-3">
+            <h2>LATEST PROJECTS</h2>
+            <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
         </div>
         <div class="col-sm-3">
-            <img src="starter-code/img/project-1.jpg" alt="">
+            <img src="starter-code/img/project-1.jpg" class="img-fluid" alt="">
             <p>Nunc libero elit, iaculis nec augue non</p>
         </div>
         <div class="col-sm-3">
-            <img src="starter-code/img/project-2.jpg" alt="">
+            <img src="starter-code/img/project-2.jpg" class="img-fluid" alt="">
             <p>Nunc libero elit, iaculis nec augue non</p>
         </div>
         <div class="col-sm-3">
-            <img src="starter-code/img/project-3.jpg" alt="">
+            <img src="starter-code/img/project-3.jpg" class="img-fluid" alt="">
             <p>Nunc libero elit, iaculis nec augue non</p>
         </div>
         <div class="col-sm-3">
-            <img src="starter-code/img/project-4.jpg" alt="">
+            <img src="starter-code/img/project-4.jpg" class="img-fluid" alt="">
             <p>Nunc libero elit, iaculis nec augue non</p>
         </div>
-        <div class="col-12">
-            <h2>Title</h2>
-            <p>text</p>
+        <div class="col-12 border-bottom border-secondary m-3">
+            <h2>LATEST ARTICLES</h2>
+            <p>LATEST POSTS FROM THE BLOG</p>
         </div>
+    </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 col6">
-                    <div class="col-sm-3">
-                        <img src="starter-code/img/slider-1.jpg" alt="">
-                        <h5>Nunc libero elit, iaculis nec augue non</h5>
-                        <h6>Posted on blah blah</h6>
-                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
-                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
-                            Suspendisse at erat luctus;</p>
-                    </div>
+                <div class="col-sm-3">
+                    <img src="starter-code/img/slider-1.jpg" class="img-fluid" alt="">
+                    <h5>Nunc libero elit, iaculis nec augue non</h5>
+                    <h6>Posted on blah blah</h6>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus;</p>
                 </div>
-                <div class="col-sm-3 col6">
-                    <div class="col-sm-3">
-                        <img src="starter-code/img/slider-2.jpg" alt="">
-                        <h5>Nunc libero elit, iaculis nec augue non</h5>
-                        <h6>Posted on blah blah</h6>
-                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
-                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
-                            Suspendisse at erat luctus;</p>
-                    </div>
+                <div class="col-sm-3">
+                    <img src="starter-code/img/slider-2.jpg" class="img-fluid" alt="">
+                    <h5>Nunc libero elit, iaculis nec augue non</h5>
+                    <h6>Posted on blah blah</h6>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus;</p>
                 </div>
-                <div class="col-sm-3 col6">
-                    <div class="col-sm-3">
-                        <img src="starter-code/img/slider-3.jpg" alt="">
-                        <h5>Nunc libero elit, iaculis nec augue non</h5>
-                        <h6>Posted on blah blah</h6>
-                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
-                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
-                            Suspendisse at erat luctus;</p>
-                    </div>
+                <div class="col-sm-3">
+                    <img src="starter-code/img/slider-3.jpg" class="img-fluid" alt="">
+                    <h5>Nunc libero elit, iaculis nec augue non</h5>
+                    <h6>Posted on blah blah</h6>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus;</p>
                 </div>
-                <div class="col-sm-3 col6">
-                    <div class="col-sm-3">
-                        <img src="starter-code/img/slider-4.jpg" alt="">
-                        <h5>Nunc libero elit, iaculis nec augue non</h5>
-                        <h6>Posted on blah blah</h6>
-                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
-                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
-                            Suspendisse at erat luctus;</p>
-                    </div>
+                <div class="col-sm-3">
+                    <img src="starter-code/img/slider-4.jpg" class="img-fluid" alt="">
+                    <h5>Nunc libero elit, iaculis nec augue non</h5>
+                    <h6>Posted on blah blah</h6>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus;</p>
                 </div>
             </div>
         </div>
-        <div id="bottom" class="row">
+        <div id="bottom" class="container-fluid bg-secondary border-top border-5 border-danger">
+            <div class="row">
             <div class="col-sm-3">
                 <h3>Revera</h3>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
@@ -221,9 +213,10 @@
                 <a href="#">Vivamus blandit ipsum sed arcu euismod</a>
             </div>
         </div>
-        <footer id="footer" class="row">
-            <p>Copyright © 2018 revera - Just another demo Sites site.<br>
-                | Revera Theme</p>
+    </div>
+        <footer id="footer" class="container-fluid bg-dark">
+            <div class="row"><p>Copyright © 2018 revera - Just another demo Sites site.<br>
+                | Revera Theme</p></div>
         </footer>
 
         <!-- Optional JavaScript; choose one of the two! -->
