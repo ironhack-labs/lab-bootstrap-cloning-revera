@@ -1,0 +1,33 @@
+.sub-text {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.carousel-inner .d-block {
+    filter: brightness(50%);
+}
+
+.sub-title {
+    color: #777777;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.container {
+    max-width: 950px;
+}
+
+.first-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.second-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(151, 151, 151);
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
