@@ -1,6 +1,36 @@
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
+
+
+#explanation-cards {
+    background-color: #ed564b;
 }
 
+.nav-link.active {
+    color: #ed564b !important;
+}
+
+.navbar-brand {
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.navbar-nav a {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.carousel-inner .carousel-item {
+    height: 550px;
+    margin-bottom: 40px;
+}
+
+.carousel-caption > h2 {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2.5em;
+}
+
+.carousel-caption > p {
+    font-size: 1em;
+    margin: 12px auto;
+    width: 62%;
+}
