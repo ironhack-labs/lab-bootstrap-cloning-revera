@@ -18,8 +18,8 @@
       class="container navbar navbar-expand-lg navbar-light"
       style="background-color: #ffffff"
     >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">REVERA</a>
+      <div class="container">
+        <a class="navbar-brand" href="https://calvintorra.com/">REVERA</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,27 +31,38 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse mx-md-auto mx-0 flex-grow-0"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://calvintorra.com/"
+                style="color: #ed564b"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="https://calvintorra.com/">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sample Page</a>
+              <a class="nav-link" href="https://calvintorra.com/"
+                >Sample Page</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="https://calvintorra.com/">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="https://calvintorra.com/">Blog</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="https://calvintorra.com/"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -59,16 +70,37 @@
               >
                 Parent Page
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Full Page</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Child Page 1</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Child Page 2</a></li>
+              <ul
+                class="dropdown-menu border-0 opacity-75"
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item text-secondary"
+                    href="https://calvintorra.com/"
+                    >Full Page</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item text-secondary"
+                    href="https://calvintorra.com/"
+                    >Child Page 1</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item text-secondary"
+                    href="https://calvintorra.com/"
+                    >Child Page 2</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="https://calvintorra.com/">Contact</a>
             </li>
           </ul>
         </div>
@@ -80,28 +112,168 @@
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" style="position: relative">
             <img
               src="/starter-code/img/slider-1.jpg"
               class="d-block w-100"
               alt="..."
+              style="-webkit-filter: grayscale(100%)"
             />
+            <div
+              style="
+                background-image: url('./img/overlay.png');
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+              "
+            ></div>
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="position: absolute; top: 40%; bottom: 50%"
+            >
+              <h3>
+                ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM
+              </h3>
+              <p>
+                Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+              </p>
+              <button type="button" class="btn btn-outline-light">
+                Read More
+              </button>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" style="position: relative">
             <img
               src="/starter-code/img/slider-2.jpg"
               class="d-block w-100"
               alt="..."
+              style="-webkit-filter: grayscale(100%)"
             />
+            <div
+              style="
+                background-image: url('./img/overlay.png');
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+              "
+            ></div>
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="position: absolute; top: 40%; bottom: 50%"
+            >
+              <h3>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h3>
+              <p>
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+              </p>
+              <button type="button" class="btn btn-outline-light">
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item" style="position: relative">
+            <img
+              src="/starter-code/img/slider-3.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="-webkit-filter: grayscale(100%)"
+            />
+            <div
+              style="
+                background-image: url('./img/overlay.png');
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+              "
+            ></div>
+            <div
+              class="carousel-caption d-none d-md-block"
+              style="position: absolute; top: 40%; bottom: 50%"
+            >
+              <h3>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h3>
+              <p>
+                Quisque sit amet sagittis justo. Suspendisse ornare, felis
+                feugiat suscipit pharetra, lorem est viverra odio; tristique
+                tristique diam tellus id tellus. In consectetur aliquet
+                tristique.
+              </p>
+              <button type="button" class="btn btn-outline-light">
+                Read More
+              </button>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <img
+              src="/starter-code/img/slider-2.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="-webkit-filter: grayscale(100%)"
+            />
+            <div
+              style="
+                background-image: url('./img/overlay.png');
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+              "
+            ></div>
           </div>
           <div class="carousel-item">
             <img
               src="/starter-code/img/slider-3.jpg"
               class="d-block w-100"
               alt="..."
+              style="-webkit-filter: grayscale(100%)"
             />
-          </div>
+            <div
+              style="
+                background-image: url('./img/overlay.png');
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+              "
+            ></div>
+          </div> -->
+
+          <!-- <div class="carousel-item">
+            <img
+              src="/starter-code/img/slider-4.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="-webkit-filter: grayscale(100%)"
+            />
+          </div> -->
         </div>
         <button
           class="carousel-control-prev"
@@ -129,8 +301,8 @@
       style="background-color: #ed564b"
     >
       <div class="container pt-5 pb-5">
-        <div class="row">
-          <div class="col">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 mb-4">
             <div
               class="border border-5 border-white rounded-circle mx-auto"
               style="height: 70px; width: 70px"
@@ -150,7 +322,7 @@
               varius
             </p>
           </div>
-          <div class="col">
+          <div class="col-lg-3 mb-4">
             <div
               class="border border-5 border-white rounded-circle mx-auto"
               style="height: 70px; width: 70px"
@@ -170,7 +342,7 @@
               varius
             </p>
           </div>
-          <div class="col">
+          <div class="col-lg-3 mb-4">
             <div
               class="border border-5 border-white rounded-circle mx-auto"
               style="height: 70px; width: 70px"
@@ -204,7 +376,7 @@
       <!-- image rows go here -->
       <div class="container p-0 pt-3">
         <div class="row justify-content-between p-0 text-center">
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <img
               src="../starter-code/img/project-1.jpg"
               alt=""
@@ -214,7 +386,7 @@
 
             Curabitur auctor dolor risus, vitae pellentesque arcu consequat
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <img
               src="../starter-code/img/project-2.jpg"
               alt=""
@@ -224,7 +396,7 @@
 
             Curabitur auctor dolor risus, vitae pellentesque arcu consequat
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <img
               src="../starter-code/img/project-3.jpg"
               alt=""
@@ -234,7 +406,7 @@
 
             Curabitur auctor dolor risus, vitae pellentesque arcu consequat
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <img
               src="../starter-code/img/project-4.jpg"
               alt=""
@@ -256,7 +428,7 @@
       <!-- image rows go here -->
       <div class="container p-0 pt-3">
         <div class="row justify-content-between p-0">
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <div
               style="
                 background: url('../starter-code/img/slider-1.jpg') center;
@@ -269,8 +441,12 @@
             </p>
             <p class="fw-bold text-muted">
               <small>
-                POSTED ON <a href="" class="link-danger">AUGUST 19, 2013</a> BY
-                <a href="" class="link-danger">ADMIN</a>
+                POSTED ON
+                <a href="https://calvintorra.com/" class="link-danger"
+                  >AUGUST 19, 2013</a
+                >
+                BY
+                <a href="https://calvintorra.com/" class="link-danger">ADMIN</a>
               </small>
             </p>
 
@@ -282,7 +458,7 @@
               […]
             </small>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <div
               style="
                 background: url('../starter-code/img/slider-3.jpg') center;
@@ -295,8 +471,12 @@
             </p>
             <p class="fw-bold text-muted">
               <small>
-                POSTED ON <a href="" class="link-danger">AUGUST 19, 2013</a> BY
-                <a href="" class="link-danger">ADMIN</a>
+                POSTED ON
+                <a href="https://calvintorra.com/" class="link-danger"
+                  >AUGUST 19, 2013</a
+                >
+                BY
+                <a href="https://calvintorra.com/" class="link-danger">ADMIN</a>
               </small>
             </p>
 
@@ -308,7 +488,7 @@
               […]
             </small>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <div
               style="
                 background: url('../starter-code/img/slider-4.jpg') center;
@@ -321,8 +501,12 @@
             </p>
             <p class="fw-bold text-muted">
               <small>
-                POSTED ON <a href="" class="link-danger">AUGUST 19, 2013</a> BY
-                <a href="" class="link-danger">ADMIN</a>
+                POSTED ON
+                <a href="https://calvintorra.com/" class="link-danger"
+                  >AUGUST 19, 2013</a
+                >
+                BY
+                <a href="https://calvintorra.com/" class="link-danger">ADMIN</a>
               </small>
             </p>
 
@@ -334,7 +518,7 @@
               […]
             </small>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-lg-3 mb-5">
             <div
               style="
                 background: url('../starter-code/img/slider-5.jpeg') center;
@@ -347,8 +531,12 @@
             </p>
             <p class="fw-bold text-muted">
               <small>
-                POSTED ON <a href="" class="link-danger">AUGUST 19, 2013</a> BY
-                <a href="" class="link-danger">ADMIN</a>
+                POSTED ON
+                <a href="https://calvintorra.com/" class="link-danger"
+                  >AUGUST 19, 2013</a
+                >
+                BY
+                <a href="https://calvintorra.com/" class="link-danger">ADMIN</a>
               </small>
             </p>
 
@@ -367,7 +555,7 @@
     <section class="text-white mt-5 pt-5" style="background-color: #3b3b3b">
       <div class="container justify-content-between">
         <div class="row">
-          <div class="col-3">
+          <div class="col-5 col-lg-3 mb-5">
             <h5 class="pb-3">REVERA</h5>
             <p>
               <small style="color: #aaa"
@@ -380,57 +568,67 @@
               </small>
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-5 col-lg-3 mb-5">
             <h5 class="pb-3">META</h5>
             <p>
-              <a href="" class="link-secondary"> Log in </a>
+              <a href="https://calvintorra.com/" class="link-secondary">
+                Log in
+              </a>
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"> Entries RSS </a>
+              <a href="https://calvintorra.com/" class="link-secondary">
+                Entries RSS
+              </a>
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"> Comments RSS </a>
+              <a href="https://calvintorra.com/" class="link-secondary">
+                Comments RSS
+              </a>
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"> WordPress.org </a>
+              <a href="https://calvintorra.com/" class="link-secondary">
+                WordPress.org
+              </a>
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
           </div>
-          <div class="col-3">
+          <div class="col-5 col-lg-3">
             <h5 class="pb-3">ARCHIVES</h5>
             <p>
-              <a href="" class="link-secondary"> August 13 </a>
+              <a href="https://calvintorra.com/" class="link-secondary">
+                August 13
+              </a>
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
           </div>
-          <div class="col-3">
+          <div class="col-5 col-lg-3">
             <h5 class="pb-3">RECENT POSTS</h5>
             <p>
-              <a href="" class="link-secondary"
+              <a href="https://calvintorra.com/" class="link-secondary"
                 >Etiam mauris tortor, pharetra quis lobortis in, pharetra in
                 diam</a
               >
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"
+              <a href="https://calvintorra.com/" class="link-secondary"
                 >Etiam mauris tortor, pharetra quis lobortis in, pharetra in
                 diam</a
               >
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"
+              <a href="https://calvintorra.com/" class="link-secondary"
                 >Etiam mauris tortor, pharetra quis lobortis in, pharetra in
                 diam</a
               >
             </p>
             <hr style="border-bottom: 1px dashed #aaa" />
             <p>
-              <a href="" class="link-secondary"
+              <a href="https://calvintorra.com/" class="link-secondary"
                 >Etiam mauris tortor, pharetra quis lobortis in, pharetra in
                 diam</a
               >
