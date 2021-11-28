@@ -1,0 +1,21 @@
+#carrusel img {
+    filter: grayscale(100%);
+}
+#red {
+    color: #ED554A;
+}
+#bg-red {
+    background-color: #ED554A;
+}
+
+.bold {
+    font-weight: 700;
+}
+.red{
+    color: #ED554A;
+}
+
+.footer-color {
+    border-top: 5px solid #ed564b;
+    background-color: #3B3B3B;
+}
