@@ -65,16 +65,33 @@
     margin: 10px auto;
 }
 
+.carousel-control-prev {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    top: 40%;
+    z-index: 100 !important;
+}
+
+.carousel-control-next {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    top: 40%;
+}
+
 /* EXPLANATION CARDS STYLING */
 
 #explanation-cards {
     background-color: #ed564b;
     max-width: 100%;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
 }
 
 #explanation-cards > div {
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 30px 0;
     color: white;
 }
@@ -210,3 +227,54 @@
 
 /* FOOTER STYLING */  
 
+footer {
+    background-color: #3b3b3b;
+    max-width: 100% !important;
+    border-top: 5px solid #ed564b;
+}
+
+footer > .row:first-child {
+    margin: 0 auto;
+    width: 62%;
+}
+
+footer h5 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    margin-top: 55px;
+}
+
+footer p, footer li {
+    color: #aaaaaa;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #aaaaaa !important;
+    font-size: 0.85rem;
+    border-bottom: 0.25px dotted #aaaaaa;
+}
+
+footer p {
+    color: #aaaaaa;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+#subfooter {
+    background-color: #292929;
+    margin-top: 35px;
+}
+
+#subfooter > div {
+    margin: 0 auto;
+    width: 62%;
+}
+
+#subfooter p {
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
