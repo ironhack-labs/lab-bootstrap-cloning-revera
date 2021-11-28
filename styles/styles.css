@@ -1,0 +1,24 @@
+.html {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    border: none !important;
+}
+
+.nav-link {
+    color: black;
+    border: none;
+    box-shadow: none !important;
+}
+
+.nav-link[aria-current="page"], .nav-link:hover, .nav-link > a{
+    color: red !important;
+    border: none !important;
+}
+
+
+$font-sizes: (
+  7: 12px
+);
