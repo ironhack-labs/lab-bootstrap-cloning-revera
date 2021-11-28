@@ -1,0 +1,90 @@
+
+#revera{
+    font-weight: 700;
+}
+
+#home {
+    color: red;
+}
+
+
+/* carousel */
+/* .carousel-inner {
+    height: 400px;
+} */
+
+#carouselExampleCaptions img {
+    filter: grayscale(100%);
+}
+
+.carousel-control-prev{
+    display: flex;
+    justify-content: flex-start;
+    opacity: 1;
+}
+.carousel-control-prev-icon{
+    background-color: #ed564b;
+    height: 20%;
+    width: 50px;
+}
+.carousel-control-next{
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1;
+}
+.carousel-control-next-icon{
+    background-color: #ed564b;
+    height: 20%;
+    width: 50px;
+}
+
+
+
+
+/* section1 */
+#section1{
+    background-color: #ed564b;
+    color: white;
+    padding: 30px;
+}
+
+
+/* section2 */
+
+.card{
+    border-width: 0;
+}
+
+.bottom{
+    background-color: #3b3b3b;
+    color: rgb(163, 162, 162);
+}
+
+.bottom h3{
+    color: white;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px dotted grey;
+}
+
+footer{
+    background-color: #292929;
+    color: white;
+}
+
+.redstripe{
+    background-color: tomato;
+    height: 5px;
+    width: 100%;
+}
+
+.red{
+    color: red;
+}
+
+.bold{
+    font-weight: bold;
+}
