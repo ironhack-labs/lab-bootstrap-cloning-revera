@@ -12,42 +12,53 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous"
     >
+    <link rel="stylesheet" href="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/styles.css" />
     <title>Revera</title>
   </head>
   <body>
-    <!--Navbar y h1-->
-    <header>
-      <h1>REVERA</h1>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sample page</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Blog</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Parent Page</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Full Page</a></li>
-            <li><a class="dropdown-item" href="#">Child Page 1</a></li>
-            <li><a class="dropdown-item" href="#">Child Page 2</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Contact</a>
-        </li>
-      </ul>
+
+    <!--Navbar and h1-->
+
+    <header class="container align-bottom">
+          <div class="row pt-5 pb-1 align-bottom" id="container-header">
+            <div class="col align-bottom" id="revera-title">
+              <h1>REVERA</h1>
+            </div>
+            <div class="col">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sample page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Parent Page</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Full Page</a></li>
+                    <li><a class="dropdown-item" href="#">Child Page 1</a></li>
+                    <li><a class="dropdown-item" href="#">Child Page 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
     </header>
-    <!--Carrusel-->
+
+    <!--Carusel-->
+    
     <section>
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -95,110 +106,165 @@
       </div>
     </section>
     <section>
-  <!--Zona roja-->
-  <section class="container container mt-4 row align-items-center">
-    <div class="card" style="width: 18rem;">
-      <img src="" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Web design</h5>
-        <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+
+  <!--Red Zone-->
+  
+  <section class="container mt-4 row align-items-center bg-danger">
+      <div class="col">
+        <div class="card bg-danger text-white" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="...">
+          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+          <div class="card-body">
+            <h5 class="card-title">Web design</h5>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Web development</h5>
-        <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+      <div class="col">
+        <div class="card bg-danger text-white" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web development</h5>
+            <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">User interface</h5>
-        <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
-      </div>
-    </div>
+      <div class="col">
+        <div class="card bg-danger text-white" style="width: 18rem;">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">User interface</h5>
+            <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+          </div>
+        </div>
+      </div>    
   </section> 
-<!--Imagenes con h2-->
+
+<!--Images followed H2-->
+
+    <section class="ml-11" >
+    <h4>LATEST PROJECTS</h4>
+    <h6 class="text-muted border-bottom ml-11">FEW OF THE LATEST PORTFOLIO ITEMS</h6>
+      <div class="container container mt-3 row align-items-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+                      <!--esto de aqui abajo deberian ser enlaces-->
+            <h5 class="card-title">Nunc libero elit, iaculis nec augue non</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+                      <!--esto de aqui abajo deberian ser enlaces-->
+            <h5 class="card-title">Phasellus aliquet iaculis neque accumsan aliquam</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <!--esto de aqui abajo deberian ser enlaces-->
+            <h5 class="card-title">Vivamus blandit ipsum sed arcu euismod</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+                      <!--esto de aqui abajo deberian ser enlaces-->
+            <h5 class="card-title">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h5>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="container container mt-3 row align-items-center">
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-                    <!--esto de aqui abajo deberian ser enlaces-->
-          <h5 class="card-title">Nunc libero elit, iaculis nec augue non</h5>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-                    <!--esto de aqui abajo deberian ser enlaces-->
-          <h5 class="card-title">Phasellus aliquet iaculis neque accumsan aliquam</h5>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <!--esto de aqui abajo deberian ser enlaces-->
-          <h5 class="card-title">Vivamus blandit ipsum sed arcu euismod</h5>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/project-4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-                    <!--esto de aqui abajo deberian ser enlaces-->
-          <h5 class="card-title">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h5>
-        </div>
-      </div>
-    </section>
+
     <!--Articles-->
-    <section class="container mt-3 row align-items-center">
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h5>
-            <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
-          <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+
+    <section>
+      <h4>LATEST PROJECTS</h4>
+      <h6 class="text-muted">FEW OF THE LATEST PORTFOLIO ITEMS</h6>
+      <div class="container mt-3 row align-items-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h5>
+              <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+            <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Falauris sollicitudin quis dolor venenatis facilisis</h5>
-            <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
-          <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Falauris sollicitudin quis dolor venenatis facilisis</h5>
+              <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+            <p class="card-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Suspendisse ornare, felis feugiat suscipit pharetra</h5>
-            <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
-          <p class="card-text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-3.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Suspendisse ornare, felis feugiat suscipit pharetra</h5>
+              <h5 class="text-muted">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+            <p class="card-text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
-            <h5 class="text-muted">by Muse</h5>
-          <p class="card-text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+        <div class="card" style="width: 18rem;">
+          <img src="/Users/sergiovillabrillesanchez/Ironhack/Course/Labs Modulo 1/lab-bootstrap-cloning-revera/starter-code/img/slider-4.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">POSTED ON AUGUST 19, 2013 BY ADMIN</h5>
+              <h5 class="text-muted">by Muse</h5>
+            <p class="card-text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+          </div>
         </div>
       </div>
     </section>
-    <footer>
-      <section>
 
-      </section>
-      <section>
+<!--Footer background colot deberia ser #606060 y fuente #AAAAAA-->
 
+    <footer class="bg-dark border-danger-top-3 border-danger pt-5">
+      <div class="container bg-dark" id="footer-list" >
+        <div class="row bg-dar d-flex justify-content-between">
+          <div class="col bg-dark">
+            <h6 class="text-white">REVERA</h6>
+            <p class="text-muted">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+          </div>
+          <div class="col">
+            <h6 class="text-white">META</h6>
+            <ul class="list-group list-group-flush bg-dark">
+              <li class="list-group-item bg-dark text-muted">Log in</li>
+              <li class="list-group-item bg-dark text-muted">Entries RSS</li>
+              <li class="list-group-item bg-dark text-muted">Comments RSS</li>
+              <li class="list-group-item bg-dark text-muted">WordPress.org</li>
+            </ul>           </div>
+          <div class="col">
+            <h6 class="text-white">ARCHIVES</h6>
+            <ul class="list-group list-group-flush bg-dark">
+              <li class="list-group-item bg-dark text-muted">August 2013</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="text-white">RECENT POSTS</h6>
+            <ul class="list-group list-group-flush text-muted">
+              <li class="list-group-item bg-dark text-muted">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+              <li class="list-group-item bg-dark text-muted">Nunc libero elit, iaculis nec augue non</li>
+              <li class="list-group-item bg-dark text-muted">Falauris sollicitudin quis dolor venenatis facilisis</li>
+              <li class="list-group-item bg-dark text-muted">Phasellus aliquet iaculis neque accumsan aliquam</li>
+              <li class="list-group-item bg-dark text-muted">Vivamus blandit ipsum sed arcu euismod</li>
+            </ul>  
+          </div>
+        </div>
+      </div>
+      <section class="bg-dark pt-4 pb-4">
+          <div class="col-md-4 d-flex align-items-center bg-dark text-white" id="copyright">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 text-white">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class=" bg-dark text-white">Copyright © 2018 revera - Just another demo Sites. 
+              <br>
+            | Revera Theme</span>
+          </div>
       </section>
     </footer>
 
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

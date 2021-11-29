@@ -1,0 +1,28 @@
+#revera-title{
+    width: 300px;
+    height: 150px;
+}
+
+#container-header{
+    width:1200px;
+    height: 200px;
+}
+
+.nav{
+    width: 800px;
+    height: 150px;
+    text-decoration: none;
+    color: #777;
+}
+
+.col align-bottom{
+
+}
+
+#footer-list{
+    height: 420px;
+}
+
+#copyright{
+    background-color: black;
+}
