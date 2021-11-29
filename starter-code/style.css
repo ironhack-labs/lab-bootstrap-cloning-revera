@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+
+.lightgray {
+  color: lightgray;
+}
+
+
+.bg-color {
+  background-color: #ee705b;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 80px;
+  width: 40px;
+  margin-top: -40px;
+  opacity: 1;
+}
+
+
+.color {
+    color: #ee705b;
+}
+
+
+.carousel-img {
+  filter: grayscale(100%);
+}
+
+
+#cards > .card {
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.bg-color-footer{
+
+  background-color: #3b3b3b;
+
+}
+
+
+.bg-color2{
+
+background-color: black;
+
+}
