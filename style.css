@@ -1,0 +1,58 @@
+div > div > h4 {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+div > div > h5 {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+ul {
+   list-style: none;
+   padding-left: 0px;
+}
+li.nav-item {
+    padding-left: 20px;
+}
+
+#services {
+    background-color: #ed564b;
+}
+
+#image1 {
+    filter: brightness(50%);
+}
+
+button {
+    background-color: transparent;
+    border: white solid;
+    color: white;
+}
+#contents {
+    background-color: #3b3b3b;
+}
+
+.text-size {
+    font-size: 14px;
+    color: rgb(150, 147, 147);
+}
+.border-bottom{
+    border-width:thick;
+}
+.red{
+    color:#ed564b;
+}
+
+.navbar-b {
+    font-size: 25px;
+    }
+
+.carousel-caption{
+    color: rgb(140, 143, 146);
+}
+
+.carousel-control-prev-icon{
+    padding: 10px 10px 10px 10px;
+    background-color: #ed564b;
+}
