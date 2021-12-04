@@ -1,0 +1,163 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #fff;
+    margin: 0 1px 5px 0;
+}
+
+#nav-bar {
+    background-color: white;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-bar > span {
+    font-size: 1.8rem;
+}
+
+#nav-bar > div {
+    font-size: 0.8rem;
+    width: 275px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar > div > a {
+    font-weight: normal;
+    text-decoration: none;
+    font-weight: 600;
+    color: gray;
+}
+
+#nav-bar > div > a[href = "home.html"] {
+    color: #B0172B;
+}
+
+#info {
+    background-color: #C70039;
+    padding: 15px 200px;
+    border: solid #E05159; 
+    border-width: 2px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#info > div {
+    background-color: inherit;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info > div > img {
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+#info > div > p {
+    font-size: 0.8rem;
+}
+
+#info > div > h2,
+#info > div > p {
+    color: white;
+    margin: 4px;
+}
+
+#content {
+    background-color: white;
+    padding: 20px 121px 10px 121px;
+}
+
+#content > p {
+    color: gray
+}
+
+#content > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content > div > figure {
+    padding-top: 20px;
+}
+
+#content > div > figure > a > img {
+    width: 200px;
+    height: 150px;
+}
+
+#latest-projects,
+#latest-articles {
+    border-top: 1px solid gray;
+}
+
+#latest-projects > figure > figcaption {
+    text-align: center;
+}
+
+#latest-articles > figure > figcaption > p {
+    color: gray;
+}
+
+#latest-articles > figure > figcaption > p > b > span {
+    color: red;
+}
+
+#more-info {
+    background-color: #434141;
+    padding: 35px 240px 30px 240px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E05159;
+}
+
+#more-info > div > h3 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.revera > p {
+    color: gray;
+}
+
+.links > p {
+    width: 190px;
+    border-bottom: 1px dotted gray;
+    padding: 4px;
+}
+
+.links > p > a {
+    font-weight: normal;
+    text-decoration: none;
+    font-weight: 600;
+    color: gray;
+}
+
+.links > p > a > span {
+    border-bottom: 1px dotted white;
+}
+
+.archives > p {
+    width: 165px;
+    color: gray;
+    border-bottom: 1px dotted gray;
+    padding: 4px;
+}
+
+footer {
+    background-color: #272626;
+    font-size: 0.8rem;
+    color: white;
+    padding: 15px 121px;
+}
