@@ -1,0 +1,68 @@
+/* BANNER SLIDER */
+.bg-overlay {
+    background-image: url("../img/overlay-sliders.png");
+    background-repeat: repeat;
+    background-size: initial;
+    background-position: center center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    filter: grayscale(100%);
+}
+
+.carousel-item > img {
+    filter: grayscale(100%);
+}
+
+.carousel-caption {
+    color: #fff;
+    z-index: 2;
+}
+
+.carousel-control-prev-icon {
+    background-color: #ED564B;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.carousel-control-next-icon {
+    background-color: #ED564B;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+/* ICONS */
+#icons {
+    background-color: #ed564b;
+    color: #fff;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+#icons i {
+    border: solid 4px #fff;
+    border-radius: 50px;
+    padding: 20px;
+    color: #fff;
+}
+
+
+
+/* FOOTER */
+#footer-widgets {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+#footer {
+    background-color: #292929;
+    color: #fff;
+}
