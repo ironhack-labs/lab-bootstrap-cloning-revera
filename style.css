@@ -1,0 +1,120 @@
+img {
+    width: 100%;
+}
+
+.icon-trophy:before {
+  content: "\e99e";
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.slider {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1425px;
+    height: 550px;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.slider div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icons-section {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.features {
+    color: white;
+    text-align: center;
+}
+
+.features span {
+    border: 5px solid #fff;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 65px;
+}
+
+.features h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projectsAndArticles {
+    padding: 4% 10%;
+}
+
+.uppercase h2 {
+    text-transform: uppercase;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+article>h3 {
+    font-size: 1em ;
+}
+
+.bottom {
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    padding: 20px 0px 40px 0px;
+}
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
