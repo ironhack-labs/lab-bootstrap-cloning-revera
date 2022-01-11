@@ -1,0 +1,232 @@
+*{
+    /* border: red 1px solid; */
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+    color:black;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header li{
+    margin-left: 20px;
+}
+
+#home {
+    color: #ED564B;
+;
+}
+
+.logo:hover{
+    color:black;
+}
+
+header li a:hover{
+    color: #ED564B;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../starter-code/img/slider-1.jpg);
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    color: white;
+}
+
+
+.hero-text{
+    width: 55%;
+    text-align: center;
+}
+
+.hero a{
+    border: 1px white solid;
+    padding: 10px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgba(134, 134, 134, 0.3);
+    text-decoration: none;
+
+}
+
+.section-2 {
+    background-color: #ED564B;
+    color: white;
+    padding: 35px;
+}
+
+.section-2 article {
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2 h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.section-2 p {
+    font-size: 0.9em;
+    text-align: center;
+    width: 90%;
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
+
+.icon-music:before {
+  content: "\e911";
+}
+
+.icon-play:before {
+  content: "\e912";
+}
+
+.padding{
+    padding: 50px 100px;
+}
+
+.h2{
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.h2-p{
+    text-transform: uppercase;
+    color: rgb(177, 177, 177);
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(177, 177, 177) solid;
+}
+
+.a-figcaption{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.section-3 article figure figcaption{
+    margin-top: 10px;
+}
+
+.section-4{
+    padding-top: 0px;
+    border-bottom: #ED564B solid 6px;
+}
+
+.section-4 img{
+    height: 190px;
+    object-fit: cover;
+}
+
+.section-4 article{
+    width: 95%;
+}
+
+.caption {
+    margin-top: 10px;
+    font-weight: 700;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: 650;
+}
+
+.red{
+    color: #ED564B;
+}
+
+.text {
+    font-size: 0.9em;
+}
+
+footer{
+    background: linear-gradient(0deg, #292929 25%, #3B3B3B 25%);
+    padding: 20px;
+}
+
+.boxes {
+    margin: 30px 38px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.end-footer {
+    margin: 0px 38px;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer article p{
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: grey;
+}
+
+footer a{
+    font-size: 0.9em;
+    color: grey;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer ul{
+    margin-top: 20px;
+    padding-left: 0rem;
+}
+
+footer li{
+    list-style: none;
+    margin: 0;
+    padding-bottom: 7px;
+    border-bottom: grey 1px dotted;
+}
+
+.august{
+    padding-bottom: 7px;
+    border-bottom: grey 1px dotted;
+
+}
