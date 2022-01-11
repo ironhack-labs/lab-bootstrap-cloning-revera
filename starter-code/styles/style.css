@@ -1,0 +1,122 @@
+img{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+  
+header ul{
+    display: flex;    
+    margin-bottom: 0;
+    list-style: none;    
+    
+}
+.home-link{
+    color: red;
+}
+ li{
+    margin-left: 15px;
+}
+.hero{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   background-image: url("../img/slider-1.jpg");
+   filter: grayscale(100%);
+   height: 500px;
+   background-size: cover;
+   color: white;
+   padding: 100px;
+   align-items: center;
+   position: relative;
+}
+.hero::before{
+    content: "";
+    position:absolute;
+    background-image: url("../img/overlay.png");
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+a{
+ text-decoration: none;
+  color: white;
+}
+.hero a{
+    
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 150px;
+}
+.red{
+    padding-top: 70px;
+    background-color: #ed564b;
+    color: white;
+    height: 350px;
+}
+.red article{
+   
+    text-align: center;
+}
+.red h3{
+    margin-top: 50px;
+}
+span{
+    
+    padding: 20px;
+    border: solid;
+    border-width: 3;
+    border-radius: 50%;
+}
+.icon-quill:before {
+  content: "\e907";
+  
+}
+.icon-droplet:before {
+  content: "\e90b";
+}
+.icon-library:before {
+  content: "\e921";
+}
+.projects{
+    margin-top: 50px;
+}
+.projects article {
+     text-align: center;
+ }
+ .bottom{
+     background-color: #3b3b3b;
+     color: white;
+     
+ }
+ .bottom ul{
+     list-style: none;
+     
+     
+ }
+ 
+ .bottom a{
+     
+     border-bottom: 1px dotted rgba(255,255,255,.2);
+     
+}
+ footer{
+     background-color: #292929;
+     color: white;
+     height: 100px;
+ }
+ h2{
+     text-transform: uppercase;
+
+ }
+ 
