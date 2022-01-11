@@ -1,0 +1,128 @@
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    color:black;
+    font-weight: 500;
+    font-size: 2.5em;
+
+}
+
+.slider {
+    background-image: url("../starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 230px 200px 50px 200px;
+    color: white;
+}
+h1 {
+    text-transform: uppercase;
+}
+ 
+button {
+    background-color: transparent;
+    background-image: url(../starter-code/img/overlay.png);
+    padding: 5px 25px;
+}
+
+.icon-glass2:before {
+    content: "\e9a1";  
+}
+
+.icon-star-full:before {
+    content: "\e9d9";  
+}
+
+.icon-heart:before {
+    content: "\e9da"; 
+}
+
+.icons {
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #ed564b;
+
+}
+
+span {
+    display: inline-block;
+}
+
+h2 {
+    color:white;
+    font-weight: 500;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+
+}
+
+/* .sizeicons {
+    width: 50px;
+} */
+
+h3 {
+    padding: 25px 0px;
+    text-transform: uppercase;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+h4{ 
+    text-decoration: none;
+    color: black;
+}
+
+.without {
+    text-decoration: none;
+}
+
+/* no consigo quitarle el subrayado al enlace */
+.footer {
+    padding: 20px;
+    background-color: #3b3b3b;
+    background-size: cover;
+    color:white;
+    margin: 0px;
+}
+
+h5 {
+    text-transform: uppercase;
+    padding: 20px;
+
+}
