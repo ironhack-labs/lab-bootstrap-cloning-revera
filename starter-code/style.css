@@ -1,0 +1,96 @@
+.icon-connection:before {
+  content: "\e91b";
+  
+}
+
+.icon-feed:before {
+  content: "\e91d";
+}
+
+.icon-mic:before {
+  content: "\e91e";
+}
+
+img {
+    width: 100%;
+}
+h1 a{
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color:black;
+}
+header{
+  display:flex;
+   justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display:flex;
+  
+}
+
+nav a{
+text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  color: rgb(172, 169, 169)
+}
+.home{
+  color:red;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.hero {
+    background-image: url(./img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    text-align: center;
+    color:white;
+  }
+.button{
+  list-style: none;
+  text-decoration: none;
+  color:white;
+  border: 1px solid white;
+  padding: 10px;
+  background-image: url(./img/overlay.png);
+}
+
+.menu{
+  background-color: red;
+  color:white;
+ text-align: center;
+}
+
+.infolinks{
+  background-color: rgb(51, 50, 50);
+}
+.infolinks p{
+  text-decoration: none;
+  color: grey;
+
+}
+.infolinks a{
+  text-decoration: none;
+  list-style: none;
+  color: grey;
+  margin-bottom:20px;
+
+}
+
+h5{
+  text-transform: uppercase;
+  color:white;
+}
+
+footer{
+ background-color: black;
+ color:white;
+
+}
