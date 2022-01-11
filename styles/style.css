@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+
+.goals{
+    background-color: #ec5f56;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+   justify-content: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    display:flex;
+    padding: 0px 8px;
+    
+    
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.cats{
+    justify-content: center;
+    padding: 150px 0px 150px 0px;
+    display: flex;
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale();
+    
+}
+.cats article{
+    
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+    width: 60%;
+    color: white;
+}
+
+.cats article a{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.goals{
+    padding: 50px 150px;
+    color: white;
+    text-align: center;
+
+}
+.goals h3{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.goals span{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.proyects{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+
+}
+
+.proyects h4{
+    color: gray;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.proyects h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.articles{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+}
+
+.articles h4{
+    color: gray;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.articles h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.articles h5{
+    padding-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.articles p{
+    color: gray;
+    font-size: 0.8em;
+}
+
+.articles p span{
+    color: red;
+}
+.articles h6{
+    color: gray;
+    font-size: 1em;
+}
+
+.about{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-color: rgb(59, 59, 59);
+    border-top: 3px red solid;
+    color: gray;
+}
+
+.about h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-bottom: 20px;
+    
+}
+
+.about a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer{
+    padding: 10px 10%;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    font-size: 0.6em;
+    align-items: center;
+}
+
