@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+.icon-glass:before {
+  content: "\e900";
+  margin-bottom: 20px;
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+  margin-bottom: 20px;
+}
+
+.icon-heart:before {
+  content: "\e9da";
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.divbar {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menulist {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.firstsection {
+  background-image: url("../starter-code/img/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px;
+  color: white;
+}
+
+.services {
+  background-color: rgb(250, 74, 74);
+  text-align: center;
+  padding: 60px;
+  color: white;
+}
+
+.projects {
+  padding: 60px;
+}
+
+.projectsandarticles {
+  padding: 60px;
+}
+
+.latestprojects {
+  margin-bottom: 20px;
+}
+
+.latestarticles {
+  margin-top: 60px;
+}
+
+.lastsection {
+  background-color: rgb(53, 53, 53);
+  color: rgb(153, 152, 152);
+  padding: 60px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+footer {
+  background-color: rgb(31, 29, 29);
+  color: rgb(153, 152, 152);
+  padding: 20px;
+  font-size: 10px;
+}
+
+.menulist {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.menulist li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.lastsection col-3 {
+  list-style: none;
+  font-size: 10px;
+}
+
+.services h3 {
+  padding: 10px;
+}
+
+.latestprojects {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.latestarticles {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.meta {
+  list-style: none;
+}
+
+.archives {
+  list-style: none;
+}
+
+.recentposts {
+  list-style: none;
+}
+
+.readmore {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.firstsection h1 {
+  text-transform: uppercase;
+}
+
+.lastsection row {
+  text-align: left;
+}
+
+.lastsection ul li a {
+  text-decoration: none;
+  color: rgb(153, 152, 152);
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(153, 152, 152);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(153, 152, 152);
+}
+
+.date {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.date a {
+  color: red;
+}
+
+.articles p {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.recentposts li a {
+  text-align: left;
+}
