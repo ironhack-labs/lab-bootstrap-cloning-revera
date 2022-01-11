@@ -1,0 +1,152 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: gray;
+    
+}
+
+.hero {
+    background: url(../starter-code/img/slider-1.jpg) no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+
+.hero div {
+    text-align: center;
+    padding: 200px;
+    color: white;
+}
+
+
+
+.hero a {
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.red-background {
+    background-color: rgb(241, 71, 71);
+    border-top: 3px solid rgb(250, 132, 132);
+    border-bottom: 3px solid rgb(250, 132, 132);
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.red-background h3 {
+    color: white;
+}
+
+.red-background p {
+    color: white;
+}
+
+.latest-projects {
+    margin-bottom: 50px;
+}
+
+.latest-projects h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.latest-projects h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: gray;
+}
+
+.latest-projects p {
+    text-align: center;
+    font-size: .9em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.latest-articles {
+    margin-bottom: 50px;
+}
+
+.latest-articles h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.latest-articles h4{
+    padding: 10px;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.latest-articles p {
+    color: gray;
+    font-size: .8em;
+}
+
+.last {
+    background-color: rgb(68, 68, 68);
+    padding: 40px;
+    border-top: 5px solid rgb(248, 37, 37);
+}
+
+.last h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+
+.last p {
+    color: rgb(190, 190, 190);
+    font-size: .9em;
+}
+
+.last a {
+    display: flex;
+
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    border-bottom: 1px dashed gray;
+    padding: 5px 0;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: .7em;
+}
