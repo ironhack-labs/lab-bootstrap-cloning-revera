@@ -1,0 +1,15 @@
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-office:before {
+  content: "\e903";
+}
+.icon-newspaper:before {
+  content: "\e904";
+}
+img{
+    width: 100%;
+}
+.display-flex{
+    display: flex;
+}
