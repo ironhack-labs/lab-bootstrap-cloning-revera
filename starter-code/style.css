@@ -1,6 +1,5 @@
 .icon-connection:before {
   content: "\e91b";
-  
 }
 
 .icon-feed:before {
@@ -11,6 +10,8 @@
   content: "\e91e";
 }
 
+
+
 img {
     width: 100%;
 }
@@ -19,26 +20,33 @@ h1 a{
   list-style: none;
   text-transform: uppercase;
   color:black;
+  font-weight: bold;
+  font-size:0.8em;
+  margin-left: 40px;
+
 }
 header{
   display:flex;
-   justify-content: space-between;
+  
   align-items: center;
 }
 
 nav ul{
   display:flex;
+  margin-left: 150px;
+  margin-top: 10px;
   
 }
 
 nav a{
-text-decoration: none;
+  text-decoration: none;
   list-style: none;
-  margin: 5px;
-  color: rgb(172, 169, 169)
+  margin: 0 10px;
+  color: rgb(172, 169, 169);
+  
 }
 .home{
-  color:red;
+    color:red;
 }
 
 ul {
@@ -47,6 +55,8 @@ ul {
 }
 .hero {
     background-image: url(./img/slider-1.jpg);
+    background-color: #fff;
+    background-blend-mode: luminosity;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 15%;
@@ -66,10 +76,67 @@ ul {
   background-color: red;
   color:white;
  text-align: center;
+ padding: 25px 0;
+}
+.menu p{
+  font-size: 0.9em;
+}
+h3{
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
+
+
+h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  
+}
+.uppertext{
+  text-transform: uppercase;
+  color:rgb(172, 169, 169);
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.projectlink{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin-bottom:20px;
+  font-size: .8em;
+  text-align: center;
+}
+
+.slides{
+  height: 150px;
+}
+.slidelink{
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.projectslides article p{
+  margin: 20px 0;
+
+}
+
+.postdate{
+  font-weight: bold;
+  font-size: .8em;
+  color:rgb(172, 169, 169);
+}
 .infolinks{
   background-color: rgb(51, 50, 50);
+  padding: 50px 0;
+  
 }
 .infolinks p{
   text-decoration: none;
@@ -78,15 +145,20 @@ ul {
 }
 .infolinks a{
   text-decoration: none;
-  list-style: none;
   color: grey;
-  margin-bottom:20px;
+  }
 
+.infolinks li{
+  list-style: none;
+   margin-bottom:10px;
+   margin-left:-33px;
+   border-bottom: 1px solid grey;
 }
 
 h5{
   text-transform: uppercase;
   color:white;
+  font-size: 1em;
 }
 
 footer{
