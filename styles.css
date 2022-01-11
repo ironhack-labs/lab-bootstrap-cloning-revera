@@ -1,0 +1,174 @@
+img {
+    width: 100%
+}
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 300px;
+    padding: 10px;
+    
+}
+
+header div {
+    
+}
+header div a {
+    font-family: Helvetica;
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black; 
+}
+
+header ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+header li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+header a {
+    color: grey;
+}
+
+header li a[ href="index.html"] {
+    color: red
+}
+
+#section1 {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    filter: grayscale(100%);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px 380px;
+}
+
+#section1 a {
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-image: url(./starter-code/img/overlay.png);
+    border: solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section2 {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+#section2 article {
+    text-align: center;
+    color: white;
+}
+
+#section2 article span {
+    font-size: 5em;
+    color: white; 
+}
+
+#section3 {
+    margin: 40px 0px;
+}
+
+#section3 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 + p {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+}
+
+#section3 a {
+    color: red;
+}
+
+
+#section4 {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#section4 article {
+    margin: 30px 0px;
+}
+
+#section4 h4 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#section4 p, a {
+    text-decoration: none;
+    color: grey;
+}
+
+#section4 li {
+    list-style-type: none; 
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+.bottomline li  {
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    
+}
+
+footer {
+    background-color: rgb(46, 43, 43);
+    color: #eeee;
+    padding: 10px 0px 5px 0px;
+}
+
+footer p {
+    color: #eeee;
+    font-size: 15px;
+}
+
+
+/* ICONS */
+
+.icon-pencil2:before {
+  content: "\e906";
+}
+
+.icon-paint-format:before {
+  content: "\e90c";
+}
+
+.icon-joomla:before {
+  content: "\eab5";
+}
