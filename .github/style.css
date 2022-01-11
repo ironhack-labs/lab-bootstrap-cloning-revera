@@ -1,0 +1,36 @@
+img {
+    width: 100%;
+}
+
+.icon-bullhorn:before {
+    content: "\e91a";
+  }
+
+  .icon-play:before {
+    content: "\e912";
+  }
+
+  .icon-clubs:before {
+    content: "\e918";
+  }
+
+
+  .headboard{
+      display: flex;
+      justify-content: center;
+      margin-top: 200px;
+      
+  }
+
+  .headboard ul {
+      text-decoration: none;
+      list-style-type: none;
+      display: flex;
+              
+  }
+
+  .headboard ul li{
+    padding: 0 10px;
+    text-align: center;
+
+  }
