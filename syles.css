@@ -1,0 +1,196 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+header>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+
+.smaller {
+    font-size: 0.8em;
+   
+}
+
+.red-text {
+    color:red;
+}
+
+nav li {
+    padding: 10px;
+}
+
+.hero {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    height:480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.hero h1 {
+    text-align: center;
+    color: white;
+    width: 60%;
+    }
+
+.hero p {
+    text-align: center;
+    color: white;
+    width: 60%;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    border:white solid 3px;
+    padding: 10px 20px;
+    
+}
+
+.red {
+    background-color: tomato;
+    padding: 100px;
+    
+    }
+
+.red figure {
+    width: 100px;
+    
+}
+
+.red article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red article h2, .red article p {
+    color: white;
+}
+
+.red article p {
+    text-align: justify;
+}
+
+.red img {
+    filter:invert(100%)
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.grey-p{
+    color: grey;
+    font-weight: bold;
+}
+
+.proyects, .latest {
+    padding: 100px 100px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+
+.center-text {
+    text-align: center;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.latest a {
+    margin: 20px;
+}
+
+.latest article{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.posted {
+    font-size: .7em;
+    font-weight: 700;
+
+}
+
+footer, footer li a {
+    background-color: rgb(49, 42, 42);
+    color: white;
+    padding: 100px auto 10px;
+}
+
+.footer-nav {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+.footer-nav h4, .footer-nav p, footer li a {
+    font-size: 0.8em;
+}
+.footer-bottom {
+    background-color: grey;
+    text-align: center;
+}
+
+footer li {
+    border-bottom: white solid 1px;
+    padding-bottom: 5px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
