@@ -1,0 +1,145 @@
+/* red #ed564b */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+} 
+
+span {
+    color: #ed564b;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #777777;
+}
+
+.hero {
+    background: url('../images/slider-1-bw.jpg') no-repeat;
+    background-size: cover;
+    padding: 230px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero p {
+    color: white;
+}
+
+.webServices {
+    background-color: #ed564b;
+    border-top: 2px solid #ed564b;
+    border-bottom: 2px solid #ed564b;
+    margin-bottom: 45px;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.webServices h3 {
+    color: white;
+}
+
+.webServices p {
+    color: white;
+}
+
+.redButton a {
+    display: block;
+    background: grey;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 140px;
+    color: #fff;
+    padding: 6px 0px;
+    margin: 12px auto;
+    font-weight: bold;
+}
+
+.latestProjects {
+    margin-bottom: 55px;
+}
+
+.latestProjects h3 {
+    font-weight: bold;
+}
+
+.latestProjects p {
+    color: gray;
+    font-size: .9em;
+}
+
+.latestArticles {
+    margin-bottom: 45px;
+}
+
+.latestArticles h3 {
+    font-weight: bold;
+}
+
+.latestArticles p {
+    color: gray;
+    font-size: .8em;
+}
+
+.about {
+    padding: 45px;
+    background-color: #444;
+    border-top: 5px solid #ed564b;
+}
+
+.about h3 {
+    padding-bottom: 12px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.about p {
+    color: white;
+    font-size: .8em;
+}
+
+.about a {
+    display: flex;
+    text-decoration: none;
+    padding: 6px 0;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 12px;
+}
+
+footer p {
+    color: white;
+    font-size: .8em;
+}
