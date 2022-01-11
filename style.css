@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.icon-office:before {
+  content: "\e903";
+}
+
+.icon-newspaper:before {
+  content: "\e904";
+}
+
+.icon-play:before {
+  content: "\e912";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+
+nav h2 {
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+nav li {
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.home {
+    color: red;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border:1px solid white;
+    color: white;
+    padding: 10px 20px;
+}
+
+.section1 {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    color: white;
+    padding: 200px 200px 100px 200px;
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+
+.section1 h1 {
+    text-transform: uppercase;
+}
+
+.section2 {
+    background: rgb(228, 79, 79);
+}
+
+.section2 h3 {
+    margin-top: 20px;
+}
+
+.section2 article {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.section3 h3 {
+text-transform: uppercase;
+padding-top: 30px;
+}
+
+.section3 h4 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: .8em;
+}
+
+.section3 img {
+    padding: 10px 0;
+}
+
+.section3 p {
+    text-align: center;
+    font-size: .8em;
+}
+
+.section4 h4 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: .8em;
+}
+
+.section4 img {
+    padding: 10px 0;
+}
+
+.section4 p {
+    text-align: justify;
+    font-size: .8em;
+    color: gray;
+}
+.section4 h5 {
+    font-size: 1em;
+}
+.date {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.section5 {
+    background:rgb(82, 78, 78);
+    color: white;
+}
+
+
+
+.section5 h5 {
+    text-transform: uppercase;
+    padding: 8px 8px 8px 0;
+}
+
+.section5 p {
+    font-size: .8em;
+    line-height: 15px;
+}
+
+.section5>hr {
+    color: rgb(255, 6, 6);
+    height: 5px;
+}
+
+.section5>article>hr {
+    color: white;
+}
+
+footer {
+    background: rgb(54, 53, 53);
+    color: white;
+}
+
+footer p {
+    padding: 20px 40px;
+    font-size: .7em;
+
+}
+
+span {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
