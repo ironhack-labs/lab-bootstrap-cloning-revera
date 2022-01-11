@@ -51,7 +51,7 @@ img {
 
   .title-text h1{
     font-size: 3em;
-    border: 1px solid red;
+    
   }
 
   .cat-dog{
@@ -68,4 +68,10 @@ img {
      line-height-step: 100px;
       background-color: red;
       color: white;
+      width:100%;
+  }
+
+
+  .container{
+      margin:1%;
   }
