@@ -16,13 +16,29 @@ img {
 
 header {
     display: flex;
-    flex-direction: row;
-    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 400px 10px 0;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li>a {
+    text-decoration: none;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.menu li>a:hover {
+    color: red;
 }
 
 .logo {
@@ -32,22 +48,19 @@ header {
     font-weight: bold;
     color: black;
     font-size: 32px;
-    margin-bottom: 10px;
+    padding: 20px 0 20px 120px;
     line-height: 1.1;
 }
 
 .slider {
-    background-image: url(./starter-code/img/slider-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(./starter-code/img/overlay.png), url(./starter-code/img/slider-1.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
     width: 1425px;
     height: 550px;
     position: relative;
     color: white;
-}
-
-h1 {
-    text-transform: uppercase;
+    filter: grayscale(100%);
 }
 
 .slider div {
@@ -56,6 +69,24 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    width: 900px;
+}
+
+.slider div>p {
+    margin: 0 10% 20px;
+}
+
+.slider div>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
 }
 
 .icons-section {
@@ -68,6 +99,7 @@ h1 {
 .features {
     color: white;
     text-align: center;
+    margin: 0 40px;
 }
 
 .features span {
@@ -84,29 +116,66 @@ h1 {
 .features h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.features p {
+    font-size: 0.8em;
 }
 
 .projectsAndArticles {
     padding: 4% 10%;
 }
 
-.uppercase h2 {
+.projectsAndArticles div>h2 {
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.projectsAndArticles div>p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #aaa;
+}
+
+article>a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 h4 {
     text-transform: uppercase;
     font-size: 0.8em;
+    font-weight: bold;
+    color: #aaa
+}
+
+h4>a {
+    text-decoration: none;
+    color: red;
+}
+
+h4>a:hover {
+    color:black
 }
 
 article>h3 {
     font-size: 1em ;
+    font-weight: bold;
+}
+
+.post {
+    font-size: 0.8em;
+    color: #606060;
 }
 
 .bottom {
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
-    padding: 20px 0px 40px 0px;
+    padding: 40px 125px 20px;
 }
 
 h5 {
@@ -114,7 +183,36 @@ h5 {
     text-transform: uppercase;
 }
 
-ul {
+.revera-text {
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+.bottom-lists {
+    list-style: none;
+    padding: 0;
+}
+
+.bottom-lists li>a {
+    color: #aaa;
     text-decoration: none;
     list-style: none;
+    font-size: 0.8em;
+}
+
+.bottom-lists li {
+    border-bottom: 1px solid #aaa;
+    border-bottom-style: dotted;
+}
+
+footer {
+    background-color: #292929;
+    color: white;
+    padding: 10px 125px;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
