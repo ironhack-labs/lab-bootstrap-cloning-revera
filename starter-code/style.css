@@ -1,0 +1,241 @@
+
+img {
+    width: 100%;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar p{
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .navbar ul li{
+        padding: 50px;
+        align-items: center;
+    }
+
+    .hero{
+        background-image: url(../starter-code/img/slider-1.jpg);
+        background-size: cover;
+        padding: 200px;
+        text-align: center;
+        filter: grayscale(100%);
+    }
+
+    h1{
+        color:white;
+        text-transform: uppercase;
+    }
+
+    .hero p{
+        color: white;
+    }
+    
+    .hero a{
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding: 5px;
+        
+    }
+
+    .principal{
+        background-color: #ed564b;
+        padding: 20px;
+    }
+   .principal article{
+       text-align: center;
+   }
+
+    .principal h2{
+        color:white;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .principal p{
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+.principal span{
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 50%;
+    color: white;
+    
+}
+.icon-glass2:before {
+    content: "\e9a1";
+
+    
+  }
+
+  .icon-rocket:before {
+    content: "\e9a5";
+    
+  }
+
+  .icon-heart:before {
+    content: "\e9da";
+    
+  }
+
+ .projects{
+    margin-left: 200px;
+    margin-right: 200px;
+ }
+
+ .projects h2{
+     text-transform: uppercase;
+     font-size: 1.5em;
+     font-weight: bold;
+     margin-top: 50px;
+     margin-bottom: 10px;
+ }
+
+ .projects p{
+    font-size: 1em;
+    text-transform: uppercase;
+    color:gray;
+
+ }
+
+ .latestprojects p{
+     font-size: 0.7em;
+     font-weight: bold;
+     color: black;
+     margin-top: 20px;
+     text-align: center;
+      }
+  
+  .articles{
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+      .articles h2{
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+
+      .articles p{
+        font-size: 1em;
+        text-transform: uppercase;
+        color:gray;
+        margin-bottom: 50px;
+      }
+
+      .latestarticles h3 {
+          font-size: 1em;
+          font-weight: bold;
+          text-align: left;
+          margin-bottom: 10px;
+          margin-top: 20px;
+      }
+
+      .latestarticles h4{
+          font-size: 0.8em;
+          font-weight: bold;
+          color:gray;
+          text-transform: uppercase;
+          
+          
+      }
+
+      .latestarticles p{
+        font-size: 0.7em;
+        text-align: left;
+        color: gray;
+        margin-top: 30px;
+    }
+    
+    .finalblock{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+      
+    .footer{
+        
+        background-color: rgb(44, 43, 43);
+        
+        }
+    
+    .footer h4{
+        font-size: 1.3em;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 50px;
+        padding:30px;
+        margin-left: 10px;
+        
+
+    }
+
+    .footer p{
+        color:gray;
+        text-align: left;
+        margin-top: 3px;
+        margin-left:10px;
+    }
+    .footer ul{
+        list-style:none;
+        text-align: left;
+        margin-top: 3px;
+    }
+
+    .footer ul a{
+        color:gray;
+        text-decoration: none;
+        
+       
+        
+    }
+
+    .footer ul li{
+        margin:15px;
+       
+    }
+
+    .archives{
+        color:gray;
+        text-decoration: none;
+        text-align: left;
+    }
+  
+    .final{
+        background-color:#0c0b0b;
+        padding: 30px;
+    }
+
+    .final p{
+        font-size: 0.9em;
+        color:white;
+        text-align: left;
+    }
+    
