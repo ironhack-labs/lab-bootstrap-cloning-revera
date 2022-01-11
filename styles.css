@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+img{
+    width: 100%;
+}
+p {
+    font-size: 14px;
+}
+
+.same-height {
+    height: 144px;
+    object-fit: cover;
+}
+.red{
+    background-color: #ED564B;
+}
+.grey{
+    background-color: #606060;
+}
+.dark-grey{
+    background-color: #3B3B3B;
+}
+.section-1 {       
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;    
+    height: 90px;  
+}
+
+
+.section-1 p{
+    padding-left: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.section-1 ul{ 
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: 100px;
+}
+
+.section-1 li{
+    margin-left: 15px;
+    color: grey;
+    
+}
+
+.section-2{
+    background-image: url(./starter-code/img/slider-2.jpg);
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    height: 510px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.section-2 .read-more{
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.cuadrado {
+    width: 200px;
+    margin-left: 415px;
+    
+}
+
+
+.section-3{
+    color: white;
+    padding: 30px;
+    border-top: 3px solid rgb(128, 61, 61);
+}
+.icon-tux:before {
+  content: "\eabd";
+  
+}
+.icon-finder:before {
+  content: "\eabf";
+}
+.icon-IcoMoon:before {
+  content: "\eaea";
+}
+span {
+    align-items: center;
+    font-size: 70px;
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 60px;
+}
+
+.section-4 {
+    padding-top: 20px;
+}
+
+.section-4 h2{
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.section-4 p{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.section-5 {
+    color: white;
+    padding: 20px 80px 40px 80px;
+    border-top: 3px solid #ED564B;
+}
+
+.section-6 {
+    color: white;
+    padding: 20px 0px 10px 100px;
+}  
+.flexible{
+    display: flex;
+}
+.section-3 {
+    align-items: center;
+    justify-content: center;
+}
+
