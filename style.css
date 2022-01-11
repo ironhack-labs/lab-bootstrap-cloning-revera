@@ -1,0 +1,190 @@
+.icon-glass2:before {
+  content: "\e9a1";
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.home {
+    color: #EE564A;
+}
+
+.index-element {
+    color: black;
+}
+
+.slider {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    filter: grayscale(100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slider::before {
+    content: '';
+    background-image: url(/starter-code/img/overlay.png);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slider article {
+    width: 50%;
+}
+
+.slider a {
+    border: 2px white solid;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    background-color: #EE564A;
+    border-top: 5px solid #F96B61;
+    border-bottom: 5px solid #F96B61;
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+.services article {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.services h2 {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.services span {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.projects-and-articles {
+    margin: 50px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-description {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+
+.proyect > p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.publication-date {
+    font-weight: bold;
+    color: grey;
+    font-size: .8em;
+}
+
+.publication-date a {
+    color: #EE564A;
+    text-decoration: none;
+}
+
+.post-content {
+    color: grey;
+}
+
+.info {
+    background-color: #3B3B3B;
+    border-top: 5px solid #F96B61;
+    padding-top: 30px;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.info p {
+    color: lightgrey;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.info a {
+    text-decoration: none;
+    color: lightgrey; 
+}
+
+.end {
+    background-color: #292929;
+    color: white;
+}
