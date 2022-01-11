@@ -1,0 +1,77 @@
+img {
+    width: 100%;
+}
+
+.icon-bullhorn:before {
+    content: "\e91a";
+  }
+
+  .icon-play:before {
+    content: "\e912";
+  }
+
+  .icon-clubs:before {
+    content: "\e918";
+  }
+
+
+  .headboard{
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      
+      
+  }
+
+  .headboard ul {
+      text-decoration: none;
+      list-style-type: none;
+      display: flex;
+              
+  }
+
+  .headboard ul li{
+    padding: 0 10px;
+    text-align: center;
+
+  }
+
+
+
+  .title-text{
+      
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    margin: 200px 0;
+    font-stretch: ;
+    
+  }
+
+
+  .title-text h1{
+    font-size: 3em;
+    
+  }
+
+  .cat-dog{
+    background-image: url("../starter-code/img/slider-1.jpg");
+    height: 600px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .bottom-cat-dog{
+     line-height-step: 100px;
+      background-color: red;
+      color: white;
+      width:100%;
+  }
+
+
+  .container{
+      margin:1%;
+  }
