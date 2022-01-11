@@ -1,0 +1,153 @@
+img {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: #838383;
+}
+.col-lg-3 a {
+  color: grey;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.footer p {
+  color: #838383;
+}
+
+.footer li {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  padding-bottom: 5px;
+}
+
+.nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.nav .logo {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+nav ul {
+  display: flex;
+
+  justify-content: space-between;
+  width: 60%;
+  margin-right: 150px;
+  align-items: center;
+  height: 100%;
+  color: #777;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.section1 {
+  background-image: url("./starter-code/img/slider-1.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 192px;
+  height: 551px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  filter: grayscale(100%);
+}
+
+.section1 h1 {
+  text-transform: uppercase;
+}
+
+.section1 div {
+  padding: 0px 200px;
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+.icon-glass2:before {
+  content: "\e9a1";
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+
+span {
+  border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.section2 {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.articles {
+  text-align: center;
+  color: white;
+}
+.articles h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2,
+h3 {
+  padding: 20px 0px;
+}
+
+.section4 > p {
+  font-size: 0.8em;
+}
+
+.footer {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.footer h3 {
+  color: white;
+}
+
+.footerCopyright {
+  background-color: #292929;
+  color: white;
+  font-size: 0.8em;
+}
