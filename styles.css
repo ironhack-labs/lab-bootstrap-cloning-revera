@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+}
+
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+header img {
+    width: 200px;
+}
+
+header ul {
+    list-style: none;
+
+}
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.hero {
+    padding: 130px 130px 50px;
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.hero button {
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 5px 20px;
+    font-size: 1em;
+    border-color: white;
+}
+
+.red-square {
+    background-color: #ed564b;
+    border: 5px solid #f96b61;
+    color: white;
+    padding: 50px;
+}
+
+.web-design img {
+    width: 30px;
+    filter: invert(1);
+    padding-bottom: 40px;
+}
+
+.web-design {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.web-design h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.web-design p {
+    font-size: 0.8em;
+}
+
+.lastest-projects {
+    padding: 40px;
+}
+
+.lastest-projects h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.lastest-projects > p {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #AAA;
+    font-weight: bold;
+}
+
+.first-project a {
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-project a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.lastest-projects h4 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gray-square {
+    background-color: #3b3b3b;
+    border-top: 5px solid #f96b61;
+    color: white;
+    padding: 50px;
+}
+
+.last-section h3 {  
+    font-size: 1em;
+}
+
+.final-section h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+
+.lists a {
+    text-decoration: none;
+    color: #AAA;
+    font-size: 0.8em;
+}
+
+.final-section p {
+    color: #AAA;
+    font-size: 0.8em;
+}
+
+.dark-square {
+    background-color: #292929;   
+}
+
+footer {
+    background-color: #292929;
+    color: white;
+}
