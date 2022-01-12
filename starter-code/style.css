@@ -1,0 +1,132 @@
+
+
+.top-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+         
+    }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+
+li {
+    list-style: none;
+    color: #1c5380;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 2px;
+    cursor: pointer;
+    
+      }
+
+.red-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red
+    
+       
+        }
+
+.left-bar {
+    
+    float: left;
+    height: 390px;
+    padding-top: 20px;
+    width: 20%;
+    text-align: center;
+    
+}  
+
+.main-bar {
+    
+    float: left;
+    height: 390px;
+    padding-top: 20px;
+    text-align: center;
+    
+    
+}  
+
+.right-bar {
+    float: left;
+    height: 390px;
+    padding-top: 20px;
+    width: 20%;
+    text-align: center;
+    
+}  
+
+.latest-projects {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}        
+
+.latest-articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}        
+
+.white-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+}    
+
+#grey-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    
+}    
+
+.black-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}  
+
+.revera {
+    flex-direction: column;
+}
+
+.meta {
+    flex-direction: column;
+}
+
+.archives {
+    flex-direction: column;
+}
+
+.recent {
+    flex-direction: column;
+}
