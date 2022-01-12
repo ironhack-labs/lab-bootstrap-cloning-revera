@@ -30,3 +30,39 @@
   top: 60%;
   transform: translateY(-50%);
   }
+  #widgets{
+    padding:40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom:5px solid #f96b61;
+    color:white;
+    text-align:center;
+  }
+  #widgets span{
+    margin: 0px auto;
+    border:5px solid white;
+    display:block;
+    text-align:center;
+    width:70px;
+    height:70px;
+    border-radius:35px;
+    line-height:55px;
+  }
+  .bi{
+    color:white;
+  }
+  h3{
+    margin-top:20px;
+  }
+  h2{
+    margin-top:50px;
+  }
+  .section-title p{
+    color:#aaa;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom:1px solid #dfdfdf;
+  }
+  .img-responsive{
+   width:100%;
+  }
