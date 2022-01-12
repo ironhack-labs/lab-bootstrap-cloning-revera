@@ -13,7 +13,7 @@ h4 {
     font-size: 1.3rem;
 }
 .container-fluid {
-    padding:100px 200px;
+    padding:100px 200px 50px 200px;
 }
 
 h5 {
@@ -91,4 +91,19 @@ hr {
 
 .row {
     margin-bottom:50px;
+}
+
+.card-body p{
+    color:grey
+}
+
+#footer-index {
+    background-color: rgb(63, 62, 62);
+    color:white;
+}
+
+
+.list-group-item {
+    background-color: rgb(63, 62, 62);
+    border-bottom: 1px dotted white
 }
