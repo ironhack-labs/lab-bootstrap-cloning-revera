@@ -1,0 +1,29 @@
+.nav-link {
+    color: rgb(59, 59, 59);
+}
+
+#features {
+  background-color: rgb(225, 98, 79);
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.centre {
+  text-align: center;
+}
+
+.bi {
+  font-size: 20px;
+}
+
+#bottom {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border-top: 5px, rgb(225, 98, 79);
+}
+
+#footer {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
