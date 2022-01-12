@@ -1,0 +1,42 @@
+
+style{
+    
+        margin: 0;
+        padding: 0;
+    }
+
+
+.headerCaja3{
+background-color:#ed564b;
+;
+
+}
+
+.headerCaja3 section{
+    text-align: center;
+}
+
+div.container{
+    flex-direction: column;
+}
+
+.section{
+padding: 10px 0px;
+    color: #eee;
+    width: 10%;
+ }
+ .lastsection{
+     color:#606060;
+     font 12px;
+     backgound: #292929; 
+     padding: 10px 0px;
+
+ }
+
+ .container1{
+    ont-size: 0;
+    text-align: center;
+ }
+ a.nav_link{
+     color: black;
+ }
