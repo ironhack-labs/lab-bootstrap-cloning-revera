@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  width: 50%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+header > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+li a {
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+.background {
+  background-image: url(/starter-code/img/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  filter: grayscale(100%);
+  height: 480px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: blue;
+}
+.background h1 {
+  display: flex;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.background a {
+  border: 5px;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  color: cornsilk;
+  background-color: rgb(255, 64, 64);
+}
+
+.icons h2 {
+  text-align: center;
+  width: 80%;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+.icon-glass2:before {
+  content: "\e9a1";
+  border: cornsilk solid 3px;
+  border-radius: 20px;
+}
+.icon-star-full:before {
+  content: "\e9d9";
+  border: cornsilk solid 3px;
+  border-radius: 80px;
+}
+.icon-heart:before {
+  content: "\e9da";
+  border: cornsilk solid 3px;
+  border-radius: 20px;
+}
+
+.project-and-articles {
+  margin: 50px;
+}
+
+footer,
+footer li a {
+  background-color: rgb(90, 88, 88);
+  color: white;
+  padding: 100px 10px;
+}
+.small-footer {
+  background-color: rgb(39, 38, 38);
+}
