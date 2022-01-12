@@ -1,0 +1,105 @@
+h3 {
+    padding-top: 40px;
+}
+
+h4 {
+    color: #aaa;
+}
+
+.menu {
+    display:flex; 
+}
+
+.menu ul {
+    list-style:none;
+    display: flex;
+}
+
+.menu li {
+    padding-left: 10px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
+
+a {
+    color: #777;
+}
+
+.menu span {
+    color: black;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.nav-bar {
+    padding-top: 10px;
+}
+
+.background-message {
+    background-image: url(./starter-code/img/overlay.png);
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.background-message .container {
+    height: 550px;
+    vertical-align: bottom;
+}
+
+.background-message .col-md-12{
+    padding-top: 250px;
+}
+
+.icons{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.information {
+    color: white;
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.information > ul, li {
+    color: #aaa;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+}
+
+.information ul {
+    padding-left: 0px;
+}
+
+.information p{
+    color: #aaa;
+
+}
+
+.information .container {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #292929;
+    font-size: 12px;
+    padding: 20px 0;
+    color: white;
+}
