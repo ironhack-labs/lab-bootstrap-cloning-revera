@@ -66,7 +66,7 @@ li {
 
 .section1 {
   background-image: url("./starter-code/img/slider-1.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center;
   text-align: center;
   padding-top: 192px;
   height: 551px;
@@ -76,6 +76,7 @@ li {
   align-content: center;
   color: white;
   filter: grayscale(100%);
+  background-size: cover;
 }
 
 .section1 h1 {
