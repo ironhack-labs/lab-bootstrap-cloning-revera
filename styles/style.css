@@ -1,11 +1,10 @@
 
 
 
-
-
 a {
     text-decoration: none;
 }
+
 
 img {
     width: 100%;
@@ -60,19 +59,36 @@ button {
 }
 
 .icon-glass2:before {
-    content: "\e9a1";  
+    
+    content: "\e9a1";
+    font-size: 2em;
+    border: white solid 4px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+      
 }
 
 .icon-star-full:before {
-    content: "\e9d9";  
+    content: "\e9d9"; 
+    border: white solid 4px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px; 
+    font-size: 2em;
 }
 
 .icon-heart:before {
-    content: "\e9da"; 
+    content: "\e9da";
+    border: white solid 4px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px; 
+    font-size: 2em;
 }
 
 .icons {
-    padding: 20px 50px;
+    padding: 50px 50px;
     text-align: center;
     background-color: #ed564b;
 
@@ -91,8 +107,8 @@ h2 {
 }
 
 /* .sizeicons {
-    width: 50px;
-} */
+    font-size: 50px;
+}  */
 
 h3 {
     padding: 25px 0px;
@@ -114,7 +130,7 @@ h4{
 
 /* no consigo quitarle el subrayado al enlace */
 .footer {
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     background-color: #3b3b3b;
     background-size: cover;
     color:white;
@@ -125,4 +141,13 @@ h5 {
     text-transform: uppercase;
     padding: 20px;
 
+}
+
+.copyright {
+    background-color: #292929;
+    padding: 20px;
+
+}
+.no-underline {
+    text-decoration: none;
 }
