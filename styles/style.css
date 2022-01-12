@@ -13,7 +13,7 @@ h4 {
     font-size: 1.3rem;
 }
 .container-fluid {
-    padding:100px 200px 50px 200px;
+    padding:70px 200px 50px 200px;
 }
 
 h5 {
@@ -23,6 +23,7 @@ h5 {
 p {
     font-size: 1rem;
 }
+
 
 .carousel-text {
     color:black;
@@ -38,7 +39,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:200px;
+    margin:0 100px 100px;
+
 
 }
 
@@ -51,7 +53,7 @@ p {
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    padding :20px;
+    padding:50px 20px ;
     background-color: salmon;
 }
 
@@ -89,21 +91,44 @@ hr {
     padding:10px 0;
 }
 
-.row {
-    margin-bottom:50px;
+
+.card-body {
+    padding:0;
 }
 
 .card-body p{
-    color:grey
+    color:grey;
+
 }
 
 #footer-index {
     background-color: rgb(63, 62, 62);
-    color:white;
+    color:lightgray;
 }
 
 
-.list-group-item {
+.list-item {
     background-color: rgb(63, 62, 62);
-    border-bottom: 1px dotted white
+    border-bottom: 1px dotted gray;
+    padding: 10px 0;
+    color:gray;
+}
+
+.list-item:hover {
+    color:white;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(29, 28, 28);
+    color:white;
+    font-family: sans-serif;
+    padding:20px 200px;
+}
+
+footer p {
+    font-size: 0.8rem;
 }
