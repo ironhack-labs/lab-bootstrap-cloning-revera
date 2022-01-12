@@ -1,0 +1,94 @@
+
+
+h2 {
+    font-size:2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+
+h4 {
+    font-size: 1.3rem;
+}
+.container-fluid {
+    padding:100px 200px;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.carousel-text {
+    color:black;
+}
+
+.carousel-text h2 {
+    font-size: 2rem ;
+}
+
+
+.carousel-caption {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:200px;
+
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    padding :20px;
+    background-color: salmon;
+}
+
+
+#benefits{
+    background-color: salmon;
+    color:white;
+
+
+}
+
+#benefits h3 {
+    font-size: 1.7rem;
+}
+
+
+
+hr {
+    border:3px solid rgb(247, 141, 129);
+    border-radius:5px;
+    margin:0px;
+}
+
+#projects-articles h4 {
+    color:darkgrey ;
+}
+
+.header {
+    border-bottom:3px solid darkgrey;
+    margin-bottom:50px;
+}
+
+
+#projects-articles .card-body {
+    padding:10px 0;
+}
+
+.row {
+    margin-bottom:50px;
+}
