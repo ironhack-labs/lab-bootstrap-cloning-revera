@@ -1,0 +1,11 @@
+.projects {
+   display: flex; 
+   flex-direction: row;
+   
+}
+
+.latest {
+    display: flex; 
+    flex-direction: row;
+    
+ }
