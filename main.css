@@ -1,0 +1,32 @@
+.background {
+  background-color: rgb(255, 60, 0);
+  border: none;
+  color: white;
+}
+
+.black-white {
+  filter: grayscale(100%);
+}
+
+.footer {
+  background-color: rgb(77, 75, 75);
+  border: none;
+  color: white;
+}
+
+.cards {
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  color: rgb(235, 219, 219);
+}
+
+.visible {
+  border-bottom: 1px solid grey;
+}
