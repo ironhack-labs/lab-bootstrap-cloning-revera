@@ -1,0 +1,29 @@
+@import url("");
+
+.redBackground {
+  background-color: red;
+  color: white;
+  padding: 40px;
+  
+}
+
+.paddingTopBottom {
+  padding: 40px 0 20px 0;
+}
+
+
+
+.card {
+  padding: 12px;
+}
+
+#iconImage {
+  width: 80px;
+  color: white;
+}
+
+footer {
+  background-color: darkgray;
+  margin: 40px;
+  padding: 40px;
+}
