@@ -156,3 +156,8 @@ hr {
     font-size: x-small;
     font-weight: bold;
 }
+
+.articleText {
+    font-size: smaller;
+    color: grey
+}
