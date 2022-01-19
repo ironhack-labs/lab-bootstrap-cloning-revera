@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revera Clone</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Revera</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sample page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Parent page
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pets</h5>
+                    <p>Everything you wanna know about pets</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fruits</h5>
+                    <p>Everything you wanna know about fruits</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slider-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Flowers</h5>
+                    <p>Everything you wanna know about flowers</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slider-4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <section id="features" class="features container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                  </svg>
+                  <div class="card-body">
+                    <h5 class="card-title">Web design</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon bi bi-apple" viewBox="0 0 16 16">
+                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                    </svg>
+                    <div class="card-body">
+                    <h5 class="card-title">Web development</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon bi bi-bluetooth" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8.543 3.948 1.316 1.316L8.543 6.58V3.948Zm0 8.104 1.316-1.316L8.543 9.42v2.632Zm-1.41-4.043L4.275 5.133l.827-.827L7.377 6.58V1.128l4.137 4.136L8.787 8.01l2.745 2.745-4.136 4.137V9.42l-2.294 2.274-.827-.827L7.133 8.01ZM7.903 16c3.498 0 5.904-1.655 5.904-8.01 0-6.335-2.406-7.99-5.903-7.99C4.407 0 2 1.655 2 8.01 2 14.344 4.407 16 7.904 16Z"/>
+                  </svg>
+                  <div class="card-body">
+                    <h5 class="card-title">User interface</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="latest-project" class="container">
+            <div class="row">
+                <div class="header col">
+                    <h1>Latest Projects</h1>
+                    <h2>Few of the latest portfolio items</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img src="./img/project-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="./img/project-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="./img/project-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </section>
+
+          
+        <section id=latest-articles class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Latest Articles</h1>
+                    <h2>Latest posts from the blog</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img src="./img/slider-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Posted on DATE by AMDIN </h6>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                <div class="card">
+                  <img src="./img/slider-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Posted on DATE by AMDIN </h6>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                <div class="card">
+                  <img src="./img/slider-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Posted on DATE by AMDIN </h6>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm">
+                <div class="card">
+                  <img src="./img/slider-4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Posted on DATE by AMDIN </h6>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, cumque? Perspiciatis, quaerat non sed at assumenda accusamus consequuntur quis. Doloremque accusantium, exercitationem ut libero corporis sapiente non aspernatur repudiandae quod.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <div class="container"></div>
+        <div></div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
