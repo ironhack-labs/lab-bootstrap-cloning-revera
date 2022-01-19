@@ -60,7 +60,7 @@
 }
 
 .redBar {
-    height: 320px;
+    height: auto;
     background-color: rgb(237, 86, 75);
     position: relative;
     top: 50%;
@@ -70,17 +70,89 @@
     align-items: center;
 }
 
-/* .redBarContentDiv {
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-/* 
-.carousel {
-    height: 
-} */
 .carousel .carousel-item img {
     max-height: 550px;
     object-fit: cover;
   }
+
+.fas {
+    color:white;
+    size: 20px
+}
+
+.far {
+    color: white
+}
+/* 100x150 */
+
+.redBarContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redBarContent > h3 {
+    margin-top: 20px;
+    color: white;
+
+}
+.redBarContent > p {
+    text-align: center;
+    color: white
+}
+
+.redRow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    color: gray;
+    width: 100px
+}
+
+.bottomContainer {
+    margin-top: 50px;
+}
+
+.bottomRow1 > h3, .bottomRow3 > h3{
+    font-weight: bolder;
+}
+
+.bottomRow1 > p, .bottomRow3 > p {
+    color: grey;
+    font-weight: bold;
+}
+
+.images {
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+}
+
+.bottomRow2 , .bottomRow4{ 
+    margin-top: 20px;
+}
+
+.bottomRow2Text {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bottomRow3 {
+    margin-top: 60px
+}
+
+.articleTitle {
+    margin-top: 15px;
+
+}
+
+.redStyle {
+    color: red
+}
+
+.postedOn {
+    font-size: x-small;
+    font-weight: bold;
+}
