@@ -1,0 +1,30 @@
+.border{
+    background-color: rgb(245, 240, 240);
+    border: 2px solid;
+}
+
+.top{
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+}
+.middle{
+    height: 1300px;
+    background-color: rgb(251, 0, 0);
+    border: 2px solid;
+}
+#carol{
+
+}
+
+.middle-end{
+
+background-color: rgb(245, 240, 240);
+    border: 2px solid;
+    height: 2000px;
+}
+
+.end{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+}
