@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: #f2f2f2;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        footer {
+            background-color: black;
+            padding: 25px;
+            color: whitesmoke;
+        }
+
+        .row {
+            padding: 3em;
+        }
+
+        .red-container {
+            background-color: lightcoral;
+            text-align: center;
+        }
+
+        .projects {
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        .projects p {
+            text-align: center;
+        }
+
+        .articles {
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            margin: auto;
+            min-height: 200px;
+        }
+
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none;
+            }
+        }
+
+        h3 {
+            font-size: 1em;
+        }
+
+        .button {
+            background-color: #413d3d;
+            padding-left: 7em;
+            padding-right: 7em;
+            color: white;
+            border-top-color: lightcoral;
+            border-top-width: 0.5em;
+            border-top-style: solid;
+        }
+
+        .button ul {
+            list-style-type: none;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Revera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sample Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Parent Page
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Full Page</a></li>
+                            <li><a class="dropdown-item" href="#">Child Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Child Page 2</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/starter-code/img/slider-1.jpg" class="d-block w-100" alt="Slider 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-2.jpg" class="d-block w-100" alt="Slider 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-3.jpg" class="d-block w-100" alt="Slider 3">
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-4.jpg" class="d-block w-100" alt="Slider 4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="row red-container">
+        <div class="col-sm-4">
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h2>User Interface</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+    </div>
+
+    <div class="row projects">
+        <h2>LATEST PROJECTS</h2>
+        <h3>FEW OF THE LATEST PORTFOLIO ITEMS</h3>
+        <hr>
+
+        <div class="col-sm-3">
+            <img src="/starter-code/img/project-1.jpg" class="img-thumbnail" alt="Project 1">
+            <p>Nunc libero elit, iaculis nec augue non
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/project-2.jpg" class="img-thumbnail" alt="Project 2">
+            <p>Phasellus aliquet iaculis neque accumsan aliquam
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/project-3.jpg" class="img-thumbnail" alt="Project 3">
+            <p>Vivamus blandit ipsum sed arcu euismod
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/project-4.jpg" class="img-thumbnail" alt="Project 4">
+            <p>Curabitur auctor dolor risus, vitae pellentesque arcu consequat
+            </p>
+        </div>
+    </div>
+
+    <div class="row articles">
+        <h2>LATEST ARTICLES</h2>
+        <h3>LATEST POSTS FROM THE BLOG</h3>
+        <hr>
+
+        <div class="col-sm-3">
+            <img src="/starter-code/img/slider-1.jpg" class="img-thumbnail" alt="Project 1">
+            <h3>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/slider-2.jpg" class="img-thumbnail" alt="Project 2">
+            <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/slider-3.jpg" class="img-thumbnail" alt="Project 3">
+            <h3>Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <img src="/starter-code/img/slider-4.jpg" class="img-thumbnail" alt="Project 4">
+            <h3>Festibulum purus odio, ornare non posuere</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet euismod ipsum. Phasellus hendrerit
+                semper sem, eget cursus orci ornare vel. Fusce scelerisque purus mauris, quis dignissim eros tincidunt.
+            </p>
+        </div>
+    </div>
+
+    <div class="row button">
+        <div class="col-sm-3">
+            <h3>REBERA</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula
+                erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec
+                venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id
+                tempus metus accumsan.
+
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <h3>META</h3>
+            <ul>
+                <li>Log In</li>
+                <li>Entries RSS</li>
+                <li>Comments RSS</li>
+                <li>WordPress.org</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h3>ARCHIVES</h3>
+            <ul>
+                <li>August</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <h3>RECENT POSTS</h3>
+            <ul>
+                <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+                <li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+                <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+                <li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+                <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
