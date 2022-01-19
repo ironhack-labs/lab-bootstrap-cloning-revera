@@ -1,0 +1,49 @@
+body {
+    font-family: 'Oxygen',sans-serif
+}
+
+.carousel {
+    
+    
+    /*  */
+    
+}
+
+#carousel-image {
+    filter: grayscale(100%);
+}
+
+#carousel-image2 {
+    filter: grayscale(100%);
+}
+#carousel-image3 {
+    filter: grayscale(100%);
+}
+#carousel-image4 {
+    filter: grayscale(100%);
+}
+
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container {
+    width: 80vw;
+   margin:auto;
+}
+
+h5 {
+    margin-top: 3rem;
+}
+
+.footer-div {
+    height: 300px;
+    background-color: #606060;
+    color: white;
+    font-weight: bold;
+}
+.card {
+    border-style: none;
+}
