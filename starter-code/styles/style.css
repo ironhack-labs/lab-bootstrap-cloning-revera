@@ -7,10 +7,16 @@
   
 }
 
+.iconWhite {
+    fill: white;
+}
+
 .paddingTopBottom {
   padding: 40px 0 20px 0;
 }
-
+ .underline{
+     text-decoration: underline;
+ }
 
 
 .card {
@@ -23,7 +29,8 @@
 }
 
 footer {
-  background-color: darkgray;
+  background-color: rgb(41, 40, 40);
   margin: 40px;
   padding: 40px;
+  color: white;
 }
