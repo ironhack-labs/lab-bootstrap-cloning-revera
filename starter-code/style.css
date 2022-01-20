@@ -1,0 +1,22 @@
+.navbar-b {
+    font-size: 35px;
+    }
+  li.nav-item {    
+  padding-left: 40px;
+  }
+  
+  #services {
+  background-color: #ed564b;
+  }
+  button {
+  background-color: transparent;
+  border: white solid;
+  color: white;
+  }
+  #contents {
+  background-color: #3b3b3b;
+  }
+  .red {
+  color: #ed564b;
+  }
+  
