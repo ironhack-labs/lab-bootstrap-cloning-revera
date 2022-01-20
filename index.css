@@ -1,0 +1,66 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+.logo-name, .nav-links {
+    margin: 20px 0px;
+}
+
+.revera-heading {
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.img-overlay {
+    background-image: url("./starter-code/img/overlay.png") cover;
+    /* background-color: aqua; */
+    z-index: 5;
+}
+
+#img-slider {
+    width: 100vw;
+}
+
+.red-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.text-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-redbar {
+    text-align: center;
+}
+
+.container-titles {
+    border-bottom: 2px lightgray solid;
+    padding: 20px 0px;
+}
+
+.lates-project-pictures {
+    margin-top: 50px;
+}
+
+.image-text-container {
+    margin: 0px 20px 20px 0px;
+}
+
+.pictures-latest-projects-container img {
+    width:100%;
+}
+
+#img-project4-container {
+    margin-right: 0px;
+}
+
+.pictures-latest-projects-container p {
+    margin: 5px auto;
+    text-align: center;
+
+}
