@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.nav-bar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: white;
+
+}
+.navbar {
+padding-top: 0rem; 
+padding-bottom: 0rem;
+}
+h1{
+    margin-right: 100px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1 rem;
+    padding-left: 1 rem;
+    background-color: white;
+}
+.container-fluid{
+    background-color: white;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: white
+}
+nav .navbar{
+    background-color: white;
+}
+.carousel-item {
+    filter: grayscale(100%);
+}
+.img-overlay {
+    background: url('img/overlay.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 3rem;
+    height:6rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: 100% 100%;
+    background-color: #ed564b; 
+    position: absolute;
+}
+.carousel-control-next, .carousel-control-prev {  
+    width: 3%;
+}
+#cards{
+    background-color: #ed564b;
+    opacity:0.8;
+
+}
+.h5, h5 {
+    font-size: 1.50rem;
+    color: white;
+}
+.card-b{
+    background-color: #ed564b; 
+    border: none;
+    border-style: none;
+    text-align: center;
+    color: white; 
+
+}
+.card-i{
+    border: none;
+    background-color: #ed564b; 
+    margin: 30px;
+}
+.justify-content-centere {
+    justify-content: center!important;
+}
+.h6, h6 {
+    font-size: 0.75rem;
+    color: gray;
+    font-style: bold;
+}
+.card{
+    border: none; 
+    color: #3b3b3b;
+}
+.card-f{
+    background-color: gray;
+    color: lightgray;
+}
+.justify-content-center {
+    justify-content: space-between!important;
+}
+.bgray{
+    background-color: gray; 
+}
