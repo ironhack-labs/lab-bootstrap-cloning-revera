@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header ul li {
+    margin: 10px 20px;
+}
+
+.redlink {
+    color: red;
+}
+
+.section1 {
+    background-image: url("../starter-code/img/slider-1.jpg");
+    -webkit-filter: grayscale(100%);
+    background-size: cover;
+    padding: 140px 180px;
+    height: 500px;
+}
+
+
+.section1 div {
+    text-align: center;
+    color: rgb(223, 223, 223);
+}
+
+.section1 div p {
+    margin-bottom: 40px;
+}
+
+.section1 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background: none;
+    color: rgb(223, 223, 223);
+    border: 3px solid rgb(223, 223, 223);
+}
+
+
+.section2 {
+    color: rgb(223, 223, 223);
+    background-color: rgb(245, 75, 75) ;
+    padding: 50px 30px;
+    text-align: center;
+
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
+
+.icon-music:before {
+  content: "\e911";
+}
+
+.icon-pacman:before {
+  content: "\e916";
+}
+
+.iconos {
+    padding: 19px;
+    border: 3px solid rgb(223, 223, 223);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    margin: 0 40% 10px;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.section3 {
+    margin-top: 60px;
+}
+
+.section3 > div {
+    margin-top: 70px;
+}
+
+.section3 div p {
+    font-size: 0.9em;
+}
+
+
+h3 {
+    font-weight: bolder;
+}
+
+h4 {
+    color: rgb(187, 187, 187);
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+h6{
+    color: rgb(151, 150, 150);
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+h6 a {
+    text-decoration: none;
+    color: red;
+}
+
+body > hr {
+    height: 4px;
+    color: red;
+}
+
+
+.section4 ul{
+    list-style: none;
+    padding: 0;
+    font-size: 0.5em;
+}
+
+.section4 p{
+    font-size: 0.5em;
+}
+
+.section4 a {
+    font-style: none;
+    text-decoration: none;
+    color: rgb(151, 150, 150);
+}
+
+.section4 {
+    background-color: rgb(46, 46, 46);
+    color: rgb(151, 150, 150);
+    padding: 30px 0;
+    font-size: 1.4em;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+    padding: 10px;
+    color: rgb(151, 150, 150) ;
+}
+
+
