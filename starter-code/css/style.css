@@ -1,0 +1,145 @@
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------*/
+
+
+.hello{
+    height: 600px;
+    background-image: url("../img/slider-1.jpg");
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+h2 {
+    color: #FFF;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.container.hello {
+    justify-content: center;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    
+ }
+
+.hello p {
+    color: #FFF;
+} 
+
+
+.button {
+    text-decoration: none;  
+    border: 1px solid rgb(252, 249, 249);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: none;
+    color: white;
+    text-align: center;
+  
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.services{
+    background-color: red;
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+}
+
+.container.services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.icon-glass2:before {
+    content: "\e9a1";
+  }
+
+  .icon-star-full:before {
+    content: "\e9d9";
+  }
+
+    
+  .icon-heart:before {
+    content: "\e9da";
+  }
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+.script .container {
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+.script .container img {
+    width: 100%;
+}
+
+
+  
+/* ----------------------------------------------------------------------------------------- */
+
+.highlights {
+    background-color: rgb(36, 35, 35);
+    color: #FFF;
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+
+}
+
+.script.highlights .container {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+/* ----------------------------------------------------------------------------------------- */
+.wrap{
+ 
+    background-color: rgb(3, 3, 3);
+    color: #FFF;
+
+}
