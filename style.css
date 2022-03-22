@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu p {
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    text-align: center;
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 200px 200px 50px 200px;
+}
+
+.info {
+    padding: 50px 0 50px 0;
+    background-color: red;
+}
+
+article {
+    text-align: center;
+}
+
+.img {
+    width: 100px;
+}
+
+.icon-file-empty:before {
+  content: "\e924";
+}
+
+.icon-files-empty:before {
+  content: "\e925";
+}
+
+.icon-file-text2:before {
+  content: "\e926";
+}
+
+article span {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+
+h3 {
+    color: gray;
+}
+
+article p {
+    color: white
+}
+.bottompart{
+    padding: 20px;
+    background-color: gray;
+    border-top: 2px solid red;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
