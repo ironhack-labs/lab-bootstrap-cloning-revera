@@ -1,0 +1,109 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    text-align: left;
+}
+
+header nav li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.home {
+    color: rgb(0, 140, 255);
+}
+
+.revera {
+    text-align: center;
+}
+
+.container {
+    padding: 60px;
+}
+
+.first {
+    padding: 200px;
+    background-image: url(starter-code/img/project-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.first div {
+    text-align: center;
+}
+
+.first button {
+    width: 8em;
+    height: 2em
+}
+
+.second {
+    background-color: rgb(248, 39, 32);
+}
+
+.second div {
+    text-align: center;
+}
+
+.second h3 {
+    margin-top: 20px;
+}
+
+.second span {
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.third {
+    justify-content: center;
+}
+
+.third .row {
+    border-top: 1px solid black;
+}
+
+.third img {
+    margin-top: 10px;
+}
+
+.forth {
+    justify-items: center;
+    padding: 50px;
+}
+
+.forth img {
+    margin-top: 10px;
+}
+
+.forth .row {
+    border-top: 1px solid black;
+}
+
+.foot {
+    border-top: 2px solid red;
+    font-size: small;
+    background-color: rgb(78, 74, 74);
+    text-align: center;
+    padding: 50px;
+}
+
+.copy {
+    padding: 20px;
+    color: rgb(102, 95, 95);
+    display: flex;
+    padding-left: 20px;
+    text-align: end;
+    background-color: rgb(20, 20, 20);
+}
