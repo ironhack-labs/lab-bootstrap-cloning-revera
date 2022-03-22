@@ -1,0 +1,95 @@
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 130px;
+}
+
+header a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: grey;
+}
+
+.revera {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.home {
+  color: #ff4d4d;
+}
+
+.hero {
+  background-image: url("../starter-code/img/slider-1.jpg");
+  background-size: 100%;
+  text-align: center;
+  color: #e1eaea;
+  height: 440px;
+}
+
+.bg-image {
+  padding-top: 150px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.menu {
+  background-color: #ff4d4d;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.dark {
+  background-color: #1f2e2e;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  text-decoration: none;
+  border: 2px solid #e1eaea;
+  color: #e1eaea;
+  padding: 5px 20px;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+.icon-glass2:before {
+  content: "\e9a1";
+}
+
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+
+.images {
+  padding: 30px 0;
+}
