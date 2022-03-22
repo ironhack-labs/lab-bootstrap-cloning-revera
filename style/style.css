@@ -1,0 +1,172 @@
+body {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+header ul li {
+  margin: 0 5px;
+}
+
+header ul li a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+.home {
+  color: rgb(241, 14, 14);
+}
+
+.logo {
+  width: 200px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.hero {
+  background-image: url("../starter-code/img/slider-1.jpg");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: rgb(216, 216, 216);
+  padding: 100px;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 0 150px;
+  margin-top: 100px;
+}
+
+.hero p {
+  padding: 0 150px;
+}
+
+.hero a {
+  display: block;
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+  border: 1px solid rgb(216, 216, 216);
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+}
+
+.icon-pencil:before {
+  content: "\e905";
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
+
+.icon-quill:before {
+  content: "\e907";
+}
+
+.circle {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.icons {
+  padding: 100px;
+  background-color: rgb(236, 88, 62);
+  color: white;
+}
+
+.icons .col {
+  text-align: center;
+}
+
+.icons h2 {
+  margin-top: 50px;
+}
+
+.projects,
+.articles {
+  padding: 50px;
+}
+.projects .col-3 p {
+  text-align: center;
+}
+
+.projects h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sub-title {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.articles h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.projects h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.articles .col-3 .text {
+  text-align: left;
+}
+
+.articles .col-3 .posted {
+  text-align: left;
+}
+
+.articles h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.posted {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+footer {
+  color: white;
+  background-color: rgb(54, 54, 54);
+  padding: 50px 0 0 0;
+}
+
+.bottom {
+  background-color: black;
+  padding: 20px;
+}
+.bottom p {
+  margin: 0;
+  font-size: 0.8em;
+}
