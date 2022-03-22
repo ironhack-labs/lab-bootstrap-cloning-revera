@@ -1,0 +1,100 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+}
+
+.hero {
+    padding: 200px;
+    text-align: center;
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: cover;
+}
+
+.hero p {
+    padding: 10px;
+}
+
+.hero a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+
+hr {
+    margin-bottom: 25px;
+}
+
+.projects{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section1 {
+    text-align: center;
+    background-color: rgb(250, 30, 30);
+    padding: 40px;
+    color: white;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 img {
+    margin-bottom: 10px;
+}
+
+.section3 img {
+    margin-bottom: 20px;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+.footer1 {
+    margin-top: 30px;
+    background-color:grey;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer2 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.icon-home:before {
+  content: "\e900";
+  margin: 10px;
+}
+
+.icon-home2:before {
+  content: "\e901";
+  margin: 10px;
+}
+
+.icon-music:before {
+  content: "\e911";
+  margin: 10px;
+}
