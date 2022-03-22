@@ -1,0 +1,177 @@
+/*rgb(238, 75, 54)*/
+
+* {
+
+}
+
+ img {
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.icon-home3:before {
+  content: "\e902";
+}
+
+.icon-clubs:before {
+  content: "\e918";
+}
+
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+
+header{
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+header ul{
+     display:flex;
+     list-style: none;
+     margin: 0px;
+}
+
+header ul a {
+     text-decoration: none;
+     color: rgb(151, 151, 151);
+     margin: 0px 6px;
+     font-weight: bolder;
+     font-size: 0.9em;
+}
+
+.HomeButton{
+     color: rgb(238, 75, 54);
+}
+
+.title{
+     margin: 0px 225px 0px 130px;
+     font-weight: bolder;
+     font-size: 1.3em;
+}
+
+.section1{
+    color:white;
+    background-color: rgb(0, 255, 76);
+    padding: 130px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url("../starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-color: yellow;
+    -webkit-filter: grayscale(100%); 
+}
+
+.section1 p {
+    width:60%;
+}
+
+.section1 h1 {
+    width:60%;
+}
+
+.section1 a {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px 16px;
+    color:white;
+    margin-top: 20px;
+}
+
+.section2 {
+    background-color: rgb(238, 75, 54);
+    padding: 70px 100px;
+}
+
+.section2 article {
+     text-align: center;
+     color: white;
+}
+
+.section2 span {
+     border: 2px solid white;
+     padding: 17px;
+     border-radius: 60px;
+}
+
+.section2 h3 {
+    margin-top: 25px;     
+}
+
+.section2 article p{
+     font-weight: lighter;
+}
+
+.section3{
+    background-color: rgb(250, 250, 250);
+    padding: 20px 0px;
+}
+
+.section3 h3{
+    font-size: 1.2em;;
+    font-weight: bolder;
+}
+
+.section3 >div{
+    margin-top: 40px;
+}
+
+.section3 p{
+    font-size: 0.7em;;
+    font-weight: bolder;
+    color: rgb(153, 153, 153);
+}
+
+.section3 article h4{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.8em;
+
+}
+
+.section3 article strong{
+    color: red;
+}
+.articles2 article h4{
+    text-align: left;
+}
+
+
+
+.footer{
+    background-color: rgb(49, 49, 49);
+}
+
+.footerUpper{
+    
+    padding: 130px 60px;
+    color: white;
+}
+
+.footerUpper h3{
+    
+    font-size: 0.85em;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.footerUpper p{
+    font-weight: lighter;
+}
+
+.footerUpper a{
+    color: white;
+}
+
+.footerLower{
+    background-color: rgb(34, 34, 34);
+    padding: 20px 0px 20px 160px;
+    color: white;
+}
