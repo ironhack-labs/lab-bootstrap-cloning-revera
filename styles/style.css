@@ -1,0 +1,149 @@
+/* imagenes */
+.icon-pacman:before {
+  content: "\e916";
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 15px;
+ 
+}
+
+.icon-spades:before {
+  content: "\e917";
+    border: 3px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.icon-clubs:before {
+  content: "\e918";
+    border: 3px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+/* barra navegacion */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 250px;
+    
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu li {
+    margin-left: 10px;
+    
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+   
+}
+
+.title{
+    font-size: 1.8em;
+    font-weight: bold;
+    
+}
+
+.red a{
+    color: crimson;
+}
+
+h3{
+    margin-top: 45px;
+}
+/* Primera seccion */
+.cat-image{
+    background-image: url(../starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 200px;
+    text-align: center;
+    color:white;
+}
+
+.categories{
+    background-color:#E54422;
+    padding: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+.cat-image a {
+    text-decoration: none;
+    list-style: none;
+    border:3px solid white;
+    padding: 5px 10px;
+    color: white;
+   
+}
+/* Latests Projects */
+
+.latest-projects{
+   padding: 40px 200px;
+}
+
+/* Latests Articles */
+
+.latest-articles{
+    padding: 40px 200px;
+}
+
+/* Last menu */
+
+.last-menu{
+      padding: 70px 200px;
+      background-color: grey;
+      border-top:3px solid red;
+      color:white;
+    
+}
+
+.link-1 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.link2 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.link3 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.link4 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+footer{
+    background-color: #302B2A;
+    color:white;
+    padding: 50px;
+}
