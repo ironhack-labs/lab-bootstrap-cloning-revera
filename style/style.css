@@ -1,0 +1,169 @@
+img{
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+header h1{
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 0.8em;
+
+}
+header li a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.home{
+    color: #ed564b;
+}
+
+.main-image{
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.main-image  h1{
+    margin: 0px 300px;
+    padding-top: 50px;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+}
+.main-image p{  
+   
+    margin: 50px 300px;
+    text-align: center;
+    color: white;
+}
+.main-image a{
+    border: 2px solid white;
+    margin: 40px 580px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.icon-pencil:before {
+  content: "\e905";
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  padding:10px;
+  font-size: 2em;
+}
+.icon-library:before {
+  content: "\e921";
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  padding:10px;
+  font-size: 2em;
+}
+.icon-calculator:before {
+  content: "\e940";
+ border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  padding:10px;
+  font-size: 2em;
+}
+
+.red-section{
+    background-color:#ed564b ;
+    border-top: 5px solid #ec746c;
+    border-bottom: 5px solid #ec746c;
+  
+}
+.red-section article{
+    margin: 50px 70px;
+    color: white;
+    text-align: center;
+}
+.red-section h2{
+    margin-top: 50px 
+}
+
+.mid-section-1 h2{
+    margin-top: 30px;
+    font-size: 1    .5em;
+}
+.mid-section-1 h3{
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+}
+.mid-section-1 h4{
+    margin-top: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.mid-section-1 h5{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: gray;
+    font-size: 0.7em;
+}
+.mid-section-1 h5 a{
+    text-decoration: none;
+    color: #ec746c;
+}
+.mid-section-1 p{
+    font-size: 0.8em;
+}
+
+.final-section{
+    background-color: rgb(59,59, 59);
+    border-top: 5px solid #ec746c;
+}
+.final-section article{
+    margin: 20px 40px;
+    color: white;
+}
+.final-section article h2{
+    font-size: 2em;
+}
+.final-section p{
+    color: gray;
+}
+.final-section ul{
+    
+}
+.link-final li{
+    list-style: none;
+}
+.link-final a {
+    text-decoration: none;
+    text-align: left;
+    color: gray;
+    border-bottom: 1px dotted gray;
+}
+footer{
+    background-color: rgb(41,41, 41);
+    color: rgb(216, 216, 216);
+    padding-bottom:20px;
+    
+}
+footer p{
+    padding-top: 10px;
+    margin: auto;
+    font-size: 0.7em;
+    
+
+
+}
