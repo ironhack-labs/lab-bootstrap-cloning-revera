@@ -1,0 +1,104 @@
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-home2:before {
+  content: "\e901";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 12px;
+}
+p {
+  font-size: 16px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-weight: bold;
+  padding-right: 200px;
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+header li {
+  margin: 10px;
+}
+
+li.rojo a {
+  color: red;
+}
+
+.nav-box {
+  margin: auto;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+/* section 1 */
+
+.section1 {
+  background-image: url("./img/slider-1.jpg");
+  padding: 150px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+  padding: 5px 10px;
+  margin: 20px auto;
+  width: 150px;
+}
+
+.section2 {
+  background-color: #ed564b;
+}
+.section5 {
+  background-color: #3b3b3b;
+  color: #aaaa;
+}
+.section5 h3 {
+  color: white;
+}
+.section5 a {
+  text-decoration: none;
+  color: #aaaa;
+}
+footer {
+  background-color: #292929;
+}
