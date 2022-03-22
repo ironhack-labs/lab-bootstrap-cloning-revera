@@ -1,0 +1,218 @@
+.icon-spades:before {
+  content: "\e917";
+  
+}
+.icon-clubs:before {
+  content: "\e918";
+}
+.icon-diamonds:before {
+  content: "\e919";
+}
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+.carrousel{
+    background-image: url("../img/slider-1.jpg");
+    background-size: cover;
+    height: 500px;
+    z-index: 0;
+    text-align: center;
+    color:white;
+    
+
+}
+.carrousel h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 650px;
+    margin-left: 400px;
+    padding-top: 150px;
+}
+.carrousel p{
+    width: 750px;
+    margin-left: 350px;
+    padding-bottom: 30px;
+}
+.carrousel a{
+    border:1px solid white;
+    color: white;
+    width:50px;
+    height: 100px;
+    text-decoration: none;
+    padding:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.icons-section{
+    background-color: rgb(231, 61, 61);
+    height: 300px;
+    margin-top: 0%;
+    width: 100%;
+    color:white;
+}
+.icons-section h3, p{
+    text-align: center;
+}
+.circle-span{
+    padding-top: 30px;
+}
+.circle-span span{
+    margin-left: 45%;
+    border-radius: 50%;
+    border:2px solid white;
+    height: 200px;
+    width: 100px;
+    padding: 8px;
+
+}
+.col-md-4 h3{
+    margin-top:25px;
+    font-weight: bold;
+}
+.latest-projects h2 , .latest-articles h2{
+font-weight: bold;
+font-size: 1.5em;
+padding-top:30px;
+}
+.latest-projects h3, .latest-articles h3{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color:gray;
+    font-weight: bold;
+}
+.latest-projects p{
+   font-weight: bold;
+   font-size: .8em;
+   padding-bottom:40px
+}
+.latest-articles h4{
+    font-weight: bold;
+    font-size:.9em;
+}
+.latest-articles img{
+    padding-bottom:20px;
+    height: 200px;
+}
+.latest-articles h5{
+    font-weight: bold;
+    font-size:.7em;
+    color:rgb(175, 175, 175);
+    text-transform: uppercase;
+}
+.latest-articles p{
+    padding-top: 20px;
+    text-align:left;
+    color:rgb(141, 141, 141);
+    font-size: 0.9em;
+}
+.date-span{
+    color:red;
+}
+footer{
+    background-color: rgb(63, 57, 57);
+    border-top: red;
+    border-top-style: solid;
+}
+.bottom-footer{
+    background-color: rgb(27, 27, 27);
+    padding-top:15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: .7em;
+}
+.superior-footer li{
+    list-style: none;
+    margin-left: -33px;
+    color:rgb(196, 193, 193);
+}
+.dashed{
+    text-decoration-style: dashed; 
+}
+.superior-footer h3,p,li{
+    
+    text-align: left;
+}
+footer h3{
+    font-size: 1em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer h3,span{
+    color:white;
+}
+.superior-footer p{
+    padding-bottom: 100px;
+    color:rgb(196, 193, 193);
+}
+.superior-footer li a{
+    color:rgb(196, 193, 193);
+    text-decoration: none;
+}
+.superior-footer ul hr{
+    border-top: dotted 2px white;
+    margin-left:-33px;
+    margin-top: 0%;
+}
+.special-hr{
+    border-top: dotted 2px white;
+    margin-top: 0px;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:50px;
+    height: 90px;
+    
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 600px;
+    margin-top: 44px;
+}
+.menu li {
+    margin-left: 10px;
+    padding: 10px;
+}
+.red-a{
+    color:red;
+}
+
+
+.menu span{
+    width:40px;
+    color: black;
+    font-weight:bolder;
+    font-size: 2em;
+    position: absolute;
+    top:18px;
+    left:200px;
+}
+
+.menu a:not(.red-a) {
+    text-decoration: none;
+    color:black;
+}
+.august{
+    text-decoration: none;
+    color:rgb(196, 193, 193);
+}
+.section-hrs{
+    width:98%;
+    margin-left: 1%;
+}
