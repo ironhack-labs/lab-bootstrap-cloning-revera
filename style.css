@@ -1,0 +1,103 @@
+img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #777;
+}
+
+.hero {
+  text-align: center;
+  height: 600px;
+  background-image: url("/starter-code/img/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.hero h2 {
+  padding: 200px 400px 0px 400px;
+}
+
+.hero p {
+  padding: 0 400px 0px 400px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.specs {
+  text-align: center;
+  padding: 80px 70px 70px 70px;
+  margin-bottom: 70px;
+  background-color: #ed564b;
+  color: white;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.specs span {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.specs h3 {
+  margin-top: 25px;
+}
+
+.projects-articles {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.projects-articles p {
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.footer {
+  border-top: 5px solid #f96b61;
+  background-color: #3b3b3b;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer p {
+  color: #aaa;
+  font-size: 0.8em;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  background-color: black;
+  padding: 20px;
+  padding-left: 70px;
+}
