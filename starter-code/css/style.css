@@ -1,0 +1,131 @@
+img {
+    width: 100%;
+}
+
+/* Navigation */
+.header-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+h6{
+    font-size: 2.5em;
+}
+.nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav .home {
+    color: brown;
+}
+
+li {
+    margin-left: 10px;
+}
+
+/* Hero */
+
+.hero {
+    padding: 250px;
+    text-align: center;
+    background-image: url("../img/slider-1.jpg");
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.hero p {
+    color: white;
+    padding: 15px;
+}
+
+.hero a {
+    color: white;
+    text-transform: uppercase;
+    border: 2px;
+    border-color: white;
+    text-decoration: none;
+}
+
+/* First Section*/
+
+.section-1 {
+    padding: 50px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+.icon-home:before {
+    content: "\e900";
+  
+}
+
+.icon-home2:before {
+    content: "\e901";
+  }
+
+.icon-home3:before {
+    content: "\e902";
+  }
+
+/* Second Section*/
+
+.section-2 {
+margin: 50px;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.container .p-1 {
+    text-transform: uppercase;
+    color: gray;
+}
+
+/*Third Section*/
+
+.section-3 {
+    margin: 50px;
+}
+
+.p-2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*Footer*/
+
+footer {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 30px;
+    border-top: 3px;
+    border-color: brown;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: .80em;
+}
+
+.hr-dotted {
+    line
+}
+
+p .p4 {
+    margin: 0;
+    padding: 0;
+}
