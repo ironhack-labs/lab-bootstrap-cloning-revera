@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon-bubble:before {
+    content: "\e96b";
+  }
+
+  .icon-bubbles:before {
+    content: "\e96c";
+  }
+
+  .icon-bubbles2:before {
+    content: "\e96d";
+  }
+
+
+img {
+    width: 100%;
+}
+
+.found {
+    background-image: url(https://github.com/clarapardo/lab-bootstrap-cloning-revera/blob/master/starter-code/img/project-2.jpg?raw=true);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu li{
+    margin-left: 10px;
+
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.found h1{
+  font-size: 2em;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #fff;
+    
+}
+
+.found p{
+font-size: 1em;
+justify-content: center;
+display: flex;
+color: #fff;
+text-align: center;
+}
+
+.found a{
+    border-radius: 20px;
+    color: #fff;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 550px;
+    
+}
+
+.intro{
+    color: #fff;
+    font-size: 1em;
+    background-color: rgb(241, 95, 95);;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 20px; ;
+}
+
+.contact {
+    background-color: rgb(116, 116, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.contact h2 {
+    font-size: 1em;
+    color: #fff;
+
+}
+
+.contact p {
+    text-align: center;
+    color: #fff;
+    align-items: center;
+}
+.footer {
+    background-color: rgb(75, 73, 73);
+    color: #fff;
+}
