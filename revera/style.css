@@ -73,6 +73,7 @@ li.rojo a {
   padding: 150px;
   color: white;
   text-align: center;
+  filter: grayscale(100%);
 }
 
 .button {
