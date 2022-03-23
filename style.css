@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.revera {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.spy{ 
+    color: red;
+}
+
+.hero {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    padding: 100px 0;
+    text-align: center;
+    height: 500px;
+}
+
+.hero .thisisrevera{
+color: rgb(254, 254, 254);
+stroke: black;
+stroke-linecap: round;
+stroke-dashoffset: 2px;
+}
+
+.col-md-4{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    background-color: rgb(193, 20, 20);
+    background-size: 100%;
+    padding: 100px;
+
+}
+
+.forarticles, span {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    margin-top: 25px;
+    height: 10px;
+
+}
+
+  .icon-clubs:before {
+  content: "\e918";
+  }
+.projects.col-md-3{
+    display: flex;
+    justify-content: space-between;
+}
