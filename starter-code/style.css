@@ -1,0 +1,139 @@
+img {
+  width: 100%;
+}
+
+*/ body {
+  font-family: sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+}
+
+.red {
+  color: rgb(211, 58, 55);
+}
+
+.hero {
+  background-image: url(../starter-code/img/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 200px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  color: white;
+  text-align: center;
+}
+
+.hero p {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-align: center;
+}
+
+.banner {
+  background-color: rgb(211, 58, 55);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.icon-leaf:before {
+  content: "\e9a4";
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?a0667z");
+  src: url("fonts/icomoon.eot?a0667z#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?a0667z") format("truetype"),
+    url("fonts/icomoon.woff?a0667z") format("woff"),
+    url("fonts/icomoon.svg?a0667z#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-leaf:before {
+  content: "\e9a4";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+
+.banner-titles {
+  padding: 30px;
+}
+
+.section1 {
+  padding: 30px;
+}
+
+.section2 {
+  padding: 30px;
+}
+
+hr {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(211, 58, 55);
+}
+
+.footer {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  justify-items: first baseline;
+  padding: 30px;
+}
