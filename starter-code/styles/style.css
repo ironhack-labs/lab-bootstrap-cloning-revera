@@ -1,0 +1,118 @@
+img {
+    width: 100%;
+}
+.logo{
+    font-size: 3em;
+    text-decoration: none;
+}
+.menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.list-menu{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../img/slider-1.jpg");
+    background-size: 100%;
+    height: 500px;
+    color: white;
+}
+.icon-droplet:before {
+  content: "\e90b";
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+}
+.webs h2 {
+    margin-top: 15px;
+}
+.icon-spades:before {
+  content: "\e917";
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+  
+}
+.icon-book:before {
+  content: "\e91f";
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  text-align: center;
+}
+.webs{
+    background-color: red;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white    ;
+}
+.slider-list a{
+    text-decoration: none;
+    color: grey;
+}
+.top-footer{
+    background-color: rgba(0, 0, 0, 0.705);
+    padding-top: 20px;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.icons h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webs > div > div > div > article{
+    text-align: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    margin-left: 40px;
+}
+.list-ul ul{
+text-decoration: none;
+list-style: none;
+}
+.list-ul li a {
+   text-decoration: none;
+   color: grey;
+}
+.projects{
+    padding: 15px;
+}
+.button{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 30px;
+}
