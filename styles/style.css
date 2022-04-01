@@ -1,6 +1,8 @@
-/* @import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); */
-
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"); */
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.eot);
+    src: url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.woff) format("woff"),url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
+}
 
 body {
     margin: 0;
@@ -19,9 +21,15 @@ header {
     height: 50px;
 }
 
-/* #top-nav {
-    height: 150px;
-} */
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+}
+
+#top-nav-lg {
+    display: hidden;
+}
 
 #center-nav {
     display: flex;
@@ -36,12 +44,45 @@ header {
     color: #f4473a;
 }
 
+
 .dropdown-toggle::after {
-    display: none;
+    display: none!important;
 }
 
 .dropdown-item {
-    border-bottom: 1px solid #777;
+    /* border-bottom: 1px solid #777; */
+       border-top: 1px solid #ddd;    
+}
+
+.dropdown-item * {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+#borderless > li {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #aaa;
+}
+
+#bot-row {
+    justify-content: space-evenly;
+}
+
+.list-group-flush .list-group-item {
+        border-bottom: 1px dotted rgba(255,255,255,.2);
+        border-top: 0px;
+        margin-bottom: 0px;        
+        padding: 0.438rem 0.438rem;
+        background: #3b3b3b;        
+}
+
+.list-group-flush:last-child .list-group-item:last-child  {
+    border-bottom: 1px dotted rgba(255,255,255,.2);    
+    background: #3b3b3b;    
 }
 
 .carousel-item:after {
@@ -55,9 +96,6 @@ header {
     background:url(../starter-code/img/overlay.png);
   }
 
-  /* .carousel-item:after {  
-    background: url(../starter-code/img/overlay.png);
-  } */
 
   .carousel-inner > .item > img {
     position: absolute;
@@ -77,19 +115,24 @@ header {
 
   .carousel-control-prev-icon, .carousel-control-next-icon {
       background-color: #ed564b;
-      width: 50px;
-      height: 100px;
-      background-size: 60%;
-      /* background-size: 100% 100%; */
+      background-size: 60%;      
   }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {  
+  width: 50px;
+  height: 100px;
+  margin: -50px 0 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  z-index: 110;
+  cursor: pointer;
+  text-indent: -9999px;  
+}
 
   .carousel-control-prev, .carousel-control-next {
-      width: 3%;
+      /* width: 3%; */
       opacity: 100%;
-  }
-
-  .carousel-control-next-icon:hover {
-      width: 500px;
   }
 
   .carousel-control-prev-icon:hover, .carousel-control-prev-icon:focus,
@@ -113,40 +156,17 @@ header {
     border-radius: 0;
 }
 
-
-/* .carousel-control-prev:hover, .carousel-control-prev:focus,
-.carousel-control-next:hover,
-.carousel-control-next:focus {
-  text-decoration: none;
-  background-color: white;
-  width: 50px;
-  height: 100px;
-  background-size: 60%;
-} */
-
-/* .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ed564b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  } */  
-
-  /* .carousel-item > img {
-    width: 150%;
-  } */
-
-  /* .carousel-inner {
-      max-height: 300px !important;
-  } */
-
-
-  /* .carousel-inner > .item > img {
-  } */
-
   #features {
       background-color: rgb(231,61,58);
       color: white;
   }
 
   .btn-outline-light {
-    background-color: rgba(255,255,255,.5);
+    /* background-color: rgba(255,255,255,.5); */
+    background-color: rgba(255,255,255,0.2);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 150px;
   }
 
 #widgets {
@@ -178,31 +198,88 @@ header {
     border-bottom: 5px solid #f96b61;    
 }
 
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
 
-/* .card-img-top { 
-    width: 100%; 
-    height: 15vh; 
-    height: 15rem;
-    object-fit: center;
-} */
 
-#bottom * {
+.glyphicon-glass:before {
+    content: "\e001"
+}
+
+.glyphicon-heart:before {
+    content: "\e005"
+}
+
+.glyphicon-star:before {
+    content: "\e006"
+}
+
+
+h2 {
+    /* font-size: 24px; */
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;    
+}
+
+
+#hometa {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;    
+}
+
+a {
+    color: #f4473a;
+}
+
+#sub-title {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;    
+}
+
+
+.bottom * {
     color: #aaa;
 }
 
-#bottom h3 {
-    color: white;
+.bottom h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-#bottom ul, #bottom li {
+.bottom ul, #bottom li {
     background: #3b3b3b;
 }
 
-#bottom {
+.bottom {
     padding: 20px 0px 40px 0px;
     background: #3b3b3b;
     border-top: 5px solid #ed564b;
 }
+
+
+.bottom ul {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 0px 0px;
+    display: block;
+}
+
 
 #site-footer {
     padding: 10px 0px;
@@ -210,3 +287,23 @@ header {
     font-size: 12px;
     color: white;
 }
+
+
+@media (max-width: 839px) { 
+    /*replace the nav with a dropdown*/
+    #top-nav-lg {
+        display: none;
+    }
+    /* #top-nav-sm {
+        display: unset;
+    }     */
+ }
+ @media (min-width: 800px) { 
+    /*replace the nav with a dropdown*/
+    #top-nav-sm {
+        display: none;
+    }
+    /* #top-nav-lg {
+        display: unset;
+    }     */
+ }
