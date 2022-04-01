@@ -1,0 +1,212 @@
+/* @import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); */
+
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"); */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+header {
+    /* background-color: red; */
+    height: 50px;
+}
+
+/* #top-nav {
+    height: 150px;
+} */
+
+#center-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item a {
+    color: #777;
+}
+
+.nav-item a:hover {
+    color: #f4473a;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #777;
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:url(../starter-code/img/overlay.png);
+  }
+
+  /* .carousel-item:after {  
+    background: url(../starter-code/img/overlay.png);
+  } */
+
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+
+  .carousel-item {
+    filter: grayscale(100%);
+    background: url(../starter-code/img/overlay.png);
+    max-height: 550px!important;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-color: #ed564b;
+      width: 50px;
+      height: 100px;
+      background-size: 60%;
+      /* background-size: 100% 100%; */
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+      width: 3%;
+      opacity: 100%;
+  }
+
+  .carousel-control-next-icon:hover {
+      width: 500px;
+  }
+
+  .carousel-control-prev-icon:hover, .carousel-control-prev-icon:focus,
+.carousel-control-next-icon:hover,
+.carousel-control-next-icon:focus {
+  background-color: white;  
+}
+
+
+.carousel-control-next-icon:hover,
+.carousel-control-next-icon:focus {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ed564b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-prev-icon:focus {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ed564b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
+/* .carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  text-decoration: none;
+  background-color: white;
+  width: 50px;
+  height: 100px;
+  background-size: 60%;
+} */
+
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ed564b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  } */  
+
+  /* .carousel-item > img {
+    width: 150%;
+  } */
+
+  /* .carousel-inner {
+      max-height: 300px !important;
+  } */
+
+
+  /* .carousel-inner > .item > img {
+  } */
+
+  #features {
+      background-color: rgb(231,61,58);
+      color: white;
+  }
+
+  .btn-outline-light {
+    background-color: rgba(255,255,255,.5);
+  }
+
+#widgets {
+    color: #fff;
+    text-align: center
+}
+
+#widgets span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px
+}
+
+#widgets h3 {
+    font-size: 24px;
+    font-weight: bold
+}
+
+#widgets {
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;    
+}
+
+
+/* .card-img-top { 
+    width: 100%; 
+    height: 15vh; 
+    height: 15rem;
+    object-fit: center;
+} */
+
+#bottom * {
+    color: #aaa;
+}
+
+#bottom h3 {
+    color: white;
+}
+
+#bottom ul, #bottom li {
+    background: #3b3b3b;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+#site-footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+}
