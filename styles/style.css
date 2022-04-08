@@ -298,6 +298,36 @@ a {
         display: unset;
     }     */
  }
+
+
+ @media (max-width: 765px) { 
+    #top-nav-lg {
+        display: none;
+    }
+    header{
+        height: 150px;
+    }
+    header > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center        
+    }
+    .dropdown-toggle {
+        width: 500px;
+    }
+    .mr-auto{
+        margin-right: auto;
+    }
+
+    #brand {
+        /* flex-basis: 100%;
+        justify-content: center; */
+        margin-right: unset;
+        align-self: unset !important;        
+    }
+ }
+
  @media (min-width: 800px) { 
     /*replace the nav with a dropdown*/
     #top-nav-sm {

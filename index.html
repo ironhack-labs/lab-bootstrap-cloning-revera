@@ -19,12 +19,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <div class="container-fluid">
         <header>  <!-- id="top-nav -->
-          <div class="row d-flex mt-4 justify-content-between">  
-          <!-- <div class="container-fluid"> -->
-            <div class="col-auto ml-5 mr-auto align-self-end">
+          <div id="top-header" class="row d-flex mt-4 justify-content-between">  
+            <div class="col-auto ml-5 align-self-end" id="brand"> <!-- mr-auto -->
               <h2>REVERA</h2>   
-            </div>  
-            <!-- <div class="col"> -->                
+            </div>    
             <div class="navbar flex-fill justify-content-center" > 
                 <div class="dropdown" id="top-nav-sm">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -190,7 +188,7 @@
         <p id="sub-title">Few of the latest portfolio items</p>
         <!-- <hr /> -->
         <div class="row row-cols-sm-2 row-cols-md-4">
-            <div class="col-lg-3  col-md-6  col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="card border-0">
                   <img class="card-img-top" src="starter-code/img/project-1.jpg" alt="Proj Card 1">
                   <div class="card-body">
@@ -199,7 +197,7 @@
                   </div>
                 </div>
             </div>   
-            <div class="col-lg-3  col-md-6  col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="card border-0">
                   <img class="card-img-top" src="starter-code/img/project-2.jpg" alt="Proj Card 1">
                   <div class="card-body">
@@ -209,7 +207,7 @@
                 </div>
             </div>   
             
-            <div class="col-lg-3  col-md-6  col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="card border-0">
                   <img class="card-img-top" src="starter-code/img/project-3.jpg" alt="Proj Card 1">
                   <div class="card-body">
@@ -218,7 +216,7 @@
                   </div>
                 </div>
             </div>   
-            <div class="col-lg-3  col-md-6  col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="card border-0">
                   <img class="card-img-top" src="starter-code/img/project-4.jpg" alt="Proj Card 1">
                   <div class="card-body">
@@ -235,7 +233,7 @@
             <p id="sub-title">Latest posts from the blog</p>
             <!-- <hr />             -->
             <div class="row">
-                <div class="col-lg-3  col-md-6  col-sm-3">
+                <div class="col-sm-3 col-6">
                     <div class="card border-0">
                       <img class="card-img-top" src="starter-code/img/article-1.jpg" alt="Proj Card 1">  
                       <div class="card-body">
@@ -245,7 +243,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-3  col-md-6  col-sm-3">
+                <div class="col-sm-3 col-6">
                     <div class="card border-0">
                       <img class="card-img-top" src="starter-code/img/article-2.jpg" alt="Proj Card 1">  
                       <div class="card-body">
@@ -255,7 +253,7 @@
                       </div>
                     </div>
                 </div>    
-                <div class="col-lg-3  col-md-6  col-sm-3">
+                <div class="col-sm-3 col-6">
                     <div class="card border-0">
                       <img class="card-img-top" src="starter-code/img/article-3.jpg" alt="Proj Card 1">  
                       <div class="card-body">
@@ -265,7 +263,7 @@
                       </div>
                     </div>
                 </div>    
-                <div class="col-lg-3  col-md-6  col-sm-3">
+                <div class="col-sm-3 col-6">
                     <div class="card border-0">
                       <img class="card-img-top" src="starter-code/img/article-4.jpg" alt="Proj Card 1">  
                       <div class="card-body">
@@ -280,16 +278,13 @@
       </div>
         <div class="bottom">
             <div class="container-xl"> <!--  id="bottom" -->
-                <!-- <div class="container-fluid ml-5" id="bottom"> -->
-                <!-- <div class="row align-items-center justify-content-center">     -->
-                <!-- <div class="row d-flex justify-content-evenly" id="bot-row">         -->
                 <div class="row" id="bot-row">    
-                    <div class="col-xs-6 col-sm-2 p-2 ml-5">
+                    <div class=" col-6 col-lg-3">
                         <h3>REVERA</h3>
                         <ul></ul>
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
                     </div>
-                    <div class="col-xs-6 col-sm-2 p-2">
+                    <div class=" col-6 col-lg-3">
                         <h3>META</h3>
                         <ul class="list-group-flush">  <!-- id="borderless"  list-group-->
                             <li class="list-group-item">Cras justo odio</li>
@@ -300,14 +295,14 @@
                         </ul>
                         
                     </div>
-                    <div class="col-xs-6 col-sm-2 p-2">
+                    <div class=" col-6 col-lg-3">
                         <h3>ARCHIVE</h3>
                         <ul class="list-group-flush">
                             <li class="list-group-item"><a href="#">August 2013</a></li>
                         </ul>
                         
                     </div>
-                    <div class="col-xs-6 col-sm-2 p-2 mr-5">
+                    <div class=" col-6 col-lg-3">
                         <h3>RECENT POSTS</h3>
                         <ul class="list-group-flush">
                             <li class="list-group-item"><a href="#">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
