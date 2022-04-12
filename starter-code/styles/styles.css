@@ -1,0 +1,44 @@
+/* .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+} */
+section.bottom {
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+section.middle {
+  background-color: #ed564b;
+}
+
+footer {
+  background: #292929;
+}
+.carousel-caption {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+/* .carousel-caption h2 {
+  padding-bottom: 200px;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+} */
