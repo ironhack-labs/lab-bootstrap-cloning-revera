@@ -1,0 +1,48 @@
+.red-link {
+  color: #ed564b !important;
+}
+.red-border {
+  border-color: #ed564b !important;
+}
+
+.bg-red-custom {
+  background-color: #ed564b !important;
+}
+
+.img-width {
+  max-width: inherit;
+}
+
+.border-custom {
+  border-color: rgb(223, 223, 223);
+}
+
+.grey-text {
+  color: #aaa;
+}
+
+.c-sm-text {
+  font-size: 0.8rem;
+}
+
+.footer-bg {
+  background-color: #3b3b3b !important;
+}
+
+.footer-list > a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-list {
+  list-style: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+.dk-bg {
+  background-color: #292929;
+}
+
+a.grey-text:hover {
+  color: white !important;
+}
