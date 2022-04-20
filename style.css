@@ -1,0 +1,22 @@
+#carouselExampleCaptions {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
+}
+
+.align-items-start {
+  background-color: #ed564b;
+  color: white;
+  text-align: center;
+}
+
+.othercontainer {
+  background-color: #565656;
+  color: white;
+  padding: 5%;
+  margin: auto;
+}
+
+#projects-articles {
+  padding: 0%;
+}
