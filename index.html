@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riviera cloning</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fsfw-bold" href="#">REVERA</a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sample page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" h-ref="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" h-ref="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" h-ref="#">Parent page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" h-ref="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/starter-code/img/slider-1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block justify-content-center align-items-center">
+                    <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-3.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block justify-content-center align-items-center">
+                    <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-4.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block justify-content-center align-items-center">
+                    <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA </h5>
+                    <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block justify-content-center align-items-center">
+                    <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.       </h5>
+                    <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid p-3 mb-2 bg-danger text-white justify-content-center">
+        <div class="row justify-content-center text-center text-white p-4">
+            <div class="col-lg-4 text-center">
+                <i class="fa-solid fa-martini-glass"></i>
+                <p>
+                    <b>Web design</b><br />
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus.
+                    Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    <b>Web development</b><br />
+                    Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                    porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum
+                    imperdiet tortor, ut pulvinar purus elementum nspendisse at erat
+                    luctus.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    <b>User interface</b> <br />
+                    Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien
+                    dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam
+                    et sodales. Praesent non enim et magna congue gravida.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-3">
+        <div class="border-bottom border-secondary mb-5">
+            <p class="fs-4 fsfw-bold text-black">LATEST PROJECTS</p>
+            <p class="fs-6 fsfw text-grey">FEW OF THE LATEST PORTFOLIO ITEMS</p>
+        </div>
+        <div class="row justify-content-center text-center text-black">
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/project-1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">Nunc libero elit, iaculis nec augue non</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/project-2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Phasellus aliquet iaculis neque accumsan aliquam
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/project-3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text fs-6">
+                            Vivamus blandit ipsum sed arcu euismod
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/project-4.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Curabitur auctor dolor risus, vitae pellentesque arcu consequat
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-3 mt-5">
+        <div class="border-bottom border-secondary mb-5">
+            <p class="fs-4 fsfw-bold text-black">LATEST ARTICLES</p>
+            <p class="fs-6 fsfw text-grey">LATEST POSTS FROM THE BLOG</p>
+        </div>
+        <div class="row justify-content-center text-start text-black">
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/slider-1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            <span class="fw-bold">Etiam mauris tortor, pharetra quis lobortis in, pharetra in
+                                diam</span><br />
+                            POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY
+                            <span class="text-danger">ADMIN</span><br />
+                            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
+                            porttitor. Duis porttitor sed metus eget mollis. Curabitur
+                            bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                            Suspendisse at erat luctus; hendrerit sapien sed, consectetur
+                            erat. Maecenas dignissim suscipit orci at molestie. Aenean
+                            fringilla dolor vitae lacus lacinia eleifend. Suspendisse et
+                            libero nunc. Etiam mauris tortor, pharetra […]
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/slider-2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            <span class="fw-bold">Falauris sollicitudin quis dolor venenatis facilisis</span><br />
+                            POSTED ON <span class="text-danger">AUGUST 19, 2013</span> BY
+                            <span class="text-danger">ADMIN</span><br />
+                            Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                            tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                            Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                            Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras
+                            quis porta dolor. Aliquam erat volutpat. Phasellus fringilla
+                            feugiat libero nec volutpat. Maecenas fermentum bibendum […]
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/slider-3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            <span class="fw-bold">Suspendisse ornare, felis feugiat suscipit pharetra</span><br />
+                            POSTED ON <span class="text-danger">AUGUST 19, 2013 </span>BY
+                            <span class="text-danger">ADMIN</span><br />
+                            Quisque sit amet sagittis justo. Suspendisse ornare, felis
+                            feugiat suscipit pharetra, lorem est viverra odio; tristique
+                            tristique diam tellus id tellus. In consectetur aliquet
+                            tristique. Curabitur imperdiet leo in nisl consectetur mattis.
+                            Quisque bibendum, mauris vitae suscipit ornare; est nibh
+                            elementum mauris, eu malesuada nunc magna at justo. Proin
+                            blandit id tellus non pellentesque. Mauris […]
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0" style="width: 18rem">
+                    <img src="/starter-code/img/slider-4.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            <span class="fw-bold">Festibulum purus odio, ornare non posuere</span><br />
+                            POSTED ON
+                            <span class="text-danger">AUGUST 19, 2013</span> BY<span class="text-danger">
+                                ADMIN</span><br />
+                            Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a
+                            elementum purus. Quisque vitae dui at arcu porttitor laoreet ac
+                            vitae nibh. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla
+                            egestas at nunc at volutpat. Nullam sodales at diam vel tempor.
+                            Sed pretium, leo vel pellentesque dictum, ligula […]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="container-fluid bg-secondary text-white d-flex justify-content-center p-3 border-top border-5 border-danger">
+        <div class="row container justify-content-center text-white bg-secondary mb-3">
+            <div class="col align-items-center">
+                <div class="card border-0 bg-secondary" style="width: 18rem">
+                    <div class="card border-0 bg-secondary" style="width: 18rem">
+                        <h5 class="card-title">REVERA</h5>
+                        <p class="card-text">
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Vestibulum vehicula erat non congue
+                            cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                            varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel
+                            volutpat tristique. In mattis ipsum quis magna feugiat, id
+                            tempus metus accumsan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0 bg-secondary" style="width: 18rem">
+                    <h5 class="card-title">META</h5>
+                    <p class="card-text">
+                    <p class="border-bottom border-light">Log in</p>
+                    <p class="border-bottom border-light">Entries RSS</p>
+                    <p class="border-bottom border-light">Comments RSS</p>
+                    <p class="border-bottom border-light">WordPress.org</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col align-items-center">
+                <div class="card border-0 bg-secondary" style="width: 18rem">
+                    <h5 class="card-title">ARCHIVES</h5>
+                    <p class="card-text border-bottom border-light">August 2013</p>
+                </div>
+            </div>
+            <div class="col align-items-center">
+                <div class="card border-0 bg-secondary" style="width: 18rem">
+                    <h5 class="card-title">RECENT POSTS</h5>
+                    <p class="card-text border-bottom border-light">
+                        Etiam mauris tortor, pharetra quis lobortis in, pharetra in
+                        diam</p>
+                    <p class="border-bottom border-light">Nunc libero elit, iaculis nec augue non
+                        Falauris sollicitudin quis dolor venenatis facilisis</p>
+                    <p class="border-bottom border-light">Phasellus aliquet iaculis neque accumsan aliquam</p>
+                    <p class="border-bottom border-light">Vivamus blandit ipsum sed arcu euismod
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="container-fluid bg-dark text-secondary d-flex justify-content-center p-3">
+        <div class="row container justify-content-center text-white bg-dark mb-3">
+            <div class="col align-items-center">
+
+                    <p class="card-text">Copyright © 2018 revera - Just another demo Sites site.<br>
+                        | Revera Theme</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
