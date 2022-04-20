@@ -1,0 +1,9 @@
+#carouselExampleCaptions {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
+  }
+
+  .vermelho {
+    text-align: center;
+  }
