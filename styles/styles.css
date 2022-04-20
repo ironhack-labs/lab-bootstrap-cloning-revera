@@ -1,0 +1,199 @@
+body {
+  width: 100vw;
+}
+
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .nav-link {
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: space-around;
+  flex-basis: auto;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ed564b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 32px;
+  padding-left: 160px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  padding-right: 200px;
+}
+
+.carousel .carousel-item {
+  height: 550px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 550px;
+  margin: 0;
+}
+
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../starter-code/img/overlay.png);
+}
+
+.bwImg {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.cardsDiv {
+  background-color: #ed564b;
+  padding: 40px 0 50px 0;
+}
+
+.card {
+  border: none;
+}
+
+.card1 {
+  background-color: #ed564b;
+  border: none;
+}
+
+.card-title1 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.card-text1 {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.cardCircle {
+  width: 60px;
+  height: 60px;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-left: 160px;
+}
+
+.icons {
+  color: white;
+  margin: 18px 0 0 17px;
+}
+
+.card3Img {
+  height: 172px;
+}
+
+.footer {
+  background-color: rgb(78, 78, 78);
+  width: 100vw;
+  border-top: 4px solid #ed564b;
+  height: 400px;
+  padding-top: 40px;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer p {
+  color: lightgrey;
+  font-size: 14px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.footer hr {
+  color: lightgrey;
+}
+
+.fbg {
+  background-color: rgb(39, 39, 39);
+  padding: 20px 0px 20px 100px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+.container h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.container h2 {
+  font-size: 16px;
+  color: grey;
+  font-weight: bolder;
+}
+
+.midSec {
+  width: 75vw;
+}
+
+.container2 h5 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.container2 .post {
+  font-size: 12px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.container2 .postT {
+  font-size: 14px;
+  color: grey;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: #ed564b;
+}
+.container2 {
+  margin-bottom: 40px;
+}
+
+.container2 .cardM {
+  margin-right: 30px;
+}
+
+.carouselExampleCaptions button {
+  height: 50px;
+  width: 25px;
+  background-color: #ed564b;
+}
