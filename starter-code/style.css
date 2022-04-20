@@ -1,0 +1,6 @@
+.bg {
+  background-image: url(/starter-code/img/overlay.png);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: repeat;
+}
