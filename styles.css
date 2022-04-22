@@ -1,0 +1,118 @@
+.navbar{
+    list-style: none;
+}
+
+#chars{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+
+}
+
+.charbox{
+    text-align: center;
+}
+
+.rButton a{
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption{
+    width: 800px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+
+.carousel-caption h2{
+    font-size: 36px;
+    color: #fff;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+}
+
+/* .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.glyphicon-glass::before, .glyphicon-star:before, .glyphicon-heart:before {
+    content: "\eac1";
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.boxitems a img{
+    display: block;
+}
+
+.boxitems img{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+#footer{
+    background-color: black;
+    color: #fff;
+}
+
+#bottom{
+    background-color: #3b3b3b;
+    color: #aaa;
+}
+
+#bottom h4{
+    color: #fff;
+}
+
+#latest-articles{
+    border-top: 1px solid rgb(107, 102, 102);
+}
+
+#latest-articles h3{
+    font-size: 17px;
+}
+
+#latest-articles h4{
+    font-size: 12px;
+}
+
+.subtitle{
+    color:#aaa
+}
+
+#bottom h4{
+    font-size: 16px;
+}
+
+#bottom p, li{
+    font-size: 14px;
+}
