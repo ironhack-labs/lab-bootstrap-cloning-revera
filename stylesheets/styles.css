@@ -1,0 +1,100 @@
+.coral{
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+}
+.coral div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publications{
+    padding: 50px 20%;
+}
+.publications h3{
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+}
+.publications h4{
+    color: grey;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.aire p{
+    padding-top: 20px;
+    text-align: center;
+}
+.aire2 p{
+    padding-top: 20px;
+    color: gray;
+}
+.aire2 h5{
+    font-weight: bold;
+    font-size: 1em;
+    margin: 20px 0px;
+}
+.aire2 h6{
+    font-size: 0.8em;
+    color: gray;
+    font-weight: bold;
+}
+.aire2 a{
+    color: #ed564b;
+    text-decoration: none;
+}
+
+
+.last{
+    background-color: #3B3B3B;
+    color: white;
+    border-top: 8px solid #ed564b;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.aire3{
+    padding: 50px 50px;
+}
+.style-footer p{
+    border-bottom: 1px dotted white
+}
+.style-footer h4{
+    font-weight: bolder;
+    padding-bottom: 30px;
+    font-size: 1em;
+}
+.style-footer2 h4{
+    font-weight: bolder;
+    padding-bottom: 30px;
+    font-size: 1em;
+}
+
+.last2{
+    background-color: #292929;
+    color: white;
+    padding: 20px 8%;
+}
+.last2 p{
+    margin: 0px;
+}
+
