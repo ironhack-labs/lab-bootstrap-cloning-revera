@@ -1,0 +1,166 @@
+li {
+    color: black;
+    width: 30px;
+    text-decoration: none;
+    margin: 10px 0;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    color: #777;
+}
+h1 {
+    margin-top: 6px;
+}
+nav {
+    margin-top: 20px;
+}
+.alin {
+    margin: 20px 0;
+}
+
+.section1 h1 {
+    margin: 280px 0 0 0 ;
+    color: white;
+    font-size: 30px;
+}
+.section1 p {
+    color: white;
+}
+
+.fondo{
+    background-image: url("./starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fondo div{
+    margin: 0px;
+    margin-bottom: 100px;
+}
+.fondo a{
+    color: white;
+    font-weight: bolder;
+    border: solid 1px white;
+    padding: 5px 30px;
+    margin-bottom: 100px;
+}
+
+.section2{
+    width: 100%;
+    margin: 0 0;
+    background-color: #ed564b;
+    padding: 40px  200px;
+}
+.section2 h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.section2 p{
+    color: white;
+    font-size: 14px;
+}
+.section2 img{
+    width: 30%;
+
+}
+.latestProyects img{
+    width: 100%;
+}
+
+.section3{
+    margin: 0 200px;
+    margin-bottom: 30px;
+}
+.section3 h2{
+    padding: 0 0;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.section3 h3{
+    font-size:15px;
+    color: #aaa;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.columna p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+.columna h4{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.columna h5{
+    font-size: 12px;
+    color: #606060;
+}
+.columna a{
+    font-size: 12px;
+    color: #f4473a;
+} 
+.latestArticles p {
+    color: #606060;
+    text-align: left;
+}
+
+footer{
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+.Foot1{
+    margin: 0 200px;
+    padding: 50px 0;
+}
+.Foot1 h5{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+.Foot1 p{
+    text-align: left;
+    color: #a9a3a3;
+    font-size: 14px;
+}
+.Foot1 ul{
+    margin-top: 17px;
+    padding: 0;
+}
+.Foot1 li {
+    width: 100%;
+    margin: 2px ;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed  #a9a3a3;
+}
+.Foot1 a{
+    width: 100%;
+    font-size: 10px;
+    color: #a9a3a3;
+}
+.Foot2{
+    background-color: #292929;
+}
+.Foot2 div{
+    margin: 0 180px;
+    padding-bottom: 20px;
+
+}
+.Foot2 p{
+    padding-top: 20px;
+    color: white ;
+    font-size: 13px;
+}
+.Foot2 a{
+    color: white ;
+    font-size: 11px;
+
+}
