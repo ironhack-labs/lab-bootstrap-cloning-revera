@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------NAV-------------------------------------*/
+
+
+div.container1{
+    width:100%;
+    height:100%;
+    border: 2px solid red;
+}
+
+
+/*----------------------------------CAROUSEL----------------------------------*/
+div.container2{
+    width:100%;
+    height:50vh;
+}
+
+div.carousel-inner{
+    height: 20%;
+}
+div.carousel-item>img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+div.carousel-caption{
+    margin-bottom: 80px;
+}
+div.carousel-caption>h5{
+    text-transform: uppercase;
+    color: azure;
+    font-size: xx-large;
+}
+div.carousel-caption>p{
+    font-size: 1.3rem;
+}
+
+
+/*----------------------------------RED ZONE----------------------------------*/
+
+div.container3{
+    margin-top: 20px;
+    width:100%;
+    height:30vh;
+    margin-bottom: 50px;
+}
+
+div.card-group{
+    width: 100%;
+    height:100% ;
+   
+}
+div.card-body{
+    background-color: rgb(255, 96, 81);
+}
+h5.card-title{
+    text-align: center;
+    color: white;
+}
+p.card-text{
+    text-align: center;
+    color: white
+}
+
+
+/*----------------------------------INFO1----------------------------------*/
+
+
+div .info1{
+    margin-bottom: 80px;
+}
+/*----------------------------------INFO2----------------------------------*/
+
+
+div .info2{
+    background-color: white;
+}
+
+div.info2>p{
+color: black;
+}
