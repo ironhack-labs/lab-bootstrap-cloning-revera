@@ -34,6 +34,9 @@ footer {
   margin-bottom: 200px;
   text-align: center;
 }
+.carousel-inner {
+  position: relative;
+}
 
 /* .carousel-caption h2 {
   padding-bottom: 200px;
