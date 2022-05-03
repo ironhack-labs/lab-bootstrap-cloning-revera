@@ -1,0 +1,29 @@
+.navbar-brand {
+    margin-left: 200px;
+}
+
+#home {
+    color: red;
+}
+
+ul {
+    margin-left: 300px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+span {
+    color: red;
+}
+
+#top div {
+    border-top-color: red;
+    
+}
+
+.last {
+    margin-bottom: 20px;
+    padding-left: 200px;
+}
