@@ -1,0 +1,119 @@
+.body {
+    font-family: sans-serif;
+}
+
+.navbar-nav:hover  {
+color: $red-500;
+}
+
+.slider-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: grayscale(100%)
+
+}
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 10px;
+    background-repeat: repeat
+}
+/* .carousel-caption{
+    width: 800px;
+    text-align: center;
+} */
+
+.red-section {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    text-align: center;
+}
+.section-projects, .articles-section {
+    padding-top: 40px;
+}
+.card {
+    border: 0px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.section-title h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section-title p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.card-img-article {
+    height: 160px;
+}
+.card-title {
+    font-size: 17px;
+    
+}
+.link-article {
+    text-decoration: none;
+    color: #ed564b;
+}
+.card-subtitle {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.card-text {
+    font-size: 15px;
+}
+.card {
+   width: 300px;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+}
+
+.bottom-column-title {
+    color: white;
+}
+.links-bottom {
+    text-decoration: none;
+    list-style-type: none;
+    color: #aaa;
+}
+.col-lg-3 > ul > li {
+    list-style-type: none;
+    border-bottom-style: dotted;
+    padding: 5px 0 5px 0;
+}
+
+footer {
+    padding: 10px 0px;
+    background: #292929;
+    font-size: 12px;
+    color: white;
+}
+
+.text-footer{
+    padding: 15px 0 15px 0;
+}
+.text-footer > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
