@@ -1,0 +1,42 @@
+.navbar-brand {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: xx-large;
+}
+#firstNavLink {
+color: red;
+}
+nav {
+    background-color: white;
+}
+.btn-light{
+    color: white;
+    background: transparent;
+    margin-bottom: 60px;
+}
+h5 {
+    font-size: 24px;
+}
+.red-container {
+background-color: rgb(238, 91, 91);
+padding: 40px 100px;
+width: 120%;
+}
+.text-center {
+    background: transparent;
+    color: white;
+    border: none;
+}
+.card-title {
+    margin: 20px auto;
+}
+.white-container {
+    padding: 20px 10px;
+}
+h3 {
+    margin-top: 30px;
+}
+h4 {
+    color: gray;
+}
+
