@@ -1,0 +1,10 @@
+
+#widgets {
+    background-color: #ed564b;
+}
+
+#widget-icons {
+    display: flex;
+    justify-content: center;
+    border: 10px solid white;
+}
