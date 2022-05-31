@@ -1,0 +1,173 @@
+img {
+    width: 100%;
+}
+
+body {}
+
+.revera {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 40px;
+    margin-left: 120px;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+a {
+
+    text-decoration: none;
+    color: #808080;
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url("./starter-code/img/slider-4.jpg");
+    background-size: contain;
+    width: auto;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 180px;
+
+}
+
+.hero p {
+    text-align: center;
+    padding-top: 50px;
+    width: 600px;
+    color: #000000;
+    margin-left: 35%;
+}
+
+.button {
+    color: #000000;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    margin-left: 45%;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.icon-star-empty:before {
+    content: "\e9d7";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.icon-heart:before {
+    content: "\e9da";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.info {
+    border-top: 6px solid #f96b61;
+    background-color: #ed564b;
+}
+
+
+
+.col-md-4 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.select-p {
+    color: white;
+
+    text-align: center;
+
+
+}
+
+.div-projects {
+    margin-left: 10%;
+    margin-top: 50px;
+    border-bottom: 1px black;
+}
+
+h3 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+.div-projects p {
+
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.select-p1 {
+    color: #000;
+}
+
+.footer {
+    background-color: #3b3b3b;
+}
+
+h5 {
+    color: #ffffff;
+    padding-top: 15pxs;
+}
+
+.a-one {
+
+    display: flex;
+
+}
+
+.footer {
+    border-top: 3px solid red;
+}
+
+.footer-article {
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.container2 {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.container3 {
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+footer {
+    background-color: #292929;
+    height: 80px;
+    color: white;
+}
