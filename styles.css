@@ -1,0 +1,175 @@
+img {
+    width: 100%;
+}
+
+* {
+    /* overflow-x: hidden; */
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+
+.revera {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: 10px;
+
+}
+
+.navbar li {
+
+    margin-left: 10px;
+}
+
+.navbar a {
+    color: #777;
+    text-decoration: none;
+}
+
+nav .home {
+    color: #ed564b;
+}
+
+/* .title {
+    margin-right: 500px;
+} */
+
+/* BANNER */
+
+.hero {
+    background-image: url(./starter-code/img/slider-3.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 150px;
+}
+
+.texts h2,
+.texts p,
+.texts a {
+    color: white;
+    text-align: center;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ICONS SECTION */
+.icon-filter:before {
+    content: "\ea5b";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icons {
+    background-color: #ed564b;
+    padding: 30px;
+    border-top: 4px solid #ed564b;
+    width: 100%;
+}
+
+.icons p,
+.icons h3,
+.icons span {
+    color: white;
+    text-align: center;
+}
+
+.icons span {
+    font-size: 1.5em;
+}
+
+/* ARTICLES */
+
+.blog {
+    margin: 20px;
+
+}
+
+article {
+    width: 20%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border: 4px solid white;
+    border-radius: 50%;
+    /* position: relative;
+    left: 45%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circlecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* ABOUT */
+
+.about {
+    padding: 40px 0;
+    border-top: 4px solid #ed564b;
+    background-color: #3b3b3b;
+}
+
+.about h3,
+.about hr,
+.about p,
+.about a {
+    color: white;
+}
+
+.about a {
+    text-decoration: none;
+    color: #a79392;
+}
+
+.about p {
+    text-decoration: none;
+    color: #a79392;
+}
+
+/* FOOTER */
+.mainfooter {
+    background-color: #292929;
+    width: 100%;
+    padding: 10px 10px 5px 10px;
+}
+
+.mainfooter p {
+    color: white;
+    font-size: 0.8em;
+}
