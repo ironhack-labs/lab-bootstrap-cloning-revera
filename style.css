@@ -1,0 +1,117 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+
+   img {
+       width: 100%
+   }
+
+   .section1 {
+       display: flex;
+       justify-content: flex-start;
+       margin: 20px 0px 0px 80px;
+       align-items: center;
+   }
+
+   .section1 ul {
+       display: flex;
+       list-style: none;
+       margin-left: 150px;
+
+   }
+
+   .section1 ul li a {
+       text-decoration: none;
+       margin: 5px;
+       color: #777;
+       font-size: 1em;
+   }
+
+   @media screen and (max-width: 980px) {
+       font-size: 0.5em;
+   }
+
+   .section2 {
+       background-image: url(./starter-code/img/slider-1.jpg);
+       height: 500px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       filter: grayscale(100%);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       color: white;
+   }
+
+   .container {
+       width: 60%;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .button {
+       text-decoration: none;
+       letter-spacing: 1px;
+       font-family: sans-serif;
+       text-transform: uppercase;
+       color: white;
+       font-weight: 300;
+       font-size: 1.2em;
+       border: 1px solid white;
+       text-align: center;
+       width: 206px;
+       padding: 10px 20px;
+       display: block;
+   }
+
+   .icon-trophy:before {
+       content: "\e99e";
+       font-size: 40px;
+   }
+
+   .icon-star-full:before {
+       content: "\e9d9";
+       font-size: 40px;
+   }
+
+   .icon-heart:before {
+       content: "\e9da";
+       font-size: 40px;
+   }
+
+   .section3 {
+       background-color: #ed564b;
+       color: white;
+   }
+
+   h3 {
+       margin: 30px;
+   }
+
+   h4 {
+       margin: 30px;
+       color: rgb(166, 155, 155);
+       font-size: 15px;
+   }
+
+   .col-md-4 {
+       text-align: center;
+       padding: 30px;
+   }
+
+   .col-md-3 {
+       text-align: center;
+   }
+   .row{
+       margin: 15px;
+   }
+   .section6{
+       background-color: #606060;
+   }
+   .footer{
+       background-color: #404040;
+   }
