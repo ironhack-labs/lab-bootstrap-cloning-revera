@@ -1,0 +1,163 @@
+img{
+    width: 100%;
+}
+
+
+.icon-glass:before {
+    content: "\e900";
+}
+.icon-star-full:before {
+    content: "\e9d9";
+}
+.icon-heart:before {
+    content: "\e9da";
+}
+
+header{
+    margin: 20px 0;
+}
+header>div{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+header>div>a{
+    color:black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+header>div>a:hover{
+    color:black;
+}
+
+header>div>ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+header>div>ul>li{
+    list-style: none;
+}
+header>div>ul>li>a{
+    margin-right: 50px;
+    text-decoration: none;
+    color:#777777;
+    white-space: nowrap;
+    
+}
+header>div>ul>li>a:hover{
+    color:#ed564b;
+}
+
+header>div>ul>:nth-child(1)>a{
+    color:#ed564b;
+}
+
+.hero{
+    background-image:url(../img/slider-2.jpg);
+    background-size:cover;
+
+    color:white;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%);
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0px;
+
+}
+.hero>div>div>div>div>h1{
+    font-size: 3em;
+    text-align: center;
+}
+.hero>div>div>div>div>p {
+    text-align: center;
+}
+.hero>div>div>div>div>a{
+    display: block;
+    color: white;
+    border: white solid 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.iconsSection{
+    background-color:#f56056;
+    color:white;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+
+}
+.iconsSection>row{
+    height: 400px;
+}
+.iconsSection>row>col>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circleWrap{
+    display:flex;
+    justify-content: space-around;
+}
+.circle {
+    border: solid white 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.content>div>div>h2{
+    text-transform:uppercase ;
+}
+.subThing{
+    text-transform: uppercase;
+    color:gray;
+}
+.orange{
+background-color: #f56056;
+height: 5px;
+}
+.infoSection{
+    background-color: #3b3b3b;
+    color:white;
+    padding: 20px 0;
+}
+.infoSection>div>div>div>h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+.infoSection>div>div>div>p {
+    color:gray;
+}
+.infoSection>div>div>div>a {
+    color: gray;
+    text-decoration: none;
+}
+footer{
+    background-color: #292929;
+    color: white;
+}
+footer>div>a{
+    color:white;
+    text-decoration: none;
+    border-left: solid white 1px;
+    padding-left: 1px;
+}
