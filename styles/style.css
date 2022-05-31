@@ -1,0 +1,141 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.menu .logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: -50rem;
+}
+
+.menu ul li {
+    margin-right: 1rem;
+}
+
+.menu ul .home {
+    color: red;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.hero .button {
+    display: block;
+    margin: 0 auto;
+    width: 7rem;
+    border: 1px solid #fff;
+    padding: 12px 0px;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url(./../starter-code/img/overlay.png);
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.hero .arrow {
+    background-color: #ed564b;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.red-rectangle {
+    background-color:#ed564b;
+    text-align: center;
+    padding: 2rem;
+}
+
+.red-rectangle h2, .red-rectangle p {
+    color: white;
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+    color: white;
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+    color: white;
+}
+
+.icon-heart:before {
+    content: "\e9da";
+    color: white;
+}
+
+.circle { 
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+
+}
+
+.final h5 span {
+    color:#ed564b;
+}
+
+.end h5 {
+    color: white;
+}
+
+.end ul {
+    list-style: none;
+}
+
+.end a {
+    text-decoration: none;
+    color: gray;
+}
+
+.end .row, .end ul {
+    padding: 0;
+}
+
+.end p {
+    color: gray;
+}
+
+.end {
+    background-color: #3b3b3b;
+    padding-top: 3rem;
+}
+
+.red-line {
+    height: 0.3rem;
+    background-color: #ed564b;
+}
+
+.tittle hr, .tittle p {
+    color: gray;
+}
+
+.content h3, .content p {
+    margin-top: 1rem;
+}
+
+hr {
+    color: gray;
+}
