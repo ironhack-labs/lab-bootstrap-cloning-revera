@@ -1,0 +1,151 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 30%;
+    padding-top: 2%;
+    margin-bottom: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu h3 {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.menu li {
+    margin-left: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-red {
+    color: #ee5f5f;
+}
+
+.hero {
+    background-image: url(./img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    filter: grayscale(100%);
+
+}
+
+.hero p {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 1em;
+    border: 1px solid white;
+    text-align: center;
+    width: 200px;
+    padding: 10px 10px;
+    display: block;
+    align-items: center;
+}
+
+.centered {
+    margin: 30px auto;
+}
+
+.icon-glass:before {
+    content: "\e9a0";
+    border: 2px solid white;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+}
+
+.icon-airplane:before {
+    content: "\e9af";
+    border: 2px solid white;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.icon-truck:before {
+    content: "\e9b0";
+    border: 2px solid white;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.info {
+    background-color: #ee5f5f;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.text-color-grey {
+    color: grey;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.list-style {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.a-style {
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px dotted #9999CC;
+
+}
+
+.background-color {
+    background-color: #3b3b3b;
+    border-top: 5px solid #ee5f5f;
+}
+
+h6 {
+    margin-top: 15px;
+}
+
+.background-color-darkgrey {
+    background-color: #292929;
+    color: white;
+    padding: 20px;
+    font-size: xx-small;
+
+    @media screen and (max-width:576px) {
+        display: none;
+
+    }
