@@ -161,3 +161,19 @@ footer>div>a{
     border-left: solid white 1px;
     padding-left: 1px;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+    .hero>div>div>div>div>h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .hero>div>div>div>div>p {
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
