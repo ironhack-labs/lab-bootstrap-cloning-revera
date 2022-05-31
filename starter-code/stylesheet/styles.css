@@ -1,0 +1,111 @@
+* {
+    marging: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+
+}
+
+nav ul li {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: grayscale(100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.redbox {
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+section div .titles3 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+section div .titles4 {
+    margin-bottom: 30px;
+    color: gray;
+
+}
+
+.col-md-2 {
+    justify-content: center;
+}
+
+.lower {
+    background-color: rgb(83, 80, 80);
+    color: white;
+    padding: 20px;
+}
+
+.lower h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-md-3 a {
+    text-decoration: none;
+    color: white
+}
