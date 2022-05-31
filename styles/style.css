@@ -1,0 +1,196 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-bar .logo {
+    margin: 10px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+
+.nav-bar .logo:hover {
+    color: black;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 30px;
+    font-size: 15px;
+    
+}
+
+.nav-bar li {
+    margin: 0px 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-bar a:hover {
+    color: #ed554a;
+}
+
+.hero {
+    background-image:
+    linear-gradient(black, black),
+    url("../images/dog-and-cat.jpeg");
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 200px;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    width: 15%;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    margin: 30px auto;
+
+}
+
+.hero a:hover {
+    color: white;
+
+}
+
+.section-3 {
+    background-color: #ed554a;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+}
+
+.section-3 h3 {
+    text-align: center;
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+.section-4 h2 {
+    margin-top: 25px;
+}
+
+.section-4 .subtitle {
+    color: #aaa;
+}
+
+.section-4 img {
+    width: 100%;
+}
+
+.section-4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-4 .posting-info {
+    text-transform: uppercase;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-4 .posting-info a {
+    text-transform: uppercase;
+    color: #f34739;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-4 .posting-info a:hover {
+    color: black;
+}
+
+.section-5 {
+    background-color: #ed554a;
+    height: 5px;
+}
+
+.section-6 {
+    background-color: #3b3b3b;
+    padding-bottom: 50px;
+}
+
+.section-6 h3 {
+    color: #ffffff;
+    margin: 70px 0 30px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.section-6 p {
+    color: #aaaaaa;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.section-6 a {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.section-6 a:hover {
+    color: white;
+}
+
+.section-6 hr {
+    border: 1px dotted #aaaaaa;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0 5px 120px;
+}
