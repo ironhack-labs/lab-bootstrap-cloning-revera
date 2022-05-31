@@ -1,0 +1,69 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding: 25px;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+    color: #ffff;
+}
+
+.iconos {
+    background-color: rgb(250, 74, 74);
+    text-align: center;
+    padding: 60px;
+    color: #ffff;
+}
+
+.pre-footer {
+    background-color: rgb(153, 152, 152);
+    color: white;
+}
+
+footer {
+    background-color: rgb(31, 29, 29);
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+#readmore {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    width: 206px;
+    padding: 15px 30px;
+
+}
