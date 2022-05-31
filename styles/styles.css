@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.red-zone {
+    background-color: #ed564b;
+    text-align: center;
+}
+
+#home {
+    color: red
+}
+
+.footer-black {
+    background-color: #292929;
+    color: white;
+    padding: 10px 0px;
+}
+
+.bottom-grey {
+    background-color: #3b3b3b;
+    color: white
+}
+
+.bottom-grey>div>div>div>a {
+    color: #898c92
+}
+
+.bottom-grey>div>div>div>p {
+    color: #898c92
+}
+
+.button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2em;
+    border: 1px solid black;
+    text-align: center;
+    width: 206px;
+    padding: 15px 30px;
+    display: block;
+}
+
+.centered {
+    margin: 30px auto
+}
