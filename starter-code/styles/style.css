@@ -1,0 +1,132 @@
+.icon-glass2:before {
+    content: "\e9a1";
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.head {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    padding-left: 15px;
+}
+
+.text {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.hero {
+    flex-wrap: wrap;
+    padding: 100px;
+    background-image: url(../img/project-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.arrow {
+    width: 40%;
+}
+
+.bottomlinks {
+    list-style: none;
+    padding: 0;
+}
+
+.grey {
+    color: gray;
+}
+
+.right {
+    justify-content: right;
+}
+
+.button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2em;
+    border: 1px solid black;
+    width: 206px;
+    padding: 15px 30px;
+}
+
+.icon {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.iconCont {
+    background-color: #ed564b;
+    color: white;
+}
+
+.end {
+    background-color: #3b3b3b;
+    color: white;
+    padding-top: 50px;
+}
+
+.circle {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.white {
+    color: white;
+}
