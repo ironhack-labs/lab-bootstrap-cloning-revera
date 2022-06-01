@@ -1,0 +1,152 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.menu img {
+    width: 300px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 25px 0px;
+}
+
+.menu li {
+    margin-left: 20px;
+
+
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+    border: 1px solid white;
+    text-align: center;
+    width: 206px;
+    padding: 15px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* LOS ELEMENTOS EN BLOQUE SE CENTRAN CON EL VALOR 'AUTO' EN SU MÁRGEN LATERAL */
+.centered {
+    margin: 30px auto
+}
+
+.menu-links {
+    text-decoration: none;
+}
+
+.landing {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    color: white;
+    filter: grayscale(100%);
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.etiqueta-h1 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.iconos {
+    padding: 40px 100px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.section4 {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+    text-size-adjust: 13px;
+    align-items: center;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-size: xx-small;
+}
+
+
+
+
+.icon-glass2:before {
+    content: "\e9a1";
+    color: white;
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+    color: white;
+}
+
+.icon-heart:before {
+    content: "\e9da";
+    color: white;
+}
+
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.central {
+    align-items: center;
+}
