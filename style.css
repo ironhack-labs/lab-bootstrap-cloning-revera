@@ -1,0 +1,213 @@
+img {
+    width: 100%;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 600px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 10px;
+}
+
+.red-color {
+    color: red;
+}
+
+.hero {
+    background-image: url("/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    padding: 100px 0;
+
+}
+
+.section-one {
+    background-color: #ed564b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px solid rgb(206, 115, 115);
+    border-bottom: 5px solid rgb(206, 115, 115);
+
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 2.2em;
+
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.icon-pacman:before {
+    content: "\e916";
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 60px;
+    color: white;
+
+}
+
+.icon-connection:before {
+    content: "\e91b";
+    margin-left: 140px;
+    font-size: 60px;
+    color: white;
+}
+
+.icon-envelop:before {
+    content: "\e945";
+    margin-left: 140px;
+    font-size: 60px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+
+.title-header {
+    padding: 40px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 35px;
+
+
+
+}
+
+.subtitle {
+    color: grey;
+    text-align: left;
+    margin-left: 35px;
+
+
+}
+
+.text-two {
+    color: black;
+    font-size: 400;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text-article {
+    color: black;
+    text-align: center;
+}
+
+.section-four {
+    background-color: rgb(61, 54, 54);
+    border-top: 5px solid rgb(206, 115, 115);
+}
+
+.col-md-3 {
+    padding-top: 15px;
+
+    align-items: center;
+
+}
+
+.text-article {
+    text-align: left;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.col-text {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.text {
+    font-family: inherit;
+    font-weight: inherit;
+
+}
+
+.text-four {
+    color: grey;
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+    text-align: left;
+
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+
+}
+
+.footer-class {
+
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/* For 800px */
+@media only screen and (max-width: 820px) {
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    header {
+        display: none;
+    }
+}
