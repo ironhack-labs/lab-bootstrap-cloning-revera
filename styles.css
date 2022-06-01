@@ -1,0 +1,163 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+font-weight: 800;
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+nav{
+    align-items: center;
+    justify-content: center;
+    padding-right: 350px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+.ul li{
+    padding-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.section-one-background{
+    background-image: url(.//starter-code/img/kitten\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.hero-flex{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+.text-align{
+    text-align: center;
+    color: white;
+}
+.hero-article{
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    font-size: 1em;
+    border: 2px solid white;
+    text-align: center;
+    width: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+.centered {
+    margin: 30px auto
+}
+
+.section-two-background{
+    background-color: #ed564b;
+    border-top: 5px solid #f08d86;
+    border-bottom: 5px solid #f08d86;
+    
+}
+.second-section-text{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.second-section-text h3{
+    font-weight: bolder;
+}
+#h3-font{
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+}
+#h4-font{
+    color: grey;
+    font-size: 85%;
+    font-weight: bold;
+}
+.third-section-text{
+    text-align: center;
+
+}
+
+#h4-2{
+font-weight: bold;
+color: black;
+font-size: 100%;
+}
+
+#h5-2{
+    font-weight: bold;
+    font-size: 70%;
+    color: grey;
+}
+#fourth-section-text{
+    color: grey;
+    padding-top: 10px;
+}
+#a-properties{
+text-decoration: none;
+color: #696969;
+}
+
+.footer{
+background-color: #3b3b3b;
+margin-top: 20px;
+padding-top: 30px;
+border-top: 5px solid #ed564b;
+color: #828282;
+}
+.footer h2{
+    font-size: 90%;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer ul{
+    list-style: none;
+    text-decoration: underline dotted #828282;
+    float: left;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #828282;
+    border-bottom: 1px;
+}
+.under-footer{
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
