@@ -38,7 +38,7 @@ a {
 }
 
 .hero {
-    background-image: url("/lab-bootstrap-cloning-revera/starter-code/img/slider-2.jpg");
+    background-image: url("/starter-code/img/slider-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
