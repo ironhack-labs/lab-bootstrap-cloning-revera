@@ -18,11 +18,13 @@ As we can see, this template is a very good example of the type of webpages we c
 ## Submission
 
 Upon completion, run the following commands
+
 ```
 $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
+
 Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
 
 In the Pull request name, add your name and last names separated by a dash "-"
@@ -41,7 +43,7 @@ So we have to see the page as a big container and identify the most important se
 
 Remember to use the inspector to determine the width and the height of the Revera page. Also, we could find out which Bootstrap classes have been used and anything else that is necessary to make our page looks like the original.
 
-One cool Boostrap feature is that you have three elements that make our lives easier: `container`,  `row` and `columns`. Don't hesitate to use them!
+One cool Boostrap feature is that you have three elements that make our lives easier: `container`, `row` and `columns`. Don't hesitate to use them!
 
 ## Iteration 2: Internal structure
 
