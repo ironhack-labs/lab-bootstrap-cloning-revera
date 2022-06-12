@@ -1,0 +1,147 @@
+
+
+.text-grey {
+    margin-top: 10px;
+    color: #606060;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.img{
+    filter: grayscale(100%);
+}
+
+#other{
+    content: "."; 
+    background: url(../starter-code/img/overlay.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+}
+h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.carousel-control-prev ,.carousel-control-next{
+    width: 60px;
+    height: 100px;
+    background: #ed564b;
+    margin-top: 200px;
+    font-weight: bold;
+    
+}
+#lovers{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    width: 100%;
+    height: 400px;
+}
+
+section > div {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.homewidget span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+
+}
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+.glyphicon-star:before {
+    content: "\f006";
+}
+.glyphicon-glass:before {
+    content: "\f000";
+}
+.glyphicon-heart:before {
+    content: "\f005";
+}
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.photos{
+    padding: 30px 60px;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    width: 100%;
+    height: 800px;
+}
+.site-footer {
+    
+    width: 100%;
+    background: #292929;
+    font-size: 12px;
+
+}
+
+.fcred {
+    padding: 10px 0px;
+    color: #eee;
+}
+
+.text-p-grey{
+    
+    color: #606060;
+    font-size: 0.9em;
+
+}
+.points{
+    width: 500px;
+}
+.points-2{
+    width: 300px;
+    
+}
+.none{
+    list-style: none;
+    color: #aaaa;
+    font-size: 1em;
+    text-decoration: none;
+}
+.title-bottom{
+    color: #fff;
+}
+.move{
+    padding-left: 100px;
+    padding-right: 150px;
+    
+}
+.move-2{
+    padding-right: 50px;
+    padding-left: 100px;
+    width: 700px;
+}
+.pading-rigth{
+    padding-right: 50px;
+}
