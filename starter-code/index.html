@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
-
     <title>Document</title>
     
 </head>
 <body>
     
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-light d-flex align-items-center">
+    <header class="bg-light">
+        <div class="container d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container py-3">
-                  <a class="navbar-brand fs-1" href="#">Revera</a>
+                  <a class="navbar-brand fs-3" href="#">Revera</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav d-flex flex-row justify-content-center">
+                    <div class="navbar-nav">
                       <a class="nav-link mx-2 active" href="#">Home</a>
                       <a class="nav-link mx-2" href="#">About</a>
                       <a class="nav-link mx-2" href="#">Simple Page</a>
@@ -49,25 +48,49 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit.</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button type="button" class="btn btn-outline-light btn-lg">READ MORE</button>
+                </div>
+          
               </div>
               <div class="carousel-item">
                 <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit.</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button type="button" class="btn btn-outline-light btn-lg">READ MORE</button>
+                </div>
+          
               </div>
               <div class="carousel-item">
                 <img src="img/slider-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit.</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button type="button" class="btn btn-outline-light btn-lg">READ MORE</button>
+                </div>
+          
               </div>
               <div class="carousel-item">
                 <img src="img/slider-4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit.</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button type="button" class="btn btn-outline-light btn-lg">READ MORE</button>
+                </div>
+          
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
-            </button>
+            </button> 
           </div>
     </section>
 
@@ -75,23 +98,134 @@
       <div class="container">
         <div class="row gx-5">
           <div class="col d-flex flex-column align-items-center">
-            <i class="fa-solid fa-code fa-2xl d-flex p-4"></i>
+            <i class="bi bi-umbrella-fill d-flex p-4 mb-3 rounded-circle border border-4 border-light" style="font-size: 2rem"></i>
             <h2 class="py-2">Lorem, ipsum.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet consequuntur, et perspiciatis minus voluptatibus provident aperiam exercitationem quaerat aliquid culpa facilis. Numquam, eaque vero.</p>
           </div>
           <div class="col d-flex flex-column align-items-center">
-            <i class="fa-solid fa-heart fa-2xl d-flex p-4"></i>
+            <i class="bi bi-shield-fill-exclamation d-flex p-4 mb-3 rounded-circle border border-4 border-light" style="font-size: 2rem"></i>
             <h2 class="py-2">Lorem, ipsum.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet consequuntur, et perspiciatis minus voluptatibus provident aperiam exercitationem quaerat aliquid culpa facilis. Numquam, eaque vero.</p>
           </div>
           <div class="col d-flex flex-column align-items-center">
-            <i class="fa-solid fa-chess-knight fa-2xl d-flex p-4"></i>
+            <i class="bi bi-briefcase-fill d-flex p-4 mb-3 rounded-circle border border-4 border-light" style="font-size: 2rem"></i>
             <h2 class="py-2">Lorem, ipsum.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet consequuntur, et perspiciatis minus voluptatibus provident aperiam exercitationem quaerat aliquid culpa facilis. Numquam, eaque vero.</p>
           </div>
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 pb-3">
+            <h2 class="text-uppercase fw-bolder fs-3">Lastest Project</h2>
+            <h3 class="text-uppercase fw-semibold text-black-50 fs-6">Few of the lastest protfolio items</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <img class="img-fluid mb-2" src="img/project-1.jpg" alt="">
+            <span class="fw-semibold fs-6">Lorem ipsum dolor sit amet.</span>
+          </div>
+          <div class="col">
+            <img class="img-fluid mb-2" src="img/project-2.jpg" alt="">
+            <span class="fw-semibold fs-6">Lorem ipsum dolor sit amet.</span>
+          </div>
+          <div class="col">
+            <img class="img-fluid mb-2" src="img/project-3.jpg" alt="">
+            <span class="fw-semibold fs-6">Lorem ipsum dolor sit amet.</span>
+          </div>
+          <div class="col">
+            <img class="img-fluid mb-2" src="img/project-4.jpg" alt="">
+            <span class="fw-semibold fs-6">Lorem ipsum dolor sit amet.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 pb-3">
+            <h2 class="text-uppercase fw-bolder fs-3">Lastest Articles</h2>
+            <h3 class="text-uppercase fw-semibold text-black-50 fs-6">Lastes posts from the blog</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="img/project-1.jpg" alt="">
+            <h3 class="fw-bold fs-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ex!</h3>
+            <p class="text-uppercase fw-bold fs-6 text-black-50 mb-3">Posted on <span class="text-danger">Agust 19, 2022</span> by <span class="text-danger">Admin</span></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, laudantium repellat, aliquam itaque quod illum iste rerum tempore eum ipsam illo explicabo cum libero consectetur minima earum quas, expedita ut!
+              Quidem consectetur nihil veritatis quos assumenda, nam, atque ullam neque saepe suscipit nostrum fugiat eos optio. Culpa vel non dolore voluptatum id, molestiae mollitia perspiciatis ipsam ea aperiam! Iusto, neque.</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="img/project-2.jpg" alt="">
+            <h3 class="fw-bold fs-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ex!</h3>
+            <p class="text-uppercase fw-bold fs-6 text-black-50 mb-3">Posted on <span class="text-danger">Agust 19, 2022</span> by <span class="text-danger">Admin</span></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, laudantium repellat, aliquam itaque quod illum iste rerum tempore eum ipsam illo explicabo cum libero consectetur minima earum quas, expedita ut!
+              Quidem consectetur nihil veritatis quos assumenda, nam, atque ullam neque saepe suscipit nostrum fugiat eos optio. Culpa vel non dolore voluptatum id, molestiae mollitia perspiciatis ipsam ea aperiam! Iusto, neque.</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="img/project-3.jpg" alt="">
+            <h3 class="fw-bold fs-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ex!</h3>
+            <p class="text-uppercase fw-bold fs-6 text-black-50 mb-3">Posted on <span class="text-danger">Agust 19, 2022</span> by <span class="text-danger">Admin</span></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, laudantium repellat, aliquam itaque quod illum iste rerum tempore eum ipsam illo explicabo cum libero consectetur minima earum quas, expedita ut!
+              Quidem consectetur nihil veritatis quos assumenda, nam, atque ullam neque saepe suscipit nostrum fugiat eos optio. Culpa vel non dolore voluptatum id, molestiae mollitia perspiciatis ipsam ea aperiam! Iusto, neque.</p>
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="img/project-4.jpg" alt="">
+            <h3 class="fw-bold fs-5 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ex!</h3>
+            <p class="text-uppercase fw-bold fs-6 text-black-50 mb-3">Posted on <span class="text-danger">Agust 19, 2022</span> by <span class="text-danger">Admin</span></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, laudantium repellat, aliquam itaque quod illum iste rerum tempore eum ipsam illo explicabo cum libero consectetur minima earum quas, expedita ut!
+            Quidem consectetur nihil veritatis quos assumenda, nam, atque ullam neque saepe suscipit nostrum fugiat eos optio. Culpa vel non dolore voluptatum id, molestiae mollitia perspiciatis ipsam ea aperiam! Iusto, neque.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark bg-opacity-75 text-white border-top border-danger border-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <h3 class="text-uppercase fw-bold fs-6 mb-4">Lorem, ipsum dolor.</h3>
+            <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatibus aperiam sapiente eveniet atque mollitia dolore rerum blanditiis error reprehenderit nostrum nulla neque tenetur sed fuga exercitationem molestias, animi quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dignissimos quis distinctio eum rerum vero sapiente quia aperiam, fuga reprehenderit? Sequi praesentium dolorem exercitationem nemo fugiat modi maiores nihil commodi?</p>
+          </div>
+          <div class="col">
+            <h3 class="text-uppercase fw-bold fs-6 mb-4">Meta</h3>
+            <p class="border-bottom border-white border-1 pb-2">Log in</p>
+            <p class="border-bottom border-white border-1 pb-2">Entries RSS</p>
+            <p class="border-bottom border-white border-1 pb-2">Comments RSS</p>
+            <p class="border-bottom border-white border-1 pb-2">WordPress.org</p>
+          </div>
+          <div class="col">
+            <h3 class="text-uppercase fw-bold fs-6 mb-4">Archives</h3>
+            <p class="border-bottom border-white border-1 pb-2">August 2013</p>
+          </div>
+          <div class="col">
+            <h3 class="text-uppercase fw-bold fs-6 mb-4">Recent Posts</h3>
+            <p class="border-bottom border-white border-1 pb-2">Lorem ipsum dolor sit amet.</p>
+            <p class="border-bottom border-white border-1 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et.</p>
+            <p class="border-bottom border-white border-1 pb-2">Lorem, ipsum dolor.</p>
+            <p class="border-bottom border-white border-1 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p class="border-bottom border-white border-1 pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, a!.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="bg-dark text-white">
+      <div class="container p-4">
+        <p>Copyleft &copy 2022 Marek Revera clone</p>
+        <p>| Revera Theme</p>
+      </div>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
