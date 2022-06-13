@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Home - revera</title>
+</head>
+<body>
+    <nav class="container navbar navbar-expand-lg d-flex justify-content-start">
+        <div class="brand-name align-items-center w-50">
+            <h1>REVERA</h1>
+        </div>
+        <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item home">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Sample page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Parent page
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Full Page</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Child page 1</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Child page 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/starter-code/img/slider-1.jpg" class="d-block w-100 grayscale" alt="pets img">
+                <div class="fr" id="frame"></div>
+                <span class="text-img-carousel d-flex flex-column align-items-center span-text-carousel">
+                    <h2 class="text-white text-center fs-1 fw-normal">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                    <p class="text-white text-center">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                    <h3 class="text-white text-center border border-white w-25 fs-6 pt-2 pb-2">READ MORE</h3>
+                </span>
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-2.jpg" class="d-block w-100" alt="olives img">
+                <div class="fr" id="frame"></div>
+                <span class="text-img-carousel d-flex flex-column align-items-center span-text-carousel">
+                    <h2 class="text-white text-center fs-1">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM</h2>
+                    <p class="text-white text-center">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                    <h3 class="text-white text-center border border-white w-25 fs-6 pt-2 pb-2">READ MORE</h3>
+                </span>
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-3.jpg" class="d-block w-100" alt="flowers img">
+                <div class="fr" id="frame"></div>
+                <span class="text-img-carousel d-flex flex-column align-items-center span-text-carousel">
+                    <h2 class="text-white text-center fs-1">FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
+                    <p class="text-white text-center">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                    <h3 class="text-white text-center border border-white w-25 fs-6 pt-2 pb-2">READ MORE</h3>               
+                </span> 
+            </div>
+            <div class="carousel-item">
+                <img src="/starter-code/img/slider-4.jpg" class="d-block w-100" alt="travelers img">
+                <div class="fr" id="frame"></div>
+                <span class="text-img-carousel d-flex flex-column align-items-center span-text-carousel">
+                    <h2 class="text-white text-center fs-1">SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+                    <p class="text-white text-center">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                    <h3 class="text-white text-center border border-white w-25 fs-6 pt-2 pb-2">READ MORE</h3>
+                </span>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-btn pt-5 pb-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-btn pt-5 pb-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+        
+    <div class="container-fluid services-container pt-5 pb-5">
+         <div class="row align-items-center">
+            <div class="col d-flex flex-column align-items-center">
+                <span>
+                    <img class="" src="/starter-code/img/icon-1.jpg" alt="icon 1">
+                </span>
+                <h3 class="text-white text-center">Web design</h3>
+                <p class="text-white text-center">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link</p>
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <span>
+                    <img src="/starter-code/img/icon-2.jpg" alt="icon 2">
+                </span>
+                <h3 class="text-white text-center">Web development</h3>
+                <p class="text-white text-center">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <span>
+                    <img src="/starter-code/img/icon-3.jpg" alt="icon 3">
+                </span>
+                <h3 class="text-white text-center">User interface</h3>
+                <p class="text-white text-center">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            </div>            
+        </div>
+    </div>    
+
+    <div class="container">
+        <div class="mt-5">
+            <h2 class="fs-3 fw-ligth">LATEST PROJECTS</h2>
+            <p class="fs-6 fw-bold text-black-50">FEW OF THE LATEST PORTFOLIO ITEMS</p>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center justify-content-between mb-5">
+            <div class="col-sm-3 d-flex flex-column align-items-center">
+                <span>
+                    <img class="img-fluid" src="/starter-code/img/project-1.jpg" alt="project 1">
+                </span>
+                <p class="text-center mt-3">Nunc libero elit, iaculis nec augue non</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <span>
+                    <img class="img-fluid" src="/starter-code/img/project-2.jpg" alt="project 2">
+                </span>
+                <p class="text-center mt-3">Phasellus aliquet iaculis neque accumsan aliquam</p>
+            </div>
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <span>
+                    <img class="img-fluid" src="/starter-code/img/project-3.jpg" alt="project 3">
+                </span>
+                <p class="text-center mt-3">Vivamus blandit ipsum sed arcu euismod</p>
+            </div>            
+
+            <div class="col-3 d-flex flex-column align-items-center">
+                <span>
+                    <img class="img-fluid" src="/starter-code/img/project-4.jpg" alt="project-4 3">
+                </span>
+                <p class="text-center mt-3">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</p>
+            </div>  
+        </div>
+
+        
+        <div class="mt-5">
+            <h2 class="fs-3 fw-ligth">LATEST ARTICLES</h2>
+            <p class="fs-6 fw-bold text-black-50">LATEST POSTS FROM THE BLOG</p>
+        </div>
+        <hr class="mb-4">
+            <div class="row align-items-start justify-content-between mb-5">
+                <div class="div-article-container col-sm-3 d-flex flex-column align-items-start">
+                    <span>
+                        <img class="img-fluid" src="/starter-code/img/article-pets.jpg" alt="pets img">
+                    </span>
+                    <h3 class="fw-bold mt-4">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
+                    <span class="fw-bold text-black-50 ">
+                    POSTED ON 
+                        <time class="text-danger text-uppercase" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time>
+                        BY 
+                        <span class="text-danger">ADMIN</span>
+                    </span>
+                    <p class="mt-3 text-secondary">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+
+                <div class="div-article-container col-sm-3 d-flex flex-column align-items-start">
+                    <span>
+                        <img class="img-fluid" src="/starter-code/img/article-flowers.jpg" alt="flowers img">
+                    </span>
+                    <h3 class="fw-bold mt-4">Falauris sollicitudin quis dolor venenatis facilisis</h3>
+                    <span class="fw-bold text-black-50 ">
+                    POSTED ON 
+                        <time class="text-danger text-uppercase" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time>
+                        BY 
+                        <span class="text-danger">ADMIN</span>
+                    </span>
+                    <p class="mt-3 text-secondary">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                </div>
+
+                <div class="div-article-container col-sm-3 d-flex flex-column align-items-start">
+                    <span>
+                        <img class="img-fluid" src="/starter-code/img/article-travelers.jpg" alt="travelers img">
+                    </span>
+                    <h3 class="fw-bold mt-4">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+                    <span class="fw-bold text-black-50 ">
+                    POSTED ON 
+                        <time class="text-danger text-uppercase" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time>
+                        BY 
+                        <span class="text-danger">ADMIN</span>
+                    </span>
+                    <p class="mt-3 text-secondary">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                </div>          
+
+                <div class="div-article-container col-sm-3 d-flex flex-column align-items-start">
+                    <span>
+                        <img class="img-fluid" src="/starter-code/img/article-dog.jpg" alt="dog img">
+                    </span>
+                    <h3 class="fw-bold mt-4">Festibulum purus odio, ornare non posuere</h3>
+                    <span class="fw-bold text-black-50 ">
+                    POSTED ON 
+                        <time class="text-danger text-uppercase" datetime="2013-08-19T05:32:21+00:00">August 19, 2013</time>
+                        BY 
+                        <span class="text-danger">ADMIN</span>
+                    </span>
+                    <p class="mt-3 text-secondary">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                </div>
+            </div>    
+            
+    </div>
+
+    <div class="container-fluid last-div-container pt-4 pb-4">          
+
+        <div class="container  d-flex flex-row justify-content-between">
+
+            <div class="col-3 d-flex flex-column align-items-start columns-footer">
+                <h3 class="fs-5 fw-ligther pt-2 pb-2 w-100 text-white">REVERA</h3>
+                <p class="mt-3 text-secondary">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+            </div>
+
+            <div class="col-sm-3 d-flex flex-column align-items-start columns-footer">
+                <h3 class="fs-5 fw-ligther pt-2 pb-2 w-100 text-white">META</h3>
+                <ul class="mt-3 text-secondary list-unstyled w-100">
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Log in</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Entries RSS</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Comments RSS</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">WordPress.org</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 d-flex flex-column align-items-start columns-footer">
+                <h3 class="fs-5 fw-ligther pt-2 pb-2 w-100 text-white">ARCHIVES</h3>
+                <ul class="mt-3 text-secondary list-unstyled w-100">
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">August 2013</a></li>                        
+                </ul>
+            </div>
+
+            <div class="col-sm-3 d-flex flex-column align-items-start columns-footer ml-4">
+                <h3 class="fs-5 fw-ligther pt-2 pb-2 w-100 text-white">RECENT POSTS</h3>
+                <ul class="mt-3 text-secondary list-unstyled w-100">
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Nunc libero elit, iaculis nec augue non</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+                    <li class="ul-style border-secondary"><a href="" class="text-reset text-decoration-none">Vivamus blandit ipsum sed arcu euismod</a></li>
+                </ul>
+            </div>
+        </div>        
+    </div>
+
+    <footer class="container-fluid div-copy pt-4 pb-4">
+        <div class="container">
+            <small class="text-white">
+                Copyright © 2018 revera - Just another demo Sites site.
+                <br>
+                | Revera Theme
+            </small>
+        </div>
+    </footer>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

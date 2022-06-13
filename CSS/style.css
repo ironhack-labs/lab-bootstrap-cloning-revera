@@ -1,0 +1,88 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+
+.brand-name > h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.nav-item > a {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.nav-item > a:hover {
+    color:#ed564b !important;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item > img {
+    filter: grayscale(90%);
+}
+
+.carousel-item > #frame {
+    background-image: url("/starter-code/img/overlay.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.carousel-item .text-img-carousel{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.span-text-carousel {
+    width: 60%;
+}
+
+.bg-btn {
+    background-color: #ed564b;
+}
+
+.bg-btn:hover {
+    background-color: white;
+}
+
+.services-container{
+    background-color: #ed564b;
+}
+
+.div-article-container > h3 {
+    font-size: 16px;
+}
+
+.div-article-container > span {
+    font-size: 12px;
+}
+
+.div-article-container > p {
+    font-size: 14px;
+}
+
+.last-div-container {
+    background-color: #3b3b3b;
+    border-top: 6px solid #ed564b;
+}
+
+.columns-footer > p {
+    font-size: 15px;
+}
+
+.ul-style {
+    border-bottom: 1px dotted;
+    font-size: 15px;
+}
+
+.div-copy{
+    background-color: #292929;
+}
