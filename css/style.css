@@ -31,7 +31,9 @@
 
 .carousel-caption {
     position: absolute;
-    bottom: 30%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
 }
 
 h2 {
