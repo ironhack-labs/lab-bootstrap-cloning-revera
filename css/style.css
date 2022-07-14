@@ -11,3 +11,11 @@ nav * {
 nav a {
     text-decoration: none;
 }
+
+i {
+    border: 5px solid white;
+    width: 2em;
+    height: 2em;
+    padding-top: 0.8em;
+    border-radius: 100%;
+}
