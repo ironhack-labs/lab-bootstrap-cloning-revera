@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto
+}
+.project-ctn {
+    margin: 3rem 0;
+    
+}
+
+h3 h5 {
+    margin: 4rem 0;
+}
+
+.head {
+    background-color: rgb(218, 82, 23);
+    margin: 3rem 0;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
