@@ -1,0 +1,23 @@
+#red-div{
+    margin: 1em auto;
+    background-color: rgb(206, 66, 31);
+    color: white;
+}
+
+#red-text{
+    margin: 2em auto
+}
+#row{
+    margin-top: 2em;
+}
+.bold {
+    font-weight: bold;
+}
+
+h4{
+margin-top: 2em;
+}
+
+h6{
+    color: grey;
+}
