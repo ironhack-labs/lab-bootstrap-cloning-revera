@@ -1,0 +1,13 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav * {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+}
