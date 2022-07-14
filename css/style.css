@@ -12,6 +12,10 @@ nav a {
     text-decoration: none;
 }
 
+.carousel-item img {
+    filter: grayscale(100%);
+}
+
 i {
     border: 5px solid white;
     width: 2em;
