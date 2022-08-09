@@ -1,0 +1,97 @@
+html, body{
+    margin: 0 auto;
+}
+
+.titulo{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+   display: flex;
+}
+nav{
+    margin-right: 30px;
+}
+.p-30{
+    padding-left: 30px;
+}
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+header h1{
+    padding-bottom: 5px;
+    margin-right: 150px;
+}
+a{
+    text-decoration: none;
+    color: #9C9C9C;
+}
+main{
+    width: 100%;
+    height: 650px
+}
+main h1{
+    padding-top: 250px;
+}
+main h1, p{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+.bg-main{
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    border: 2px solid white;
+    padding: 5px;
+}
+.icon-glass2:before {
+    content: "\e9a1";
+}
+.icon-heart:before {
+    content: "\e9da";
+}
+.icon-star-full:before {
+    content: "\e9d9";
+}
+.bg-red{
+    padding: 50px 0;
+    background-color: red;
+}
+span{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+article h3{
+    padding-bottom: 25px;
+    font-size: 1.7rem;
+}
+div img{
+    width: 300px;
+    height: 300px;
+}
+.p-black{
+    color: black;
+    margin-top: 10px;
+}
+h6{
+    color: dimgray;
+}
+.mg-top{
+    margin-top: 50px;
+}
+.bold{
+    font-weight: bold;
+}
