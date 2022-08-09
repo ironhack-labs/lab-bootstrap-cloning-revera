@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+nav  a:hover{
+    color:#dc3545
+}
+
 .hero {
     background-image: url("../starter-code/img/slider-1.jpg");
     height: 700px;
