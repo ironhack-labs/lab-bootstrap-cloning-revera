@@ -1,0 +1,30 @@
+.bg-overlay {
+    background: url(../lab-bootstrap-cloning-revera-master/starter-code/img/overlay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.carousel-item img {
+    filter: grayscale(100%);
+
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.red-container {
+    background-color: #ed564b;
+    padding: 0 5%;
+}
+
+.red-container img {
+    width: 100px;
+    padding-bottom: 20px;
+}
