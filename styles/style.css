@@ -1,0 +1,62 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: -100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("../starter-code/img/slider-1.jpg");
+    height: 700px;
+    background-size: cover;    
+}
+
+.color-red {
+    background-color: #dc3545;
+}
+
+.color-red img {
+    width: 70%;
+    margin-top: 12px;
+}
+
+.img-container {
+    border: 4px solid rgb(37, 37, 37);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.imgs-container img {
+    width: 100%;
+}
+
+.grey-color {
+    background-color: #3b3b3b;
+}
+
+.dashed-links a {
+    border-bottom: 1px dashed #6c757d;
+}
+
+.dark-grey-color {
+    background-color: #292929;
+}
+
+.footer p {
+    padding-left: 160px;
+}
+
+.padding-titulo {
+    margin-left: 160px;
+}
+
+
+
+
