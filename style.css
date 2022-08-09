@@ -1,0 +1,77 @@
+.navlink {
+    width: 100%;
+    color: red;
+}
+
+header {
+    color: red;
+
+}
+
+/* Section 1 */
+
+.section1 {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 36px;
+    padding: 50px;
+}
+
+.section1 p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+
+.section1 div {
+    padding: 100px;
+}
+
+.section1 button {
+    text-decoration: transparent;
+    border: white solid 2px;
+}
+
+/* section 2 */
+
+.section2 {
+    text-align: center;
+    color: white;
+}
+
+.section2 span {
+    border-radius: 100%;
+    border: white 2px solid;
+    font-size: 40px;
+}
+
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.container-fluid {
+    background-color: red;
+}
+
+.section3 img {
+    width: 100%;
+}
+
+.section4 img {
+    width: 100%;
+}
