@@ -1,0 +1,49 @@
+
+/* rojo: rgb(237, 86, 75); */
+
+.red-hover:hover {
+    color:red;
+}
+.red-hover {
+    padding: 5px;
+}
+
+.banner {
+    background-image: url(./starter-code/img/slider-3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
+#service {
+    background-color: rgb(237, 86, 75);
+}
+
+
+.date {
+    text-transform: uppercase;
+}
+
+.project img{
+    width:70%;
+    padding-bottom: 5%;
+}
+
+.svg-container {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    background-color: #292929;
+}
