@@ -1,0 +1,79 @@
+.firstPart {
+
+    background-image: url("./starter-code/img/slider-1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.border1 {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("./starter-code/img/glass2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.firstElement h3 {
+
+    color: white;
+}
+
+.firstElement p {
+    color: white;
+}
+
+.secondElement h3 {
+    color: white;
+}
+
+.secondElement p {
+    color: white;
+}
+
+.thirdElement h3 {
+    color: white;
+}
+
+.thirdElement p {
+    color: white;
+}
+
+.border2 {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("./starter-code/img/star-full.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border3 {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("./starter-code/img/heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.secondPart {
+
+    background-color: red;
+}
+
+.services {
+    display: flex;
+
+}
+
+div img {
+    width: 15vw;
+    height: auto;
+}
