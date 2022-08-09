@@ -1,0 +1,51 @@
+.section3-top img {
+    width: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    margin-right: 20px;
+    color: gray;
+    font-weight: 100;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+article span {
+    font-size: 30px;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.section3-bottom span {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.section3-bottom p {
+    font-size: 14px;
+}
+
+.section4-text p {
+    font-size: 14px;
+}
+
+.section4-text a {
+    font-size: 14px;
+}
+
+.carousel-item {
+    filter: grayscale(100%);
+}
