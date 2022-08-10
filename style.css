@@ -6,18 +6,15 @@
     color: #fff;
 }
 
+.navbar-nav a:hover {
+    color: #ed564b;
+}
+
 .carousel-item img {
     filter: grayscale(100%);
 
 }
 
-.carousel-caption {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 200px;
-}
 
 .red-container {
     background-color: #ed564b;
@@ -27,4 +24,8 @@
 .red-container img {
     width: 100px;
     padding-bottom: 20px;
+}
+
+.bottom-links a:hover {
+    color: #ed564b;
 }
