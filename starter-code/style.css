@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
+
+ a{
+    text-decoration: none;
+}
+
+header h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hd-col a{
+    color: #7777a3; 
+}
+
+span {
+    color: red;
+}
+
+.main-section{
+    background-image: url("../starter-code/img/slider-1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-section div {
+    text-align: center;
+    margin: 0 300px;
+    padding-top: 100px;
+    color: white;
+}
+
+.main-section button {
+    background-color: transparent;
+    border-color: white;
+}
+
+
+.main-section a {
+    color: white ;
+}
+
+.bg-red{
+    background-color: #ed564b;
+    background-size: cover;
+    padding: 30px 20px;
+}
+
+.middle-section {
+    margin-top: 50px;
+}
+
+.photo-size img{
+    width: 70%;
+}
+
+.middle-section hr, h4{
+    color: grey;
+}
+
+.middle-section h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle-section h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.box{
+    padding:30px 0;
+}
+
+h5{
+    padding: 25px 0;
+    font-weight: bold;
+}
