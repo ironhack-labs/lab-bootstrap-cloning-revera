@@ -1,0 +1,126 @@
+.flexNav{
+ display: flex;
+ justify-content: space-around;
+ align-items: baseline;
+}
+
+.navList {
+    display:flex;
+
+}
+
+h1{
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+ul{
+    margin-right: 10%;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.colorRed{
+color: red;
+}
+
+.section2{
+    
+    background-image: url("starter-code/img/slider-1.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.textoMasTitulo{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 50%;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    margin-left: 25%;
+}
+
+.tituloLatin{
+    text-align: center;
+}
+
+.textoLatin{
+    text-align: center;
+}
+
+.cont{
+    width: 100%;
+    height: 230px;
+    background-color: red;
+}
+
+.margin1{
+    margin-left: 140px;
+}
+
+.margin2{
+    text-align: center;
+}
+
+.margin3{
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+.colorNegro{
+    color: black;
+}
+
+h5{
+    color: grey;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.imagen{
+    width: 200px;
+}
+
+h3{
+    margin-left: 50px;
+}
+
+footer{
+    background-color: rgb(78, 73, 73);
+    border-top: solid 5px red;
+}
+
+.flexFoot{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.enlaces a{
+        text-decoration: none;
+        color: rgb(177, 166, 151);
+        border-bottom: dashed 1px black;
+    
+}
+
+footer h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
