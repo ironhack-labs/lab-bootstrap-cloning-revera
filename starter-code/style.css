@@ -1,5 +1,9 @@
  /* GENERAL  */
 
+ .header-link:hover {
+    color: #ed564b;
+ }
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -9,6 +13,10 @@ a {
 }
 
  /* HEADER  */
+
+  .header-link:hover {
+      color: #ed564b;
+  }
 
 body>header>nav>h1>a {
     font-weight: 900;
@@ -51,6 +59,11 @@ body>header>nav>h1>a {
     z-index: -1;
 }
 
+.background-button {
+    background-color: #ed564b;
+    padding: 3em 1.5em;
+    border-radius: 3px;
+}
 
 .border-width {
     border-width: 10px;
@@ -94,6 +107,13 @@ body>header>nav>h1>a {
 
  /* SECTION SERVICE  */
 
+ .icon {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 18px;
+    margin-bottom: 15px;
+ }
+
 .service {
     background-color: #ed564b;
 }
@@ -101,6 +121,24 @@ body>header>nav>h1>a {
 .img-projetcs {
     width: 100%;
 }
+
+.img-projetcs:hover {
+    width: 95%;
+    transition-duration: .6s;
+}
+
+.img-articles {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.img-articles:hover {
+    width: 95%;
+    transition-duration: .6s;
+}
+
 .projects h4 {
     color: gray;
 }
