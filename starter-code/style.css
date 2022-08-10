@@ -15,7 +15,7 @@ header ul {
 header h3{
     font-size: 32px;
     font-weight: bold;
-}
+}   
 
 .hd-col a{
     color: #7777a3; 
@@ -86,4 +86,24 @@ span {
 h5{
     padding: 25px 0;
     font-weight: bold;
+}
+
+.bottom-section{
+    background-color: #3b3b3b;
+    margin: 20px 0;
+    padding: 30px 20px;
+    color: #9faa9f;
+}
+
+.bottom-section li{
+    list-style: none;
+}
+
+.bottom-section h3{
+    color: white;
+}
+
+.bottom-section a{
+    text-decoration: none;
+    color: #9faa9f;
 }
