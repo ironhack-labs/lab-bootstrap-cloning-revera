@@ -1,6 +1,13 @@
 
 /* rojo: rgb(237, 86, 75); */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Space+Mono&display=swap');
+body, html{
+    font-family: 'Roboto';
+    margin: 0; 
+    padding: 0;
+}
+
 .red-hover:hover {
     color:red;
 }
@@ -46,4 +53,8 @@
 
 .copyright{
     background-color: #292929;
+}
+
+.overlay {
+    background-image: url('./starter-code/img/overlay.png');
 }

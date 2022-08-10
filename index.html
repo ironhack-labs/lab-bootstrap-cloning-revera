@@ -11,8 +11,13 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="bg-white container">
       <nav
@@ -45,29 +50,29 @@
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdown"
                 role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Parent Page
+                Dropdown
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Full Page</a>
-                <a class="dropdown-item" href="#">Child Page 1</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Child Page 2</a>
-              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <section id="banner">
+    <!-- <section id="banner">
       <div class="banner">
-        <div class="container">
+        <div class="container position-abolute">
           <div class="row text-light text-center">
             <h2 class="text-uppercase">Lorem ipsum dolor sit amet.</h2>
             <p>
@@ -93,8 +98,116 @@
             <button type="button" class="btn btn-light btn-sm">
               Learn More
             </button>
+            <div class="position-relative overlay"></div>
           </div>
         </div>
+      </div>
+    </section> -->
+
+    <section id="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./starter-code/img/slider-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sunt labore ab debitis numquam praesentium nulla amet
+                laboriosam reiciendis tenetur dicta eius hic facilis dignissimos
+                adipisci deleniti quod, iure quidem. Rerum reiciendis nulla
+                natus ad ipsum! Rerum fuga explicabo voluptas eos est officiis
+                et! Minus, cupiditate. Ullam, molestias vero.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./starter-code/img/slider-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block d-flex align-items-center"
+            >
+              <h2>Second slide label</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sunt labore ab debitis numquam praesentium nulla amet
+                laboriosam reiciendis tenetur dicta eius hic facilis dignissimos
+                adipisci deleniti quod, iure quidem. Rerum reiciendis nulla
+                natus ad ipsum! Rerum fuga explicabo voluptas eos est officiis
+                et! Minus, cupiditate. Ullam, molestias vero.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./starter-code/img/slider-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Third slide label</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                nam sunt labore ab debitis numquam praesentium nulla amet
+                laboriosam reiciendis tenetur dicta eius hic facilis dignissimos
+                adipisci deleniti quod, iure quidem. Rerum reiciendis nulla
+                natus ad ipsum! Rerum fuga explicabo voluptas eos est officiis
+                et! Minus, cupiditate. Ullam, molestias vero.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
@@ -104,19 +217,7 @@
           <article class="col-4">
             <div class="d-flex justify-content-center">
               <div class="svg-container">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="currentColor"
-                  class="bi bi-heart-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-                  />
-                </svg>
+                <i class="fa-solid fa-martini-glass"></i>
               </div>
             </div>
             <h4 class="pt-4">Web design</h4>
@@ -349,15 +450,14 @@
       </div>
     </section>
 
-    <section
-      id="copyright"
-      class="copyright text-light d-flex align-items-baseline"
-    >
-      <p>Copyright © 2018 revera - Just another demo Sites site.</p>
-      <br />
-      <p>Just Another Theme</p>
+    <section id="copyright">
+      <div class="copyright text-light py-2">
+        <p>Copyright © 2018 revera - Just another demo Sites site.</p>
+        <p>Just Another Theme</p>
+      </div>
     </section>
 
+    <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -365,3 +465,12 @@
     ></script>
   </body>
 </html>
+
+<!-- Falta:
+      Header centrado 
+      Flechas carousel
+      Texto del carousel centrado
+      Overlay carousel
+      Iconos
+      Responsive
+      Copyright footer       -->
