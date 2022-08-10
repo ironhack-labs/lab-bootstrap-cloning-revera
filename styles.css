@@ -1,0 +1,72 @@
+.flex {
+    display: flex;
+
+}
+
+.center-middle {
+    align-items: center;
+
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+}
+
+.icon-cogs:before {
+    content: "\e995";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+h1 {
+    text-transform: uppercase;
+
+}
+
+.dimension img {
+    width: 90%;
+}
+
+.background {
+    background-image: url("../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.column {
+    flex-direction: column;
+
+}
+
+h2[LATEST] {
+    font: 100px;
+}
+
+.some-margin {
+    margin-left: 100px;
+}
+
+.margin-line {
+    margin: 0px 5px;
+}
+
+.section hr {
+    margin: 0px -500px;
+
+}
+
+.madre {
+    justify-content: center;
+    align-items: center;
+}
+
+my-icon {
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 2px;
+
+}
