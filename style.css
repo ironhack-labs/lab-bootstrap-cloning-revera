@@ -12,9 +12,6 @@ nav ul{
 nav{
     margin-right: 30px;
 }
-.p-30{
-    padding-left: 30px;
-}
 header{
     display: flex;
     justify-content:flex-start;
@@ -77,10 +74,6 @@ span{
 article h3{
     padding-bottom: 25px;
     font-size: 1.7rem;
-}
-div img{
-    width: 300px;
-    height: 300px;
 }
 .p-black{
     color: black;
