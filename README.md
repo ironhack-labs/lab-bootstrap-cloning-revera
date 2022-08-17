@@ -1,6 +1,6 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Cloning with Bootstrap
+# LAB | Bootstrap Cloning Revera
 
 Internet provides lots of templates and themes. But some of them cost money. However, we don't need to pay for something we already know how to do, so... We are cloning a theme!
 
@@ -47,7 +47,7 @@ One cool Boostrap feature is that you have three elements that make our lives ea
 
 Now that we have a global vision of the page, we can go to the second level, dividing our box into their own internal structure. This means that if you previously created a single container and various rows, now we are going to define the columns. You will have to estimate the number of cells you will need in each row.
 
-The [grid system](http://getbootstrap.com/css/#grid) of Bootstrap gives you all the `.col` classes. Remember that each row has a size of 12 columns.
+The [grid system](https://getbootstrap.com/docs/5.2/layout/grid/) of Bootstrap gives you all the `.col` classes. Remember that each row has a size of 12 columns.
 
 ## Iteration 3: Include the content
 
