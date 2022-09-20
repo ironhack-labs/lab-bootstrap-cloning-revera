@@ -1,0 +1,9 @@
+.heroImg {
+    filter: grayscale(100%);
+  }
+
+  i{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+  }
