@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100vw;
+    height: 100px;
+}
+
+.carrusel {
+    width: 100vw;
+    height: 586.5px;
+    /* background-color: black; */
+}
+
+.notas {
+    width: 100vw;
+    height: 230px;
+    background-color: red;
+}
+
+.proyectos {
+    width: 100vw;
+    height: 1200px; 
+}
+
+.foot {
+    width: 100vw;
+    height: 250px;
+}
+
+.links {
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+}
+
+.final {
+    width: 100vw;
+    height: 500px;
+    background-color: gray;
+}
+
+.imgCard {
+    width: 5vw;
+    filter: brightness(0) invert(1);
+}
+
+.bnwImg {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+.center {
+    display: flex;
+    align-items: center;
+}
