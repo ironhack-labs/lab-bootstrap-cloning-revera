@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">REVERA</a>
+          <a class="navbar-brand" id="navRevera" href="#">REVERA</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -104,7 +104,10 @@
     </section>
     <section id="three-columned-container">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col" class="col-display-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z"/>
+          </svg>
           <h2>Web design</h2>
           <p>
             Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -112,7 +115,10 @@
             Aenean auctor nulla quis augue dictum, sed sagittis odio varius Link
           </p>
         </div>
-        <div class="col">
+        <div class="col" class="col-display-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+          </svg>
           <h2>Web development</h2>
           <p>
             Duis tempus leo vitae ipsum viverra, blandit condimentum sapien
@@ -121,7 +127,10 @@
             luctus.
           </p>
         </div>
-        <div class="col">
+        <div class="col" class="col-display-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-heart-fill" viewBox="0 0 16 16">
+            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+          </svg>
           <h2>User interface</h2>
           <p>
             Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien
@@ -165,29 +174,29 @@
           <h4>LATEST POSTS FROM THE BLOG</h4>
         </div>
         <div>
-          <div class="row align-items-center">
+          <div class="row align-items-start">
             <div class="col">
               <img src="starter-code/img/slider-1.jpg" class="img-fluid" alt="dog and cat" />
-              <h3>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
-              <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-              <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+              <h3 class="weighted-text">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3>
+              <h4 class="date-author">POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
+              <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla […]</p>
             </div>
             <div class="col">
               <img src="starter-code/img/slider-2.jpg" class="img-fluid" alt="fruit" />
-              <h3>Falauris sollicitudin quis dolor venenatis facilisis</h3>
-              <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
+              <h3 class="weighted-text">Falauris sollicitudin quis dolor venenatis facilisis</h3>
+              <h4 class="date-author">POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
               <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
             </div>
             <div class="col">
               <img src="starter-code/img/slider-3.jpg" class="img-fluid" alt="plants" />
-              <h3>Suspendisse ornare, felis feugiat suscipit pharetra</h3>
-              <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
-              <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+              <h3 class="weighted-text">Suspendisse ornare, felis feugiat suscipit pharetra</h3>
+              <h4 class="date-author">POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
+              <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit […]</p>
             </div>
             <div class="col">
               <img src="starter-code/img/slider-4.jpg" class="img-fluid" alt="hiking" />
-              <h3>Festibulum purus odio, ornare non posuere</h3>
-              <h4>POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
+              <h3 class="weighted-text">Festibulum purus odio, ornare non posuere</h3>
+              <h4 class="date-author">POSTED ON AUGUST 19, 2013 BY ADMIN</h4>
               <p>
                 Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]
               </p>
@@ -198,7 +207,7 @@
     </section>
 
     <footer>
-      <div>
+      <div id="footer-top">
         <div class="container text-start">
           <div class="row">
             <div class="col align-self-start">
