@@ -1,0 +1,21 @@
+.red-container{
+    position:absolute;
+    background-color: #ed564b;
+    width:116%;
+}
+.card-bg{
+    color:white;
+    background-color: #ed564b;
+    border:0px;
+}
+.body-div{
+    position:absolute;
+    top:40%;
+    left:6%;
+}
+
+.article-div{
+    position:absolute;
+    top:100%;
+    left:6%;
+}
