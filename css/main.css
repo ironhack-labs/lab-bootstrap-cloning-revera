@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(214, 214, 214);
+    
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #list{
+    color: rgb(241, 244, 246);
+    background-color: rgba(255, 89, 0, 0.931);
+    padding: 4% 12%;
+  }
+
+  .banner{
+    width: 100%;
+    margin: 0 auto;
+text-align: center; 
+
+  }
