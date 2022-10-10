@@ -1,0 +1,31 @@
+.carousel-caption > h5,
+p {
+  color: rgba(216, 218, 232, 0.869);
+}
+.col-md-4 > i {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 50%;
+}
+.carousel-control-next-icon {
+  color: rgba(229, 14, 14, 0.804);
+  margin-right: 0;
+}
+.bg-secondary {
+  background-color: red;
+}
+.carousel-control-prev-outter {
+  border: 1px solid white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav {
+  height: 100px;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 3rem;
+}
