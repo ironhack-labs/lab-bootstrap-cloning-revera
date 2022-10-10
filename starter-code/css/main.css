@@ -1,0 +1,18 @@
+.card {
+  margin: 2rem 2rem;
+  border: none;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.section3 {
+  background-color: red;
+  color: white;
+}
+
+.red-card {
+  font-size: 0.8rem;
+  padding: 20px 20px;
+}
