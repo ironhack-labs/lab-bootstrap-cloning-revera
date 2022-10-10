@@ -1,0 +1,15 @@
+body{
+    margin: 20px;
+}
+.footer{
+    background-color: rgb(39, 41, 41);
+    border-top: 4px solid red;
+}
+
+.footer p{
+color: rgb(131, 128, 124);
+}
+
+.footer h3{
+    color: white;
+}
