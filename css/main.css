@@ -1,0 +1,15 @@
+.links {
+    background-color: red;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.articles {
+    margin-bottom: 3rem;
+}
