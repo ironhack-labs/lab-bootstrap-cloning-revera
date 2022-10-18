@@ -96,7 +96,7 @@ header ul a:hover {
 
 main {
 	background-image: linear-gradient(black, black), url("../img/overlay.png"), url("../img/slider-1.jpg");
-	background-size: cover, 15%, cover;
+	background-size: cover, 10%, cover;
 	background-position: center;
 	background-repeat: no-repeat, repeat, no-repeat;
 	background-blend-mode: saturation, normal, normal;
