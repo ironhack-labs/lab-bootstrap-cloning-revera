@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+header ul {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 400px;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+.hero {
+    background-image: url(./../starter-code/img/project-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #cacaca;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(226, 225, 225);
+    border: 2px solid rgb(226, 225, 225);
+    display: block;
+    width: 175px;
+    padding: 5px 10px;
+    margin: 50px 10px;
+}
+
+.button-2 {
+    text-decoration: none;
+    display: block;
+    width: auto;
+    padding: 15px 5px;
+    margin: 30px 5px;
+    background-color: #ed564b;
+}
+
+.section-2 {
+    background-color: #ed564b;
+    padding: 50px 0px;
+}
+
+.section-2 span {
+    font-size: 2em;
+}
+
+.section-3 {
+    padding: 50px 0px;
+}
+
+.section-4 {
+    margin-top: 30px;
+    padding: 20px 0px;
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    font-size: 0.8em;
+}
+
+
+.section-4 li {
+    list-style: none;
+    width: 140%;
+}
+
+.section-4 ul {
+    padding: 40px 0px;
+}
+
+.section-4 a {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+footer {
+    margin-bottom: 5px;
+    padding: 20px 0px;
+}
