@@ -25,6 +25,9 @@ width: 100%;
     font-size: 30px;
     text-transform: uppercase;
 }
+.backgroundpet h1{
+    font-size: 32px;
+}
 .backgroundpet{
     color: #FFF;
     text-align: center;
@@ -32,27 +35,50 @@ width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 355px;
     padding: 40px;
+
 }
 .iconos{
    background-color:rgb(218, 60, 60);
    color: white;
    text-align: center;
+   padding: 5%;
+   font-size: 15px;
    
 }
 .foursection{
-    text-align: center;
+    text-align: left;
 }
 .foursection .text-uppercase{
     font-weight: 600;
 }
-.treesection{
-    text-align: center;
+.foursection p{
+    font-size: 14px;
 }
+.foursection h2{
+ font-size: 18px;
+    margin-top: 20px;   
+}
+.foursection h3{
+  font-size: 15px;
+    color: gray;   
+}
+.treesection h3{
+    font-size: 15px;
+    color: gray;
+}
+.treesection h2{
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
 .ultimo{
     background: rgb(53, 52, 52);
     border-top: red 3px solid;
+    padding: 2%;
+
     
 
 }
@@ -68,9 +94,16 @@ width: 100%;
 }
 .ultimo p{
     font-size: 13px;
+    
 }
 .ultimooo{
     color:white;
     background: rgb(48, 46, 46);
+}
+
+.ultimo a {
+    border-bottom: white 1px dotted;
+    width: 100%;
+    display: block;
 }
 
