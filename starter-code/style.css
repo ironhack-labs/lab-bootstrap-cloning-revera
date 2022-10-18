@@ -1,0 +1,96 @@
+img {
+    width: 100%;
+}
+
+.hero {
+    background-image: url(./img/slider-1.jpg);
+    background-position: center;
+
+    background-repeat: none;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 10px
+}
+
+.background {
+    background-color: rgb(235, 72, 72);
+    text-align: center;
+
+}
+
+.row {
+    margin-left: 10px;
+}
+
+span {
+    color: red;
+}
+
+.icon-trophy {
+    color: black;
+}
+
+.icon-star-empty {
+    color: black;
+}
+
+.icon-heart-broken {
+    color: black;
+}
+
+.final-section {
+    background-color: black;
+    color: white;
+    list-style: none;
+    border-top: red 3px solid;
+
+}
+
+.final-section a {
+    text-decoration: none;
+    color: white;
+    border-top: red;
+}
+
+.menu a {
+    text-decoration: none;
+    color: red;
+    text-align: left;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-top: white;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin: 50px auto;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
