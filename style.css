@@ -1,0 +1,105 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.button-nav {
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 10px;
+
+}
+
+.button-revera {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.inicio {
+    background-image: url(./starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 0;
+    border: 0; */
+    color: white;
+}
+
+.button-read {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    width: 150px;
+    padding: 10px 10px;
+}
+
+.inicio {
+    padding-top: 100px;
+}
+
+.fondo_rojo {
+    background: rgb(221, 65, 65);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.latest-projects {
+    margin-top: 10px;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.pie-pagina {
+    background: rgb(37, 35, 35);
+    color: white;
+    font-size: 10px;
+    border-top: red 3px solid;
+
+}
+
+.button-pie {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.copyright {
+    background-color: black;
+    padding: 20px;
+    font-size: 8px;
+
+}
+
+.button-copy {
+    text-decoration: none;
+    color: white;
+}
