@@ -1,0 +1,138 @@
+img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 100%;
+}
+
+
+span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+
+.color-red {
+  color: red;
+}
+
+.menu a h1 {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  color: black;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.section1 {
+  background-image: url(./starter-code/img/project-2.jpg);
+  background-size: cover;
+  padding: 200px 100px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.container50 {
+  margin: 50px 100px;
+  /* ¿porque no funciona? */
+}
+
+.boton {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 15px;
+  border: 2px solid whitesmoke;
+  margin top: 50px;
+}
+
+.section2 {
+  text-align: center;
+  background-color: red;
+  color: whitesmoke;
+  padding: 70px 90px;
+
+}
+
+.section2 div h3 {
+  margin-top: 50px;
+}
+
+.icon {
+  border: 3px solid whitesmoke;
+  border-radius: 50px;
+  padding: 20px;
+  display: inline;
+  margin-bottom: 40px;
+}
+
+.section3 {
+  padding: 20px 90px;
+}
+
+.section4 {
+  padding: 20px 90px;
+}
+
+.section5 {
+  padding: 20px 90px;
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.section5 div ul li a {
+  text-decoration: none;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.section5 div ul {
+  list-style-type: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.section6 {
+  padding: 20px 90px;
+  background-color: black;
+  color: whitesmoke;
+}
