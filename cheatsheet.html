@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tutorial Bootstrap 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilos a efecto demostrativo, NUNCA se modifica el modelo de caja de contenedores, filas ni columnas de Bootstrap */
+
+        .container {
+            margin-bottom: 200px;
+            margin-top: 200px;
+        }
+
+        .row {
+            margin: 10px 0;
+        }
+
+        .row div[class*='col'] {
+            padding: 10px;
+            background: BurlyWood;
+            text-align: center;
+            border: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+
+        <h1>Contenedor</h1>
+        <p>A través de la clase <code>container</code> separa los contenidos de los lados.</p>
+
+        <hr>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium corporis quibusdam libero, quia
+            delectus fuga alias? Ad repudiandae, natus perspiciatis, eos quae nulla ipsum nisi, voluptate excepturi
+            eaque amet quibusdam!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium corporis quibusdam libero, quia
+            delectus fuga
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium corporis quibusdam libero, quia
+            delectus fuga alias? Ad repudiandae, natus perspiciatis, eos quae nulla ipsum nisi, voluptate excepturi
+            eaque amet quibusdam!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium corporis quibusdam libero, quia
+            delectus fuga alias? Ad repudiandae, natus perspiciatis, eos quae nulla ipsum nisi, voluptate excepturi
+            eaque amet quibusdam!
+        </p>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+
+        <h1>Columnas básicas</h1>
+        <p>Las columnas siempre van dentro de una <code>row</code>, que no contiene nada más que columnas.</p>
+        <p>Clase <code>col</code></p>
+        <p>No permiten elegir su ancho ❌ ni su comportamiento responsive ❌</p>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col">
+                col
+            </div>
+
+            <div class="col">
+                col
+            </div>
+
+            <div class="col">
+                col
+            </div>
+
+            <div class="col">
+                col
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                col
+            </div>
+
+            <div class="col">
+                col
+            </div>
+
+            <div class="col">
+                col
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+        <h1>Columnas de ancho variable</h1>
+        <p>Las columnas siempre van dentro de una <code>row</code>, que no contiene nada más que columnas.</p>
+        <p>Clase con:
+        <ul>
+            <li>Prefijo <code>col-</code></li>
+            <li>Sufijo de tamaño en base 12</li>
+        </ul>
+        </p>
+        <p>Sí permiten elegir su ancho ✅ pero no su comportamiento responsive ❌</p>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-8">
+                col-8
+            </div>
+
+            <div class="col-4">
+                col-4
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                col-4
+            </div>
+
+            <div class="col-4">
+                col-4
+            </div>
+
+            <div class="col-4">
+                col-4
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-6">
+                col-6
+            </div>
+
+            <div class="col-3">
+                col-3
+            </div>
+
+            <div class="col-3">
+                col-3
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+
+        <h1>Columnas responsive</h1>
+        <p>Las columnas siempre van dentro de una <code>row</code>, que no contiene nada más que columnas.</p>
+        <p>Clase con:
+        <ul>
+            <li>Prefijo <code>col-</code></li>
+            <li>Interfijo de breakpoint <code>sm- md- lg- xl- xxl-</code></li>
+            <li>Sufijo de tamaño en base 12</li>
+        </ul>
+        </p>
+        <p>Sí permiten elegir su ancho ✅ así como su comportamiento responsive ✅</p>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-sm-3">
+                col-sm-3
+            </div>
+
+            <div class="col-sm-9">
+                col-sm-9
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                col-md-6
+            </div>
+
+            <div class="col-md-3">
+                col-md-3
+            </div>
+
+            <div class="col-md-3">
+                col-md-3
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-2">
+                col-lg-2
+            </div>
+
+            <div class="col-lg-2">
+                col-lg-2
+            </div>
+
+            <div class="col-lg-4">
+                col-lg-4
+            </div>
+
+            <div class="col-lg-2">
+                col-lg-2
+            </div>
+
+            <div class="col-lg-2">
+                col-lg-2
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-xl-6">
+                col-xl-6
+            </div>
+
+            <div class="col-xl-6">
+                col-xl-6
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+        <h1>Columnas combinadas</h1>
+        <p>Las columnas siempre van dentro de una <code>row</code>, que no contiene nada más que columnas.</p>
+        <p>Es posible combinar las clases para obtener comportamientos específicos por tamaños.</p>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-6 col-xl-3">
+                col-md-6 col-xl-3
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+                col-md-6 col-xl-3
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+                col-md-6 col-xl-3
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+                col-md-6 col-xl-3
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-2">
+                col-6 col-md-4 col-xl-2
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+
+        <h1>Distribución de columnas</h1>
+        <p>Existen clases tanto para filas como para columnas que permiten distribuirlas horizontal y verticalmente
+            (<a href="https://getbootstrap.com/docs/5.1/layout/columns/" target="_blank">docs</a>)</p>
+        <hr>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+                Columna centrada
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                Columnas centradas
+            </div>
+
+            <div class="col-md-4">
+                Columnas centradas
+            </div>
+
+        </div>
+
+        <div class="row justify-content-between">
+
+            <div class="col-lg-2">
+                Columna repartida
+            </div>
+
+            <div class="col-lg-2">
+                Columna repartida
+            </div>
+
+            <div class="col-lg-2">
+                Columna repartida
+            </div>
+
+        </div>
+
+
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-4">
+                Más alto! <br> Más alto! <br>
+                Más alto! <br> Más alto! <br>
+                Más alto! <br> Más alto! <br>
+                Más alto! <br> Más alto! <br>
+                Más alto! <br> Más alto! <br> Más alto! <br> Más alto! <br>
+            </div>
+
+            <div class="col-lg-4">
+                Más bajo, pero centrado al alto
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <h1>Columnas anidadas</h1>
+        <p>Las columnas siempre van dentro de una <code>row</code>, que no contiene nada más que columnas.</p>
+        <p>Las columnas pueden contener otras <code>row</code> a modo de anidación.</p>
+        <hr>
+
+        <div class="row justify-content-end">
+
+            <div class="col-md-6">
+
+                <h3>Soy una columna madre</h3>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                    <div class="col-md-4">
+                        Yo una hija
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

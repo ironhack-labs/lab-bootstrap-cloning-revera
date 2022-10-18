@@ -1,0 +1,83 @@
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu li.home a{
+    color: red;
+}
+.menu p{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid white;
+    margin: 50px 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.centered {
+    margin: 50px auto
+}
+
+.section-1 {
+    background-image: url(./starter-code/img/overlay.png),
+    url(./starter-code/img/project-2.jpg);
+    background-size:auto,cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.section-2{
+    padding: 80px;
+    text-align: center;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: lightcoral;
+}
+
+.section-2 h2 {
+    padding-top: 30px;
+}
+
+.circle {
+    border: 4px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 65px;
+}
+
