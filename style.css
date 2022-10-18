@@ -1,0 +1,91 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.menu a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.fondo-uno {
+    background-image: url(./starter-code/img/project-2.jpg);
+    text-align: center;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.section-two {
+    background-color: red;
+    padding: 20px;
+}
+
+.col-md-3 {
+    padding: 20px;
+}
+
+.container h2 h3 {
+    text-transform: uppercase;
+    color: gray
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid black;
+    margin: 50px 10px;
+    padding: 10px 0;
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fondo-uno h2 {
+    text-align: center;
+    margin: 70px;
+}
+
+
+
+.col-md-4 {
+
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.section-three {
+    background-color: gray;
+}
+
+.col-md-6 h2 {
+    text-transform: uppercase;
+
+
+}
