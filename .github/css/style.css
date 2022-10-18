@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 10px;
+
+}
+
+.hero {
+    background-image: url(../../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+}
+
+h4 {
+    margin-left: 100px;
+}
+
+h5 {
+    margin-left: 100px;
+}
