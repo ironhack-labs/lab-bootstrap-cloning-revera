@@ -1,0 +1,178 @@
+/* General styling */
+
+:root {
+	/* Colors */
+	--main-red: #f15353;
+	--secondary-gray: #747474;
+	--light-gray: #cecece;
+	--dark-gray: #3c3c3c;
+	--darkest-gray: #151515;
+
+	/* Font family */
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+	/* Reset */
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-size: 0.875rem;
+}
+
+span {
+	color: var(--main-red);
+}
+
+h2,
+h4 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h4 {
+	color: var(--secondary-gray);
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0 10px 0;
+	max-width: 1380px;
+	margin: auto;
+}
+
+header > a {
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+	gap: 24px;
+}
+
+header ul a {
+	text-decoration: none;
+	color: var(--secondary-gray);
+	display: block;
+}
+
+.first-link {
+	color: var(--main-red);
+}
+
+header ul a:hover {
+	color: var(--main-red);
+}
+
+/* Main */
+
+main {
+	background-image: linear-gradient(black, black), url("../img/overlay.png"), url("../img/slider-1.jpg");
+	background-size: cover, 5%, cover;
+	background-position: center;
+	background-repeat: no-repeat, repeat, no-repeat;
+	background-blend-mode: saturation;
+	min-height: 500px;
+	display: flex;
+	align-items: flex-end;
+	color: var(--light-gray);
+	text-shadow: 0.75px 0.75px var(--secondary-gray);
+}
+
+.read-btn {
+	border: var(--light-gray) 2px solid;
+	display: block;
+	width: max-content;
+	margin: auto;
+	text-decoration: none;
+	color: var(--hero-white);
+}
+
+.btn-left,
+.btn-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 90px;
+	background-color: var(--main-red) !important;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn-left {
+	left: 0;
+	top: 40%;
+}
+
+.btn-right {
+	right: 0;
+	top: 40%;
+}
+
+/* Features */
+
+.features {
+	background-color: var(--main-red);
+	padding: 60px 0;
+	color: #fff;
+	text-align: center;
+}
+
+.square {
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+}
+
+.icon-pen {
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	color: white;
+}
+
+/* Projects */
+
+.projects,
+.articles {
+	margin: 50px 0;
+}
+
+/* Footer info */
+
+.footer-info {
+	background-color: var(--dark-gray);
+	border-top: 5px solid var(--main-red);
+	padding: 50px 0;
+	color: var(--light-gray);
+}
+
+.footer-info a {
+	color: var(--light-gray);
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	background-color: var(--darkest-gray);
+}
