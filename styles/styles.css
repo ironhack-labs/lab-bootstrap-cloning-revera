@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 450px;
+
+}
+
+nav li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.first-section {
+    background: url('../img/project-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: White;
+    padding: 200px 0;
+}
+
+.second-section {
+    background-color: #ed564b;
+    color: white;
+    padding: 40px 0;
+}
+
+.icono {
+    font-size: 32px;
+}
+
+.fecha {
+    color: red;
+}
+
+.footer {
+    border-top: 5px solid #ed564b;
+    background-color: #3b3b3b;
+}
+
+.lower-footer {
+    background-color: #292929;
+
+}
