@@ -1,0 +1,76 @@
+img{
+width: 100%;
+}
+.menu{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;}
+    ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+    li{
+    margin-left: 10px;}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    
+}
+.logo{
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.backgroundpet{
+    color: #FFF;
+    text-align: center;
+    background-image: url(./img/project-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 40px;
+}
+.iconos{
+   background-color:rgb(218, 60, 60);
+   color: white;
+   text-align: center;
+   
+}
+.foursection{
+    text-align: center;
+}
+.foursection .text-uppercase{
+    font-weight: 600;
+}
+.treesection{
+    text-align: center;
+}
+.ultimo{
+    background: rgb(53, 52, 52);
+    border-top: red 3px solid;
+    
+
+}
+.primeracolum{
+    color: white;
+    font-size: 20px;
+}
+.ultimo a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.ultimo p{
+    font-size: 13px;
+}
+.ultimooo{
+    color:white;
+    background: rgb(48, 46, 46);
+}
+
