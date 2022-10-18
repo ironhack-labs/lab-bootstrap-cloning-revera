@@ -1,0 +1,95 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    color: gray;
+}
+
+.menu li {
+    margin-left: 10px
+}
+
+.menu a {
+    text-decoration: none;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 150px 320px;
+    background-image: url(/starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.back {
+    background-color: rgb(255, 79, 79);
+}
+
+.row {
+
+    color: white;
+    padding: 20px;
+
+}
+
+.col-lg-4 {
+    padding: 30px;
+}
+
+.title {
+    text-decoration: none;
+    color: black
+}
+
+h2 {
+    color: black;
+}
+
+.grey {
+    color: grey
+}
+
+span {
+    font-size: 2em;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid white;
+    margin: 40px 10px;
+    padding: 10px 20px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+
+}
+
+.bottom {
+    color: black
+}
+
+.footer {
+    background-color: grey;
+}
+
+.col-lg-3>ul>li {
+    list-style: none
