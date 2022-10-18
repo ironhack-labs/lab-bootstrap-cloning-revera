@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+}
+
+footer {
+
+    background-color: gray;
+    color: white;
+    padding: 50px;
+
+}
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+header nav ul li {
+    margin-left: 10px;
+    list-style-type: none;
+}
