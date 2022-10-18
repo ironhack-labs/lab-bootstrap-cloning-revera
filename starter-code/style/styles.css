@@ -3,10 +3,10 @@
 :root {
 	/* Colors */
 	--main-red: #f15353;
-	--secondary-gray: #747474;
-	--light-gray: #cecece;
-	--dark-gray: #3c3c3c;
-	--darkest-gray: #151515;
+	--secondary-gray: #959494;
+	--light-gray: #e1e1e1;
+	--dark-gray: #3d3d3d;
+	--darkest-gray: #2e2e2e;
 
 	/* Font family */
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -42,6 +42,17 @@ h4 {
 	color: var(--secondary-gray);
 	font-weight: 600;
 	font-size: 16px;
+}
+
+.flex-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.fs-7 {
+	font-size: 12px;
 }
 
 /* Header */
@@ -85,24 +96,27 @@ header ul a:hover {
 
 main {
 	background-image: linear-gradient(black, black), url("../img/overlay.png"), url("../img/slider-1.jpg");
-	background-size: cover, 5%, cover;
+	background-size: cover, 15%, cover;
 	background-position: center;
 	background-repeat: no-repeat, repeat, no-repeat;
-	background-blend-mode: saturation;
-	min-height: 500px;
+	background-blend-mode: saturation, normal, normal;
+	min-height: 600px;
 	display: flex;
 	align-items: flex-end;
-	color: var(--light-gray);
-	text-shadow: 0.75px 0.75px var(--secondary-gray);
+	color: #fff;
+}
+
+main p {
+	text-shadow: 0 0 10px var(--darkest-gray);
 }
 
 .read-btn {
-	border: var(--light-gray) 2px solid;
+	border: #fff 2px solid;
 	display: block;
 	width: max-content;
 	margin: auto;
 	text-decoration: none;
-	color: var(--hero-white);
+	color: #fff;
 }
 
 .btn-left,
@@ -110,12 +124,13 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 40px;
-	height: 90px;
+	width: 50px;
+	height: 100px;
 	background-color: var(--main-red) !important;
 	color: #fff;
 	text-align: center;
-	font-weight: bold;
+	font-weight: bolder;
+	font-size: 30px;
 }
 
 .btn-left {
@@ -137,16 +152,18 @@ main {
 	text-align: center;
 }
 
-.square {
-	width: 30px;
-	height: 30px;
-	background-color: #fff;
+.circle {
+	width: 60px;
+	height: 60px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.icon-pen {
-	width: 40px;
-	height: 40px;
-	font-size: 40px;
+.icon {
+	font-size: 25px;
 	color: white;
 }
 
