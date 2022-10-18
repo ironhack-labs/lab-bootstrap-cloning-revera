@@ -1,0 +1,26 @@
+.container-dos {
+    background-color: grey;
+}
+
+.imagen {
+    height: 150px;
+    text-align: center;
+}
+
+.imagen-2 {
+    height: 150px;
+    width: 225px;
+    text-align: center;
+}
+
+.abajo a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+
+.abajo {
+    list-style: none;
+
+}
