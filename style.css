@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imagen {
+    height: 140px;
+}
+
+.imagen-1 {
+    height: 120px;
+}
+
+.navbar-nava {
+    list-style: none;
+}
+
+.navbar-nava a {
+    text-decoration: none;
+    color: white;
+}
