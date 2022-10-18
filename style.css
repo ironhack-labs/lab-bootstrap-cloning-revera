@@ -1,0 +1,155 @@
+body{
+    font-family: sans-serif;
+}
+img{
+    width: 100%
+}
+/* header */
+header{
+    display: flex;
+    justify-content:space-around;
+    margin: 10px auto;
+   
+}
+header a {
+    text-decoration: none;
+}
+header .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 5px 0 0 15px;
+    
+}
+
+header ul li{
+margin: 5px;
+}
+
+header ul li a{
+    color: rgba(110, 109, 109, 0.863);
+    font-size: 11px;
+    font-weight: 700;
+}
+header ul li:first-child{
+color: rgb(206, 11, 11);
+}
+
+
+/* section1 */
+.section1{
+    background-image: url("./starter-code/img/slider-1.jpg");
+   background-size: cover;
+   padding: 100px 0 50px 0;
+   color: white;
+}
+
+.section1 .col-md-4{
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.section1  a{
+    display: inline;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: white;
+  
+   
+}
+
+
+/* section2 */
+.section2{
+    background-color:rgb(237,86,75);
+    color: white;
+}
+.section2 article{
+    width: 33.3%;
+   padding-top: 30px;
+   /* margin-left: 50px; */
+}
+.section2 article img{
+    width: 55px;
+    height: 50px;
+}
+
+
+/* section3 */
+.section3 .despcrtion{
+    margin: 20px 0;
+    border-bottom: 2px solid rgba(182, 178, 178,0.3);
+}
+.section3 .despcrtion h3{
+    font-weight: 600;
+}
+.section3 .despcrtion p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgba(110, 109, 109, 0.863);
+}
+.section3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;   
+}
+
+.img-text .playbox{
+    display: block;
+}
+
+ 
+/* section4 */
+.section4{
+background-color: rgb(59,59,59);
+margin-top: 25px;
+border-top: 3px solid rgb(237, 86, 75);
+color: rgba(177, 174, 174, 0.9);
+font-size: 0.9em;
+}
+.section4 .container{
+    padding-top: 30px;
+}
+
+.section4 h4{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+   
+}
+.section4 ul{
+    list-style: none;
+    margin-left: -30px;
+
+}
+
+
+.section4 ul li{
+    border-bottom: 1px solid rgba(177, 174, 174, 0.9);
+}
+.section4 a{
+    text-decoration: none;
+    color:rgba(177, 174, 174, 0.9) ;
+   
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    font-size: 0.8em;
+    color:white;
+}
+footer .container{
+    padding: 20px 0 0 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
