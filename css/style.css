@@ -1,0 +1,71 @@
+
+
+img {
+    width: 100%;
+}
+.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.menu li {
+    padding-left: 2em;
+}
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: gray
+;
+}
+.menu h1 {
+    color:black;
+}
+.cabecera {
+    background-image: url(/Week1/day2/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+    background-size: cover;
+    padding: 150px;
+    color: white;
+}
+.submenu {
+    padding: 100px 0;
+    background-color: brown;
+    color:white;
+}
+.cuerpo {
+    padding: 150 px;
+}
+.contacto {
+    background-color: gray;
+    border-top: red solid 4px;
+}
+.contacto a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(226, 218, 218, 0.546)
+}
+.footer {
+    background-color: black;
+}
+.button {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid black;
+    margin: 50px 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.centered {
+    margin: 50px auto
+}
