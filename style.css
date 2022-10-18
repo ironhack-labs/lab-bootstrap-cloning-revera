@@ -1,0 +1,69 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu a {
+    margin-left: 10px;
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale();
+
+}
+
+.text-align {
+    text-align: center;
+    padding: 100px 10px;
+    color: white;
+}
+
+.info {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.indian-red {
+    background-color: indianred;
+}
+
+span {
+    color: red;
+}
+
+.footer {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dark-grey {
+    background-color: rgb(49, 45, 45);
+    color: white;
+    padding: 50px;
+}
