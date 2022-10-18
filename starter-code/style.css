@@ -1,0 +1,150 @@
+img {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.header img {
+    width: 100px
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    background-image: url(./img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    filter: grayscale(100%);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.bannerFooter {
+    background-color: #f4473a;
+    color: white;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+    color: white;
+    font-size: 2em;
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+    color: white;
+    font-size: 2em;
+}
+
+.icon-heart:before {
+    content: "\e9da";
+    color: white;
+    font-size: 2em;
+}
+
+.latestProjects {
+    padding: 40px;
+}
+
+h2 {
+    color: white;
+    font-weight: 600;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    color: #aaa;
+    font-weight: 700;
+
+}
+
+h5 {
+    font-weight: 700;
+}
+
+.pagFooter {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.pagFooter h5 {
+    color: white
+}
+
+.pagFooter p {
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 150%;
+    color: #aaa;
+
+}
+
+.pagFooter ul {
+    list-style: none;
+}
+
+.button2 {
+    font-size: 18px;
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+.hrwhite {
+    color: #aaa;
+}
+
+h6 {
+    font-weight: 700;
+    color: grey;
+}
+
+.button3 {
+    display: flex;
+    align-items: left;
+    text-decoration: none;
+    color: #f4473a
+}
