@@ -1,34 +1,26 @@
 img{
     width: 100%;
 }
-
 .menu{
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-
 .header{
     margin-left: 10px;
     padding: 20px 20px;
 }
-
 .menu ul{
     margin: 0px auto;
     padding: 20px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
-
 .menu li{
     list-style-type: none;
     margin-left: 20px;
 }
-
-
 .menu h1{
     margin: 20px 150px;
     color: black;
@@ -36,11 +28,9 @@ img{
     text-decoration: underline;
     text-decoration-color: salmon;
 }
-
 .menu a {
     text-decoration: none;
 }
-
 .hero {
     text-align: center;
     background-image: url(../starter-code/img/slider-1.jpg);
@@ -50,7 +40,6 @@ img{
     color: white;
     filter: grayscale(1);
 }
-
 .button{
     text-decoration: none;
     text-transform: uppercase;
@@ -59,52 +48,42 @@ img{
     padding: 10px 10px;
     margin-top: 10px;
 }
-
 .first-section {
     background-color: salmon;
     padding: 50px 200px;
     margin-bottom: 30px;
     text-align: center;
 }
-
 .first-section span{
     border: 3px solid black;
     border-radius: 50%;
     padding: 5px;
     color: black;
 }
-
 .second-section {
     margin-bottom: 30px;
 }
-
 span{
     text-transform: uppercase;
     color: salmon;
 }
-
 .final-section{
     border-top: 5px solid salmon;
     margin-top: 10px;
     background-color: rgb(27, 28, 28);
 }
-
 .final-section h3{
     text-transform: uppercase;
     padding: 20px 0px;
 }
-
-
 .final-section article{
     padding: 40px;
     color: white;
 }
-
 footer{
     background-color: black;
     color: white;
 }
-
 footer p{
     padding: 0px 5px;
     margin-top: 10px;
