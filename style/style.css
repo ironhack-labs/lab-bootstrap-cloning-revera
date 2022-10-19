@@ -33,6 +33,8 @@ img{
     margin: 20px 150px;
     color: black;
     text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: salmon;
 }
 
 .menu a {
@@ -58,12 +60,6 @@ img{
     margin-top: 10px;
 }
 
-.icon-pen{
-color: white;
-
-
-}
-
 .first-section {
     background-color: salmon;
     padding: 50px 200px;
@@ -84,13 +80,13 @@ color: white;
 
 span{
     text-transform: uppercase;
-    color: red;
+    color: salmon;
 }
 
 .final-section{
-    border-top: 5px solid red;
+    border-top: 5px solid salmon;
     margin-top: 10px;
-    background-color: black;
+    background-color: rgb(27, 28, 28);
 }
 
 .final-section h3{
@@ -104,3 +100,12 @@ span{
     color: white;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    padding: 0px 5px;
+    margin-top: 10px;
+}
