@@ -44,6 +44,7 @@ color: rgb(206, 11, 11);
 .section1{
     background-image: url("./starter-code/img/slider-1.jpg");
    background-size: cover;
+   height: 500px;
    padding: 100px 0 50px 0;
    color: white;
 }
@@ -129,8 +130,9 @@ font-size: 0.9em;
 
 
 .section4 ul li{
-    border-bottom: 1px solid rgba(177, 174, 174, 0.9);
+    border-bottom: 1px dashed rgba(177, 174, 174, 0.9);
 }
+
 .section4 a{
     text-decoration: none;
     color:rgba(177, 174, 174, 0.9) ;
