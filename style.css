@@ -1,0 +1,79 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+header a {
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    margin: 10px 0px 15px;
+}
+
+header li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.red-box {
+    background-color: orangered;
+    padding: 20px;
+    color: white;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    height: 500px;
+    color: white;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.enlace-box a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-box a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.enlace-box {
+    background-color: rgb(59, 59, 59);
+    border-bottom: 1px dashed;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.hero a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.boxx {
+    padding: 30px;
+}
