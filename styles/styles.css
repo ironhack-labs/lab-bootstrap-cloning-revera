@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SECTION HEADER */
+.site-title{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.nav-link{
+    color:#777;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-nav{
+    flex-direction: row!important;
+}
+
+.active{
+    color: #ed564b!important;
+}
+@media only screen and (min-width:769px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* SECTION SLIDER */
+
+.carousel-item{
+    filter: grayscale(100%);
+}
+
+.carousel-item:after {
+    background-image:url("/lab-bootstrap-cloning-revera/starter-code/img/overlay.png");
+    content:'';
+    background-repeat: repeat;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+  .overlay-text {
+    position:absolute;
+    right:20%;
+    left:20%;
+    top:30%;
+    text-align: center;
+    z-index: 20;
+    font-size:14px;
+  }
+
+@media only screen and (max-width:560px){
+    .overlay-text {
+        display:none;
+      }
+}
+@media only screen and (min-width:750px){
+    .overlay-text {
+        font-size: 18px;
+      }
+}
+
+
+
+/* SECTION FEATURES */
+.features{
+    background-color: #ed564b;
+    padding: 50px 0;
+}
+
+.circle-icon{
+    width:60px;
+    height:60px;
+    border: 4px white solid;
+    border-radius:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+}
+.feature-text h2{
+    font-size: 24px;
+    margin-top:15px;
+}
+
+.feature-text p{
+    font-weight: 300;
+}
+
+i{
+    font-size:20px;
+    color:white;
+    margin-bottom:6px;
+}
+
+/* SECTION PROJECTS */
