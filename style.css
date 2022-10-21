@@ -1,0 +1,107 @@
+.navbar-section {
+    padding: 0% 11%;
+}
+
+#carousel-slider-1 {
+    background-image: url("starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    padding: 0% 25%;
+    filter: grayscale(100%) brightness(90%);
+}
+
+#carousel-slider-2 {
+    background-image: url("starter-code/img/slider-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    padding: 0% 25%;
+    filter: grayscale(100%) brightness(90%);
+}
+
+#carousel-slider-3 {
+    background-image: url("starter-code/img/slider-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    padding: 0% 25%;
+    filter: grayscale(100%) brightness(90%);
+}
+
+#carousel-slider-4 {
+    background-image: url("starter-code/img/slider-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    padding: 0% 25%;
+    filter: grayscale(100%) brightness(90%);
+}
+
+#pink-section {
+    background-color: #ED564B;
+    color: white;
+    padding: 4% 0%;
+    margin: 0;
+}
+
+i {
+    font-size: 25px;
+    padding: 4% 5%;
+}
+
+.services {
+    margin-top: 10%;
+}
+
+.services-explained {
+    font-size: 14px;
+}
+
+.latest-projects {
+    margin: 0% 12%;
+}
+
+.projects-title {
+    font-size: 14px;
+}
+
+.article-autor {
+    font-size: 13px;
+}
+
+.cover-image {
+    height: 170px;
+    object-fit: cover;
+}
+
+.footer {
+    padding: 0% 12%;
+    background-color: #3B3B3B;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer h5 {
+    font-size: 16px;
+}
+
+.copyright-section {
+    padding: 0% 11%;
+    background-color: #292929;
+}
+
+.text-copyright {
+    font-size: 12px;
+}
