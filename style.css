@@ -109,7 +109,7 @@ hr{
 }
 
 .section3{
-    background-color: #606060;
+    background-color: #3B3B3B;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -119,16 +119,37 @@ hr{
 
 a {
     text-decoration: none;
-    color: rgb(69, 66, 66);
+    color: #AAAAAA;
     margin:0;
- border-bottom: 1px solid rgb(101, 99, 99);
-
+    border-bottom: 1px solid #AAAAAA;
+    font-size:14px;
 }
 
 a:hover{
     color:white;
+    font-size:14px;
 }
 
+.revera-p{
+    color:#AAAAAA;
+    font-size: 14px;
+}
 h4{
     color: white;
-}s
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+footer{
+background-color: #292929;
+overflow: hidden;
+padding-left: 30px;
+padding-top: 30px;;
+}
+
+.footer-p{
+    color:white;
+    font-size:10px;
+}
