@@ -1,0 +1,18 @@
+.backgroundContainer1{
+    background-color:  #ED564B;
+}
+
+
+.buttonSlide{
+    background-color: transparent;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    border-color: white;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: smaller;
+    border-width: 1.5px;
+}
+
