@@ -1,0 +1,31 @@
+.red { background-color: #ED564D;
+    color: white;
+}
+
+.img2 {
+    width: 1280px;
+}
+
+.footer {
+    background-color: #606060;
+}
+
+.redLine {
+    border-bottom: 5px solid #F96B61;
+    background-color: #ED564B;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.margin {
+    margin: 30px;
+}
+
+.justify{
+   color: grey;
+}
