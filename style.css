@@ -1,0 +1,47 @@
+.navbar-brand{
+    font-size: 2em;
+    
+}
+
+b{
+    padding-left: 130px;
+    padding-right: 180px;
+}
+
+h5{
+    font-size: 2.5em;
+
+}
+
+.right_left_button{
+    background-color:#F96B61;
+    width: 60px;
+    height: 100px;
+}
+.read_more{
+    background-color:transparent;
+    color: white;
+    border-color: white;
+
+}
+.carousel_writing{
+    padding-bottom: 100px;
+}
+.web_bar{
+    background-color:#F96B61;
+}
+h4{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.web_bar_p{
+    padding: 20px 20px;
+    color:white;
+}
+.card{
+    border: none;
+}
