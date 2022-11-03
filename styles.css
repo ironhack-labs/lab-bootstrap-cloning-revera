@@ -1,0 +1,52 @@
+.redbox{
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    display: flex;
+	flex-direction: row;
+
+}
+
+.straw{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.star{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.heart{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bloco h3{
+    text-align: center;
+}
+
+bloco p{
+    text-align: center;
+}
+
+.bottom{
+    padding: 40px 0px;
+    background: #606060;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #606060;
+    color: white;
+    display: flex;
+	flex-direction: row;
+}
+
+footer{
+    background-color: #404040;
+    width: 100vw;
+    color: white;
+}
