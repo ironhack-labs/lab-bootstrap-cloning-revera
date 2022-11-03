@@ -1,0 +1,36 @@
+.containertext-center {
+   width: 100%;
+   height: 150px;
+   margin: 0;
+   padding: 0;
+   background-color: red;
+}
+
+.row {
+    color: white;
+    font-size: small;
+}
+
+.text-start1 {
+    color: grey;
+    font-size: small;
+}
+
+.text-start {
+    font-size: medium;
+}
+
+.text-start10 {
+    font-size: smaller;
+    color: grey;
+}
+
+.totalimagem {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    }
+
