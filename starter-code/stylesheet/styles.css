@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+#homelink a {
+    color: #f4473a;
+}
+
+.reverahome {
+    padding-left: 180px;
+    padding-top: 10px;
+}
+
+.reveralinks {
+    padding-left: 290px;
+}
+
+.carousel-item {
+    filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   height: 500px;
+}
+
+.carousel-control-prev-icon{
+    background-color: #f4473a;
+    height: 90px;
+    width: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.carousel-control-next-icon{
+    background-color: #f4473a;
+    height: 90px;
+    width: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.carousel-bottom {
+    background-color: #f4473a;
+    color: white;
+    height: 338px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+    border-top: 6px solid #ef645a;
+    border-bottom: 6px solid #ef645a;
+}
+
+.carousel-bottom-title {
+    width: 330px;
+    text-align: center;
+}
+
+.carousel-bottom-p {
+    width: 330px;
+    text-align: center;
+}
+
+.carousel-bottom-p a {
+    color: #f4473a;
+}
+
+.carousel-bottom-p a:hover {
+    color: black;
+}
+
+.carouselicon {
+    margin-bottom: 40px;
+}
+
+.firstclass {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+}
+
+.latestprojectstext {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.latestprojectstext h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.latestprojectstext h4 {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+hr {
+    width: 1400px;
+    margin-left: 60px;
+}
+
+.textgroupbottom {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    font-size: 14px;
+}
+
+.textgroupbottom p {
+    width: 250px;
+}
+
+.latestarticlestext {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.latestarticlestext h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.latestarticlestext h4 {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secondclass {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.secondclass h5 a {
+    font-size: 16px;
+    color: black;
+}
+
+.secondclass h6 {
+    font-size: 12px;
+}
+
+.secondclass h6 a {
+    font-size: 12px;
+    color: #f4473a;
+}
+
+.secondclass p {
+    font-size: 14px;
+}
+
+.footer1 {
+    background-color: #3b3b3b;
+    color: #aaaaaa;
+    border-top: 6px solid #f4473a;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: stretch;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.footer1 a {
+    color: #aaaaaa;
+}
+
+.footer1section h5 {
+    color: white;
+    font-size: 16px;
+}
+
+.footer1section p {
+    width: 240px;
+    font-size: 14px;
+}
+
+.baseline {
+    border-bottom: 1px dashed #aaaaaaaa;
+    padding-bottom: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer2 {
+    background-color: #292929;
+    color: #eeeeee;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 80px;
+}
