@@ -1,0 +1,40 @@
+body{
+    background-color: #f96b61;
+    color: white;    
+}
+
+h2{
+    align-items: center;
+    margin-bottom: 20px;
+}
+p{
+ 
+    padding:10px 10px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.navbar-brand{
+    margin-left: 150px;
+    font-family: "Helvetica";
+    font-size: 32px;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+}
+
+.button-slide{
+    background-color: #f4473A;
+    padding: 40px 20px
+}
+
+.text{    
+    width: 1200px;
+    align-items: center;
+    mar
+    margin: 0px;
+}
+
