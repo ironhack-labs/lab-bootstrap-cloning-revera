@@ -1,0 +1,106 @@
+html{
+    font-family: sans-serif;
+}
+
+
+.flex-in-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.pretty-btn{
+    background-color: red;
+}
+
+.flex-in-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-in-col > *{
+    text-align: center;
+
+}
+
+.card{
+    border: none;
+}
+
+.red-bg{
+    background-color: #ed564b;
+    color: white;
+    padding: 6vh 0;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+h2{
+    padding: 5vh 0;
+}
+/* div{
+    border:1px solid black
+} */
+.footer{
+    background-color: #292929;
+    color: white;
+}
+
+.before-footer{
+    background-color: #3b3b3b;
+    padding-top: 10vh;
+    border-top: 5px solid #ed564b
+}
+
+h3{
+    color: #fff;
+}
+
+.before-footer p{
+    color: #aaa;
+    margin: 0;
+}
+
+.before-footer hr{
+    color: #aaa;
+    border-top: dotted 1px;
+    margin: 8px 0;
+}
+
+.first{
+    padding: 2vh;
+}
+
+#dropping{
+    background: none;
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.circle{
+    border: 3px solid white;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 65px;
+}
+
+/* img{
+    filter: grayscale(100%);
+}
+text on top of img dissappears??
+ */
