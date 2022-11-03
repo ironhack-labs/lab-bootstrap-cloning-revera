@@ -88,6 +88,15 @@ body {
     margin-bottom: 40px;
 }
 
+.carouselicon1 {
+    position: relative;
+}
+
+.carouselicon2 {
+    position: relative;
+    top: -3em;
+}
+
 .carousel-caption {
     text-align: center;
     margin-bottom: 80px;
