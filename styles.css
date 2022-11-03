@@ -1,15 +1,19 @@
-body{
-    background-color: #f96b61;
-    color: white;    
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    align-items: center;
-    margin-bottom: 20px;
+.bg-color{
+    background-color: #f96b61;
+    padding: 60px;
+    color: white;
 }
-p{
- 
-    padding:10px 10px;
+
+.bg-color-footer{
+    background-color: #606060;
+    padding: 60px;
+    color: white;
 }
 
 .grayscale {
@@ -26,15 +30,22 @@ p{
     margin-left: 200px;
 }
 
-.button-slide{
-    background-color: #f4473A;
-    padding: 40px 20px
+
+.carousel-control-next,
+.carousel-control-prev {   
+    top: 40%;
+    width: 50px;
+    height: 100px;
+    border-radius: 4px; 
+    background-color: #f96b61;
 }
 
-.text{    
-    width: 1200px;
-    align-items: center;
-    mar
-    margin: 0px;
-}
+.carousel-control-prev:hover {
+    background-color: #f96b61;
+    cursor: pointer;
+  }
+
+  
+
+
 
