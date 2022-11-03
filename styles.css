@@ -1,0 +1,23 @@
+.section2 {
+    background-color: rgba(241, 34, 2, 0.927);
+  }
+  
+  .section5 {
+    background-color: rgb(58, 58, 58);
+    list-style-type: none;
+  }
+  
+  .section6 {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .carousel-inner {
+    filter: grayscale(100%);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .container {
+    list-style-type: none;
+  }
