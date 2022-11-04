@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 75%;
+    font-size: 14px;
+}
+
+.navbar-brand {
+    margin: 10px auto 10px 150px;
+    color: black;
+}
+
+.navbar b {
+    font-size: 35px;
+}
+
+.navbar a {
+    color: #777;
+}
+
+.navbar a:hover {
+    color: #ed564b;
+}
+
+.navbar a:active {
+    color: #ed564b;
+}
+
+.dropdown-item {
+    border: #292929;
+    border-radius: 0;
+}
+
+.carousel-control-prev-icon {
+    background-color: #ed564b;
+    margin: auto auto auto 1px;
+}
+
+.carousel-control-next-icon {
+    background-color: #ed564b;
+    margin: auto 1px auto auto;
+
+}
+
+.carousel-item img {                
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.carousel-item button {
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff!important;
+}
+
+.carousel-caption {
+    margin: 100px;
+}
+
+.redbar {
+    padding: 50px;
+    border-bottom: 5px solid #f96b61;
+    border-top: 5px solid #f96b61;
+    background-color: #ed564b;
+    color: white;
+}
+
+.cardtitle {
+    padding: 40px 0px 20px 120px;
+}
+
+.cardtitle h6 {
+    color:#777;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: #777;
+}
+
+.cards {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.cards p {
+    font-weight: lighter;
+}
+
+.grey {
+    width: 100vw;
+    padding: 40px;
+    border-top: 5px solid #ed564b;
+    background-color:#3b3b3b;
+    color: white;
+    font-size: 12px;
+}
+
+.grey p {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.grey a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    color: #777;
+}
+
+.grey a:hover {
+    color: white;
+}
+
+.grey a:active {
+    color: #white;
+}
+
+footer {
+    width: 100vw;
+    padding: 10px 80% 10px 5%;
+    text-align: start;    
+    background: #292929;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+}
+
+#c1 {
+    margin: 10px 60px 10px auto;
+}
+
+#c1 p{
+    color: #aaa;
+}
+
+
+
