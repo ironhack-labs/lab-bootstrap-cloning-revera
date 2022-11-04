@@ -112,6 +112,8 @@ body {
 
 button {
     background-color: rgb(255, 255, 255, 0.3);
+    color: white;
+    border: 1px solid white;
 }
 
 .firstclass {
@@ -143,6 +145,10 @@ button {
 hr {
     width: 1400px;
     margin-left: 60px;
+}
+
+.card-text a {
+    color: black;
 }
 
 .textgroupbottom {
@@ -235,6 +241,10 @@ hr {
 .baseline {
     border-bottom: 1px dashed #aaaaaaaa;
     padding-bottom: 7px;
+}
+
+.baseline a:hover {
+    color: white;
 }
 
 a {
