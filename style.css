@@ -1,0 +1,18 @@
+.background {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ED564B;
+}
+
+.button-slide {
+  border-color: white;
+  border-width: 1.5px;
+  color: white;
+  background-color: transparent;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bolder;
+  font-size: smaller;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
