@@ -1,0 +1,72 @@
+#nav-size{
+  height: 75px;
+  color: white;
+}
+#nav-center{
+  padding-right: 600px;
+  
+}
+#rev-cen{
+  padding-left: 200px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+#home{
+  color: #ed564b;
+  font-weight: bold;
+}
+#links{
+  color: rgb(46, 45, 45);
+}
+#nav-btn{
+  background: none;
+  border: none;
+  color:rgb(46, 45, 45) ;
+}
+
+.carousel{
+  position: relative;
+}
+.text-carousel{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 550px;
+  left: 0;
+  z-index: 9999;
+  margin: auto;
+  text-align: center;
+  display: table;
+  color: #fff;
+}
+#btn-center{
+  background: none !important;
+  height: 38px !important;
+  width: 105px !important;
+}
+
+
+#border{
+  border: none 
+}
+#text-start{
+  text-align: left;
+}
+#red-section{
+  background-color: #ed564b;
+  max-width: 100%;
+    padding: 75px 45px;
+  color: white;
+}
+#carouselExampleControls button{
+  background-color: #ed564b;
+    height: 60px;
+    margin: auto;
+    width: 40px;
+}
+
+.border-color{
+  border-top: #ed564b 7px solid;
+  background-color: rgb(61, 61, 61);
+}
