@@ -1,0 +1,153 @@
+.hover:hover {
+    color: #ED564B;
+}
+
+.navbar {
+    height: 9vh;
+}
+
+.brand {
+    color: #ED564B;
+}
+
+.captions {
+    background-image: url(./img/overlay.png);
+    background-repeat:  repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    padding: 40vh 20vw 0;
+}
+
+.filter {
+    filter: grayscale(100%);
+}
+
+.button {
+    background-color: #ED564B;
+    height: 8vh;
+    width: 5vw;
+    margin-top: 15%;
+}
+
+.webSection {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #ED564B;
+    color: white;
+    text-align: center;
+}
+
+.webSection div {
+    background-color: #ED564B;
+    border: none;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+}
+
+.card {
+    margin-top: 7vh;
+}
+
+.subtitle {
+    margin: 10vh 0 5vh 5vh;
+}
+
+.subtitle h6 {
+    opacity: 50%;
+}
+
+.projects, .articles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects .card {
+    width: 20vw;
+    border: none;
+    text-align: center;
+}
+
+.articles .card {
+    width: 20vw;
+    border: none;
+}
+
+.articles p {
+    opacity: 80%;
+}
+
+.articles h6 {
+    margin: 2vh 0;
+} 
+
+.articles .card img {
+    width: 17vw;
+    height: 12vh;
+}
+
+.hr {
+    height: 5px;
+    background-color: #ED564B;
+    margin-top: 5vh;
+}
+
+.about {
+    height: 70vh;
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.about h5 {
+    margin-bottom: 3vh;
+}
+
+.about .card {
+    width: 40vw;
+    height: 10vh;
+    margin-left: 3vw;
+    background-color: #3B3B3B;
+    color: white;
+    opacity: 60%;
+    border: none;
+    margin-bottom: 8vh;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+}
+
+.archives {
+    margin-top: 15vh;
+}
+
+.footer {
+    background-color: #292929;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: smaller;
+}
+
+.footer p {
+    margin-bottom: -3px;
+    margin-left: 3vw;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3vw;
+}
