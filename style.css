@@ -30,20 +30,15 @@ header li {
     color: white;
 }
 
-.hero {
-    background-image: url("./starter-code/img/slider-1.jpg");
+.carousel {
     -webkit-filter: grayscale(1); /* Webkit */
     filter: gray; /* IE6-9 */
     filter: grayscale(1); /* W3C */
-    height: 500px;
     color: white;
     background-size: cover;
-    align-items: center;
-    text-align: center;
-    padding: 100px;
 }
 
-.hero h1 {
+.carousel h1 {
     text-align: center;
 
 }
@@ -79,4 +74,14 @@ header li {
 
 .boxx {
     padding: 30px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 25%;
+    bottom: 2rem;
+    left: 25%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #fff;
+    text-align: center;
 }
