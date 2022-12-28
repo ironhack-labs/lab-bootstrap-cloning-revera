@@ -25,9 +25,11 @@ header li {
 }
 
 .red-box {
-    background-color: orangered;
-    padding: 20px;
+    background-color: #ed564b;
     color: white;
+    padding: 6vh 0;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
 }
 
 .carousel {
@@ -64,12 +66,6 @@ header li {
     text-decoration: none;
     list-style: none;
 
-}
-
-.hero a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
 }
 
 .boxx {
