@@ -31,17 +31,20 @@ header li {
 }
 
 .hero {
-    background-image: url(../starter-code/img/slider-1.jpg);
+    background-image: url("./starter-code/img/slider-1.jpg");
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
     height: 500px;
     color: white;
     background-size: cover;
     align-items: center;
     text-align: center;
+    padding: 100px;
 }
 
 .hero h1 {
     text-align: center;
-    align-items: center;
 
 }
 
