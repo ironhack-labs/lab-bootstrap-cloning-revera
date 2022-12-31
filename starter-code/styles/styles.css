@@ -1,0 +1,143 @@
+nav > div > a {
+    color: black;
+    font-weight: bold;
+    font-size: 32px !important;
+}
+
+nav > div {
+    justify-content: center;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    color: #AAAAAA;
+}
+
+.nav-link:hover {
+    color: #ed564b;
+}
+
+.active {
+    color: #ed564b;
+}
+
+/* #navbarNav {
+    justify-content: center;
+} */
+
+.navbar-brand {
+    margin: 0 350px;
+}
+
+.overlay {
+    background-image: url("img/overlay.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+#red-info > div > .col-3 {
+    text-align: center !important;
+    color: white;
+}
+
+#red-info {
+    padding: 50px 0 50px 0;
+    background-color: #ed564b;
+}
+
+#latest-projects{
+    margin: 50px 150px;
+}
+
+#latest-projects > div > h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#latest-projects > div > h4 {
+    font-size: 16px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+#latest-projects > div > div {
+    text-align: center !important;
+}
+
+#latest-projects > div > div > img {
+    width: 275px;
+    margin-bottom: 15px;
+}
+
+.date{
+    font-weight: 500;
+    color: gray;
+}
+
+.red {
+    color: #ed564b;
+}
+
+#latest-articles {
+    margin: 50px 150px;
+}
+
+#latest-articles > div > h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#latest-articles > div > h4 {
+    font-size: 16px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+#latest-articles > div > div > h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#latest-articles > div > div > img {
+    width: 275px;
+    margin-bottom: 15px;
+}
+
+#grey-info {
+    padding: 50px 150px;
+    background-color: #3b3b3b;
+}
+
+#grey-info > div > div > h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#grey-info > div > div > a, #grey-info > div > div > p, #grey-info > div > div > hr {
+    margin: 5px 0 5px 0;
+    color: #AAAAAA;
+}
+
+#grey-info > div > div > a, #grey-info > div > div > p {
+    font-size: 14px;
+}
+
+#copyright {
+    background-color: #292929;
+    padding: 50px 150px;
+}
+
+#copyright > div > p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 12px;
+}
