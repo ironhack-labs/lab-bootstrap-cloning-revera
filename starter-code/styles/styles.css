@@ -6,6 +6,7 @@ nav > div > a {
 
 nav > div {
     justify-content: center;
+    padding: 8px;
 }
 
 .navbar-brand:hover {
@@ -40,6 +41,47 @@ nav > div {
     left: 0px;
     top: 0px;
     z-index: 100;
+}
+
+.d-block {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    width: 850px;
+    margin-left: 150px;
+    color: white;
+    text-shadow: #AAAAAA;
+}
+
+.carousel-caption > h5 {
+    font-size: 36px;
+}
+
+.carousel-caption > button {
+    background: none;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-control-prev {
+    background-color: #ed564b;
+    height: 100px;
+    width: 50px;
+    margin-top: 250px;
+}
+
+.carousel-control-next {
+    background-color: #ed564b;
+    height: 100px;
+    width: 50px;
+    margin-top: 250px;
 }
 
 #red-info > div > .col-3 {
