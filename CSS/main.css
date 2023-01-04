@@ -1,0 +1,27 @@
+
+
+body {
+    background-color: gold;
+}
+
+.navbar-nav {
+    background-color: aqua;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.main-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width:100%;
+  }
+  
+
+  div {
+    background-color: brown;
+  }
+
+  img {
+    width: 100%;
+  }
