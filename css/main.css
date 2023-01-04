@@ -1,0 +1,27 @@
+.slideText {
+  margin-top: 0;
+}
+
+.slideTitle {
+  font-size: large;
+  margin-bottom: 110px;
+}
+
+.slideTitle h5 {
+  font-size: 40px;
+}
+
+.cards {
+  background: #ed564b;
+  border: none;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+  width: 100%;
+  color: white;
+}
+
+.containerPink {
+  width: 100%;
+}
