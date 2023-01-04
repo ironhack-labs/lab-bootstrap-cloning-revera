@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 90px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.red-row {
+    height: 315px;
+    background-color: #ed564b;
+    color: white;
+    text-align: center;
+    padding: 3rem 3rem 0rem;
+}
+
+.random-span img {
+    height: 70px;
+    width: 70px;
+}
+
+.white-row {
+    height: 1120px;
+    background-color: white;
+}
+
+.whitebox-header{
+    padding: 0px 15px 20x;
+}
+
+.project {
+    padding: 0 15px;
+}
+
+.project-heading {
+    margin: 20px 0 5px;
+}
+
+.subheading {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.placeholder {
+    background-color: white;
+    width: 400px;
+    height: 225px;
+}
