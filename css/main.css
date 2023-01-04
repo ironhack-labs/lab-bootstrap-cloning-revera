@@ -1,0 +1,25 @@
+.hero-img {
+    display: block;
+    background-image: url("../../img/slider-1.jpg");
+    /* Set a specific height */
+    height: 50vh;
+    
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.highlights {
+    background-color: salmon;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.project {
+    object-fit: scale-down;
+}
