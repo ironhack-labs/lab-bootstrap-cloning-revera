@@ -1,0 +1,86 @@
+#my-navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+#my-navbar > a {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#my-navbar #my-navbar-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#my-navbar #my-navbar-links a {
+    color: grey;
+    font-size: 13px;
+}
+
+
+#images #image-top {
+    position: relative;
+	background: no-repeat center;
+	left: 0px;
+	top: 0px;
+    opacity: 0.8;
+}
+
+#images #overlay {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.section1 {
+    padding: 0 100px;
+    background-color: #ED564A;
+}
+
+.icon-parr {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.icon-parr img {
+    width: 70px;
+}
+
+.icon-parr h2 {
+    margin: 20px 0 15px;
+    font-weight: bold;
+}
+
+.section2 {
+    margin: 50px 170px 0 170px;
+}
+
+.section2 .section2-1 {
+    margin-bottom: 50px;
+}
+
+.section2 .cards {
+    text-align: center;
+}
+
+.footer {
+    padding: 50px 100px;
+    margin-top: 30px;
+    background-color: #3B3B3B;
+    border-top: 3px solid #ED564A;
+    color: white;
+}
+
+.footer-line {
+    border-bottom: 1px grey dotted;
+    padding-bottom: 5px;
+}
+
