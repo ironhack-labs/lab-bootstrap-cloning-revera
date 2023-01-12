@@ -21,6 +21,16 @@
     font-size: 13px;
 }
 
+.carousel-content {
+    padding-bottom: 100px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
 
 #images #image-top {
     position: relative;
@@ -69,6 +79,18 @@
 
 .section2 .cards {
     text-align: center;
+}
+
+.card-title,
+.card-date,
+.card-text {
+    font-size: 16px;
+}
+
+.section2-2 .card-title,
+.card-date,
+.card-text {
+    text-align: left;
 }
 
 .footer {
