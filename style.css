@@ -1,0 +1,120 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.botton {
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+    right: 600px;
+}
+
+.menu li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.revera {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("./starter-code/img/slider-1.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero div {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.coral {
+    background-color: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+}
+
+.coral p {
+    text-align: center;
+}
+
+.logo {
+    width: 15px;
+    position: relative;
+    left: 190px;
+    filter: invert(100%);
+}
+
+.circle {
+    width: 60px;
+    position: relative;
+    left: 150px;
+    filter: invert(100%);
+}
+
+footer {
+    border-top: 5px solid #f96b61;
+    background-color: #606060;
+    color: white;
+    padding-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyrigth {
+    background-color: #292929;
+    color: white;
+    padding-bottom: 50px;
+
+}
+
+.linkred {
+    color: red;
+}
+
+.read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+h2 {
+    text-align: center;
+}
