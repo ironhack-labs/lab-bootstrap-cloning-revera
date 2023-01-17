@@ -1,0 +1,133 @@
+img {
+    width: 100%;
+}
+
+.button {
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+}
+
+.button-2 {
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 200;
+    display: block;
+    border: 1.5px solid white;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.header-revera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 100px;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.red-name {
+    color:orangered;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    filter: grayscale(100%);
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.color-icon-section {
+    background-color: orangered;
+    color: white;
+    padding: 4em;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.color-icon-section h3 {
+    padding-top: 1em;
+}
+
+span {
+    color:white;
+    font-family: monospace;
+    font-size: 200%;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.latest-proyects {
+    padding: 4em;
+}
+
+.latest-proyects article p {
+    padding: 1.5em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.lastest-article {
+    font-size: 14px;
+    padding-bottom: 4em;
+}
+
+
+.color-bottom-container {
+    background-color: rgb(82, 77, 77);
+    padding: 4em;
+    border-top: 2px solid orangered;
+    font-size: 12px;
+    color: white;
+}
+
+.bottom-container h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.bottom-container ul {
+    list-style: none;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: white; 
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(63, 59, 59);
+    color: white;
+    font-size: 12px;
+    padding-top: 2em;
+}
