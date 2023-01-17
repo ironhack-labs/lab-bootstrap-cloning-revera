@@ -1,0 +1,182 @@
+img {
+    width: 100%;
+}
+
+.menu div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu div ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 200px;
+}
+
+.menu li {
+    margin-right: 10px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+.menu div h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.s1 {
+    background-image: url(../img/slider-1.jpg);
+    padding: 200px 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-size: 120%;
+    color: white;
+    filter: grayscale(100%);
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 100;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.s2 {
+    background-color: rgb(246, 76, 76);
+    padding: 50px 50px;
+    text-align: center;
+    color: white;
+}
+
+.icon-glass2 {
+    font-size: 30px;
+}
+
+.icon-star-full {
+    font-size: 30px;
+}
+
+.icon-heart {
+    font-size: 30px;
+}
+
+.s2 h3 {
+    margin-top: 20px;
+}
+
+.s-3 {
+    padding-top: 20px;
+}
+
+.s-3 p {
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.s-3 h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.s-3 h3 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.s3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.s3 h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.s3 h3 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.s3 h4 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.s3 h5 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.s3 p {
+    font-size: 0.8em;
+}
+
+.s3 h5 a {
+    text-decoration: none;
+    color: red;
+}
+
+.nsr {
+    margin: 0;
+    color: red;
+    
+}
+.f1 {
+    background-color: rgb(80, 78, 78);
+    color: white;
+    padding-top: 50px;
+
+}
+
+.f1 h5 {
+    text-transform: uppercase;
+}
+
+.f1 p {
+    font-size: 0.90em;
+    color: rgb(181, 179, 179);
+}
+
+.f2 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 0.7em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.f1 a {
+    text-decoration: none;
+    color: rgb(181, 179, 179);
+    font-size: 0.90em;
+    padding-bottom: ;
+
+}
+
+.non-space {
+    margin: 5px;
+}
+
