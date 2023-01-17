@@ -1,0 +1,137 @@
+img {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.colored {
+    color: red;
+}
+
+.top-section {
+    background-image: url("./starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.read-more {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.mid-section {
+    background-color: #F25050;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 250px;
+}
+
+.mid-second-section {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.last-section {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+bold {
+    color: red;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.size {
+    font-size: 30px;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-grey-smaller {
+    color: grey;
+    font-size: 12px;
+}
+
+.line-grey {
+    color: grey;
+}
+
+footer {
+    color: white;
+    background-color: #3B3B3B;
+}
+
+.second-part {
+    background-color: #292929;
+}
+
+footer {
+    border-top: 3px #F25050 solid;
+}
+
+footer ul li {
+    list-style: none;
+    border-bottom: 1px dashed;
+}
+
+.lecw {
+    color: white;
+    text-decoration: none;
+}
+
+.aug2013 {
+    border-bottom: 1px dashed;
+}
