@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.text-upper h2,
+.text-upper h3 {
+    text-transform: uppercase;
+}
+
+section h4,
+section h5,
+section p {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+/* Nav_bar */
+
+.logo {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 33%;
+}
+
+.logo h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav {
+    width: 66%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+    color: white;
+    height: 550px;
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 30px;
+}
+
+
+/* Services */
+
+.icon {
+    width: 70px;
+    height: 70px;
+    padding: 25px auto;
+    margin: 5px auto;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.icon span {
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+
+
+.services {
+    padding-bottom: 50px;
+    background-color: #ED564B;
+    color: white;
+    text-align: center;
+}
+
+/* Projects */
+
+
+
+/* Articles */
+
+.articles img {
+    height: 180px;
+}
+
+.articles span {
+    color: red;
+}
+
+/* Foot */
+
+.foot {
+    color: white;
+    background-color: #3B3B3B;
+}
+
+.foot h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px 5px;
+    color: white;
+    background-color: #292929;
+}
+
+footer p {
+    font-size: 0.8em;
+}
