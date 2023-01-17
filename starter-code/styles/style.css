@@ -1,0 +1,65 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.home {
+    display: flex;
+    list-style: none;
+    align-items:stretch;
+    margin: 10px;
+}
+.list {
+    margin: 10px;
+
+}
+
+.info {
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(223, 78, 42);
+    color: white;
+}
+
+.final {
+    background-color: rgb(100, 95, 95);
+    padding: 50px 0;
+    width: 100%;
+    color: aliceblue;
+}
+
+.hero {
+    background-image: url("../img/slider-1.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    padding: 300px 100px 0 0;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.espacio {
+    padding: 10px 0 0 0;
+}
+
+footer {
+    background-color: rgb(29, 28, 28);
+}
+.link {
+    color:aliceblue;
+    text-decoration: none;
+}
+.link2 {
+    color: black;
+    text-decoration: none;
+}
+footer {
+    color: aliceblue;
+}
