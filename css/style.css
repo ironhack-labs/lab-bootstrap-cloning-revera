@@ -1,0 +1,151 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 70%;
+    margin: auto;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.menu li a {
+    color: gray;
+    font-weight: 700;
+}
+
+.revera {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.home {
+    color: #F25050;
+}
+
+.button {
+
+    /* UNCOOL */
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-top: 20px;
+
+    /* COOL */
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+
+/* PARA CENTRAR ELEMENTOS EN BLOQUE SE APLICA EL VALOR auto EN SUS MÁRGENES LATERALES */
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("../img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(1);
+    height: 500px;
+    padding-top: 150px;
+    color: white;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+}
+
+.hero p {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.red-section {
+    margin: auto;
+    background-color: #F25050;
+    color: white;
+    text-align: center;
+}
+
+.red-section article {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.latest-projects h4 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.latest-articles h4 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.latest-projects p {
+    text-align: center;
+}
+
+.subtitle {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bottom-menu {
+    background-color: #3B3B3B;
+    color: gray;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bottom-title {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #292929;
+    color: white;
+}
