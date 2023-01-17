@@ -121,6 +121,7 @@ nav a {
 
 .articles img {
     height: 180px;
+    object-fit: cover;
 }
 
 .articles span {
