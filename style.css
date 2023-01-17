@@ -1,0 +1,123 @@
+img {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 300px;
+}
+
+.logo {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    color: #777;
+    text-decoration: none;
+}
+
+.menu-text-home {
+    color: red;
+    text-decoration: none;
+}
+
+.menu-text {
+    text-decoration: none;
+    color: #777;
+}
+
+
+
+
+.hero {
+    color: #777;
+    background-image: url(starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 500px;
+    color: azure;
+}
+
+.botton {
+    text-decoration: none;
+    color: azure;
+    border: 1px solid azure;
+    padding: 10px 30px;
+}
+
+.info {
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    padding: 40px 0px;
+    padding-left: 380px;
+    color: azure;
+    text-align: center;
+}
+
+.container-info {
+    display: block;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 30px;
+    border: 3px solid azure;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.projects {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.arts {
+    margin-top: 30px;
+}
+
+.documents {
+    margin-top: 50px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    padding: 20px 0px 40px 0px;
+    color: azure;
+}
+
+.documents a {
+    text-decoration: none;
+    color: azure;
+}
+
+.date {
+    color: red;
+}
+
+.admin {
+    color: red;
+}
+
+footer {
+    background: #292929;
+    padding: 10px 300px;
+    font-size: 12px;
+    color: azure;
+}
