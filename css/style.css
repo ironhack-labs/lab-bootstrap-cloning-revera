@@ -1,0 +1,183 @@
+img {
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    margin-right: 200px;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero p {
+    color: white;
+}
+
+.hero a {
+    width: 30%;
+    margin-bottom: 70px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 5px 30px;
+}
+
+.services {
+    background-color: rgb(255, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.services span {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.services h2 {
+    margin-top: 25px;
+    font-size: 1.5em;
+}
+
+.services p {
+    font-size: 0.9em;
+}
+
+.proyects {
+    margin: 40px 0px;
+}
+
+.proyects img {
+    margin-bottom: 20px;
+}
+
+.proyects-title {
+    text-transform: uppercase;
+}
+
+.proyects-title h2 {
+    font-weight: 700;
+}
+
+.proyects-title p {
+    color: rgb(103, 103, 103);
+}
+
+.proyects h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.articles-title {
+    text-transform: uppercase;
+}
+
+.articles-title h2 {
+    font-weight: 700;
+}
+
+.articles-title p {
+    color: rgb(103, 103, 103);
+}
+
+.articles img {
+    margin-bottom: 20px;
+}
+
+.articles h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.articles a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.posted {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+footer hr {
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+
+footer {
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+.footer1 p,
+.footer1 ul {
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.footer1 {
+    margin: 25px 0px;
+}
+
+.finish {
+    background-color: rgb(46, 46, 46);
+    padding: 20px 0px;
+    font-size: 0.9em;
+}
+
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li {
+    padding: 5px 0px;
+    border-bottom: 1px dotted white;
+}
