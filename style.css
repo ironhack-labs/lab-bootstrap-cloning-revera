@@ -1,0 +1,101 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+header {
+    font-weight: 600;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-home {
+    color: rgb(233, 99, 81);
+}
+
+.main {
+    text-align: center;
+    color: white;
+    padding: 170px 0;
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.buttom {
+    border: 1px solid white;
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(122, 122, 122);
+}
+
+.first-section {
+    background-color: rgb(233, 99, 81);
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+.second-section {
+    padding: 40px 20px;
+}
+
+.second-section article {
+    text-align: center;
+}
+
+.third-section {
+    padding: 40px 20px;
+}
+
+.fourth-section {
+    background-color: rgb(70, 66, 66);
+    color: white;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: rgb(43, 40, 40);
+    color: white;
+    padding: 10px 0px;
+}
