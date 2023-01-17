@@ -1,0 +1,117 @@
+img{
+    width: 100%;
+}
+
+header nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav ul{
+    margin-right: 55px;
+    margin-top: 15px;
+
+}
+nav a{
+    margin: 10px 13px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+header h1{
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 0;
+    font-weight: bolder;
+}
+
+.section-1{
+    background-image: url(../starter-code/img/slider-1.jpg);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: white;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;}
+
+.section-1 h2{
+    text-transform: uppercase;
+}
+.section-1 a{
+    display: block;
+    text-decoration: none;
+    border: 3px white solid;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+
+em{
+    color:#ed564b;
+    font-weight: bold;
+}
+
+.section-2{
+    background-color: #ed564b;
+    color: white;
+}
+
+.col-sm-3 hr{
+    border-top: 1px dashed white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #3b3b3b;
+    color: white;
+    font-weight: 200;
+}
+
+footer .sub-footer{
+    background-color: #292929;
+}
+
+.separator {
+    border-top: 3px solid red;
+    margin: 0;
+}
+
+footer h6{
+    text-transform: uppercase;
+}
+
+.icon-gg-circle:before {
+    content: "\e902";
+    font-size: 300%;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.icon-google-plus-circle:before {
+    content: "\e901";
+    font-size: 320%;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.icon-user-circle:before {
+    content: "\e900";
+    font-size: 300%;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
