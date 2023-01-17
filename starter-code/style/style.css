@@ -1,0 +1,166 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    height: 120px;
+}
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.6em;
+    color: black;
+    letter-spacing: -1px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav ul li:first-of-type a {
+    color: #ed564b;
+}
+.hero {
+    padding: 200px 450px;
+    background: url(../img/slider-1.jpg);
+    filter: grayscale(90%);
+    background-size: cover;
+    color: lightgray;
+
+}
+.hero div a {
+    display: block;
+    width: 160px;
+    padding: 10px 0;
+    border: solid 2px white;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.features {
+    background-color: #ed564b;
+    padding: 60px 0;
+}
+.features div article {
+    color: white;
+    text-align: center;
+}
+.icon {
+    height: 100px;
+}
+.icon span {
+    font-size: 40px;
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 20px;
+}
+.features div article h2{ 
+    font-size: 1.6em;
+}
+.lastest-projects{
+    padding-top: 60px;
+}
+.h-style{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.sub-h{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 600;
+}
+.lastest-projects-article p{
+    color: black;
+    text-align: center;
+}
+.lastest-articles{
+    padding: 60px 0;
+}
+.lastest-articles-article figure{
+    height: 180px;
+}
+.lastest-articles-article figure img{
+    height: 100%;
+}
+.lastest-articles-article h4 {
+    font-size: 1em;
+    font-weight: 700;
+}
+.lastest-articles-article p:first-of-type {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+.lastest-articles-article p a {
+    text-decoration: none;
+    color: #ed564b;
+}
+.information{
+    background-color: #3b3b3b;
+    padding: 50px 0;
+}
+.footer-h {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.revera p {
+    color: lightgray;
+    font-weight: 300;
+}
+.footer-ul{
+    list-style: none;
+    padding: 0;
+}
+.meta a{
+    text-decoration: none;
+    color: lightgray;
+}
+.archives a{
+    text-decoration: none;
+    color: lightgray;
+}
+.recent-posts a{
+    color: lightgray;
+    text-decoration: none;
+}
+.footer-hr{
+    border-top: dotted 1px lightgray;
+}
+footer {
+    border-top: 4px solid #ed564b;
+    background-color: #292929;
+    
+}
+.footer-bottom {
+    padding: 20px 0;
+    color: white;
+    font-size: 0.9em
+
+}
+
+.footer-bottom p{
+    margin: 6px 0;
+    font-size: 0.8em;
+}
+.footer-bottom p:first-of-type{
+    font-size: 0.9em;
+}
