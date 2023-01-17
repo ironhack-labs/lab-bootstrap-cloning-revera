@@ -1,0 +1,157 @@
+img {
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+header li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    color: red;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.main {
+    padding-top: 300px;
+    padding-bottom: 170px;
+    text-align: center;
+    background-image: url(../img/slider-1.jpg);
+    filter: grayscale(100);
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0px 200px;
+    margin-bottom: 30px;
+}
+
+.main p {
+    color: white;
+    margin: 0 200px;
+
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.info {
+    background-color: #cc3d3d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+span {}
+
+.projects {
+    padding-top: 80px;
+}
+
+.projects h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.projects p {
+    margin-top: 20px;
+}
+
+.projects h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.page-articles {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.page-articles h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.page-articles h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.page-articles h5 {
+    font-size: 0.8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.page-articles h6 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+em {
+    color: red;
+}
+
+
+.final {
+    background-color: #3a3838;
+    color: white;
+    padding-top: 70px;
+    font-size: 0.8em;
+}
+
+.final h4 {
+    text-transform: uppercase;
+}
+
+.final2 {
+    background-color: #202020;
+    color: white;
+    padding: 20px 0px;
+}
+
+.final a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
