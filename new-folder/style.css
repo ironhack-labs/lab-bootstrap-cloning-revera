@@ -1,0 +1,166 @@
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: small;
+}
+
+.hero {
+
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+    filter: grayscale(100%);
+    padding-top: 157px;
+    color: white;
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin-right: 70px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+}
+
+.hero h1 {
+    font-weight: 400;
+    color: white;
+    border: 50%;
+    padding: auto;
+
+
+
+}
+
+span {
+    color: red;
+}
+
+.hero p {
+    color: white;
+    border: 50%;
+}
+
+.hero a {
+    color: white;
+}
+
+.section2 {
+    background-color: rgb(205, 81, 81);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section3 p {
+    color: grey
+}
+
+
+
+
+.section3 {
+    padding: 20px;
+}
+
+.section4 {
+    padding: 20px;
+}
+
+.section4 p {
+    font-size: 15px;
+}
+
+.section4 h5 {
+    font-weight: bold;
+}
+
+.login {
+    background-color: rgb(62, 61, 61);
+    color: white;
+    padding-top: 30px;
+
+}
+
+.copy {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 5px;
+}
+
+footer {
+    border-top: 4px red solid;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 15px;
+    color: grey;
+}
+
+.link {
+
+    border: 1px solid white;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+
+}
+
+.icon-glass2:before {
+    content: "\e9a1";
+    font-size: 1.2em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icon-heart:before {
+    content: "\e9da";
+    font-size: 1.2em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icon-star-full:before {
+    content: "\e9d9";
+    font-size: 1.2em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
