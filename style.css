@@ -4,7 +4,7 @@ img {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 0;
 }
 
@@ -25,8 +25,6 @@ header ul {
     display: flex;
     align-items: center;
     margin-right: 20px;
-    position: relative;
-    right: 600px;
 }
 
 .menu li a {
@@ -34,14 +32,17 @@ header ul {
     text-decoration: none;
 }
 
+.menu ul {
+    margin-right: 180px;
+}
+
 .revera {
     display: flex;
     align-items: center;
     color: black;
     font-size: 30px;
-    position: relative;
-    left: 300px;
     text-decoration: none;
+    margin-left: 150px;
 }
 
 .hero {
@@ -50,13 +51,17 @@ header ul {
     background-position: center;
     background-size: cover;
     height: 600px;
+    justify-content: center;
+    padding-left: 570px;
+    padding-top: 100px;
 }
 
 .hero div {
     display: flex;
     align-items: center;
+    text-align: center;
     color: white;
-    width: 100%;
+    width: 700px;
 }
 
 .coral {
@@ -100,7 +105,7 @@ footer a {
     background-color: #292929;
     color: white;
     padding-bottom: 50px;
-
+    padding-left: 260px;
 }
 
 .linkred {
@@ -108,10 +113,8 @@ footer a {
 }
 
 .read {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     padding-top: 200px;
 }
 
