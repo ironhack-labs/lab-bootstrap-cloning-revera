@@ -1,0 +1,56 @@
+img{
+    width: 100%;
+}
+
+.cat{
+    background-image: url(./starter-code/img/slider-1.jpg);
+    height: 400%;
+    filter: grayscale(100%);
+    color:whitesmoke
+}
+.icons{
+    background-color: rgb(195, 80, 80);
+    color: white;
+}
+
+header{
+    justify-content: space-around;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+   
+   header li{
+    display: flex;
+    text-decoration: none;
+    margin-right: 20%;
+   } 
+   header a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+   margin: left 10px; ;
+
+}
+footer{
+    background-color: rgb(63, 62, 62);
+    color:whitesmoke;
+
+}
+footer h3,hr{
+    color: whitesmoke;
+
+}
+
+footer a{
+    text-decoration: none;
+    color:whitesmoke
+}
+footer article{
+    background-color: black;
+    
+}
