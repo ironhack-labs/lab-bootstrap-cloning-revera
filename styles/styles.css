@@ -1,0 +1,17 @@
+.nav-link:hover {
+    color: rgb(237, 86, 76);
+}
+
+.navbar-nav .nav-item .active{
+    color: rgb(237, 86, 76);
+}
+
+.navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: rgb(237, 86, 76);
+    background-color: #fff;
+}
+
+.navbar {
+    padding: 15px;
+}
+
