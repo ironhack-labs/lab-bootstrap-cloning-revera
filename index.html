@@ -46,8 +46,8 @@
           href="#"
           class="col-auto mx-2 text-decoration-none text-dark link-danger"
           >Parent Page</a
-        >
-        <a
+          >
+          <a
           href="#"
           class="col-auto mx-2 text-decoration-none text-dark link-danger"
           >Contact</a
@@ -56,7 +56,55 @@
     </nav>
 
     <header class="bg-dark row">
-      <div class="carousel slide col-12">Carousel</div>
+      <div id="carousel-images" class="carousel slide px-0">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./starter-code/img/slider-1.jpg" alt="Image" class="d-block w-100">
+                    <div style="background-color: rgba(0,0,0,0.5); position: absolute; inset: 0; z-index: 1;"></div>
+                    <div class="d-flex flex-column align-items-center position-absolute justify-content-center mx-auto text-center text-light" style="inset: 0; z-index: 10; width: 60%;">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, odit?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis praesentium ipsa nemo ducimus ut sed architecto numquam ea minus aliquid similique ratione, et eius officiis cumque. Nostrum ullam dolore corrupti.</p>
+                        <button class="btn btn-outline-light">Read more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./starter-code/img/slider-2.jpg" alt="Image" class="d-block w-100">
+                    <div style="background-color: rgba(0,0,0,0.5); position: absolute; inset: 0; z-index: 1;"></div>
+                    <div class="d-flex flex-column align-items-center position-absolute justify-content-center mx-auto text-center text-light" style="inset: 0; z-index: 10; width: 60%;">
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, ratione!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, maxime. Perferendis nemo necessitatibus totam illum similique amet aspernatur aperiam et consequatur, numquam sed nulla cupiditate dolore ducimus autem esse aliquid.</p>
+                        <button class="btn btn-outline-light">Read more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./starter-code/img/slider-3.jpg" alt="Image" class="d-block w-100">
+                    <div style="background-color: rgba(0,0,0,0.5); position: absolute; inset: 0; z-index: 1;"></div>
+                    <div class="d-flex flex-column align-items-center position-absolute justify-content-center mx-auto text-center text-light" style="inset: 0; z-index: 10; width: 60%;">
+                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consequatur tempore vero impedit velit fuga obcaecati assumenda porro omnis et at aliquid corporis quo veritatis, maiores quae debitis est magnam.</p>
+                        <button class="btn btn-outline-light">Read more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./starter-code/img/slider-4.jpg" alt="Image" class="d-block w-100">
+                    <div style="background-color: rgba(0,0,0,0.5); position: absolute; inset: 0; z-index: 1;"></div>
+                    <div class="d-flex flex-column align-items-center position-absolute justify-content-center mx-auto text-center text-light" style="inset: 0; z-index: 10; width: 60%;">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, consequuntur.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores, fuga vel, nemo possimus cupiditate molestias non soluta amet laboriosam harum voluptas asperiores eos sint architecto sapiente tenetur libero laborum.</p>
+                        <button class="btn btn-outline-light">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-images" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-images" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            
+      </div>
     </header>
 
     <section id="features" class="row bg-danger">Features</section>
