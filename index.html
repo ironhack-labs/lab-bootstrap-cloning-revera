@@ -20,7 +20,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav small">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -126,23 +126,49 @@
     </div>
 
     <div id="services">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col">
-                    One of three columns
+        <div class="row text-center bg-danger border-top border-bottom border-danger-subtle border-5">
+            <div class="col">
+              <div class="card bg-danger border-0 text-white ">
+                <div class="card-body my-4 px-5">
+                  <p class="card-title display-6">Web design</p>
+                  <p class="card-text small">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. 
+                    Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+                  
                 </div>
-                <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
-                </div>
+              </div>
             </div>
-        </div>
+            <div class="col">
+              <div class="card bg-danger border-0 text-white">
+                <div class="card-body my-4 px-5">
+                  <p class="card-title display-6">Web development</p>
+                  <p class="card-text small">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. 
+                    Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card bg-danger border-0 text-white">
+                  <div class="card-body my-4 px-5">
+                    <p class="card-title display-6">User interface</p>
+                    <p class="card-text small">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. 
+                        Praesent non enim et magna congue gravida.</p>
+                   
+                  </div>
+                </div>
+              </div>
+          </div>
     </div>
 
-    <div id="cards">
-        <div id="latestProjects">
+    <div class="cardsSection"> <!-- padding for entire section? -->
+        <div class="latestProjects">
+            <div class="mt-5 mb-4"> 
+                <p class="h3">LATEST PROJECTS</p>
+                <p class="h5 text-muted">FEW OF THE LATEST PORTFOLIO ITEMS</p>
+                <hr>
+            </div>
+
+
             <!-- <div class="container text-center">
                 <div class="row">
                     <div class="col">col</div>
@@ -151,36 +177,36 @@
                     <div class="col">col</div>
                 </div> -->
 
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-6 g-4 ">
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card border-0">
+                            <img src="./starter-code/img/project-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Nunc libero elit, iaculis nec augue non</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card border-0">
+                            <img src="./starter-code/img/project-2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Phasellus aliquet iaculis neque accumsan aliquam</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card border-0">
+                            <img src="./starter-code/img/project-3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Vivamus blandit ipsum sed arcu euismod</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card border-0">
+                            <img src="./starter-code/img/project-4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h5>
                             </div>
                         </div>
                     </div>
@@ -190,9 +216,14 @@
         </div>
         
         <div id="latestArticles">
+            <div class="mt-5 mb-4"> 
+                <p class="h3">LATEST ARTICLES</p>
+                <p class="h5 text-muted">LATEST POSTS FROM THE BLOG</p>
+                <hr>
+            </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card border-0">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -202,7 +233,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card border-0">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -212,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card border-0">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -222,7 +253,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card border-0">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
