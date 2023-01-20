@@ -11,16 +11,10 @@
     background-color: #fff;
 }
 
-.navbar {
-    padding: 15px;
+.link-secondary {
+    text-decoration: none;
 }
 
-/* .copywriteContent {
-    font-size: 20px;
-    border: black;
-} */
-.test {
-    font-size: 20px;
-    border: black;
+a {
+    text-decoration: none;
 }
-
