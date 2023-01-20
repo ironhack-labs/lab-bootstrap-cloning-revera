@@ -46,11 +46,18 @@
           class="col-auto mx-2 text-decoration-none text-dark link-danger"
           >Blog</a
         >
-        <a
-          href="#"
-          class="col-auto mx-2 text-decoration-none text-dark link-danger"
-          >Parent Page</a
-        >
+        <div class="dropdown">
+          <a class="dropdown-toggle col-auto mx-2 text-decoration-none text-dark link-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Parent Page
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item pb-2" style="border-bottom: 1px solid grey" href="#">Full Page</a></li>
+            <li><a class="dropdown-item py-2" style="border-bottom: 1px solid grey" href="#">Child Page One</a></li>
+            <li><a class="dropdown-item pt-2" href="#">Child Page Two</a></li>
+          </ul>
+        </div>
+        
         <a
           href="#"
           class="col-auto mx-2 text-decoration-none text-dark link-danger"
@@ -60,7 +67,7 @@
     </nav>
 
     <header class="bg-dark row">
-      <div id="carousel-images" class="carousel slide carousel-fade px-0">
+      <div id="carousel-images" class="carousel slide carousel-fade p-0">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -340,9 +347,56 @@
       </div>
     </section>
 
-    <footer class="row">
-      <div id="footer" class="bg-dark col-12">Footer</div>
-      <div id="copyright" class="bg-secondary col-12">Copyright</div>
+    <footer class="bg-dark row"  style="opacity: 0.9">
+      <div class="row text-white p-5 mx-auto" style="max-width: 1200px">
+        <div class="col-3" >
+          <h5 class="mb-4">
+            REVERA
+          </h5>
+          <p  style="opacity: 0.5; font-size: 14px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit recusandae sit a, omnis quos quaerat! Rem necessitatibus illum quia voluptatum neque repudiandae ad earum architecto doloremque! Nihil doloribus accusantium blanditiis delectus culpa, sit, est illo omnis animi eveniet rerum.
+          </p>
+        </div>
+        <div class="col-3" >
+          <h5 class="mb-4">
+            META
+          </h5>
+          <ul class="list-unstyled " style="opacity: 0.5; font-size: 14px">
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Log in</li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Entries <abbr title="Really Simple Syndication">RSS</abbr></li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Comments <abbr title="Really Simple Syndication">RSS</abbr></li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">WordPress.org</li>
+          </ul>
+        </div>
+        <div class="col-3" >
+          <h5 class="mb-4">
+            ARCHIVES
+          </h5>
+          <p  class="pb-2 mb-2" style="opacity: 0.5; font-size: 14px; border-bottom: 1px dotted lightslategrey">
+            August 2013
+            </p>
+        </div>
+        <div class="col-3" >
+          <h5 class="mb-4">
+            RECENT POSTS
+          </h5>
+          <ul class="list-unstyled " style="opacity: 0.5; font-size: 14px">
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quia!</li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quia!</li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quia!</li>
+            <li class="pb-2 mb-2" style="border-bottom: 1px dotted lightslategrey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quia!</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row m-0 bg-black" >
+        <div class="mx-auto" style="max-width: 1200px">
+          <div id="copyright" class="text-white col-12 p-3">
+            Copyright &#169; 2018 revera - Just another demo Sites site.
+            <br>
+            | Revera Theme
+          </div>
+        </div>
+      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
