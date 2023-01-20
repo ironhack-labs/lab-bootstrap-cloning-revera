@@ -1,0 +1,7 @@
+.card-group{
+    width: 80%;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
