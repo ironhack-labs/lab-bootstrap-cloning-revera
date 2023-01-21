@@ -1,7 +1,64 @@
-.card-group{
-    width: 80%;
+* {
+  margin: 0;
+}
+
+.card-group {
+  width: 90%;
 }
 section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#imTooTiredForThisLittleSection {
+  display: flex;
+  justify-content: flex-start;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-caption {
+  width: 50%;
+  margin: auto;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item > img {
+  height: 600px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.red-hr {
+  margin: 0;
+  border:2px solid red;
+}
+
+.next{
+    padding: 20px;
+}
+
+.section.title{
+    width:50%;
+}
+
+.card-text{
+    font-size: 0.9em !important
+}
+
+.nav-item{
+    font-size: 0.9em !important
+
 }
