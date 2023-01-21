@@ -1,3 +1,11 @@
 .navbar-brand {
     padding: 15%;
 }
+
+.carousel-container {
+    width: 100%;
+}
+
+.text-center {
+    height: 200px;
+}
