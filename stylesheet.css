@@ -9,3 +9,16 @@
 .text-center {
     height: 200px;
 }
+
+.card-body {
+    border: none;
+}
+
+
+.col-sm-3 {
+    border: none;
+}
+
+.card {
+    border: none;
+}
