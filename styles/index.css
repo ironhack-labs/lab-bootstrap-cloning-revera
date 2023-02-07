@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+.home-photo{
+    background-attachment: contain;
+	background-size: cover;
+    
+}
+
+.navbar{
+}
+
+.container-fluid{
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.project-image{
+    width: 60%;
+}
+
+.iconos-div{
+    background-color: #ED554A;
+    padding: 40px 0px;
+    color: white;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 140%;
+}
+
+h6{
+    margin-top: 20px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+b{
+    color: #ED554A;
+}
+
+.nav-item{
+    font-size: small;
+}
+
+.text-uppercase{
+    font-size: small;
+}
+
+.links{
+    background-color: #3B3B3B;
+    color: white;
+    font-size:x-small
+}
+
+.card{
+    background-color: #292929;
+    border-radius: 0%;
+}
+
+.my-1{
+    border-style: dotted;
+}
+
+.carousel-control-prev{
+    margin-top: 300px;
+    background-color: #ED554A;
+    height: 100px;
+    width: 60px;
+
+}
+
+.carousel-control-next{
+    margin-top: 300px;
+    background-color: #ED554A;
+    height: 100px;
+    width: 60px;
+}
+
+.d-block{
+    object-fit: cover;
+}
