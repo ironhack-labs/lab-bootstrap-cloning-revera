@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orange;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin-right: 200px;
+  font-size: 24px;
+}
+
+.navBar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.slider {
+  height: 45vh;
+  background-color: brown;
+}
+
+.banners {
+  height: 30vh;
+  background-color: orangered;
+}
+
+.projects {
+  height: 95vh;
+  background-color: bisque;
+}
+
+.contactInfo {
+  height: 30vh;
+  background-color: darkslategray;
+}
+
+.footer {
+  height: 7vh;
+  background-color: darkgrey;
+}
