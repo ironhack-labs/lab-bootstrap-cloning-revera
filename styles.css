@@ -1,0 +1,128 @@
+.navbar-brand{
+    font-size: 5vh;
+    margin-left: 5vw;
+    margin-right: 20vw;
+}
+
+.d-block{
+    filter:grayscale(100)
+}
+.carousel-caption{
+ text-align: center;
+ justify-content: center;
+ margin-bottom:15vh;
+}
+.btn{
+    border-radius: 0;
+    width: 9vw;
+    height:5vh;
+    margin-top: 3vh;
+}
+
+.carousel-control-next-icon{
+    background-color: red;
+    height: 13vh;
+    width: 4vw;
+    margin-right: -11vw;
+    
+}
+.carousel-control-prev-icon{
+    background-color: red;
+    height: 13vh;
+    width: 4vw;
+    margin-left: -11vw;
+    
+}
+
+.three-icons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.759);
+    height: 40vh;
+    color: white;
+    padding: 70px;
+}
+
+.icons-1{
+    color: white;
+    margin-bottom: 3vh;
+    
+}
+
+.red-paragraph{
+    margin-top:2vh;
+}
+
+.latestProjects-1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 9px;
+}
+
+.latestProjects-1-image{
+    width: 17vw;
+    height: 25vh;
+}
+.heading1 {
+    margin-top: 7vh;
+    margin-left: 4vw;;
+}
+
+.heading2{
+    margin-left: 4vw;
+    color: lightgray;
+}
+
+hr{
+    width: 90vw;
+    margin-left: 4vw;
+}
+
+.paragraph2{
+    font-size: 10px;
+}
+
+span{
+    color: red;
+}
+
+.article{
+    width: 270px;
+    height: 50px;
+    font-size: 14px;
+    color:gray;
+}
+
+footer{
+    border-top: 5px solid red;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.743);
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.please{
+    color: gray;
+}
+
+.copyrights {
+    color: white;
+    margin-bottom: -9vh;
+}
+
+.footie{
+    background-color: black;
+}
