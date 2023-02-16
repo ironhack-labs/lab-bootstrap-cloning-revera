@@ -1,0 +1,15 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20% !important;
+  width: 30%;
+  margin: 0;
+  background-color: red !important;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
