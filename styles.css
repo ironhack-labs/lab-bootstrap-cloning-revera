@@ -1,0 +1,16 @@
+.carousel-inner {
+  filter: grayscale(100%);
+}
+
+.card{
+background-color:rgb(237, 86, 75);
+}
+
+.big-container{
+    background-color: rgb(237, 86, 75);
+}
+
+.href{
+    text-decoration: none;
+    color: black;
+}
