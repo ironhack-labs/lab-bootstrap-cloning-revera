@@ -1,0 +1,96 @@
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+  #revera {
+    margin-right: 200px;
+  }
+  #nav-home{
+    color:red;
+  }
+  
+  h5 {
+    overflow-y: hidden;
+  }
+  .awards{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(234, 95, 95);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .img-filter{
+    filter: grayscale(100%)
+  }
+
+.red-awards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.cocktail-img{
+    height: 12vh;
+    margin-bottom: 1vh;
+}
+
+.footer {
+    background-color: rgb(48, 44, 44);
+    height:12vh;
+    
+}
+
+.revera-themes{
+    text-decoration:none;
+    color: antiquewhite;
+    margin-left: 4vw;
+    padding-top: 2vh;
+    font-size: 14px;
+}
+
+.bottom-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(23, 22, 22);
+    border-top: 5px solid red;
+}
+
+.bot-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 22vw;
+    padding-right: 2vw;
+    color: rgb(193, 184, 184);
+}
+
+div h4 {
+    padding-bottom: 4vh;
+}
+
+div a {
+    text-decoration: none;
+    color: rgb(193, 184, 184);
+}
