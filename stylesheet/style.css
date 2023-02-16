@@ -1,0 +1,68 @@
+.navbar-brand{
+    font-size: 5vh;
+    margin-left: 5vw;
+    margin-right: 20vw;
+}
+
+#redBox {
+    background-color: red;
+    color: whitesmoke;
+    text-align: center;
+    font-size: small;
+    
+}
+.carousel-caption{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:15vh;
+   }
+   .btn{
+       border-radius: 0;
+       width: 9vw;
+       height:5vh;
+       margin-top: 3vh;
+   }
+   
+   .carousel-control-next-icon{
+       background-color: red;
+       height: 13vh;
+       width: 4vw;
+       margin-right: -11vw;
+   
+   }
+   .carousel-control-prev-icon{
+       background-color: red;
+       height: 13vh;
+       width: 4vw;
+       margin-left: -11vw;
+   
+   }
+h2{
+    margin-left: 10%;
+}
+p{
+margin-left: 10%;
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    border-top: 5px solid red;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.743);
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+.please{
+    color: gray;
+}
+
+.copyrights {
+    color: white;
+}
