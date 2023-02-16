@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    color: red;
+}
+
+.site-title{
+    color: black;
+}
+
+.img{
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.redbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.botwid ul{
+    list-style-type: none;
+}
+
+.bottomPart{
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #949494;
+}
+
+.site-footer{
+    background: #292929;
+    font-size: 12px;
+    height: 35px;
+    color: white;
+}
+
