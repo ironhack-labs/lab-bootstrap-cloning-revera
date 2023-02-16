@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.doverlay {
+    background-image: url("./starter-code/img/overlay.png");
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+.carousel-item > img {
+    filter: grayscale(100%);
+}
+
+.bottom-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(37, 37, 37);
+    border-top: 5px solid red;
+    margin-top: 3%;
+}
+
+.bot-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 22vw;
+    padding-right: 2vw;
+    color: grey;
+}
+
+.bot-menu-list > a{
+    text-decoration: none;
+    color: grey
+}
+
+.bot-menu-list > h4{
+    color: white
+}
+
+.footer{
+    background-color: rgb(29, 28, 28);
+    
+    
+}
+
+.footer > p {
+    margin-left: 5vw;
+    color: white;
+    
+}
+.footer > p > a{
+    text-decoration: none;
+    color: white;
+}
