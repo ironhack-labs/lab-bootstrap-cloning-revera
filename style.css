@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration:  none;
+    color: black;
+}
+
+#reveranav{
+    font-size: 35px;
+}
+
+#carouselimg{
+    filter: grayscale(100%);
+}
+
+#sliderbuttons{
+    background-color: red;
+}
+
+#section3{
+    background-color: red;
+    color: white;
+    height: 400px;
+}
+
+#white-section-1{
+    display: flex;
+}
+
+#latestprojectsimg{
+    width: 200px;
+}
