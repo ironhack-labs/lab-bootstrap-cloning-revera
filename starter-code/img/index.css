@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.nav-item table {
+  color: grey;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  filter: grayscale(100%);
+}
+
+.row2 {
+  margin-left: 100px;
+}
+
+.footer,
+.text {
+  background-color: rgb(48, 47, 47);
+  color: grey;
+  border-top: 5px solid red;
+  text-decoration: none;
+}
+
+.text2,
+.text3 {
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
