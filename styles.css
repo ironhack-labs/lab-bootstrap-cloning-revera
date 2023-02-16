@@ -2,15 +2,46 @@
   filter: grayscale(100%);
 }
 
-.card{
-background-color:rgb(237, 86, 75);
+.card {
+  background-color: rgb(237, 86, 75);
 }
 
-.big-container{
-    background-color: rgb(237, 86, 75);
+.big-container {
+  background-color: rgb(237, 86, 75);
 }
 
-.href{
-    text-decoration: none;
-    color: black;
+.href {
+  text-decoration: none;
+  color: black;
+}
+
+.hrRed {
+  border: 10px solid #dc6153;
+  margin-bottom: 5px;
+}
+
+.bottom-bar {
+  background-color: #3b3b3b;
+}
+.footer {
+  background-color: #292929;
+}
+
+.copyright {
+  color: white;
+}
+
+.card-body {
+  color: white;
+}
+
+.card-body-bottom {
+  color: white;
+}
+.card-body-bottom a {
+  color: white;
+}
+
+.h6 {
+  color: grey;
 }
