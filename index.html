@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="px-28 py-10 grid grid-flow-col">
+      <div class="">
+        <p>Revera</p>
+      </div>
+      <ul class="flex justify-evenly">
+        <li>Home</li>
+        <li>About</li>
+        <li>Sample Page</li>
+        <li>Portfolio</li>
+        <li>Blog</li>
+        <li>Parent Page</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <!-- <div class="h-[70rem]">
+      <div class="bg-[url('/starter-code/img/project-3.jpg')] bg-no-repeat bg-cover h-1/2 "></div>
+    </div> -->
+    <div class="carousel w-full h-[30rem]">
+      <div id="slide1" class="carousel-item relative w-full overflow-hidden ">
+        <div class="w-full h-full flex items-center relative ">
+          <div class="absolute flex flex-col  w-full text-center px-28  ">            
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi rem velit unde accusantium temporibus quo sapiente esse repellat facere ex aliquam, consequatur placeat officiis corporis odit. Non, repellat quo!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi consequatur alias at maxime autem quaerat, possimus adipisci a, et fugit voluptates doloremque. Commodi voluptate similique non doloremque id repellat tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id porro fugiat aut dolorum adipisci. Explicabo, voluptatum deleniti! Eius laborum culpa placeat animi, saepe ex ipsum eveniet itaque doloribus ducimus minima.</p>
+        </div>
+          <img src="/starter-code/img/project-1.jpg" class="w-full h-min" />
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full overflow-hidden ">
+        <div class="w-full h-full flex items-center">
+          <div class="absolute flex flex-col  w-full text-center px-28  ">            
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi rem velit unde accusantium temporibus quo sapiente esse repellat facere ex aliquam, consequatur placeat officiis corporis odit. Non, repellat quo!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi consequatur alias at maxime autem quaerat, possimus adipisci a, et fugit voluptates doloremque. Commodi voluptate similique non doloremque id repellat tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id porro fugiat aut dolorum adipisci. Explicabo, voluptatum deleniti! Eius laborum culpa placeat animi, saepe ex ipsum eveniet itaque doloribus ducimus minima.</p>
+          </div>
+          <img src="/starter-code/img/project-2.jpg" class="w-full h-min" />
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide3" class="carousel-item relative w-full overflow-hidden">
+        <div class="w-full h-full flex items-center">
+          <div class="absolute flex flex-col  w-full text-center px-28  ">            
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi rem velit unde accusantium temporibus quo sapiente esse repellat facere ex aliquam, consequatur placeat officiis corporis odit. Non, repellat quo!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi consequatur alias at maxime autem quaerat, possimus adipisci a, et fugit voluptates doloremque. Commodi voluptate similique non doloremque id repellat tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id porro fugiat aut dolorum adipisci. Explicabo, voluptatum deleniti! Eius laborum culpa placeat animi, saepe ex ipsum eveniet itaque doloribus ducimus minima.</p>
+          </div>
+        <img src="/starter-code/img/project-3.jpg" class="w-full h-min" />
+      </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide4" class="carousel-item relative w-full overflow-hidden">
+        <div class="absolute flex flex-col  w-full text-center px-28  ">            
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi rem velit unde accusantium temporibus quo sapiente esse repellat facere ex aliquam, consequatur placeat officiis corporis odit. Non, repellat quo!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi consequatur alias at maxime autem quaerat, possimus adipisci a, et fugit voluptates doloremque. Commodi voluptate similique non doloremque id repellat tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id porro fugiat aut dolorum adipisci. Explicabo, voluptatum deleniti! Eius laborum culpa placeat animi, saepe ex ipsum eveniet itaque doloribus ducimus minima.</p>
+        </div>
+        <img src="/starter-code/img/project-4.jpg" class="w-full h-min" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-red-500 h-72 flex px-28 justify-around ">
+      <div class="flex flex-col items-center text-center py-4">
+        <span class="p-4 rounded-full border-2">
+        <svg class="h-8 w-8 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>
+      </span>
+        <p>Web design</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+      </div>
+      <div class="flex flex-col items-center text-center py-4">
+        <span class="p-4 rounded-full border-2">
+        <svg class="h-8 w-8 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>
+      </span>
+        <p>Web development</p>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+      </div>
+      <div class="flex flex-col items-center text-center py-4">
+        <span class="p-4 rounded-full border-2">
+        <svg class="h-8 w-8 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>
+      </span>
+        <p>User interface</p>
+        <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+      </div>
+    </div>
+    <div class="py-8 px-48 ">
+       <div>
+        <p>LATEST ARTICLES
+        </p>
+        <p>LATEST POSTS FROM THE BLOG
+        </p>
+       </div>
+       <hr/>
+       <div class="flex">
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-1.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-2.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-3.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-4.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+      </div>
+    </div>
+    <div class="py-8 px-48 ">
+       <div>
+        <p>Latest Projects</p>
+        <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+       </div>
+       <hr/>
+       <div class="flex">
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-1.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-2.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-3.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+       <div class="p-8 w-72">
+        <img src="/starter-code/img/project-4.jpg" class="w-48   h-min" />
+        <p class="text-sm	">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet voluptas eaque quod,</p>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
