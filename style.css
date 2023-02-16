@@ -1,3 +1,11 @@
+.red-center-images {
+  width: 30%;
+  padding: 20px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: auto;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 20% !important;
