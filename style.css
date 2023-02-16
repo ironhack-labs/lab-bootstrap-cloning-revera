@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+#nav-bar {
+  padding-right: 10vw;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  padding-left: 10vw;
+}
+
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100vw;
+}
+
+svg {
+  width: 3vw;
+  height: auto;
+}
+
+footer {
+  border-top: 5px solid #ed564b;
+  margin-bottom: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 50px;
+  margin: 0;
+  background-color: #ed564b;
+}
+
+#section2 {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  background-color: #ed564b;
+}
+
+.title-padding {
+  padding-left: 5vw;
+  padding-top: 3vh;
+}
+
+.copyright {
+
+  padding-left: 5vw;
+  background-color: black;
+  padding-bottom: 5vh;
+  padding-top: 2vh;
+}
