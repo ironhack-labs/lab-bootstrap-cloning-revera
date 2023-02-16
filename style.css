@@ -21,3 +21,29 @@
 .carousel-control-next {
   justify-content: flex-end;
 }
+
+.footer-top {
+  background-color: rgb(60, 60, 60);
+}
+
+.footer-bottom {
+  background-color: rgb(50, 50, 50);
+}
+
+.carousel-item > img {
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  padding-bottom: 10%;
+  width: 50%;
+  margin: auto;
+}
+
+.button-carousel {
+  height: 35px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 5px 15px;
+}
