@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin-left: 100px;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.carousel img {
+    filter: grayscale(80);
+    object-fit: cover;
+}
+
+.icon-section {
+    background-color: #ed564b;
+    color: white;
+    padding: 4em ;
+    text-align: center;
+    font-size: 12px;
+}
+
+.projects {
+    padding: 4em;
+}
+
+.projects article p {
+    padding: 1.5em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.article {
+    font-size: 14px;
+    padding-bottom: 4em;
+}
+img {
+    width: 100%;
+}
+
+.bottom {
+    background-color: #3b3b3b;
+    border-top: 4px solid #ed564b;
+}
+
+#copyright {
+    font-size: x-small;
+}
+
+
+
+
