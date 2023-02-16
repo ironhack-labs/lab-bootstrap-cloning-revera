@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.home{
+#home{
     color: red;
 }
 
@@ -41,4 +41,5 @@ body{
     height: 35px;
     color: white;
 }
+
 
