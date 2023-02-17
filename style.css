@@ -29,7 +29,10 @@
     justify-content: space-around;
 }
 
-
+.image-circle{
+  border:5px solid white;
+  border-radius: 50%;
+}
 
 .firstRow{
     width: 350px;
