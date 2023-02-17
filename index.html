@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid col-sm-4 justify-content-center">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-right col-sm-8"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link active" aria-current="page" href="#"
+            >Sample page</a
+          >
+          <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Parent Page
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade position-relative"
+      data-bs-ride="carousel"
+    >
+      <img src="/starter-code/img/overlay.png" class="position-absolute" />
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/starter-code/img/slider-1.jpg"
+            class="d-block w-100 position-relative grayscale"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/starter-code/img/slider-2.jpg"
+            class="d-block w-100 position-relative grayscale"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/starter-code/img/slider-3.jpg"
+            class="d-block w-100 position-relative grayscale"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/starter-code/img/slider-4.jpg"
+            class="d-block w-100 position-relative grayscale"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev buttonLeft position-absolute top-50 start-0 translate-middle"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next position-absolute buttonRight"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="box">
+      <div>
+        <img src="/starter-code/img/cup.png" alt="cup" />Web Design
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          culpa odio nemo quasi voluptatum beatae atque, ea numquam sapiente
+          quia quo reprehenderit tenetur eveniet saepe esse cum non dolorum vel.
+        </p>
+      </div>
+      <div>
+        <img src="/starter-code/img/star.png" alt="cup" />Web development
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          culpa odio nemo quasi voluptatum beatae atque, ea numquam sapiente
+          quia quo reprehenderit tenetur eveniet saepe esse cum non dolorum vel.
+        </p>
+      </div>
+      <div>
+        <img src="/starter-code/img/heart.png" alt="cup" />User Interface
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          culpa odio nemo quasi voluptatum beatae atque, ea numquam sapiente
+          quia quo reprehenderit tenetur eveniet saepe esse cum non dolorum vel.
+        </p>
+      </div>
+    </div>
+    <section id="section1">
+      <div class="title-div">
+        <h3>Latest Projects</h3>
+        <h6>FEW OF THE LATEST PORTFOLIO ITEMS</h6>
+      </div>
+
+      <div class="flexCenas d-flex align-items-center justify-content-between">
+        <div class="div1">
+          <img src="/starter-code/img/project-1.jpg" alt="Muscles" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="div2">
+          <img src="/starter-code/img/project-2.jpg" alt="Muscles" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="div3">
+          <img src="/starter-code/img/project-3.jpg" alt="Muscles" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="div4">
+          <img src="/starter-code/img/project-4.jpg" alt="Muscles" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="d-flex flex-column mb-2 section2">
+      <div class="title-div">
+        <h3>Latest Projects</h3>
+        <h6>FEW OF THE LATEST PORTFOLIO ITEMS</h6>
+      </div>
+
+      <div class="flexCenas d-flex align-items-center justify-content-between">
+        <div class="div1">
+          <img src="/starter-code/img/slider-1.jpg" alt="Muscles" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum
+            dolorum eveniet itaque adipisci explicabo, alias accusamus dolores
+            tenetur quia? Rem dicta vitae labore tempora mollitia quaerat
+            eligendi tempore officiis!
+          </p>
+        </div>
+        <div class="div2">
+          <img src="/starter-code/img/slider-2.jpg" alt="Muscles" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sed
+            alias quisquam facere mollitia! Mollitia qui voluptate nobis ullam,
+            vel nihil ratione corrupti id repellat provident beatae cum debitis
+            distinctio.
+          </p>
+        </div>
+        <div class="div3">
+          <img src="/starter-code/img/slider-3.jpg" alt="Muscles" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            aliquam minima. Sit nihil quae ipsum praesentium blanditiis eius
+            perferendis, iure dolorum a quis sed itaque optio? Doloremque
+            dolorum optio eaque.
+          </p>
+        </div>
+        <div class="div4">
+          <img src="/starter-code/img/slider-4.jpg" alt="Muscles" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In et
+            aspernatur sequi delectus debitis dolore voluptates. Quae sequi
+            velit distinctio harum similique dicta? Cupiditate iure voluptatibus
+            nisi, porro ipsum quas?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="div3 d-flex flex-row mb-4 justify-content-between">
+        <div>
+          <h3>Revera</h3>
+          <p class="flexCenas1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+            architecto nihil voluptates nemo quam! Placeat voluptatem est
+            magnam. Saepe odit necessitatibus tempore eaque nam iste corrupti
+            suscipit facilis optio enim!
+          </p>
+        </div>
+        <div>
+          <h6>META</h6>
+          <ul>
+            <li>Login</li>
+            <li>Entries RSS</li>
+            <li>Comments RSS</li>
+            <li>WordPress.org</li>
+          </ul>
+        </div>
+        <div>
+          <h6>ARCHIVES</h6>
+        </div>
+        <div>
+          <h6>RECENT POSTS</h6>
+          <ul>
+            <li>Bootstrap</li>
+            <li>é</li>
+            <li>muito</li>
+            <li>muito</li>
+            <li>chato</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="text-white bg-dark">
+      <p class="footer">Developed by Miguel Jesus</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

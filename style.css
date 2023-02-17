@@ -1,0 +1,126 @@
+.buttonLeft{
+    background-color: #ED564B;
+    margin-left: 25px;
+    height: 100px;
+    width: 50px;
+}
+
+.buttonRight{
+    height: 100px;
+    width: 50px;
+    background-color: #ED564B;
+    top:43%;
+}
+
+.carousel-item:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;    
+    background-image: url("/starter-code/img/overlay.png");
+}
+
+.grayscale{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+}
+
+/* .cao{
+    z-index: 1;
+} */
+.overlay{
+    z-index: 1070;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e43529;
+}
+.box > div{
+    display:flex;
+    flex-direction: column;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #ED564B;
+    color: white;
+}
+.box > div > img {
+    margin: 10px;
+    align-self: center;
+    height:80px;
+    width:80px;
+}
+.box > div > p {
+    padding: 45px;
+}
+#section1{
+    /*   */
+    display: flex;
+    flex-direction: column;
+}
+/* .flexCenas{ */
+    /* padding-top: 15px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-content: center; */
+/* }  */
+/* .div1, .div2, .div3, .div4 {
+   width: 242px;
+   height: 202px;
+} */
+/* .div2, .div3{
+    align-content: center;
+}
+.div4{
+    align-content: flex-start;
+} */
+.title-div{
+    padding: 50px 0px 15px 100px;
+    margin-right: 50px;
+}
+
+.flexCenas{
+    border-top: solid rgba(128, 128, 128, 0.3);
+    margin: 0 100px;
+    padding-top: 15px;
+}
+.flexCenas > div > img{
+    width: 212px!important;
+    height: 141px!important;
+}
+.flexCenas > div > p {
+    width: 212px!important;
+    height: 141px!important;
+}
+
+.section2{
+    margin-bottom: 40px!important;
+} 
+
+.flexCenas1{
+    width: 212px!important;
+    height: 141px!important;
+}
+.section3{
+    height: 286px!important;
+    padding-top: 25px!important;
+    border-top: solid #ED564B!important;
+    background-color: #3B3B3B!important;
+    color: white;
+}
+.div3{
+    padding: 0px 100px!important;
+}
+.div3 > div{
+    width: 212px!important;
+    height: 141px!important;
+}
+
+.footer{
+    padding-left: 100px!important;
+}
