@@ -2,36 +2,11 @@
   filter: grayscale(100%);
 }
 
-.container {
-  background-color: #ed564b;
-/*   height: 150px; */
-/*   border-top: 5px #ee695f;
-  border-bottom: 5px #ee695f; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.messages {
-  text-align: center;
-  justify-content: space-between;
-  margin:20px 30px;
-  padding: 40px 0px;
-  color: white;
-}
-
 .sport{
     margin-left: 60px;
     justify-content: center;
     display: flex;
     justify-content: space-around;
-}
-
-.image-circle{
-  border:5px solid white;
-  border-radius: 50%;
 }
 
 .firstRow{
