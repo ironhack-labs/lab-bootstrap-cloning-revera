@@ -1,0 +1,22 @@
+#middleSection{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+
+
+p {
+    padding-top: 15px;
+}
+
+h4 {
+    padding-top: 15px;
+}
+
+a{
+   color: rgb(135, 132, 132);
+    text-decoration: dotted;
+    display: block;
+    padding-top: 15px;
+}
