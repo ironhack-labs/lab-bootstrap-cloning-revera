@@ -1,0 +1,23 @@
+{
+  "name": "lab-bootstrap-cloning-revera",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cocalynn/lab-bootstrap-cloning-revera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cocalynn/lab-bootstrap-cloning-revera/issues"
+  },
+  "homepage": "https://github.com/Cocalynn/lab-bootstrap-cloning-revera#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
