@@ -1,0 +1,129 @@
+#page {
+    height: 100vh;
+}
+
+#masthead {
+    height: 90px
+}
+
+#slidebox {
+    height: 550px;
+    background-color: grey;
+}
+
+.fwidgets{
+    height: 316px;
+    background-color: #ed564b;
+}
+
+#content{
+    height: 1128px;
+}
+
+#bottom {
+    height: 352px;
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    padding: 20px
+
+}
+footer {
+    height: 78px;
+    background-color: #292929;
+}
+
+.dropdown .dropdown-menu {
+    visibility: hidden;
+    display: block;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out
+}
+
+.carousel-item img {
+    max-height: 550px;
+    width: 600px;
+}
+
+.homewidget{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+
+}
+
+.htumb a img {
+
+}
+
+.boxitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.postbox, .portbox {
+    width: 300px;
+
+    padding: 10px;
+}
+
+.postbox h3, .postbox h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.portbox h3 {
+    font-size: 14px;
+}
+
+.postbox p {
+    font-size: 12px;
+}
+
+.postbox h4 {
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#red {
+    color: #ed564b;
+}
+
+.postbox, .portbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botwid {
+    color: white
+}
+
+.botwid h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.botwid p {
+    font-size: 14px;
+}
+
+.textwidget ul li {
+    border-bottom: 1px solid white;
+}
