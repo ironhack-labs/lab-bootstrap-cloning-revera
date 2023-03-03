@@ -18,6 +18,9 @@
 
 #content{
     height: 1128px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px
 }
 
 #bottom {
@@ -45,9 +48,8 @@ footer {
     transition: opacity 0.5s ease-in-out
 }
 
-.carousel-item img {
-    max-height: 550px;
-    width: 600px;
+.carousel-item img{
+   height: 550px
 }
 
 .homewidget{
@@ -62,9 +64,7 @@ footer {
 
 }
 
-.htumb a img {
 
-}
 
 .boxitems {
     display: flex;
@@ -72,13 +72,12 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 0;
 }
 
 .postbox, .portbox {
     width: 300px;
-
-    padding: 10px;
+    padding:5px
 }
 
 .postbox h3, .postbox h4 {
@@ -126,4 +125,21 @@ footer {
 
 .textwidget ul li {
     border-bottom: 1px solid white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.section-wide h2, .section-wide.sec h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase
+    ;
 }
