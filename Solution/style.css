@@ -1,0 +1,253 @@
+body {
+    font-size: 16px;
+    color: #606060;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.branding {
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin: 20px;
+    padding: 0 0px;
+    list-style: none;
+    float: left;
+    width: auto;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-weight: 400;
+    color: #fff;
+}
+
+.menu li a {
+    margin: 0;
+    padding: 19px 10px 19px 10px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    color: #777;
+}
+
+.menu li.active a {
+    color: #ed564b;
+}
+
+.site-title {
+    margin-top: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.site-title a {
+    color: #000;
+}
+
+a:visited,
+active,
+a:hover {
+    color: #f4473a;
+}
+
+#main-pic {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+}
+
+.slides {
+    margin: 0;
+    padding: 0;
+}
+
+.slides li {
+    list-style: none;
+    position: relative;
+}
+
+.slides li figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.slides-caption {
+    width: 800px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+    z-index: 120;
+    color: #fff;
+}
+
+.slides-caption h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-btn {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.overlay {
+    background: url("img/overlay.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+#widgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.widget {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.widget h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon-border {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.blog-item h3,
+.project-item h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.blog-item h3 {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.blog-item footer {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog-item p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.projects-title {
+    margin: 40px 0;
+}
+
+.projects-title h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.projects-title h2 {
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#site-info {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: #aaa;
+    font-size: 14px;
+}
+
+#site-info h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    height: 100%;
+    line-height: 18px;
+    clear: left;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+}
+
+.footer-menu li a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    display: block;
+}
+
+#legal {
+    padding: 20px 0px;
+    background: #292929;
+    font-size: 12px;
+}
+
+#main-pic {
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+}
