@@ -1,91 +1,192 @@
 /* CSS reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* CSS reset end */
-
-body{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-#navigation-bar{
-    display: flex;
-    width: 100%;
-    height: 90px;
-    background-color: white;
+/*------------- CSS reset end --------------*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#slider{
-    width: 100%;
-    height: 480px;
-    background-color: grey;
+#navigation-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: white;
 }
 
-#key-points{
-    width: 100%;
-    height: 250px;
-    padding: 40px;
-    border: 5px;
-    background-color: lightcoral;
+.brandName {
+ text-decoration: none;
+ color: black;
 }
 
-#main-latest{
-    width: 100%;
-    height: 1175px;
-
+.nav-link:hover {
+  color: red !important;
+}
+.nav-link .active {
+  color: blue !important;
 }
 
-footer{
-    width:100%;
-    height: 320px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    border: 5px;
-    background-color: black;
+.nav .nav-item .nav-link {
+  color: grey;
 }
 
-#copyright{
-    height: 60px;
-    width: 100%;
-    background-color: darkgray;
+#slider {
+  width: 100%;
+  height: 480px;
+  background-color: grey;
+  background-image: url("https://web.archive.org/web/20170607093310im_/http://demo.fabthemes.com/revera/files/2013/08/4203004253_2f65aff7be_o-1280x550.jpg");
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+#key-points {
+  width: 100%;
+  height: 250px;
+  padding: 40px;
+  border: 5px;
+  background-color: lightcoral;
+}
+
+#main-latest {
+  width: 100%;
+  height: 1175px;
+}
+
+footer {
+  width: 100%;
+  height: 320px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border: 5px;
+  background-color: black;
+}
+
+#copyright {
+  height: 60px;
+  width: 100%;
+  background-color: darkgray;
 }
