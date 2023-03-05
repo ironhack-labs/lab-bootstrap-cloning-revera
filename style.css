@@ -1,132 +1,8 @@
-/* CSS reset */
-html,
 body,
-div,
-span,
-applet,
-object,
-iframe,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*------------- CSS reset end --------------*/
-
-body {
+p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -139,8 +15,8 @@ body {
 }
 
 .brandName {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .nav-link:hover {
@@ -164,11 +40,12 @@ body {
 }
 
 #key-points {
-  width: 100%;
+  width: 100% !important;
   height: 250px;
-  padding: 40px;
-  border: 5px;
-  background-color: lightcoral;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
 }
 
 #main-latest {
@@ -181,12 +58,12 @@ footer {
   height: 320px;
   padding-top: 20px;
   padding-bottom: 40px;
-  border: 5px;
-  background-color: black;
+  background-color: #3b3b3b;
+  border-top: 5px solid #ed564b;
 }
 
 #copyright {
   height: 60px;
   width: 100%;
-  background-color: darkgray;
+  background-color: #292929;
 }
