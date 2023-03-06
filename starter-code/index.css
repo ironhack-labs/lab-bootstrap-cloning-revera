@@ -1,0 +1,319 @@
+.titulo{
+    margin-top: 20px;
+}
+
+.menu{
+    margin-top:-45px ;
+    margin-left: 700px;
+    font-size: 14px;
+}
+
+.home{
+    color: orangered;
+}
+
+.carrusel img{
+    -webkit-filter: grayscale(1); 
+    filter: gray; 
+    filter: grayscale(1); 
+    opacity: 0.9;
+    margin-top: 50px;
+}
+
+.texto{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.texto button{
+    color: gray;
+    border: gray;
+}
+
+.rectangulo{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    opacity: .6;
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+}
+
+.uno{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 210px;
+    font-size: 40px;
+}
+
+.unoUno{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 40px;
+    margin-right: 1450px;
+    text-align: center;
+}
+
+.dos{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 770px;
+    color: white;
+    font-size: 40px;
+}
+
+.dosDos{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 600px;
+    margin-right: 750px;
+    text-align: center;
+    color: white;
+}
+
+.tres{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 1460px;
+    color:white;
+    font-size: 40px;
+}
+
+.tresTres{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1300px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+
+.linea {
+    border-top: 1px solid grey;
+    height: 3px;
+    max-width: 1730px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .figure1{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+  }
+
+  .figure2{
+    margin-top: -315px;
+    margin-left: 540px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+  }
+
+  .figure3{
+    margin-top: -335px;
+    margin-left: 980px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+  }
+
+  .figure4{
+    margin-top: -320px;
+    margin-left: 1420px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+  }
+
+  .figure5{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: auto;
+  }
+
+  .figure6{
+    margin-top: -255px;
+    margin-left: 540px;
+    width: 400px;
+    height: auto;
+  }
+
+  .figure7{
+    margin-top: -255px;
+    margin-left: 980px;
+    width: 400px;
+    height: auto;
+  }
+
+  .figure8{
+    margin-top: -255px;
+    margin-left: 1420px;
+    width: 400px;
+    height: auto;
+  }
+  
+  .t1{
+    position: absolute;
+    
+  }
+
+  .recRojo{
+    margin-top: 350px;
+    width: 100%;
+    height: 8px;
+    background-color: red;
+  }
+
+  .rectanguloDos{
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+
+  .rectanguloFinal{
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+  }
+
+  .tx1{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .tx1 strong{
+    font-size: 40px;
+  }
+
+  .art{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .art strong{
+    font-size: 40px;
+  }
+
+  .fecha1{
+    margin-top: 10px;
+  }
+
+  .tUno{
+    margin-top: 10px;
+    margin-left:0px;
+    margin-right: 1500px;
+    text-align: justify;
+  }
+
+  .fecha2{
+    margin-top: 10px;
+  }
+
+  .tDos{
+    margin-top: 10px;
+    margin-left:0px;
+    margin-right: 1050px;
+    text-align: justify;
+  }
+
+  .fecha3{
+    margin-top: 10px;
+  }
+
+  .tTres{
+    margin-top: 10px;
+    margin-left:0px;
+    margin-right: 610px;
+    text-align: justify;
+  }
+ 
+  .fecha4{
+    margin-top: 10px;
+  }
+
+  .tCuatro{
+    margin-top: 10px;
+    margin-left:0px;
+    margin-right: 170px;
+    text-align: justify;
+  }
+ 
+  .r{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .m{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 100px;
+  }
+
+  .a{
+    position: absolute;
+    margin-left: 990px;
+    margin-top: 100px;
+  }
+
+  .re{
+    position: absolute;
+    margin-left: 1420px;
+    margin-top: 100px;
+  }
+
+  .tCinco{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 1520px;
+   
+  }
+
+  .solapa2{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 150px;
+    margin-right: 300px;
+  }
+
+  .linea3 {
+    border-top: 1px solid white;
+    height: 3px;
+    max-width: 1200px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .aAug{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 150px;
+  }
+
+  .reCero{
+    margin-left: 1420px;
+    margin-top: 150px;
+    margin-right:155px;
+  }
+
+  .linea4 {
+    border-top: 1px solid white;
+    height: 3px;
+    max-width: 400px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
