@@ -1,0 +1,40 @@
+.banner {
+
+
+    z-index: 1;
+}
+
+.redContainer {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.redContainer li {
+    color: white;
+}
+
+.footer {
+    background-color: rgb(69, 72, 75);
+    color: white
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer hr {
+    border-top: dotted 1px
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+
+}
+
+.copyright span {
+    display: block;
+}
