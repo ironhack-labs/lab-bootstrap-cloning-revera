@@ -2,3 +2,19 @@
   position: relative;
   margin: 0 auto;
 }
+
+.card a,
+footer a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+footer li {
+  padding: 0;
+  border-bottom: 1px dotted currentColor;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
