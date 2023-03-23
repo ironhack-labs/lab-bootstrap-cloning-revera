@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color: rgb(218, 215, 215);
+}
+
+.navbar-brand {
+    margin-right: 525px;
+    font-size: 2.2em;
+}
+
+.container-marketing {
+    padding: 20px;
+    background-color: rgb(243, 65, 65);
+}
