@@ -1,0 +1,18 @@
+.text-center-red {
+background-color: rgb(235, 68, 68);
+color: white;
+
+
+}
+.red{
+    background-color: rgb(235, 68, 68);
+    color: white;
+}
+
+img.grayscale  {
+    filter: grayscale(100%);
+}
+.carousel-inner {
+    background-image: url(./starter-code/img/overlay.png);
+
+}

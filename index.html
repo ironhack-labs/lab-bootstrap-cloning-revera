@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Revera page replicate</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">REVERA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sample page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Parent page
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Full page</a></li>
+                            <li><a class="dropdown-item" href="#">Chilled page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Chiled page 2</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./starter-code/img/slider-1.jpg" class="d-block w-100 img-fluid grayscale"
+                    alt="kitten & puppy">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit
+                        orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero
+                        nunc.
+
+                        Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam. Quisque augue ligula, viverra
+                        ac tempus id, dapibus a urna! Suspendisse bibendum placerat mattis. Etiam pulvinar, felis ut
+                        tempor lacinia, ipsum lacus posuere nulla, a bibendum metus metus ac ipsum. Sed nec mauris
+                        placerat; accumsan metus a, mollis ligula. Cras aliquet venenatis porttitor. Donec rutrum sapien
+                        et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
+                        Praesent non enim et magna congue gravida. Duis hendrerit sapien nec imperdiet ornare! Aliquam
+                        id sapien lacinia nisl ultrices molestie. Nullam nec viverra purus, et vulputate est. Nullam
+                        fringilla nibh eu odio gravida, a venenatis ligula tincidunt.
+
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                        vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                        varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis
+                        ipsum quis magna feugiat, id tempus metus accumsan? Integer neque est, euismod nec ipsum sit
+                        amet, laoreet gravida eros. Mauris eu tempus dui; a faucibus mauris.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./starter-code/img/slider-2.jpg" class="d-block w-100 img-fluid grayscale"
+                    alt="FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h5>
+                    <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat
+                        lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui
+                        semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed
+                        sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus
+                        vulputate tempus. Cras est tellus, cursus at purus eu, pellentesque vestibulum nisi. Cum sociis
+                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc egestas quam a
+                        neque fermentum vulputate. Integer nec placerat leo? In vel elit posuere, malesuada urna non,
+                        adipiscing mauris. Etiam in ullamcorper ante, in condimentum arcu. Vivamus nec urna in elit
+                        tempus pharetra.
+
+                        Duis viverra hendrerit odio, ut malesuada mi consequat eget. Phasellus arcu leo, ultricies ut
+                        lectus sit amet, elementum elementum tellus. Praesent quis feugiat magna! Morbi aliquet
+                        tincidunt libero eget iaculis. Fusce dictum bibendum lorem, at ornare erat placerat sed. Cras
+                        accumsan fringilla nisl, non tincidunt ligula gravida quis. Pellentesque sed nisi ligula. Sed
+                        mollis enim eget purus malesuada, vitae sodales turpis pulvinar. Nulla facilisi.
+
+                        Maecenas fringilla mattis quam, id viverra libero eleifend eu. Fusce scelerisque nibh ac nisl
+                        luctus interdum. Phasellus eget metus et dui accumsan euismod. Proin quam sapien, dignissim at
+                        tellus eleifend, dapibus posuere dolor. Proin scelerisque sit amet dui vel iaculis. Quisque
+                        tincidunt, felis et vestibulum varius, nisl lectus convallis mi, sed condimentum augue diam vel
+                        diam. Etiam dignissim ligula vitae nulla imperdiet, vitae interdum metus tincidunt. Aliquam
+                        pulvinar lorem vel eros interdum vehicula. Vestibulum ante ipsum primis in faucibus orci luctus
+                        et ultrices posuere cubilia Curae; Mauris malesuada lobortis faucibus. Class aptent taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./starter-code/img/slider-3.jpg" class="d-block w-100 img-fluid grayscale" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in,
+                        dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                        Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat
+                        volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum eros; sed
+                        mattis tortor bibendum id. Proin mattis ut nunc vitae lacinia. Phasellus ut fringilla sapien.
+
+                        Aliquam tristique consectetur risus sit amet fermentum. Nulla rutrum lacus elementum, congue
+                        dolor imperdiet, mollis nisl. Ut ac sodales nulla. Vestibulum tristique sem et dolor eleifend;
+                        convallis faucibus arcu pellentesque. Aliquam faucibus rhoncus neque, eu aliquet odio elementum
+                        vel. Vestibulum nec ultrices felis, nec adipiscing felis! Etiam interdum vulputate purus; a
+                        posuere sem tristique ac. Aenean augue ligula, porttitor ut varius vehicula, porta ac nibh.
+                        Quisque id lacus quis justo scelerisque egestas. Quisque aliquam, tellus nec ultricies ultrices,
+                        urna sem suscipit lacus, vitae suscipit sem metus sit amet ligula. Vivamus quis augue lacus.
+                        Nunc viverra, dui non ullamcorper iaculis, nisi justo sagittis eros, sit amet tempor tortor
+                        magna eget metus.
+
+                        Vivamus dictum ornare fringilla. Mauris sollicitudin quis dolor venenatis facilisis? Quisque
+                        ligula dui, accumsan vitae mauris vel, pulvinar sagittis enim. Phasellus ante nulla, eleifend at
+                        euismod vel, gravida at urna. Integer ipsum sem, mollis et augue ac, gravida hendrerit libero.
+                        In eu quam nisl. Aenean congue felis sit amet molestie eleifend. Maecenas elementum lobortis
+                        tristique! Phasellus mi ligula, ornare sollicitudin lorem nec; dictum iaculis velit! Aenean
+                        lobortis arcu sit amet magna dignissim tincidunt. Maecenas porttitor metus ut tristique posuere.
+                        Maecenas quis enim non urna iaculis luctus id vitae risus. Duis adipiscing porta sem vel auctor.
+                        Fusce pretium posuere dui eget rhoncu</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./starter-code/img/slider-4.jpg" class="d-block w-100 img-fluid grayscale"
+                    alt="SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h5>
+                    <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est
+                        viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique.
+                        Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit
+                        ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non
+                        pellentesque. Mauris dapibus vel mi non tempor. Praesent placerat magna non ante accumsan, a
+                        fermentum enim venenatis? Phasellus porta neque nec enim aliquam; sed elementum nibh vestibulum!
+                        Ut sed dolor vel erat convallis bibendum sed at erat!
+
+                        Ut blandit tempor sollicitudin. Vestibulum imperdiet sem sit amet neque porta; accumsan
+                        condimentum odio scelerisque. Etiam faucibus convallis neque, in placerat neque aliquet quis.
+                        Pellentesque non nulla ut sem tincidunt molestie eget ac nisi! Aenean luctus metus nunc, eu
+                        sagittis nisl semper at. Sed vehicula sed tellus id dignissim. Etiam vitae metus et sem
+                        adipiscing lacinia ut a nisi. Fusce nec lobortis metus. Cras ornare orci id arcu interdum
+                        vehicula. Phasellus a nunc vitae lectus ultricies adipiscing. Morbi at posuere purus, id tempor
+                        diam. Vestibulum blandit felis at nisl placerat, semper interdum sem condimentum. Aenean
+                        imperdiet molestie neque ac euismod. Donec lectus arcu, molestie a sodales non, tristique sed
+                        lectus. Integer aliquam ultricies molestie.
+
+                        Nam venenatis nisl in risus posuere facilisis. Fusce molestie magna a nunc feugiat scelerisque.
+                        Sed egestas commodo felis, quis tincidunt velit laoreet aliquam. Donec tempor odio sit amet
+                        vestibulum dapibus. In ac lacinia ante, vitae mattis lacus. Nullam tincidunt arcu ut mollis
+                        fringilla. Nulla hendrerit arcu non est accumsan, et vestibulum nunc tempus. Suspendisse
+                        ultricies malesuada varius. Cras magna nibh, fringilla at fermentum at; vestibulum sollicitudin
+                        est. Aenean tincidunt pulvinar ultrices. Suspendisse quis risus vitae augue pretium mattis in
+                        vel odio.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Containers/Columns -->
+    <div class="red">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-4 homewidget">
+                    <div class="container-fluid">
+                        <span>
+
+                        </span>
+                        <h3>
+                            Web Design
+                        </h3>
+                        <p>
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Vestibulum
+                            vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                            varius
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-sm-4 homewidget">
+                    <div class="container-fluid">
+                        <span>
+
+                        </span>
+                        <H3>
+                            Web Development
+                        </H3>
+                        <p>
+                            Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor
+                            sed
+                            metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum
+                            nspendisse
+                            at erat luctus.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-sm-4 homewidget">
+                    <div class="container-fluid">
+                        <span>
+
+                        </span>
+                        <h3>
+                            User Interface
+                        </h3>
+                        <p>
+                            Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi
+                            molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue
+                            gravida.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Gutters -->
+    <div class="container px-4 text-center">
+
+        <div class="container-fluid">
+            <h2>
+                LATEST PROJECTS
+
+            </h2>
+            <h5>
+                FEW OF THE LATEST PORTFOLIO ITEMS
+            </h5>
+        </div>
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/project-1.jpg" class="img-fluid"
+                        alt="Nunc libero elit, iaculis nec augue non">
+                    Nunc libero elit, iaculis nec augue non
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+
+                    <img src="./starter-code/img/project-2.jpg" class="img-fluid"
+                        alt="Phasellus aliquet iaculis neque accumsan aliquam">
+                    Phasellus aliquet iaculis neque accumsan aliquam
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/project-3.jpg" class="img-fluid"
+                        alt="Vivamus blandit ipsum sed arcu euismod">
+                    Vivamus blandit ipsum sed arcu euismod
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/project-4.jpg" class="img-fluid"
+                        alt="Curabitur auctor dolor risus, vitae pellentesque arcu consequat">
+                    Curabitur auctor dolor risus, vitae pellentesque arcu consequat
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 text-center">
+
+
+
+<!-- LATEST Articles -->
+        <div class="container-fluid">
+            <h2>
+                LATEST ARTICLES
+
+            </h2>
+            <h5>
+                LATEST POSTS FROM THE BLOG
+            </h5>
+        </div>
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/slider-1.jpg" class="img-fluid"
+                        alt="Nunc libero elit, iaculis nec augue non">
+                    <h5>
+                        Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam
+                    </h5>
+                    <span>
+                        POSTED ON AUGUST 19, 2013 BY ADMIN
+                    </span>
+                    <p>
+                        Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed
+                        metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec.
+                        Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit
+                        orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero
+                        nunc.
+
+                        Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam. Quisque augue ligula, viverra
+                        ac tempus id, dapibus a urna! Suspendisse bibendum placerat mattis. Etiam pulvinar, felis ut
+                        tempor lacinia, ipsum lacus posuere nulla, a bibendum metus metus ac ipsum. Sed nec mauris
+                        placerat; accumsan metus a, mollis ligula. Cras aliquet venenatis porttitor. Donec rutrum sapien
+                        et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales.
+                        Praesent non enim et magna congue gravida. Duis hendrerit sapien nec imperdiet ornare! Aliquam
+                        id sapien lacinia nisl ultrices molestie. Nullam nec viverra purus, et vulputate est. Nullam
+                        fringilla nibh eu odio gravida, a venenatis ligula tincidunt.
+
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum
+                        vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio
+                        varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis
+                        ipsum quis magna feugiat, id tempus metus accumsan? Integer neque est, euismod nec ipsum sit
+                        amet, laoreet gravida eros. Mauris eu tempus dui; a faucibus mauris.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+
+                    <img src="./starter-code/img/slider-2.jpg" class="img-fluid"
+                        alt="Phasellus aliquet iaculis neque accumsan aliquam">
+                        <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h5>
+                        <span>
+                            POSTED ON AUGUST 19, 2013 BY ADMIN
+                        </span>
+                        <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat
+                            lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui
+                            semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed
+                            sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus
+                            vulputate tempus. Cras est tellus, cursus at purus eu, pellentesque vestibulum nisi. Cum sociis
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc egestas quam a
+                            neque fermentum vulputate. Integer nec placerat leo? In vel elit posuere, malesuada urna non,
+                            adipiscing mauris. Etiam in ullamcorper ante, in condimentum arcu. Vivamus nec urna in elit
+                            tempus pharetra.
+    
+                            Duis viverra hendrerit odio, ut malesuada mi consequat eget. Phasellus arcu leo, ultricies ut
+                            lectus sit amet, elementum elementum tellus. Praesent quis feugiat magna! Morbi aliquet
+                            tincidunt libero eget iaculis. Fusce dictum bibendum lorem, at ornare erat placerat sed. Cras
+                            accumsan fringilla nisl, non tincidunt ligula gravida quis. Pellentesque sed nisi ligula. Sed
+                            mollis enim eget purus malesuada, vitae sodales turpis pulvinar. Nulla facilisi.
+    
+                            Maecenas fringilla mattis quam, id viverra libero eleifend eu. Fusce scelerisque nibh ac nisl
+                            luctus interdum. Phasellus eget metus et dui accumsan euismod. Proin quam sapien, dignissim at
+                            tellus eleifend, dapibus posuere dolor. Proin scelerisque sit amet dui vel iaculis. Quisque
+                            tincidunt, felis et vestibulum varius, nisl lectus convallis mi, sed condimentum augue diam vel
+                            diam. Etiam dignissim ligula vitae nulla imperdiet, vitae interdum metus tincidunt. Aliquam
+                            pulvinar lorem vel eros interdum vehicula. Vestibulum ante ipsum primis in faucibus orci luctus
+                            et ultrices posuere cubilia Curae; Mauris malesuada lobortis faucibus. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/slider-3.jpg" class="img-fluid"
+                        alt="Vivamus blandit ipsum sed arcu euismod">
+                        <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                        <span>
+                            POSTED ON AUGUST 19, 2013 BY ADMIN
+                        </span>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in,
+                            dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                            Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat
+                            volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum eros; sed
+                            mattis tortor bibendum id. Proin mattis ut nunc vitae lacinia. Phasellus ut fringilla sapien.
+    
+                            Aliquam tristique consectetur risus sit amet fermentum. Nulla rutrum lacus elementum, congue
+                            dolor imperdiet, mollis nisl. Ut ac sodales nulla. Vestibulum tristique sem et dolor eleifend;
+                            convallis faucibus arcu pellentesque. Aliquam faucibus rhoncus neque, eu aliquet odio elementum
+                            vel. Vestibulum nec ultrices felis, nec adipiscing felis! Etiam interdum vulputate purus; a
+                            posuere sem tristique ac. Aenean augue ligula, porttitor ut varius vehicula, porta ac nibh.
+                            Quisque id lacus quis justo scelerisque egestas. Quisque aliquam, tellus nec ultricies ultrices,
+                            urna sem suscipit lacus, vitae suscipit sem metus sit amet ligula. Vivamus quis augue lacus.
+                            Nunc viverra, dui non ullamcorper iaculis, nisi justo sagittis eros, sit amet tempor tortor
+                            magna eget metus.
+    
+                            Vivamus dictum ornare fringilla. Mauris sollicitudin quis dolor venenatis facilisis? Quisque
+                            ligula dui, accumsan vitae mauris vel, pulvinar sagittis enim. Phasellus ante nulla, eleifend at
+                            euismod vel, gravida at urna. Integer ipsum sem, mollis et augue ac, gravida hendrerit libero.
+                            In eu quam nisl. Aenean congue felis sit amet molestie eleifend. Maecenas elementum lobortis
+                            tristique! Phasellus mi ligula, ornare sollicitudin lorem nec; dictum iaculis velit! Aenean
+                            lobortis arcu sit amet magna dignissim tincidunt. Maecenas porttitor metus ut tristique posuere.
+                            Maecenas quis enim non urna iaculis luctus id vitae risus. Duis adipiscing porta sem vel auctor.
+                            Fusce pretium posuere dui eget rhoncu</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <img src="./starter-code/img/slider-4.jpg" class="img-fluid"
+                        alt="Curabitur auctor dolor risus, vitae pellentesque arcu consequat">
+                        <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h5>
+                        <span>
+                            POSTED ON AUGUST 19, 2013 BY ADMIN
+                        </span>
+                        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est
+                            viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique.
+                            Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit
+                            ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non
+                            pellentesque. Mauris dapibus vel mi non tempor. Praesent placerat magna non ante accumsan, a
+                            fermentum enim venenatis? Phasellus porta neque nec enim aliquam; sed elementum nibh vestibulum!
+                            Ut sed dolor vel erat convallis bibendum sed at erat!
+    
+                            Ut blandit tempor sollicitudin. Vestibulum imperdiet sem sit amet neque porta; accumsan
+                            condimentum odio scelerisque. Etiam faucibus convallis neque, in placerat neque aliquet quis.
+                            Pellentesque non nulla ut sem tincidunt molestie eget ac nisi! Aenean luctus metus nunc, eu
+                            sagittis nisl semper at. Sed vehicula sed tellus id dignissim. Etiam vitae metus et sem
+                            adipiscing lacinia ut a nisi. Fusce nec lobortis metus. Cras ornare orci id arcu interdum
+                            vehicula. Phasellus a nunc vitae lectus ultricies adipiscing. Morbi at posuere purus, id tempor
+                            diam. Vestibulum blandit felis at nisl placerat, semper interdum sem condimentum. Aenean
+                            imperdiet molestie neque ac euismod. Donec lectus arcu, molestie a sodales non, tristique sed
+                            lectus. Integer aliquam ultricies molestie.
+    
+                            Nam venenatis nisl in risus posuere facilisis. Fusce molestie magna a nunc feugiat scelerisque.
+                            Sed egestas commodo felis, quis tincidunt velit laoreet aliquam. Donec tempor odio sit amet
+                            vestibulum dapibus. In ac lacinia ante, vitae mattis lacus. Nullam tincidunt arcu ut mollis
+                            fringilla. Nulla hendrerit arcu non est accumsan, et vestibulum nunc tempus. Suspendisse
+                            ultricies malesuada varius. Cras magna nibh, fringilla at fermentum at; vestibulum sollicitudin
+                            est. Aenean tincidunt pulvinar ultrices. Suspendisse quis risus vitae augue pretium mattis in
+                            vel odio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- end  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
