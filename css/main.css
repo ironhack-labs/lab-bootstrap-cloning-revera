@@ -1,11 +1,12 @@
-.banner {
-
-
-    z-index: 1;
-}
-
 .redContainer {
     background-color: red;
+}
+
+
+
+.imgs {
+    filter: grayscale(100%);
+    width: inherit;
 }
 
 ul {
