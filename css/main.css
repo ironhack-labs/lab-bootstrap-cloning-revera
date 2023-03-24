@@ -18,3 +18,20 @@
     padding: 40px;
     background-color: #ed564b;
 }
+
+.bottom-dark {
+    background-color: rgb(28, 28, 31);
+    color: whitesmoke;
+}
+
+.bottom {
+    padding: 30px 150px;
+}
+
+.banner {
+    padding: 10px 15px;
+}
+
+.container {
+    padding: 50px 0px;
+}
