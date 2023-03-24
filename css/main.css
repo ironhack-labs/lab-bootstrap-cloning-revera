@@ -1,0 +1,20 @@
+
+.body {
+    margin: 0px;
+}
+.widgets  {
+    background-color: #ed564b;
+    margin: none;
+    color: white;
+    padding: 40px 0 px;
+    margin: 0px 0px;
+}
+.d-block {
+    filter: grayscale(100%);
+    background-color: black;
+    opacity: 0.98;
+}
+.red-container {
+    padding: 40px;
+    background-color: #ed564b;
+}
