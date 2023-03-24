@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+	cursor: default;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.navbar-nav > li {
+		display: inline-block;
+		float: none;
+	}
+}
+
+.orange-bg {
+	background-color: orangered;
+	color: white;
+}
+
+.footer {
+	background: rgb(80, 80, 80);
+	color: rgb(209, 209, 209);
+	border-top: 3px solid orangered;
+}
+
+.footer a {
+	color: rgb(209, 209, 209);
+	text-decoration: none;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer h3 {
+	color: white;
+}
+.icon {
+	outline: 3px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	padding: 2rem;
+}
+
+.icon img {
+	width: 3rem;
+	height: 3rem;
+	margin: 1rem;
+	filter: invert(100%);
+}
