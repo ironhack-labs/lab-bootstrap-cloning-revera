@@ -1,0 +1,83 @@
+img {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+}
+nav ul {
+  text-decoration: none;  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px, 10px, 0, 0;
+}
+nav li {
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+
+.red-color {
+    background-color: #ed564b;;
+    color: white;
+}
+.gray-color{
+    background-color: #3b3b3b;
+    color: white;
+    border-top: #ed564b;
+    border-style: solid;
+}
+.overlay {
+    background-image: url(/lab-bootstrap-cloning-revera/img/overlay.png);
+    color: white;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.hero {
+    background-image: url(/lab-bootstrap-cloning-revera/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+
+}
+.navigator h1 {
+    padding-left: 150px;
+}
+.overlay h2 {
+padding-top: 200px;
+}
+.overlay a {
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header {
+    width: 50%;
+    margin-left: 280px;
+}
+.nav-bar {
+    margin-top: 15px;
+}
+svg {
+    margin-left: 70px;
+}
+.navigator h1{
+    font-weight: 800;
+}
+
+
+
+
+
+
