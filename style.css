@@ -1,0 +1,140 @@
+img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.menu h3 {
+    padding-left: 150px;
+    text-transform: uppercase;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-right: 200px;
+}
+
+.menu li {
+    margin-left: 20px;
+
+}
+
+.hero {
+    background-image: url(/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+    -webkit-filter: grayscale(1);
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    background-position: center;
+    background-size: 100%;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px 5px;
+    display: block;
+    width: 150px;
+    font-size: 15px;
+}
+
+.red-info {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.red-info p {
+    font-size: 4em;
+}
+
+.red-info p {
+    font-size: 10px;
+}
+
+.red-info h5 {
+    padding-top: 20px;
+}
+
+.first-projects h4 {
+    text-transform: uppercase;
+
+}
+
+.first-projects h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: grey;
+
+}
+
+.first-projects p {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.second-projects h4 {
+    text-transform: uppercase;
+}
+
+.second-projects h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: grey;
+}
+
+.second-projects negrita {
+    font-weight: bold;
+}
+
+.negrita :first-child {
+    font-weight: bold;
+}
+
+.projects h4 {
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.projects {
+    padding-top: 50px;
+}
+
+.projects h5 {
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    font-size: 500px;
+}
+
+.info {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding-top: 50px;
+}
+
+.info h6 {
+text-transform: uppercase;
+font-size: 0.8em;
+}
+
+.first-p {
+    text-align: left;
+}
