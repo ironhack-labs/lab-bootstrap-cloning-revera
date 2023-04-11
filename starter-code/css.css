@@ -1,0 +1,100 @@
+img {
+    width: 100%;
+}
+
+
+.flexi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexi ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: small;
+
+}
+.flexi p {
+    font-weight: 700;
+    font-size: large;
+    margin-left: 30px;
+}
+.flexi li{
+    margin-left: 10px;
+}
+.hero{
+    background-image: url(img/overlay.png);
+}
+.backImage {
+    background-image: url(img/project-1.jpg);
+    filter: grayscale(100%)
+}
+
+.backImage article {
+    font-size: medium;
+    text-align: center;
+    
+}
+.backImage h1{
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: rgba(199, 179, 179, 0.582);
+}
+.backImage button {
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+    border: none;
+    background-color: rgba(165, 42, 42, 0.048);     
+}
+svg { 
+    margin-left: 49%;
+}
+.colorred {
+    background-color: rgb(231, 87, 51);
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-size: medium;
+    text-align: center;
+}
+.col-3 p {
+    font-size: x-small;
+    font-weight: 550;
+    text-align: center;
+}
+.villain2 {
+    font-size: x-small;
+    color: grey;
+    font-weight: 700;
+}
+.villain h2{
+    font-weight: 500;
+}
+.negritas {
+    font-weight: bold;
+}
+.listless {
+    list-style: none;
+    text-decoration-line: underline;
+
+}
+.greycolor {
+    background-color:  rgb(85, 81, 81);
+    margin: auto;
+}
+.blackcolor {
+    color: black;
+}
+.colorwhite {
+    color: white;
+}
+.blackbackground {
+    background-color: rgb(41, 41, 41);
+    margin: auto;
+}
