@@ -1,0 +1,161 @@
+
+
+/* //HEADER///////// */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   
+}
+header nav a:focus{
+    color: red;
+}
+
+.header ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  
+}
+
+.header ul a{
+    text-decoration: none;
+    color: black;
+}
+/* //// BANNER IMG///// */
+
+/* .hero{
+  padding: 200px;
+  background-image: url(./starter-code/img/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  filter: grayscale(80%);
+  
+  
+} */
+
+.carousel-custom{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:white;
+   align-items: center;
+   text-align: center;
+}
+.hero a{
+    border: solid 1px white;
+    padding: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+.hero h2{
+    font-size: 2em;
+}
+
+/* //////SECTION 2////////////// */
+.icon{
+    width: 40px;
+    filter:invert();
+    margin-bottom: 15px;
+}
+.icon-circle{
+    width: 60px;
+}
+.section-2{
+   background-color: #ed554b;
+   text-align: center;
+   /* padding: 100px; */
+   color: white;
+
+   
+}
+
+.padding{
+    padding-block: 100px;
+}
+/* //////SECTION 3///////// */
+.section-3{
+    margin-top: 20px;
+}
+.section-3 img{
+  /* width: 90%; */
+  margin-bottom: 10px;
+}
+.section-3 h2{
+    font-weight: 800;
+}
+.section-3 h3{
+    color: lightgray;
+    font-size: 1.5em;
+}
+.section-3 .h3-black{
+    color: black;
+}
+.section-3 h4{
+    font-size: 1em;
+    color: darkgray;
+}
+/* ////SECTION 4//////////// */
+.big-hr{
+    height: 5px;
+}
+.section-4{
+    background: #3b3b3b;
+    border-top: 6px red solid;
+    padding: 50px;
+    text-align: start;
+    display: flex;
+}
+
+.section-4 h3{
+    color: white;
+}
+.section-4 a{
+  text-decoration: none;
+  color: #a7a7a7;
+  
+}
+.section-4 hr{
+    color: #a7a7a7;
+    margin: 5px 0;
+}
+.section-4 p{
+    color: #a7a7a7;
+    
+}
+/* ////////FOOTER///////// */
+footer{
+    background-color: #292929;
+    color: white;
+   padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+span{
+    color: red;
+}
+
+footer p{
+    margin: 2px 20px;
+    
+    
+}
