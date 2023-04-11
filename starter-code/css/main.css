@@ -1,3 +1,117 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden  ;
+}
 img{
     width: 100%;
+}
+h3{
+    font-size: 20px;
+}
+h4 {
+    font-size: 12px;
+}
+h4 span{
+    color: red;
+}
+/*HEader*/
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    align-items: center;
+}
+.header p{
+    font-size: 1.5em;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.header nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.header nav a:first-child{
+    color: red  ;
+}
+
+/*Hero*/
+.hero{
+    background-image: url(../img/slider-1.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    filter: grayscale(100%);
+    margin: 0 auto;
+}
+.overlay{
+    background-image: url(../img/overlay.png);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0 ;
+    filter: opacity(90%);
+    padding: 8rem; 
+}
+
+.hero{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*butoom*/
+.buttom{
+    display: block;
+    padding: 0.3rem;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    width: 15%;
+    margin: 0 auto;
+}
+.icons img{
+    width: 10%;
+    fill: white;
+}
+.icon{
+    color: white;
+}
+.icons{
+    padding: 4rem;
+    background-color: #d5594b;
+    color: white;
+    border-top: solid 10px #e36e61 ;
+    border-bottom: solid 10px #e36e61;
+}
+/*Boostrap*/
+.section1{
+    margin-top: 10rem;
+}
+.section2{
+    margin-top: 5rem;
+}
+.section3{
+    padding: 2rem;
+    background-color: #3b3b3b;
+    border-top: solid 10px #d5594b;
+}
+.section3 p{
+    color: grey;
+}
+.section3 a{
+    color: gray;
+    text-decoration: none;
+}
+.section3 h3{
+    color: white;
+}
+.section3 hr{
+    margin-top: -1px;
 }
