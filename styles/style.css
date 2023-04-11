@@ -1,0 +1,141 @@
+body{
+
+}
+img {
+    width: 100%;
+}
+.revera {
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0;
+    padding-right: 200px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav p{
+    color: red;
+}
+.sec-menu li {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.background-pets {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    background-size: 100%;
+}
+.hero {
+    background-image: url(../starter-code/img/overlay.png);
+    color: white;
+    text-align: center;
+    padding:300px 500px 100px 500px;
+    
+}
+.hero h1{
+    font-size: 35px;
+}
+.hero h2{
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+.hero a{
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(226, 223, 223);
+    padding: 2px 6px;
+}
+.button {
+    color: rgb(223, 216, 216);
+    background-color: rgba(255, 255, 255, 0.5);  
+}
+.boxes {
+    background-color: rgb(209, 75, 75);
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+}
+.proyect a {
+    text-decoration: none;
+}
+.proyect li {
+    list-style: none;
+}
+.articles {
+    padding: 80px;
+}
+.articles a {
+    text-decoration: none;
+}
+.articles li {
+    list-style: none;
+}
+.final a {
+    text-decoration: none;
+}
+.final li {
+    list-style: none;
+}
+
+.bi-1-circle {
+    color: white;
+    font-size: 50px;
+}
+.bi-2-circle {
+    color: white;
+    font-size: 50px;
+}
+.bi-3-circle {
+    color: white;
+    font-size: 50px;
+}
+.final {
+    background-color: rgb(61, 61, 63);
+    border-top: red solid;
+    padding: 25px;
+    
+}
+.final a {
+    border-bottom: 1px dotted rgb(165, 163, 163);
+    border-inline-width: 100%;
+    color: rgb(179, 177, 177);
+
+}
+.final p, .final li, .final h3{
+    color: rgb(179, 177, 177);
+
+}
+
+footer {
+    background-color: rgb(38, 38, 39);
+    padding: 25px;
+    
+}
+footer p {
+    color: white;
+    font-size: 15px;
+    padding-left: 280px;
+;
+}
