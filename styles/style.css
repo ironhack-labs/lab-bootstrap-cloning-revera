@@ -1,0 +1,108 @@
+img{
+    width: 100%;
+}
+
+header {
+    margin: 40px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    font-size: 50px;
+    font-weight:bolder
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    
+}
+header li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.redLink{
+    color: rgb(211, 75, 75);
+    text-decoration: none;
+}
+
+.carousel .overlay{
+    background-image: url("../starter-code/img/overlay.png");
+}
+.carousel .body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 250px;
+   background-image: url("../starter-code/img/slider-1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.carousel h1{
+    color: rgb(163, 163, 163);
+    font-size: 60px;
+}
+.carousel p{
+    color: rgb(163, 163, 163);
+    width: 70%;
+    font-size: medium;
+}
+
+.carouselBackground{
+    background-image: url("../starter-code/img/overlay.png");
+    background-repeat: no-repeat;
+}
+
+.redBox{
+    margin: 0;
+    background-color: rgb(211, 75, 75);
+    color: white;
+    padding: 100px;
+}
+svg{
+    width: 15%;
+}
+.redBox article{
+    text-align: center;
+}
+.red_text{
+    color: rgb(211, 75, 75); ;
+}
+
+
+
+.downSection{
+    background-color: rgb(151, 151, 151);
+    
+   
+}
+.downContainer{
+    padding-bottom: 100px;
+}
+.downSection h3{
+    margin-top: 50px;
+}
+.downSection p{
+    font-weight: 400;
+}
+
+
+footer{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 30px;
+    font-family: sans-serif;
+}
+footer p {
+   margin: auto 0px;
+}
+
+
