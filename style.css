@@ -1,0 +1,45 @@
+.icons {
+    background-color: #ed564b;
+}
+
+.bi-1-circle,
+.bi-2-circle,
+.bi-3-circle {
+    font-size: 50px;
+}
+
+.map-site {
+    background-color: #3b3b3b;
+}
+
+.map-site ul {
+    padding-left: 0;
+}
+
+.map-site li {
+    list-style: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    padding: 7px 0;
+}
+
+.map-site a {
+    text-decoration: none;
+    color: #aaa;
+
+}
+
+.map-site p {
+    color: #aaa;
+}
+
+footer {
+    background-color: #292929;
+}
+
+.img-carousel {
+    filter: grayscale();
+}
+
+.carousel-caption {
+    margin-bottom: 150px;
+}
