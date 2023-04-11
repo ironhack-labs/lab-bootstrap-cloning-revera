@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.h1{
+    width: 300px;
+}
+
+nav{
+    width: 60%
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a{
+    margin-left: 25px;
+}
+
+   
+
+.hero{
+    padding: 10em 5em;
+    background-image: url(../starter-code/img/slider-2.jpg);
+    background-position: top center;
+    background-size: cover;
+    filter: grayscale(100);
+}
+
+
+.hero h2,.hero p{
+    color: white;
+    text-align: center;
+    padding: 0 10em;
+}
+
+.button{
+    padding top: 20px;
+}
+
+.button{
+    color: rgb(251, 251, 251);
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            border: 1px solid rgb(254, 251, 251);
+            text-align: center;
+            margin: 100px 50px;
+            padding: 20px 50px;
+            display: block;
+            width: 300px;
+}
+
+.button.centered {
+    margin: 0 auto;
+}
+
+.info{
+    background-color: rgb(203, 78, 78);
+    color:white
+}
+
+
+.info {
+    padding-top: 40px;
+}
+.row svg{
+    width: 60px;
+}
+
+.row article{
+    text-align: center;
+}
+
+.row h3{
+    padding-top: 30px;
+}
+
+.portfolio img{
+    width:100%
+}
+
+.portfolio h4, .portfolio h5{
+    font-size: 0.7em;
+}
+
+
+
+.portfolio p{
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+.red-line hr {
+    border: 3px solid red;
+}
+
+.more-info{
+    background-color: rgb(77, 77, 77);
+    padding-top: 20px;
+    margin: 0;
+    width: 100%;
+    color:white
+}
+
+.more-info p{
+    text-align: justify;
+}
+
+.text-1 hr, .text-2 hr, .text-3 hr{
+        border-style: dashed;
+        border-width: 1px;
+        color:white;
+}
+
+.footer{
+    background-color: rgb(44, 44, 44);
+}
+
+.footer p{
+    color:white;
+    font-size: 0.8em;
+}
