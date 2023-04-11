@@ -1,0 +1,147 @@
+img {
+    width: 100%;
+}
+nav { 
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+h1 a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 15px;
+}
+nav li{
+    margin-left: 15px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.hero {
+    filter: grayscale(100%);
+    background-image: url('/lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background-image: url('/lab-bootstrap-cloning-revera/starter-code/img/overlay.png');
+    padding: 200px 0 200px 0;
+}
+.header {
+    width: 50%;
+    margin: auto;
+}
+.button{
+    width: 15%;
+    margin: auto;
+}
+.button a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.262);
+}
+.red-bg {
+    background-color: #ed564b;
+    padding: 50px 0 50px 0;
+}
+.red-bg h3, p, svg{
+    color: white;
+    text-align: center;
+}
+svg{
+    width: 50px;
+}
+.red-bg h3{
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.projects{
+    margin-top: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+.projects h2, .articles h2{
+    text-align: left;
+}
+.projects h6, .articles h6{
+    color: grey;
+    text-align: left;
+    font-weight: 700;
+}
+.projects a, .articles a{
+    text-decoration: none;
+    color: black;
+}
+.articles h2{
+    margin-top: 60px;
+}
+.articles a{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.articles h5{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+}
+.articles img{
+    margin-bottom: 20px;
+}
+.articles h5 a{
+    color: #ed564b;
+    text-align: left;
+} 
+.articles p{
+    text-align: left;
+    color: black;
+}
+.gray-bg{
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    padding-top: 60px;
+}
+.gray-bg h5{
+    color: white;
+}
+.gray-bg p{
+    color: #aaa;
+    text-align: left;
+}
+.gray-bg ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.gray-bg a{
+    color: #aaa;
+    text-decoration: none;
+}
+hr {
+    color: #aaa;
+    margin: 5px 0 0 0;
+}
+footer{
+    background: #1e1d1d;
+    padding: 25px;
+}
+footer p{
+    color: white;
+    font-size: 10px;
+    text-align: left;
+}
