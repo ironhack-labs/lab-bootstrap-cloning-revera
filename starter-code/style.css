@@ -1,0 +1,117 @@
+img {
+    width: 100%;
+}
+
+.button {
+    color: white;
+    font-weight: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid white;
+    text-align: center;
+    margin: 150px 200px;
+    padding: 20px 50px;
+    width: 300px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #777;
+}
+
+.section1 {
+    background-image: url(./img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.section1 div {
+    padding: 250px 0px;
+    color: white;
+    text-align: center;
+}
+
+.section1 h2{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+.section1 h2 {
+    color: white;
+  
+
+}
+
+
+
+.section2 {
+    background: #ed564b;
+    color: white;
+}
+
+.section2 row {
+    text-align: center;
+
+}
+
+.meta ul {
+    list-style-type: none;
+}
+
+.meta a {
+    text-decoration: none;
+    color: grey;
+}
+
+.Recent-Post ul {
+    list-style-type: none;
+}
+.Recent-Post a {
+    text-decoration: none;
+        color: grey;
+}
+
+.archives a {
+    text-decoration: none;
+        color: grey;
+}
+
+.revera p {
+
+color: grey;
+}
+
+.section5 h4 {
+    
+
+    color: white;
+}
+
+.section5 {
+
+    background-color: #3b3b3b;
+    padding-top: 100px;
+        padding-bottom: 100px;
+
+    
+}
