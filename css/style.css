@@ -1,0 +1,118 @@
+img {
+    width: 100%;
+}
+.revera-button {
+    font-size: 36px;
+    font-weight: bold;
+}
+.home-button {
+    color: red;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.menu img {
+    width: 200px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+.hero {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    width: 800px;
+    margin: 0 auto;
+}
+.hero p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-align: center;
+    margin: 100px 50px;
+    padding: 20px 50px;
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+}
+.section-one {
+    background-color: #ed564b;
+    color: white;
+    padding: 50px 0px;
+}
+.section-one article {
+    text-align: center;
+}
+.section-two {
+    margin-top: 50px;
+}
+.section-two p {
+    font-size: 14px;
+}
+.section-three {
+    margin-top: 50px;
+}
+.section-four {
+    border-top: #ed564b solid 3px;
+    margin-top: 50px;
+    background-color: #3b3b3b;
+    color: white;
+    padding: 50px 0;
+}
+.section-four ul {
+    list-style: none;
+}
+.section-four a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #292929;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+h4 {
+    color: grey;
+    font-size: 16px;
+}
+hr {
+    border: 0; 
+    border-top: 1px solid #999; 
+    border-bottom: 1px solid #333; 
+    height:0
+}
