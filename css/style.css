@@ -1,0 +1,200 @@
+img{
+    width: 100px;
+}
+
+
+nav{
+    
+    display: flex;
+    padding: 10px 0px
+    
+}   
+
+nav ul{
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+nav li{
+    display: block;
+    margin-right: 15px;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.primero{
+    color: red;
+}
+
+nav h2{
+    margin-right: 17%;
+    margin-left: 17%;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+
+.hero{
+background-image: url("../starter-code/img/slider-1.jpg");
+background-position: center;
+filter: grayscale(110%);
+background-size: 100%;
+padding-top: 60px;
+height: 400px;
+text-align: center;
+color:rgb(236, 223, 223)
+
+}
+
+.hero article{
+    
+    width: 650px;
+    margin: auto;
+    padding: 50px 30px;
+}
+.hero p{
+    text-align: justify;
+    
+}
+
+.hero h3{
+    font-size: 2em;
+}
+
+
+.buttom{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px 5px;
+    display: block;
+    width: 100px;
+    font-size: 10px;
+}
+
+.section1{
+    background-color: rgb(236, 54, 54);
+    margin-bottom: 40px;
+}
+
+.flex{
+   
+    display: flex;
+    
+    
+}
+
+.flex div{
+    
+    margin: 40px 60px;
+    text-align: center;
+    color: white;
+    
+}
+
+.flex svg{
+ width: 20px;
+}
+
+.flex h4{
+    font-size: 1.5em;
+}
+
+.flex p{
+    font-size: 1em;
+}
+.bloque1{
+    font-weight: bold;
+    font-size: 15px;
+}
+.section2{
+    margin-bottom: 50px;
+}
+.section2 h5{
+    color: gray;
+    font-size: 15px;
+}
+.section2 h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.section2 img{
+    width: 310px;
+}
+
+.margen{
+    margin-bottom: 50px;
+}
+
+.bloque{
+    margin-top: 20px;
+}
+
+.bloque p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.section3{
+    background-color: rgb(54, 53, 53);
+    padding: 40px;
+  
+}
+
+.flexsection3{
+   
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.section3 article{
+ 
+    width: 200;
+    height: 200px;
+    text-align: justify;
+    
+}
+
+.section3 article p{
+    color: white;
+    font-size: 10px;
+}
+
+.section3 article h5{
+    color: white;
+    font-weight:bold;
+}
+
+
+
+.bordeado{
+   
+    border-bottom: 1px dashed gray;
+    height: 19px;
+    margin-bottom: 10px;
+    
+}
+
+.footer{
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
