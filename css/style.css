@@ -48,10 +48,12 @@ background-image: url("../starter-code/img/slider-1.jpg");
 background-position: center;
 filter: grayscale(110%);
 background-size: 100%;
+opacity:335% ;
 padding-top: 60px;
 height: 400px;
 text-align: center;
-color:rgb(236, 223, 223)
+color:rgb(254, 250, 250);
+font-weight: bold;
 
 }
 
