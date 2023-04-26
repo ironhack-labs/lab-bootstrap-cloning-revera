@@ -1,0 +1,30 @@
+.navbar {
+  background-color: white;
+}
+
+/* carousel */
+.carousel {
+  background-image: url("img/slider-1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* section 1 */
+.section-1 {
+  background-color: #ed564b;
+}
+
+/* section 2 */
+.section-2 {
+  background-color: white;
+}
+
+/* section 3 */
+.section-3 {
+  background-color: #3b3b3b;
+}
+
+/* section 4 */
+.section-4 {
+  background-color: #292929;
+}
