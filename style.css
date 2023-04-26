@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url('./img/project-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
