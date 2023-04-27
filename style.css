@@ -72,3 +72,31 @@
     text-align: center;
     font-size: 12px;
 }
+
+#section-below-flexbox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#section-below-flexbox h4 {
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+#section-below-flexbox h6 {
+    color: rgb(179, 176, 176);
+    font-size: 15px;
+}
+
+.project-img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.col {
+    text-align: center;
+}
+
+.col p {
+    font-size: 80%;
+}
