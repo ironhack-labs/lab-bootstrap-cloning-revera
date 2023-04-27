@@ -10,6 +10,7 @@ header {
 }
 .navbar-brand {
   font-weight: bold;
+  font-size: 23pt;
 }
 #nav-color {
   color: red !important;
@@ -17,4 +18,28 @@ header {
 #navbarSupportedContent {
   display: flex;
   justify-content: center;
+}
+
+.btn.btn-light {
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 0;
+  padding: 5px 20px !important;
+}
+
+.carousel-control-prev {
+  display: flex;
+  justify-content: flex-start;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  padding: 30px 30px;
+  background-color: red;
+}
+.carousel-control-next {
+  display: flex;
+  justify-content: flex-end;
+}
+.d-block,
+.w-100 {
+  filter: grayscale(100%);
 }
