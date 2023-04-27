@@ -1,0 +1,46 @@
+nav {
+	height: 90px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.nav-link {
+	font-size: 15px;
+}
+.dropdown-menu a {
+	font-size: 15px;
+}
+
+#hero-pic-sec {
+	height: 100vw * 0.43;
+	background-color: gray;
+	padding: 0;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#red-column-sec {
+	height: 337px;
+	background-color: #ed564b;
+}
+#content-sec {
+	height: 1200px;
+	background-color: white;
+}
+#about-sec {
+	height: 400px;
+	background-color: #3b3b3b;
+}
+footer {
+	height: 78px;
+	background-color: #292929;
+}
