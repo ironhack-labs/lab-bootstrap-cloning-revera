@@ -1,5 +1,5 @@
 header {
-  padding: 30px;
+  padding: 0 40px;
 }
 
 #navbar {
@@ -26,6 +26,9 @@ header {
   padding: 5px 20px !important;
 }
 
+.carousel-inner {
+  margin: 0 !important;
+}
 .carousel-control-prev {
   display: flex;
   justify-content: flex-start;
@@ -33,7 +36,7 @@ header {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   padding: 30px 30px;
-  background-color: red;
+  background-color: #dc6052;
 }
 .carousel-control-next {
   display: flex;
@@ -42,4 +45,16 @@ header {
 .d-block,
 .w-100 {
   filter: grayscale(100%);
+}
+
+.d-flex,
+.flex-row {
+  background-color: #dc6052;
+  justify-content: center;
+  padding: 30px 50px;
+  text-align: center;
+  color: white;
+}
+
+.img-icon {
 }
