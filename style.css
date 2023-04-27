@@ -1,0 +1,40 @@
+/* coral #DC6052 */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#navbar-all {
+    padding: 15px;
+}
+
+#home-link {
+    color: #DC6052;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.carousel-item img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #DC6052;
+    padding: 50px 20px;
+}
+
+.carousel-control-prev {
+    display: flex;
+    justify-content: flex-start;
+}
+.carousel-control-next {
+    display: flex;
+    justify-content: end;
+}
