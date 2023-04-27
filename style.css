@@ -1,0 +1,137 @@
+.navbar-brand {
+    font-size: 32px !important;
+    padding: 20px 40px 40px;
+    width: 370px;
+}
+
+.btt-caroussel {
+    color: #aaa;
+    border: #aaa;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #ed564b;
+    color: white;
+    padding: 40px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-text h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.icon-text p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.second-section {
+    margin: 40px;
+}
+
+.second-section h2 {
+    font-size: 24px;
+    margin: 20px 0 5px;
+}
+
+.second-section p {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+
+.first-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 18rem; 
+    margin: 0 15px;
+    --bs-card-border-color: none !important;
+}
+
+.link-over {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.card-body h2{
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.link-on-text{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-body p {
+    font-size: 16px;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px 40px;
+    background-color: #3b3b3b;
+        
+}
+
+footer a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+footer h3 {
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 10px;
+    
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 300px;
+    text-align: left;
+}
+
+
+footer hr {
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.copyright{
+    padding: 20px 40px 40px;
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
+}
+
+
