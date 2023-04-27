@@ -1,0 +1,20 @@
+header {
+  padding: 30px;
+}
+
+#navbar {
+  background-color: white !important;
+}
+#navbar-list {
+  margin-right: 50px !important;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+#nav-color {
+  color: red !important;
+}
+#navbarSupportedContent {
+  display: flex;
+  justify-content: center;
+}
