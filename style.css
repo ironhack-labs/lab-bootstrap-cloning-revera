@@ -53,6 +53,7 @@
 .first-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .card {
@@ -89,6 +90,7 @@
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding: 20px 40px 40px;
     background-color: #3b3b3b;
         
