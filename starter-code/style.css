@@ -1,0 +1,33 @@
+.navbar {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-links {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.slidebox {
+  background-color: black;
+}
+
+.widgets {
+  background-color: red;
+}
+
+.site-content {
+  background-color: white;
+}
+
+.bottom {
+  background-color: black;
+}
+
+.footer {
+  background-color: gray;
+}
