@@ -94,3 +94,30 @@ header {
   margin-top: 20px;
   text-align: left;
 }
+
+.p-3,
+.mb-2,
+.bg-secondary,
+.text-white {
+  border-top: 6px solid#dc6052;
+}
+.float-start,
+.border-bottom {
+  width: 400px;
+}
+.float-end {
+  text-align: left !important;
+}
+.padding {
+  padding-left: 50px;
+}
+.p-3,
+.mb-2,
+.bg-secondary,
+.text-white {
+  margin-bottom: 0 !important;
+}
+
+.card-body {
+  background-color: rgb(46, 46, 46);
+}
