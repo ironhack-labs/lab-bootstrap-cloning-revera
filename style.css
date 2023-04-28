@@ -131,6 +131,7 @@
     color: white;
     margin: 0;
     padding: 0;
+    border-top: #DC6052 solid 5px;
 }
 
 .col h3 {
