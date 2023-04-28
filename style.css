@@ -1,0 +1,33 @@
+.navbar-brand {
+  font-size: 32px !important;
+  padding: 20px 40px 40px;
+  width: 370px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: grey;
+}
+.first-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #ed564b;
+  color: white;
+  padding: 40px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
