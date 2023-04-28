@@ -73,19 +73,20 @@
     font-size: 12px;
 }
 
-#section-below-flexbox {
+#projects-section {
     width: 90%;
     margin: 0 auto;
 }
 
-#section-below-flexbox h4 {
+#projects-section h4 {
     font-weight: bolder;
     margin-top: 50px;
 }
 
-#section-below-flexbox h6 {
+#projects-section h6 {
     color: rgb(179, 176, 176);
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .project-img {
@@ -100,3 +101,26 @@
 .col p {
     font-size: 80%;
 }
+
+.article-title {
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.article-card {
+    text-align: left;
+}
+
+.article-card img {
+  width: 100%;
+  height: auto;
+}
+
+.article-card p {
+    color: rgb(82, 82, 82);
+}
+
+
