@@ -27,7 +27,9 @@ justify-content: space-between;
     display: flex;
 height: 300px;
 width: 250px;
-background-color: rgb(61, 133, 197);
+border: 2px solid blue;
+border-radius: 10px;
+
 color: white;
 
 }
@@ -63,18 +65,24 @@ color: white;
 height: 250px;
 width: 250px;
 }
+#lastestArt{
+    margin:30px 50px;
 
+
+}
 #articles{
     
     display: flex;
     flex-direction: row;
     margin: 30px;
+    justify-content: space-around;
     
 
 
 }
 #articles div {
     display: flex;
+    flex-direction: column;
     width: 300px;
 }
 #articles img{
@@ -82,5 +90,24 @@ width: 250px;
 
     height: 250px;
     width: 250px;
+}
+
+#footer{
+    height: 400px;
+    background-color:gray;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    
+
+}
+#footer div {
+    display: flex;
+    flex-direction: column;
+    margin:30px 50px;
+}
+#lastDiv{
+    height: 45px;
+    background-color: black;
 }
 
