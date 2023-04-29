@@ -1,33 +1,133 @@
-.navbar {
-  background-color: aqua;
+img {
+  width: 100%;
+}
+.revera-button {
+  font-size: 36px;
+  font-weight: bold;
+}
+.home-button {
+  color: red;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.menu img {
+  width: 200px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+.section {
+  background-image: url(lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  
+}
+.section h1 {
+  width: 800px;
+  margin: 0 auto;
+}
+.section p {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  text-align: center;
+  margin: 100px 50px;
+  padding: 20px 50px;
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+}
+.section-one {
+  background-color: #ed564b;
+  color: white;
+  padding: 50px 50px;
+  display: flex;
+  height: 550px;
+  margin: 1;
+
+  
+  
+
+}
+.row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+  height: 5;
+ 
+}
+.col-1 {
+  margin-left: 30px;
+
 }
 
-.nav-links {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.section-two {
+  margin-top: 50px;
+}
+.section-two p {
+  font-size: 14px;
+}
+.section-three {
+  margin-top: 50px;
+}
+.section-four {
+  border-top: #ed564b solid 3px;
+  margin-top: 50px;
+  background-color: #3b3b3b;
+  color: white;
+  padding: 50px 0;
+}
+.section-four ul {
+  list-style: none;
+}
+.section-four a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
 
-.slidebox {
-  background-color: black;
+footer {
+  background-color: #292929;
+  color: white;
 }
-
-.widgets {
-  background-color: red;
+footer a {
+  color: white;
+  text-decoration: none;
 }
-
-.site-content {
-  background-color: white;
+h4 {
+  color: grey;
+  font-size: 16px;
 }
-
-.bottom {
-  background-color: black;
-}
-
-.footer {
-  background-color: gray;
+hr {
+  border: 0; 
+  border-top: 1px solid #999; 
+  border-bottom: 1px solid #333; 
+  height:0
 }
