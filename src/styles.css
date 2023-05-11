@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: fantasy;
+  letter-spacing: 5px;
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 50%;
+  left: 400px;
+  text-decoration: none;
+}
+
+#menu-item-98 {
+  text-decoration: none;
+  color: grey;
+}
+
+#menu-item-98:hover {
+    color: #ed564b;
+}
+
+.main-pic {
+  width: 1500px;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 142px;
+  width: 50%;
+  left: 376px;
+  color: gray;
+}
+
+#p-main{
+    color: gray;
+    position: relative;
+    top: 200px;
+    left: 184px;
+    text-align: center;
+    width: 70%;
+}
+
+.btn {
+    position: relative;
+    left: 700px;
+    top: 200px;
+    padding: 20px;
+}
+
+.section {
+  width: 1500px;
+  height: 300px;
+  background-color: #ed564b;
+  margin-top: 20px;
+}
+
+#p1 {
+  color: white;
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  right: 30px;
+}
+
+#web {
+  display: flex;
+  align-items: flex-start;
+}
+
+h3 {
+  position: relative;
+  left: 214px;
+  top: 20px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.icon {
+    color: white;
+    position: relative;
+    left: 270px;
+    font-size: 50px;
+}
+
+.section2{
+width: 70%;
+height: 300px;
+margin-left: 15%;
+margin-top: 30px;
+}
+
+#p-few{
+    color: gray;
+}
+.info-cards{
+    width: 70%;
+    margin-left: 15%;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.card{
+    border-style: none;
+    border-radius: 0px;
+    
+}
+
+.display-cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info-articles{
+    width: 70%;
+    margin-left: 15%;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.article-text{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px
+}
+
+.card-img-top {
+    width: 100%;
+    
+}
