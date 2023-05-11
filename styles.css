@@ -38,9 +38,20 @@
     height: 70px;
     border-radius: 35px;
     display: block;
-    line-height: 65px;
+    line-height: 55px;
     text-align: center;
     margin: 0px auto;
-    font-size: 20px;
+    font-size: 30px;
+    filter: brightness(0) invert(1);
+}
+.fwidgets{
+    margin-bottom: 20px;
+}
+.section-title{
+    width: 100%;
+    padding: 20px 2%;
+}
 
+#hr-bottom{
+    margin: 0;
 }
