@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.section1 {
+  background-image: url(./starter-code/img/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale();
+}
+
+.overlay {
+  background-image: url(./starter-code/img/overlay.png);
+}
+
+.section1 div {
+  padding: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1 h1 {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 2.5em;
+}
+
+.section1 p {
+  font-size: 0.9em;
+  color: grey;
+}
+
+.read-more-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+  border: 1px solid grey;
+  padding: 10px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.section2 {
+  background-color: #ed564b;
+  border-top: 3px solid #ed7c73;
+  border-bottom: 3px solid #ed7c73;
+  padding: 30px 0;
+}
+
+.section2 .icons {
+  width: 80px;
+  fill: white;
+  display: block;
+  margin: 30px auto;
+
+}
+
+.section2 h2 {
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section2 p {
+  color: white;
+  text-align: center;
+}
+
+
+.image {
+  width: 100%;
+}
+
+.section3 h3 {
+  font-size: 20px;
+  color: rgb(181, 181, 181);
+}
+
+hr {
+  width: auto;
+  color: rgb(181, 181, 181);
+}
+
+.section3 article p {
+  font-size: 10px;
+}
+
+.section3 {
+  margin-top: 30px;
+  border-bottom: 6px solid #ed564b;
+}
+
+.img-section-1 {
+  margin-bottom: 50px;
+}
+
+
+.section4 {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+}
+
+.section4 h5 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+.section4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section4 p {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.section4 a {
+  text-transform: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 7px 0px 7px 0px;
+  color: #aaa;
+  border-bottom: 1px dashed #aaa;
+  display: block;
+}
+
+.section4 hr {
+  height: 0px;
+  border: 1px dashed;
+  margin: 0;
+  padding: 0;
+}
