@@ -1,0 +1,60 @@
+.logo {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  font-family: fantasy;
+  letter-spacing: 5px;
+  left: 100px;
+  top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    
+}
+
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+
+body {
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    display: block;
+    font-weight: bold;
+}
+
+.section-title p {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
