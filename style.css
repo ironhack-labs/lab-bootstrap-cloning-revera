@@ -1,0 +1,25 @@
+.header {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: black;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-size: 100em;
+  font-weight: bold;
+  color: #000000;
+}
+
+.carousel-inner{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  color: #fff;
+  text-align: center;
+}
+
