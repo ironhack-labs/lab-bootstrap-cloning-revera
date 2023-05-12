@@ -1,0 +1,17 @@
+navbar-nav {
+  float: left;
+}
+
+cards {
+  display: flex;
+  align-items: center;
+}
+
+.fwidgets {
+  padding: 40px 0px;
+  background-color: rgb(232, 217, 217, .3);
+}
+
+.subtitle {
+  color: grey;
+}
