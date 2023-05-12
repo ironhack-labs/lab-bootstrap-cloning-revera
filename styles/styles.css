@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#Revera{
+font-size: 32px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 1000;
+margin-left: 5%;
+margin-right: 20%
+
+};
+
+
+.nav-item{
+    color: #404040;
+    font-family: sans-serif;
+    font-size: 14px; 
+}
+
+#carousel1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("../starter-code/img/slider-1.jpg");
+    
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10%
+};
+
+#carousel2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../starter-code/img/slider-3.jpg");
+
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10%
+};
+
+#carousel3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../starter-code/img/slider-4.jpg");
+
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10%
+};
+
+#carousel4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../starter-code/img/slider-2.jpg");
+
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10%
+};
+
+.fwidgets{ /* Era aqui que tinha o css da  class="webDiv" */
+    color: white;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    background-color: #ed564b;
+}
+
+#bottom{
+    display: flex;
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+    color: white;
+}
+
+footer{
+background-color: #404040;
+}
