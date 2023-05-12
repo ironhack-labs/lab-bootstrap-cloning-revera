@@ -1,0 +1,164 @@
+.nav-item {
+    font-size: 30px;
+}
+
+.navbar-brand {
+  font-size: 60px !important;
+  font-weight: bold;
+  padding: 20px 40px 40px;
+  width: 370px;
+  position: relative;
+}
+
+.carousel-item h5 {
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #fff;
+}
+
+.carousel-item p {
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 30px;
+    color: #fff;     
+}
+
+#bttRead {
+
+    background: rgba(255,255,255,0.2);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    width: 300px;
+    height: 70px;
+    border: 1px solid #fff;
+    padding: 5px 0px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff!important;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #ed564b;
+  color: white;
+  padding: 40px;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-text h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.icon-text p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.second-section {
+  margin: 40px;
+}
+
+.second-section h2 {
+  font-size: 24px;
+  margin: 20px 0 5px;
+}
+
+.second-section p {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+}
+
+.first-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 18rem;
+  margin: 0 15px;
+  --bs-card-border-color: none !important;
+}
+
+.link-over {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-body h2 {
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.link-on-text {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-body p {
+  font-size: 16px;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 40px 40px;
+  background-color: #3b3b3b;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+}
+
+footer p {
+  color: #aaa;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+footer h3 {
+  color: white;
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  width: 300px;
+  text-align: left;
+}
+
+footer hr {
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.copyright {
+  padding: 20px 40px 40px;
+  background-color: #292929;
+  color: white;
+  font-size: 12px;
+}
