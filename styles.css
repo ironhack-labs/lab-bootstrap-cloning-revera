@@ -1,0 +1,57 @@
+.d-block{
+    filter: grayscale(1);
+}
+
+.carouselSliderCol{
+    background: none;
+    border: none;
+}
+.carouselSliderCol span{
+    height: 100px;
+    width: 50%;
+}
+
+.carousel-item{
+    text-shadow: 0 0 3px #0a0a0a, 0 0 5px #0d0d0d;
+}
+.carousel-indicators button{
+    width: 80px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+.carouselText{
+    font-size: 2em;
+}
+.article{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.articleIcon{
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 55px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+    filter: brightness(0) invert(1);
+}
+.fwidgets{
+    margin-bottom: 20px;
+}
+.section-title{
+    width: 100%;
+    padding: 20px 2%;
+}
+
+#hr-bottom{
+    margin: 0;
+}
