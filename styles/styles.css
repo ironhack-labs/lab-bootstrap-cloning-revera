@@ -77,7 +77,7 @@ margin-right: 20%
     margin-bottom: 10%
 };
 
-.fwidgets{
+.fwidgets{ /* Era aqui que tinha o css da  class="webDiv" */
     color: white;
     border-top: 5px solid #f96b61;
     border-bottom: 5px solid #f96b61;
