@@ -1,0 +1,47 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.active{
+    color: #ed564b !important;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    color: #ed564b ;
+}
+.dropdown-item:hover{
+    color: #ed564b;
+}
+
+/* Carousel */
+.carousel-inner{
+    height: 400px;
+}
+.carousel-item img{
+    filter: grayscale(100%);
+}
+
+
+.carousel-item div{
+    
+    color: white;
+    background-image: url(../starter-code/img/overlay.png);
+    justify-self: end;
+    text-align: center;
+    
+}
+.carousel-item button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    width: 150px;
+}
+.carousel-control-next{
+    background-color: #ed564b;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
