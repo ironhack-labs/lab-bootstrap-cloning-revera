@@ -1,0 +1,95 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.active{
+    color: #ed564b !important;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    color: #ed564b ;
+}
+.dropdown-item:hover{
+    color: #ed564b;
+}
+
+/* Carousel */
+
+.carousel-item img{
+    filter: grayscale(100%);
+}
+.carousel-item div{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-image: url(../starter-code/img/overlay.png);
+    background-repeat: repeat;
+
+    
+}
+.carousel-item button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    width: 150px;
+}
+.carousel-control-next{
+    background-color: #ed564b;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev{
+    background-color: #ed564b;
+    width: 50px;
+    height: 50px;
+}
+/* Tarjetas */
+.container-cards{
+    background-color: #ed564b;
+}
+.homewidget{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.homewidget span{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+/* Projects */
+
+/* Articles */
+.article a{
+    text-decoration: none;
+    color: #ed564b;
+    font-weight: bold;
+}
+
+
+/* Footer */
+.container-footer{
+    padding: 20px 0px 40px 0px;
+    margin: 0;
+    width: 100%;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+.container-footer li{
+    background-color: #3b3b3b;
+}
+.container-footer h5{
+    color: white;
+}
+.container-footer p, .container-footer a{
+    color: #ffffff57;
+}
+/* Copyright */
+.Copyright{
+    color: white;
+    background-color: #292929;
+}
+.Copyright p{
+    margin: 0;
+}
