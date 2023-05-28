@@ -67,3 +67,24 @@
     border: none;
     border-radius: 0px;
 }
+
+#articles img {
+    height: 175.99px;
+    object-fit:cover;
+}
+
+#articles span {
+    color:#ed564b;
+}
+
+#articles span:hover {
+    color: black;
+}
+
+.post-title {
+    font-size: 18px;
+}
+
+.post-info {
+    font-size: 14px;
+}
