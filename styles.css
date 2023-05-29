@@ -40,3 +40,58 @@ img.d-block {
     -webkit-filter: grayscale(100%);
 }
 
+.homewidget {
+    color: #fff;
+    text-align: center;
+}
+
+.fwidgets {
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+}
+
+.homewidget h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.glyphicon-glass:before {
+    content: "\e001";
+}
+
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.glyphicon-star:before {
+    content: "\e006";
+}
+
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.glyphicon-heart:before {
+    content: "\e005";
+}
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
