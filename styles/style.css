@@ -85,7 +85,7 @@
 }
 
 #articles span:hover {
-    --bs-danger-rgb: 0, 0,;
+    --bs-danger-rgb: 0, 0, 0;
 }
 
 .fs-6 {
@@ -124,5 +124,5 @@
 #footer-page .border-bottom {
     --bs-border-width: 1px;
     --bs-border-color:#aaaaaa;
-
+    --bs-border-style: dotted;
 }
