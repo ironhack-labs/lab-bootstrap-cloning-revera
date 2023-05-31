@@ -70,18 +70,38 @@ body {
     text-transform: uppercase;
 }
 
-
-
 .container-red-section {
     background-color: #ed564b;
 }
 
 .container-red-section h3 {
     color: white;
+    font-size: 24px;
 }
 
 .red-section-p {
     color: white;
+    font-size: 15px;
+}
+
+#container-red-row {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#glass-icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#heart-icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#star-icon {
+    width: 80px;
+    margin-bottom: 20px;
 }
 
 .section-one-title h2, h5 {
