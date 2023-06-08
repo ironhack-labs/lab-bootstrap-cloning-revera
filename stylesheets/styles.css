@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#benefits-section {
+    padding: 40px 0px;
+    background-color: red;
+    color: white;
+}
+
+
+.footer-bg {
+    background-color: grey;
+}
