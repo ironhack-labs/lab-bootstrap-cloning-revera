@@ -12,19 +12,24 @@ body {
   font-weight: bold;
   color: rgb(188, 190, 190);
 }
-
 .info-banner {
-  background-color: #ed564b;
-  color: white;
+	background-color: #ed564b;
+	color: white;
 }
-.link-body-text {
+.links{
+	color: antiquewhite;
+	background-color: rgb(59,59,59);
+}
+.links-body-text {
   color: rgb(188, 190, 190);
 }
 .links-body a {
   text-decoration: none;
   color: rgb(188, 190, 190);
 }
-
+.border-btm{
+	border-bottom: 1px dotted whitesmoke;
+}
 .text-highlight {
 	color: #ed564b;
 }
