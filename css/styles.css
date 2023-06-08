@@ -1,4 +1,55 @@
+:root {
+    --red: #ed564b;
+    --brown: #878787;
+  }
+
+#myCarousel {
+    position: relative;
+}
 
 #myCarousel img{
     filter: grayscale(100%);
+}
+
+#myCarousel .carousel-overlay {
+    background-image: url(/starter-code/img/overlay.png);
+    position: absolute;
+    background-repeat: repeat;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.features {
+    background-color: var(--red);
+    padding: 20px;
+}
+
+.features * {
+    background-color: var(--red);
+    color: white;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: var(--brown);
+    border-top: 5px solid var(--red);
+}
+
+footer a {
+    color: var(--brown);
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin: 5px;
+    border-bottom:1px dotted var(--brown);
 }
