@@ -1,0 +1,17 @@
+.list-unstyled li:hover
+{
+  color: white;
+  cursor: pointer;
+}
+
+.bottom-title {
+  color: white;
+}
+
+.list-unstyled hr {
+  border: none;
+    height: 1px;
+    background: transparent;
+    border-top: 1px dashed #000;
+    border-top: 1px dotted #000;
+}
