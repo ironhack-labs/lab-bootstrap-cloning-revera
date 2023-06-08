@@ -1,0 +1,39 @@
+.home {
+    color: rgb(203, 58, 83);
+}
+
+#header-img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card.img {
+    margin: 2em;
+}
+
+
+#latest-project {
+    font-weight: bold ;
+    padding-top: 4em;
+}
+
+#few-projects {
+font-size: x-small;
+font-weight: bold ;
+color: grey;
+}
+
+.articles-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: rgb(58, 48, 48);
+    color: white;
+}
