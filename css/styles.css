@@ -2,7 +2,7 @@
     --red: #ed564b;
     --brown: #878787;
   }
-
+  
 #myCarousel {
     position: relative;
 }
@@ -19,6 +19,20 @@
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+.card {
+    border: 0px;
+}
+
+div.section {
+    padding: 0px 8% 20px 8%;
+}
+    
+@media (max-width: 768px) {
+    div.section {
+        padding: 0px 0% 20px 0%;
+    }
 }
 
 .features {
@@ -46,10 +60,16 @@ footer h3 {
 }
 
 footer ul {
+    padding: 0;
     list-style-type: none;
 }
 
 footer li {
     margin: 5px;
+    padding: 5px;
     border-bottom:1px dotted var(--brown);
+}
+
+footer li a{
+    text-decoration: none;
 }
