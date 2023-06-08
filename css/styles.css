@@ -1,4 +1,15 @@
+.header-brand {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.nav-item {
+  font-size: 8px;
+  font-weight: bold;
+  color: rgb(188, 190, 190);
+  
+}
+
 .info-banner {
-	background-color: #ed564b;
-	color: white;
+  background-color: #ed564b;
+  color: white;
 }
