@@ -24,3 +24,18 @@ body {
   text-decoration: none;
   color: rgb(188, 190, 190);
 }
+
+.text-highlight {
+	color: #ed564b;
+}
+
+footer {
+	background-color: #292929;
+	color: white;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0;
+	padding-left: 20vw;
+}
