@@ -1,0 +1,29 @@
+.allicons{
+    background-color: red;
+}
+/* .icons{
+    background-color: red;
+} */ 
+.down-body{
+    background-color: grey;
+}
+
+.footer{
+    background-color: rgb(89, 88, 88);
+}
+
+.projects{
+    margin-top: 2rem ;
+    margin-bottom: 3rem ;
+}
+
+.articles{
+    margin-bottom: 3rem ;
+}
+
+h5{
+    font-size: 30%;
+}
+p{
+    font-size: 65%;
+}
