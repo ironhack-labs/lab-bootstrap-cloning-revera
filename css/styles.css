@@ -26,18 +26,38 @@
 }
 
 div.section {
-    padding: 0px 8% 20px 8%;
+    padding: 0px 10% 20px 10%;
 }
     
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
+@media (max-width: 766px) {
     div.section {
         padding: 0px 0% 20px 0%;
     }
 }
 
+/*
+
+issues with responsive
+
+chrome browser:				breakpoint width @750px-751px
+chrome dev tools: 			breakpoint width @767px-768px
+@media (max-width: 768px)	breakpoint width @750px-751px + @752px-753px
+
+chrome dev tools: 			breakpoint width @478px-479px (space right ??? (wut4))
+
+(chrome browser min width 483px)
+
+https://getbootstrap.com/docs/5.3/layout/grid/
+md
+≥768px
+720px		Container max-width
+.col-md-	Class prefix
+
+*/
+
 .features {
     background-color: var(--red);
-    padding: 20px;
 }
 
 .features * {
@@ -60,13 +80,13 @@ footer h3 {
 }
 
 footer ul {
-    padding: 0;
+    /* padding: 0; */
     list-style-type: none;
 }
 
 footer li {
-    margin: 5px;
-    padding: 5px;
+    /* margin: 5px;
+    padding: 5px; */
     border-bottom:1px dotted var(--brown);
 }
 
