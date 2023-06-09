@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .navbar{
+    text-size-adjust: auto;
+  }
+
+  
+
+.container-fluid {
+    text-size-adjust: auto;
+    text-align: right;
+}
+
+.a {
+    color: #f4473a;
+    text-decoration: none;
+}
+
+.img {
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip; 
+    border: 0;
+}
+
+.hthumb a img {
+    display: block;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.row {
+    text-align: left;
+}
+
+
+.two container row {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4473a;
+  }
+
+  .col-12{
+    text-align: left;
+    
+  }
