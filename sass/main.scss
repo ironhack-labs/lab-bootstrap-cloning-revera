@@ -1,0 +1,18 @@
+// I followed instructions from https://www.youtube.com/watch?v=nCX3QVl_PiI&ab_channel=TheNetNinja
+// custom variables (overrides)
+// !default means use value only if not already declared, so this must be before the import:
+$primary: #c29938;
+
+// then import functions & variables:
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors-map: (
+    "altlight": #111,
+    "altdark": #eee
+);
+
+$theme-colors: map-merge($custom-theme-colors-map, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap'
