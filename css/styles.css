@@ -1,0 +1,95 @@
+:root {
+    --red: #ed564b;
+    --brown: #878787;
+  }
+  
+#myCarousel {
+    position: relative;
+}
+
+#myCarousel img{
+    filter: grayscale(100%);
+}
+
+#myCarousel .carousel-overlay {
+    background-image: url(/starter-code/img/overlay.png);
+    position: absolute;
+    background-repeat: repeat;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.card {
+    border: 0px;
+}
+
+div.section {
+    padding: 0px 10% 20px 10%;
+}
+    
+/* @media (max-width: 768px) { */
+@media (max-width: 766px) {
+    div.section {
+        padding: 0px 0% 20px 0%;
+    }
+}
+
+/*
+
+issues with responsive
+
+chrome browser:				breakpoint width @750px-751px
+chrome dev tools: 			breakpoint width @767px-768px
+@media (max-width: 768px)	breakpoint width @750px-751px + @752px-753px
+
+chrome dev tools: 			breakpoint width @478px-479px (space right ??? (wut4))
+
+(chrome browser min width 483px)
+
+https://getbootstrap.com/docs/5.3/layout/grid/
+md
+≥768px
+720px		Container max-width
+.col-md-	Class prefix
+
+*/
+
+.features {
+    background-color: var(--red);
+}
+
+.features * {
+    background-color: var(--red);
+    color: white;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: var(--brown);
+    border-top: 5px solid var(--red);
+}
+
+footer a {
+    color: var(--brown);
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul {
+    /* padding: 0; */
+    list-style-type: none;
+}
+
+footer li {
+    /* margin: 5px;
+    padding: 5px; */
+    border-bottom:1px dotted var(--brown);
+}
+
+footer li a{
+    text-decoration: none;
+}
