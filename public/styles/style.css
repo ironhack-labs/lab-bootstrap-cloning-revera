@@ -1,0 +1,45 @@
+.active {
+  color: rgb(237,86,75) !important;
+}
+
+.bg-orange {
+  background-color: rgb(237,86,75) !important;
+}
+
+.bg-light-orange {
+  background-color: rgb(249,107,97) !important;
+}
+
+.btn-outline-secondary {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-radius: 0;
+}
+
+.carousel-caption h5 {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-caption p {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-control-prev {
+  width: 40px;
+  height: 80px;
+  top: 40%;
+  border-radius: 0;
+}
+.carousel-control-next {
+  width: 40px;
+  height: 80px;
+  top: 40%;
+  border-radius: 0;
+}
+
+.invert {
+  filter: invert(100%)
+}
