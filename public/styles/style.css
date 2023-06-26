@@ -41,5 +41,25 @@
 }
 
 .invert {
-  filter: invert(100%)
+  filter: invert(100%);
+}
+
+.fs-small {
+  font-size: smaller;
+}
+
+.img-crop {
+  object-fit: cover;
+  object-position: center; 
+  height: 100px;
+  width: 190px;
+  margin-bottom: 1rem;
+}
+
+.fs-mid {
+  font-size: 0.7em;
+}
+
+.fs-smaller {
+  font-size: 0.7em;
 }
