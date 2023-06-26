@@ -1,0 +1,21 @@
+.btn-custom {
+    background-color: #ed564b; /* Color de fondo personalizado */
+    color: #ffffff; /* Color de texto personalizado */
+  }
+
+  .custom-color-1 {
+    background-color: #ed564b; /* Reemplaza #FF0000 con el código de color deseado */
+    /* Otros estilos opcionales */
+  }
+
+
+  .custom-color-2 {
+    background-color: #3b3b3b; /* Reemplaza #FF0000 con el código de color deseado */
+    /* Otros estilos opcionales */
+  }
+
+  .custom-text-color-1 {
+    color: #aaaaaa; /* Color de letra personalizado 1 */
+  }
+
+
