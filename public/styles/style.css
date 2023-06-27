@@ -1,0 +1,83 @@
+.active {
+  color: rgb(237,86,75) !important;
+}
+
+.bg-orange {
+  background-color: rgb(237,86,75) !important;
+}
+
+.border-orange {
+  border-color: rgb(237,86,75) !important;
+}
+
+.bg-light-orange {
+  background-color: rgb(249,107,97) !important;
+}
+
+.bg-gray {
+  background-color: rgb(59, 59, 59) !important;
+}
+.text-gray {
+  color: rgb(170, 170, 170) !important;
+}
+
+.bg-dark-gray {
+  background-color: rgb(41, 41, 41) !important;
+}
+.btn-outline-secondary {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-radius: 0;
+}
+
+.carousel-caption h5 {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-caption p {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-control-prev {
+  width: 40px;
+  height: 80px;
+  top: 40%;
+  border-radius: 0;
+}
+.carousel-control-next {
+  width: 40px;
+  height: 80px;
+  top: 40%;
+  border-radius: 0;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.fs-small {
+  font-size: smaller;
+}
+
+.img-crop {
+  object-fit: cover;
+  object-position: center; 
+  height: 100px;
+  width: 190px;
+  margin-bottom: 1rem;
+}
+
+.fs-mid {
+  font-size: 0.7em;
+}
+
+.fs-smaller {
+  font-size: 0.7em;
+}
+
+.border-dotted {
+  border-bottom-style: dotted !important;
+}
