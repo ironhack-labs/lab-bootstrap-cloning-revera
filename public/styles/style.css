@@ -6,10 +6,24 @@
   background-color: rgb(237,86,75) !important;
 }
 
+.border-orange {
+  border-color: rgb(237,86,75) !important;
+}
+
 .bg-light-orange {
   background-color: rgb(249,107,97) !important;
 }
 
+.bg-gray {
+  background-color: rgb(59, 59, 59) !important;
+}
+.text-gray {
+  color: rgb(170, 170, 170) !important;
+}
+
+.bg-dark-gray {
+  background-color: rgb(41, 41, 41) !important;
+}
 .btn-outline-secondary {
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -62,4 +76,8 @@
 
 .fs-smaller {
   font-size: 0.7em;
+}
+
+.border-dotted {
+  border-bottom-style: dotted !important;
 }
