@@ -140,3 +140,21 @@ footer {
     background-color: rgb(31, 31, 31);
     ;
 }
+
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
