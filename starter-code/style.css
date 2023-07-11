@@ -1,0 +1,73 @@
+img{
+    width: 100%;
+}
+.navCat{
+margin-top:10px ;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.navCat h1{
+   margin-right:80px ;
+    text-transform: uppercase;
+}
+.navList il{
+    margin-left: 15px;
+}
+.homeRed{
+    color: red;
+}
+.hero{
+background-image: url("./img/slider-1.jpg");
+height:600px ;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.lead{
+    color:black;
+    width: 10%;
+    border-color: black;
+    background-color:rgba(0,0,0,0) ;
+}
+.boxRed{
+    height: 150px;
+    background-color: red;
+    position: relative;
+    bottom:-220px ;
+}
+
+
+
+
+footer{ 
+    background-color: gray;
+    align-items: start;
+}
+.textFo{
+    color: white;
+    text-align: start;
+}
+.textFo a{
+    color: white;
+}
+.postFother{
+    
+    color: white;
+    background-color: black;
+    height: 90px;
+    
+}
+
