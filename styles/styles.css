@@ -1,0 +1,156 @@
+.red {
+	color: red;
+}
+
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	width: 85%;
+}
+
+.i {
+	font-size: 28px;
+	padding: 20px;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.toUppercase {
+	text-transform: uppercase;
+}
+
+section {
+	margin-bottom: 60px;
+}
+
+img {
+	width: 100%;
+}
+
+header nav {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+
+header nav span {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+header nav span a {
+	text-decoration: none;
+	color: black;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+}
+
+header nav ul li {
+	margin-right: 24px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+main {
+	background-image: url(../starter-code/img/slider-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	filter: grayscale(100%);
+	color: white;
+	text-align: center;
+}
+
+
+main .button {
+	display: block;
+	padding: 10px 14px;
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	width: 200px;
+}
+
+.technologies {
+	background: #ed554a;
+	color: white;
+	padding: 40px 20px;
+}
+
+.technologies article h3 {
+	margin-top: 40px;
+}
+
+.technologies article p {
+	padding: 20px 0;
+}
+
+.technologies article {
+	margin-top: 30px;
+}
+
+
+
+.foot-text {
+	color: grey;
+}
+
+.latest-projects .row p,
+.latest-articles .row p {
+	margin-top: 12px;
+}
+
+
+.latest-articles .row p.title {
+	font-weight: bold;
+}
+
+.credits {
+	font-size: 12px;
+	color: grey;
+}
+
+footer {
+	background: #414040;
+	border-top: 3px solid red;
+	color: white;
+	padding-top: 60px;
+}
+
+footer h5 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+footer p a {
+	text-decoration: none;
+	color: white;
+} 
+
+footer .links p {
+	border-bottom: 1px dotted white;
+	padding-bottom: 4px;
+}
+
+.dotted {
+	border-bottom: 1px dotted white;
+}
+
+.dark-footer {
+	background: #2d2d2d;
+	padding-top: 20px;
+	margin-top: 30px;
+}
