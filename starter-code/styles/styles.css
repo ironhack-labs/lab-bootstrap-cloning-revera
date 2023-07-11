@@ -1,0 +1,90 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+header li {
+    justify-content: space-between;
+}
+
+.hero {
+    background-image: url("../img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    filter: grayscale(100%);
+    text-align: center;
+    color: rgb(240, 229, 229);
+}
+
+.web {
+    background-color: rgb(243, 86, 86);
+    padding: 90px;
+}
+
+.web h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.web p {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+
+
+.projects p {
+    font-size: 1em;
+    color: rgb(83, 81, 81);
+}
+
+.projects h3,
+.projects p {
+    text-transform: uppercase;
+}
+
+.projects h3 {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.row span {
+    color: red;
+}
+
+.final {
+    background-color: rgb(97, 88, 88);
+}
+
+.final h7,
+.final p {
+    color: white;
+}
+
+.final h7 {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.5em;
+    background-color: rgb(52, 46, 46);
+    padding: 1%;
+}
+
+footer h8 {
+    color: white;
+    padding-left: 5%;
+}
