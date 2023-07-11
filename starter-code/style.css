@@ -1,0 +1,144 @@
+img {
+    width: 100%;
+}
+
+.revera-link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+
+}
+
+.links p {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.Hero {
+    background-image: url(./img/slider-1.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    background-size: cover;
+
+
+
+}
+
+.Hero article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 75px;
+    color: white;
+
+}
+
+.Hero h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+
+
+
+.button-centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 110px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.salmon-background {
+    background-color: rgb(255, 81, 62);
+    border-top: 4px solid rgb(255, 135, 122);
+    border-bottom: 4px solid rgb(255, 135, 122);
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 3%;
+    font-size: small;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: small;
+}
+
+.projects p,
+h6 {
+    color: #ccc;
+}
+
+.projects {
+    padding-bottom: 3%;
+}
+
+.footer {
+    color: rgb(187, 187, 187);
+    background-color: rgb(82, 82, 82);
+    border-top: 4px solid rgb(255, 81, 62);
+    padding: 3%;
+    font-size: x-small;
+}
+
+.footer h4 {
+    color: white;
+    font-size: x-small;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+.footer p {
+    padding-bottom: 0px;
+}
+
+.bottom {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 2%;
+    font-size: 12px;
+}
