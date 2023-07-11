@@ -1,0 +1,87 @@
+img {
+    width: 100%;
+}
+
+.revera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.revera ul {
+    display: flex;
+    list-style: none;
+    text-decoration-line: none;
+    align-items: center;
+}
+
+.revera li {
+    margin-right: 25px;
+    list-style: none;
+    text-decoration-line: none;
+
+}
+
+h1 {
+    text-transform: uppercase;
+
+}
+
+.home {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    width: 100%;
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.texthome {
+    text-align: center;
+    padding: 180px;
+    color: white;
+}
+
+.info {
+    background-color: #ED564B;
+    margin: 10px 0;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.button.centered {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-color: white;
+    border: 3px;
+    border-bottom: 3px;
+}
+
+h3 {
+    color: white;
+}
+
+.final {
+    border-top: 5px solid #ed564b;
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    color: white;
+}
+
+footer {
+    background: #3b3b3b;
+    color: white;
+
+}
+
+.finalContainer {
+    width: 100%;
+}
