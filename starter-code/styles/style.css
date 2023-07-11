@@ -1,0 +1,170 @@
+img {
+    width: 100%;
+}
+
+.menu h1 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-right: 150px;
+}
+
+.menu li {
+    margin-right: 20px;
+    font-size: 0.8em;
+
+}
+
+.backgroundHeader {
+    background-image: url("/starter-code/img/slider-1.jpg");
+    filter: saturate(0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.backgroundHeader h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.backgroundHeader h3 {
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+.button {
+    font-size: 1em;
+    border: 1px solid;
+    text-transform: uppercase;
+    width: 18%;
+    margin: auto;
+    padding: 5px;
+}
+
+.redBackground {
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    background-color: rgb(206, 73, 73);
+}
+
+.services {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.services h3 {
+    font-size: 1em;
+}
+
+.services h2 {
+    font-size: 6em;
+}
+
+.services p {
+    font-size: 0.7em;
+}
+
+.latest {
+    padding-bottom: 30px;
+}
+
+.latest h3 {
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.latest h4 {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.latest h5 {
+    padding-top: 10px;
+    font-size: 0.5em;
+}
+
+.parts {
+    text-align: center;
+}
+
+.parts2 {
+    text-align: left;
+}
+
+.parts h5,
+.parts2 h5 {
+    font-weight: bold;
+}
+
+.article-description {
+    font-size: 0.6em;
+
+}
+
+.posted {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.posted span {
+    color: red;
+}
+
+.bottom-menu-background {
+    background-color: darkslategray;
+    border-top: 3px solid red;
+    padding-top: 50px;
+}
+
+.bottom-menu-background h5 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+.bottom-menu-background p {
+    color: gray;
+    padding-bottom: 2px;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
+
+.bottom-menu-background hr {
+    color: gray;
+    border: 1px dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-background {
+    background-color: rgb(37, 31, 31);
+    padding: 10px;
+}
+
+.footer-background p {
+    color: white;
+    font-size: 0.6em;
+    margin-bottom: 3px;
+}
