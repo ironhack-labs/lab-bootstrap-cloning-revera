@@ -1,0 +1,139 @@
+img {
+    width: 100%;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.nav1 h1 {
+    display: flex;
+    margin-right: 30%;
+
+}
+
+.nav1 li {
+    list-style: none;
+
+    margin-right: 40px;
+}
+
+.nav1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: grey;
+    filter: saturate(0);
+    padding-top: 40px;
+    padding-bottom: 190px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-color: white;
+    padding: 10px;
+
+}
+
+.section1 {
+    background-color: rgb(217, 94, 94);
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.section2 {
+
+    padding: 30px;
+}
+
+.section2 h3 {
+
+    font-size: 30px;
+}
+
+.section2 h4 {
+
+    font-size: 20px;
+}
+
+.latest {
+
+    text-align: center;
+}
+
+.linea {
+    background-color: rgb(207, 75, 75);
+    border: solid rgb(216, 64, 64);
+
+}
+
+.end {
+    color: rgb(172, 169, 169);
+    background-color: rgb(113, 109, 109);
+
+
+}
+
+.end h5 {
+
+    text-transform: uppercase;
+}
+
+.end h6 {
+
+    text-align: left;
+}
+
+
+ul li {
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
