@@ -1,0 +1,160 @@
+/* IMPORTANTE -> COMENZAR SIEMPRE CON ESTA REGLA */
+
+img {
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.info {
+    padding: 100px 0
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.menu li {
+    margin-right: 20px;
+    justify-content: left;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    padding-left: 500pxpx;
+
+}
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 300px;
+    text-align: center;
+
+}
+
+a {
+    color: black;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(./img/slider-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+    text-size-adjust: auto;
+}
+
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.info .container h2 {
+    font-size: 20px;
+}
+
+.info .container p {
+    color: black;
+    background-color: white;
+}
+
+.row h3,
+p {
+    color: white;
+
+}
+
+.names {
+    background: #ed564b;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.row p {
+    font-size: 12px;
+}
+
+article p {
+    padding: 10%;
+}
+
+.infoSecond p {
+    color: black;
+}
+
+.infoThird {
+    background-color: #212529;
+    border-top: 6px solid red;
+}
+
+.infoThird hr,
+h5 {
+    color: white;
+
+}
+
+.infoThird h5 {
+    padding-top: 10%;
+}
+
+.infoThird hr {
+    border-style: dotted;
+}
+
+
+.names h4 {
+    color: white;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(31, 31, 31);
+    ;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
