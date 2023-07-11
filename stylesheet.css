@@ -1,0 +1,98 @@
+/* general styling */
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    filter: grayscale(100%);
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+* strong {
+    color: red;
+}
+
+/* CONFIRM WHY IS NOT RESPONDING*/
+
+/* nav styling */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 500px 20px 100px;
+    background-color: white;
+    /* position: fixed; [ADJUST] */
+}
+
+.menu p {
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+    color: darkgray;
+}
+
+/* banner styling*/
+
+header .container h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 100px;
+    color: rgb(206, 202, 202);
+}
+
+.header.menu.p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(206, 202, 202);
+}
+
+/* SECTION 1 styling */
+
+.section1 {
+    height: 300px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+/* SECTION 2 styling */
+
+.section2 {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* SECTION 3 styling */
+
+.section3 {
+    background-color: rgb(64, 64, 64);
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
