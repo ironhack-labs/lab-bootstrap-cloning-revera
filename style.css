@@ -1,0 +1,97 @@
+img {
+    width: 100%;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menubar ul {
+    display: flex;
+    list-style: none;
+}
+
+.menubar li {
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 170px;
+    filter: grayscale(100%);
+    display: flex;
+}
+
+.button {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.modules {
+    align-items: center;
+    background-color: salmon;
+    color: white;
+    display: flex;
+    padding: 60px;
+
+}
+
+article {
+    text-align: center;
+    align-items: center;
+}
+
+.projects {
+    padding-top: 60px;
+}
+
+.artic {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.botinfo {
+    color: white;
+    background-color: #273746;
+    border-top: 50px;
+    border-color: salmon;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-left: 250px;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 1px dashed #ffffff;
+}
+
+.footer p+p {
+    margin-top: 0;
+}
+
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+}
