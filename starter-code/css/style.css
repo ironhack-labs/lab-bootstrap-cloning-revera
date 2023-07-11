@@ -17,9 +17,13 @@ h1{
     text-transform: uppercase;
     font-size: 20px;
 }
+
+nav {
+    padding-right: 50px; 
+}
 nav ul{
     display: flex;
-        justify-content: space-between;
+        justify-content:space-around;
         align-items: center;
         /* padding: 20px; */
         list-style: none;
@@ -32,6 +36,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #313131;
+    font-size: 14px;
 }
 
 nav ul li a:hover{
