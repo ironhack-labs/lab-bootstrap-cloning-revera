@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+
+}
+
+li {
+    padding-left: 10px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo {
+    padding: 30px;
+}
