@@ -1,0 +1,154 @@
+img{
+    width: 100%;
+}
+
+
+
+
+
+header{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 20px; */
+        list-style: none;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #313131;
+}
+
+nav ul li a:hover{
+    color: #313131;
+}
+
+
+h2{
+    text-align: center;
+    color: #b0afaf;
+    
+}
+
+.banner p{
+    padding: 0 300px;
+    color: #b0afaf;
+}
+
+.banner {
+    /* border: 1px solid; */
+    background-image: url("./../img/slider-1.jpg");
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 100px 0;
+    
+}
+
+.banner .container a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b0afaf;
+    border: 1px solid #b0afaf;
+    margin:0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding:10px;
+}
+
+.red{
+    background-color: red;
+    padding: 100px;
+}
+
+.red .container{
+    text-align: center;
+}
+
+.red p, .red h3{
+    color: #FFF;
+}
+
+.project img{
+    /* width: 50%; */
+}
+
+.project{
+    padding: 50px 0;
+}
+
+.articles{
+    padding: 50px 0;
+}
+
+.project .container .row .col-md-3 p{
+    text-align: center;
+}
+
+.articles .container .row .col-md-3 p.art{
+    text-align: left;
+    font-size: 12px;
+}
+
+footer{
+    background-color: #313131;
+    border-top: 3px solid #9b0505;
+    padding: 50px 0;
+    font-size: 10px;
+}
+
+footer .container .row .col-md-3 p{
+    text-transform: uppercase;
+    color: #FFF;
+    
+
+}
+
+
+.col-md-3 ul.nav_footer{
+    list-style: none;
+    margin: 0;
+        padding: 0;
+}
+
+.col-md-3 ul.nav_footer li{
+    padding: 5px 0 10px 0;
+    border-bottom: 1px dashed #FFF;
+}
+
+.col-md-3 ul.nav_footer li a {
+
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+svg{
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+h3 {
+    margin-top: 25px;
+}
