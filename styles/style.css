@@ -1,0 +1,89 @@
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 450px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    margin-right: 400px;
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-image: url(./../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    color: white;
+}
+
+.hero h1 {
+    padding: 0 350px;
+}
+
+
+.hero .hero2 {
+    padding: 50px;
+    background-color: rgb(183, 50, 50);
+    position: relative;
+    bottom: -150px;
+}
+
+.projects {
+    padding: 20px;
+
+}
+
+.articles {
+    padding: 20px;
+}
+
+footer {
+    background-color: grey;
+    border-top: 5px solid red;
+    color: white;
+
+}
+
+.buttom {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+.copyright {
+    background-color: rgb(79, 78, 78);
+    padding-left: 300px;
+    color: white;
+}
