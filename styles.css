@@ -2,6 +2,35 @@ img {
     width: 100%
 }
 
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 13px;
+    margin-right: 10px;
+
+}
+
+.menu p {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(74, 72, 72);
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin-left: 10px;
+    align-items: flex-end;
+    text-decoration: underline;
+    color: grey;
+}
+
 .hero {
     background-image: url(./starter-code/img/slider-1.jpg);
     background-position: center;
@@ -12,7 +41,6 @@ img {
     margin-bottom: -20px;
     filter: grayscale(80%);
 }
-
 
 .hero h1 {
     text-align: center;
@@ -25,6 +53,16 @@ img {
     text-align: center;
     justify-content: center;
     padding-top: 50px;
+    display: block;
+}
+
+.more {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .info {
@@ -57,4 +95,16 @@ h2 {
 
 .articles {
     margin top: 30pxpx;
+}
+
+
+footer {
+    background-color: grey;
+
+}
+
+footer h5 {
+    padding-bottom: 20px;
+    color: rgb(241, 240, 240);
+    text-transform: uppercase;
 }
