@@ -1,0 +1,89 @@
+img {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.brand-name {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20%;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1em;
+}
+
+.selected-color {
+    color: lightcoral;
+}
+
+.hero {
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+
+.background-image {
+    background-image: url(./img/project-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+}
+
+.subtitle {
+    color: grey
+}
+
+.icons img {
+    width: 100px;
+
+}
+
+.icon-section {
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.portfolio-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(61, 61, 61);
+    border-top: 5px solid rgb(179, 81, 81);
+    color: white;
+
+}
