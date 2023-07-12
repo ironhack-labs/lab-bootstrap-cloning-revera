@@ -59,11 +59,9 @@ a {
 
 .more {
     border: 2px solid white;
-    background-color: transparent;
-    color: white;
     text-align: center;
     justify-content: center;
-    display: flex;
+
 }
 
 .info {
