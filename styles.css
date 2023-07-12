@@ -24,7 +24,8 @@ img {
 
 }
 
-.menu li {
+.menu li,
+a {
     margin-left: 10px;
     align-items: flex-end;
     text-decoration: underline;
