@@ -1,0 +1,39 @@
+
+img{
+    width: 100%;
+}
+.revera{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+}
+.menu{
+    display: flex;
+    color: black;
+    
+}
+.red{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.phot-container{
+    padding-top: 100px;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.cat{
+    padding: 6%;
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
