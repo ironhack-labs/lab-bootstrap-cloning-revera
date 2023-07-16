@@ -1,0 +1,101 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;    
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    color:grey;
+ }
+
+
+.button{
+
+}
+
+.section2 {
+    text-align: center;
+    background-color: rgb(224, 87, 87);
+    padding: 60px;
+}
+
+.section3 {
+    padding-top: 30px;
+}
+
+.section3 h3 {
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+}
+
+.section4 h3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.section4 a {
+    text-decoration: none;
+    color: red;
+}
+
+.section4 h4 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section5 {
+    background-color: grey;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.section5 a {
+    text-decoration: none;
+    color: rgb(192, 183, 183);
+}
+
+.section5 p {
+    color: rgb(192, 183, 183);
+}
+
+.section5 h2 {
+    font-size: 20px;
+}
+
+.footer {
+    padding-bottom: 20px;
+    background-color: rgb(59, 59, 59);
+    color: white
+
+
+}
