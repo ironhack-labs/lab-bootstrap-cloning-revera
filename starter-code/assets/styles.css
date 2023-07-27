@@ -1,0 +1,20 @@
+/* ============= navbar ================ */
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.navbar-nav {
+  margin-left: 200px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.active {
+  color: red !important;
+}
+
+/* ============== end navbar ============= */
