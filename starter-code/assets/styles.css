@@ -13,6 +13,10 @@
   color: red !important;
 }
 
+header {
+  z-index: 120;
+}
+
 /* ============== end navbar ============= */
 
 /* ========== slider ============== */
@@ -28,10 +32,9 @@
   background: url("../img/overlay.png");
   position: absolute;
   width: 100%;
-  height: 55vh;
+  height: 50vh;
   left: 0px;
-  top: 0px;
-  z-index: 10;
+  top: 50px;
 }
 
 .slider-nav {
@@ -46,4 +49,22 @@
 .nav-ctrl {
   width: 50px;
   z-index: 30;
+}
+
+/* ============= widgets ============ */
+.widgets {
+  color: white;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.info {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.info-body {
+  color: #aaa;
 }
