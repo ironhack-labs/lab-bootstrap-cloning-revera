@@ -1,0 +1,18 @@
+.sectionOne{
+    background-color: #ed564b;
+    color: white;
+}
+
+.icon-container {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .fa-heart,
+  .fa-star {
+    font-size: 24px;
+  }
