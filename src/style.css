@@ -5,3 +5,31 @@
 .services-section {
   background-color: brown;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 81, 81);
+}
+#navbar-container{
+  
+  width: 100vw;
+}
+#carouselExampleCaptions{
+  width: 100vw;
+}
+.carru-img{
+  width: 100vw;
+}
+.toplay{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+.toplay>img{
+  width: 100%;
+  height: 100%;
+}
