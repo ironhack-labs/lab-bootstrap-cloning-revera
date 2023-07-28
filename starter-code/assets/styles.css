@@ -1,0 +1,76 @@
+/* ============= navbar ================ */
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.active {
+  color: red !important;
+}
+
+header {
+  z-index: 120;
+}
+
+/* ============== end navbar ============= */
+
+/* ========== slider ============== */
+
+#slider-container .carousel-inner {
+  max-height: 50vh;
+  /* position: relative; */
+  background: #000;
+  filter: grayscale(100%);
+}
+
+.doverlay {
+  background: url("../img/overlay.png");
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  left: 0px;
+  top: 50px;
+}
+
+.slider-nav {
+  z-index: 50;
+  color: gray;
+  background-color: red;
+  width: 40px;
+  z-index: 100;
+  height: 80px;
+}
+
+.nav-ctrl {
+  width: 50px;
+  z-index: 30;
+}
+
+/* ============= widgets ============ */
+.widgets {
+  color: white;
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.info {
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+}
+
+.info li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-body {
+  color: #aaa;
+}
