@@ -1,0 +1,124 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0 150px 0 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #868686;
+}
+
+li a:hover {
+  color: #ed564b;
+}
+
+.nav-container {
+  justify-content: space-around;
+}
+
+.parent-dropdown {
+  display: none;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.parent-dropdown > li:first-child {
+  padding-top: 25px;
+}
+
+.parent-link:hover .parent-dropdown {
+  display: block;
+}
+
+.dropdown-container {
+  position: absolute;
+  width: 150px;
+  text-align: left;
+  z-index: 1;
+  background-color: white;
+}
+
+.project-img {
+  width: 250px;
+  height: auto;
+}
+.services-section {
+  background-color: #ed564b;
+  max-width: 100%;
+}
+
+/* CAROUSEL */
+
+#carouselExampleCaptions {
+  width: 100vw;
+}
+.carousel-img {
+  width: 100vw;
+}
+
+.carousel-caption-heading {
+  top: 250px;
+}
+
+.img-overlay-container {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  width: 100%;
+  top: -1000px;
+}
+
+.arrow-btn {
+  background-color: #ed564b;
+  width: 50px;
+  height: 100px;
+  top: 275px;
+  opacity: initial;
+}
+
+/* SERVICES SECTION */
+.services-icon {
+  margin: 50px 50px;
+  color: white;
+}
+
+/* PROJECTS SECTION */
+
+hr {
+  width: 1240px;
+}
+.posted-on{
+  font-weight: bold;
+  font-size: larger;
+  margin: 2%;
+}
+.when{
+  color: #c71d1de3;
+}
+#article{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#copyright{
+  color: whitesmoke;
+  width: 100vw;
+}
+.bg-dark-scale-7 {
+  background-color: #2e2d2d;
+}
+.circle-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  border: 10px solid #ffffff;
+  margin: 5%;
+  
+}
