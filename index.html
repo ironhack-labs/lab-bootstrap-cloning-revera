@@ -42,12 +42,12 @@
       </nav>
     </header>
 
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide bg-secondary">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img image-fluid" src="starter-code/img/slider-1.jpg" class="d-block w-100" alt="..." />
+          <img class="carousel-img grayscale image-fluid" src="starter-code/img/slider-1.jpg" class="d-block w-100" alt="..." />
           <div class="img-overlay-container">
-            <img class="img-overlay" src="starter-code/img/overlay.png" alt="" />
+            <img class="img-overlay grayscale" src="starter-code/img/overlay.png" alt="" />
           </div>
           <div class="carousel-caption carousel-caption-heading d-none d-md-block">
             <h5 class="fs-1 fw-semibold text-uppercase w-75 mx-auto">ipsum dolor sit amet, consectetur adipisicing elit. Minima, corrupti.</h5>
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="carousel-img image-fluid" src="starter-code/img/slider-2.jpg" class="d-block w-100" alt="..." />
+          <img class="carousel-img grayscale image-fluid" src="starter-code/img/slider-2.jpg" class="d-block w-100" alt="..." />
           <div class="img-overlay-container">
             <img class="img-overlay" src="starter-code/img/overlay.png" alt="" />
           </div>
@@ -75,7 +75,7 @@
         <div class="carousel-item">
           <img class="carousel-img image-fluid" src="starter-code/img/slider-3.jpg" class="d-block w-100" alt="..." />
           <div class="img-overlay-container">
-            <img class="img-overlay" src="starter-code/img/overlay.png" alt="" />
+            <img class="img-overlay grayscale" src="starter-code/img/overlay.png" alt="" />
           </div>
           <div class="carousel-caption carousel-caption-heading d-none d-md-block">
             <h5 class="fs-1 fw-semibold text-uppercase w-75 mx-auto">ipsum dolor sit amet, consectetur adipisicing elit. Minima, corrupti.</h5>
@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="carousel-img image-fluid" src="starter-code/img/slider-4.jpg" class="d-block w-100" alt="..." />
+          <img class="carousel-img grayscale image-fluid" src="starter-code/img/slider-4.jpg" class="d-block w-100" alt="..." />
           <div class="img-overlay-container">
             <img class="img-overlay" src="starter-code/img/overlay.png" alt="" />
           </div>
@@ -113,7 +113,10 @@
     <div class="container text-center services-section pe-5 ps-5">
       <div class="row">
         <div class="col">
-          <i class="fa-solid fa-wine-glass-empty fa-2xl services-icon"></i>
+          <div class="circle-container">
+            <i class="fa-solid fa-martini-glass-empty fa-2xl services-icon"></i>
+          </div>
+         
           <h2 class="text-white">Web design</h2>
           <p class="w-75 mx-auto text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure dolorem ratione voluptatibus qui, commodi sapiente ut exercitationem facilis, asperiores velit
@@ -122,16 +125,24 @@
         </div>
         <div class="col">
           <img src="" alt="" />
-          <h2>Web development</h2>
-          <p>
+          <div class="circle-container">
+            <i class="fa-solid fa-star fa-2xl services-icon"></i>
+          </div>
+          
+          <h2 class="text-white">Web development</h2>
+          <p class="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure dolorem ratione voluptatibus qui, commodi sapiente ut exercitationem facilis, asperiores velit
             cupiditate minima quos, consequuntur veritatis dicta quis? Exercitationem, sequi.
           </p>
         </div>
         <div class="col">
           <img src="" alt="" />
-          <h2>User Interface</h2>
-          <p>
+          <div class="circle-container">
+            <i class="fa-solid fa-star fa-2xl services-icon"></i>
+          </div>
+          
+          <h2 class="text-white">User Interface</h2>
+          <p class="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure dolorem ratione voluptatibus qui, commodi sapiente ut exercitationem facilis, asperiores velit
             cupiditate minima quos, consequuntur veritatis dicta quis? Exercitationem, sequi.
           </p>
@@ -142,7 +153,7 @@
     <main>
       <div class="container text-left">
         <h2 class="fs-3 mt-5">LATEST PROJECTS</h2>
-        <span class="d-block mb-5">FEW OF THE LATEST PORTFOLIO</span>
+        <span class="d-block mb-5 fw-semibold">FEW OF THE LATEST PORTFOLIO</span>
         <hr />
         <div class="row">
           <div class="col-3">
@@ -164,51 +175,51 @@
         </div>
       </div>
 
-      <div class="container text-left">
+      <div id="article" class="container text-left">
         <h2>LATEST ARTICLES</h2>
-        <span>LATEST POST FROM THE BLOG</span>
+        <span class="fw-semibold ">LATEST POST FROM THE BLOG</span>
         <hr />
         <div class="row">
           <div class="col-3">
             <img class="image-fluid me-3 project-img" src="starter-code/img/project-1.jpg" alt="" />
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <span>POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></span>
+            <span class="posted-on">POSTED ON <span class="when">AUGUST 19, 2013</span> BY <span class="when">ADMIN</span></span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ducimus non eos. Labore accusantium nesciunt eum quod beatae qui sapiente.</p>
           </div>
           <div class="col-3">
             <img class="image-fluid me-3 project-img" src="starter-code/img/project-2.jpg" alt="" />
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <span>POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></span>
+            <span class="posted-on">POSTED ON <span class="when">AUGUST 19, 2013</span> BY <span class="when">ADMIN</span></span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ducimus non eos. Labore accusantium nesciunt eum quod beatae qui sapiente.</p>
           </div>
           <div class="col-3">
             <img class="image-fluid me-3 project-img" src="starter-code/img/project-3.jpg" alt="" />
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <span>POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></span>
+            <span class="posted-on">POSTED ON <span class="when">AUGUST 19, 2013</span> BY <span class="when">ADMIN</span></span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ducimus non eos. Labore accusantium nesciunt eum quod beatae qui sapiente.</p>
           </div>
           <div class="col-3">
             <img class="image-fluid project-img" src="starter-code/img/project-4.jpg" alt="" />
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <span>POSTED ON <span>AUGUST 19, 2013</span>BY <span>ADMIN</span></span>
+            <span class="posted-on">POSTED ON <span class="when">AUGUST 19, 2013</span> BY <span class="when">ADMIN</span></span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ducimus non eos. Labore accusantium nesciunt eum quod beatae qui sapiente.</p>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="bg-dark">
-      <div class="container text-center text-secondary">
-        <div class="row">
-          <div class="col">
-            <h3>REVERA</h3>
+    <footer class="bg-dark-scale-7 ">
+      <div class="container text-center text-secondary ">
+        <div class="row  ">
+          <div class="col mt-5">
+            <h3 class="text-white">REVERA</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime porro eligendi corrupti nobis odio esse, ipsa vitae, numquam placeat dignissimos consequatur a non.
               Architecto quidem excepturi numquam dolor, aliquid commodi vel? Reiciendis, ipsum dolorum.
             </p>
           </div>
-          <div class="col">
-            <h3>META</h3>
+          <div class="col mt-5">
+            <h3 class="text-white">META</h3>
             <ul>
               <li><a href="">Log In</a></li>
               <li><a href="">Entries RSS</a></li>
@@ -216,12 +227,12 @@
               <li><a href="">WordPress.org</a></li>
             </ul>
           </div>
-          <div class="col">
-            <h3>ARCHIVES</h3>
-            <a href="">August 2013</a>
+          <div class="col mt-5">
+            <h3 class="text-white">ARCHIVES</h3>
+            <a href="" class="text-decoration-none text-secondary">August 2013</a>
           </div>
-          <div class="col">
-            <h3>RECENT POSTS</h3>
+          <div class="col mt-5">
+            <h3 class="text-white">RECENT POSTS</h3>
             <ul>
               <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
               <li><a href="">Lorem ipsum dolor sit amet consectetur.</a></li>
@@ -232,11 +243,9 @@
           </div>
         </div>
       </div>
-      <div id="Copyright">
-        <span
-          >Copyright © 2018 revera - Just another demo Sites site. <br />
-          | Revera Theme</span
-        >
+      <div class="container text-center text-secondary bg-dark" id="copyright">
+        <span>Copyright © 2018 revera - Just another demo Sites site. <br />
+          | Revera Theme</span>
       </div>
     </footer>
 

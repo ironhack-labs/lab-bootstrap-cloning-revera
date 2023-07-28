@@ -92,3 +92,33 @@ li a:hover {
 hr {
   width: 1240px;
 }
+.posted-on{
+  font-weight: bold;
+  font-size: larger;
+  margin: 2%;
+}
+.when{
+  color: #c71d1de3;
+}
+#article{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#copyright{
+  color: whitesmoke;
+  width: 100vw;
+}
+.bg-dark-scale-7 {
+  background-color: #2e2d2d;
+}
+.circle-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  border: 10px solid #ffffff;
+  margin: 5%;
+  
+}
