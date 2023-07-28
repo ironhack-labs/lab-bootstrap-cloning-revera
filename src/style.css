@@ -1,8 +1,7 @@
-.projectImg{
-    width: 220px;
-    height: 220px;
-   
+.project-img {
+  width: 220px;
+  height: 220px;
 }
-#redpart{
-    background-color: brown;
+.services-section {
+  background-color: brown;
 }
