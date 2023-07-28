@@ -14,7 +14,28 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="d-flex mx-5">
+
+    <header class="container" role="banner">
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#" title="revera" rel="home" class="navbar-brand">REVERA</a>
+        </div>
+
+        <div class="col-sm-8 row">
+          <div class="d-flex justify-content-evenly align-items-center">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Sample Page</a>
+            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Parent Page >></a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div class="d-flex mx-5">
       <nav class="navbar navbar-expand-lg d-flex">
         <div class="container-fluid" id="nav-container">
           <a class="navbar-brand" href="#">REVERA</a>
@@ -43,41 +64,135 @@
           </div>
         </div>
       </nav>
-    </div>
+    </div> -->
 
     <!-- carousel -->
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+    <div id="slider-container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/slider-1.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex flex-column text-center h-100 justify-content-center align-items-lg-center mb-5"
+            >
+              <h2 class="w-50">
+                Falauris sollicitudin quis dolor venenatis facilisis
+              </h2>
+              <p class="w-50">
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras
+                quis porta dolor. Aliquam erat volutpat. Phasellus fringilla
+                feugiat libero nec volutpat. Maecenas fermentum bibendum
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/slider-2.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex flex-column text-center h-100 justify-content-center align-items-lg-center mb-5"
+            >
+              <h2 class="w-50">
+                Falauris sollicitudin quis dolor venenatis facilisis
+              </h2>
+              <p class="w-50">
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras
+                quis porta dolor. Aliquam erat volutpat. Phasellus fringilla
+                feugiat libero nec volutpat. Maecenas fermentum bibendum
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/slider-3.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex flex-column text-center h-100 justify-content-center align-items-lg-center mb-5"
+            >
+              <h2 class="w-50">
+                Falauris sollicitudin quis dolor venenatis facilisis
+              </h2>
+              <p class="w-50">
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras
+                quis porta dolor. Aliquam erat volutpat. Phasellus fringilla
+                feugiat libero nec volutpat. Maecenas fermentum bibendum
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/slider-4.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex flex-column text-center h-100 justify-content-center align-items-lg-center mb-5"
+            >
+              <h2 class="w-50">
+                Falauris sollicitudin quis dolor venenatis facilisis
+              </h2>
+              <p class="w-50">
+                Donec sed dolor eu augue dignissim pellentesque. Fusce semper
+                tortor ornare, luctus sem in, dictum leo. Ut at congue quam!
+                Maecenas luctus interdum odio, eget volutpat velit hendrerit eu?
+                Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras
+                quis porta dolor. Aliquam erat volutpat. Phasellus fringilla
+                feugiat libero nec volutpat. Maecenas fermentum bibendum
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
-        </div>
+
+        <button
+          class="carousel-control-prev nav-ctrl"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon slider-nav"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next nav-ctrl"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon slider-nav"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+      <div class="doverlay"></div>
     </div>
+
+
+    <!-- tabs -->
 
     <!-- Scripts -->
     <script
