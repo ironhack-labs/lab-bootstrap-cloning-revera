@@ -1,0 +1,32 @@
+.imageFormation{
+    width: 260px;
+    height: 225px;
+}
+
+.gridImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.lastestTitle{
+    padding-left: 5%;
+}
+
+.subtitleItems{
+    color: gray;
+    padding-left: 5%;
+}
+
+.divisionLine{
+    width: 80%;
+}
+
+.footerList{
+    list-style-type: none;
+}
+
+.positionTitle{
+    padding-left: 12%;
+}
