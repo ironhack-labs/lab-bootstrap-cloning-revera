@@ -1,0 +1,102 @@
+a {
+  text-decoration: none;
+  color: #333
+}
+
+li {
+  list-style: none;
+  color: #aaa
+}
+
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 200px;
+}
+
+.collapse{
+  float:left;
+}
+
+.fwidgets {
+  background-color: #ed564b;
+  color: white;
+  text-align: center;
+  padding: 40px 100px; 
+  
+}
+
+.fwidgets h3 {
+  font-size: 24px;
+}
+
+.fwidgets p {
+  font-size: 100%;
+}
+
+.box-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  
+}
+
+.img-responsive {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container-latest {
+  margin: 30px 30px;
+}
+
+.container-latest h2 {
+  margin-bottom: 10px;
+}
+
+.hometa {
+  margin: 10px 0 20px 0;
+}
+
+
+#bottom-info {
+  background-color: #333;
+  color:#aaa;
+  font-size: 13.5px;
+  padding: 20px;
+}
+
+#bottom-info a {
+ 
+  color:#aaa;
+  
+}
+
+#colophon {
+  background-color: #292929;
+  color: #aaa;
+}
+
+#colophon  a{
+ text-decoration: none;
+  color: #aaa;
+}
+
+.fcred {
+  margin: 25px 0;
+}
+
+.carousel-item {
+  position: relative
+}
+
+.overlay {
+  position: absolute;
+  z-index:40;
+  background-image: url(/starter-code/img/overlay.png) ;
+  width: 100%;
+  height: 100%;
+  left:0px;
+  top: 0px;
+}
