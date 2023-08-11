@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Revera Ripoff</title>
+</head>
+<body>
+
+    <!------------------------------------- NAVBAR ------------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bolder" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/">REVERA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mx-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/sample-page-2/">Sample page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/portfolio/">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/blog/">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown" onmouseover="showDropdown(this)" onmouseout="hideDropdown(this)">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Parent page
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/full-page/">Full page</a></li>
+                        <li><a class="dropdown-item" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/parent-page/child-page-1/">Child page 1</a></li>
+                        <li><a class="dropdown-item" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/parent-page/child-page-2/">Child page 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.archive.org/web/20180109051150/http://demo.fabthemes.com/revera/contact/">Contact</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!------------------------------------- IMAGES SLIDE DIV ------------------------------------->
+
+    <div id="display-images" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay"></div>
+                <img class="grayscale" src="/starter-code/img/slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="text-box">
+                        <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h5>
+                        <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                        <button class="button-read-more">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img class="grayscale" src="/starter-code/img/slider-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="text-box">
+                        <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                        <button class="button-read-more">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img class="grayscale" src="/starter-code/img/slider-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="text-box">
+                        <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                        <button class="button-read-more">Read more</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img class="grayscale" src="/starter-code/img/slider-4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="text-box">
+                        <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h5>
+                        <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                        <button class="button-read-more">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#display-images" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#display-images" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!------------------------------------- RED DIV ------------------------------------->
+
+    <div class="red-div">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="wrapper">
+                    <i class="bi bi-laptop-fill"></i>
+                    <h3>Web design</h3>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius.<a href="#">Link</a></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="wrapper">
+                    <i class="bi bi-star-fill"></i>
+                    <h3>Web development</h3>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="wrapper">
+                    <i class="bi bi-heart-fill"></i>
+                    <h3>User interface</h3>
+                    <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!------------------------------------- WHITE DIV ------------------------------------->
+
+    <div class="white-div">
+        <div class="projects">
+            <div class="container">
+                <div class="container-text">
+                    <h2>LATEST PROJECT</h2>
+                    <p>FEW OF THE LATEST PROTFOLIO ITEMS</p>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/"><img src="/starter-code/img/project-1.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/"><h3>Nunc libero elit, iaculis nec augue non</h3></a>
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam"><img src="/starter-code/img/project-2.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam"><h3>Phasellus aliquet iaculis neque accumsan aliquam</h3></a> 
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod"><img src="/starter-code/img/project-3.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod"><h3>Vivamus blandit ipsum sed arcu euismod</h3></a>
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/curabitur-auctor-dolor-risus-vitae-pellentesque-arcu-consequat/"><img src="/starter-code/img/project-4.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/curabitur-auctor-dolor-risus-vitae-pellentesque-arcu-consequat/"><h3>Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="articles">        
+            <div class="container">
+                <div class="container-text">
+                    <h2>LATEST ARTICLES</h2>
+                    <p>LATEST POSTS FROM THE BLOG</p>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam"> <img src="/starter-code/img/slider-1-2.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam"><h3 class="title">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</h3></a>
+                        <p>POSTED ON <a href="http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam"><span class="red-text">AUGUST 19, 2013</span></a> BY <a href="http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam"><span class="red-text">ADMIN</span></p></a> <!-- I KNOW THAT THIS IS WRONG!  *REVIEW IT* -->
+                        <br>
+                        <p class="normal-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/"><img src="/starter-code/img/slider-3-v2.jpg"/></a>
+                        
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/"><h3 class="title">Falauris sollicitudin quis dolor venenatis facilisis</h3></a>
+                        <p>POSTED ON <a href="http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/"><span class="red-text">AUGUST 19, 2013</span></a> BY <a href="http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/"><span class="red-text">ADMIN</span></p></a> <!-- I KNOW THAT THIS IS WRONG!  *REVIEW IT* -->
+                        <br>
+                        <p class="normal-text">Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra"><img src="/starter-code/img/slider-4-2.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra"><h3 class="title">Suspendisse ornare, felis feugiat suscipit pharetra</h3></a>
+                        <p>POSTED ON <a href="http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra"><span class="red-text">AUGUST 19, 2013</span></a> BY <a href="http://demo.fabthemes.com/revera/2013/08/19/suspendisse-ornare-felis-feugiat-suscipit-pharetra"><span class="red-text">ADMIN</span></p></a> <!-- I KNOW THAT THIS IS WRONG!  *REVIEW IT* -->
+                        <br>
+                        <p class="normal-text">Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                    </div>
+                    <div class="col">
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere"><img src="/starter-code/img/slider-5.jpg"/></a>
+                        <a href="http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere"><h3 class="title">Festibulum purus odio, ornare non posuere</h3></a>
+                        <p>POSTED ON <a href="http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere"><span class="red-text">AUGUST 19, 2013</span></a> BY <a href="http://demo.fabthemes.com/revera/2013/08/19/festibulum-purus-odio-ornare-non-posuere"><span class="red-text">ADMIN</span></p></a> <!-- I KNOW THAT THIS IS WRONG!  *REVIEW IT* -->
+                        <br>
+                        <p class="normal-text">Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <!------------------------------------- GREY BOTTOM DIV ------------------------------------->    
+    
+    <div class="grey-div">
+        <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>REVERA</h3>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                    </div>
+                    <div class="col">
+                        <h3>META</h3>
+                        <ul>
+                            <li><a href="http://demo.fabthemes.com/revera/wp-login.php">Log in</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/feed/">Entries RSS</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/comments/feed/">Comments RSS</a></li>
+                            <hr>
+                            <li><a href="https://wordpress.org/">WordPress.org</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>ARCHIVES</h3>
+                        <ul>
+                            <li><a href="http://demo.fabthemes.com/revera/post/2013/08/">August 2013</a></li>
+                            <hr>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>RECENT POSTS</h3>
+                        <ul>
+                            <li><a href="http://demo.fabthemes.com/revera/2013/08/19/etiam-mauris-tortor-pharetra-quis-lobortis-in-pharetra-in-diam">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/2013/08/19/nunc-libero-elit-iaculis-nec-augue-non/">Nunc libero elit, iaculis nec augue non</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/2013/08/19/falauris-sollicitudin-quis-dolor-venenatis-facilisis/">Falauris sollicitudin quis dolor venenatis facilisis</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/2013/08/19/phasellus-aliquet-iaculis-neque-accumsan-aliquam">Phasellus aliquet iaculis neque accumsan aliquam</a></li>
+                            <hr>
+                            <li><a href="http://demo.fabthemes.com/revera/2013/08/19/vivamus-blandit-ipsum-sed-arcu-euismod">Vivamus blandit ipsum sed arcu euismod</a></li>
+                            <hr>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!------------------------------------- FOOTER ------------------------------------->  
+         
+    <footer> 
+        
+Copyright © 2018 <a href="http://demo.fabthemes.com/revera">revera</a> - Just another demo Sites site.<br>
+        | <a href="http://topwpthemes.com/revera/">Revera Theme</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
+
+</body>
+</html>
