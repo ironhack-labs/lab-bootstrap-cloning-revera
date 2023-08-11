@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Revera</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sample page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Parent page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Full Page</a></li>
+                  <li><a class="dropdown-item" href="#">Child Page 1</a></li>
+                  <li><a class="dropdown-item" href="#">Child Page 2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Carousal -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <img src="starter-code/img/slider-1.jpg" class="d-block w-100" alt="...">
+            <!-- <img src="starter-code/img/overlay.png" class="d-block w-100 img-responsive img-overlay" alt="..."> -->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+              <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="starter-code/img/slider-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h5>
+              <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="starter-code/img/slider-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h5>
+              <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="starter-code/img/slider-4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
+              <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- card groups -->
+      <div class="card-group dflex justify-content-around row-12">
+        <div class="card bg-danger dflex col-3 text-white rounded">
+          <!-- <img src="..." class="card-img-top" alt="..."> width 50px-->
+          <div class="card-body">
+            <h5 class="card-title">Web design</h5>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+            <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+        <div class="card bg-danger dflex col-3 text-white rounded">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Web development</h5>
+            <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+            <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+        <div class="card bg-danger dflex col-3 text-white rounded">
+          <!-- <span class="glyphicon glyphicon-heart"></span> -->
+          <div class="card-body">
+            <h5 class="card-title">User interface</h5>
+            <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+            <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+
+<h3 id="projects-header">LATEST PROJECTS</h2>
+<h4>FEW OF THE LATEST PORTFOLIO ITEMS</h3>
+<hr>
+<div class="card-group">
+    <div class="card">
+      <img src="starter-code/img/project-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nunc libero elit, iaculis nec augue non</h5>
+        <!-- <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio variu.</p> -->
+        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="starter-code/img/project-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Phasellus aliquet iaculis neque accumsan aliquam</h5>
+        <!-- <p class="card-text">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus..</p> -->
+        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="starter-code/img/project-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Vivamus blandit ipsum sed arcu euismod</h5>
+        <!-- <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p> -->
+        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+    <div class="card">
+        <img src="starter-code/img/project-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h5>
+          <!-- <p class="card-text">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p> -->
+          <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+  </div>
+
+  <h3 id="projects-header">LATEST ARTICLES</h2>
+    <h4>LATEST POSTS FROM THE BLOG</h3>
+    <hr>
+    <div class="card-group">
+        <div class="card">
+          <img src="starter-code/img/slider-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nunc libero elit, iaculis nec augue non</h5>
+            <p class="card-text"><small class="text-body-secondary">POSTED ON AUGUST 19, 2013 BY ADMIN</small></p>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio variu.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="starter-code/img/slider-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Phasellus aliquet iaculis neque accumsan aliquam</h5>
+            <p class="card-text"><small class="text-body-secondary">POSTED ON AUGUST 19, 2013 BY ADMIN</small></p>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio variu.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="starter-code/img/slider-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vivamus blandit ipsum sed arcu euismod</h5>
+            <p class="card-text"><small class="text-body-secondary">POSTED ON AUGUST 19, 2013 BY ADMIN</small></p>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio variu.</p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="starter-code/img/slider-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</h5>
+              <p class="card-text"><small class="text-body-secondary">POSTED ON AUGUST 19, 2013 BY ADMIN</small></p>
+            <p class="card-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio variu.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class= "p-1 bg-danger"></div>
+
+      <div class="card-group">
+        <div class="card bg-secondary border-0">
+          <div class="card-body">
+            <h5 class="card-title text-white">REVERA</h5>
+            <p class="card-text text-muted">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+          </div>
+        </div>
+        <div class="card bg-secondary border-0">
+          <div class="card-body">
+            <h5 class="card-title text-white">META</h5>
+            <p class="card-text text-muted"> Log in</p>
+            <p class="card-text text-muted"> Entries RSS</p>
+            <p class="card-text text-muted"> Comments RSS</p>
+            <p class="card-text text-muted"> WordPress.org</p>
+          </div>
+        </div>
+        <div class="card bg-secondary text-white border-0">
+          <div class="card-body">
+            <h5 class="card-title">ARCHIVES</h5>
+            <p class="card-text text-muted">August 2013</p>
+          </div>
+        </div>
+        <div class="card bg-secondary text-white border-0">
+            <div class="card-body">
+              <h5 class="card-title text-white">RECENT POSTS</h5>
+              <p class="card-text text-muted">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
+              <p class="card-text text-muted">Nunc libero elit, iaculis nec augue non</p>
+              <p class="card-text text-muted">Falauris sollicitudin quis dolor venenatis facilisis</p>
+              <p class="card-text text-muted">Phasellus aliquet iaculis neque accumsan aliquam</p>
+              <p class="card-text text-muted">Vivamus blandit ipsum sed arcu euismod</p>
+    
+    
+            </div>
+          </div>
+          </div>
+    
+          <div class="p-3 mb-2 bg-dark text-white">Copyright © 2018 revera - Just another demo Sites site.</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
