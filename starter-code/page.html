@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://kit.fontawesome.com/3477b6f54a.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>REVERA</title>
+    </head>
+    <body>
+        <div>
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">REVERA</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sample page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Parent page
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Main</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Full page</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Child page 1</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Child page 2</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+                <div
+                    class="carousel-inner"
+                    style="
+                        background: src=('/img/overlay.png');
+                        filter: grayscale(100%);
+                        opacity: 0.8;
+                    "
+                >
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img
+                            src="img/slider-1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img
+                            src="img/slider-2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img
+                            src="img/slider-3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/slider-4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!--
+        <div class="row-12 d-flex d-flex justify-content-around">
+            <div class="col-3 d-flex border border-primary border-5">
+                <p>
+                    Web design encompasses many different skills and disciplines
+                    in the production and maintenance of websites.
+                </p>
+            </div>
+            <div class="col-3 d-flex border border-primary border-5">
+                <p>
+                    Web design encompasses many different skills and disciplines
+                    in the production and maintenance of websites.
+                </p>
+            </div>
+            <div class="col-3 d-flex border border-primary border-5">
+                <p>
+                    Web design encompasses many different skills and disciplines
+                    in the production and maintenance of websites.
+                </p>
+            </div>
+        </div>
+    -->
+        <!-- CARDS -->
+        <div class="row-12 d-flex justify-content-around bg-danger">
+            <div class="card bg-transparent border-0 mt-5" style="width: 24rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 mt-5" style="width: 24rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 mt-5" style="width: 24rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAST PROJECTS-->
+        <div class="container d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><h1>LAST PROJECTS</h1></div>
+            <div class="p-2 bd-highlight">
+                <h4 class="text-secondary">
+                    FEW OF THE LATEST PORTFOLIO ITEMS
+                </h4>
+            </div>
+        </div>
+        <div class="row-12 d-flex d-flex justify-content-between bg-white">
+            <div class="card bg-transparent border-0 mt-5" style="width: 18rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 mt-5" style="width: 18rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 mt-5" style="width: 18rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-transparent border-0 mt-5" style="width: 18rem">
+                <img src="img/example1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
