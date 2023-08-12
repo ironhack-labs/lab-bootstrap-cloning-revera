@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+
+.overlay{
+    background-image: url(/starter-code/img/overlay.png);
+    background-repeat: repeat;
+    background-position: 0;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-control-prev{
+    background-color: #f4473a;
+    height: 100px;
+    width: 60px;
+    top: 45%;
+    opacity: 1;
+}
+
+.carousel-control-next{
+    background-color: #f4473a;
+    height: 100px;
+    width: 60px;
+    top: 40%;
+    opacity: 1;
+}
+
+.site-title a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header{
+    height: 90px;
+    padding-top: 15px;
+}
+
+.info-box{
+    background-color: #ed564b;
+    color: white;
+}
+
+.info-box h3{
+    margin-bottom: 15px
+}
+
+.info-box img{
+    filter: invert(100%); 
+
+}
+
+#slidePictures img{
+    filter: grayscale(1);
+}
+
+.info-box{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.icon-container {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.icon {
+    padding-top: 18px;
+}
+
+#gray-text{
+    color: #aaa;
+}  
+
+.grid img{
+    height: 180px;
+    width: 270px;
+}
+
+.grid{
+    display: flex;
+    align-items: baseline;
+}
+
+.carousel-caption button{
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px 0px;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer-section{
+    background-color: #3b3b3b;
+    margin-top: -16px;
+}
+
+.footer p{
+    color: #AAAAAA;
+}
+
+.footer h5{
+    color: white;
+    margin-bottom:30px;
+}
+
+.footer li{
+    color: #AAAAAA;
+}
+
+hr{
+    border: 1px dotted #AAAAAA;
+    margin-top: 3px
+}
+
+.red-line{
+    background-color: #ed564b;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.bottom{
+    background-color: #292929;
+    color: white;
+    font-size: small;
+    padding: 20px;
+}
+
+.bottom p{
+    margin-bottom: 0px;
+    margin-left: 285px;
+}
