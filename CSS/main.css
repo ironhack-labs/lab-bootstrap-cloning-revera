@@ -1,0 +1,82 @@
+#menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+#logo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#nav-links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-links a {
+  padding-right: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+.btn-overide {
+  background-color: white;
+  color: grey;
+  border: none;
+}
+
+.btn-overide:hover {
+  background-color: white;
+  color: grey;
+  border: none;
+}
+
+.divider {
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.project-title {
+  margin-top: 40px;
+}
+
+.project {
+  max-width: 90%;
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+
+.project-block {
+  margin-bottom: 80px;
+}
+
+.grey-text {
+  color: grey;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.article-title {
+  font-weight: 700;
+}
+
+.article-author {
+  color: grey;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.article-snippet {
+  color: grey;
+}
