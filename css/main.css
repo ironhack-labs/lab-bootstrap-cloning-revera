@@ -1,0 +1,26 @@
+  
+
+/* Add styles for horizontal alignment */
+.horizontal-images {
+    display: flex; /* Use flexbox for horizontal alignment */
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+
+.border img {
+    
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    width: 350px; /* Set the desired width for the container */
+    text-align: center; /* Center the text horizontally */
+    
+    border-style: hidden;
+}
+
+.font
+{
+    color: red
+}
+    
