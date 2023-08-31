@@ -1,0 +1,56 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.course-info {
+    background-color: rgb(255, 118, 118);
+    padding: 5rem;
+}
+.footer {
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background-color: #3b3b3b;
+    padding: 1rem;
+    color: aliceblue;
+    border-top: 5px solid #ed564b;
+}
+.footer p {
+    color:gray;
+    font-size: 0.9rem
+}
+
+.footer a {
+    color:gray;
+    font-size: 0.9rem
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+}
+
+.course-info {
+    color: white
+}
+
+.carousel-item img {
+    filter: grayscale(100%)
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-image: url(../starter-code/img/overlay.png);
+  }
