@@ -1,0 +1,62 @@
+.container-fluid {
+    margin-left: 15vw; 
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.carousel-item img {
+    filter: grayscale(100%);
+}
+
+.advantages {
+    width: 100vw; 
+    height: 250px;
+    background-color: #ED564B;
+}
+
+.col-sm-4 {
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    width: 40px;
+}
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    font-weight: lighter;
+    font-size: large;
+}
+
+.advantage-text {
+    color: white;
+}
+
+.chapter {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+.card-text {
+    text-align: center;
+}
+
+.latest-projects {
+    width: 100%;
+    justify-content: center;
+}
+
+.latest-articles {
+    width: 100%;
+    justify-content: center;
+}
