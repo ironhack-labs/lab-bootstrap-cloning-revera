@@ -1,0 +1,8 @@
+* {
+    border-radius: 0 !important;
+  }
+
+  .carousel-inner img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+  }
