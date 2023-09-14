@@ -16,3 +16,12 @@
   .fa-star {
     font-size: 24px;
   }
+
+  .img{
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100)
+  }
+
+  .custom-card{
+    border:none;
+  }
