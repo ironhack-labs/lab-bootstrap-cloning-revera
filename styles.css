@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+    
+}
+img{
+    width: 100%;
+}
+header img{
+    width: 15%;
+}
+.botton{
+    border: 3px solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+.start{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.start ul{
+    display: flex;
+    
+}
+.start li{
+    margin-right: 40px;
+    list-style: none;
+    color: gray;
+}
+.textred{
+    color: red !important;
+}
+    
+
+.header{
+   background-image: url(./starter-code/img/slider-1.jpg);
+   height: 400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0,0;
+   filter: grayscale();
+}
+
+.myContain{
+    text-align: center;
+    width: 50%;
+    padding: 80px;
+    color:white;
+}
+.firstSection{
+    background-color: rgb(240, 94, 68);
+    color: white;
+    width: 100%;
+    padding: 20px;
+   
+}
+.firstSection div{
+    text-align: center;
+}
+.firstSection img{
+    width: 20%;
+    filter: invert(white);
+}
+.secondSection1{
+    margin-top:40px;
+    
+}
+.textgrey{
+    color: gray;
+}
+.secondSection2{
+    margin-top:60px;
+    
+}
+.thirdSection{
+    background-color: rgb(67, 62, 62);
+    color: white;
+    padding-top: 60px;
+   
+}
+.footer{
+    background-color: rgb(43, 39, 39);
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+h6{
+    text-transform: uppercase;
+}
