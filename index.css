@@ -1,0 +1,92 @@
+.menu {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.menu ul {
+    display: flex;
+    padding-left: 40em;
+
+}
+
+.menu li {
+    margin: 7px;
+    list-style: none;
+    color: gray;
+
+}
+
+
+
+
+.sub-header {
+    background-image: url(../lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+
+.header-img {
+    text-align: center;
+    padding: 90px 440px 440px 440px;
+
+
+}
+
+.clases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    background-color: rgb(236, 68, 39);
+    width: 100%;
+    height: 100%;
+    color: white;
+
+
+}
+
+.clases3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.segunda-section {
+    margin: 20px 70px 70px 20px;
+}
+
+img {
+    width: 20em;
+    height: 15em;
+
+}
+
+.footer-section {
+    background-color: #393939f9;
+    color: rgb(238, 238, 236);
+    margin-top: 5px;
+}
+
+.fondo-rojo {
+
+    background-color: red;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
