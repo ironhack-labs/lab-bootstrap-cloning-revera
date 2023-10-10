@@ -1,0 +1,90 @@
+.hero {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 10px;
+
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(62, 59, 59);
+
+}
+
+
+
+img {
+    width: 100%;
+}
+
+.cat {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.texto-gato {
+    margin: 100px 200px;
+    color: whitesmoke;
+}
+
+.cat article a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.signos {
+    width: 50%;
+    padding-top: 20px;
+
+}
+
+.projects {
+    background-color: rgb(223, 43, 43);
+    color: white;
+}
+
+.cat .texto-gato h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.page-end {
+    background-color: gray;
+    color: white;
+}
+
+.copyrigth {
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+.latest-projects {
+    margin: 0 150px;
+}
+
+.latest-articles {
+    margin: 0 150px;
+}
+
+.cat a {
+    text-transform: uppercase;
+
+}
