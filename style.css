@@ -33,7 +33,7 @@ h1 {
 .firstSection {
     padding: 200px;
     width: 100%;
-    background-image: url(./lab-bootstrap-cloning-revera/starter-code/img/slider-1.jpg);
+    background-image: url(./starter-code/img/slider-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -100,4 +100,5 @@ h2 {
     padding-left: 50px;
     color: white;
     background-color: rgb(26, 25, 25);
+    padding-bottom: 1px;
 }
