@@ -1,0 +1,126 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.menu img {
+    width: 10%;
+    margin-left: 60px;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.menu ul li {
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.hero {
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 400px;
+    color: white;
+    filter: grayscale(100%);
+}
+
+.hero h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1em;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    width: 20%;
+    margin: 20px auto;
+
+}
+
+.red-section {
+    text-align: center;
+    color: white;
+    background-color: #ED564B;
+    padding-bottom: 20px;
+}
+
+.red-section img {
+    width: 20%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.multi-section {
+    margin: 50px;
+
+}
+
+.multi-section h3 {
+    text-transform: uppercase;
+}
+
+.multi-section h4 {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 1em;
+}
+
+.multi-section h5 {
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+.multi-section p {
+    padding-top: 10px;
+}
+
+.last-section {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 50px 0;
+}
+
+.last-section h6 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.last-section hr {
+    border: 1px dashed;
+}
+
+.footer {
+    background-color: #292929;
+    color: white;
+    font-size: 0.6em;
+}
