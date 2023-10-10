@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu h1 {
+    text-transform: uppercase;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu ul li {
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    padding: 230px;
+    background-image: url(./img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.hero button {
+    text-transform: uppercase;
+}
+
+.features {
+    background-color: rgb(202, 57, 57);
+    color: white;
+    padding: 100px 50px;
+}
+
+.features article {
+    text-align: center;
+
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.container h3 {
+    text-transform: uppercase;
+}
+
+.container h4 {
+    font-size: 1em;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.container p {
+    font-size: 0.9em;
+}
+
+.part-one h3 {
+    padding: 40px;
+}
+
+.part-two {
+    padding: 600px;
+}
+
+.container h5 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.container h6 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
