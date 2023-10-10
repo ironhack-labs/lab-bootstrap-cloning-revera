@@ -1,0 +1,104 @@
+img {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+h1 {
+    padding-left: 100px;
+}
+
+.unorderedList {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 450px;
+}
+
+.hero article ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.unorderedList li {
+    display: inline;
+    padding: 10px;
+
+
+}
+
+.firstSection {
+    padding: 200px;
+    width: 100%;
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.secondSection {
+    background-color: red;
+    color: white;
+    padding-bottom: 145px;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.secondSection img {
+    width: 35%
+}
+
+.thirdSection {}
+
+.thirdSection h2 {
+    text-transform: uppercase;
+}
+
+
+
+.thirdSection h6 {
+    text-transform: uppercase;
+}
+
+.fourthSection {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(84, 83, 83);
+    color: white;
+    padding: 30px;
+}
+
+.fourthSection ul {
+    list-style: none;
+    text-align: left;
+}
+
+.fourthSection h6 {
+    text-transform: uppercase;
+}
+
+
+.textoRojo {
+    color: red;
+}
+
+.paragraphFooter {
+    margin-top: 15px;
+}
+
+.footer {
+    padding-left: 50px;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    padding-bottom: 1px;
+}
