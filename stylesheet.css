@@ -1,0 +1,57 @@
+img {
+    width: 100%;
+}
+
+
+.background {
+    background-image: url(../lab-bootstrap-cloning-revera/starter-code/img/project-2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+    background-position: 0;
+    padding-top: 300px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu img {
+    width: 120px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.index img {
+    width: 50;
+}
+
+.features {
+    background-color: brown;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.features img {
+    width: 10%;
+    margin-top: 150px;
+}
+
+.footer {
+    background-color: grey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
