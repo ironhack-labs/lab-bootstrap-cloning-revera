@@ -1,0 +1,124 @@
+img {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.nav-bar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #272525;
+    font-weight: 400;
+}
+
+.nav-bar .home {
+    color: rgb(237, 86, 75);
+}
+
+h1,
+h2,
+h4,
+.site-map h6 {
+    text-transform: uppercase;
+}
+
+h4,
+hr {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+.hero {
+    text-align: center;
+    padding: 200px;
+    background-image: url("/starter-code/img/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    border: solid 3px;
+    padding: 10px 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 30px;
+}
+
+.projects,
+.blog-posts,
+.icons,
+.site-map {
+    padding: 50px 150px;
+}
+
+.icons {
+    text-align: center;
+    background-color: rgb(237, 86, 75);
+    border: solid rgb(233, 114, 106) 4px;
+    color: white;
+
+}
+
+.icons img {
+    width: 25%;
+    margin: 20px;
+}
+
+.section-links p {
+    border-bottom: 1px dotted rgb(176, 171, 171);
+    padding-bottom: 10px;
+}
+
+.site-map {
+    background-color: #272525;
+    color: white;
+    border-top: solid 4px rgb(233, 114, 106);
+}
+
+
+
+.site-map article p {
+    font-weight: 100;
+}
+
+.site-map a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.site-map h6 {
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    padding: 20px 150px;
+    background-color: #181717;
+    color: white
+}
+
+footer p {
+    font-size: 0.8em;
+}
