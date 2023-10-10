@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./starter-code/style/style.css">
+</head>
+
+<body>
+    <header class="menu">
+        <img src="data:image/png;base64,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"
+            alt="Revera">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sample page</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Parent page</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur.
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio, ea ab sapiente minus odio iste, cumque
+            nobis impedit maiores exercitationem unde nihil tempore. Repellat velit doloribus est at fugit!
+        </p>
+        <a class="button" href="#">Read more</a>
+    </section>
+    <section class="red-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./starter-code/img/basic_info.svg" alt="Info">
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore officiis rerum dicta
+                        temporibus perferendis pariatur unde magnam nisi? Rerum labore tempora quidem, sequi laborum non
+                        beatae mollitia earum suscipit repellendus!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./starter-code/img/basic_exclamation.svg" alt="Exclamation">
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore officiis rerum dicta
+                        temporibus perferendis pariatur
+                        unde magnam nisi? Rerum labore tempora quidem, sequi laborum non beatae mollitia earum suscipit
+                        repellendus!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./starter-code/img/basic_question.svg" alt="Question">
+                    <h2>User interface</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore officiis rerum dicta
+                        temporibus perferendis pariatur
+                        unde magnam nisi? Rerum labore tempora quidem, sequi laborum non beatae mollitia earum suscipit
+                        repellendus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="multi-section">
+        <article>
+            <div class="container">
+                <h3>Latest projects</h3>
+                <h4>Few of the latest items</h4>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/project-1.jpg" alt="First">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/project-1.jpg" alt="First">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/project-1.jpg" alt="First">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/project-1.jpg" alt="First">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="container">
+                <h3>Latest articles</h3>
+                <h4>Latest post from the blog</h4>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/slider-1.jpg" alt="Second">
+                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, perferendis?</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ea commodi pariatur
+                            reiciendis cum. Fugit rem, sint illum ut praesentium labore doloremque voluptatem,
+                            consequatur magnam optio quasi, itaque illo? Sit?</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/slider-1.jpg" alt="Second">
+                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, perferendis?</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ea commodi pariatur
+                            reiciendis cum. Fugit rem,
+                            sint illum ut praesentium labore doloremque voluptatem, consequatur magnam optio quasi,
+                            itaque illo? Sit?</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/slider-1.jpg" alt="Second">
+                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, perferendis?</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ea commodi pariatur
+                            reiciendis cum. Fugit rem,
+                            sint illum ut praesentium labore doloremque voluptatem, consequatur magnam optio quasi,
+                            itaque illo? Sit?</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./starter-code/img/slider-1.jpg" alt="Second">
+                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, perferendis?</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ea commodi pariatur
+                            reiciendis cum. Fugit rem,
+                            sint illum ut praesentium labore doloremque voluptatem, consequatur magnam optio quasi,
+                            itaque illo? Sit?</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="last-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Revera</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, quae hic debitis natus
+                        dolorum ipsam veniam, assumenda quis sapiente quisquam possimus nisi. Facere amet consequuntur
+                        porro. Cumque fugit iste cupiditate?</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Meta</h6>
+                    <p>Log in</p>
+                    <hr>
+                    <p>Entries RSS</p>
+                    <hr>
+                    <p>Comment RSS</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Archives</h6>
+                    <p>August 2013</p>
+                    <hr>
+                </div>
+                <div class="col-md-3">
+                    <h6>Recent post</h6>
+                    <p>jifodsjfiosdfndsfosnfsiofnidsofns</p>
+                    <hr>
+                    <p>jdasvydavywuevyas90ffdsahdajsi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, nihil rerum assumenda,
+                        voluptatibus porro recusandae commodi quae alias</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
