@@ -1,0 +1,52 @@
+img {
+    max-width: 100%;
+}
+
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    margin-right: 10px;
+}
+
+.red-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orangered;
+
+}
+
+.red-seccion article {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .red-seccion article {
+        width: 30%;
+    }
+
+}
+
+.catsleep {
+    background-image: url("https://www.sonrisasdegato.com/wp-content/uploads/2017/11/gato-en-blanco-y-negro.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.texcat {
+    color: aliceblue;
+    margin: auto;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texcat button {
+    margin: 0 auto;
+}
