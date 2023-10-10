@@ -49,6 +49,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    filter: grayscale(100%);
 }
 
 .hero a {
@@ -122,3 +123,23 @@ footer {
 footer p {
     font-size: 0.8em;
 }
+
+/*
+
+.hero {
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+    position: relative;
+}*/
