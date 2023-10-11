@@ -115,6 +115,10 @@ footer ul {
     padding-left: 0px;
 }
 
+footer a {
+    color: white;
+}
+
 .bottomSec {
     text-align: left;
 }
@@ -131,5 +135,4 @@ footer ul {
 
 .dotUnder a {
     text-decoration-line: none;
-    text-decoration-color: white;
 }
