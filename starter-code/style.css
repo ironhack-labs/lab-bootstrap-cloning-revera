@@ -1,0 +1,79 @@
+img {
+    width: 100%;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.menubar ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray
+}
+
+.cat {
+
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.textogato {
+    margin: 200px 100px;
+}
+
+.icons {
+
+    background-color: red;
+
+
+}
+
+.ic {
+    margin-top: 50px;
+    width: 200px;
+    color: white
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.p2 {
+    margin-left: 50px;
+}
+
+.big {
+    background-color: gray;
+    margin-top: 50px;
+}
+
+h5 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.small {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
