@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+
+
+
+    font-family: sans-serif;
+}
+
+
+
+
+.externalcontent {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+
+.cat {
+    background-image: url(./img/slider-1.jpg);
+    width: 50%;
+
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    padding-bottom: 300px;
+    justify-content: center;
+}
+
+
+.cat h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+red {
+    display: flex;
+}
