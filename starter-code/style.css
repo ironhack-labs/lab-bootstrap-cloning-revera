@@ -1,0 +1,56 @@
+img {
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+    color: white;
+
+
+}
+.hero h2{
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu img {
+    width: 10px;
+    display: ;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.flex-container img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    justify-items: first baseline;
+    padding: 30px;
+    justify-content: space-between;
+}
+
