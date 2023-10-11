@@ -1,0 +1,149 @@
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo-img {
+    width: 70px;
+}
+
+header {
+    position: absolute;
+    background-color: white;
+    left: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.hero {
+    background-image: url(../starter-code/img/slider-1.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+list {
+    text-decoration: none;
+}
+
+.red-link {
+    color: red
+}
+
+.h-element {
+    color: black;
+}
+
+nav li a {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.red-link {
+    color: red;
+}
+
+.nav-bar {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+
+.svg img {
+    stroke: white;
+    width: 30px;
+}
+
+.red-section {
+    background-color: red;
+    color: white;
+    padding-top: 50px;
+}
+
+.intro {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.intro p {
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+h6 {
+    font-weight: 600;
+}
+
+.articles p {
+    margin-bottom: 50px;
+}
+
+.dotted {
+    text-decoration: underline dotted;
+}
+
+footer {
+    color: white;
+    background-color: grey;
+    padding-top: 30px;
+}
+
+.container-abs {
+    position: relative;
+    height: 100vh;
+    /* Asegúrate de que el contenedor ocupe todo el alto de la pantalla */
+}
+
+.button-left {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.button-right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.button {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 2px 6px;
+    color: #333;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+.bt-org {
+    position: relative;
+
+}
