@@ -1,0 +1,147 @@
+img {
+    width: 100%;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+.latest-projects {
+    margin-top: 38px;
+    font-weight: bold;
+}
+
+.latest-projects h5 {
+    color: grey;
+    border-bottom: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+.latest-projects h6 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.latest-articles {
+    margin-top: 38px;
+    padding: 3%;
+    justify-content: center;
+}
+
+.latest-articles h5 {
+    color: grey;
+    border-bottom: 2px solid grey;
+    margin-bottom: 10px;
+
+}
+
+.latest-articles h6 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.red-container {
+    background-color: #ED564B;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    color: white;
+}
+
+.red-container img {
+
+    width: 100px;
+}
+
+.hero {
+    background-image: url('../img/slider-1.jpg');
+    text-align: center;
+    filter: grayscale(100);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo nav ul li {
+    margin-right: 35px;
+    display: inline;
+    font-size: 12px;
+    color: grey;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 8%;
+}
+
+
+footer {
+    background-color: #3B3B3B;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: grey;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer h6 {
+    color: aliceblue;
+}
+
+footer ul {
+    text-align: start;
+    padding-left: 0px;
+    list-style-type: none;
+
+}
+
+footer ul li {
+    text-align: left;
+    line-height: 20px;
+    border-bottom: 1px dotted;
+
+}
+
+
+.dark-footer {
+    background-color: #292929;
+    color: white;
+
+
+}
+
+/*
+.menu {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px
+}
+
+.menu li {
+
+}
+
+.logo {
+    font-weight: bold;
+    ;
+
+}
