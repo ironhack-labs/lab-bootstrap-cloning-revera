@@ -1,0 +1,84 @@
+img {
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.button{
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.button-load{
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+.menu a{
+  font-weight: bold;
+  font-size: 36px;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  list-style: none;
+  margin-right: 10px;
+  color: gray;
+}
+.hero {
+  background-image: url("../img/slider-1.jpg");
+  background-size: cover;
+  padding: 240px;
+  text-align: center;
+  color: white;
+}
+
+section h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-top {
+  background-color: rgb(187, 47, 75);
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 50px 300px;
+}
+
+.section-top h3{
+  font-weight: bolder;
+}
+
+.section-mid {
+  margin-top: 50px;
+}
+.section-uppercase {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+}
+
+.section-bottom {
+  margin-top: 50px;
+}
+
+footer {
+  color: white;
+}
+
+.footer-top {
+  background-color: gray;
+  text-align: left;
+  padding: 50px 300px;
+}
+
+.footer-bottom {
+  background-color: black;
+  text-align: left;
+}
