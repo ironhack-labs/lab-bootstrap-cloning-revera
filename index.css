@@ -30,7 +30,7 @@ header ul li {
 }
 
 .catsleep {
-    background-image: url("https://www.sonrisasdegato.com/wp-content/uploads/2017/11/gato-en-blanco-y-negro.jpg");
+    background-image: url("./starter-code/img/slider-1.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
