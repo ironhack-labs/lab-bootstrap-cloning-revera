@@ -1,0 +1,104 @@
+img {
+    width: 100px;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+menu li {
+    margin-right: 10px;
+
+
+}
+
+.menu {
+    display: flex;
+    content: center;
+
+}
+
+
+.cabezaizquierda {
+    text-transform: uppercase
+}
+
+.cabeceraderecha {
+    display: flex justify-content: flex
+}
+
+.hero {
+    background-image: url('./img/project-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.herotext {
+    color: white;
+}
+
+
+.conteineruno {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: red;
+    align-items: center
+}
+
+p .containerdos {
+    align-items: center
+}
+
+.containertres {
+    align-items: center
+}
+
+.conteinercuatro {
+    background-color: rgb(53, 49, 49);
+
+
+}
+
+.conteinercuatro p {
+    color: white
+}
+
+.conteinercuatro h3 {
+    color: white;
+    ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+.row {
+    margin: 10px 0;
+    display: flex;
+    text-align: center;
+}
+
+.row [class='col'] {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.row,
+p {
+    color: black;
+}
+
+
+
+@media screen and (max-width:1050px) {}
