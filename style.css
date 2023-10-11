@@ -1,0 +1,138 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px auto;
+    align-items: center;
+}
+
+.menu nav {
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+
+}
+
+
+.menu li a {
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 20px 40px;
+    color: white;
+    margin: 45 px;
+}
+
+.hero {
+    background-image: url(./starter-code/img/slider-1.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+    text-align: center;
+    padding: 120px 200px;
+    color: white;
+
+}
+
+.hero p {
+    margin-bottom: 40px;
+}
+
+.logoSectionBig {
+    background-color: rgb(152, 74, 74);
+    color: white;
+    border-top: 20px thick red;
+    border-bottom: 20px thick red;
+}
+
+.logoSection {
+    text-align: center;
+    margin: 40px;
+}
+
+.logoSection img {
+    height: 100px;
+}
+
+.latest1 h1,
+.latest2 h1 {
+    font-size: 30px;
+    color: rgb(40, 37, 37);
+    margin-top: 40px;
+}
+
+.latest1 h2,
+.latest2 h2 {
+    font-size: 20px;
+    border-bottom: 4px thick blue;
+    margin: 20px auto;
+}
+
+.latest1 p {
+    text-align: center;
+}
+
+.latest2 p {
+    text-align: center;
+}
+
+.latestSect h3 {
+    font-size: 15px;
+}
+
+.latestSect h4 {
+    font-size: 10px;
+}
+
+span {
+    color: red;
+}
+
+footer {
+    background-color: rgb(69, 73, 73);
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    text-align: start;
+    line-height: 10 px;
+    padding-left: 0px;
+}
+
+footer a {
+    color: white;
+}
+
+.bottomSec {
+    text-align: left;
+}
+
+.dotUnder {
+    line-height: 40px;
+    border-bottom: 1px dotted;
+    text-align: left;
+    width: 100%;
+
+}
+
+
+
+.dotUnder a {
+    text-decoration-line: none;
+}
