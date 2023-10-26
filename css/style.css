@@ -1,0 +1,149 @@
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 20px;
+}
+
+.navbar .chosen{
+    color: #d84747;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #9b9797;
+}
+
+.hero{
+    background-image: url("../starter-code/img/slider-1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    filter: grayscale(1);
+}
+
+.hero .btn{
+    color: #fff;
+    display: block;
+    width: 200px;
+    text-transform: uppercase;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.skills-section{
+    background-color: #d84747;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.skills-section article{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.skills-section img{
+    height: 100px;
+    filter: invert(1);
+}
+
+.skills-section h3{
+    padding-top: 10px;
+}
+
+.portfolio-section{
+    padding: 100px 0;
+    
+}
+
+.articles-section{
+    padding-bottom: 50px;
+}
+
+.articles-section h6, .portfolio-section h6{
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #9b9797;
+    font-size: 1em;
+}
+
+.articles-section h3, .portfolio-section h3{
+    text-transform: uppercase;
+    font-size: 2em;
+} 
+
+.articles-section h4{
+    font-size: 1.2em;
+}
+
+.articles-section .col-md-3>h6{
+    font-size: 0.7em;
+}
+
+.articles-section h6>a{
+    color: #d84747;
+    text-decoration: none;
+}
+
+footer .first-footer{
+    background-color: #414040;
+    color: #fff;
+    padding: 100px 0;
+    border-top: 10px solid #d84747 ;
+}
+
+footer .first-footer a{
+    color: #9b9797;
+    text-decoration: none;
+}
+
+footer .first-footer li{
+    border-bottom: 0.5px dashed #9b9797;
+}
+
+footer .first-footer h3{
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+footer .final-footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0 10px 0;
+}
+
