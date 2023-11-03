@@ -1,0 +1,130 @@
+*/ body {
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    background-color: white;
+}
+
+.ul {
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+.main {
+    text-align: center;
+    padding: 100px 0;
+
+
+}
+
+.flexcontainer {
+    justify-content: center;
+    align-items: center;
+    background-image: url(/starter-code/img/slider-1.jpg);
+    background-repeat: no-repeat;
+    padding: 150px;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+.tablecontainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+.boxcontainer {
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(211, 58, 55);
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    padding: 100px;
+
+
+}
+
+.foot {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    background-color: black;
+    color: beige;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+}
+
+
+a.bottom {
+    border: 1px solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    margin: 150px;
+    padding: 30px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+}
+
+.menu h1 {
+    text-align: start;
+    padding-left: 50px;
+
+}
+
+.il menu {
+    justify-content: space-between;
+    text-align: end;
+    padding-left: 500px;
+}
+
+.p {
+    text-align: center;
+}
+
+.menu a {
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+.bigcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.features h3 {
+    color: black;
+    text-transform: uppercase;
+}
