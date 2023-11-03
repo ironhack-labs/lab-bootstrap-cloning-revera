@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
     <header>
         <div class="row">
             <div class="site-branding col-sm-4">
-                <h1 class="site-title"></h1>
+                <h1 class="site-title">REVERA</h1>
             </div>
             <div clas="col-sm-8 mainmenu">
                 <div class="mobilenavi"></div>
                 <div class="topmenu">
-                    <ul class="sfmenu sf-js-enabled sf-shadow" style="display: none;">
+                    <ul class="sfmenu sf-js-enabled sf-shadow list-unstyled"  style="display: flex">
                     <li>
                         <a href="">Home</a>
                     </li>
@@ -59,10 +60,46 @@
 
     <div class="flexslider">
         <ul class="slides">
-            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"></li>
-            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"></li>
-            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"></li>
-            <li class="flex-active-slide" style="width: 100%;float: left; margin-right: -100%; position: relative; display: list-item;"></li>
+            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+              <a href="">
+              <img class="grayscale" src="./starter-code/img/slider-1.jpg">
+              </a>
+              <div class="flex-caption">
+                <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                <a href="">READ MORE</a>
+              </div>
+            </li>
+            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+              <a href="">
+              <img class="grayscale" src="./starter-code/img/slider-2.jpg">
+              </a>
+              <div class="flex-caption">
+                <h2>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h2>
+                <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                <a href="">READ MORE</a>
+              </div>
+            </li>
+            <li class style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+              <a href="">
+              <img class="grayscale" src="./starter-code/img/slider-3.jpg">
+              </a>
+              <div class="flex-caption">
+                <h2>SUSPENDISSE ORNARE, FELIS FEUGIAT SUSCIPIT PHARETRA</h2>
+                <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                <a href="">READ MORE</a>
+              </div>
+            </li>
+            <li class="flex-active-slide" style="width: 100%;float: left; margin-right: -100%; position: relative; display: list-item;">
+              <a href="">
+              <img class="grayscale" src="./starter-code/img/slider-4.jpg">
+              </a>
+              <div class="flex-caption">
+                <h2>FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h2>
+                <p>Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+                <a href="">READ MORE</a>
+              </div>
+            </li>
         </ul>
     </div>
 
@@ -74,8 +111,8 @@
                         <i class="glyphicon glyphicon-glass"></i>
                     </span>
                     <h3>Web Design</h3>
-                    <p>
-                        <a href="">Link</a>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius
+                        <a href="#">Link</a>
                     </p>
                 </div>
                 <div class="col-sm-4 homewidget">
@@ -83,13 +120,14 @@
                         <i class="glyphicon glyphicon-star"></i>
                     </span>
                     <h3>Web Development</h3>
-                    <p></p></div>
+                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+                </div>
                 <div class="col-sm-4 homewidget">
                     <span>
                         <i class="glyphicon glyphicon-heart"></i>
                     </span>
                     <h3>User Interface</h3>
-                    <p></p>
+                    <p>Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
                 </div>
             </div>
         </div>
@@ -107,40 +145,41 @@
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/project-1.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Nunc libero elit, iaculis nec augue non</a>
                             </h3>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/project-2.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Phasellus aliquet iaculis neque accumsan aliquam</a>
                             </h3>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
-                                </a></div>
+                                    <img src="./starter-code/img/project-3.jpg">
+                                </a>
+                            </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Vivamus blandit ipsum sed arcu euismod</a>
                             </h3>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/project-4.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Curabitur auctor dolor risus, vitae pellentesque arcu consequat</a>
                             </h3>
                         </div>
                     </div>
@@ -156,11 +195,11 @@
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/slider-1.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
                             </h3>
                             <div class="hometa">
                                 <span class="posted-on">"Posted on"
@@ -168,24 +207,24 @@
                                 </span>
                                 <span class="byline">"By"
                                     <span class="author-card">
-                                        <a href=""></a>
+                                        <a href="">ADMIN</a>
                                     </span>
                                 </span>
                             </div>
-                            <p></p>
+                            <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/slider-3.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Falauris sollicitudin quis dolor venenatis facilisis</a>
                             </h3>
                             <div class="hometa">
                                 <span class="posted-on">"Posted on"
-                                    <a href=""></a>
+                                    <a href="">ADMIN</a>
                                 </span>
                                 <span class="byline">"By"
                                     <span class="author-card">
@@ -193,16 +232,16 @@
                                     </span>
                                 </span>
                             </div>
-                            <p></p>
+                            <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/slider-4.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Suspendisse ornare, felis feugiat suscipit pharetra</a>
                             </h3>
                             <div class="hometa">
                                 <span class="posted-on">"Posted on"
@@ -210,24 +249,24 @@
                                 </span>
                                 <span class="byline">"By"
                                     <span class="author-card">
-                                        <a href=""></a>
+                                        <a href="">ADMIN</a>
                                     </span>
                                 </span>
                             </div>
-                            <p></p>
+                            <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
                         </div>
                         <div class="col-sm-3 col-6 portbox">
                             <div class="htumb">
                                 <a href="">
-                                    <img>
+                                    <img src="./starter-code/img/slider-2.jpg">
                                 </a>
                             </div>
                             <h3>
-                                <a href=""></a>
+                                <a href="">Festibulum purus odio, ornare non posuere</a>
                             </h3>
                             <div class="hometa">
                                 <span class="posted-on">"Posted on"
-                                    <a href=""></a>
+                                    <a href="">ADMIN</a>
                                 </span>
                                 <span class="byline">"By"
                                     <span class="author-card">
@@ -235,7 +274,7 @@
                                     </span>
                                 </span>
                             </div>
-                            <p></p>
+                            <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
                         </div>
                     </div>
                 </div>
@@ -249,32 +288,32 @@
                 <div class="botwid col-6 col-lg-3 widget_text">
                     <h3 class="bothead">Revera</h3>
                     <div class="textwidget">
-                        <p></p>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
                     </div>
                 </div>
                 <div class="botwid col-6 col-lg-3 widget_meta">
                     <h3 class="bothead">Meta</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="list-unstyled">
+                        <li>Log in</li>
+                        <li>Entries RSS</li>
+                        <li>Comments RSS</li>
+                        <li>WordPress.org</li>
                     </ul>
                 </div>
                 <div class="botwid col-6 col-lg-3 widget_archive">
                     <h3 class="bothead">Archives</h3>
-                    <ul>
-                        <li></li>
+                    <ul class="list-unstyled">
+                        <li>August 2013</li>
                     </ul>
                 </div>
                 <div class="botwid col-6 col-lg-3 widget_recent_entries">
                     <h3 class="bothead">Recent Posts</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="list-unstyled">
+                        <li>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</li>
+                        <li>Nunc libero elit, iaculis nec augue non</li>
+                        <li>Falauris sollicitudin quis dolor venenatis facilisis</li>
+                        <li>Phasellus aliquet iaculis neque accumsan aliquam</li>
+                        <li>Vivamus blandit ipsum sed arcu euismod</li>
                     </ul>
                 </div>
             </div>
