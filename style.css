@@ -1,0 +1,102 @@
+h1{
+    font-weight: 800;
+}
+
+img {
+    width: 100%;
+}
+
+.menu-nav ul {
+    list-style: none;
+}
+
+.menu-nav ul li {
+    margin-right: 5px;
+    font-size: 10px;
+    width: 120%;
+    padding: 12px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.read-more {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.description-service {
+    background-color: #ed554b;
+    color: white;
+    align-items: center;
+    padding: 100px 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.description-service img {
+    width: 30%;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.latest-projects {
+    padding-top: 30px;
+
+}
+
+p {
+    font-size: 13px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.latest-articles {
+    padding-top: 25px;
+    margin-bottom: 3px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3b3b3b;
+    border-top: 5px solid #ed554b;
+    padding-top: 20px;
+}
+
+.white {
+    color: rgb(100, 100, 100);
+}
+
+hr {
+    color: rgb(109, 109, 109);
+}
