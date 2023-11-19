@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.sfmenu li  {
+   padding: 15px;
+   margin-top: 20px;
+}
+
+.sfmenu a {
+    color: black;
+}
+
+.site-title {
+    margin-top: 20px;
+    padding-left: 100px;  
+}
+
+.home {
+    color: red;
+}
+
+.boxitems img {
+    width: 300px;
+}
+
+.background {
+    background-color:rgb(62, 61, 61);
+    color: white;
+}
+
+.site-footer {
+    background-color: rgb(37, 36, 36);
+    padding: 25px;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.red {
+    background-color: rgb(220, 58, 58);
+    padding: 3px;
+}
