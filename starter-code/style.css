@@ -1,0 +1,64 @@
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.carousel-caption {
+  bottom: 0;
+  text-align: center;
+}
+
+.read-more-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-item img {
+  filter: grayscale(100%);
+}
+
+.carousel-item p {
+  font-size: 25px;
+}
+
+.orange-section {
+  background-color: #df5d5d;
+  padding: 40px;
+}
+
+.column-content {
+  color: #fff;
+}
+
+.projects-section {
+  padding: 50px 0;
+}
+
+.column-content {
+  text-align: center;
+}
+
+.column-content img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.dark-gray-section {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.column-content {
+  margin-bottom: 20px;
+}
+
+.list li {
+  list-style: none;
+}
+
+.darker-gray-section {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
