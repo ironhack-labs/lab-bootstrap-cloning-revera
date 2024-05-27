@@ -1,0 +1,34 @@
+
+.lab {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: white;
+  height: 70px;
+}
+
+.nav {
+  background: black;
+  height: 400px;
+}
+
+.menu {
+  background: red;
+  height: 300px;
+}
+
+.content {
+  background: white;
+  height: 800px;
+}
+
+.foot {
+  background: black;
+  height: 300px;
+}
+
+.footer {
+  background: grey;
+  height: 70px;
+}
