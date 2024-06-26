@@ -1,0 +1,105 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.site-header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.site-title a {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #d9534f;
+    background-color: transparent;
+}
+
+.jumbotron {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .lead {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .btn-primary {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+.hthumb img {
+    width: 100%;
+    height: auto;
+}
+
+.fwidgets .homewidget {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fwidgets .homewidget h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.portbox,
+.postbox {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portbox h3,
+.postbox h3 {
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
+
+.postbox .hometa {
+    margin: 10px 0;
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.site-footer .fcred {
+    margin: 0;
+    color: #999;
+}
