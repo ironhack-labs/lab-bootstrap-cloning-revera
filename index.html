@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .grayscale {
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-uppercase m-0">Revera</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sample Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Parent Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container my-4">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                    src="./starter-code/img/slider-1.jpg"
+                    class="d-block w-100 grayscale"
+                    alt="Slider 1"
+                    style="filter: grayscale(100%)"
+                  />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h5>
+                        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                    src="./starter-code/img/slider-2.jpg"
+                    class="d-block w-100 grayscale"
+                    alt="Slider 2"
+                    style="filter: grayscale(100%)"
+                  />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […].</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                    src="./starter-code/img/slider-3.jpg"
+                    class="d-block w-100 grayscale"
+                    alt="Slider 3"
+                    style="filter: grayscale(100%)"
+                  />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […].</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                    src="./starter-code/img/slider-4.jpg"
+                    class="d-block w-100 grayscale"
+                    alt="Slider 4"
+                    style="filter: grayscale(100%)"
+                  />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>FALAURIS SOLLICITUDIN QUIS DOLOR VENENATIS FACILISIS</h5>
+                        <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […].</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container my-4">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="p-3 bg-danger text-white rounded">
+                    <i class="bi bi-cup"></i>
+                    <h3>Web Design</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-danger text-white rounded">
+                    <i class="bi bi-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 bg-danger text-white rounded">
+                    <i class="bi bi-heart"></i>
+                    <h3>User Interface</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4">
+        <h2>LATEST PROJECTS</h2>
+        <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./starter-code/img/project-1.jpg" class="img-fluid" alt="Project 1">
+                <p>Nunc libero elit, iaculis nec augue non</p>
+                </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/project-2.jpg" class="img-fluid" alt="Project 2">
+                <p>Phasellus aliquet iaculis neque accumsan aliquam</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/project-3.jpg" class="img-fluid" alt="Project 3">
+                <p>Vivamus blandit ipsum sed arcu euismod</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/project-4.jpg" class="img-fluid" alt="Project 4">
+                <p>risus, vitae pellentesque arcu consequat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4">
+        <h2>LATEST ARTICLES</h2>
+        <p>LATEST POSTS FROM THE BLOG</p>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="./starter-code/img/slider-1.jpg" class="img-fluid" alt="Article 1">
+                <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/slider-3.jpg" class="img-fluid" alt="Article 2">
+                <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/slider-4.jpg" class="img-fluid" alt="article 3">
+                <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="./starter-code/img/project-4.jpg" class="img-fluid" alt="Project 4">
+                <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […].</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Revera</h5>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Meta</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Log in</a></li>
+                        <li><a href="#" class="text-white">Entries RSS</a></li>
+                        <li><a href="#" class="text-white">Comments RSS</a></li>
+                        <li><a href="#" class="text-white">WordPress.org</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Recent Posts</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Post Title 1</a></li>
+                        <li><a href="#" class="text-white">Post Title 2</a></li>
+                        <li><a href="#" class="text-white">Post Title 3</a></li>
+                        <li><a href="#" class="text-white">Post Title 4</a></li>
+                        <li><a href="#" class="text-white">Post Title 5</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Archives</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">August 2013</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-4">
+            <p>&copy; 2023 Revera - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
